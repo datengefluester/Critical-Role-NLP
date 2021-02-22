@@ -1,5 +1,5 @@
 ---
-title: "Critical Role"
+title: "Critical Role Subtitles"
 output: rmarkdown::github_document
 ---
   
@@ -10,19 +10,7 @@ knitr::opts_chunk$set(
 ```
 
 
-
-# Packages
-```{r packages, message=FALSE}
-# data manipulation
-library(tidyverse)
-library(dplyr)
-#structure replacement Überhang to Ueberhang etc.
-library(stringr)
-# plots
-library(grid)
-library(ggplot2)
-# package for table
-library(knitr)
-# for reading in SRT files
-library(SRTtools)
-```
+# To Do:
+  - Data cleaning: DONE
+  - Initial Analysis: PENDING
+  - Model Fitting:
