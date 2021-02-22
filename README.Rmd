@@ -1,0 +1,28 @@
+---
+title: "Critical Role"
+output: rmarkdown::github_document
+---
+  
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  fig.path = "output/README_figs/"
+)
+```
+
+
+
+# Packages
+```{r packages, message=FALSE}
+# data manipulation
+library(tidyverse)
+library(dplyr)
+#structure replacement Überhang to Ueberhang etc.
+library(stringr)
+# plots
+library(grid)
+library(ggplot2)
+# package for table
+library(knitr)
+# for reading in SRT files
+library(SRTtools)
+```

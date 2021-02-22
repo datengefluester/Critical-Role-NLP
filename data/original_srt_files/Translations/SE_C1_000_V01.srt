@@ -1,0 +1,1591 @@
+﻿1
+00:00:02,985 --> 00:00:05,247
+MATTHEW MERCER: De största äventyrarna kommer ofta
+
+2
+00:00:05,248 --> 00:00:07,518
+från anspråkslösa bakgrunder.
+
+3
+00:00:07,519 --> 00:00:11,000
+Berättelsen om Vox Machina är en sådan saga.
+
+4
+00:00:12,214 --> 00:00:14,838
+De börjar som en udda grupp legosoldater
+
+5
+00:00:14,839 --> 00:00:18,290
+i träskstaden Stilben, i ett försök
+att få pengarna att gå runt,
+
+6
+00:00:18,291 --> 00:00:21,415
+när en lapp, sökandes efter arbetare
+för dem till Fendril Vas,
+
+7
+00:00:21,416 --> 00:00:24,780
+det rika överhuvudet för ett litet handelsimperium.
+
+8
+00:00:24,781 --> 00:00:27,305
+Anställda för att undersöka den nya konkurrensen is staden
+
+9
+00:00:27,306 --> 00:00:29,767
+vid namn “Myriaden”, leder vägen dem tillslut
+
+10
+00:00:29,768 --> 00:00:32,343
+in i en kammare, med en dimensionsreva,
+
+11
+00:00:32,344 --> 00:00:33,932
+som drar gruppen in i dimensionen
+
+12
+00:00:33,933 --> 00:00:36,074
+tillhörande den dödfödda guden Crysa-Thul.
+
+13
+00:00:37,144 --> 00:00:39,398
+Det visar sig att kontraktet var en täckmantel
+
+14
+00:00:39,399 --> 00:00:43,112
+för att mata gruppen till den
+odöda, fosterlika gudavarelsen.
+
+15
+00:00:43,113 --> 00:00:45,673
+Efter att ha förstört styggelsen
+
+16
+00:00:45,674 --> 00:00:48,663
+återvänder gruppen för att återgälda Fendrils svek
+
+17
+00:00:48,664 --> 00:00:50,341
+med ett blad mot hans hals.
+
+18
+00:00:51,457 --> 00:00:53,937
+VEX’AHLIA: Det går veckor och
+barbaren Grog har inte synts till
+
+19
+00:00:54,435 --> 00:00:57,295
+sedan han plötsligt lämnade staden Westruun.
+
+20
+00:00:57,296 --> 00:00:59,554
+När de reser dit för att leta efter honom möter gruppen
+
+21
+00:00:59,555 --> 00:01:02,382
+hans barndomsvän och deras nya resekamrat-
+
+22
+00:01:02,383 --> 00:01:04,800
+gnomprästen Pike.
+
+23
+00:01:04,811 --> 00:01:06,920
+Grog hade tydligen inte betett sig som vanligt,
+
+24
+00:01:07,067 --> 00:01:09,633
+och hade marscherat iväg ensam genom Brambleskogen
+
+25
+00:01:09,634 --> 00:01:12,429
+mot det olycksbådande berget, Gatshadow.
+
+26
+00:01:13,120 --> 00:01:14,393
+Gruppen följde efter,
+
+27
+00:01:14,394 --> 00:01:17,882
+gjorde sig av med en grupp rånare utmed vägen
+
+28
+00:01:17,883 --> 00:01:20,073
+och tog sig till berget.
+
+29
+00:01:20,487 --> 00:01:23,919
+Djupt därinne stöter de på en övergiven underjordisk stad,
+
+30
+00:01:23,920 --> 00:01:27,725
+och efter ett tag en krypta med
+en mentalt kontrollerad Grog,
+
+31
+00:01:28,016 --> 00:01:30,797
+den återuppväckta kroppen av hans far Strongjaw
+
+32
+00:01:30,798 --> 00:01:34,273
+och en döende besvärjare som försökte
+sig på en ritual för att bli en lich.
+
+33
+00:01:34,759 --> 00:01:36,694
+Våra hjältar dödar besvärjaren,
+
+34
+00:01:36,786 --> 00:01:39,443
+men inte innan han hinner avsluta ritualen
+
+35
+00:01:39,444 --> 00:01:42,897
+och begrava sin livskraft i Grogs bröstkorg.
+
+36
+00:01:42,898 --> 00:01:44,877
+Återvändade till staden för att söka hjälp
+
+37
+00:01:44,878 --> 00:01:47,537
+finner de att få har tillräckligt med kunskap eller kraft
+
+38
+00:01:47,538 --> 00:01:50,095
+för att fastställa hur illa Grogs skada var.
+
+39
+00:01:50,110 --> 00:01:54,700
+Samtidigt börjar rykten om försvunna barn nå gruppens öron.
+
+40
+00:01:55,342 --> 00:01:57,884
+Medans de begrundar allt detta på en lokal pub
+
+41
+00:01:57,885 --> 00:02:00,488
+möter gruppen en mystisk alv
+
+42
+00:02:00,489 --> 00:02:02,861
+vid namn Drez Vina som är beredd att betala bra
+
+43
+00:02:02,862 --> 00:02:06,013
+för att gruppen ska infiltrera en ärkebesvärjares torn,
+
+44
+00:02:06,208 --> 00:02:09,762
+och hämta en specifik låda av mässing därifrån.
+
+45
+00:02:10,263 --> 00:02:13,141
+Med hopp om att få tala med denne ärkebesvärjare
+
+46
+00:02:13,142 --> 00:02:16,888
+accepterar gruppen och tar sig igenom
+den ena magiska fällan efter den andra
+
+47
+00:02:16,889 --> 00:02:19,279
+för att nå tornets topp,
+
+48
+00:02:19,280 --> 00:02:22,514
+de bestämmer sig för att inte stjäla
+från ärkebesvärjaren utan istället
+
+49
+00:02:22,515 --> 00:02:24,814
+förhandla med honom för hans hjälp.
+
+50
+00:02:24,815 --> 00:02:28,317
+Tornets väktare, Realmseeker Eskil Ryndarien,
+
+51
+00:02:28,318 --> 00:02:31,723
+går med på att hjälpa dem och sänder
+gruppen för att hämta två föremål
+
+52
+00:02:31,724 --> 00:02:33,951
+han behöver för ritualen:
+
+53
+00:02:33,952 --> 00:02:37,820
+en mardröms skalle och en nymfs hjärta.
+
+54
+00:02:37,821 --> 00:02:41,593
+Han ger dem även en varning: deras
+besegrade fiende är verkligen en lich nu
+
+55
+00:02:41,594 --> 00:02:46,936
+och om endast två veckor kommer han återfödas innuti Grog!
+
+56
+00:02:46,937 --> 00:02:49,118
+De reser norr ut till Umbrakullarna,
+
+57
+00:02:49,119 --> 00:02:52,339
+brottas med en liten kult för att
+döda deras infernaliska budbärare
+
+58
+00:02:52,340 --> 00:02:56,166
+och hans Mardrömsspringare, och finner
+en färsk resekamrat i Percy,
+
+59
+00:02:56,167 --> 00:02:58,771
+nyligen befriad från fångenskap.
+
+60
+00:02:59,242 --> 00:03:02,872
+Från där skyndar sig gruppen söder till Frostweald,
+
+61
+00:03:02,873 --> 00:03:06,310
+en skog höljd i evig vinter.
+
+62
+00:03:06,311 --> 00:03:09,757
+Gruppen slår sig förbi basilisker och finner en enda
+
+63
+00:03:09,758 --> 00:03:15,170
+icke frusen vattensamling där de lurar en
+nymf från hennes dimensionella fristad.
+
+64
+00:03:15,171 --> 00:03:19,264
+De pratar sig ur strid och Grog
+träder in i fristaden med nymfen
+
+65
+00:03:19,996 --> 00:03:24,186
+och återvänder hållandes en juvel,
+en gåva från den vackra varelsen:
+
+66
+00:03:24,187 --> 00:03:26,662
+nymfens "hjärta".
+
+67
+00:03:26,663 --> 00:03:30,492
+VAX'ILDAN: De reser tillbaka till
+ärkebesvärjaren som färdigställer ritualen
+
+68
+00:03:30,493 --> 00:03:33,151
+och lichens livskraft är förstörd i tid,
+
+69
+00:03:33,152 --> 00:03:37,221
+men inte utan lite kvardröjande nekromanti inuti Grog.
+
+70
+00:03:37,842 --> 00:03:41,471
+De är plötsligt konfronterade av den mystiska alven igen,
+
+71
+00:03:41,472 --> 00:03:44,565
+som säger att hans mästare är missnöjd
+med det brutna kontraktet,
+
+72
+00:03:44,830 --> 00:03:48,317
+och kräver att antingen betalar de skulden
+
+73
+00:03:48,318 --> 00:03:52,575
+eller antar ett svårare kontrakt i dess ställe.
+
+74
+00:03:52,576 --> 00:03:56,008
+Gruppen accepterar och ger sig av in i Shade Barrow,
+
+75
+00:03:56,009 --> 00:03:58,543
+en uråldrig druidisk begravningskammare som köptes
+
+76
+00:03:58,544 --> 00:04:02,757
+och renoverade av en excentrisk lord
+som gjorde det till sin egen krypta.
+
+77
+00:04:02,758 --> 00:04:04,653
+Stridandes mot gravhögens invånare
+
+78
+00:04:04,654 --> 00:04:08,871
+lyckas de hitta kryptan... och järngolemen som vaktar den.
+
+79
+00:04:08,872 --> 00:04:12,410
+De lyckas besegra golemen och
+sliter det arkaniska cortexen
+
+80
+00:04:12,411 --> 00:04:17,012
+från dess bröstkorg och återvänder det
+till Drez för att lösa sin skuld.
+
+81
+00:04:17,616 --> 00:04:21,685
+Efter lite R och R möter de den
+renrakade dvärgen Grimthorne
+
+82
+00:04:21,686 --> 00:04:26,035
+som föreslår att gruppen går med i en
+underjordisk stridscirkel i närheten
+
+83
+00:04:26,557 --> 00:04:28,897
+han erbjuder sig till och med att representera dem.
+
+84
+00:04:28,898 --> 00:04:34,625
+Gruppen accepterar och lyckas att vinna!
+
+85
+00:04:34,626 --> 00:04:37,359
+Med högtiden Vinterns kamp på väg
+
+86
+00:04:37,360 --> 00:04:40,274
+är staden full av liv från förberedelserna för en festival,
+
+87
+00:04:40,275 --> 00:04:44,588
+under vilken en mystisk blå kristall är levererad
+
+88
+00:04:44,589 --> 00:04:47,151
+i ärkebesvärjare Eskils namn.
+
+89
+00:04:47,152 --> 00:04:48,512
+Denna kristall detonerar plötsligt
+
+90
+00:04:48,732 --> 00:04:52,202
+och fryser hela Westrunns population i is
+
+91
+00:04:52,203 --> 00:04:56,667
+även om gruppen är skyddade av en
+plötslig allierad på gatan.
+
+92
+00:04:56,668 --> 00:05:00,866
+I en sista arkanisk ansträngning, har
+en mystisk handelsman vid namn Noja
+
+93
+00:05:00,867 --> 00:05:03,937
+lyckats att skydda gruppen från skada.
+
+94
+00:05:03,938 --> 00:05:08,859
+Och där kristallen förut vilade står nu en blek,
+
+95
+00:05:08,860 --> 00:05:13,171
+naken kvinna med vitt hår och bräcklig kroppsbyggnad.
+
+96
+00:05:13,172 --> 00:05:16,294
+Hon öppnar en portal och kliver igenom, gruppen jagar efter
+
+97
+00:05:16,295 --> 00:05:19,756
+in i vad som verkar vara en isig, frusen värld,
+
+98
+00:05:19,757 --> 00:05:22,454
+kaotisk och elementär i sin natur.
+
+99
+00:05:22,455 --> 00:05:26,186
+De hinner ikapp med kvinnan, som då visar sitt riktiga jag:
+
+100
+00:05:26,187 --> 00:05:28,389
+en stor vit drake.
+
+101
+00:05:29,164 --> 00:05:34,438
+Försvagad av sin förtidiga "återfödelse",
+så lyckas gruppen att besegra henne,
+
+102
+00:05:34,439 --> 00:05:36,377
+och när de återvänder till Westrunn
+
+103
+00:05:36,378 --> 00:05:39,909
+finner de dess invånare fria från sitt isiga fängelse.
+
+104
+00:05:39,910 --> 00:05:42,974
+Med ärkebesvärjare Eskil Ryndarien nu inför rätta
+
+105
+00:05:42,975 --> 00:05:46,552
+för attacken mot Westruun ingriper gruppen
+
+106
+00:05:46,553 --> 00:05:48,527
+och bevisar att han är oskyldig.
+
+107
+00:05:48,528 --> 00:05:52,285
+Som tack använder Eskil sina
+talanger för att undersöka källan
+
+108
+00:05:52,286 --> 00:05:56,983
+av den blå kristall och upptäcker att
+den mäktiga organisationen av tjuvar
+
+109
+00:05:56,984 --> 00:06:00,643
+känd som "The Clasp" var ansvariga för leveransen.
+
+110
+00:06:01,035 --> 00:06:04,717
+Vax, som tidigare varit en medlem av The Clasp
+
+111
+00:06:04,718 --> 00:06:09,264
+vet att huvudhögkvarteret ligger i huvudstaden Emon,
+
+112
+00:06:09,265 --> 00:06:12,270
+och Vox Machina sätter kurs åt väster.
+
+113
+00:06:13,385 --> 00:06:15,741
+PIKE: När de anländer i den spretiga metropolen som är Emon
+
+114
+00:06:15,742 --> 00:06:18,574
+fortsätter gruppen att höra om barn som försvinner,
+
+115
+00:06:19,020 --> 00:06:21,596
+och rapporter om en svarthårig, gyllenögd pojke
+
+116
+00:06:21,597 --> 00:06:24,320
+som blivit deras vän innan de försvinner.
+
+117
+00:06:24,321 --> 00:06:28,246
+Medans de undersöker saken gör de
+ett par enstaka jobb, var av ett
+
+118
+00:06:28,247 --> 00:06:33,590
+överraskande leder dem till Syldor, Vex och Vax fars hem
+
+119
+00:06:33,591 --> 00:06:36,675
+och hans nya fru och barn.
+
+120
+00:06:36,676 --> 00:06:41,022
+Pinsamheter åsido, Syldor är här
+som ambassadör från Syngorn,
+
+121
+00:06:41,023 --> 00:06:43,751
+alvstaden som är deras ursprung, för att hjälp
+
+122
+00:06:43,752 --> 00:06:46,781
+från sovereign Uriel Tal'Dorei.
+
+123
+00:06:46,782 --> 00:06:50,351
+Emellertid, det politiska klimatet i Emon är spänt
+
+124
+00:06:50,352 --> 00:06:52,964
+med ett nyligen misslyckat mordförsök
+på den kungliga familjen
+
+125
+00:06:52,965 --> 00:06:56,852
+som gör Uriel onåbar för tillfället.
+
+126
+00:06:56,853 --> 00:07:00,100
+Syldors kontakt i rådet har nu försvunnit,
+
+127
+00:07:00,101 --> 00:07:02,863
+och hans uppdrag står helt stilla.
+
+128
+00:07:03,265 --> 00:07:06,482
+Han anlitar gruppen för att leta
+efter denna försvunna allierade,
+
+129
+00:07:06,483 --> 00:07:11,570
+Sir Gregory Fince och få hans fokus
+tillbaka mot Syngoriska affärer.
+
+130
+00:07:11,571 --> 00:07:15,617
+Vox Machina finner Sir Gregorys hem mörkt och stilla,
+
+131
+00:07:15,618 --> 00:07:18,947
+vilket driver dem till att infiltrera och undersöka.
+
+132
+00:07:18,948 --> 00:07:22,133
+Därinne upptäcker de en mörk närvaro i huset,
+
+133
+00:07:22,134 --> 00:07:25,519
+som leder dem in i en strid med demoner i källaren.
+
+134
+00:07:25,520 --> 00:07:30,011
+Striden är vunnen, Sir Gregorys torterade kropp är hittade,
+
+135
+00:07:30,012 --> 00:07:35,285
+precis som hans anteckningar om
+"mordförsöket" på Uriel och hans familj.
+
+136
+00:07:35,286 --> 00:07:37,736
+Det verkar som att sedan försöket
+
+137
+00:07:37,737 --> 00:07:40,525
+har kungafamiljen blivit konstig och tillbakadragen,
+
+138
+00:07:40,526 --> 00:07:43,606
+hållit Uriel undan från rådet för det mesta
+
+139
+00:07:43,607 --> 00:07:46,625
+och hans fru kräver nu att hon går på alla möten,
+
+140
+00:07:46,626 --> 00:07:51,917
+viskandes i Sovereigns öra och fnyser åt
+de andra som motsäger sig deras påbud.
+
+141
+00:07:51,918 --> 00:07:57,205
+En General Krieg förhindrade mordförsöket och nämns ofta.
+
+142
+00:07:57,206 --> 00:08:00,800
+Gruppen bestämmer sig för att höra sig för hos honom.
+
+143
+00:08:00,801 --> 00:08:04,721
+På vägen ut ur källaren går halva gruppen i en fälla,
+
+144
+00:08:04,722 --> 00:08:07,385
+och faller ner i en cistern och spolas djupt ner
+
+145
+00:08:07,386 --> 00:08:10,118
+in i ett underjordiskt flodsystem.
+
+146
+00:08:10,119 --> 00:08:15,377
+De fångade gruppmedlemarna-Vex,
+Keyleth, Grog, Tiberius och Percy
+
+147
+00:08:15,378 --> 00:08:20,340
+kommer till vila på en liten ö i
+den stora Crystalalfen sjön,
+
+148
+00:08:20,341 --> 00:08:22,950
+hem till en förskräcklig aboleth!
+
+149
+00:08:22,951 --> 00:08:26,008
+De lyckas nätt och jämnt fly och
+upptäcker tillslut resterna
+
+150
+00:08:26,009 --> 00:08:29,830
+av en uråldrig stad, sedan länge
+kolappsad och en liten hydda
+
+151
+00:08:29,831 --> 00:08:33,513
+som innehåller en smart hagga vid namn Trysta.
+
+152
+00:08:33,514 --> 00:08:37,116
+Tiberius hittar en av sina högt skattade artefakter
+
+153
+00:08:37,117 --> 00:08:40,255
+och gör en farlig deal för att få den.
+
+154
+00:08:40,256 --> 00:08:43,935
+Gruppen köpslår om information om hur man flyr
+
+155
+00:08:43,936 --> 00:08:47,342
+vilken Trysta kommer ge dem... i utbyte mot deras hjälp
+
+156
+00:08:47,343 --> 00:08:52,396
+med att döda en nyligen inflyttad
+invånare som hotar hennes... jobb.
+
+157
+00:08:52,397 --> 00:08:56,520
+Gruppen går med på detta och klättrar ända
+upp till toppen av Crystalfengrottan
+
+158
+00:08:56,521 --> 00:08:59,328
+för att slåss mot en Umberhulk!
+
+159
+00:08:59,329 --> 00:09:02,515
+Striden går nästan åt skogen när
+Grog är kastad från grottans tak
+
+160
+00:09:02,516 --> 00:09:05,804
+och nästan dör när han slår i marken på ön
+
+161
+00:09:05,805 --> 00:09:09,214
+men till slut är vinsten deras.
+
+162
+00:09:09,215 --> 00:09:12,198
+De återvänder och Trysta visar dem en dold trappa
+
+163
+00:09:12,199 --> 00:09:15,332
+som leder ut i Emons kyrkogårdsdistrikt
+
+164
+00:09:15,862 --> 00:09:19,374
+GROG: De andra medlemarna-Vax, Pike och Scanlan
+
+165
+00:09:19,375 --> 00:09:22,975
+ger sig av för att se vart cistern skulle kunna mynna ut.
+
+166
+00:09:22,989 --> 00:09:27,239
+Scanlan ger sig av för att söka
+efter en karta över kloakerna
+
+167
+00:09:27,240 --> 00:09:30,602
+medans Vax och Pike upptäcker att
+de är förföljda genom staden.
+
+168
+00:09:31,129 --> 00:09:33,767
+De leder sina förföljare in i en gränd
+
+169
+00:09:33,768 --> 00:09:36,128
+där de skugglika figurerna attackerar
+
+170
+00:09:36,129 --> 00:09:38,472
+och lyckas tillslut att slå de båda medvetslösa.
+
+171
+00:09:38,760 --> 00:09:42,317
+Vax och Pike vaknar upp inne i The Clasps högkvarter
+
+172
+00:09:42,318 --> 00:09:46,448
+och möter en av deras ledare eller
+Spirlingar, vid namn Modeth.
+
+173
+00:09:47,134 --> 00:09:51,114
+The Clasp hade Sir Gregorys hem under bevakning
+
+174
+00:09:51,115 --> 00:09:52,857
+då dåliga politiska saker
+
+175
+00:09:52,858 --> 00:09:55,896
+kan skapa problem för sättet the Clasp gör affärer på
+
+176
+00:09:56,235 --> 00:09:59,226
+och när våra hjältar sågs lämna huset
+
+177
+00:09:59,227 --> 00:10:02,003
+var de tvugna att bli förhörda.
+
+178
+00:10:02,004 --> 00:10:05,742
+Vax avslöjar hans medlemsskap i the Clasps Westruun bas
+
+179
+00:10:05,743 --> 00:10:11,033
+och Modeth kräver ett test av
+deras färdigheter och avsikter.
+
+180
+00:10:11,034 --> 00:10:14,126
+Pike och Vax är tvungna att slåss
+
+181
+00:10:14,127 --> 00:10:17,692
+med en faskedjad chimera i the Clasps arena.
+
+182
+00:10:17,693 --> 00:10:22,615
+Deras makt visas och besten faller inför deras vapen
+
+183
+00:10:22,616 --> 00:10:25,513
+men Modeth är inte övertygad.
+
+184
+00:10:25,514 --> 00:10:27,727
+Medans de två hålls kvar över natt
+
+185
+00:10:27,728 --> 00:10:30,615
+lyckas de fly från the Clasps lya,
+
+186
+00:10:30,616 --> 00:10:32,332
+de ger sig ut i natten
+
+187
+00:10:32,333 --> 00:10:37,118
+och lyckas hitta resten av gruppen i kyrkogårdsdistriktet.
+
+188
+00:10:37,119 --> 00:10:40,768
+Med vetskapen att deras nästa steg
+är att tala med General Krieg
+
+189
+00:10:40,769 --> 00:10:45,215
+så förfalskar Vax en kallelse med sir Gregorys handstil
+
+190
+00:10:45,653 --> 00:10:50,590
+och gruppen tillåts komma in i det
+nogrant vaktade Cloudtop distriktet,
+
+191
+00:10:50,591 --> 00:10:55,221
+stadens innersta område och hem till Citrine garnisonen
+
+192
+00:10:55,222 --> 00:10:57,630
+så väl som Emons palats.
+
+193
+00:10:57,631 --> 00:11:01,754
+De närmar sig garnisonen och har
+en audiens med General Krieg
+
+194
+00:11:01,755 --> 00:11:04,121
+som verkar trevlig och ganska intreserad
+
+195
+00:11:04,122 --> 00:11:06,646
+när får höra om the Clasps inblandning.
+
+196
+00:11:07,061 --> 00:11:11,792
+Han nämner också svårigheterna med
+att prata med Uriel sedan attacken
+
+197
+00:11:11,793 --> 00:11:14,945
+och är ledsen över Sir Gregorys död
+
+198
+00:11:14,946 --> 00:11:19,576
+men säger att de ska lämna
+undersökningen till tjänstemännen.
+
+199
+00:11:19,577 --> 00:11:22,101
+Vox Machina går sedan till palatset
+
+200
+00:11:22,102 --> 00:11:25,089
+för att försöka prata med Uriel
+
+201
+00:11:25,090 --> 00:11:27,544
+men stoppas från att gå in.
+
+202
+00:11:27,545 --> 00:11:31,196
+De finner en annan person som också hindras från att gå in,
+
+203
+00:11:31,197 --> 00:11:34,456
+en kvinna med gyllene hår och klädd i en tjusig blå klädnad
+
+204
+00:11:34,457 --> 00:11:37,653
+som argt klampar iväg från palatsets dörrar.
+
+205
+00:11:38,006 --> 00:11:41,579
+De startar en konversation med henne och hon visar sig
+
+206
+00:11:41,580 --> 00:11:46,334
+vara Allura Vysoren, en mäktig arkanisk magiker
+
+207
+00:11:46,335 --> 00:11:50,074
+och en medlem av Tal'Doreis råd.
+
+208
+00:11:50,075 --> 00:11:53,307
+De diskuterar det nuvarande läget i palatset,
+
+209
+00:11:53,425 --> 00:11:57,677
+hur Uriel är en god och pålitlig
+man, men att hans handlingar
+
+210
+00:11:57,678 --> 00:12:02,441
+(och kejsarinna Saldas) är väldigt suspekta.
+
+211
+00:12:02,442 --> 00:12:05,890
+Efter att under sju dagar hållits borta från rådskammaren
+
+212
+00:12:05,891 --> 00:12:08,585
+är hon redo att ge upp och ge sig av.
+
+213
+00:12:08,586 --> 00:12:12,837
+Gruppen berättar om sina upptäckter
+och Allura leder dem till sitt torn
+
+214
+00:12:12,838 --> 00:12:17,818
+i distriktet för att fortsätta
+diskutera saken i enskildhet.
+
+215
+00:12:18,536 --> 00:12:21,256
+SCANLAN: Väl där inne sluter Allura och gruppen en allians
+
+216
+00:12:21,257 --> 00:12:25,150
+och Keyleth hjälper henne med att uföra
+en söknings ritual på palatset.
+
+217
+00:12:25,472 --> 00:12:28,895
+Visionen visar att Uriels familj, hans fru,
+
+218
+00:12:28,896 --> 00:12:34,251
+2 döttrar och son alla är under
+influensen av någon demonisk kraft
+
+219
+00:12:34,252 --> 00:12:36,632
+och har förvirrat deras fars sinne
+
+220
+00:12:36,633 --> 00:12:39,806
+och använder honom som talesperson för deras plan.
+
+221
+00:12:39,807 --> 00:12:42,915
+Gruppen bestämmer sig för att besöka the Clasp
+
+222
+00:12:42,916 --> 00:12:45,725
+genom att använda Vax och Pikes kunskap om en ingång
+
+223
+00:12:45,726 --> 00:12:50,018
+och hamnar i en konfrontation med
+Spirling Modeth inne i hans kammare.
+
+224
+00:12:50,019 --> 00:12:53,227
+Striden slutar med Modeths huvud på golvet
+
+225
+00:12:53,228 --> 00:12:56,469
+och fyra mystiska, lysande kristaller han hade,
+
+226
+00:12:56,470 --> 00:12:58,183
+nu stulna av gruppen.
+
+227
+00:12:58,609 --> 00:13:00,611
+De försöker att lämna
+
+228
+00:13:00,612 --> 00:13:03,236
+men möts av en grupp Clasp medlemar
+
+229
+00:13:03,237 --> 00:13:05,834
+och en annan spirling med farligt utseende.
+
+230
+00:13:06,144 --> 00:13:09,583
+Genom Scanlans sluga lögner och tvång
+
+231
+00:13:09,584 --> 00:13:13,862
+tillåts gruppen att ge sig av oskadda
+innan deras gärningar är upptäckta.
+
+232
+00:13:13,863 --> 00:13:17,312
+De återvänder till Alluras torn endast
+för att finna dörren på glänt
+
+233
+00:13:17,313 --> 00:13:20,684
+och inredningen omkringkastad av ett tidigare bråk.
+
+234
+00:13:21,150 --> 00:13:24,387
+De når toppen av tornet och när de undersöker
+
+235
+00:13:24,388 --> 00:13:27,944
+hittar de tecken på bråk med en demonisk kraft
+
+236
+00:13:27,945 --> 00:13:31,031
+och Alluras troligtvis lyckade flykt.
+
+237
+00:13:31,032 --> 00:13:34,474
+Oturligt nog är tornets magiska försvarsmekanism aktiverad
+
+238
+00:13:34,475 --> 00:13:37,433
+och det börjar rasa ihop omkring dem.
+
+239
+00:13:37,660 --> 00:13:42,310
+Genom lite påhittighet och upptäckten av en magisk matta
+
+240
+00:13:42,311 --> 00:13:45,747
+lyckas gruppen att ta sig ut utan att bli krossade inuti
+
+241
+00:13:45,748 --> 00:13:51,162
+Alluras elfenbensmonolit, nu i
+hopklämd till en enda magisk pärla.
+
+242
+00:13:51,163 --> 00:13:54,797
+Våra hjältar lokaliserar och stiger in i General Kriegs hem
+
+243
+00:13:54,798 --> 00:13:57,714
+där de hittar en hjärntvättad tjänare och en dold passage
+
+244
+00:13:57,715 --> 00:14:00,647
+som leder till en teleporteringscirkel.
+
+245
+00:14:00,648 --> 00:14:04,582
+Genom att använda anordningen är de
+transporterade till en avlägsen grotta
+
+246
+00:14:04,583 --> 00:14:07,684
+högt upp i en frost täckt bergskedja
+
+247
+00:14:07,685 --> 00:14:12,702
+och en makalös samling av guld, juveler och fina småsaker.
+
+248
+00:14:12,703 --> 00:14:17,676
+På andra sidan rummet finns 4 glober av
+obsidian plaserade inne i klippan.
+
+249
+00:14:17,677 --> 00:14:22,284
+Nör en är nuddad dyker ett öga upp
+från innuti den svarta kristallen
+
+250
+00:14:22,285 --> 00:14:26,149
+en röst utbryter, kallandes efter en "Brimscythe".
+
+251
+00:14:26,150 --> 00:14:29,410
+Och upptäcker de obekanta personerna, säger
+
+252
+00:14:29,411 --> 00:14:32,362
+"Inkräktare... jag vet era ansikten nu.
+
+253
+00:14:32,363 --> 00:14:36,637
+Han är en idiot och så är du, insekt"
+
+254
+00:14:37,109 --> 00:14:41,855
+Globerna spricker samtidigt och blir blanka.
+
+255
+00:14:41,856 --> 00:14:45,580
+Grog dyker rätt in i guldhögen och raseri-plundrar den
+
+256
+00:14:45,581 --> 00:14:48,269
+men gruppen ankomst verkar fånga uppmärksamheten
+
+257
+00:14:48,270 --> 00:14:51,993
+av General Krieg som dyker upp i teleporteringscirkeln
+
+258
+00:14:52,427 --> 00:14:56,726
+Han fördömer argt gruppen visar sin sanna form,
+
+259
+00:14:56,727 --> 00:15:00,886
+den av en skrämmande blå drake!
+
+260
+00:15:00,887 --> 00:15:04,566
+KEYLETH: Striden är svår och många
+allierade är nästan slukade
+
+261
+00:15:04,567 --> 00:15:07,223
+men tillslut får Vax in ett dödligt slag.
+
+262
+00:15:07,685 --> 00:15:12,795
+Krieg, eller "Brimscythe", krossar som
+en sista attack grottans stödpelar
+
+263
+00:15:12,796 --> 00:15:16,191
+i sina dödsryckningar, vilket får grottan att kollapsa,
+
+264
+00:15:16,192 --> 00:15:19,976
+medans gruppen nätt och jämnt lyckas
+fly via teleporteringscirkeln.
+
+265
+00:15:19,977 --> 00:15:22,995
+När de lämnar Kriegs hem hittar Allura gruppen
+
+266
+00:15:22,996 --> 00:15:26,916
+och varnar dem för att den ondska som livnär sig
+på tronen blir allt säkrare på sig själv.
+
+267
+00:15:26,917 --> 00:15:30,212
+Hon var själv attackerad strax efter
+att sökningen var fullbordad
+
+268
+00:15:30,213 --> 00:15:32,374
+och lyckades nätt och jämnt att fly.
+
+269
+00:15:32,375 --> 00:15:34,757
+När mörka moln börjar täcka himlen över Emon,
+
+270
+00:15:34,758 --> 00:15:37,266
+bestämmer sig gruppen för att det är dags att slå till.
+
+271
+00:15:37,588 --> 00:15:40,691
+Allura hjälper gruppen med att infiltrera palatset
+
+272
+00:15:40,692 --> 00:15:42,854
+och de stormar tronrummet.
+
+273
+00:15:42,855 --> 00:15:46,668
+Uriel sitter på sin tron, omgiven av sin märkliga,
+
+274
+00:15:46,669 --> 00:15:49,890
+besatta familj. Vox Machina attackerar,
+
+275
+00:15:49,891 --> 00:15:53,298
+och lyckas förvisa skuggorna från deras kroppar,
+
+276
+00:15:53,299 --> 00:15:55,269
+men tronen spricker mitt itu
+
+277
+00:15:55,270 --> 00:15:58,055
+när plattformen under glöder med en djupt röd färg,
+
+278
+00:15:58,056 --> 00:16:01,279
+åkallandes varelsen bakom hela planen:
+
+279
+00:16:01,280 --> 00:16:04,376
+en djävulsprins som kallas Juurezel,
+som berättar för gruppen
+
+280
+00:16:04,377 --> 00:16:08,603
+om ett stort krig mellan djävlar och demoner
+som bubblar över till dethär planet,
+
+281
+00:16:08,604 --> 00:16:10,637
+och hotar all skapelse.
+
+282
+00:16:10,875 --> 00:16:12,980
+Han rättfärdigar sina handlingar
+
+283
+00:16:12,981 --> 00:16:15,827
+och pekar ut alla demoniska krafter i staden
+
+284
+00:16:15,828 --> 00:16:18,539
+och berättar för dem om den hemska
+ödeläggelse som kommer ske
+
+285
+00:16:18,540 --> 00:16:20,603
+om gruppen stoppar honom.
+
+286
+00:16:20,604 --> 00:16:24,021
+De tror på honom och Juurezel ber om deras hjälp
+
+287
+00:16:24,022 --> 00:16:26,305
+med att förstöra det demoniska hotet
+
+288
+00:16:26,306 --> 00:16:29,884
+och erbjuder dem en enda önskan om de gör en pakt.
+
+289
+00:16:29,885 --> 00:16:33,431
+Gruppen överlägger och går med på kontraktet.
+
+290
+00:16:33,432 --> 00:16:35,499
+De tänker över vad de justt gått med på
+
+291
+00:16:35,500 --> 00:16:37,545
+och gruppen återvänder till tronrummet
+
+292
+00:16:37,546 --> 00:16:39,794
+och ber att deras önskning uppfylls
+
+293
+00:16:39,795 --> 00:16:42,199
+för att hjälpa dem i deras jakt på demoner.
+
+294
+00:16:42,200 --> 00:16:45,513
+När den kastas önskar gruppen att avbryta deras kontrakt
+
+295
+00:16:45,514 --> 00:16:47,940
+med varelsen och attackerar!
+
+296
+00:16:47,941 --> 00:16:51,145
+Djävulsprinsen avslöjar ilsket sin sanna form,
+
+297
+00:16:51,146 --> 00:16:55,225
+en förskräcklig föräderidemon, en Glabrezu.
+
+298
+00:16:55,226 --> 00:16:59,486
+En lång, dödlig och episk konfontration följer,
+
+299
+00:16:59,487 --> 00:17:03,556
+en som plötsligt kräver gnomprästen Pikes liv.
+
+300
+00:17:03,557 --> 00:17:07,822
+Med hennes död färsk i minnet utdelar
+Vox Machina ett dödande slag,
+
+301
+00:17:07,823 --> 00:17:10,904
+som sänder demonen till dess förstörelse.
+
+302
+00:17:10,905 --> 00:17:14,113
+De tar den kalla kroppen tillhörande deras fallne vän
+
+303
+00:17:14,114 --> 00:17:17,218
+och rusar med henne till ett närliggande
+tempel tillägnat Sarenrae,
+
+304
+00:17:17,219 --> 00:17:19,380
+där man försöker sig på en återupplivings ritual...
+
+305
+00:17:20,377 --> 00:17:22,865
+och lyckas.
+
+306
+00:17:23,985 --> 00:17:27,431
+PERCY: Molnen försvinner, den omedelbara faran över
+
+307
+00:17:27,432 --> 00:17:31,079
+men kungafamiljen ligger på tronrummets golv, katatoniska.
+
+308
+00:17:31,573 --> 00:17:36,945
+En närmare inspektion upptäcks det att deras
+själar saknas och kropparna börjar stänga av
+
+309
+00:17:36,946 --> 00:17:39,187
+Gruppen kommer då ihåg de fyra lysande gloten
+
+310
+00:17:39,188 --> 00:17:42,758
+de tog från The Clasps högkvarter bakom Modeth,
+
+311
+00:17:42,759 --> 00:17:45,726
+nu identifierade som själsburkar,
+
+312
+00:17:45,727 --> 00:17:48,440
+och efter en sträng kväll
+
+313
+00:17:48,441 --> 00:17:52,138
+och alla själarna har återställts till familjen.
+
+314
+00:17:52,139 --> 00:17:55,313
+Det går ett par dagar och Sovereign Uriel Tal'Dorei
+
+315
+00:17:55,314 --> 00:17:57,693
+kallar gruppen till en audiens.
+
+316
+00:17:57,694 --> 00:18:00,156
+Han tackar dem för deras hjältemod
+
+317
+00:18:00,157 --> 00:18:05,216
+och för att ha räddat honom, hans
+familj och troligtvis hela Emon.
+
+318
+00:18:05,217 --> 00:18:08,684
+Som tack erbjuder han dem en plats i Tal'Doreis råd
+
+319
+00:18:08,685 --> 00:18:12,931
+och informerar dem att han planerar att
+arrangera en annan Vinterns kamp fest
+
+320
+00:18:12,932 --> 00:18:15,356
+för att göra upp för de som förstördes i Westruun,
+
+321
+00:18:15,357 --> 00:18:17,503
+och här från mordförsöket
+
+322
+00:18:17,504 --> 00:18:19,654
+där de kommer hyllas som hjältar!
+
+323
+00:18:20,155 --> 00:18:23,014
+Han har också beordrat konstruktionen av en borg för dem,
+
+324
+00:18:23,015 --> 00:18:28,278
+i utkanten av Emon, ett tecken på hans stora tacksamhet.
+
+325
+00:18:28,279 --> 00:18:31,241
+En vecka senare börjar festivalen!
+
+326
+00:18:31,242 --> 00:18:35,395
+Invånarna är alla ute för att möta och fira Vox Machina
+
+327
+00:18:35,396 --> 00:18:37,756
+men under festligheterna
+
+328
+00:18:37,757 --> 00:18:43,050
+märker gruppen att Uriels son Gren
+pratar med ett annat barn,
+
+329
+00:18:43,051 --> 00:18:47,021
+ett med svart hår och gyllene ögon.
+
+330
+00:18:47,022 --> 00:18:49,925
+De skyndar genast dit för att få tag i barnet
+
+331
+00:18:49,926 --> 00:18:52,708
+men han flyr med Uriels son.
+
+332
+00:18:52,709 --> 00:18:55,772
+De jagar efter honom in i en gränd
+
+333
+00:18:55,773 --> 00:18:58,265
+och genom någon sorts portal.
+
+334
+00:18:58,266 --> 00:19:01,499
+Gruppen finner sig på en stor ö
+
+335
+00:19:01,500 --> 00:19:03,912
+som flyter runt i det astronomiska planet,
+
+336
+00:19:03,913 --> 00:19:06,468
+omgivna av en farlig skog av björnbärssnår.
+
+337
+00:19:06,787 --> 00:19:10,669
+De slår sig igenom den och stöter
+tillslut på the gotisk herrgård
+
+338
+00:19:10,670 --> 00:19:13,115
+in mot mitten av landmassan.
+
+339
+00:19:13,116 --> 00:19:16,601
+Därinne tar sig gruppen till det inre biblioteket
+
+340
+00:19:16,602 --> 00:19:18,350
+där flera kidnappade barn
+
+341
+00:19:18,351 --> 00:19:21,448
+håller på och jobbar, nervöst städande.
+
+342
+00:19:21,993 --> 00:19:26,854
+Skräckens kejsare som han kallar sig
+själv reser sig från sin stol
+
+343
+00:19:26,855 --> 00:19:30,147
+illusionen av ett barn bleknar
+till en man i gyllene rustning,
+
+344
+00:19:30,148 --> 00:19:34,469
+långt svart hår och fyra barn fastkedjade
+i nacken vid hans bröstplatta.
+
+345
+00:19:35,276 --> 00:19:37,883
+Han attackerar gruppen med kraftig magi
+
+346
+00:19:37,884 --> 00:19:41,366
+och tankekontrolerar alla hans
+barntjänare till att också attackera.
+
+347
+00:19:41,727 --> 00:19:44,343
+När de slår första slaget innser de
+
+348
+00:19:44,344 --> 00:19:47,463
+att all skada han tar också skadar de fastkedjade barnen,
+
+349
+00:19:47,464 --> 00:19:51,421
+en pojke faller av misstag för Keyleths magi.
+
+350
+00:19:51,422 --> 00:19:55,292
+Tillslut lyckas de förstöra Skräckens kejsare
+
+351
+00:19:55,293 --> 00:20:00,326
+och återvänder till Emon med alla
+försvunna barn, lyckligt återfunna.
+
+352
+00:20:01,197 --> 00:20:04,535
+Sex månader av fred följer medans
+deras nya borg konstrueras,
+
+353
+00:20:04,536 --> 00:20:08,514
+och gruppen sprids av deras separata
+arbeten tills det är klart.
+
+354
+00:20:08,515 --> 00:20:12,335
+När de återvänder värderar de glatt sitt nya hem,
+
+355
+00:20:12,336 --> 00:20:14,780
+och namnger det Gråskalleborgen.
+
+356
+00:20:14,781 --> 00:20:19,510
+De sänder ut jobbannonser, sökandes
+efter vakter och tjänare.
+
+357
+00:20:19,511 --> 00:20:23,399
+Efter en oförberedd uttagning hittar de sina nya anställda.
+
+358
+00:20:24,032 --> 00:20:27,558
+MATTHEW MERCER: Den kvällen får gruppen besök
+
+359
+00:20:27,559 --> 00:20:30,165
+av sin vän magikern Allura Vysoren.
+
+360
+00:20:30,620 --> 00:20:32,986
+Hon äter gärna kvällsmat med gruppen
+
+361
+00:20:32,987 --> 00:20:35,626
+och utbyter berättelser om de senaste månaderna
+
+362
+00:20:35,627 --> 00:20:38,139
+innan hon frågar om hon anställa dem
+
+363
+00:20:38,140 --> 00:20:41,575
+för en sak av stor betydelse.
+
+364
+00:20:41,576 --> 00:20:44,339
+Alluras gamla vän och allierade,
+
+365
+00:20:44,340 --> 00:20:46,885
+Lady Kima av Vord har försvunnit
+
+366
+00:20:46,886 --> 00:20:48,914
+efter ett uppdrag hon fått via en vision från sin gud,
+
+367
+00:20:48,915 --> 00:20:51,245
+platinumdraken Bahamut.
+
+368
+00:20:51,246 --> 00:20:54,102
+Hennes sista brev pratade om en ondska som rotade sig
+
+369
+00:20:54,103 --> 00:20:59,418
+under dvärgastaden Kraghammer och
+Allura oroar sig för hennes säkerhet.
+
+370
+00:20:59,419 --> 00:21:02,096
+Även om Allura själv inte kan gå
+
+371
+00:21:02,097 --> 00:21:05,128
+kan hon skaffa fram de rätta papprena för inträde
+
+372
+00:21:05,129 --> 00:21:10,326
+och skulle betala bra om de kan hitta,
+hjälpa och återvända med Kima.
+
+373
+00:21:10,327 --> 00:21:13,377
+Vox Machina går med på det nya kontraktet
+
+374
+00:21:13,378 --> 00:21:17,694
+och ger sig av mot Kraghammer redan nästa dag.
+
+375
+00:21:17,695 --> 00:21:19,633
+När det gäller resten av deras resa....
+
+376
+00:21:19,839 --> 00:21:23,418
+legenden om Vox Machina håller fortfarnde på att skrivas.
+
