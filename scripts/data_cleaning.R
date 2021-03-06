@@ -2,15 +2,10 @@
 # Packages
 ###############################################################################
 # data manipulation
-library(tidyverse)
+library(tidyr)
 library(dplyr)
 #structure replacement Überhang to Ueberhang etc.
 library(stringr)
-# plots
-library(grid)
-library(ggplot2)
-# package for table
-library(knitr)
 # for reading in SRT files
 library(SRTtools)
 
@@ -18,17 +13,6 @@ library(SRTtools)
 ###############################################################################
 # Read in Data
 ###############################################################################
-
-
-# Note: E031-2,E035-2,E082,E113-1,E113-2 have been run once through
-# error fixing* with Subtitle editor** in Ubuntu 20.04. This is needed as
-# the files contain formatting errors, which renders them unusable for the 
-# following analysis. 
-# The original files are included in the same folder and are named as follows:
-# 'original_C1E031-1_FINAL.srt'
-# * Tools -> Error checking -> Error -> Try to fix all 
-# ** (install via 'sudo apt install subtitleeditor' on ubuntu)
-
 
 # Get a list of all files named in the folder so we can loop over the list
 filenames <- list.files("./data/raw_data", pattern="*.srt", full.names=TRUE)

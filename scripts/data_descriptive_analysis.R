@@ -1,3 +1,18 @@
+
+###############################################################################
+# Packages
+###############################################################################
+# for data preparation 
+library(dplyr)
+library(tidyr)
+library(stringr)
+# for text cleaning
+library(tm)
+# for sentiment data
+library(tidytext)
+# for grade scores
+library(quanteda)
+
 ###############################################################################
 # Get Data
 ###############################################################################
@@ -165,18 +180,18 @@ write.csv(top_words_actor,
 # get grades for each text longer than 5.
 readability <- textstat_readability(
   individual_cast_member$Text,
-  measure=c("Coleman.Liau.grade","Dale.Chall"),
+  measure=c("Coleman.Liau.grade"),
   remove_hyphens = TRUE,
   min_sentence_length = 5,
   max_sentence_length = 10000) %>% 
   as.data.frame() %>% 
-  select(Coleman.Liau.grade,Dale.Chall) %>% 
+  select(Coleman.Liau.grade) %>% 
   bind_cols(individual_cast_member,.)
 
 readability <- readability%>%
   filter(staff != 1) %>% 
   group_by(CR_GUEST) %>% 
-  summarise_at(vars(Coleman.Liau.grade,Dale.Chall), 
+  summarise_at(vars(Coleman.Liau.grade), 
                list(mean), 
                na.rm=TRUE) %>% 
   filter(!is.na(Coleman.Liau.grade))

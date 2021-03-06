@@ -3,7 +3,6 @@
 # TO DO:
 # Corr(Sentiment, #Nat20)
 # Corr(Sentiment, duration combat)
-# Sentiment by: episode, arc, character
 # Check whether an actor was there adds up with other sources; then attendance graph
 ###############################################################################
 
@@ -13,17 +12,16 @@
 ###############################################################################
 # Packages
 ###############################################################################
-library(tidytext)
-library(tidyverse)
-library(textdata)
+# for data preparation 
+library(dplyr)
+library(tidyr)
+# for graphs
+library(ggplot2)
+# for graphs next to each other
 library(ggpubr)
-library(stringr)
-library(wordcloud)
-library(RColorBrewer)  
-library(tm)
+# for the network graph
 library(ggraph)
 library(igraph)
-library(quanteda)
 
 ###############################################################################
 # Plot themes
@@ -74,15 +72,13 @@ attendance <- read.csv(file = './data/data_for_graphs/attendance.csv')
 
 # create graph
 attendance %>% 
-  ggplot(aes(x=reorder(CR_GUEST, percent),y=percent)) + 
+  ggplot(aes(x=reorder(CR_GUEST, episodes),y=episodes)) + 
   geom_bar(stat = "identity", fill ="#1b9e77") + 
   coord_flip() +
   scale_y_continuous(expand = c(0, 0), 
                      position = "right",
-                     limits = c(0, 102),
-                     breaks=c(seq(0, 100, 25)),
-                     labels = c("0"="0","25"="25","50"="50",
-                                "75"="75","100"="100%")) +
+                     breaks=c(0,25,50,50,75,100,115),
+                     limits=c(0,115)) +
   labs(title = "Attendence by Actor",
        subtitle = "Percentage of Episodes, in which an Actor was present",
        caption = "Source: Critical-Role-Subtitles") +
@@ -318,6 +314,41 @@ ggsave("./output/pictures/graphs/heatmap.jpg",width=4, height=3)
 
 sentiment_episodes <- read.csv(file = './data/data_for_graphs/sentiment_episodes.csv')
 
+
+#sentiment_5_words <- function(Measure) {
+#sentiment_episodes %>%
+#    select(Episode, Measure) %>% 
+#    ungroup() %>% 
+#    arrange(Measure) %>% 
+#    slice(1:5)
+#}
+
+
+#top5_bing <- sentiment_5_words("bing_sentiment_mean")
+#top5_bing
+
+#title_name , "Bing et. al."
+#%>% 
+#  ggplot(aes(x = reorder(Episode, bing_sentiment_mean), y = bing_sentiment_mean)) + 
+#  geom_bar(stat = "identity", fill ="#1b9e77") + 
+#  coord_flip() +
+#  scale_y_continuous(expand = c(0, 0), 
+#                     position = "right") +
+#  labs(title = title_name) +
+# bar_chart_theme() + 
+#  theme(plot.title = element_text(size = rel(0.5), hjust=0.5))
+
+
+
+
+
+
+
+
+
+
+
+
 # top 5 bing
 top5_bing <- sentiment_episodes %>%
   ungroup() %>% 
@@ -445,6 +476,7 @@ ggsave("./output/pictures/graphs/sentiment_episodes.jpg",width=4, height=3)
 # read in data
 sentiment_arc <- read.csv(file = './data/data_for_graphs/sentiment_arc.csv')
 
+
 # Bing graph
 bing_arc <- sentiment_arc %>% 
   ggplot(aes(x = reorder(Arc , -Arc_no), y = bing_sentiment_mean)) + 
@@ -455,6 +487,8 @@ bing_arc <- sentiment_arc %>%
   labs(title = "Bing et. al.") +
   bar_chart_theme() + 
   theme(plot.title = element_text(size = rel(0.5), hjust=0.5))
+
+bing_arc
 
 # Afinn graph
 afinn_arc <- sentiment_arc %>% 

@@ -17,15 +17,27 @@ knitr::opts_chunk$set(
   
 ## Data Cleaning:
 ```{r cleaning, eval=FALSE, warning=FALSE}
-# run data cleaning script
+# run script
 source("./scripts/data_cleaning.R", local = knitr::knit_global())
+
+# Note: E031-2,E035-2,E082,E113-1,E113-2 have been run once through
+# error fixing* with Subtitle editor** in Ubuntu 20.04. This is needed as
+# the files contain formatting errors, which renders them unusable for the 
+# following analysis. 
+# The original files are included in the same folder and are named as follows:
+# 'original_C1E031-1_FINAL.srt'
+# * Tools -> Error checking -> Error -> Try to fix all 
+# ** (install via 'sudo apt install subtitleeditor' on ubuntu)
+```  
+
+## Create Data for Visualization
+```{r descriptive_analysis, eval=FALSE, warning=FALSE}
+# run script
+source("./scripts/data_descriptive_analysis.R", local = knitr::knit_global())
 ```  
 
 ## Descriptive Analysis:
 ```{r descriptive_analysis, eval=FALSE, warning=FALSE}
-# create data for visualization
-source("./scripts/data_descriptive_analysis.R", local = knitr::knit_global())
-
 # run script
 source("./scripts/descriptive_analysis.R", local = knitr::knit_global())
 ```  
