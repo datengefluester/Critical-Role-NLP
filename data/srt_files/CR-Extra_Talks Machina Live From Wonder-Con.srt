@@ -1,0 +1,3116 @@
+1
+00:00:10,868 --> 00:00:13,522
+[upbeat music]
+
+2
+00:00:19,358 --> 00:00:31,857
+BRIAN: My people! Welcome to Talks Machina Live at
+WonderCon! Give it up!
+
+3
+00:00:31,857 --> 00:00:36,978
+(cheering)
+
+4
+00:00:36,978 --> 00:00:41,867
+BRIAN: You guys are looking good. If you're
+looking at my haircut and wondering if you
+
+5
+00:00:41,867 --> 00:00:56,119
+accidentally stumbled into the Imagine Dragons
+panel, you did not. The beard is in New York. I am
+
+6
+00:00:56,119 --> 00:01:07,861
+your host for this afternoon, affordable Chris
+Hardwick, the internet's Brian Wayne Foster. Thank
+
+7
+00:01:07,861 --> 00:01:19,227
+you for coming! If you guys have seen Talks
+Machina, you know we like to open the show with a
+
+8
+00:01:19,227 --> 00:01:25,829
+single question. Does anyone know what it is? Are
+we on the internet, Denise?
+
+9
+00:01:25,829 --> 00:01:30,219
+DENISE: No, guys. You know we're pre-taping this
+for Tuesday, right?
+
+10
+00:01:30,219 --> 00:01:36,298
+BRIAN: I know, okay, we are not on the Internet.
+We will be on Tuesday.
+
+11
+00:01:36,298 --> 00:01:38,717
+DENISE: Yeah, uh-huh. That's correct. Uh-huh.
+
+12
+00:01:38,717 --> 00:01:40,816
+BRIAN: I literally just said that, Denise.
+
+13
+00:01:40,816 --> 00:01:42,519
+DENISE: Uh-huh, yeah, correct.
+
+14
+00:01:42,519 --> 00:01:50,589
+BRIAN: Moving on. No. We're going to go over a few
+things really fast while we wait for Sam to get
+
+15
+00:01:50,589 --> 00:01:57,889
+here. I'm just kidding, I'm just kidding. Thank
+you guys for waiting so long out there in line,
+
+16
+00:01:57,889 --> 00:02:04,198
+and for coming to see us. Some of you as far away
+as Finland. Where are my Finland dudes at?
+
+17
+00:02:04,198 --> 00:02:05,649
+AUDIENCE MEMBER: Here!
+
+18
+00:02:05,649 --> 00:02:16,459
+BRIAN: Yes! Woo! The tall guys in the front. This
+panel will air 7:00 Tuesday night in our
+
+19
+00:02:16,459 --> 00:02:22,335
+normal timed slot on Geek &amp; Sundry's Twitch and
+Alpha. 7:00 PM Pacific, if you guys want to watch
+
+20
+00:02:22,335 --> 00:02:29,570
+this. If you're watching it right now, it's
+Tuesday. Hello. I have the night off! I'm at home
+
+21
+00:02:29,570 --> 00:02:37,926
+drinking in the dark! Did you guys get pins when
+you came in? Everybody get pins? We made those
+
+22
+00:02:37,926 --> 00:02:43,389
+specially for you guys, so hope you like them. If
+we see you out and about today, there's also
+
+23
+00:02:43,389 --> 00:02:47,330
+people giving out some pin that says something
+about "Free Denise" or whatever. So those are
+
+24
+00:02:47,330 --> 00:02:52,765
+some special edition ones. My grandfather used to
+tell me, "Brian, a lot of things in this world are
+
+25
+00:02:52,765 --> 00:02:59,810
+"free, and Denise is not one of them." We're going
+to try our best today to keep things as general as
+
+26
+00:02:59,810 --> 00:03:06,404
+possible, but as always, there may be some
+spoilers if you are not all the way caught up on
+
+27
+00:03:06,404 --> 00:03:16,523
+Critical Role, #sorry #blamebrian. And finally, we
+like on Talks Machina for most of the questions to
+
+28
+00:03:16,523 --> 00:03:22,550
+come from you guys. So, halfway through the panel,
+I'm going to let you know to line up at the mics
+
+29
+00:03:22,550 --> 00:03:28,071
+and we'll spend the second half of the panel, you
+guys asking questions. Do me a huge favor, do
+
+30
+00:03:28,071 --> 00:03:32,911
+everyone else a huge favor, please just one
+question. Don't think we're going to have time for
+
+31
+00:03:32,911 --> 00:03:39,670
+individual questions for each of the cast. There's
+still a lot of them for now. Try to limit it to
+
+32
+00:03:39,670 --> 00:03:49,260
+one or two questions. One question for one or two
+cast members, if you will. And now, without
+
+33
+00:03:49,260 --> 00:03:55,918
+further ado, I would like to introduce the cast of
+Critical Role.
+
+34
+00:03:55,918 --> 00:04:00,521
+[dramatic music]
+
+35
+00:04:00,521 --> 00:04:13,430
+BRIAN: Please welcome Travis Willingham!
+
+36
+00:04:13,496 --> 00:04:24,300
+Marisha Ray!
+
+37
+00:04:24,370 --> 00:04:32,259
+Taliesin Jaffe!
+
+38
+00:04:32,330 --> 00:04:40,390
+Sam Riegel!
+
+39
+00:04:40,390 --> 00:04:52,161
+Liam O'Brien!
+
+40
+00:04:52,161 --> 00:05:02,041
+Woo! Laura motherfucking Bailey!
+
+41
+00:05:02,041 --> 00:05:24,129
+And our fearless leader, give it up, Mr. 
+Matthew Mercer! Give it up! My goodness.
+
+42
+00:05:24,129 --> 00:05:27,962
+MATT: That's a lot of people. Hi!
+
+43
+00:05:27,962 --> 00:05:36,711
+SAM: Brian, how's it feel? This is the most people
+that have or ever will see your show!
+
+44
+00:05:36,711 --> 00:05:45,372
+BRIAN: I would have thought it'd be a quarter of
+this. At least after the first week. Speaking of
+
+45
+00:05:45,372 --> 00:05:51,662
+all these beautiful people out here, let's start
+by talking about the community. I'm not going to
+
+46
+00:05:51,662 --> 00:05:58,069
+ask many individual questions, so you guys fight
+over who wants to answer what. Sam, make sure
+
+47
+00:05:58,069 --> 00:06:00,361
+everyone gets a turn, please.
+
+48
+00:06:00,361 --> 00:06:02,751
+SAM: I can sing.
+
+49
+00:06:02,751 --> 00:06:10,026
+BRIAN: Let's hear it. Give us some Britney.
+Yeah, give us a little Britney.
+
+50
+00:06:10,084 --> 00:06:15,085
+SAM: Britney? (singing) You might've been hurt,
+babe. (normal) I don't know, is that Britney?
+
+51
+00:06:15,085 --> 00:06:20,782
+BRIAN: That's perfect. No, that's good. I think
+that's a great place to stop. So between the
+
+52
+00:06:20,782 --> 00:06:25,742
+different portals where Critical Role is
+available, every week a pretty insane amount of
+
+53
+00:06:25,742 --> 00:06:34,422
+people watch the show, unlike mine. I'm joking. I
+said that because Sam said that. You're watching,
+
+54
+00:06:34,422 --> 00:06:40,302
+Mom, and that's all that matters. What's been the
+coolest or most surprising part about the
+
+55
+00:06:40,302 --> 00:06:43,012
+community surrounding this show for you guys?
+
+56
+00:06:43,012 --> 00:06:51,715
+MATT: I'll jump in here and say that an internet
+space that can be a very volatile and opinionated
+
+57
+00:06:51,715 --> 00:06:58,002
+place for people who are passionate, I'm
+perpetually and continually proud that this
+
+58
+00:06:58,002 --> 00:07:02,734
+community has been so open, so accepting, and so
+supportive of each other that it's kind of allowed
+
+59
+00:07:02,734 --> 00:07:08,338
+Critical Role to become so much more than just a
+show. The community itself has become really the
+
+60
+00:07:08,338 --> 00:07:19,319
+driving and most important and magical thing about
+it to me. So that's you guys. We're talking about you!
+
+61
+00:07:19,319 --> 00:07:24,392
+LAURA: Oh, there I am. I've been most surprised by
+all of the sexy-time art.
+
+62
+00:07:24,392 --> 00:07:29,733
+BRIAN: All of the sexy-time art.
+
+63
+00:07:29,733 --> 00:07:32,871
+LAURA: That's really not surprising.
+
+64
+00:07:32,871 --> 00:07:39,512
+SAM: If I may, I've been recently most impressed
+and surprised by the babies that have been named
+
+65
+00:07:39,512 --> 00:07:47,433
+after Liam. Several new babies are out there in
+the world named Liam. I'm just throwing it out
+
+66
+00:07:47,433 --> 00:07:50,563
+there, Sam's a nice name for a boy <i>or</i> a girl!
+
+67
+00:07:50,563 --> 00:07:54,983
+MATT: So is Travis. Boy or girl.
+
+68
+00:07:54,983 --> 00:08:03,323
+LIAM: I like seeing the hundreds of pictures we've
+seen of new games that you guys are playing. A lot
+
+69
+00:08:03,323 --> 00:08:06,751
+of people who watch the show have never played
+D&amp;D, didn't know what it was when they started.
+
+70
+00:08:06,751 --> 00:08:14,367
+We've seen hundreds of photos of people around card 
+tables and dining room tables. It's amazing to see this
+
+71
+00:08:14,393 --> 00:08:19,749
+game that we quietly loved on our own at home,
+spreading the way it is. I mean, it's been around
+
+72
+00:08:19,749 --> 00:08:23,273
+for ages but I feel like it's really kind of
+setting on fire.
+
+73
+00:08:23,273 --> 00:08:29,934
+BRIAN: Heck yeah. So yeah. Hmm.
+
+74
+00:08:29,934 --> 00:08:32,163
+SAM: The golf clap.
+
+75
+00:08:32,163 --> 00:08:35,634
+BRIAN: A lot of people were like, I agree with
+what he said, but I'd like to be gentle about it.
+
+76
+00:08:35,634 --> 00:08:45,794
+So as we're approaching nearly a hundred episodes
+of Critical Role, and let's see, almost probably
+
+77
+00:08:45,794 --> 00:08:49,057
+five years of playing some of these characters?
+
+78
+00:08:49,057 --> 00:08:50,558
+MATT: Yeah.
+
+79
+00:08:50,558 --> 00:08:57,083
+BRIAN: What are the joys and challenges of a game
+versus a show, and how do you not lose one or the
+
+80
+00:08:57,083 --> 00:08:58,913
+other?
+
+81
+00:08:58,913 --> 00:09:01,234
+MATT: Oh man, that's a good question.
+
+82
+00:09:01,234 --> 00:09:03,625
+BRIAN: He's confused by the question immediately.
+
+83
+00:09:03,625 --> 00:09:09,934
+MATT: As far as, like, challenges of both ways,
+when you have a show, especially when it's
+
+84
+00:09:09,934 --> 00:09:15,284
+something that you do privately that's put on
+display, there's a difficulty of, one, waiting for
+
+85
+00:09:15,284 --> 00:09:19,954
+an audience to set it on fire and watch the thing
+you love be burned to the ground. Thankfully that
+
+86
+00:09:19,954 --> 00:09:21,434
+didn't happen!
+
+87
+00:09:21,434 --> 00:09:22,957
+BRIAN: That's my job, Matt.
+
+88
+00:09:22,957 --> 00:09:29,472
+MATT: Not yet. But I think at least, between the
+two, what makes shows like this and other tabletop
+
+89
+00:09:29,472 --> 00:09:33,965
+shows and kind of what internet media is pushing
+for now is people that are open about their
+
+90
+00:09:33,965 --> 00:09:39,536
+passion and are creating it for themselves as well
+as the audience, and not just as content to be
+
+91
+00:09:39,536 --> 00:09:44,864
+consumed. It's an invitation to be part of it, as
+opposed to, "Hope you like this thing I made!" As
+
+92
+00:09:44,864 --> 00:09:48,428
+long as we maintain that, I think we're doing
+okay.
+
+93
+00:09:48,428 --> 00:09:54,636
+TRAVIS: I think we had two solid years of playing,
+so we knew what our game was, we knew who our
+
+94
+00:09:54,636 --> 00:09:59,476
+characters were. We knew how much we hate each
+others' guts and how irreverent we are. We don't
+
+95
+00:09:59,476 --> 00:10:01,293
+give a shit what anybody thinks.
+
+96
+00:10:01,293 --> 00:10:02,906
+MARISHA: Definitely not friends.
+
+97
+00:10:02,906 --> 00:10:04,023
+TRAVIS: Right, that's true.
+
+98
+00:10:04,023 --> 00:10:05,305
+MARISHA: Not based on friends.
+
+99
+00:10:05,305 --> 00:10:10,656
+TRAVIS: Once we got used to the random-ass cameras
+being in the room, we keep doing our thing. Live
+
+100
+00:10:10,656 --> 00:10:13,468
+shows are totally, that's another thing.
+
+101
+00:10:13,583 --> 00:10:15,948
+TALIESIN: That's a whole different thing.
+
+102
+00:10:15,948 --> 00:10:18,008
+TRAVIS: There's a lot of people out there.
+
+103
+00:10:18,039 --> 00:10:25,462
+MARISHA: I know. Yeah, I will say, doing the live
+show when I got the "How do you want to do this?"
+
+104
+00:10:25,462 --> 00:10:33,688
+and the entire audience exploding at Gen Con?
+Definitely one of the top three, maybe four
+
+105
+00:10:33,688 --> 00:10:37,218
+moments of my life. It's insane.
+
+106
+00:10:37,218 --> 00:10:42,628
+MATT: That is one of the weirdest things. Having
+this little phrase that organically started in our
+
+107
+00:10:42,628 --> 00:10:47,593
+game rooms at home, not just on merch, but other
+people in thousands of games use it now. I'm like,
+
+108
+00:10:47,593 --> 00:10:51,091
+it's exciting! I would never have thought that!
+
+109
+00:10:51,091 --> 00:10:53,058
+MARISHA: People have it tattooed on their bodies.
+
+110
+00:10:53,058 --> 00:10:56,929
+MATT: I know, I'm sorry! This was not expected!
+
+111
+00:10:56,929 --> 00:10:59,928
+LAURA: I have it tattooed across my lower back.
+
+112
+00:10:59,928 --> 00:11:01,237
+MATT: You, too?
+
+113
+00:11:01,237 --> 00:11:02,989
+TRAVIS: You do?!
+
+114
+00:11:02,989 --> 00:11:11,138
+LIAM: Sam in a random game at Laura and Travis'
+dining room table, putting his finger here, is now
+
+115
+00:11:11,138 --> 00:11:13,118
+the stuff of legend.
+
+116
+00:11:13,118 --> 00:11:18,160
+SAM: Yeah. But we always did blame Keyleth, even
+at the home game.
+
+117
+00:11:18,160 --> 00:11:20,469
+MATT: Thanks, Keyleth.
+
+118
+00:11:20,469 --> 00:11:22,559
+SAM: We kept that consistent.
+
+119
+00:11:22,559 --> 00:11:33,228
+BRIAN: Before this goes completely off the rails
+in about four minutes, hey, my dad's here, guys. A
+
+120
+00:11:33,228 --> 00:11:41,528
+lot of people recently have been talking about the
+connection between tabletop RPGs and social
+
+121
+00:11:41,528 --> 00:11:48,149
+therapy. Has the show been therapeutic for you
+guys in any way, and if so, you know, in what ways?
+
+122
+00:11:48,149 --> 00:11:50,818
+TRAVIS: I mean, we drink a lot.
+
+123
+00:11:50,818 --> 00:11:56,838
+LIAM: You're going to put it right out there,
+huh?
+
+124
+00:11:56,838 --> 00:12:02,040
+TRAVIS: Water. We drink water a lot.
+
+125
+00:12:02,040 --> 00:12:06,819
+BRIAN: They're too far away to see all the liver
+stains on your face from all of the Goldschläger.
+
+126
+00:12:06,819 --> 00:12:12,655
+TALIESIN: I'll say the game is therapeutic. I
+don't necessarily know if broadcasting it on the
+
+127
+00:12:12,655 --> 00:12:16,379
+internet is therapeutic. But the game is! I work
+things out.
+
+128
+00:12:16,379 --> 00:12:21,791
+MARISHA: Yeah, we work things out from the
+response on the internet from the week before on
+
+129
+00:12:21,791 --> 00:12:24,269
+the game. It's like an ouroboros.
+
+130
+00:12:24,320 --> 00:12:27,924
+TALIESIN: It was a few weeks ago, I was with you,
+and I was like, man, I'm in a mood. Percy's going
+
+131
+00:12:27,924 --> 00:12:35,461
+to do something messed up, man. Argh. I need to put
+it somewhere. I'm going to kill a guy. Somebody
+
+132
+00:12:35,461 --> 00:12:39,721
+yelled at my mom three states away, grr. True
+story.
+
+133
+00:12:39,721 --> 00:12:42,159
+MARISHA: That is true, yeah.
+
+134
+00:12:42,159 --> 00:12:48,080
+LAURA: I think, more than anything, it's the
+getting to hang out with our family every single
+
+135
+00:12:48,080 --> 00:12:54,320
+week, you know? Because getting to hang out with
+you guys always puts me in such a good mood, any
+
+136
+00:12:54,320 --> 00:12:58,978
+time I'm depressed or anything like that, the
+minute we all get together it's so uplifting.
+
+137
+00:12:58,978 --> 00:13:03,501
+Yeah. Wah-wah, cheesy, whatever. But it's true.
+
+138
+00:13:03,501 --> 00:13:09,530
+TALIESIN: It's true though, because we've all done
+theater. There's that family thing that happens in
+
+139
+00:13:09,530 --> 00:13:13,546
+theater, but then there's that pre-show jitter
+that happens with theater. I don't get the
+
+140
+00:13:13,546 --> 00:13:16,667
+pre-show jitter, I just get the family vibe. It's
+really nice.
+
+141
+00:13:16,667 --> 00:13:19,716
+LAURA: I fully get a pre-show jitter. Every time
+I'm on my way to the show, I'm like, I feel like
+
+142
+00:13:19,716 --> 00:13:22,050
+I'm about to do a play that I know none of the
+lines to.
+
+143
+00:13:22,050 --> 00:13:24,800
+BRIAN: That's why you do a bunch of shots first.
+
+144
+00:13:24,800 --> 00:13:30,601
+MATT: Don't even talk about pre-show jitters to
+me, guys. I'm a madman for an hour before every
+
+145
+00:13:30,601 --> 00:13:35,032
+cast. You guys see me, I don't even talk to them.
+They come by like, hey Matt! I'm like, go away,
+
+146
+00:13:35,032 --> 00:13:36,928
+I'm setting things up.
+
+147
+00:13:36,928 --> 00:13:41,581
+LAURA: And then when Sam wasn't there, just
+recently, we reminded you right before the show,
+
+148
+00:13:41,581 --> 00:13:45,604
+we were like, oh yeah! Sam's not here this week!
+You were like, oh, that's right! And you had to
+
+149
+00:13:45,604 --> 00:13:48,190
+completely play Tary out of the blue.
+
+150
+00:13:48,190 --> 00:13:52,301
+MATT: I was like, okay, cool, that's happening!
+Give me more of that <i>water</i>, Travis!
+
+151
+00:13:52,301 --> 00:13:57,161
+TRAVIS: Yeah, we have rituals for that. All the
+profanities that we throw to you right before we
+
+152
+00:13:57,161 --> 00:13:59,960
+go live? It's our way of going, welcome, Matt!
+
+153
+00:13:59,960 --> 00:14:02,651
+MATT: Yeah, that's a great little dodge and weave
+every week now.
+
+154
+00:14:02,651 --> 00:14:04,301
+LIAM: Born out of love.
+
+155
+00:14:04,301 --> 00:14:13,122
+MARISHA: Some people walk out to the ring with
+hardcore metal music. We shout profanities at our
+
+156
+00:14:13,122 --> 00:14:15,804
+DM. That's what we do to hype ourselves up.
+
+157
+00:14:15,804 --> 00:14:24,031
+MATT: I don't recommend it unless-- be really good
+friends with your DM before you do that, please.
+
+158
+00:14:24,031 --> 00:14:27,972
+That's when the boulder appears and crushes your
+character, so be careful.
+
+159
+00:14:27,972 --> 00:14:33,553
+MARISHA: On this entire question about therapy,
+we've only talked about things that people go to
+
+160
+00:14:33,553 --> 00:14:35,391
+therapy about.
+
+161
+00:14:35,391 --> 00:14:39,783
+MATT: But that's also part of therapy! But no, to
+try and tie it back to the question--
+
+162
+00:14:39,783 --> 00:14:41,232
+BRIAN: <i>Please</i>.
+
+163
+00:14:41,232 --> 00:14:43,192
+TRAVIS: No, leave the question alone. It's done.
+
+164
+00:14:43,192 --> 00:14:47,461
+MATT: Well no, I mean, tabletop gaming, there's
+been a lot of studies that speak on the
+
+165
+00:14:47,525 --> 00:14:52,046
+therapeutic benefits of the ability to create a
+persona that is outside of yourself, live in those
+
+166
+00:14:52,046 --> 00:14:58,028
+shoes, and build empathy through that experience.
+I know I owe a lot of who I am today to playing
+
+167
+00:14:58,028 --> 00:15:03,930
+tabletop gaming. Not only this experience forged
+our friendships to be as strong as they are, but
+
+168
+00:15:03,930 --> 00:15:08,440
+it's now gone out and forged all these
+friendships through this community and beyond. You
+
+169
+00:15:08,440 --> 00:15:12,110
+know, there are people I used to game with that I
+still keep in contact to this day from a long time
+
+170
+00:15:12,110 --> 00:15:18,131
+ago. So it's a weird shared bond, like, going
+through a very intense experience together with
+
+171
+00:15:18,131 --> 00:15:23,797
+people, except it's all up here because we're
+crazy. In my eyebrows. Everyone has to go into my
+
+172
+00:15:23,797 --> 00:15:25,681
+eyebrows for the adventure.
+
+173
+00:15:25,681 --> 00:15:29,279
+BRIAN: He stores all the next campaign in those
+eyebrows.
+
+174
+00:15:29,279 --> 00:15:33,165
+MATT: That's what Wildemount is translated to in
+Dwarvish.
+
+175
+00:15:33,165 --> 00:15:39,652
+LIAM: I'll also say, I have one last thing to add.
+Before this show was a show, when it was just a
+
+176
+00:15:39,652 --> 00:15:43,779
+game, oh boy.
+
+177
+00:15:43,779 --> 00:15:45,972
+MATT: Let it happen.
+
+178
+00:15:45,972 --> 00:15:50,676
+LIAM: I, in a very real way, hit rock bottom when
+this was just our game at home. Then I did it
+
+179
+00:15:50,676 --> 00:15:59,520
+again during this show. The people you're seeing
+up here are the closest, outside of my own family,
+
+180
+00:15:59,520 --> 00:16:05,059
+are my family. We're not faking it. We weren't
+cast. These are the closest people in my life.
+
+181
+00:16:05,059 --> 00:16:11,855
+They helped me work through some shit on stage.
+It's one of the greatest gifts in my life.
+
+182
+00:16:11,855 --> 00:16:13,697
+BRIAN: Hell yeah.
+
+183
+00:16:13,697 --> 00:16:17,783
+(cheering)
+
+184
+00:16:17,783 --> 00:16:20,522
+LAURA: That got more than golf claps, Liam!
+Congratulations!
+
+185
+00:16:20,522 --> 00:16:26,715
+SAM: He's sensitive.
+
+186
+00:16:26,715 --> 00:16:36,792
+BRIAN: Even at WonderCon, something for Tumblr.
+Okay. That is all for Tumblr. Hey, where do you
+
+187
+00:16:36,792 --> 00:16:45,923
+guys feel Vox Machina stands in their
+ever-evolving ability to plan and seek varying
+
+188
+00:16:45,923 --> 00:16:48,341
+options? How do you think it's going?
+
+189
+00:16:48,341 --> 00:16:49,943
+LIAM: We are role models!
+
+190
+00:16:49,943 --> 00:16:54,725
+LAURA: We're the worst. Just the worst at
+planning.
+
+191
+00:16:54,725 --> 00:16:56,875
+TRAVIS: Man, we're Seal Team Six, shut up!
+
+192
+00:16:56,875 --> 00:17:01,019
+LAURA: Honestly, that's one of the hardest things
+about knowing that it's being broadcast, because
+
+193
+00:17:01,019 --> 00:17:05,281
+if we were at home and we were going through this
+planning stage, it'd be, okay, well, we're taking
+
+194
+00:17:05,281 --> 00:17:09,229
+our time planning, no big deal. Let's go get some
+snacks while we're doing it.
+
+195
+00:17:09,229 --> 00:17:10,837
+LIAM: Who wants another mimosa?
+
+196
+00:17:10,837 --> 00:17:15,662
+LAURA: Exactly, we'd be drinking mimosas,
+whatever. But on the show, I know that people are
+
+197
+00:17:15,662 --> 00:17:18,787
+probably like, oh my god, just do something
+already!
+
+198
+00:17:18,787 --> 00:17:20,356
+MATT: By "people", you mean Travis?
+
+199
+00:17:20,356 --> 00:17:25,603
+LAURA: Yeah, pretty much. Yeah, I do have that
+smoke rising next to me. I can feel it.
+
+200
+00:17:25,603 --> 00:17:32,622
+MATT: I will say, you guys have gotten better
+recently. I mean, moderately. Incrementally. There
+
+201
+00:17:32,622 --> 00:17:37,171
+has been more planning. There has been more seeing
+alternate options before making a choice. This
+
+202
+00:17:37,171 --> 00:17:42,404
+happened in a recent episode. So you guys are
+stepping, baby steps, in a good direction! Travis
+
+203
+00:17:42,404 --> 00:17:44,267
+is already out, all right. Next question.
+
+204
+00:17:44,267 --> 00:17:49,838
+TALIESIN: No, but there's a fair point, also, to
+say, and I feel like this is true even of my home
+
+205
+00:17:49,838 --> 00:17:55,855
+games that we played before stream, I think of--
+and I know I'm going to get a list of movie
+
+206
+00:17:55,855 --> 00:18:01,387
+titles. You think of your favorite movies and so
+many of them are about making a plan and executing
+
+207
+00:18:01,387 --> 00:18:07,861
+it perfectly, and then everything going fine, and
+like, that's not fun. Chaos is fun! Complete lack
+
+208
+00:18:07,861 --> 00:18:09,558
+of control is fun!
+
+209
+00:18:09,558 --> 00:18:11,631
+TRAVIS: You sounded like the Joker just then. That
+was amazing.
+
+210
+00:18:11,631 --> 00:18:18,861
+LIAM: We all can't wait till Travis has to play a
+19-intelligence general or wizard next campaign.
+
+211
+00:18:18,861 --> 00:18:25,986
+MARISHA: Yeah, if you're not some type of war
+general planning Sun Tzu type of shit next
+
+212
+00:18:25,986 --> 00:18:27,033
+campaign--
+
+213
+00:18:27,033 --> 00:18:28,627
+LAURA: It'll be great. Then we'll all know what to
+do.
+
+214
+00:18:28,627 --> 00:18:37,066
+TRAVIS: I plan to play a pigeon next. I'm going
+down. I'm not going up. Intelligence of six? I'm
+
+215
+00:18:37,066 --> 00:18:38,901
+coming to three.
+
+216
+00:18:38,901 --> 00:18:43,234
+LAURA: He does nothing but drool the whole game.
+
+217
+00:18:43,234 --> 00:18:50,305
+BRIAN: To go with Matt's point about being
+moderately better at it, the reason the panel
+
+218
+00:18:50,305 --> 00:18:54,489
+started late is we were in the back and then the
+security guy said, "The panel's right through that
+
+219
+00:18:54,489 --> 00:18:58,189
+"door." And everybody stopped and went--
+
+220
+00:18:58,189 --> 00:19:00,458
+TRAVIS: Our old nemesis.
+
+221
+00:19:00,458 --> 00:19:10,336
+BRIAN: We've seen one of these before! Matt, tell
+us a little bit, mild, teeny baby mild-sauce
+
+222
+00:19:10,336 --> 00:19:15,327
+spoilers. Tell us a little bit about devil
+contracts and the dangers of the Hells, where Vox
+
+223
+00:19:15,327 --> 00:19:17,436
+Machina currently find themselves.
+
+224
+00:19:17,436 --> 00:19:21,696
+MATT: Well, for those who aren't familiar with the
+difference between devils and demons, in a
+
+225
+00:19:21,696 --> 00:19:28,062
+nutshell, demons are an ancient chaotic force of
+destruction and mayhem. Devils are very organized,
+
+226
+00:19:28,062 --> 00:19:34,526
+tyrannical structure of chaos and mayhem. Recent
+adventures bring them to a very dangerous place,
+
+227
+00:19:34,526 --> 00:19:41,239
+with a lot of large-scale dangers than they're
+used to. They're used to single-target, localized
+
+228
+00:19:41,239 --> 00:19:46,511
+enemies. They've stepped into a territory where
+everything around you for forever is bad. It's
+
+229
+00:19:46,511 --> 00:19:56,353
+been fun to watch them squirm, I'm not going to
+lie. As far as contracts go, that's the bread and
+
+230
+00:19:56,353 --> 00:20:03,470
+butter of the devils' work. That's how they gain
+their influence and power. I was very eager to see
+
+231
+00:20:03,530 --> 00:20:09,821
+what the reaction was when such a contract was
+presented. So, without spoiling anything, I am
+
+232
+00:20:09,821 --> 00:20:17,737
+very proud of my group. From a DM standpoint, not
+for you guys. I absolutely love anything you do
+
+233
+00:20:17,737 --> 00:20:26,414
+that is a poor choice. It fills me with such joy
+and inspiration. But to be fair, in the Nine
+
+234
+00:20:26,414 --> 00:20:31,650
+Hells, there is no real great choice. Everything
+is going to probably end up poorly. So, good
+
+235
+00:20:31,650 --> 00:20:32,741
+luck!
+
+236
+00:20:32,741 --> 00:20:39,513
+BRIAN: Somebody's asking for some Lord Have Mercer
+in the near future.
+
+237
+00:20:39,513 --> 00:20:43,960
+LAURA: I have a question though. If you were good
+in the Nine Hells, if you did something nice,
+
+238
+00:20:43,960 --> 00:20:46,978
+that's actually the equivalent of doing something
+bad?
+
+239
+00:20:46,978 --> 00:20:51,841
+MATT: I mean, it's not that black and white. If
+you did something good, people would be like,
+
+240
+00:20:51,841 --> 00:20:58,043
+why'd you do that? Depending on who it was. We'll
+find out, huh?
+
+241
+00:20:58,043 --> 00:21:00,114
+TRAVIS: We don't plan on doing anything good.
+
+242
+00:21:00,114 --> 00:21:02,925
+MATT: I didn't think so.
+
+243
+00:21:02,925 --> 00:21:05,221
+BRIAN: Or anything well.
+
+244
+00:21:05,221 --> 00:21:15,083
+MARISHA: Is it kind of like a Vegas situation,
+like, what happens in the Nine Hells stays in the
+
+245
+00:21:15,083 --> 00:21:20,785
+Nine Hells? If so, Spring Break '94! Cancun!
+
+246
+00:21:20,785 --> 00:21:23,503
+TRAVIS: Are there brothels in Hell?
+
+247
+00:21:23,503 --> 00:21:28,521
+LAURA: "Are there brothels in hell." Are there
+brothels in Hell?
+
+248
+00:21:28,521 --> 00:21:35,813
+MATT: You know what incubi and succubi are, guys?
+Grog'll maybe find out! Tune in next week!
+
+249
+00:21:35,813 --> 00:21:37,470
+BRIAN: Don't taunt the DM.
+
+250
+00:21:37,470 --> 00:21:41,714
+LAURA: You have to sign a contract in order to
+walk into the brothel.
+
+251
+00:21:41,714 --> 00:21:43,498
+MATT: What could possibly go wrong?
+
+252
+00:21:43,498 --> 00:21:51,430
+BRIAN: Guys, in an orderly fashion, please line up
+for questions if you have them. We will get to
+
+253
+00:21:51,430 --> 00:21:53,745
+them shortly.
+
+254
+00:21:53,745 --> 00:21:55,218
+MATT: Where do they line up?
+
+255
+00:21:55,218 --> 00:22:01,555
+BRIAN: There's a mic in the center here, I see. I
+am blinded (singing) blinded by the light!
+
+256
+00:22:01,555 --> 00:22:16,299
+(normal) Oh, there's a spotlight right there in
+the center! Okay, up next, Sam. How much fun are
+
+257
+00:22:16,299 --> 00:22:20,045
+you having with everything going on right now?
+Because it looks like the answer is a lot.
+
+258
+00:22:20,045 --> 00:22:28,626
+SAM: With my current state of characterization? I
+don't want to spoil. Am I not supposed to spoil
+
+259
+00:22:28,626 --> 00:22:29,831
+things?
+
+260
+00:22:29,831 --> 00:22:32,769
+BRIAN: I don't know, what do you guys think? is
+everyone caught up?
+
+261
+00:22:32,769 --> 00:22:34,968
+AUDIENCE MEMBERS: Yes!
+
+262
+00:22:34,968 --> 00:22:36,770
+BRIAN: Hit them with it, Sam!
+
+263
+00:22:36,770 --> 00:22:44,281
+SAM: Yeah man, so I get to play, unlike everyone
+else on stage, a new character right now. It's so
+
+264
+00:22:44,281 --> 00:22:50,290
+exciting and it's so fun. It was terrifying for
+the first two or three times, as it will be for
+
+265
+00:22:50,290 --> 00:22:57,379
+you all when you all die. But because, like these
+guys said, we've been doing these characters for
+
+266
+00:22:57,379 --> 00:23:05,805
+so long, we know them backwards and forwards, but
+to play a new guy is super weird. It feels like--
+
+267
+00:23:05,805 --> 00:23:13,316
+Well, I was going to say something really dirty
+and I'm not going to. There's a little placard
+
+268
+00:23:13,316 --> 00:23:17,218
+right here that says, "Please be aware that
+members of your audience are underage."
+
+269
+00:23:17,218 --> 00:23:21,663
+BRIAN: I said the F-word in the intro.
+
+270
+00:23:21,663 --> 00:23:32,405
+SAM: Anyway, I feel ham-handed and weird and
+awesome. What am I doing? I don't know! I don't
+
+271
+00:23:32,405 --> 00:23:37,010
+know what I'm doing, oh god! Oh god, it's
+happening, no! Stop it! No, it's very
+
+272
+00:23:37,010 --> 00:23:43,348
+exhilarating, Brian, and I'm having a lot of fun
+with it. I don't know how long it'll last, but I'm
+
+273
+00:23:43,348 --> 00:23:44,885
+riding it.
+
+274
+00:23:44,885 --> 00:23:49,716
+TALIESIN: You've definitely inspired a lot of
+vaguely drunk conversations about what we're going
+
+275
+00:23:49,716 --> 00:23:52,727
+to do next, between a bunch of us. We've started
+talking.
+
+276
+00:23:52,727 --> 00:23:58,920
+LIAM: Lot of ideas. When you made your entrance
+and saw all of our faces, did you feel like you
+
+277
+00:23:58,967 --> 00:24:02,620
+had walked into a seedy tavern on the wrong side
+of town? Like, some guy breaking a bottle and
+
+278
+00:24:02,620 --> 00:24:03,980
+sizing you up?
+
+279
+00:24:03,980 --> 00:24:14,062
+SAM: You guys all had such scorn! Such hatred on
+your faces! I was genuinely scared you would fire
+
+280
+00:24:14,062 --> 00:24:20,532
+me or something. I don't know. No, it was great.
+It made me work harder to try to convince you to
+
+281
+00:24:20,586 --> 00:24:23,488
+let me stick around, and you did. For now.
+
+282
+00:24:23,488 --> 00:24:26,303
+LAURA: And then everything you did, I was like, I
+don't believe it.
+
+283
+00:24:26,303 --> 00:24:33,415
+MARISHA: Laura and I were genuinely pissed at you
+for a good 24 hours. Not cool.
+
+284
+00:24:33,415 --> 00:24:36,072
+SAM: Sorry. I trolled you guys.
+
+285
+00:24:36,072 --> 00:24:37,877
+MARISHA: You totally did.
+
+286
+00:24:37,877 --> 00:24:45,796
+BRIAN: Doesn't that character seem like the kind
+of guy who would have a Chumbawamba tattoo?
+
+287
+00:24:45,894 --> 00:24:50,705
+SAM: For sure, for sure. He was into them long
+before Tubthumping, though.
+
+288
+00:24:50,705 --> 00:24:52,999
+BRIAN: Yeah, that's true.
+
+289
+00:24:52,999 --> 00:24:57,448
+TALIESIN: Britney you don't know, but that, you
+know. Okay. Glad that's making a map right there.
+
+290
+00:24:57,495 --> 00:24:59,478
+BRIAN: So, this question's from me.
+
+291
+00:24:59,478 --> 00:25:01,348
+SAM: It's for you?
+
+292
+00:25:01,348 --> 00:25:09,319
+BRIAN: No, from me, man! Watch my lips when I
+speak! Read my lips! Noelle Stevenson was on the
+
+293
+00:25:09,319 --> 00:25:17,289
+show this week. Special guest star, and will be
+back this week! Now, in almost 100 episodes of
+
+294
+00:25:17,289 --> 00:25:24,036
+Critical Role, there have been many, many guest
+stars. Would you guys say this is the first
+
+295
+00:25:24,036 --> 00:25:25,303
+Noelle?
+
+296
+00:25:25,303 --> 00:25:27,642
+(groaning)
+
+297
+00:25:27,642 --> 00:25:29,511
+TRAVIS: Oh my god. Boo this man!
+
+298
+00:25:29,511 --> 00:25:35,409
+BRIAN: I'm not apologizing. I'm not taking it
+back. Throw your fruit, America. Laura's face is
+
+299
+00:25:35,409 --> 00:25:43,421
+the reason that joke made the cut. I want to hear
+everyone's favorite one-liners from the past 92
+
+300
+00:25:43,421 --> 00:25:44,923
+episodes.
+
+301
+00:25:44,923 --> 00:25:46,363
+LAURA: Our favorite what?
+
+302
+00:25:46,363 --> 00:25:50,611
+BRIAN: Like, pick out your favorite one-liner.
+Rapid-fire them at me.
+
+303
+00:25:50,611 --> 00:25:56,439
+TALIESIN: People legitimately tweet quotes at me,
+and my only reaction is, I said that? When did I
+
+304
+00:25:56,439 --> 00:25:57,908
+say that?
+
+305
+00:25:57,908 --> 00:26:03,192
+MARISHA: Sometimes Matt will read one back and
+I'll be like, that's funny! Who said that? And
+
+306
+00:26:03,192 --> 00:26:05,605
+he'll be like, you did. And I'm like, oh.
+
+307
+00:26:05,605 --> 00:26:07,509
+TALIESIN: I don't even know the context anymore!
+
+308
+00:26:07,509 --> 00:26:08,971
+MARISHA: Yeah, what was I talking about?
+
+309
+00:26:08,971 --> 00:26:12,235
+TRAVIS: "Your secret is safe with my indifference"
+is one.
+
+310
+00:26:12,235 --> 00:26:13,882
+TALIESIN: Thank you, I'm very proud of that one.
+
+311
+00:26:13,882 --> 00:26:16,214
+MARISHA: "Trust me, I have an intelligence of six.
+I know what I'm doing."
+
+312
+00:26:16,214 --> 00:26:23,968
+TALIESIN: I'm going to be a jerk. I can only think
+of one of my own. "Life needs things to live." I'm
+
+313
+00:26:23,968 --> 00:26:30,281
+so glad that has weirdly-- I was so tired. I'm so
+pleased, thank you Sam, that has become a thing. I
+
+314
+00:26:30,281 --> 00:26:32,045
+can never escape it ever again.
+
+315
+00:26:32,045 --> 00:26:33,481
+SAM: It's profound.
+
+316
+00:26:33,481 --> 00:26:36,150
+TALIESIN: Oh, I was so tired.
+
+317
+00:26:36,150 --> 00:26:40,724
+LAURA: Oh man. I liked-- oh, I can't say it,
+because under 18. "In the darkness, I say,
+
+318
+00:26:40,724 --> 00:26:49,706
+"'fuck.'" I liked that one.
+
+319
+00:26:49,706 --> 00:26:55,559
+MATT: I mean technically, it was written, but it
+had a lot of impact, I think. By a good writer.
+
+320
+00:26:55,559 --> 00:27:00,518
+When Patrick Rothfuss wrote the letter to Keyleth,
+the "You passed through fire," I think, was such a
+
+321
+00:27:00,518 --> 00:27:03,822
+wonderful encapsulation of her character arc at
+that time.
+
+322
+00:27:03,822 --> 00:27:05,257
+LIAM: That guy can write!
+
+323
+00:27:05,257 --> 00:27:11,595
+MATT: Yeah! He should do a book! At least, a third
+one. Sorry, Pat!
+
+324
+00:27:11,595 --> 00:27:16,336
+BRIAN: There was one episode, maybe 20 episodes
+ago, where Matt was describing something and he's
+
+325
+00:27:16,336 --> 00:27:23,783
+like, "There's this giant cylinder. It's almost
+wheel-shaped." And Sam goes, "Wheel?" That's like,
+
+326
+00:27:23,783 --> 00:27:30,884
+yes, a wheel-shaped wheel. Why wouldn't I have
+just said, "a wheel"? Okay, last question from me,
+
+327
+00:27:30,884 --> 00:27:36,474
+and then we'll go to the audience. What's
+something about your characters you think will
+
+328
+00:27:36,508 --> 00:27:47,171
+never change, despite what Vox Machina ends up
+going through? Oh god, this guy.
+
+329
+00:27:47,171 --> 00:27:48,386
+TRAVIS: Ale.
+
+330
+00:27:48,386 --> 00:27:50,322
+BRIAN: Yeah, good answer.
+
+331
+00:27:50,322 --> 00:28:01,736
+MARISHA: I mean, she's always going to put her
+foot in her mouth at least once a week.
+
+332
+00:28:01,736 --> 00:28:04,720
+TRAVIS: Get arrested once a year.
+
+333
+00:28:04,720 --> 00:28:13,011
+MARISHA: Yeah. Hopefully, I don't think I ever
+want Keyleth to lose her wonderlust, her
+
+334
+00:28:13,011 --> 00:28:19,154
+excitement for the world and her love for the
+world.
+
+335
+00:28:19,154 --> 00:28:26,094
+TALIESIN: I think the air of superiority may go.
+It may not. But the anger issues, I don't think
+
+336
+00:28:26,094 --> 00:28:30,833
+are ever going away. He'll never stop pretending
+he doesn't have them.
+
+337
+00:28:30,833 --> 00:28:33,106
+LIAM: Is that in character?
+
+338
+00:28:33,106 --> 00:28:38,437
+TALIESIN: (Percy voice) No, yes, of course.
+
+339
+00:28:38,437 --> 00:28:41,941
+SAM: Poop and/or puke.
+
+340
+00:28:41,941 --> 00:28:50,507
+LIAM: Vax will probably always step in front of
+trains if he thinks it will keep the family safe.
+
+341
+00:28:50,507 --> 00:29:06,823
+LAURA: Aww. Urgh. Vex will probably always hold
+grudges. She'll always want to get naked in random
+
+342
+00:29:06,823 --> 00:29:10,727
+situations. And she'll always love Trinket.
+
+343
+00:29:10,727 --> 00:29:16,600
+SAM: And Victor will have less and less digits.
+
+344
+00:29:16,600 --> 00:29:21,337
+MATT: I will always have multiple personality
+disorder. There we go, thank you.
+
+345
+00:29:21,337 --> 00:29:28,138
+BRIAN: Who is up first at the mic with the
+spotlight on it?
+
+346
+00:29:28,138 --> 00:29:29,618
+LAURA: In the Pikelight!
+
+347
+00:29:29,618 --> 00:29:30,818
+BRIAN: Hello!
+
+348
+00:29:30,818 --> 00:29:32,921
+SAM: Hey, Loot Crate shirt!
+
+349
+00:29:32,921 --> 00:29:39,893
+AUDIENCE MEMBER: So, my question is for Marisha,
+Taliesin, and Sam. Simple, what would you
+
+350
+00:29:39,893 --> 00:29:44,344
+multiclass your character into if you had whatever
+option?
+
+351
+00:29:44,344 --> 00:29:46,198
+TALIESIN: Oh, current character?
+
+352
+00:29:46,198 --> 00:29:47,766
+AUDIENCE MEMBER: Yes, current character.
+
+353
+00:29:47,766 --> 00:29:51,839
+BRIAN: No, the one I'm writing for you for the
+next campaign. I'm writing all your new
+
+354
+00:29:51,839 --> 00:29:53,105
+characters.
+
+355
+00:29:53,105 --> 00:29:54,308
+MARISHA: Barbarian.
+
+356
+00:29:54,308 --> 00:29:55,919
+TALIESIN: Whoa.
+
+357
+00:29:55,919 --> 00:30:02,637
+MARISHA: Yeah. But I'm going for that Archdruid,
+bitches. I want that level 20!
+
+358
+00:30:02,637 --> 00:30:09,342
+TALIESIN: God, probably sorcerer at this point.
+Which I know would be a little weird, but I'd make
+
+359
+00:30:09,342 --> 00:30:13,461
+it work. I'm not going to multiclass, but if he
+did, that's where it would end up.
+
+360
+00:30:13,461 --> 00:30:20,636
+SAM: I mean, I just asked Matt what multiclassing
+is, so. I don't really know how to play Dungeons
+
+361
+00:30:20,636 --> 00:30:25,478
+and Dragons. I don't know, wizard? Is that a
+thing? Is wizard a thing? Okay, great.
+
+362
+00:30:25,478 --> 00:30:29,146
+MATT: Wizard is actually artificer-adjacent, so
+yeah!
+
+363
+00:30:29,146 --> 00:30:30,883
+SAM: Okay, good.
+
+364
+00:30:30,883 --> 00:30:32,986
+LIAM: Yeah, you never play. You've only played 500
+hours.
+
+365
+00:30:32,986 --> 00:30:35,150
+SAM: As one guy! Well, two.
+
+366
+00:30:35,150 --> 00:30:41,461
+MATT: You're a busy man, making Duck Tales and
+shit. It's fine.
+
+367
+00:30:41,461 --> 00:30:45,933
+BRIAN: Thank you. Hey, what's your name?
+
+368
+00:30:45,933 --> 00:30:54,345
+JARED: Hi, I'm Jared. Hi. This question is
+actually for Matt. You are awesome, and I aspire
+
+369
+00:30:54,345 --> 00:30:55,793
+to be a DM like you someday.
+
+370
+00:30:55,793 --> 00:30:58,713
+MATT: You are awesome, and I aspire to be you.
+
+371
+00:30:58,713 --> 00:31:04,540
+JARED: Thank you! So, I have watched your whole
+series on tips for dungeons masters. I was
+
+372
+00:31:04,540 --> 00:31:10,076
+wondering if there was anything else that you had
+to tell any dungeon masters who are up and coming?
+
+373
+00:31:10,076 --> 00:31:15,622
+Also, if maybe you're going to be on the floor to
+sign my Dungeon Master's Guide and bless it so
+
+374
+00:31:15,622 --> 00:31:17,485
+that my campaign goes well?
+
+375
+00:31:17,485 --> 00:31:21,388
+BRIAN: Does that work, Matt? Do you hear from
+people that, if you've blessed a Player's
+
+376
+00:31:21,388 --> 00:31:24,090
+Handbook, that they rule?
+
+377
+00:31:24,090 --> 00:31:28,693
+MATT: Yeah, dice and books before, and you know
+what? I feel guilty if they don't work, and if
+
+378
+00:31:28,693 --> 00:31:38,171
+they work, I'm happy to take credit. But thank
+you. As far as advice goes, my first point of
+
+379
+00:31:38,171 --> 00:31:44,183
+advice would be watch Matt Colville's YouTube
+channel. There's a lot I would like to say, but I
+
+380
+00:31:44,183 --> 00:31:49,383
+don't have the time to get into the nitty-gritty,
+and he has such an incredible way of communicating
+
+381
+00:31:49,383 --> 00:31:54,826
+very elaborate, detailed, and informative
+conversations and discussions on this topic. If
+
+382
+00:31:54,826 --> 00:31:59,130
+you haven't seen his work, check out his videos.
+They're incredible. He's a dear friend and an
+
+383
+00:31:59,130 --> 00:32:06,140
+amazing writer, so check it out. As far as
+blessing your book, I can bless it from here, and
+
+384
+00:32:06,140 --> 00:32:12,980
+if you can hunt me down at some point today, we
+couldn't get a spot to do a signing at this
+
+385
+00:32:12,980 --> 00:32:20,354
+convention, unfortunately. WonderCon was a little
+slammed. But I will send my juju from here.
+
+386
+00:32:20,354 --> 00:32:22,753
+SAM: I'll grab a piece of his hair for you later.
+
+387
+00:32:22,753 --> 00:32:32,463
+BRIAN: Yeah, we can get that cleared with the con
+staff. Who's up next? Step into the light! What's
+
+388
+00:32:32,463 --> 00:32:33,734
+up?
+
+389
+00:32:33,734 --> 00:32:34,971
+MARCUS: Hello!
+
+390
+00:32:34,971 --> 00:32:37,106
+TALIESIN: White Phoenix shirt, very solid. Feeling
+it.
+
+391
+00:32:37,106 --> 00:32:45,599
+MARCUS: I'm Marcus, and my question is to Matt.
+I've noticed a lot of 18s and 19s failing recently
+
+392
+00:32:45,599 --> 00:32:49,053
+while in, where they are. I'm trying to keep
+spoilers out. Is that due to levels scaling, or is
+
+393
+00:32:49,053 --> 00:32:50,419
+it due to where they are?
+
+394
+00:32:50,419 --> 00:33:01,332
+MATT: It's due to the scaling of the entities that
+they're working with, and the situation involved.
+
+395
+00:33:01,332 --> 00:33:07,170
+A DC can be set based on how difficult the
+challenge is. You know, if a person's like, I'm
+
+396
+00:33:07,170 --> 00:33:12,304
+trying to stealth in a shadowy alleyway, that's
+going to be a pretty low DC, but if I'm going to
+
+397
+00:33:12,359 --> 00:33:17,343
+try and stealth while standing on top of this
+lighthouse in broad daylight, it'll probably have
+
+398
+00:33:17,343 --> 00:33:19,582
+a higher DC to roll a proper stealth check.
+
+399
+00:33:19,582 --> 00:33:21,385
+LIAM: I can do it.
+
+400
+00:33:21,385 --> 00:33:28,224
+MATT: He could probably pull it off. So yeah, I
+adjust the DC. If a person's trying to convince
+
+401
+00:33:28,224 --> 00:33:32,656
+somebody and they make a really convincing
+argument, I'll lower the DC for a persuasion roll.
+
+402
+00:33:32,656 --> 00:33:39,201
+If they really bungle it up, then I'll raise it a
+little higher. So yeah, it'll adjust depending. A
+
+403
+00:33:39,201 --> 00:33:45,442
+lot of creatures that work in the place where they
+currently are, you know, the Hells, they thrive on
+
+404
+00:33:45,442 --> 00:33:50,814
+deception and being paranoid. Especially in Dis.
+Dispater, the archdevil of where they are right
+
+405
+00:33:50,814 --> 00:33:55,485
+now, is a very paranoid son of a bitch. That
+nature of always looking to see if your underlings
+
+406
+00:33:55,485 --> 00:34:00,425
+are trying to undermine you means that if you're
+trying to lie, they're going to definitely have a
+
+407
+00:34:00,425 --> 00:34:04,996
+high sense for that and be looking for that as
+well. So yeah. To answer your question, yes. Thank
+
+408
+00:34:04,996 --> 00:34:07,966
+you.
+
+409
+00:34:07,966 --> 00:34:14,240
+BRIAN: Who's up next? I don't know why I said that
+so creepy.
+
+410
+00:34:14,240 --> 00:34:19,595
+EDDIE: You've seen me before. I was at Gen Con. I
+have a question for you guys. Oh, Eddie Freeman,
+
+411
+00:34:19,595 --> 00:34:29,016
+by the way. Freeman. Free man. Eddie Freeman. My
+question for you is, you guys just entered Hell.
+
+412
+00:34:29,016 --> 00:34:36,684
+As your characters, what were your first
+impressions and your second impressions? Of Hell?
+
+413
+00:34:36,684 --> 00:34:44,322
+TRAVIS: Everything's hot and it burns.
+
+414
+00:34:44,322 --> 00:34:48,157
+MARISHA: Kind of reminds us of the City of Brass.
+
+415
+00:34:48,157 --> 00:34:50,529
+TALIESIN: This is fine.
+
+416
+00:34:50,529 --> 00:34:53,303
+TRAVIS: The food is not that bad.
+
+417
+00:34:53,303 --> 00:35:03,442
+MATT: I'm going to call this to the art community.
+Can somebody please do an art piece of Vox Machina
+
+418
+00:35:03,442 --> 00:35:10,963
+sitting in the City of Dis, saying communally,
+"This is fine." Please? Sam.
+
+419
+00:35:10,963 --> 00:35:20,463
+SAM: My guy's been so petrified, terrified, for
+the last, all of their travels together that this
+
+420
+00:35:20,463 --> 00:35:26,135
+is nothing new. I mean, he's at a baseline of
+abject terror all the time.
+
+421
+00:35:26,135 --> 00:35:35,546
+LIAM: Temporarily thinking, one last job. Just one
+last job, until it all fucks up again. Oops,
+
+422
+00:35:35,546 --> 00:35:36,682
+sorry.
+
+423
+00:35:36,682 --> 00:35:39,384
+SAM: Children! It's a Dungeons and Dragons term.
+
+424
+00:35:39,384 --> 00:35:46,158
+LAURA: I think Vex quickly realized that her
+normal tricks aren't working down there, and now
+
+425
+00:35:46,158 --> 00:35:49,939
+she's at a loss. I don't know what the eff I'm
+supposed to say. I don't know, because none of her
+
+426
+00:35:49,939 --> 00:35:53,087
+persuasion was working. It sucks!
+
+427
+00:35:53,087 --> 00:35:55,304
+MATT: Roll higher.
+
+428
+00:35:55,304 --> 00:36:02,619
+LAURA: Oh, it's the dice. It's totally just the
+dice, it's not my bumbling over words.
+
+429
+00:36:02,619 --> 00:36:04,238
+MATT: No, not at all.
+
+430
+00:36:04,238 --> 00:36:09,316
+BRIAN: Okay, it's not the dice, because if two
+thousand people believe one thing and one guy
+
+431
+00:36:09,316 --> 00:36:16,112
+believes another, and he goes, all of you were
+wrong, I think it might be-- It's probably the
+
+432
+00:36:16,112 --> 00:36:22,299
+dice. Who's up next? Thank you, Eddie Freeman.
+Good to see you, man. I love that thing.
+
+433
+00:36:22,299 --> 00:36:26,630
+LAURA: We still have it, yeah! We have, at our
+house, you gave one to Travis before, right?
+
+434
+00:36:26,630 --> 00:36:28,371
+BRIAN: Oh, that's cool. Who's up next?
+
+435
+00:36:28,371 --> 00:36:35,146
+BRENDAN: Hey guys, my name is Brendan. I'm
+flexing, because Travis, you're yoked as hell.
+
+436
+00:36:35,146 --> 00:36:38,417
+LAURA: Oh, you're wearing your Strongjaw shirt!
+
+437
+00:36:38,417 --> 00:36:49,397
+BRENDAN: So, thanks for the flex. Travis, this is
+for you. You're not ashamed of being a fan of
+
+438
+00:36:49,397 --> 00:37:02,550
+Hamilton. Recently, Lin Manuel tweeted that he
+played his first game of D&amp;D. Sorry. Who would you
+
+439
+00:37:02,550 --> 00:37:05,726
+rather have a song of inspiration from, Scanlan or
+Lin Manuel?
+
+440
+00:37:05,726 --> 00:37:15,409
+TRAVIS: Ooh. I would require a rap battle between
+one Scanlan Shorthalt and one Lin Manuel Miranda.
+
+441
+00:37:15,409 --> 00:37:22,848
+To drop some lyrical rhymes! The winner could be
+my inspiration maker.
+
+442
+00:37:22,848 --> 00:37:30,159
+MATT: I will say, now that Lin Manuel has gotten
+himself a little warmed up, I think it's time for
+
+443
+00:37:30,159 --> 00:37:34,422
+him to take another crack at a different D&amp;D
+game.
+
+444
+00:37:34,422 --> 00:37:35,892
+LAURA: That would be amazing.
+
+445
+00:37:35,892 --> 00:37:38,466
+MATT: No, seriously, Lin, please come play with
+us!
+
+446
+00:37:38,466 --> 00:37:48,542
+BRIAN: Get on it, Denise! Who's up next? Hey!
+
+447
+00:37:48,542 --> 00:37:56,451
+AUDIENCE MEMBER: Hello. So, Laura, you
+specifically, this last episode, came in with a
+
+448
+00:37:56,451 --> 00:38:05,260
+slightly different accent. So, not to call you on
+it, but how do you guys in total keep your voices
+
+449
+00:38:05,260 --> 00:38:08,133
+in check? How do you keep your voices in your head
+in check?
+
+450
+00:38:08,133 --> 00:38:14,002
+LAURA: Normally it's not that hard! I came off of
+an eight-hour session of recording as a South
+
+451
+00:38:14,002 --> 00:38:17,902
+African, so it was in my brain, is all.
+
+452
+00:38:17,902 --> 00:38:24,116
+SAM: I don't know how Matt does it. I mean, he
+changes accents within sentences, sometimes.
+
+453
+00:38:24,116 --> 00:38:32,887
+MATT: I had a lot of time alone as a kid. I make
+notes. I have general notes next to certain NPCs
+
+454
+00:38:32,887 --> 00:38:39,466
+of their vocal texture, their age, different
+things to get me Cliffs Notes. I try and ballpark
+
+455
+00:38:39,466 --> 00:38:41,803
+it whenever they show up, or I make something up.
+
+456
+00:38:41,803 --> 00:38:49,294
+SAM: So is it like, age and a descriptor, or is it
+like, this one sounds like Lucky the Leprechaun?
+
+457
+00:38:49,294 --> 00:38:53,680
+MATT: I mean, if there is a celebrity I can
+attribute it to, I'll put that down. Like an Alan
+
+458
+00:38:53,680 --> 00:39:00,729
+Rickman type, or an Orson Welles type. Usually
+it's like, you know, gravelly, low, basically what
+
+459
+00:39:00,729 --> 00:39:04,558
+you'd see in any voice-over side, where it's super
+vague but just enough to get an idea.
+
+460
+00:39:04,558 --> 00:39:09,454
+LIAM: Oh, it must be a weird setlist, like,
+Godfried, Chocolate Rain.
+
+461
+00:39:09,454 --> 00:39:16,055
+MATT: Kind of, yeah. Like most of my notes, it's
+all Sanskrit at this point. It's only for me to
+
+462
+00:39:16,055 --> 00:39:17,543
+read.
+
+463
+00:39:17,543 --> 00:39:20,017
+BRIAN: Who is up next?
+
+464
+00:39:20,017 --> 00:39:24,883
+JARED #2: Hi.
+
+465
+00:39:24,883 --> 00:39:26,523
+BRIAN: What's your name?
+
+466
+00:39:26,523 --> 00:39:32,691
+JARED #2: My name is Jared as well. Hi. This is a
+question for Matt. What's been one of your
+
+467
+00:39:32,691 --> 00:39:37,329
+favorite experiences as a DM in the past couple of
+years, doing Critical Role?
+
+468
+00:39:37,329 --> 00:39:44,741
+MATT: Oh man. I mean, some of my favorite
+experiences as a DM involve having an opportunity
+
+469
+00:39:44,741 --> 00:39:50,579
+to share what little knowledge I have with people,
+and learn things from other DMs. You know, as a
+
+470
+00:39:50,579 --> 00:39:56,252
+community, D&amp;D for a long time was whatever you
+could learn from your local comic shop, and maybe
+
+471
+00:39:56,252 --> 00:40:01,492
+a forum board in the mid-2000s when that became
+more of a thing. So now there's this breadth of
+
+472
+00:40:01,492 --> 00:40:06,470
+information out there, from all these different
+schools of running a game. For me, it's been
+
+473
+00:40:06,470 --> 00:40:10,467
+really cool to learn from other people and try and
+impart what I do know, that's hopefully helpful to
+
+474
+00:40:10,467 --> 00:40:15,040
+other people. That's been a big thing. As far as
+actually playing a game with these guys, I'd say
+
+475
+00:40:15,040 --> 00:40:21,775
+probably the attack on Emon. Having a
+two-and-a-half-year-long plot hook that's been
+
+476
+00:40:21,808 --> 00:40:28,650
+brewing and brewing, and get them into this place
+of comfort and finality, and then smash it all to
+
+477
+00:40:28,650 --> 00:40:32,629
+pieces and watch their faces as everything they
+know crumples around them. That was pretty fun.
+
+478
+00:40:32,629 --> 00:40:41,330
+BRIAN: Who's next? Step on up to the mic!
+
+479
+00:40:41,330 --> 00:40:45,071
+MARISHA: Each person that walks up, it's like a
+reveal. Step into the spotlight!
+
+480
+00:40:45,071 --> 00:40:47,607
+BRIAN: Hi! Hey, what's your name?
+
+481
+00:40:47,607 --> 00:40:54,615
+ANTHONY: Anthony Lopez. So, my question is not
+really specific to anyone, but who would your
+
+482
+00:40:54,615 --> 00:40:57,513
+greatest dream celebrity guest be?
+
+483
+00:40:57,513 --> 00:40:59,017
+MARISHA: Stephen Colbert.
+
+484
+00:40:59,017 --> 00:41:02,561
+LAURA: Oh my god, yes.
+
+485
+00:41:02,561 --> 00:41:05,722
+BRIAN: Scanlan Shorthalt.
+
+486
+00:41:05,722 --> 00:41:12,369
+SAM: He's a fun guy.
+
+487
+00:41:12,369 --> 00:41:15,973
+MATT: What about you guys? Anyone else?
+
+488
+00:41:15,973 --> 00:41:19,776
+TALIESIN: I feel like we've talked about this
+before, and now I'm drawing a blank, other than
+
+489
+00:41:19,776 --> 00:41:20,985
+Lin Manuel.
+
+490
+00:41:20,985 --> 00:41:29,183
+SAM: It would be nice to have, like, the entire
+cast of Cats. I don't know. Like, in costume. I
+
+491
+00:41:29,183 --> 00:41:31,628
+don't know. Might be fun.
+
+492
+00:41:31,628 --> 00:41:35,826
+MATT: As one cumulative guest? They switch out
+roleplaying the character?
+
+493
+00:41:35,826 --> 00:41:40,292
+BRIAN: And then Sam could come in dressed as Hotis
+from the Halloween episode and totally steal the
+
+494
+00:41:40,292 --> 00:41:42,066
+show, obviously!
+
+495
+00:41:42,066 --> 00:41:49,310
+MARISHA: We have tossed into the universe that we
+would love to try and play with the Stranger
+
+496
+00:41:49,310 --> 00:41:50,611
+Things kids.
+
+497
+00:41:50,611 --> 00:41:57,953
+MATT: And since we already got Vin Diesel, the
+next step obviously is Madame Judi Dench. I think
+
+498
+00:41:57,953 --> 00:42:03,432
+she'd have fun. Since he did teach her how to
+play! Yeah.
+
+499
+00:42:03,432 --> 00:42:09,832
+BRIAN: Yeah, I've often heard, if you can get
+Diesel, you can get Dame Judi. Who's up next?
+
+500
+00:42:09,832 --> 00:42:10,762
+Thank you.
+
+501
+00:42:10,762 --> 00:42:11,966
+TRAVIS: They package them together a lot.
+
+502
+00:42:11,966 --> 00:42:14,571
+SAM: One of our guests is here, by the way. Jason
+Miller.
+
+503
+00:42:14,571 --> 00:42:19,040
+BRIAN: Jason Charles Miller, raise your hand! Also
+did the theme song for Critical Role and Talks
+
+504
+00:42:19,040 --> 00:42:22,477
+Machina, ladies and gentlemen! Royalty.
+
+505
+00:42:22,477 --> 00:42:26,282
+LAURA: You know, he's the one that wrote our
+opening theme song, right?
+
+506
+00:42:26,282 --> 00:42:31,286
+SAM: Also, Dame Judi Dench is right over there!
+
+507
+00:42:31,286 --> 00:42:32,479
+MATT: Hello!
+
+508
+00:42:32,479 --> 00:42:37,455
+AUDIENCE MEMBER: Hi! I mainly had a question about
+when you converted from your pre-show game to your
+
+509
+00:42:37,455 --> 00:42:41,524
+live. Did anything change because you converted
+from Pathfinder to 5th edition, character- or
+
+510
+00:42:41,524 --> 00:42:42,793
+story-wise?
+
+511
+00:42:42,793 --> 00:42:48,363
+MATT: Story-wise, no. I mean, some of the
+character abilities changed based on the system,
+
+512
+00:42:48,363 --> 00:42:50,503
+but not a whole lot, thankfully.
+
+513
+00:42:50,503 --> 00:42:56,209
+SAM: Some of the mechanics of how it works change.
+We had to re-learn. We did a couple of practice
+
+514
+00:42:56,209 --> 00:42:57,754
+sessions with Matt.
+
+515
+00:42:57,754 --> 00:43:00,580
+MATT: I'll tell you, Scanlan became a lot more
+helpful.
+
+516
+00:43:00,580 --> 00:43:01,924
+SAM: Yeah, for sure.
+
+517
+00:43:01,924 --> 00:43:07,791
+TALIESIN: We had, like, three iterations of me
+before I was really functional, I think.
+
+518
+00:43:07,791 --> 00:43:13,861
+MATT: Yeah, and then I had to completely create
+the 5th-edition transition for your gunslinger,
+
+519
+00:43:13,861 --> 00:43:15,494
+but other than that.
+
+520
+00:43:15,494 --> 00:43:22,171
+LAURA: I almost switched. When we switched over to
+5th edition, there was that alternate path for
+
+521
+00:43:22,171 --> 00:43:30,964
+ranger that I feel is actually way cooler than the
+beastmaster. Yeah, that's why you home-brewed so
+
+522
+00:43:30,964 --> 00:43:36,092
+much of it, and it was awesome. But it was like,
+Trinket. What am I going to do? I have to have
+
+523
+00:43:36,092 --> 00:43:38,873
+Trinket, he's Trinket! So I stuck with it.
+
+524
+00:43:38,873 --> 00:43:40,987
+SAM: You could leave the bear. Leave the bear
+behind.
+
+525
+00:43:40,987 --> 00:43:42,975
+LAURA: Leave Doty. How about you just leave Doty?
+
+526
+00:43:42,975 --> 00:43:44,913
+SAM: Doty works.
+
+527
+00:43:44,913 --> 00:43:48,584
+LAURA: Doty stands around and he's heavy and he's
+slow.
+
+528
+00:43:48,584 --> 00:43:54,686
+SAM: And he writes my every word! Wouldn't you
+want that in real life? Wouldn't you want a guy
+
+529
+00:43:54,686 --> 00:43:56,322
+right behind you all the time?
+
+530
+00:43:56,322 --> 00:43:58,826
+TALIESIN: I will admit, I really like Matt's
+Doty-face.
+
+531
+00:43:58,826 --> 00:44:02,294
+LAURA: Yeah, it is really great.
+
+532
+00:44:02,294 --> 00:44:06,014
+TALIESIN: It's like a cartoon bird.
+
+533
+00:44:06,014 --> 00:44:09,406
+MATT: Thank you very much.
+
+534
+00:44:09,406 --> 00:44:11,072
+BRIAN: Who's next?
+
+535
+00:44:11,072 --> 00:44:15,853
+TRAVIS: Step into the light!
+
+536
+00:44:15,853 --> 00:44:18,146
+LAURA: (gasps) Fun buns!
+
+537
+00:44:18,146 --> 00:44:19,548
+BRIAN: Hey, what's your name?
+
+538
+00:44:19,548 --> 00:44:20,684
+DIANE: I'm Diane.
+
+539
+00:44:20,684 --> 00:44:22,955
+LAURA: Oh wait, those are ears. They look like fun
+buns from up here.
+
+540
+00:44:22,955 --> 00:44:30,826
+DIANE: No, they're ears. My question is to the
+panel. Has Matt always been this sadistic, or is
+
+541
+00:44:30,826 --> 00:44:32,697
+he really working at it?
+
+542
+00:44:32,697 --> 00:44:35,870
+MATT and LAURA: Always.
+
+543
+00:44:35,870 --> 00:44:38,037
+BRIAN: That is a great question.
+
+544
+00:44:38,037 --> 00:44:45,243
+SAM: He's been really bad lately, but at the
+beginning of the game, he was very supportive and
+
+545
+00:44:45,243 --> 00:44:56,661
+he wanted us to enjoy. He's like a dealer, right?
+He hooks you with some easy kills, and then slips
+
+546
+00:44:56,661 --> 00:44:59,694
+you the hard stuff. Then he's got you.
+
+547
+00:44:59,694 --> 00:45:04,067
+MATT: There has to be, you know, ebb and flow.
+There has to be some encounters that are
+
+548
+00:45:04,067 --> 00:45:08,706
+relatively not as challenging so you can really
+enjoy the power that you've acquired as a
+
+549
+00:45:08,706 --> 00:45:12,862
+character. Then there have to be challenges along
+the way to make you feel like it's a terrible,
+
+550
+00:45:12,862 --> 00:45:14,460
+difficult circumstance. Yeah.
+
+551
+00:45:14,460 --> 00:45:18,932
+LIAM: Matt is generally one of the kindest people
+I've ever met, but those quiet waters run deep,
+
+552
+00:45:18,932 --> 00:45:27,206
+man. You don't know what's under the surface.
+(hums Jaws theme)
+
+553
+00:45:27,206 --> 00:45:33,381
+MARISHA: Having the entire party strung up on a
+tree in Whitestone, that's when I was like, Who
+
+554
+00:45:33,381 --> 00:45:38,963
+<i>are</i> you? Who am I sleeping next to every night?
+Oh god!
+
+555
+00:45:38,963 --> 00:45:44,561
+MATT: Hi. I have a love for gothic horror, I'm
+sorry!
+
+556
+00:45:44,561 --> 00:45:46,733
+MARISHA: What do you dream?
+
+557
+00:45:46,733 --> 00:45:49,700
+MATT: I dream of trees.
+
+558
+00:45:49,700 --> 00:45:58,046
+BRIAN: We should move on before this engagement
+falls apart. Thank you very much. Before our very
+
+559
+00:45:58,046 --> 00:46:03,293
+eyes! How was WonderCon? Well, we saw the breakup
+of an engagement. Who's next?
+
+560
+00:46:03,293 --> 00:46:10,722
+LIAM: I had it too, though. When Gilmore shanked
+Vax, in my mind, I was like, how dare you! How
+
+561
+00:46:10,722 --> 00:46:13,160
+<i>dare</i> you!
+
+562
+00:46:13,160 --> 00:46:15,327
+MATT: There was a reason.
+
+563
+00:46:15,327 --> 00:46:20,630
+MARISHA: And this past game, you punished Travis
+for using big words!
+
+564
+00:46:20,630 --> 00:46:26,892
+MATT: Because it was funny! And Travis agrees!
+
+565
+00:46:26,892 --> 00:46:32,361
+TRAVIS: Yeah, I caught that. I did it right at the
+same time, I was like, Agh! It hurts!
+
+566
+00:46:32,361 --> 00:46:36,767
+BRIAN: Hey, what's your name?
+
+567
+00:46:36,767 --> 00:46:44,412
+KYRIE: I'm Kyrie. Hi! My question was for Matt.
+What's your favorite mini that you've used in the
+
+568
+00:46:44,412 --> 00:46:49,384
+game so far? Marisha, does he sit on the floor at
+home going, "Grr! Argh!" with them?
+
+569
+00:46:49,384 --> 00:47:00,727
+MARISHA: Sometimes. Not lying. Every time he gets
+a new Dwarven Forge set, he plays house.
+
+570
+00:47:00,727 --> 00:47:09,003
+BRIAN: Periscope! Periscope!
+
+571
+00:47:09,003 --> 00:47:15,878
+MATT: It's practicing and rehearsing and learning
+techniques for the show, guys! That's totally it!
+
+572
+00:47:15,878 --> 00:47:25,767
+No, to be fair, for a good ten years since they
+first announced it, and I couldn't afford it, I've
+
+573
+00:47:25,767 --> 00:47:33,859
+always looked at a distance from the colossal red
+dragon mini. The colossal mini. Just could never
+
+574
+00:47:33,859 --> 00:47:41,338
+get it. When you guys, as a community, sent two of
+them? It was like a long-time Christmas coming
+
+575
+00:47:41,338 --> 00:47:47,907
+that finally arrived. Those are centerpieces that
+I'm still proud of to this day. Then somebody sent
+
+576
+00:47:47,907 --> 00:47:53,557
+me a painted Tarrasque that's just waiting for the
+day that it gets to be unleashed! That's pretty
+
+577
+00:47:53,557 --> 00:47:55,506
+fun too. That's going to be good.
+
+578
+00:47:55,506 --> 00:47:56,904
+TRAVIS: No. No.
+
+579
+00:47:56,904 --> 00:47:58,599
+BRIAN: Hard pass from Travis on that.
+
+580
+00:47:58,599 --> 00:48:04,740
+MATT: So yeah, definitely probably those two.
+Thank you.
+
+581
+00:48:04,740 --> 00:48:11,975
+BRIAN: Who is up next? Yeah! Hey, what's your
+name?
+
+582
+00:48:11,975 --> 00:48:20,447
+SEAN: Sean. Hi. I wanted to start with a little,
+Matt and Liam, you inspired me to be a DM. Laura,
+
+583
+00:48:20,447 --> 00:48:25,165
+Marisha, and Ashley, you are three of my greatest
+female role models, even though Ashley's not here.
+
+584
+00:48:25,165 --> 00:48:32,829
+Sam and Taliesin, you significantly improved my
+wit, and Travis, I've started working out. I
+
+585
+00:48:32,829 --> 00:48:42,519
+swear. My question is, when Tary's book is finally
+released, like Volo and Elminster did, will Vox
+
+586
+00:48:42,519 --> 00:48:45,140
+Machina release an annotated copy?
+
+587
+00:48:45,140 --> 00:48:55,155
+SAM: Did he say when Tary dies? Oh. Will I write one in
+real life, is that the question?
+
+588
+00:48:55,155 --> 00:48:59,809
+LAURA: No, the question is will Vox Machina
+release a second one with the truth.
+
+589
+00:48:59,809 --> 00:49:08,997
+SAM: Sorry, I was really not listening at all. I
+actually sat down the other night to maybe write a
+
+590
+00:49:08,997 --> 00:49:11,257
+little bit of a book.
+
+591
+00:49:11,257 --> 00:49:12,455
+MATT: Do it, that'd be awesome!
+
+592
+00:49:12,455 --> 00:49:15,097
+SAM: Yeah, I really did. I don't know what's going
+to happen.
+
+593
+00:49:15,097 --> 00:49:17,629
+MATT: That'd be a lot of fun! Would you guys like
+to see that?
+
+594
+00:49:17,629 --> 00:49:20,397
+(cheering)
+
+595
+00:49:20,397 --> 00:49:26,772
+SAM: I don't know. I will see how far I get. We'll
+release it and they can all annotate it and cross
+
+596
+00:49:26,772 --> 00:49:28,071
+stuff out.
+
+597
+00:49:28,071 --> 00:49:33,590
+MATT: Oh my god, that'd be so funny to see
+everything from his perspective. Good suggestion.
+
+598
+00:49:33,590 --> 00:49:36,458
+BRIAN: All right, who's up now?
+
+599
+00:49:36,458 --> 00:49:41,420
+LAURA: Oh, I see a costume.
+
+600
+00:49:41,420 --> 00:49:43,357
+BRIAN: What's your name?
+
+601
+00:49:43,357 --> 00:49:47,829
+JOEL: I'm Joel. Favorite magical item?
+
+602
+00:49:47,829 --> 00:49:50,133
+MATT: Favorite magical item?
+
+603
+00:49:50,133 --> 00:49:51,965
+TRAVIS: Deck of Many Things!
+
+604
+00:49:51,965 --> 00:49:55,316
+LAURA: Broom of Flying!
+
+605
+00:49:55,316 --> 00:50:01,647
+MARISHA: I'm a little partial to the Dust of
+Tracelessness, just because then I get to hear
+
+606
+00:50:01,647 --> 00:50:06,891
+Travis say, "I do the Dust of Tracelessness with
+my flower girl routine."
+
+607
+00:50:06,891 --> 00:50:15,392
+TALIESIN: I like the milk/water/mayonnaise jar.
+
+608
+00:50:15,392 --> 00:50:16,958
+MATT: The Alchemical Jug?
+
+609
+00:50:16,958 --> 00:50:21,932
+LIAM: Grog with the Bag of Holding has brought us
+so much joy.
+
+610
+00:50:21,932 --> 00:50:28,577
+MARISHA: Basically all the things Grog has. All of
+Grog's stuff.
+
+611
+00:50:28,577 --> 00:50:32,512
+LAURA: The amount of dried poo that's probably
+floating around in the Bag of Holding.
+
+612
+00:50:32,512 --> 00:50:34,724
+LIAM: The worst dimension ever.
+
+613
+00:50:34,724 --> 00:50:37,494
+MATT: The Grog dimension.
+
+614
+00:50:37,494 --> 00:50:42,636
+TRAVIS: What you fools haven't realized is that I
+have amassed all the magical power in the
+
+615
+00:50:42,636 --> 00:50:44,859
+universe. I'm going to kill all of you.
+
+616
+00:50:44,859 --> 00:50:47,127
+BRIAN: He's turned into Thanos.
+
+617
+00:50:47,127 --> 00:50:54,837
+TRAVIS: I'm going to hot-glue it all to an oven
+mitt and be like, I am now the strongest in the
+
+618
+00:50:54,837 --> 00:50:56,103
+world!
+
+619
+00:50:56,103 --> 00:51:02,721
+LAURA: The greatest part is how detailed Travis's
+list is for the Bag of Holding. I mean, it is
+
+620
+00:51:02,721 --> 00:51:07,248
+like, from the beginning of our game, every single
+thing written down in there.
+
+621
+00:51:07,248 --> 00:51:10,048
+TALIESIN: That Asmodeus ring, that was a deep cut,
+man.
+
+622
+00:51:10,048 --> 00:51:12,231
+TRAVIS: We got dried poo in that bag.
+
+623
+00:51:12,231 --> 00:51:15,192
+LAURA: That's what I'm saying, I know there is
+dried poo in there.
+
+624
+00:51:15,192 --> 00:51:22,801
+TRAVIS: Yeah, there's like three pieces in there.
+You know, some people collect sand from different
+
+625
+00:51:22,801 --> 00:51:26,271
+beaches? I got to take poop.
+
+626
+00:51:26,271 --> 00:51:30,249
+BRIAN: Some people collect poop from different
+bitches. Who's up next?
+
+627
+00:51:30,249 --> 00:51:35,042
+MATT: My answer, real fast, to that, because I
+feel it needs a mention, is Craven Edge. Just
+
+628
+00:51:35,042 --> 00:51:37,890
+because the Grog interactions were so much fun.
+
+629
+00:51:37,890 --> 00:51:41,970
+BRIAN: Yes, look at this! What's your name?
+
+630
+00:51:41,970 --> 00:51:45,478
+LAURA: Oh my god! You look beautiful!
+
+631
+00:51:45,478 --> 00:51:50,549
+CHRISTINA: Hi guys, my name's Christina. So, I
+have a question for Taliesin and Matt, actually.
+
+632
+00:51:50,549 --> 00:51:56,762
+With Percival's love of these demon deals, and
+Matt's newfound love of demon litigation with that
+
+633
+00:51:56,762 --> 00:52:02,447
+contract, in the Hells, can we expect a sort of
+version of soul claims court at this point? Over
+
+634
+00:52:02,447 --> 00:52:03,731
+Percy's soul?
+
+635
+00:52:03,731 --> 00:52:06,903
+SAM: The people's court.
+
+636
+00:52:06,903 --> 00:52:09,935
+TALIESIN: Some sort of soul litigation?
+
+637
+00:52:09,935 --> 00:52:16,072
+MATT: I guess we'll have to find out. I mean, it
+depends on whether or not the first person the
+
+638
+00:52:16,072 --> 00:52:22,982
+deal was made with still exists, and if it does--
+And there is actually a place in the Hells for
+
+639
+00:52:22,982 --> 00:52:29,390
+people that are contesting contracts. There is a
+pit fiend, Baatezu, who is there as the judge that
+
+640
+00:52:29,390 --> 00:52:34,361
+is part of the process of you trying to appeal
+your contract when your soul arrives. Usually goes
+
+641
+00:52:34,361 --> 00:52:37,099
+poorly anyway, but there are a few that get off.
+It's kind of fun.
+
+642
+00:52:37,099 --> 00:52:38,771
+LIAM: Sounds like Hell within a Hell.
+
+643
+00:52:38,771 --> 00:52:46,743
+TALIESIN: Do a little Faust play. Mephistopheles.
+
+644
+00:52:46,743 --> 00:52:52,151
+MATT: I guess we'll see, if you take the other
+pacts. Or break this one.
+
+645
+00:52:52,151 --> 00:52:59,754
+TALIESIN: I'm a little worried. I don't know, Hell
+makes me very nervous right now, I've got to
+
+646
+00:52:59,754 --> 00:53:01,391
+admit. I'm a little nervous.
+
+647
+00:53:01,391 --> 00:53:02,795
+TRAVIS: Nah, you're fine.
+
+648
+00:53:02,795 --> 00:53:04,859
+MARISHA: Remember, this is fine.
+
+649
+00:53:04,859 --> 00:53:19,379
+BRIAN: Great question, even better costume. And it
+lights up? The bow lights up? Hell yeah! Somebody
+
+650
+00:53:19,379 --> 00:53:24,514
+get you a prize. We've got time for two more.
+Let's move quick, so we can get them in. Hey,
+
+651
+00:53:24,514 --> 00:53:25,794
+what's your name?
+
+652
+00:53:25,794 --> 00:53:36,365
+ASHLEY: Hi, I'm Ashley. So, in the earlier parts
+of the show, you guys were given the jerky that
+
+653
+00:53:36,365 --> 00:53:44,372
+had a very specific smell. We have our own
+homemade jerky that we would like to give to you.
+
+654
+00:53:44,372 --> 00:53:47,363
+I'm wondering what would be the best route to get
+it to you.
+
+655
+00:53:47,363 --> 00:53:49,142
+TRAVIS: Just throw it from where you are.
+
+656
+00:53:49,142 --> 00:53:53,010
+LIAM: Said the woman covered in blood?
+
+657
+00:53:53,010 --> 00:54:00,322
+SAM: So you, a stranger covered in blood, want to
+give us raw meat? Okay.
+
+658
+00:54:00,322 --> 00:54:03,429
+TALIESIN: I usually only accept meat from friends
+covered in blood.
+
+659
+00:54:03,429 --> 00:54:12,972
+MARISHA: There are a few Geek &amp; Sundry reps that
+are watching right now. They'll come up, like
+
+660
+00:54:12,972 --> 00:54:20,106
+Eddie over here who's waving his hands, or Chris
+who's walking toward you in a very dedicated
+
+661
+00:54:20,106 --> 00:54:24,094
+manner. Talk to one of them, they'll help you
+out.
+
+662
+00:54:24,094 --> 00:54:29,238
+BRIAN: Okay, last question. Sorry guys. Who's up
+last?
+
+663
+00:54:29,238 --> 00:54:42,918
+AUDIENCE MEMBER: My question is for Sam. What is
+Scanlan doing right now in the story? What do you
+
+664
+00:54:42,918 --> 00:54:44,425
+think he'd be doing right now?
+
+665
+00:54:44,425 --> 00:54:48,520
+SAM: What is he doing right now? That is a good
+question. Me and Matt are going to meet this week
+
+666
+00:54:48,520 --> 00:54:59,970
+to figure that out. I could go one of two ways.
+He's either in a gutter somewhere sort of blitzed
+
+667
+00:54:59,970 --> 00:55:10,896
+out of his mind with children peeing on him, or he
+has killed two people in a casino somewhere and is
+
+668
+00:55:10,896 --> 00:55:17,125
+being showered in gold. That's it.
+
+669
+00:55:17,125 --> 00:55:24,994
+BRIAN: Thank you guys for asking questions! Thank
+you for waiting in line so long! Thank you for
+
+670
+00:55:24,994 --> 00:55:40,590
+coming! I would like to thank my guests! Cravitz
+Fillinghand. Mariska Haritray. Owl-skin Taffy.
+
+671
+00:55:40,590 --> 00:55:56,238
+Jean-Claude van Sam Fecal. Mausoleum Robe Tie-In.
+Fedora, Maybe? And our fearless leader, the one
+
+672
+00:55:56,238 --> 00:56:03,808
+and only Path Traverser. Give it up for the cast
+of Critical Role! Don't forget to love each other,
+
+673
+00:56:03,808 --> 00:56:10,115
+and it's almost kind of Thursday! We love you
+guys, thank you!
+
+674
+00:56:10,115 --> 00:56:29,936
+[upbeat music]

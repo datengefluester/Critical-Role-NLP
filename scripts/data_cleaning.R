@@ -421,6 +421,23 @@ Speakers <- bind_rows(Speakers, tmp)
 phrases <- anti_join(phrases, tmp, by = "Speaker")
 unique <- anti_join(unique, tmp, by = "Speaker")
 
+# extract speaker (plus description):
+
+tmp <- phrases %>% 
+  filter(Speaker=="travis (as scanlan)" |
+           Speaker=="liam (heavy accent)" |
+           Speaker=="matt (as tiberius)" |
+           Speaker=="liam (partially sung)" |
+           Speaker=="orion (imitating marisha)" |
+           Speaker=="all (except orion)" |
+           Speaker=="sam (singing softly)" |
+           Speaker=="laura (as pike)" |
+           Speaker=="patrick")
+
+Speakers <- bind_rows(Speakers, tmp)
+phrases <- anti_join(phrases, tmp, by = "Speaker")
+unique <- anti_join(unique, tmp, by = "Speaker")
+
 # drop everything left over in phrases from unique data frame
 # NOTE TO MYSELF: ♪ stuff is here
 unique <- anti_join(unique, phrases, by = "Speaker")
@@ -485,7 +502,7 @@ unique <- anti_join(unique, tmp, by = "Speaker")
 #  unique <- anti_join(unique, phrases, by = "Speaker")  
 
 # manual edits:
-Speakers %>% add_row(Speaker = "patrick rothfuss"  , total_words = 2)
+Speakers <- Speakers %>% add_row(Speaker = "patrick rothfuss"  , total_words = 2)
 
 
 
@@ -667,8 +684,6 @@ rm(unique,phrases)
 Speakers <- unique(Speakers)
 
 
-
-
 ###############################################################################
 ## Cleaning up and preparing Speaker List
 ###############################################################################
@@ -702,9 +717,6 @@ last_drops <- c(" csi", " one"," yes", "male", "na 00", " alone", " first",
 
 for (edit in last_drops){
   Speakers <- Speakers %>% filter(Speaker!=edit)}  
-
-# "na 00" has to be dropped by hand
-Speakers <- Speakers[- grep("00", Speakers$Speaker),] 
 
 # add ":" in front of Speaker to be able to extract it
 Speakers$Speaker_dot <-sapply(Speakers$Speaker, paste, ":", sep="")
@@ -791,6 +803,18 @@ clean <- clean %>%
          actual_Speaker_3 = replace(actual_Speaker_3,
                                     !grepl(actual_Speaker_3,textString, ignore.case = TRUE),
                                     NA))
+
+
+attendance <- read.csv("./data/time_stamps/Running Times - Tal'Dorei - TD CR Attendance.csv")
+
+
+
+
+
+
+
+
+
 
 
 # assign text to speakers  
@@ -919,8 +943,12 @@ clean <- clean[order(clean$Episode_number,
 # Expand segment for each row spoken
 clean <- clean %>% ungroup () %>% fill(segment,.direction = c("down")) 
 
+backup <- clean
+clean <- backup
+tmp <- clean %>% distinct(Episode_number)
+
 # get start and endtime for each segment
-clean <- clean %>% 
+tmp2 <- clean %>% 
   group_by(segment) %>% 
   mutate(startTime=min(startTime)) %>% 
   mutate(endTime=max(endTime)) 
@@ -1261,26 +1289,26 @@ second_episodes <- as.list(c("031-2","033-2","035-2"))
 second_episodes2 <-substr(second_episodes, 1, 3)
 second_episodes2 <- as.numeric()
 
-backup <- clean
-clean <- backup
 
-# replace start and end time according to episode merge and edit episode number       
-for (i in seq(1:3)){
-  max <- max(clean$startTime[clean$Episode_number == second_episodes2[i]])
-  clean$startTime <- ifelse(clean$Episode_number == second_episodes[i],
-                            clean$startTime+max, 
-                            clean$startTime)
-  clean$endTime <- ifelse(clean$Episode_number == second_episodes[i],
-                          clean$endTime+max,
-                          clean$endTime)
-  clean$Episode_number <- ifelse(clean$Episode_number == second_episodes[i],
-                                 second_episodes2[i],
-                                 clean$Episode_number)
-}
-rm(second_episodes,second_episodes2)
+# 031-2
+max31 <- max(clean$startTime[clean$Episode_number == "031-2"], na.rm=TRUE)
+max33 <- max(clean$startTime[clean$Episode_number == "033-2"], na.rm=TRUE)
+max35 <- max(clean$startTime[clean$Episode_number == "035-2"], na.rm=TRUE)
 
-# Arcs
-# give the endings episode numbers for the time being
+clean <- clean %>% 
+  rowwise() %>% 
+  mutate(startTime = replace(startTime, Episode_number == "031-2", startTime+max31),
+         startTime = replace(startTime, Episode_number == "033-2", startTime+max33),
+         startTime = replace(startTime, Episode_number == "035-2", startTime+max35)) %>% 
+  mutate(endTime = replace(endTime, Episode_number == "031-2", endTime+max31),
+         endTime = replace(endTime, Episode_number == "033-2", endTime+max33),
+         endTime = replace(endTime, Episode_number == "035-2", endTime+max35)) %>% 
+  mutate(Episode_number = replace(Episode_number,Episode_number == "031-2", "031"),
+         Episode_number = replace(Episode_number,Episode_number == "033-2", "033"),
+         Episode_number = replace(Episode_number,Episode_number == "035-2", "035"))
+
+# give the endings episode numbers for the time being (they are dropped from 
+# final data frame but the individual data csvs are included)
 clean <- clean %>% 
   mutate(Episode_number = replace(Episode_number, Episode_number == "115-GROG","116"),
          Episode_number = replace(Episode_number, Episode_number == "115-HH","117"),
@@ -1300,18 +1328,35 @@ clean <- clean %>%
          Arc=replace(Arc,Episode_number <=99 & is.na(Arc),"Daring_Deeds"),
          Arc=replace(Arc,Episode_number <=119 & is.na(Arc),"End"))
 
+# add arcs number
+clean <- clean %>%
+  mutate(Arc_no = NA) %>% 
+  mutate(Arc_no=replace(Arc_no,Arc == "Kraghammer",1),
+         Arc_no=replace(Arc_no,Arc == "Vasselheim",2),
+         Arc_no=replace(Arc_no,Arc == "Briarwoods",3),
+         Arc_no=replace(Arc_no,Arc == "Attack_Conclave",4),
+         Arc_no=replace(Arc_no,Arc == "Vestiges",5),
+         Arc_no=replace(Arc_no,Arc == "Fall_Conclave",6),
+         Arc_no=replace(Arc_no,Arc == "Daring_Deeds",7),
+         Arc_no=replace(Arc_no,Arc == "End",8))
+
+
 # talking speed      
 # word count, compute time difference in seconds, words per millisecond
 clean <- clean %>% 
-  mutate(wordCount=vapply(gregexpr("\\W+",clean$Text),length,0) + 1) %>% 
   mutate(timeDiffInSecs=endTime-startTime) %>% 
+  mutate(Text=str_trim(Text))  %>% 
+  mutate(Text=str_squish(Text)) %>% 
+  mutate(wordCount=vapply(gregexpr("\\W+",Text),length,0) + 1) %>% 
   mutate(WordsPerMillisec = wordCount/(timeDiffInSecs*1000))
-
 
 
 ###############################################################################
 # time stamps for episodes
 ###############################################################################
+
+
+
 
 # Source:
 # https://docs.google.com/spreadsheets/d/1Zx1N0cQcd1fJadUwar7f2hJ2p61qoX7lctsVaIEa5uM/edit#gid=744793917
@@ -1381,6 +1426,12 @@ clean <- time_stamps %>%
   left_join(clean,., by = "Episode_number") %>% 
   distinct()
 
+
+
+backup <- clean
+clean <- backup
+
+
 # segments
 clean <- clean %>% 
   group_by(Episode_number) %>% 
@@ -1396,7 +1447,7 @@ clean <- clean %>%
   mutate(segment = replace(segment, 
                            startTime >= second_start & startTime <= second_end, 
                            "second_half")) %>% 
-  select(-c(11,12,13,14))
+  select(-c(15,16,17,18))
 
 # combat times
 combat_stamps <- time_stamps %>% 
@@ -1430,28 +1481,76 @@ clean <- combat_stamps %>%
   select(-c(2,3,12)) %>% 
   left_join(clean,., by = "Episode_number") 
 
+# create combat counter and rp/combat variable
 clean <- clean %>% 
-  mutate(encounter=NA) %>% 
-  mutate(encounter=replace(encounter,
+  mutate(encounter_count = NA) %>% 
+  mutate(encounter_count = replace(encounter_count,
                            startTime >= encounter_start_1 & startTime <= encounter_end_1,
                            1),
-         encounter=replace(encounter,
+         encounter_count = replace(encounter_count,
                            startTime >= encounter_start_2 & startTime <= encounter_end_2,
                            2),
-         encounter=replace(encounter,
+         encounter_count = replace(encounter_count,
                            startTime >= encounter_start_3 & startTime <= encounter_end_3,
                            3),
-         encounter=replace(encounter,
+         encounter_count = replace(encounter_count,
                            startTime >= encounter_start_4 & startTime <= encounter_end_4,
                            4)) %>% 
-  mutate(segment=replace(segment,!is.na(encounter), "encounter")) %>% 
-  select(c(1:10,14,23)) 
+  mutate(rp_combat = NA,
+         rp_combat = replace(rp_combat, !is.na(encounter_count), "combat"),
+         rp_combat = replace(rp_combat,
+                                is.na(rp_combat),
+                                "role_play"),
+         rp_combat = replace(rp_combat,
+                                segment=="extra" | segment=="proglog" | segment=="break",
+                                NA)) %>%
+  select(c(1:15,24,25)) 
+
+# replace "- " with ""
+clean$Text<- gsub("- ", "", clean$Text)  
 
 # again, drop if Text is empty (don't ask me why they survived after earlier
 # dropping)
 clean <- clean %>% filter(Text!="")
 
-# export csv
+# drop if break & after episode ended
+clean <- clean %>% 
+  mutate(segment = replace(segment, Episode_number > 115, "tmp")) %>% 
+  filter(segment != "break") %>% 
+  filter( segment != "extra") %>% 
+  mutate(segment = replace(segment, Episode_number > 115, "extra"))  
+tmp <- clean %>% distinct(segment)
+
+# turns per episode
+clean <- clean %>% 
+  group_by(Episode_number) %>% 
+  mutate(turn_number = row_number())
+
+# rename Episode number
+clean <- clean %>% 
+  rename(Episode = Episode_number)
+
+# add variable where all guests are labeled as 'GUESTS'
+clean <- clean %>% mutate(CR_GUEST = Actor)
+guests <- toupper(guests) 
+ 
+for (spelling in guests){
+  clean$CR_GUEST <-  gsub(spelling, "GUESTS", clean$CR_GUEST) 
+}
+
+
+# export episode as individual files
+files <- split(clean, clean$Episode)
+
+lapply(files, function(x) write.csv(x, 
+                                    file=paste0("./data/clean_data/E_", 
+                                                x[1,"Episode"], 
+                                                ".csv")))
+
+
+
+# export csv but drop the epilogues
+clean <- clean %>% filter(Episode<=115) 
 write.csv(clean,"./data/clean_data/clean.csv", row.names = FALSE)  
 
 # clear console
