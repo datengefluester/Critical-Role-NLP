@@ -40,7 +40,7 @@ combat_rp_arc <- read.csv(file = './data/data_for_graphs/combat_rp_arc.csv')
 
 # graph
 combat_rp_arc %>% 
-  ggplot(aes(x = reorder(Arc,-Arc_no), y = percent, fill = rp_combat)) + 
+  ggplot(aes(x = reorder(arc,-arc_no), y = percent, fill = rp_combat)) + 
   geom_bar(position="stack", stat = "identity") + 
   coord_flip() +
   scale_y_continuous(expand = c(0, 0),
@@ -72,7 +72,7 @@ attendance <- read.csv(file = './data/data_for_graphs/attendance.csv')
 
 # create graph
 attendance %>% 
-  ggplot(aes(x=reorder(CR_GUEST, episodes),y=episodes)) + 
+  ggplot(aes(x=reorder(actor_guest, episodes),y = episodes)) + 
   geom_bar(stat = "identity", fill ="#1b9e77") + 
   coord_flip() +
   scale_y_continuous(expand = c(0, 0), 
@@ -104,7 +104,7 @@ actor_words_time <- actor_words_time %>%
 
 # actual graph
 actor_words_time %>% 
-  ggplot(aes(x=reorder(as.factor(CR_GUEST), percent), y = percent, fill = variable)) +
+  ggplot(aes(x=reorder(as.factor(actor_guest), percent), y = percent, fill = variable)) +
     geom_bar(stat = "identity", position='dodge') + 
     coord_flip() +
     scale_y_continuous(expand = c(0, 0),
@@ -143,7 +143,7 @@ top_words_actor <- read.csv(file = './data/data_for_graphs/top_words_actor.csv')
 # https://drsimonj.svbtle.com/ordering-categories-within-ggplot2-facets
 
 top_words <- function(Speaker) {
-  top_words_actor %>% filter(CR_GUEST == Speaker) %>%  
+  top_words_actor %>% filter(actor_guest == Speaker) %>%  
     ggplot(aes(x = as.factor(reorder(word, percent)), y = percent)) + 
     geom_bar(stat = "identity", fill = "#009E73") +
     coord_flip()+
@@ -196,10 +196,10 @@ top_words_graph <- top_words_graph  +  bgcolor("#F0F0F0")
 
 # render graph and save 
 top_words_graph
-ggsave("./output/pictures/graphs/top_words_per_actor.jpg",width=4, height=3)
+ggsave("./output/pictures/graphs/top_words_per_actor.jpg", width = 4, height = 3)
 
 # clean up
-rm(Ashley,Guests,Laura,Liam,Marisha,Matt,Orion,Sam,Travis,Taliesin)
+rm(Ashley, Guests, Laura, Liam, Marisha, Matt, Orion, Sam, Travis, Taliesin)
 
 
 
@@ -212,7 +212,7 @@ readability <- read.csv(file = './data/data_for_graphs/readability.csv')
 
 # create graph
 readability %>% 
-  ggplot(aes(x = reorder(CR_GUEST ,Coleman.Liau.grade), y = Coleman.Liau.grade)) + 
+  ggplot(aes(x = reorder(actor_guest ,Coleman.Liau.grade), y = Coleman.Liau.grade)) + 
   geom_bar(stat = "identity", fill ="#1b9e77") + 
   coord_flip() +
   scale_y_continuous(expand = c(0, 0), 
@@ -281,8 +281,8 @@ ggsave("./output/pictures/graphs/who_speaks_with_whom.jpg",width=4, height=3)
 heatmap <- read.csv(file = './data/data_for_graphs/heatmap.csv')
 
 # heatmap
-g1 <- ggplot(heatmap, aes(y = Actor2, x=reorder(Actor1,order) )) +
-  geom_tile(aes(fill = Occurrence)) +
+g1 <- ggplot(heatmap, aes(y = actor2, x=reorder(actor1,order) )) +
+  geom_tile(aes(fill = occurrence)) +
   scale_x_discrete(expand = c(0, 0), position = "top") +
   scale_y_discrete(expand= c(0,0))
 
@@ -293,6 +293,7 @@ g1 +
   labs(title = "Who has the same Thoughts?",
        subtitle = "Number of times cast says the same thing.",
        caption = "Source: Critical Role Subtitles") +
+  labs(fill = "Occurrence") + 
   bar_chart_theme()+
   theme(       axis.line.y = element_blank(),
                axis.text.x.top = element_text(vjust = -1),
@@ -315,45 +316,12 @@ ggsave("./output/pictures/graphs/heatmap.jpg",width=4, height=3)
 sentiment_episodes <- read.csv(file = './data/data_for_graphs/sentiment_episodes.csv')
 
 
-#sentiment_5_words <- function(Measure) {
-#sentiment_episodes %>%
-#    select(Episode, Measure) %>% 
-#    ungroup() %>% 
-#    arrange(Measure) %>% 
-#    slice(1:5)
-#}
-
-
-#top5_bing <- sentiment_5_words("bing_sentiment_mean")
-#top5_bing
-
-#title_name , "Bing et. al."
-#%>% 
-#  ggplot(aes(x = reorder(Episode, bing_sentiment_mean), y = bing_sentiment_mean)) + 
-#  geom_bar(stat = "identity", fill ="#1b9e77") + 
-#  coord_flip() +
-#  scale_y_continuous(expand = c(0, 0), 
-#                     position = "right") +
-#  labs(title = title_name) +
-# bar_chart_theme() + 
-#  theme(plot.title = element_text(size = rel(0.5), hjust=0.5))
-
-
-
-
-
-
-
-
-
-
-
 
 # top 5 bing
 top5_bing <- sentiment_episodes %>%
   ungroup() %>% 
   top_n(5, bing_sentiment_mean) %>% 
-  ggplot(aes(x = reorder(Episode, bing_sentiment_mean), y = bing_sentiment_mean)) + 
+  ggplot(aes(x = reorder(episode, bing_sentiment_mean), y = bing_sentiment_mean)) + 
   geom_bar(stat = "identity", fill ="#1b9e77") + 
   coord_flip() +
   scale_y_continuous(expand = c(0, 0), 
@@ -366,7 +334,7 @@ top5_bing <- sentiment_episodes %>%
 worst5_bing <- sentiment_episodes %>%
   ungroup() %>% 
   top_n(5, -bing_sentiment_mean) %>% 
-  ggplot(aes(x = reorder(Episode, -bing_sentiment_mean), y = bing_sentiment_mean)) + 
+  ggplot(aes(x = reorder(episode, -bing_sentiment_mean), y = bing_sentiment_mean)) + 
   geom_bar(stat = "identity", fill ="#1b9e77") + 
   coord_flip() +
   scale_y_continuous(expand = c(0, 0), 
@@ -379,7 +347,7 @@ worst5_bing <- sentiment_episodes %>%
 top5_afinn <- sentiment_episodes %>%
   ungroup() %>% 
   top_n(5, afinn_sentiment_mean) %>% 
-  ggplot(aes(x = reorder(Episode, afinn_sentiment_mean), y = afinn_sentiment_mean)) + 
+  ggplot(aes(x = reorder(episode, afinn_sentiment_mean), y = afinn_sentiment_mean)) + 
   geom_bar(stat = "identity", fill ="#1b9e77") + 
   coord_flip() +
   scale_y_continuous(expand = c(0, 0), 
@@ -392,7 +360,7 @@ top5_afinn <- sentiment_episodes %>%
 worst5_afinn <- sentiment_episodes %>%
   ungroup() %>% 
   top_n(5, -afinn_sentiment_mean) %>% 
-  ggplot(aes(x = reorder(Episode, -afinn_sentiment_mean), y = afinn_sentiment_mean)) + 
+  ggplot(aes(x = reorder(episode, -afinn_sentiment_mean), y = afinn_sentiment_mean)) + 
   geom_bar(stat = "identity", fill ="#1b9e77") + 
   coord_flip() +
   scale_y_continuous(expand = c(0, 0), 
@@ -479,7 +447,7 @@ sentiment_arc <- read.csv(file = './data/data_for_graphs/sentiment_arc.csv')
 
 # Bing graph
 bing_arc <- sentiment_arc %>% 
-  ggplot(aes(x = reorder(Arc , -Arc_no), y = bing_sentiment_mean)) + 
+  ggplot(aes(x = reorder(arc , -arc_no), y = bing_sentiment_mean)) + 
   geom_bar(stat = "identity", fill ="#1b9e77") + 
   coord_flip() +
   scale_y_continuous(expand = c(0, 0), 
@@ -492,7 +460,7 @@ bing_arc
 
 # Afinn graph
 afinn_arc <- sentiment_arc %>% 
-  ggplot(aes(x = reorder(Arc , -Arc_no), y = afinn_sentiment_mean)) + 
+  ggplot(aes(x = reorder(arc , -arc_no), y = afinn_sentiment_mean)) + 
   geom_bar(stat = "identity", fill ="#1b9e77") + 
   coord_flip() +
   scale_y_continuous(expand = c(0, 0), 
@@ -540,7 +508,7 @@ sentiment_actor <- read.csv(file = './data/data_for_graphs/sentiment_actor.csv')
 
 # Bing graph
 bing_actor <- sentiment_actor %>% 
-  ggplot(aes(x = reorder(CR_GUEST , bing_sentiment_mean), y = bing_sentiment_mean)) + 
+  ggplot(aes(x = reorder(actor_guest , bing_sentiment_mean), y = bing_sentiment_mean)) + 
   geom_bar(stat = "identity", fill ="#1b9e77") + 
   coord_flip() +
   scale_y_continuous(expand = c(0, 0), 
@@ -551,7 +519,7 @@ bing_actor <- sentiment_actor %>%
 
 # Afinn graph
 afinn_actor <- sentiment_actor %>% 
-  ggplot(aes(x = reorder(CR_GUEST , afinn_sentiment_mean), y = afinn_sentiment_mean)) + 
+  ggplot(aes(x = reorder(actor_guest , afinn_sentiment_mean), y = afinn_sentiment_mean)) + 
   geom_bar(stat = "identity", fill ="#1b9e77") + 
   coord_flip() +
   scale_y_continuous(expand = c(0, 0), 
@@ -590,3 +558,7 @@ sentiment_actor_graph
 ggsave("./output/pictures/graphs/sentiment_actor.jpg",width=4, height=3)
 
 
+###############################################################################
+# clear console
+###############################################################################
+rm(list = ls(all.names = TRUE)) 

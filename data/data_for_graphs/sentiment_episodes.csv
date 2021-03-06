@@ -1,4 +1,4 @@
-"Episode","Arc","Arc_no","bing_sentiment_mean","afinn_sentiment_mean"
+"episode","arc","arc_no","bing_sentiment_mean","afinn_sentiment_mean"
 1,"Kraghammer",1,0.172945205479452,0.367294520547945
 2,"Kraghammer",1,-0.0113141862489121,-0.0461270670147955
 3,"Kraghammer",1,0.219457013574661,0.391402714932127

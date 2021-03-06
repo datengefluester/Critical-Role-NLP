@@ -268,13 +268,6 @@ brackets <- clean %>%
 
 
 
-
-
-
-
-
-
-
 ###############################################################################
 ### Parts of dialog mismatched (>=4 words)
 ###############################################################################
@@ -1515,27 +1508,62 @@ clean <- clean %>%
   rename(Episode = Episode_number)
 
 # add variable where all guests are labeled as 'GUESTS'
-clean <- clean %>% mutate(CR_GUEST = Actor)
+clean <- clean %>% mutate(Actor_Guest = Actor)
 guests <- toupper(guests) 
  
 for (spelling in guests){
-  clean$CR_GUEST <-  gsub(spelling, "GUESTS", clean$CR_GUEST) 
+  clean$Actor_Guest <-  gsub(spelling, "GUESTS", clean$Actor_Guest) 
 }
+
+# reorder variables
+clean <- clean %>% select(Arc, Arc_no, Episode, turn_number, segment, Actor, Text,
+                        startTime, endTime, timeDiffInSecs, wordCount, 
+                        WordsPerMillisec, encounter_count, rp_combat, Actor_Guest, 
+                        vox_machina,guest, staff, Matt)
+
+# rename variables
+# (in theory this could quicker up by replacing with crtl+f.
+# However, this breaks the code. Since I am lazy I just rename the variables
+# manually.)
+clean <- clean %>% rename(arc = Arc,
+                      arc_no = Arc_no,
+                      episode = Episode,
+                      actor = Actor, 
+                      text = Text,
+                      start_turn = startTime,
+                      end_turn = endTime,
+                      time_in_sec = timeDiffInSecs,
+                      word_count =  wordCount, 
+                      words_per_ms = WordsPerMillisec,
+                      actor_guest = Actor_Guest, 
+                      matt = Matt)
+
+# variables as factors
+clean <- clean %>% 
+  mutate(arc = factor(arc, levels=c("Kraghammer","Vasselheim","Briarwoods",
+                                       "Attack_Conclave","Vestiges", "Fall_Conclave",
+                                       "Daring_Deeds", "End")))
+
+
+
 
 
 # export episode as individual files
-files <- split(clean, clean$Episode)
+files <- split(clean, clean$episode)
 
 lapply(files, function(x) write.csv(x, 
                                     file=paste0("./data/clean_data/E_", 
-                                                x[1,"Episode"], 
+                                                x[1,"episode"], 
                                                 ".csv")))
 
 
 
 # export csv but drop the epilogues
-clean <- clean %>% filter(Episode<=115) 
+clean <- clean %>% filter(episode<=115) 
 write.csv(clean,"./data/clean_data/clean.csv", row.names = FALSE)  
 
+
+###############################################################################
 # clear console
+###############################################################################
 rm(list = ls(all.names = TRUE)) 
