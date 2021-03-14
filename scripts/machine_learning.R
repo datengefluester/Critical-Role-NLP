@@ -8,6 +8,13 @@ library(themis)
 library(textfeatures)
 
 
+
+# and look into lime and parsnip
+# https://www.youtube.com/watch?v=hAMjhbPJTkA
+# https://www.youtube.com/watch?v=2Zcwa7HPg5w
+
+
+
 ###############################################################################
 # How many words per Turn
 ###############################################################################
