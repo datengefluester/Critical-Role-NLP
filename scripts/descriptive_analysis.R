@@ -78,9 +78,11 @@ ggsave("./output/pictures/graphs/combat_vs_roleplay.jpg", width = 4, height = 3)
 # read in data
 attendance <- read.csv(file = "./data/data_for_graphs/attendance.csv")
 
+
+
 # create graph
 attendance %>%
-  ggplot(aes(x = reorder(actor_guest, episodes), y = episodes)) +
+  ggplot(aes(x = reorder(actor, episodes), y = episodes)) +
   geom_bar(stat = "identity", fill = "#1b9e77") +
   coord_flip() +
   scale_y_continuous(
@@ -124,11 +126,12 @@ actor_words_time %>%
   scale_y_continuous(
     expand = c(0, 0),
     position = "right",
-    breaks = c(seq(0, 50, 10)),
+    breaks = c(seq(0, 80, 20)),
     labels = c(
-      "0" = "0", "10" = "10",
-      "20" = "20", "30" = "30", "40" = "40", "50" = "50%"
-    )
+      "0" = "0", "20" = "20",
+      "40" = "40", "60" = "60%", "80"="80%"
+    ),
+    limits = c(0,80)
   ) +
   scale_fill_manual(
     breaks = c("time_percent", "words_percent"),
@@ -168,7 +171,7 @@ top_words_actor <- read.csv(file = "./data/data_for_graphs/top_words_actor.csv")
 
 top_words <- function(Speaker) {
   top_words_actor %>%
-    filter(actor_guest == Speaker) %>%
+    filter(actor == Speaker) %>%
     ggplot(aes(x = as.factor(reorder(word, percent)), y = percent)) +
     geom_bar(stat = "identity", fill = "#009E73") +
     coord_flip() +
@@ -201,25 +204,25 @@ Orion <- top_words("Orion")
 
 # combine graphs:
 top_words_graph <- ggarrange(Ashley, Laura, Marisha, Liam, Sam,
-  Taliesin, Travis, Orion, Matt, Guests,
-  ncol = 3,
-  nrow = 4,
-  common.legend = FALSE
+                             Taliesin, Travis, Orion, Matt, Guests,
+                             ncol = 3,
+                             nrow = 4,
+                             common.legend = FALSE
 )
 
 # add title and caption
 top_words_graph <- annotate_figure(top_words_graph,
-  top = text_grob("Top 5 Words used by Cast*",
-    color = "#3B3B3B", face = "bold",
-    hjust = 0, x = 0.03, y = 0.02,
-    size = 9
-  ),
-  bottom = text_grob(" *Percent of total words used.
+                                   top = text_grob("Top 5 Words used by Cast*",
+                                                   color = "#3B3B3B", face = "bold",
+                                                   hjust = 0, x = 0.03, y = 0.02,
+                                                   size = 9
+                                   ),
+                                   bottom = text_grob(" *Percent of total words used.
                                                    Source: Critical-Role-Subtitles",
-    color = "#3B3B3B",
-    hjust = 1, x = 0.98,
-    size = 2.5
-  )
+                                                      color = "#3B3B3B",
+                                                      hjust = 1, x = 0.98,
+                                                      size = 2.5
+                                   )
 )
 
 # add background color
@@ -284,7 +287,7 @@ ggraph(network, layout = "circle") +
     end_cap = label_rect(node2.name)
   )) +
   geom_node_text(aes(label = name),
-    size = 2
+                 size = 2
   ) +
   scale_edge_colour_gradient(
     low = "yellow",
@@ -362,13 +365,11 @@ ggsave("./output/pictures/graphs/heatmap.jpg", width = 4, height = 3)
 
 sentiment_episodes <- read.csv(file = "./data/data_for_graphs/sentiment_episodes.csv")
 
-
-
 # top 5 bing
 top5_bing <- sentiment_episodes %>%
   ungroup() %>%
-  top_n(5, bing_sentiment_mean) %>%
-  ggplot(aes(x = reorder(episode, bing_sentiment_mean), y = bing_sentiment_mean)) +
+  top_n(5, bing_sentiment_sum) %>%
+  ggplot(aes(x = reorder(episode, bing_sentiment_sum), y = bing_sentiment_sum)) +
   geom_bar(stat = "identity", fill = "#1b9e77") +
   coord_flip() +
   scale_y_continuous(
@@ -377,13 +378,15 @@ top5_bing <- sentiment_episodes %>%
   ) +
   labs(title = "Bing et. al.") +
   bar_chart_theme() +
-  theme(plot.title = element_text(size = rel(0.5), hjust = 0.5))
+  theme(
+    plot.title = element_text(size = rel(0.5), hjust = 0.5),
+    )
 
 # worst 5 bing
 worst5_bing <- sentiment_episodes %>%
   ungroup() %>%
-  top_n(5, -bing_sentiment_mean) %>%
-  ggplot(aes(x = reorder(episode, -bing_sentiment_mean), y = bing_sentiment_mean)) +
+  top_n(5, -bing_sentiment_sum) %>%
+  ggplot(aes(x = reorder(episode, -bing_sentiment_sum), y = bing_sentiment_sum)) +
   geom_bar(stat = "identity", fill = "#1b9e77") +
   coord_flip() +
   scale_y_continuous(
@@ -397,8 +400,8 @@ worst5_bing <- sentiment_episodes %>%
 # top 5 afinn
 top5_afinn <- sentiment_episodes %>%
   ungroup() %>%
-  top_n(5, afinn_sentiment_mean) %>%
-  ggplot(aes(x = reorder(episode, afinn_sentiment_mean), y = afinn_sentiment_mean)) +
+  top_n(5, bing_sentiment_sum) %>%
+  ggplot(aes(x = reorder(episode, bing_sentiment_sum), y = bing_sentiment_sum)) +
   geom_bar(stat = "identity", fill = "#1b9e77") +
   coord_flip() +
   scale_y_continuous(
@@ -412,8 +415,8 @@ top5_afinn <- sentiment_episodes %>%
 # worst 5 afinn
 worst5_afinn <- sentiment_episodes %>%
   ungroup() %>%
-  top_n(5, -afinn_sentiment_mean) %>%
-  ggplot(aes(x = reorder(episode, -afinn_sentiment_mean), y = afinn_sentiment_mean)) +
+  top_n(5, -bing_sentiment_sum) %>%
+  ggplot(aes(x = reorder(episode, -bing_sentiment_sum), y = bing_sentiment_sum)) +
   geom_bar(stat = "identity", fill = "#1b9e77") +
   coord_flip() +
   scale_y_continuous(
@@ -426,19 +429,19 @@ worst5_afinn <- sentiment_episodes %>%
 
 # combine graphs: top
 sentiment_episodes_graph_top <- ggarrange(top5_bing, top5_afinn,
-  ncol = 2,
-  nrow = 1,
-  common.legend = FALSE
+                                          ncol = 2,
+                                          nrow = 1,
+                                          common.legend = FALSE
 )
 
 
 # add title and caption
 sentiment_episodes_graph_top <- annotate_figure(sentiment_episodes_graph_top,
-  top = text_grob("Best Episodes According to:",
-    color = "#3B3B3B", face = "bold",
-    hjust = 0, x = 0.03, y = 0.02,
-    size = 9
-  )
+                                                top = text_grob("Best Episodes According to:",
+                                                                color = "#3B3B3B", face = "bold",
+                                                                hjust = 0, x = 0.03, y = 0.02,
+                                                                size = 9
+                                                )
 )
 
 # add background color
@@ -448,19 +451,19 @@ sentiment_episodes_graph_top <- sentiment_episodes_graph_top + bgcolor("#F0F0F0"
 
 # combine graphs: bottom
 sentiment_episodes_graph_bottom <- ggarrange(worst5_bing, worst5_afinn,
-  ncol = 2,
-  nrow = 1,
-  common.legend = FALSE
+                                             ncol = 2,
+                                             nrow = 1,
+                                             common.legend = FALSE
 )
 
 
 # add title and caption
 sentiment_episodes_graph_bottom <- annotate_figure(sentiment_episodes_graph_bottom,
-  top = text_grob("Worst Episodes According to:",
-    color = "#3B3B3B", face = "bold",
-    hjust = 0, x = 0.03, y = 0.02,
-    size = 9
-  )
+                                                   top = text_grob("Worst Episodes According to:",
+                                                                   color = "#3B3B3B", face = "bold",
+                                                                   hjust = 0, x = 0.03, y = 0.02,
+                                                                   size = 9
+                                                   )
 )
 
 # add background color
@@ -471,24 +474,24 @@ sentiment_episodes_graph_bottom <- sentiment_episodes_graph_bottom + bgcolor("#F
 
 # render graph
 sentiment_episodes_graph <- ggarrange(sentiment_episodes_graph_top,
-  sentiment_episodes_graph_bottom,
-  ncol = 1,
-  nrow = 2,
-  common.legend = FALSE
+                                      sentiment_episodes_graph_bottom,
+                                      ncol = 1,
+                                      nrow = 2,
+                                      common.legend = FALSE
 )
 
 # add title and caption
 sentiment_episodes_graph <- annotate_figure(sentiment_episodes_graph,
-  top = text_grob("Sentiment Score Per Episode",
-    color = "#3B3B3B", face = "bold",
-    hjust = 0, x = 0.03, y = 0.02,
-    size = 9
-  ),
-  bottom = text_grob("Source: Critical-Role-Subtitles",
-    color = "#3B3B3B",
-    hjust = 1, x = 0.98,
-    size = 4
-  )
+                                            top = text_grob("Sentiment Score Per Episode",
+                                                            color = "#3B3B3B", face = "bold",
+                                                            hjust = 0, x = 0.03, y = 0.02,
+                                                            size = 9
+                                            ),
+                                            bottom = text_grob("Source: Critical-Role-Subtitles",
+                                                               color = "#3B3B3B",
+                                                               hjust = 1, x = 0.98,
+                                                               size = 4
+                                            )
 )
 
 # add background color
@@ -499,6 +502,193 @@ sentiment_episodes_graph
 
 # save graph
 ggsave("./output/pictures/graphs/sentiment_episodes.jpg", width = 4, height = 3)
+
+
+
+###############################################################################
+# Sentiment Analysis Episodes and Correlates: Dices and Face palms
+###############################################################################
+
+# correlates Natural 1 from PCs versus sentiment
+bing_pc_1 <- sentiment_episodes %>% 
+  ggplot(aes(x=pc_1, y=bing_sentiment_sum)) +
+  geom_point(color ="#1b9e77", alpha = 0.5) +
+  geom_smooth(method = "lm", color = "black", alpha = 0.7, size = 0.5) + 
+  labs(title = "Bing et. al. vs. PC 1s") +
+  base_theme() +
+  theme(  axis.line.y = element_blank(),
+          panel.grid.major.x = element_blank(),
+          axis.ticks.y = element_blank(),
+            plot.title = element_text(size = rel(0.5), hjust = 0.5),
+            axis.text.x = element_text(color = "black", vjust = 5, size = rel(0.5)),
+            axis.text.y = element_text(hjust = 1, color = "black", size = rel(0.5), margin = margin(r = -2))
+          )
+
+afinn_pc_1 <- sentiment_episodes %>% 
+  ggplot(aes(x=pc_1, y=afinn_sentiment_sum)) +
+  geom_point(color ="#1b9e77", alpha = 0.5) +
+  geom_smooth(method = "lm", color = "black", alpha = 0.7, size = 0.5) + 
+  labs(title = "Afinn et. al. vs. PC 1s") +
+  base_theme() +
+  theme(  axis.line.y = element_blank(),
+          panel.grid.major.x = element_blank(),
+          axis.ticks.y = element_blank(),
+          plot.title = element_text(size = rel(0.5), hjust = 0.5),
+          axis.text.x = element_text(color = "black", vjust = 5, size = rel(0.5)),
+          axis.text.y = element_text(hjust = 1, color = "black", size = rel(0.5), margin = margin(r = -2))
+  )
+# correlates Natural 20 from PCs versus sentiment
+bing_pc_20 <- sentiment_episodes %>% 
+  ggplot(aes(x=pc_20, y=bing_sentiment_sum)) +
+  geom_point(color ="#1b9e77", alpha = 0.5) +
+  geom_smooth(method = "lm", color = "black", alpha = 0.7, size = 0.5) + 
+  labs(title = "Bing et. al. vs. PC 20s") +
+  base_theme() +
+  theme(  axis.line.y = element_blank(),
+          panel.grid.major.x = element_blank(),
+          axis.ticks.y = element_blank(),
+          plot.title = element_text(size = rel(0.5), hjust = 0.5),
+          axis.text.x = element_text(color = "black", vjust = 5, size = rel(0.5)),
+          axis.text.y = element_text(hjust = 1, color = "black", size = rel(0.5), margin = margin(r = -2))
+  )
+
+afinn_pc_20 <- sentiment_episodes %>% 
+  ggplot(aes(x=pc_20, y=afinn_sentiment_sum)) +
+  geom_point(color ="#1b9e77", alpha = 0.5) +
+  geom_smooth(method = "lm", color = "black", alpha = 0.7, size = 0.5) + 
+  labs(title = "Afinn et. al. vs. PC 20s") +
+  base_theme() +
+  theme(  axis.line.y = element_blank(),
+          panel.grid.major.x = element_blank(),
+          axis.ticks.y = element_blank(),
+          plot.title = element_text(size = rel(0.5), hjust = 0.5),
+          axis.text.x = element_text(color = "black", vjust = 5, size = rel(0.5)),
+          axis.text.y = element_text(hjust = 1, color = "black", size = rel(0.5), margin = margin(r = -2))
+  )
+
+# correlates Natural 1 from DM versus sentiment
+bing_dm_1 <- sentiment_episodes %>% 
+  ggplot(aes(x=dm_1, y=bing_sentiment_sum)) +
+  geom_point(color ="#1b9e77", alpha = 0.5) +
+  geom_smooth(method = "lm", color = "black", alpha = 0.7, size = 0.5) + 
+  labs(title = "Bing et. al. vs. DM 1s") +
+  base_theme() +
+  theme(  axis.line.y = element_blank(),
+          panel.grid.major.x = element_blank(),
+          axis.ticks.y = element_blank(),
+          plot.title = element_text(size = rel(0.5), hjust = 0.5),
+          axis.text.x = element_text(color = "black", vjust = 5, size = rel(0.5)),
+          axis.text.y = element_text(hjust = 1, color = "black", size = rel(0.5), margin = margin(r = -2))
+  )
+
+afinn_dm_1 <- sentiment_episodes %>% 
+  ggplot(aes(x=dm_1, y=afinn_sentiment_sum)) +
+  geom_point(color ="#1b9e77", alpha = 0.5) +
+  geom_smooth(method = "lm", color = "black", alpha = 0.7, size = 0.5) + 
+  labs(title = "Afinn et. al. vs. DM 1s") +
+  base_theme() +
+  theme(  axis.line.y = element_blank(),
+          panel.grid.major.x = element_blank(),
+          axis.ticks.y = element_blank(),
+          plot.title = element_text(size = rel(0.5), hjust = 0.5),
+          axis.text.x = element_text(color = "black", vjust = 5, size = rel(0.5)),
+          axis.text.y = element_text(hjust = 1, color = "black", size = rel(0.5), margin = margin(r = -2))
+  )
+
+
+
+# correlates Natural 20 from DM versus sentiment
+bing_dm_20 <- sentiment_episodes %>% 
+  ggplot(aes(x=dm_20, y=bing_sentiment_sum)) +
+  geom_point(color ="#1b9e77", alpha = 0.5) +
+  geom_smooth(method = "lm", color = "black", alpha = 0.7, size = 0.5) + 
+  labs(title = "Bing et. al. vs. DM 20s") +
+  base_theme() +
+  theme(  axis.line.y = element_blank(),
+          panel.grid.major.x = element_blank(),
+          axis.ticks.y = element_blank(),
+          plot.title = element_text(size = rel(0.5), hjust = 0.5),
+          axis.text.x = element_text(color = "black", vjust = 5, size = rel(0.5)),
+          axis.text.y = element_text(hjust = 1, color = "black", size = rel(0.5), margin = margin(r = -2))
+  )
+
+afinn_dm_20 <- sentiment_episodes %>% 
+  ggplot(aes(x=dm_20, y=afinn_sentiment_sum)) +
+  geom_point(color ="#1b9e77", alpha = 0.5) +
+  geom_smooth(method = "lm", color = "black", alpha = 0.7, size = 0.5) + 
+  labs(title = "Afinn et. al. vs. DM 20s") +
+  base_theme() +
+  theme(  axis.line.y = element_blank(),
+          panel.grid.major.x = element_blank(),
+          axis.ticks.y = element_blank(),
+          plot.title = element_text(size = rel(0.5), hjust = 0.5),
+          axis.text.x = element_text(color = "black", vjust = 5, size = rel(0.5)),
+          axis.text.y = element_text(hjust = 1, color = "black", size = rel(0.5), margin = margin(r = -2))
+  )
+
+
+# correlates Matt face palms versus sentiment
+bing_face_palm <- sentiment_episodes %>% 
+  ggplot(aes(x=face_palms, y=bing_sentiment_sum)) +
+  geom_point(color ="#1b9e77", alpha = 0.5) +
+  geom_smooth(method = "lm", color = "black", alpha = 0.7, size = 0.5) + 
+  labs(title = "Bing et. al. vs. Face Palms") +
+  base_theme() +
+  theme(  axis.line.y = element_blank(),
+          panel.grid.major.x = element_blank(),
+          axis.ticks.y = element_blank(),
+          plot.title = element_text(size = rel(0.5), hjust = 0.5),
+          axis.text.x = element_text(color = "black", vjust = 5, size = rel(0.5)),
+          axis.text.y = element_text(hjust = 1, color = "black", size = rel(0.5), margin = margin(r = -2))
+  )
+
+afinn_face_palm <- sentiment_episodes %>% 
+  ggplot(aes(x= face_palms, y=afinn_sentiment_sum)) +
+  geom_point(color ="#1b9e77", alpha = 0.5) +
+  geom_smooth(method = "lm", color = "black", alpha = 0.7, size = 0.5) + 
+  labs(title = "Afinn et. al. vs. Face Palms") +
+  base_theme() +
+  theme(  axis.line.y = element_blank(),
+          panel.grid.major.x = element_blank(),
+          axis.ticks.y = element_blank(),
+          plot.title = element_text(size = rel(0.5), hjust = 0.5),
+          axis.text.x = element_text(color = "black", vjust = 5, size = rel(0.5)),
+          axis.text.y = element_text(hjust = 1, color = "black", size = rel(0.5), margin = margin(r = -2))
+  )
+
+
+
+# combine graphs:
+correlates_graph <- ggarrange(bing_pc_1, afinn_pc_1,
+                             bing_pc_20, afinn_pc_20,
+                             bing_dm_1, afinn_dm_1,
+                             bing_dm_20, afinn_dm_20,
+                             bing_face_palm, afinn_face_palm,
+                             ncol = 2,
+                             nrow = 5,
+                             common.legend = FALSE
+)
+
+# add title and caption
+correlates_graph <- annotate_figure(correlates_graph,
+                                   top = text_grob("Sentiment Analysis and its Correlates",
+                                                   color = "#3B3B3B", face = "bold",
+                                                   hjust = 0, x = 0.03, y = 0.02,
+                                                   size = 9
+                                   ),
+                                   bottom = text_grob("Source: Critical-Role-Subtitles",
+                                                      color = "#3B3B3B",
+                                                      hjust = 1, x = 0.98,
+                                                      size = 2.5
+                                   )
+)
+
+# add background color
+correlates_graph <- correlates_graph + bgcolor("#F0F0F0")
+
+# render graph and save
+correlates_graph
+ggsave("./output/pictures/graphs/top_words_per_actor.jpg", width = 4, height = 3)
 
 
 ###############################################################################
@@ -523,8 +713,6 @@ bing_arc <- sentiment_arc %>%
   bar_chart_theme() +
   theme(plot.title = element_text(size = rel(0.5), hjust = 0.5))
 
-bing_arc
-
 # Afinn graph
 afinn_arc <- sentiment_arc %>%
   ggplot(aes(x = reorder(arc, -arc_no), y = afinn_sentiment_mean)) +
@@ -540,25 +728,25 @@ afinn_arc <- sentiment_arc %>%
 
 # combine graphs:
 sentiment_arc_graph <- ggarrange(bing_arc, afinn_arc,
-  ncol = 2,
-  nrow = 1,
-  common.legend = FALSE
+                                 ncol = 2,
+                                 nrow = 1,
+                                 common.legend = FALSE
 )
 
 
 # add title and caption
 sentiment_arc_graph <- annotate_figure(sentiment_arc_graph,
-  top = text_grob("Sentiment Score Per Arc",
-    color = "#3B3B3B", face = "bold",
-    hjust = 0, x = 0.03, y = 0.02,
-    size = 9
-  ),
-  bottom = text_grob(" *A lower score corespond to more negativity.
+                                       top = text_grob("Sentiment Score Per Arc",
+                                                       color = "#3B3B3B", face = "bold",
+                                                       hjust = 0, x = 0.03, y = 0.02,
+                                                       size = 9
+                                       ),
+                                       bottom = text_grob(" *A lower score corespond to more negativity.
                                                    Source: Critical-Role-Subtitles",
-    color = "#3B3B3B",
-    hjust = 1, x = 0.98,
-    size = 4
-  )
+                                                          color = "#3B3B3B",
+                                                          hjust = 1, x = 0.98,
+                                                          size = 4
+                                       )
 )
 
 # add background color
@@ -581,7 +769,7 @@ sentiment_actor <- read.csv(file = "./data/data_for_graphs/sentiment_actor.csv")
 
 # Bing graph
 bing_actor <- sentiment_actor %>%
-  ggplot(aes(x = reorder(actor_guest, bing_sentiment_mean), y = bing_sentiment_mean)) +
+  ggplot(aes(x = reorder(actor, bing_sentiment_sum), y = bing_sentiment_sum)) +
   geom_bar(stat = "identity", fill = "#1b9e77") +
   coord_flip() +
   scale_y_continuous(
@@ -594,7 +782,7 @@ bing_actor <- sentiment_actor %>%
 
 # Afinn graph
 afinn_actor <- sentiment_actor %>%
-  ggplot(aes(x = reorder(actor_guest, afinn_sentiment_mean), y = afinn_sentiment_mean)) +
+  ggplot(aes(x = reorder(actor, bing_sentiment_sum), y = bing_sentiment_sum)) +
   geom_bar(stat = "identity", fill = "#1b9e77") +
   coord_flip() +
   scale_y_continuous(
@@ -609,24 +797,24 @@ afinn_actor <- sentiment_actor %>%
 
 # combine graphs:
 sentiment_actor_graph <- ggarrange(bing_actor, afinn_actor,
-  ncol = 2,
-  nrow = 1,
-  common.legend = FALSE
+                                   ncol = 2,
+                                   nrow = 1,
+                                   common.legend = FALSE
 )
 
 # add title and caption
 sentiment_actor_graph <- annotate_figure(sentiment_actor_graph,
-  top = text_grob("Sentiment Score Per Actor",
-    color = "#3B3B3B", face = "bold",
-    hjust = 0, x = 0.03, y = 0.02,
-    size = 9
-  ),
-  bottom = text_grob(" *A lower score corespond to more negativity.
+                                         top = text_grob("Sentiment Score Per Actor",
+                                                         color = "#3B3B3B", face = "bold",
+                                                         hjust = 0, x = 0.03, y = 0.02,
+                                                         size = 9
+                                         ),
+                                         bottom = text_grob(" *A lower score corespond to more negativity.
                                                    Source: Critical-Role-Subtitles",
-    color = "#3B3B3B",
-    hjust = 1, x = 0.98,
-    size = 4
-  )
+                                                            color = "#3B3B3B",
+                                                            hjust = 1, x = 0.98,
+                                                            size = 4
+                                         )
 )
 
 # add background color

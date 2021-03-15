@@ -1411,6 +1411,10 @@ clean <- clean %>%
     str_replace(Text, "SAM:", "")
   ))
 
+
+# replace "," with "and" 
+clean <- clean %>% mutate(Actor = str_replace(Actor, ",", " and"))
+
 # same order for numerous actors: Travis and Sam = Sam and Travis
 clean$Actor <- unname(sapply(clean$Actor, function(x) {
   paste(sort(trimws(strsplit(x[1], " and ")[[1]])), collapse = " and ")
@@ -1541,6 +1545,7 @@ for (guest in guests) {
 clean$staff <- 0
 clean$staff <- ifelse(grepl("zac", clean$Actor), 1, 0)
 clean$staff <- ifelse(grepl("offscreen", clean$Actor), 1, clean$staff)
+clean$staff <- ifelse(grepl("brian", clean$Actor), 1, clean$staff)
 
 # Matt dummy
 clean$Matt <- 0
@@ -1873,8 +1878,9 @@ for (spelling in guests) {
 
 
 # get attendance data frame and delete it from clean data frame
-attendance <- clean %>% select(Episode, 8:19)
+attendance <- clean %>% select(Episode, 8:19) %>% distinct_all()
 write.csv(attendance, "./data/clean_data/attendance.csv", row.names = FALSE)
+write.csv(attendance, "./data/data_for_graphs/attendance.csv", row.names = FALSE)
 
 clean <- clean %>% select(-c(8:19, number))
 clean <- clean %>% select(-c(17:20, 22:29))
@@ -1990,7 +1996,32 @@ pc_20 <- pc_20 %>%
   mutate(description = str_squish(description))
 
 
-write.csv(pc_20, "./data/clean_data/pc_20.csv", row.names = FALSE)
+
+
+# Replace characters with Actors
+Actor <- c("Orion", "Laura", "Laura", "Liam", "Liam","Marisha", "Taliesin", "Ashley", "Travis", "Sam", "Sam")
+PC <- c("Tiberius", "Vex'ahlia", "Vex’ahlia" , "Vax'ildan", "Vax’ildan", "Keyleth", "Percy", "Pike", "Grog", "Scanlan", "Taryon")
+for (i in seq(1:9)) {
+  pc_20$actor <- gsub(PC[i], Actor[i], pc_20$actor)
+}
+
+
+pc_20 <- pc_20 %>% 
+  mutate(actor = replace(actor, actor == "Scanlan", "Sam")) %>% 
+  mutate(guest = 1) %>% 
+  mutate(guest = replace(guest, actor == "Orion", 0),
+         guest = replace(guest, actor == "Laura", 0),
+         guest = replace(guest, actor == "Liam", 0),
+         guest = replace(guest, actor == "Marisha", 0),
+         guest = replace(guest, actor == "Taliesin", 0),
+         guest = replace(guest, actor == "Ashley", 0),
+         guest = replace(guest, actor == "Travis", 0),
+         guest = replace(guest, actor == "Sam", 0),
+         guest = replace(guest, actor == "Trinket", 0),
+         guest = replace(guest, actor == "Doty", 0)) %>% 
+  mutate(actor = replace(actor, guest== 1, "Guests"))
+
+write.csv(pc_20, "./data/clean_data/dice_pc_20.csv", row.names = FALSE)
 
 
 # --- PC natural 1s
@@ -2023,7 +2054,31 @@ pc_1 <- pc_1 %>%
   select(-raw) %>%
   mutate(description = str_squish(description))
 
-write.csv(pc_1, "./data/clean_data/pc_1.csv", row.names = FALSE)
+
+# Replace characters with Actors
+Actor <- c("Orion", "Laura", "Laura", "Liam", "Liam","Marisha", "Taliesin", "Ashley", "Travis", "Sam", "Sam")
+PC <- c("Tiberius", "Vex'ahlia", "Vex’ahlia" , "Vax'ildan", "Vax’ildan", "Keyleth", "Percy", "Pike", "Grog", "Scanlan", "Taryon")
+for (i in seq(1:9)) {
+  pc_1$actor <- gsub(PC[i], Actor[i], pc_1$actor)
+}
+
+# add guests
+pc_1 <- pc_1 %>% 
+  mutate(actor = replace(actor, actor == "Scanlan", "Sam")) %>% 
+  mutate(guest = 1) %>% 
+  mutate(guest = replace(guest, actor == "Orion", 0),
+         guest = replace(guest, actor == "Laura", 0),
+         guest = replace(guest, actor == "Liam", 0),
+         guest = replace(guest, actor == "Marisha", 0),
+         guest = replace(guest, actor == "Taliesin", 0),
+         guest = replace(guest, actor == "Ashley", 0),
+         guest = replace(guest, actor == "Travis", 0),
+         guest = replace(guest, actor == "Sam", 0),
+         guest = replace(guest, actor == "Trinket", 0),
+         guest = replace(guest, actor == "Doty", 0)) %>% 
+  mutate(actor = replace(actor, guest== 1, "Guests"))
+
+write.csv(pc_1, "./data/clean_data/dice_pc_1.csv", row.names = FALSE)
 
 
 # --- DMs natural 1s
@@ -2057,7 +2112,7 @@ dm_1 <- dm_1 %>%
   mutate(description = str_squish(description))
 
 
-write.csv(dm_1, "./data/clean_data/dm_1.csv", row.names = FALSE)
+write.csv(dm_1, "./data/clean_data/dice_dm_1.csv", row.names = FALSE)
 
 
 # --- PC natural 20s
@@ -2089,7 +2144,7 @@ dm_20 <- dm_20 %>%
   mutate_all(na_if, "") %>%
   mutate(description = str_squish(description))
 
-write.csv(dm_20, "./data/clean_data/dm_20.csv", row.names = FALSE)
+write.csv(dm_20, "./data/clean_data/dice_dm_20.csv", row.names = FALSE)
 
 
 
