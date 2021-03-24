@@ -78,8 +78,6 @@ ggsave("./output/pictures/graphs/combat_vs_roleplay.jpg", width = 4, height = 3)
 # read in data
 attendance <- read.csv(file = "./data/data_for_graphs/attendance.csv")
 
-
-
 # create graph
 attendance %>%
   ggplot(aes(x = reorder(actor, episodes), y = episodes)) +
@@ -695,16 +693,20 @@ ggsave("./output/pictures/graphs/top_words_per_actor.jpg", width = 4, height = 3
 # Sentiment per Arc
 ###############################################################################
 
-
 # read in data
 sentiment_arc <- read.csv(file = "./data/data_for_graphs/sentiment_arc.csv")
-
 
 # Bing graph
 bing_arc <- sentiment_arc %>%
   ggplot(aes(x = reorder(arc, -arc_no), y = bing_sentiment_mean)) +
-  geom_bar(stat = "identity", fill = "#1b9e77") +
+  geom_point(stat = "identity", color = "#1b9e77") +
+  geom_errorbar(aes(ymin=bing_sentiment_mean-1.95*bing_sentiment_sd, 
+                    ymax=bing_sentiment_mean+1.95*bing_sentiment_sd), 
+                width= .05,
+                alpha = 0.5,
+                color = "#1b9e77") +
   coord_flip() +
+  geom_hline(yintercept = 0, color="#656565", size = 0.5) +
   scale_y_continuous(
     expand = c(0, 0),
     position = "right"
@@ -713,18 +715,27 @@ bing_arc <- sentiment_arc %>%
   bar_chart_theme() +
   theme(plot.title = element_text(size = rel(0.5), hjust = 0.5))
 
+
 # Afinn graph
 afinn_arc <- sentiment_arc %>%
   ggplot(aes(x = reorder(arc, -arc_no), y = afinn_sentiment_mean)) +
-  geom_bar(stat = "identity", fill = "#1b9e77") +
+  geom_point(stat = "identity", color = "#1b9e77") +
+  geom_errorbar(aes(ymin=bing_sentiment_mean-1.95*bing_sentiment_sd, 
+                    ymax=bing_sentiment_mean+1.95*bing_sentiment_sd), 
+                width= .05,
+                alpha = 0.5,
+                color = "#1b9e77") +
   coord_flip() +
+  geom_hline(yintercept = 0, color="#656565", size = 0.5) +
   scale_y_continuous(
     expand = c(0, 0),
     position = "right"
   ) +
   labs(title = "Afinn et. al.") +
   bar_chart_theme() +
-  theme(plot.title = element_text(size = rel(0.5), hjust = 0.5))
+  theme(plot.title = element_text(size = rel(0.5), hjust = 0.5),
+        axis.text.y = element_blank(),
+        axis.line.y = element_blank())
 
 # combine graphs:
 sentiment_arc_graph <- ggarrange(bing_arc, afinn_arc,
@@ -741,7 +752,8 @@ sentiment_arc_graph <- annotate_figure(sentiment_arc_graph,
                                                        hjust = 0, x = 0.03, y = 0.02,
                                                        size = 9
                                        ),
-                                       bottom = text_grob(" *A lower score corespond to more negativity.
+                                       bottom = text_grob(" *A lower score coresponds to more negativity.
+                                                   The bar indicate the 95%-Confident-Interval
                                                    Source: Critical-Role-Subtitles",
                                                           color = "#3B3B3B",
                                                           hjust = 1, x = 0.98,
@@ -826,6 +838,24 @@ sentiment_actor_graph
 # save graph
 ggsave("./output/pictures/graphs/sentiment_actor.jpg", width = 4, height = 3)
 
+
+
+###############################################################################
+# Word Cloud
+###############################################################################
+
+
+library(wordcloud2)
+
+# read in data
+word_cloud <- read.csv(file = "./data/data_for_graphs/word_cloud.csv")
+
+figPath = "./data/critical_role_logo/Octagon.jpg"
+
+world_cloud_pic <- wordcloud2(word_cloud, figPath = "./data/critical_role_logo/Octagon.jpg", size = 1.5, color = "skyblue", backgroundColor="black")
+world_cloud_pic
+
+letterCloud(tmp, word = "Critical Role")
 
 ###############################################################################
 # clear console

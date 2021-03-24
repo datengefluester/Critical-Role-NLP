@@ -1860,6 +1860,16 @@ clean <- clean %>%
   )
 
 
+# incorporate combat and RP into segment
+clean <- clean %>% 
+  mutate(segment = replace(segment, rp_combat=="combat", "combat"),
+         segment = replace(segment, segment =="first_half", "first_half_rp"),
+         segment = replace(segment, segment =="second_half", "second_half_rp"),
+         segment = replace(segment, segment =="extra", "epilog"),
+         segment = replace(segment, segment =="prolog" & startTime>=10000,"epilog"))
+  
+
+
 
 # turns per episode
 clean <- clean %>%
@@ -1880,7 +1890,6 @@ for (spelling in guests) {
 # get attendance data frame and delete it from clean data frame
 attendance <- clean %>% select(Episode, 8:19) %>% distinct_all()
 write.csv(attendance, "./data/clean_data/attendance.csv", row.names = FALSE)
-write.csv(attendance, "./data/data_for_graphs/attendance.csv", row.names = FALSE)
 
 clean <- clean %>% select(-c(8:19, number))
 clean <- clean %>% select(-c(17:20, 22:29))
@@ -1954,10 +1963,11 @@ clean <- clean %>% select(episode, turn_number, actor, text, segment, words_per_
 clean <- clean %>%
   filter(episode <= 115) %>%
   filter(segment != "break") %>%
-  filter(segment != "extra")
+  filter(segment != "extra") %>% 
+  filter(!is.na(segment))
 
 # export
-write.csv(clean, "./data/clean_data/clean_text.csv", row.names = FALSE)
+write.csv(clean, "./data/clean_data/clean_ml.csv", row.names = FALSE)
 
 
 

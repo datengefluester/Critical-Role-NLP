@@ -135,6 +135,9 @@ top_words_actor$word <- stripWhitespace(top_words_actor$word)
 # Drop rows, which contained words, which were dropped in previous steps
 top_words_actor <- top_words_actor %>% filter(word != "")
 
+# export for word cloud later on:
+word_cloud <- top_words_actor %>% select(word)
+
 # top 5 words per actor
 top_words_actor <- top_words_actor %>%
   filter(staff != 1 )  %>%
@@ -465,8 +468,8 @@ sentiment_arc <- sentiment_episodes %>%
   group_by(arc, arc_no) %>%
   summarise_at(vars(bing_sentiment_sum, afinn_sentiment_sum),
                list(mean = mean, sd = sd),
-               na.rm = TRUE
-  ) %>%
+               na.rm = TRUE) %>% 
+  mutate(arc = str_replace(arc,"_","")) %>%
   rename(
     bing_sentiment_mean = bing_sentiment_sum_mean,
     bing_sentiment_sd = bing_sentiment_sum_sd,
@@ -516,6 +519,17 @@ write.csv(sentiment_actor,
 )
 
 
+###############################################################################
+# Word cloud
+###############################################################################
+
+word_cloud <- word_cloud %>%  group_by(word) %>% count(word, sort = TRUE)
+
+# export data frame
+write.csv(word_cloud,
+          "./data/data_for_graphs/word_cloud.csv",
+          row.names = FALSE
+)
 
 ###############################################################################
 # clear console
