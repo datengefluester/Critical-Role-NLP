@@ -1,14 +1,15 @@
 ###############################################################################
 # packages
 ###############################################################################
+# for sampling
+library(dplyr)
+# text mining
 library(tm)
 library(tidytext)
-
+library(themis)
 # extract additional class features
 library(textfeatures)
-# deal with, among other things, class imbalance
-library(themis)
-# actual ML
+# actual ML and dealing with feature engineering, class imbalance etc. 
 library(tidymodels)
 # for text feature in pipe
 library(textrecipes) 
@@ -19,31 +20,157 @@ doParallel::registerDoParallel(cores = detectCores() - 1)
 # read in data
 ###############################################################################
 
-data <- read.csv("./data/clean_data/clean_ml.csv")
+
+# data <- read.csv("./data/clean_data/clean_ml.csv")
+# check for episode 12 to be dropped!
+
 
 
 ###############################################################################
 # create dummy variable for Matt
 ###############################################################################
-data <- data %>% mutate(matt = if_else(actor == "MATT", "Matt", "Other"))
+data <- data %>% 
+  mutate(matt = if_else(actor == "MATT", "Matt", "Other")) %>% 
+  mutate(matt = as.factor(matt))
+
+backup <- data
+# set seed random: Mercer's birthday
+set.seed(19820629)
+data <- slice_sample(data, prop = 0.4)
+
+###############################################################################
+# silge
+###############################################################################
+
+# set = first episode airing
+set.seed(20150312)
+
+# splits
+splits <- initial_split(data, strata = matt)
+train <- training(splits)
+test <- testing(splits)
+
+# seed for folds (airing first episode second campaign):
+set.seed(20180111)
+# cross validation folds
+folds <- vfold_cv(train, strata = matt)
+
+
+
+cr_recipe <- recipe(matt ~ text, data = train) %>% 
+  step_downsample(matt) %>% 
+  step_textfeature(text) %>% 
+  step_zv(all_predictors()) %>% 
+  step_normalize(all_predictors())
+
+cr_prep <- prep(cr_recipe)
+cr_juiced <- juice(cr_prep)
+
+
+tune_spec <- rand_forest(
+  mtry = tune(),
+  trees = 1000,
+  min_n = tune()
+) %>%
+  set_mode("classification") %>%
+  set_engine("ranger")
+
+tune_wf <- workflow() %>%
+  add_recipe(cr_recipe) %>%
+  add_model(tune_spec)
+
+tune_res <- tune_grid(
+  tune_wf,
+  resamples = folds,
+  grid = 20
+)
+
+# by hand tuning to find best model
+tune_res %>%
+  collect_metrics() %>%
+  filter(.metric == "roc_auc") %>%
+  select(mean, min_n, mtry) %>%
+  pivot_longer(min_n:mtry,
+               values_to = "value",
+               names_to = "parameter"
+  ) %>%
+  ggplot(aes(value, mean, color = parameter)) +
+  geom_point(show.legend = FALSE) +
+  facet_wrap(~parameter, scales = "free_x") +
+  labs(x = NULL, y = "AUC")
+
+
+rf_grid <- grid_regular(
+  mtry(range = c(4, 8)),
+  min_n(range = c(35, 40)),
+  levels = 5
+)
+
+regular_res <- tune_grid(
+  tune_wf,
+  resamples = folds,
+  grid = rf_grid
+)
+
+# select best
+regular_res %>%
+  collect_metrics() %>%
+  filter(.metric == "roc_auc") %>%
+  mutate(min_n = factor(min_n)) %>%
+  ggplot(aes(mtry, mean, color = min_n)) +
+  geom_line(alpha = 0.5, size = 1.5) +
+  geom_point() +
+  labs(y = "AUC")
+
+best_auc <- select_best(regular_res, "roc_auc")
+
+final_rf <- finalize_model(
+  tune_spec,
+  best_auc
+)
+
+final_rf
+
+# explore model: Variable importance
+library(vip)
+
+final_rf %>%
+  set_engine("ranger", importance = "permutation") %>%
+  fit(matt ~ .,
+      data = juice(cr_prep) ) %>%
+  vip(geom = "point")
+
+# final work flow and fit
+final_wf <- workflow() %>%
+  add_recipe(cr_recipe) %>%
+  add_model(final_rf)
+
+final_res <- final_wf %>%
+  last_fit(splits)
+
+final_res %>%
+  collect_metrics()
+
+
 
 ###############################################################################
 # extract text features
 ###############################################################################
 
 features <- textfeatures(data, sentiment = FALSE, 
-                     word_dims = 0, normalize = FALSE)
+                         word_dims = 0, normalize = FALSE)
 
 features <-  bind_cols(data, features)
+
+
+
 
 
 ###############################################################################
 # splits and folds
 ###############################################################################
-# set = first episode airing
+# set seed for splits = first episode airing
 set.seed(20150312)
-
-# splits
 splits <- initial_split(data, strata = matt)
 train <- training(splits)
 test <- testing(splits)
@@ -64,10 +191,13 @@ folds <- vfold_cv(train, strata = matt)
 # step_normalize: normalize
 
 cr_recipe <- recipe(matt ~ text, data = train) %>% 
-  step_downsample(matt) %>% 
+  themis::step_downsample(matt) %>% 
   step_textfeature(text) %>% 
   step_zv(all_predictors()) %>% 
   step_normalize(all_predictors())
+
+cr_prep <- prep(cr_recipe)
+cr_juiced <- juice(cr_prep)
 
 ###############################################################################
 # models
@@ -78,10 +208,16 @@ rf_spec <- rand_forest(trees = 1000) %>%
   set_engine("ranger") %>% 
   set_mode("classification")
 
-# support vector machine
-svm_spec <- svm_rbf(cost = 0.5) %>% 
-  set_engine("kernlab") %>% 
-  set_mode("classification")
+
+rf_spec_new <- rand_forest(
+  mtry = tune(),
+  trees = 1000,
+  min_n = tune()
+) %>%
+  set_mode("classification") %>%
+  set_engine("ranger")
+
+
 
 # workflow
 cr_workflow <- workflow() %>% 
@@ -100,7 +236,7 @@ cr_workflow <- workflow() %>%
 
 # random forest
 rf_results <- cr_workflow %>% 
-  add_model(rf_spec) %>% 
+  add_model(rf_spec_new) %>% 
   fit_resamples(
     resamples = folds,
     metrics = metric_set(roc_auc, accuracy, sens, spec),
@@ -109,6 +245,46 @@ rf_results <- cr_workflow %>%
 collect_metrics(rf_results) 
 conf_mat_resampled(rf_results)
   
+
+  
+  
+
+
+
+
+
+
+###############################################################################
+# Evaluate models  
+###############################################################################
+
+knn_res <- fit_resamples(
+  children ~ .,
+  knn_spec,
+  validation_splits,
+  control = control_resamples(save_pred = TRUE)
+)
+
+knn_res %>%
+  collect_metrics()
+
+
+
+
+
+
+
+
+
+
+
+
+# support vector machine
+svm_spec <- svm_rbf(cost = 0.5) %>% 
+  set_engine("kernlab") %>% 
+  set_mode("classification")
+
+
 # support vector machine
 svm_results <- cr_workflow %>% 
   add_model(svm_spec) %>% 
@@ -119,9 +295,15 @@ svm_results <- cr_workflow %>%
   )
 collect_metrics(svm_results) 
 conf_mat_resampled(svm_results)  
-  
-  
-  
+
+
+
+
+
+
+
+
+
 
 
 ###############################################################################

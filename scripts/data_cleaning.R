@@ -563,16 +563,27 @@ Speakers <- Speakers %>% add_row(Speaker = "patrick rothfuss", total_words = 2)
 # Now, the list to be edited contains only 91 and the list of speakers
 # already identified is 351.
 
+# create data frame for all miss spellings per actor - this is used in the 
+# blog for counting amount of mis spells by volunteers
+miss_spells <- data.frame(Speaker = NA, total_words = NA, Actor = NA) 
+
+
 # --- Ashley
 Ashley <- unique %>% filter(grepl("^ash", Speaker) |
   grepl("^ahs", Speaker))
 # Merge / drop
+miss_spells <- bind_rows(miss_spells,Ashley) %>% 
+  filter(!is.na(Speaker)) %>% 
+  mutate(Actor = replace(Actor,is.na(Actor), "Ashley"))
+
 Speakers <- bind_rows(Speakers, Ashley)
 unique <- anti_join(unique, Ashley, by = "Speaker")
 rm(Ashley)
 
 # --- Grog (logic follows Ashley's)
 Grog <- unique %>% filter(grepl("gorg", Speaker))
+miss_spells <- bind_rows(miss_spells,Grog) %>% 
+  mutate(Actor = replace(Actor,is.na(Actor), "Grog"))
 Speakers <- bind_rows(Speakers, Grog)
 unique <- anti_join(unique, Grog, by = "Speaker")
 rm(Grog)
@@ -582,6 +593,8 @@ Laura <- unique %>% filter(grepl("larua", Speaker) |
   grepl("lauar", Speaker) |
   grepl("laura:", Speaker) |
   grepl("laura", Speaker))
+miss_spells <- bind_rows(miss_spells,Laura) %>% 
+  mutate(Actor = replace(Actor,is.na(Actor), "Laura"))
 Speakers <- bind_rows(Speakers, Laura)
 unique <- anti_join(unique, Laura, by = "Speaker")
 rm(Laura)
@@ -593,18 +606,24 @@ Marisha <- Marisha %>% filter(
   Speaker != "mark",
   Speaker != "margrim"
 )
+miss_spells <- bind_rows(miss_spells,Marisha) %>% 
+  mutate(Actor = replace(Actor,is.na(Actor), "Marisha"))
 Speakers <- bind_rows(Speakers, Marisha)
 unique <- anti_join(unique, Marisha, by = "Speaker")
 rm(Marisha)
 
 # --- Matt (logic follows Ashley's)
 Matt <- unique %>% filter(grepl("^mat", Speaker))
+miss_spells <- bind_rows(miss_spells,Matt) %>% 
+  mutate(Actor = replace(Actor,is.na(Actor), "Matt"))
 Speakers <- bind_rows(Speakers, Matt)
 unique <- anti_join(unique, Matt, by = "Speaker")
 rm(Matt)
 
 # --- Orion (logic follows Ashley's)
 Orion <- unique %>% filter(grepl("^or", Speaker))
+miss_spells <- bind_rows(miss_spells,Orion) %>% 
+  mutate(Actor = replace(Actor,is.na(Actor), "Orion"))
 Speakers <- bind_rows(Speakers, Orion)
 unique <- anti_join(unique, Orion, by = "Speaker")
 rm(Orion)
@@ -612,7 +631,8 @@ rm(Orion)
 # --- Sam (logic follows Ashley's)
 Sam <- unique %>% filter(grepl("sma", Speaker) |
   grepl("sam ", Speaker))
-
+miss_spells <- bind_rows(miss_spells,Sam) %>% 
+  mutate(Actor = replace(Actor,is.na(Actor), "Sam"))
 Speakers <- bind_rows(Speakers, Sam)
 unique <- anti_join(unique, Sam, by = "Speaker")
 rm(Sam)
@@ -620,6 +640,8 @@ rm(Sam)
 # --- Taliesin (logic follows Ashley's)
 Taliesin <- unique %>% filter(grepl("^tal", Speaker) |
   grepl("^tai", Speaker))
+miss_spells <- bind_rows(miss_spells,Taliesin) %>% 
+  mutate(Actor = replace(Actor,is.na(Actor), "Taliesin"))
 Speakers <- bind_rows(Speakers, Taliesin)
 unique <- anti_join(unique, Taliesin, by = "Speaker")
 rm(Taliesin)
@@ -627,24 +649,32 @@ rm(Taliesin)
 # --- Travis (logic follows Ashley's)
 Travis <- unique %>% filter(grepl("^ta", Speaker) |
   grepl("^tra", Speaker))
+miss_spells <- bind_rows(miss_spells,Travis) %>% 
+  mutate(Actor = replace(Actor,is.na(Actor), "Travis"))
 Speakers <- bind_rows(Speakers, Travis)
 unique <- anti_join(unique, Travis, by = "Speaker")
 rm(Travis)
 
 # --- Vax (logic follows Ashley's)
 Vax <- unique %>% filter(grepl("vax", Speaker))
+miss_spells <- bind_rows(miss_spells,Vax) %>% 
+  mutate(Actor = replace(Actor,is.na(Actor), "Vax"))
 Speakers <- bind_rows(Speakers, Vax)
 unique <- anti_join(unique, Vax, by = "Speaker")
 rm(Vax)
 
 # --- Vex (logic follows Ashley's)
 Vex <- unique %>% filter(grepl("vex", Speaker))
+miss_spells <- bind_rows(miss_spells,Vex) %>% 
+  mutate(Actor = replace(Actor,is.na(Actor), "Vex"))
 Speakers <- bind_rows(Speakers, Vex)
 unique <- anti_join(unique, Vex, by = "Speaker")
 rm(Vex)
 
 # --- Liam (logic follows Ashley's)
 Liam <- unique %>% filter(grepl("liam ", Speaker))
+miss_spells <- bind_rows(miss_spells,Liam) %>% 
+  mutate(Actor = replace(Actor,is.na(Actor), "Liam"))
 Speakers <- bind_rows(Speakers, Liam)
 unique <- anti_join(unique, Liam, by = "Speaker")
 rm(Liam)
@@ -678,6 +708,8 @@ rm(words)
 # --- Guest: Jore (ep. 17)
 Jore <- unique %>% filter(grepl("jore", Speaker) |
   grepl("jroe", Speaker))
+miss_spells <- bind_rows(miss_spells,Jore) %>% 
+  mutate(Actor = replace(Actor,is.na(Actor), "Jore"))
 Speakers <- bind_rows(Speakers, Jore)
 unique <- anti_join(unique, Jore, by = "Speaker")
 rm(Jore)
@@ -685,6 +717,8 @@ rm(Jore)
 # --- Guest: Brian
 Brian <- unique %>% filter(grepl("brain", Speaker) |
   grepl("brian", Speaker))
+miss_spells <- bind_rows(miss_spells,Brian) %>% 
+  mutate(Actor = replace(Actor,is.na(Actor), "Brian"))
 Speakers <- bind_rows(Speakers, Brian)
 unique <- anti_join(unique, Brian, by = "Speaker")
 rm(Brian)
@@ -692,12 +726,16 @@ rm(Brian)
 # --- Producer: Zac
 Zac <- unique %>% filter(grepl("zack", Speaker) |
   grepl("zac", Speaker))
+miss_spells <- bind_rows(miss_spells,Zac) %>% 
+  mutate(Actor = replace(Actor,is.na(Actor), "Zac"))
 Speakers <- bind_rows(Speakers, Zac)
 unique <- anti_join(unique, Zac, by = "Speaker")
 rm(Zac)
 
 # NPC: Giles
 Giles <- unique %>% filter(grepl("gile", Speaker))
+miss_spells <- bind_rows(miss_spells,Giles) %>% 
+  mutate(Actor = replace(Actor,is.na(Actor), "Giles"))
 Speakers <- bind_rows(Speakers, Giles)
 unique <- anti_join(unique, Giles, by = "Speaker")
 rm(Giles)
@@ -742,6 +780,14 @@ rm(unique, phrases)
 
 # delete duplicates
 Speakers <- unique(Speakers)
+
+miss_spells <- miss_spells %>% 
+  mutate(miss_spells = Speaker) %>% 
+  mutate(Actor = tolower(Actor)) %>% 
+  mutate(Speaker = str_trim(Speaker)) %>% 
+  mutate(Speaker = str_squish(Speaker)) %>% 
+  filter(Speaker!= Actor) %>% 
+  unique()
 
 
 ###############################################################################
@@ -1073,6 +1119,73 @@ unique <- unique %>%
 # list of unique Actors:
 unique <- distinct(select(unique, Actor))
 
+
+###############################################################################
+### count number miss spells for graph
+###############################################################################
+
+# why seperate? if you compare the unique and the miss_spells data frame, you
+# see that many miss spells contain also "spelling:" and "spelling :", however this
+# is irrelevant for number of miss spelllings
+
+# add spelling + : & + " :" + names to lower and then loop
+miss_spells <- miss_spells %>% 
+  mutate(Speaker = str_c(Speaker," ", sep = "")) %>% 
+  rbind(miss_spells)
+
+miss_spells <- miss_spells %>% 
+  mutate(Speaker = str_c(Speaker,":", sep = "")) %>% 
+  rbind(miss_spells)
+
+miss_spells <- miss_spells %>% 
+  mutate(count = NA) %>% 
+  arrange(Actor)
+
+list <- as.list(miss_spells$Speaker)
+
+# get number of occurences per miss spelling
+for(miss_spelling in list){
+
+spelling <- miss_spelling  
+
+miss_spells <- miss_spells %>% 
+  mutate(count = replace(count,
+                         Speaker == paste(spelling) ,
+                         length(which(clean$Actor ==  paste(spelling))) 
+                         ))
+                  
+}
+
+# keep full list for extracting speakers
+all_miss_typings <- miss_spells
+
+# delete ":" and see if equal cause then no miss spelling
+# drop if equal (guest problem)
+miss_spells <- miss_spells %>% 
+  mutate(Speaker = str_replace(Speaker,":", "")) %>%
+  mutate(Speaker = str_replace(Speaker," ", "")) %>%
+  filter(Speaker != Actor) %>% 
+  filter(Speaker != "brian") %>% 
+  filter(Speaker != "jore")
+
+
+# get number of miss spellings and how many different miss spellings
+miss_spells <- miss_spells %>% 
+  group_by(Actor) %>% 
+  mutate(amount_miss_spellings = sum(count)) 
+
+# get number of occurences per miss spelling
+miss_spells <- miss_spells %>% 
+  filter(count>0) %>% 
+  count() %>% 
+  rename(types_miss_spellings = n) %>% 
+  right_join(miss_spells, by="Actor") %>% 
+  select(Actor,amount_miss_spellings,types_miss_spellings) %>%
+  ungroup() %>% 
+  unique() 
+
+# export miss spells:
+write.csv(miss_spells, "./data/clean_data/miss_spells.csv", row.names = FALSE)
 
 
 ###############################################################################

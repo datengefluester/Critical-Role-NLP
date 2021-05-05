@@ -1,0 +1,22 @@
+ ############## 815, 770
+
+clean <- clean %>% 
+  rowwise() %>% 
+  mutate(actual_text_1 = replace(actual_text_1,
+                                 is.na(actual_text_1),
+                                 actual_text_2)) %>%  
+  mutate(actual_text_2 = replace(actual_text_2, 
+                                 actual_text_1==actual_text_2, 
+                                 NA))
+                                 
+                                 
+                                 
+                                 Added: 
+- dice rolls
+- face palms
+
+Changed: 
+- file names for some raw data
+- variable names
+
+Run through: styler for consisting formatting

@@ -12,13 +12,18 @@ library(tm)
 library(tidytext)
 # for grade scores
 library(quanteda)
+# text log odds
+library(tidylo)
+# sentiment analysis
+library(sentimentr)
 
 ###############################################################################
 # Get Data
 ###############################################################################
 
-# read in data
-data <- read.csv(file = "./data/clean_data/clean_full.csv")
+# read in data but drop episode 12 as this a tipps and tricks episode and no cannon
+data <- read.csv(file = "./data/clean_data/clean_full.csv") %>% filter(episode != 12)
+
 
 # rename Actor: as this files creates graphs, it's nicer to have not every
 # character capitalized
@@ -28,7 +33,7 @@ data <- data %>% mutate(
 )
 
 
-# split if actors say the same thing (e.g. ASHLEY AND LAURA: that's great into
+# split if actors say the same thing (e.g. ASHLEY AND LAURA: that's great ->
 # ASHLEY: that's great ; LAURA: that's great)
 individual_cast_member <- data %>%
   mutate(actor_guest = strsplit(as.character(actor_guest), " And ")) %>%
@@ -62,6 +67,25 @@ write.csv(combat_rp_arc,
           row.names = FALSE
 )
 
+
+###############################################################################
+# Miss spellings
+###############################################################################
+
+miss_spells <- read.csv(file = "./data/clean_data/miss_spells.csv")
+
+miss_spells <- miss_spells %>%
+  filter(Actor != "zac") %>% 
+  mutate(Actor = str_to_sentence(Actor)) %>% 
+  pivot_longer(!Actor, 
+               names_to = "miss_spelling", 
+               values_to = "count") %>% 
+  mutate(miss_spelling = str_replace_all(miss_spelling,"_", " "))
+
+write.csv(miss_spells,
+          "./data/data_for_graphs/miss_spells.csv",
+          row.names = FALSE
+)
 
 ###############################################################################
 # Attendance
@@ -119,42 +143,27 @@ write.csv(actor_words_time,
 # Top Words 5 per Actor
 ###############################################################################
 
-# amounts of words spoken in total per actor
-total_words <- actor_words_time %>% 
-  select(actor_guest, words) %>% 
-  rename(total_words = words)
-
-# delete words, which are not really telling like stopwords, puncutation etc.
-top_words_actor <- individual_split_words
-# Remove english common stopwords
-top_words_actor$word <- removeWords(top_words_actor$word, stopwords("english"))
-# Remove punctuation
-top_words_actor$word <- removePunctuation(top_words_actor$word)
-# Eliminate extra white spaces
-top_words_actor$word <- stripWhitespace(top_words_actor$word)
-# Drop rows, which contained words, which were dropped in previous steps
-top_words_actor <- top_words_actor %>% filter(word != "")
-
-# export for word cloud later on:
-word_cloud <- top_words_actor %>% select(word)
-
-# top 5 words per actor
-top_words_actor <- top_words_actor %>%
+# log odds 
+top_words_actor <- individual_cast_member %>%
   filter(staff != 1 )  %>%
-  group_by(actor_guest, word) %>%
-  count() %>%
-  group_by(actor_guest) %>%
-  slice_max(n, n = 5) %>%
+  unnest_tokens(word, text) %>%
+  count(actor_guest, word) %>%
+  bind_log_odds(actor_guest, word, n) %>%
+  arrange(-log_odds_weighted) %>% 
+  group_by(actor_guest) %>% 
+  top_n(5,log_odds_weighted) %>% 
   rename(count = n)
 
-# add total words
-top_words_actor <- top_words_actor %>%
-  left_join(., total_words, by = "actor_guest") %>%
+# amounts of words spoken in total per actor
+top_words_actor <- individual_cast_member %>%
+  filter(staff != 1 )  %>%
+  unnest_tokens(word, text) %>%
+  count(actor_guest, word) %>% 
+  group_by(actor_guest) %>% 
+  summarise(total_words = sum(n)) %>%
+  right_join(top_words_actor,., by = "actor_guest") %>% 
   mutate(percent = (count / total_words) * 100) %>% 
   rename(actor = actor_guest)
-
-# remove not needed data frame
-rm(total_words)
 
 # export data frame
 write.csv(top_words_actor,
@@ -264,19 +273,22 @@ write.csv(network,
 
 
 ###############################################################################
-# Heat Map
+# Network graph: Same thought
 ###############################################################################
 
 # select text spoken by actor simultaneously 
-multiple_speaker <- data %>%
+same_thought <- data %>%
   filter(staff != 1) %>%
   select(actor_guest) %>%
   filter(grepl("And", actor_guest))
 
+
+
+
 # get number of words in speaker row as this indicates how many speaker are in 
 # in the row
-multiple_speaker$total_words <- sapply(
-  multiple_speaker$actor_guest,
+same_thought$total_words <- sapply(
+  same_thought$actor_guest,
   function(x) {
     length(unlist(
       strsplit(as.character(x), "\\W+")
@@ -285,12 +297,12 @@ multiple_speaker$total_words <- sapply(
 )
 
 # only two speakers already
-heatmap <- multiple_speaker %>%
+same_thought_network <- same_thought %>%
   filter(total_words == 3) %>%
   select(actor_guest)
 
 # three speakers
-heatmap <- multiple_speaker %>%
+same_thought_network <- same_thought %>%
   filter(total_words == 5) %>%
   mutate(first = word(actor_guest, start = 1, end = 3)) %>%
   mutate(second = word(actor_guest, start = 3, end = 5)) %>%
@@ -305,10 +317,10 @@ heatmap <- multiple_speaker %>%
                values_to = "actor_guest"
   ) %>%
   select(actor_guest) %>%
-  bind_rows(., heatmap)
+  bind_rows(., same_thought_network)
 
 # four speakers
-heatmap <- multiple_speaker %>%
+same_thought_network <- same_thought %>%
   filter(total_words == 7) %>%
   mutate(first = word(actor_guest, start = 1, end = 3)) %>%
   mutate(second = word(actor_guest, start = 3, end = 5)) %>%
@@ -334,19 +346,19 @@ heatmap <- multiple_speaker %>%
                values_to = "actor_guest"
   ) %>%
   select(actor_guest) %>%
-  bind_rows(., heatmap)
+  bind_rows(., same_thought_network)
 
 # clean up
-rm(multiple_speaker)
+rm(same_thought)
 
 # same order for speaker
-heatmap$actor_guest <- unname(sapply(heatmap$actor_guest, function(x) {
+same_thought_network$actor_guest <- unname(sapply(same_thought_network$actor_guest, function(x) {
   paste(sort(trimws(strsplit(x[1], " And ")[[1]])), collapse = " And ")
 }))
 
 
 # split after And
-heatmap <- heatmap %>%
+same_thought_network <- same_thought_network %>%
   separate(actor_guest, c("actor1", "actor2"),
            sep = " And ",
            fill = "left", remove = TRUE, extra = "merge"
@@ -357,18 +369,27 @@ heatmap <- heatmap %>%
   filter(occurrence != 1)
 
 # add variable for ordering the rows
-heatmap <- data.frame(
+same_thought_network <- data.frame(
   actor1 = c(
     "Guests", "Ashley", "Laura", "Liam", "Marisha", "Matt",
     "Orion", "Sam", "Taliesin"
   ),
   order = c(1, 2, 3, 4, 5, 6, 7, 8, 9)
 ) %>%
-  right_join(., heatmap)
+  right_join(., same_thought_network, by = "actor1") %>% 
+  filter(actor1 != actor2) %>% 
+  select(-order) %>% 
+  mutate(
+    actor1 = str_to_title(actor1),
+    actor2 = str_to_title(actor2)
+  ) %>%
+  rename(from = actor1, to = actor2, weights = occurrence) %>%
+  mutate(type = "hyperlink") %>%
+  mutate(weights = replace(weights, is.na(weights), 1)) 
 
 # export data frame
-write.csv(heatmap,
-          "./data/data_for_graphs/heatmap.csv",
+write.csv(same_thought_network,
+          "./data/data_for_graphs/same_thought_network.csv",
           row.names = FALSE
 )
 
@@ -377,159 +398,102 @@ write.csv(heatmap,
 # Sentiment Analysis 
 ###############################################################################
 
-sentiment_data <- individual_cast_member %>%
-  filter(staff != 1) %>%
-  unnest_tokens(word, text)
-
-sentiment_data <- sentiment_data %>%
-  inner_join(get_sentiments("afinn")) %>%
-  inner_join(get_sentiments("bing")) %>%
-  rename(
-    afinn_sentiment = value,
-    bing_sentiment = sentiment
-  ) %>%
-  mutate(bing_sentiment = recode(bing_sentiment,
-                                 negative = -1,
-                                 positive = 1
-  ))
 
 
+sentences_sentiment <- data %>% 
+  rename(number_words = word_count) %>% 
+  get_sentences(text) %>% 
+  sentiment() 
+
+# by arc
+sentiment_by_arc <- sentences_sentiment %>% 
+  group_by(arc) %>% 
+  summarise(mean_sentiment = mean(sentiment),
+            sd_sentiment = sd(sentiment))
+
+# export data frame
+write.csv(sentiment_by_arc,
+            "./data/data_for_graphs/sentiment_by_arc.csv",
+          row.names = FALSE
+)
 
 
-###############################################################################
-# Sentiment Episodes
-###############################################################################
+# by actor
+sentiment_by_actor <- sentences_sentiment %>% 
+  mutate(actor_guest = str_replace(actor_guest, ",", " And ")) %>% 
+  mutate(actor_guest = strsplit(as.character(actor_guest), " And ")) %>%
+  unnest(actor_guest) %>% 
+  group_by(actor_guest) %>% 
+  summarise(mean_sentiment = mean(sentiment),
+            sd_sentiment = sd(sentiment))
 
-sentiment_episodes <- sentiment_data %>%
-  group_by(episode, arc, arc_no) %>%
-  summarise_at(vars(bing_sentiment, afinn_sentiment),
-               list(sum = sum),
-               na.rm = TRUE
-  )
+# export data frame
+write.csv(sentiment_by_actor,
+          "./data/data_for_graphs/sentiment_by_actor.csv",
+          row.names = FALSE
+)
+
+
+# by episode  
+sentiment_by_episode <- sentences_sentiment %>% 
+  group_by(episode) %>% 
+  summarise(mean_sentiment = mean(sentiment),
+            sd_sentiment = sd(sentiment))
 
 
 # add dice rolls
 dice_pc_1 <- read.csv(file = "./data/clean_data/dice_pc_1.csv")
-sentiment_episodes <- dice_pc_1 %>% 
+sentiment_by_episode <- dice_pc_1 %>% 
   group_by(episode) %>% 
   tally() %>% 
   rename(pc_1 = n) %>% 
-  left_join(sentiment_episodes,.)
+  left_join(sentiment_by_episode,. , by = "episode")
 
 
 dice_pc_20 <- read.csv(file = "./data/clean_data/dice_pc_20.csv")
-sentiment_episodes <- dice_pc_20 %>% 
+sentiment_by_episode <- dice_pc_20 %>% 
   group_by(episode) %>% 
   tally() %>% 
   rename(pc_20 = n) %>% 
-  left_join(sentiment_episodes,.)
+  left_join(sentiment_by_episode,., by = "episode")
 
 
 dice_dm_1 <- read.csv(file = "./data/clean_data/dice_dm_1.csv")
-sentiment_episodes <- dice_dm_1 %>% 
+sentiment_by_episode <- dice_dm_1 %>% 
   group_by(episode) %>% 
   tally() %>% 
   rename(dm_1 = n) %>% 
-  left_join(sentiment_episodes,.)
+  left_join(sentiment_by_episode,., by = "episode")
 
 dice_dm_20 <- read.csv(file = "./data/clean_data/dice_dm_20.csv")
-sentiment_episodes <- dice_dm_20 %>% 
+sentiment_by_episode <- dice_dm_20 %>% 
   group_by(episode) %>% 
   tally() %>% 
   rename(dm_20 = n) %>% 
-  left_join(sentiment_episodes,.)
+  left_join(sentiment_by_episode,., by = "episode")
 
 
 face_palms <- read.csv(file = "./data/clean_data/face_palms.csv")
-sentiment_episodes <- face_palms %>% 
+sentiment_by_episode <- face_palms %>% 
   group_by(episode) %>% 
   tally() %>% 
   rename(face_palms = n) %>% 
-  left_join(sentiment_episodes,.) %>% 
+  left_join(sentiment_by_episode,., by = "episode") %>% 
   replace(is.na(.), 0)
 
-# export data frame
-write.csv(sentiment_episodes,
-          "./data/data_for_graphs/sentiment_episodes.csv",
-          row.names = FALSE
-)
-
-
-
-
-
-
-
-###############################################################################
-# Sentiment per Arc
-###############################################################################
-
-sentiment_arc <- sentiment_episodes %>%
-  group_by(arc, arc_no) %>%
-  summarise_at(vars(bing_sentiment_sum, afinn_sentiment_sum),
-               list(mean = mean, sd = sd),
-               na.rm = TRUE) %>% 
-  mutate(arc = str_replace(arc,"_","")) %>%
-  rename(
-    bing_sentiment_mean = bing_sentiment_sum_mean,
-    bing_sentiment_sd = bing_sentiment_sum_sd,
-    afinn_sentiment_mean = afinn_sentiment_sum_mean,
-    afinn_sentiment_sd = afinn_sentiment_sum_sd,
-  )
-
-# export data frame
-write.csv(sentiment_arc,
-          "./data/data_for_graphs/sentiment_arc.csv",
-          row.names = FALSE
-)
-
-
-###############################################################################
-# Sentiment per Actor
-###############################################################################
-
-# prepare data
-sentiment_actor <- sentiment_data %>%
-  filter(staff != 1) %>%
-  group_by(actor_guest) %>%
-  summarise_at(vars(bing_sentiment, afinn_sentiment),
-               list(sum = sum),
-               na.rm = TRUE
-  ) %>% 
-  rename(actor = actor_guest)
-
-
-sentiment_actor <- dice_pc_1 %>% 
-  group_by(actor) %>% 
-  tally() %>% 
-  rename(pc_1 = n) %>% 
-  left_join(sentiment_actor,.)
-
-sentiment_actor <- dice_pc_20 %>% 
-  group_by(actor) %>% 
-  tally() %>% 
-  rename(pc_20 = n) %>% 
-  left_join(sentiment_actor,.)
+# Ashley
+sentiment_by_episode <- read.csv(file = "./data/clean_data/attendance.csv") %>% 
+  select(Episode, Ashley) %>% 
+  rename(episode = Episode) %>% 
+  left_join(sentiment_by_episode, . , by = "episode")
 
 
 # export data frame
-write.csv(sentiment_actor,
-          "./data/data_for_graphs/sentiment_actor.csv",
+write.csv(sentiment_by_episode,
+          "./data/data_for_graphs/sentiment_by_episode.csv",
           row.names = FALSE
 )
 
-
-###############################################################################
-# Word cloud
-###############################################################################
-
-word_cloud <- word_cloud %>%  group_by(word) %>% count(word, sort = TRUE)
-
-# export data frame
-write.csv(word_cloud,
-          "./data/data_for_graphs/word_cloud.csv",
-          row.names = FALSE
-)
 
 ###############################################################################
 # clear console
