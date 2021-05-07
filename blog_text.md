@@ -1,51 +1,55 @@
-# Critical Graphs: Some Shenanigans with Critical Role Season 1 subtitles and other data
+# Critical Graphs: Shenanigans with Critical Role Season 1 subtitles
 
-“\[…\] It’s your turn to roll.” It’s with that phrase that many of the
-episodes of Critical Role start. What is Critical Role you ask? To use
-their words: It’s a bunch of nerdy ass voice actors, who sit around and
-play dungeons and dragons. And they are successful at that. Thousands
-around the world tune in to watch them live and millions view their
-shenanigans on Youtube. What makes it unique is that nothing is
-scripted. There is nobody writing out an episode beforehand. Everything
-is possible and only happens in the imagination of the players and the
-viewers. Whatever happens is up to the players and dice rolls to decide.
-That’s what makes it so intriguing to watch. It also makes it
-interesting for some nerdy ass data analyses. So lets do these here. But
-be aware: spoilers ahead.
+“\[…\] now it’s your turn to roll.” It’s with these lyrics that many of
+the episodes of Critical Role start. What is Critical Role you ask? To
+use their words: it’s a bunch of nerdy ass voice actors, who sit around
+and play dungeons and dragons. And they are quite successful at that.
+Thousands around the world tune in to watch them live and millions view
+their shenanigans later on Youtube. What makes the show unique is that
+nothing is scripted. Nobody writing out an episode beforehand. Whatever
+happens is up to the players and the dice to decide. Everything is
+possible and only happens in the imagination of the players and the
+viewers. That’s what makes it so intriguing to watch. It also makes it
+interesting for some nerdy ass data analyses. So lets do these here. Be
+aware: spoilers ahead.
 
 The first question for every data analysis is the question of which data
 to use. Luckily, the community provided subtitles for every episode of
 the first season. These can be used to create the data. For example, a
 typical episode might start with the game master Metthew Mercer saying:
 “Hello everybody and good evening. Welcome to Critical Role \[…\]”. In
-the subtitle file this looks as follows:
+the subtitles this may look as follows:
 
 > 00:00:00,500 –&gt; 00:00:04,043 MATT: Hello, everyone and good
 > evening. Welcome to Critical Role, a show where a bunch of us
 
-Where the numbers indicate the time a subtitle is shown on the screen.
+where the numbers indicate the time a subtitle is shown on the screen.
 Doing some data manipulation this can be turned this into some nicer
-format. At this point I should mention that I am not the first to create
-a data set using the data. Rameshkumar and Bailey (2020) used the data
-in a published paper already. However, while it includes some additional
-information compared to my data set, it omits the time dimension of the
-data. Also creating my own data set served as a good practice in data
-cleaning for myself.
+format. However, as the subtitles were written by volunteers, not
+everybody followed the same naming convention for the person speaking.
+For example, when the game master is acting as a character, this could
+be written in the subtitles as the character’s or his name (Matt). The
+same applies to the player, who sometimes are referred to by their name
+and sometimes by their character’s name. Additionally, as is inevitable
+when typing out lengthy (an average episode is 3.5 hours long) and at
+times quickly spoken text, people make mistakes. Which brings us to the
+first interesting question to ask: which actor got misspelled the most?
 
-As the subtitles were written by volunteers, not everybody followed the
-same naming convention for the person speaking. For example, if the game
-master is speaking as an NPC, this could be written in the subtitles as
-the name of the NPC or as Matt. Additionally, as is inevitable when
-typing out such a lengthy and quickly spoken text, people make mistakes.
-Which brings us to the first interesting question to ask: which actor
-got misspelled the most in the subtitles?
+    miss_spells <- read.csv(file = "./data/data_for_graphs/miss_spells.csv")
 
 The person, who got miss spelled the most was Marisha Ray. These
-include, for example, Marishaia or Marishaaaa.
+include, for example, Marishaia or Marishaaaa. However, she was not
+alone in this fate. Other actors also got miss spelled. For example
+Travis Willingham, playing a character named Grog, often got miss
+spelled as ‘tavis’ or as ‘gorg’. Similarly, Taliesin Jaffe, sharing a
+fate with Marisha for a more unusual name, got miss spelled some times.
+Yet, taken together the amount of miss spells for all of the subtitles
+is astonishingly low. In all 114 episodes and a run time of roughly XXX
+hours the total amount of miss spells is only 155.
 
 ![](output/images/blog_text_figs/miss_spellings-1.png)
 
-However, not everybody has the same chance to be misspelled. The direct
+Still, not everybody has the same chance to be misspelled. The direct
 comparison may be unfair for two reasons: first, not every actor was
 present for all episodes. Second, not every actor spoke for the same
 amount of time. While Matt, as the game master has to be present for
@@ -233,7 +237,14 @@ the Chroma Conclave Thordak, in which Gilmore is badly wounded.
 
     ## `geom_smooth()` using formula 'y ~ x'
 
-Acknowledgements
+At this point I should mention that I am not the first to create a data
+set using the data. Rameshkumar and Bailey (2020) used the data in a
+published paper already. However, while it includes some additional
+information compared to my data set, it omits the time dimension of the
+data. Also creating my own data set served as a good practice in data
+cleaning for myself.
+
+### Acknowledgements
 
 -   [Critical Role](https://critrole.com/team/)
 

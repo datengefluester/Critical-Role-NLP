@@ -30,19 +30,21 @@ source("./scripts/themes.R")
 
 ```
 
-# Critical Graphs: Some Shenanigans with Critical Role Season 1 subtitles and other data
+# Critical Graphs: Shenanigans with Critical Role Season 1 subtitles
 
-"[...] It's your turn to roll." It's with that phrase that many of the episodes of Critical Role start. What is Critical Role you ask? To use their words: It's a bunch of nerdy ass voice actors, who sit around and play dungeons and dragons. And they are successful at that. Thousands around the world tune in to watch them live and millions view their shenanigans later on Youtube. What makes it unique is that nothing is scripted. There is nobody writing out an episode beforehand. Everything is possible and only happens in the imagination of the players and the viewers. Whatever happens is up to the players and dice rolls to decide. That's what makes it so intriguing to watch. It also makes it interesting for some nerdy ass data analyses. So lets do these here. But be aware: spoilers ahead.
+"[...] now it's your turn to roll." It's with these lyrics that many of the episodes of Critical Role start. What is Critical Role you ask? To use their words: it's a bunch of nerdy ass voice actors, who sit around and play dungeons and dragons. And they are quite successful at that. Thousands around the world tune in to watch them live and millions view their shenanigans later on Youtube. What makes the show unique is that nothing is scripted. Nobody writing out an episode beforehand. Whatever happens is up to the players and the dice to decide. Everything is possible and only happens in the imagination of the players and the viewers. That's what makes it so intriguing to watch. It also makes it interesting for some nerdy ass data analyses. So lets do these here. Be aware: spoilers ahead.
 
-The first question for every data analysis is the question of which data to use. Luckily, the community provided subtitles for every episode of the first season. These can be used to create the data. For example, a typical episode might start with the game master Metthew Mercer saying: "Hello everybody and good evening. Welcome to Critical Role [...]". In the subtitle file this looks as follows:
+The first question for every data analysis is the question of which data to use. Luckily, the community provided subtitles for every episode of the first season. These can be used to create the data. For example, a typical episode might start with the game master Metthew Mercer saying: "Hello everybody and good evening. Welcome to Critical Role [...]". In the subtitles this may look as follows:
 
 > 00:00:00,500 --\> 00:00:04,043 MATT: Hello, everyone and good evening. Welcome to Critical Role, a show where a bunch of us
 
-Where the numbers indicate the time a subtitle is shown on the screen. Doing some data manipulation this can be turned this into some nicer format. At this point I should mention that I am not the first to create a data set using the data. Rameshkumar and Bailey (2020) used the data in a published paper already. However, while it includes some additional information compared to my data set, it omits the time dimension of the data. Also creating my own data set served as a good practice in data cleaning for myself.
+where the numbers indicate the time a subtitle is shown on the screen. Doing some data manipulation this can be turned this into some nicer format. However, as the subtitles were written by volunteers, not everybody followed the same naming convention for the person speaking. For example, when the game master is acting as a character, this could be written in the subtitles as the character's or his name (Matt). The same applies to the player, who sometimes are referred to by their name and sometimes by their character's name. Additionally, as is inevitable when typing out lengthy (an average episode is 4 hours long) and at times quickly spoken text, people make mistakes. Which brings us to the first interesting question to ask: which actor got misspelled the most?
 
-As the subtitles were written by volunteers, not everybody followed the same naming convention for the person speaking. For example, if the game master is speaking as an NPC, this could be written in the subtitles as the name of the NPC or as Matt. Additionally, as is inevitable when typing out such a lengthy and quickly spoken text, people make mistakes. Which brings us to the first interesting question to ask: which actor got misspelled the most in the subtitles?
+```{r}
+miss_spells <- read.csv(file = "./data/data_for_graphs/miss_spells.csv")
+```
 
-The person, who got miss spelled the most was Marisha Ray. These include, for example, Marishaia or Marishaaaa.
+The person, who got miss spelled the most was Marisha Ray. These include, for example, Marishaia or Marishaaaa. However, she was not alone in this fate. Other actors also got miss spelled. For example Travis Willingham, playing a character named Grog, often got miss spelled as 'tavis' or as 'gorg'. Similarly, Taliesin Jaffe, sharing a fate with Marisha for a more unusual name, got miss spelled some times. Yet, taken together the amount of miss spells for all of the subtitles is astonishingly low. Over 114 episodes and a run time of roughly 475 hours the total amount of miss spells is only `r sum(miss_spells$count)`.
 
 ```{r miss_spellings, echo = FALSE}
 miss_spells <- read.csv(file = "./data/data_for_graphs/miss_spells.csv")
@@ -77,9 +79,9 @@ miss_spells %>%
 ggsave("./output/images/graphs/miss_spells.jpg", width = 4, height = 3)
 ```
 
-However, not everybody has the same chance to be misspelled. The direct comparison may be unfair for two reasons: first, not every actor was present for all episodes. Second, not every actor spoke for the same amount of time. While Matt, as the game master has to be present for every episode and has to describe elaborate scenery, other actors can be give short answers or sit out an episode. So let's look of both of these numbers in turn.
+Still, not everybody has the same chance of being misspelled. The direct comparison may be unfair for two reasons: first, not every actor was present for all episodes. Second, not every actor spoke for the same amount of time. While Matt, as the game master, has to be present for every episode and has to describe elaborate scenery, other actors can be give short answers or sit out an episode. So let's look of both of these numbers in turn.
 
-Looking at the attendance by the players some difference become apparent. First of all, it becomes obvious that most players are also present most of the time. Out of the eight players, five didn't miss more than 5 episodes. Additionally, Sam Riegel only missed 9. Meanwhile, Ashley Johnson didn't even attend half of the episodes. Likewise, Orion Acaba did only participate in every fifth episode. The main reason for the absence of the latter is the fact that he dropped out of the project after only a little more than 25 episodes were filmed. Hence, it seems reasonable that both Ashley and Orion got misspelled less compared to the rest of the cast. Additionally, it shows that about one in five episodes had guests joining the show.
+Looking at the attendance by the players some difference become apparent. First of all, it becomes apparent that most players were present for nearly all episodes. Out of the eight players, Travis, Laura, Talisien, Marisha and Liam didn't miss more than 5 episodes. Additionally, Sam only missed nine. Meanwhile, Ashley didn't even attend half of the episodes. Likewise, Orion did only participate in every fifth episode. The main reason for the absence of the latter is the fact that he dropped out of the project after only a quarter of the episodes were played. Hence, it seems reasonable that both Ashley and Orion got misspelled less compared to many of the other cast members. We can also see that about one in five episodes had guests joining the show.
 
 ```{r attendence, echo = FALSE}
 # read in data
@@ -107,7 +109,9 @@ attendance %>%
 ggsave("./output/pictures/graphs/attendance.jpg", width = 4, height = 3)
 ```
 
-Let's look at the time different actor speak. Looking at the data, it becomes obvious that Matt speaks the most. This hardly is surprising. After all, a game master has to describe how everything looks and feels. Additionally, he has to act out non player characters and their reaction to the actions of the players. Lastly, he has to describe how the actions of the players are playing out in the imaginary world. In total he speaks three quarters of the time and uses fifty percent of all words spoken. Similarly to the misspellings, Marisha tops list in terms of time speaking. However, in terms of words spoken Laura Bailey jumps indicating that she speaks quicker compared to the rest of the cast. Moreover, it becomes obvious that both Ashley and Orion speak around the same amount as all guests of the show combined. However, there is a catch to these numbers. Namely, that not all everything that is said is transcribed in the subtitles. Sometimes many people speak at the same time. In that case not everything is recorded in the subtitles. Moreover, the time people speak can only be seen as a rough estimates. The reason for this is is the fact that it is measured by the time segments of the subtitles are shown. For example, a long description from Matt may span over 30 seconds. These 30 seconds may be split into 5 subtitle segments, which do not incorporate pauses. Additionally, descriptions like "(everybody is laughing)" are dropped and not investigated as spoken text. In total there were roughly 3.7 million words said. This corresponds to 475 hours of conversation or around four hours per episode.
+Let's look at the time different actor speak. Unsurprisingly, Matt speaks the most of the crew. After all, a game master has to describe how everything looks and feels. He has to act out non player characters and their reaction to the actions of the players. Lastly, he has to describe how the actions of the players are playing out in the imaginary world. In total he speaks three quarters of the time and uses fifty percent of all words spoken. Similarly to the misspellings, Marisha tops the list in terms of time speaking compared to the other players. However, in terms of words spoken Laura Bailey uses the most. Given that she also uses significantly less time compared to other cast members, it indicates that she speaks quicker compared to the others. Interestingly, both Ashley and Orion only speak around the same amount as all guests of the show combined.
+
+Still, there is a catch to these numbers in that not everything that is said is transcribed in the subtitles. As is the nature with any pen and paper session, sometimes many people speak at the same time. If that happens only the important parts are shown in the subtitles. The estimated time actors speak is also affected by this This is because the time an actor speaks is measured by time subtitles are shown on the screen for this actor. For example, a long description from Matt may span over 30 seconds. These 30 seconds may be split into 5 subtitle segments, which do not incorporate pauses. Additionally, descriptions like "(everybody is laughing)" are dropped and not investigated as spoken text. In total there were roughly 3.7 million words said.
 
 ```{r time_vs_words, echo = FALSE}
 
@@ -478,7 +482,7 @@ sentiment_episode_graph %>%
 ggsave("./output/pictures/graphs/top_worst_5_episodes.jpg", width = 4, height = 3)
 ```
 
-```{r correlates, echo=FALSE, warning=FALSE}
+```{r correlates, echo=FALSE, warning=FALSE, message = FALSE}
 
 sentiment_episode <- read.csv(file = "./data/data_for_graphs/sentiment_by_episode.csv")
 
@@ -539,7 +543,9 @@ correlates_sentiment_episode %>%
 ggsave("./output/pictures/graphs/correlates_sentiment_episode.jpg", width = 4, height = 3)
 ```
 
-Acknowledgements
+At this point I should mention that I am not the first to create a data set using the data. Rameshkumar and Bailey (2020) used the data in a published paper already. However, while it includes some additional information compared to my data set, it omits the time dimension of the data. Also creating my own data set served as a good practice in data cleaning for myself.
+
+### Acknowledgements
 
 -   [Critical Role](https://critrole.com/team/)
 
