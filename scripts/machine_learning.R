@@ -22,7 +22,25 @@ doParallel::registerDoParallel(cores = detectCores() - 1)
 
 
 # data <- read.csv("./data/clean_data/clean_ml.csv")
+
+
+
 # check for episode 12 to be dropped!
+
+
+# drop the epilogues and everything, which is not the actual episode
+clean <- clean %>%
+  filter(episode <= 115) %>%
+  filter(segment != "break") %>%
+  filter(segment != "extra") %>% 
+  filter(!is.na(segment))
+
+# export csv 
+write.csv(clean, "./data/clean_data/full_data/clean_no_breaks_extra.csv", row.names = FALSE)
+
+# only keep relevant variables for machine learning
+clean <- clean %>% select(episode, turn_number, actor, text, turn_number, words_per_ms)
+
 
 
 

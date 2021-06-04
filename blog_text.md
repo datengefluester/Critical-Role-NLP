@@ -1,257 +1,475 @@
 # Critical Graphs: Shenanigans with Critical Role Season 1 subtitles
 
-“\[…\] now it’s your turn to roll.” It’s with these lyrics that many of
-the episodes of Critical Role start. What is Critical Role you ask? To
-use their words: it’s a bunch of nerdy ass voice actors, who sit around
-and play dungeons and dragons. And they are quite successful at that.
-Thousands around the world tune in to watch them live and millions view
-their shenanigans later on Youtube. What makes the show unique is that
-nothing is scripted. Nobody writing out an episode beforehand. Whatever
-happens is up to the players and the dice to decide. Everything is
-possible and only happens in the imagination of the players and the
-viewers. That’s what makes it so intriguing to watch. It also makes it
-interesting for some nerdy ass data analyses. So lets do these here. Be
-aware: spoilers ahead.
+With the end of season two approaching, it is time to look back on the
+humble beginnings of the show “Critical Role”. What is “Critical Role”
+you ask? To use their own words: it’s a bunch of nerdy ass voice actors
+who sit around and play Dungeons and Dragons. Thousands around the world
+tune in to watch them [live](https://www.twitch.tv/criticalrole) and millions view their shenanigans later on
+[YouTube](https://www.youtube.com/criticalrole). The fact that nothing is scripted makes this show so thrilling to watch: as nobody writes out
+an episode beforehand, whatever happens is up to the players and the
+dice to decide. Everything is possible and only happens in the
+imagination of the players and the viewers. That’s what makes it so
+intriguing to watch. The creativity also makes the show interesting for
+some nerdy ass data analyses. Be aware: minor spoilers ahead.
 
-The first question for every data analysis is the question of which data
-to use. Luckily, the community provided subtitles for every episode of
-the first season. These can be used to create the data. For example, a
-typical episode might start with the game master Metthew Mercer saying:
-“Hello everybody and good evening. Welcome to Critical Role \[…\]”. In
-the subtitles this may look as follows:
+How can we analyze the show? Luckily, the online community provided
+subtitles for every episode of the first season. These can be used to
+construct the data, which we then can use for the analyses. Rameshkumar
+and Bailey (2020) construct a similar data set. They use the data to
+test models, which predict the text word of a text (similar to what you
+may find in your phone when typing a message). The unscripted nature of
+the show makes the dialogue less predictable than other text and
+therefore makes it a good test for these algorithms.
+
+However, their approach omits time stamps from the data set and focuses
+on the dialogue entirely. While this approach is reasonable when
+predicting the next word, leaving out time from the data excludes
+interesting information. For example, one could potentially use the
+subtitles and the videos of the episodes to train a neural network,
+which then act as a chat bot for one of the characters. This is,
+however, far beyond the scope of this blog post. Instead, we will
+examine at descriptive statistics to look back on the first season of
+the series.
+
+That said, I will try to predict the speaker of a text given the words
+said in a later post. This task of classifying text is one of standard
+use cases for natural language processing (NLP) - the branch of AI
+concerned with processing text and speech. Given the size of the data
+set (around 270000 classified snippets of text) and the fact that show
+is unscripted makes this an interesting application for NLP. Anyway,
+let’s turn back to the subtitles.
+
+In total the subtitles for the first season cover over 453 hours of game
+play and contain roughly 3.4 million words. A typical episode might
+start with the game master Matthew Mercer saying: “Hello everybody and
+good evening. Welcome to Critical Role.” In the subtitles this looks as
+follows:
 
 > 00:00:00,500 –&gt; 00:00:04,043 MATT: Hello, everyone and good
 > evening. Welcome to Critical Role, a show where a bunch of us
 
-where the numbers indicate the time a subtitle is shown on the screen.
-Doing some data manipulation this can be turned this into some nicer
-format. However, as the subtitles were written by volunteers, not
-everybody followed the same naming convention for the person speaking.
-For example, when the game master is acting as a character, this could
-be written in the subtitles as the character’s or his name (Matt). The
-same applies to the player, who sometimes are referred to by their name
-and sometimes by their character’s name. Additionally, as is inevitable
-when typing out lengthy (an average episode is 3.5 hours long) and at
-times quickly spoken text, people make mistakes. Which brings us to the
-first interesting question to ask: which actor got misspelled the most?
+The numbers indicate the time during which a subtitle is shown on the
+screen. Doing some coding and data cleaning we can turn this into a
+nicer format, which ultimately looks as follows:
 
-    miss_spells <- read.csv(file = "./data/data_for_graphs/miss_spells.csv")
+<table class="table" style="margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="text-align:right;">
+Episode
+</th>
+<th style="text-align:left;">
+Segment
+</th>
+<th style="text-align:right;">
+Start\_Turn
+</th>
+<th style="text-align:right;">
+End\_Turn
+</th>
+<th style="text-align:left;">
+Actor
+</th>
+<th style="text-align:left;">
+Text
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:right;">
+100
+</td>
+<td style="text-align:left;">
+Prologue
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+9.768
+</td>
+<td style="text-align:left;">
+Matt
+</td>
+<td style="text-align:left;">
+hello everyone, and welcome to tonight’s episode of critical role, where
+a bunch of us nerdy-ass voice actors sit around and play dungeons and
+dragons.
+</td>
+</tr>
+</tbody>
+</table>
 
-The person, who got miss spelled the most was Marisha Ray. These
-include, for example, Marishaia or Marishaaaa. However, she was not
-alone in this fate. Other actors also got miss spelled. For example
-Travis Willingham, playing a character named Grog, often got miss
-spelled as ‘tavis’ or as ‘gorg’. Similarly, Taliesin Jaffe, sharing a
-fate with Marisha for a more unusual name, got miss spelled some times.
-Yet, taken together the amount of miss spells for all of the subtitles
-is astonishingly low. In all 114 episodes and a run time of roughly XXX
-hours the total amount of miss spells is only 155.
+To achieve this, we have to extract the speaker from the text and
+combine the different parts of the text into one. Unfortunately, not
+every volunteer followed the same naming convention. For example, when
+the game master, Matt, is acting as a character in game, this can either
+be written in the subtitles as the character’s name (say, ‘guard 1’) or
+as ‘Matt’. The same applies for the players, who may be referred to by
+their name or their character’s name. Additionally, as is inevitable
+when transcribing long spoken text (an average episode is 4 hours long),
+people make mistakes. Which brings us to the first interesting question
+to ask: which actor got misspelled the most? This can give an indication
+of how useful the subtitles are when examining the series is further
+detail.
 
-![](output/images/blog_text_figs/miss_spellings-1.png)
+Out of the cast, Marisha got misspelled the most. These include, for
+example, ‘Marishaia’ or ‘Marishaaaa’. However, she was not alone in her
+fate. For example, Travis, playing a character named Grog, often got
+misspelled as ‘Tavis’ or as ‘Gorg’. The examples highlight that the
+subtitles are not made by some paid by dedicated fans of the show. Yet,
+taking everything together, the amount of misspells for all the
+subtitles is astonishingly low. Over 115 episodes and a more than 450
+hours of content the total amount of misspells is only 150. In summary,
+the fans have shown a great eye for details when transcribing the
+episodes. Hence, we can confidentially use the subtitles for more
+analyses.
 
-Still, not everybody has the same chance to be misspelled. The direct
-comparison may be unfair for two reasons: first, not every actor was
-present for all episodes. Second, not every actor spoke for the same
-amount of time. While Matt, as the game master has to be present for
-every episode and has to describe elaborate scenery, other actors can be
-give short answers or sit out an episode. So let’s look of both of these
-numbers in turn.
+![](output/markdown_figs/miss_spellings-1.png)
 
-Looking at the attendance by the players some difference become
-apparent. First of all, it becomes obvious that most players are also
-present most of the time. Out of the eight players, five didn’t miss
-more than 5 episodes. Additionally, Sam Riegel only missed 9. Meanwhile,
-Ashley Johnson didn’t even attend half of the episodes. Likewise, Orion
-Acaba did only participate in every fifth episode. The main reason for
-the absence of the latter is the fact that he dropped out of the project
-after only a little more than 25 episodes were filmed. Hence, it seems
-reasonable that both Ashley and Orion got misspelled less compared to
-the rest of the cast. Additionally, it shows that about one in five
-episodes had guests joining the show.
+The graph above directly compares the miss spellings of the different
+actors. However, a direct comparison may be unfair because not every
+actor has the same chance of being misspelled. This is because of two
+reasons: first, not every actor was present for all episodes. Second,
+not every actor spoke for the same amount of time. While Matt, as the
+game master, must be present for every episode and has to describe
+everything that happens in game, other actors can give short answers or
+sit out an episode. So, let’s look at both attendance and the amount of
+dialogue in turn.
 
-![](output/images/blog_text_figs/attendence-1.png)
+Examining the attendance by the players some differences stand out: Out
+of the eight players, five didn’t miss more than 5 out of the total 115
+episodes. Meanwhile, Ashley was only present for less than half of the
+episodes. Similarly, Orion only participated in every fifth episode
+because he left the show after only a quarter of the episodes. Hence, it
+seems reasonable that he got misspelled less compared to many of the
+other cast members. We can also see that about one in five episodes
+guests joined the show.
 
-Let’s look at the time different actor speak. Looking at the data, it
-becomes obvious that Matt speaks the most. This hardly is surprising.
-After all, a game master has to describe how everything looks and feels.
-Additionally, he has to act out non player characters and their reaction
-to the actions of the players. Lastly, he has to describe how the
-actions of the players are playing out in the imaginary world. In total
-he speaks three quarters of the time and uses fifty percent of all words
-spoken. Similarly to the misspellings, Marisha tops list in terms of
-time speaking. However, in terms of words spoken Laura Bailey jumps
-indicating that she speaks quicker compared to the rest of the cast.
-Moreover, it becomes obvious that both Ashley and Orion speak around the
-same amount as all guests of the show combined. However, there is a
-catch to these numbers. Namely, that not all everything that is said is
-transcribed in the subtitles. Sometimes many people speak at the same
-time. In that case not everything is recorded in the subtitles.
-Moreover, the time people speak can only be seen as a rough estimates.
-The reason for this is is the fact that it is measured by the time
-segments of the subtitles are shown. For example, a long description
-from Matt may span over 30 seconds. These 30 seconds may be split into 5
-subtitle segments, which do not incorporate pauses. Additionally,
-descriptions like “(everybody is laughing)” are dropped and not
-investigated as spoken text. In total there were roughly 3.7 million
-words said. This corresponds to 475 hours of conversation or around four
-hours per episode.
+![](output/markdown_figs/attendence-1.png)
 
-![](output/images/blog_text_figs/time_vs_words-1.png)
+Now let’s look at the amount of time the actors speak. We can do so in
+three different ways. First, we can look at the time a cast member
+speaks. Second, we can examine the number used. Third, we can use the
+number of turns for each actor. Turns are numbers indicating the number
+of changes for which person speaks. For example, turn one might be Matt
+saying “hi”. Turn two might be Liam responding with “hi, how are you
+doing?”. All three measure give us some indication on much different
+actors speak. While the time an actor speaks tells us how much time they
+say something compared to the rest of the cast, the number of turns can
+tell us how often they speak. Last, the number of words used tells us
+how often the actors say something.
 
-Yet, we can still look at the most used words per actors to see if there
-some distinct words by the actors. There some differences become
-obvious. For example, the by now iconic “okay” used by Ashley can also
-be found in the data. Additionally, most players use words like going to
-indicate the actions that they like to do.
+![](output/markdown_figs/time_vs_words-1.png)
 
-![](output/images/blog_text_figs/log_odds-1.png)
+he graph above shows that Matt speaks most of the group. After all, a
+game master must describe how everything looks and feels in game. He has
+to act out non-player characters and their reaction to the actions of
+the players. Lastly, he has to describe how the actions of the players
+are playing out in the imaginary world. In total, he speaks half of the
+time and says half of all words. However, he only uses roughly very
+fourth turn to do so. This may be surprising as, especially in combat,
+every turn by a player is usually followed by a description by Matt.
+However, this also indicates how important role play among the players
+is for the series (we will investigate the significance of role play
+later in more detail when we look at the different arcs of the story).
 
-Differences in words used between the cast members became obvious. We
-can use this to see, which cast member used the most elaborate
-vocabulary. Using an grade reading level index we can quantify this. As
-expected, Matt uses the most elaborate vocabulary. Additionally, one
-might argue that the vocabulary used correlates with the intelligence of
-the character played. However, Grog (played by Travis Willingham) seems
-to be the exception to the rule. While being the dumbest member of Vox
-Machina (as the characters call themselves), Pike (played by Ashley)
-seems to be using less expensive vocabulary. This may, however, be an
-artifact of the fact that Ashley is less present and Pike as a character
-rather shy. Hence, the low grade level.
+Like in the misspellings, we examined above, Marisha tops the list of
+time spoken compared to the other players. Interestingly, both Ashley
+and Orion only speak roughly the same as all guests of the show
+combined. This is a testament to the fact that they’re not present for
+all episodes. Still, Laura uses more words than Marisha even though she
+speaks for less time. Moreover, we can see that she uses more turns
+compared to any other member of the cast. This may imply that she speaks
+at a quicker pace compared to the other cast members. However, as we can
+see in the graph below, this is not the case. Instead Orion speaks the
+fastest at a speed of 200 words per minute. There is however significant
+variation for all members of the crew. Hence, the numbers should be
+taken with a grain of salt.
 
-![](output/images/blog_text_figs/grade_level-1.png)
+More generally, there is a catch to these numbers, as not everything
+that is said is shown in the subtitles. Sometimes many people speak at
+the same time. If that happens only the important parts are written in
+the subtitles. This affects the calculated time the actors speak, as it
+is measured by the time subtitles are shown on the screen. For example,
+a long description from Matt may span over 30 seconds. If one of the
+players were to comment on the scenery at the same time it may be
+omitted from the subtitles.
 
-As Pike and Grog are best buddies it seems to be only fitting to look at
-the interaction between cast members. Indeed the second most character
-Ashley interacts with is Travis. He is only second to Laura, who has the
-most interactions with everybody. This indicates the findings from
-earlier, where Laura speaks shorter remarks compared to the rest. Indeed
-on average a segment from her only contains X words. The fact that
-Ashley sits next to Travis and Laura indicate that people sitting next
-to each other are more likely to interact with each other, as can be
-seen by the prevalence of interaction between Marisha and Taliesin.
-Moreover, in game relationship between characters become apparent to
-some extend. Liam interacts most with with his in game sister played by
-Laura and his love interest played by Marisha. Likewise, Taliesin
-interacts most with his in game love interest Laura. Again, similar to
-the analyses before there are some caveats to the results presented
-here. Interactions as presented in the graph are measure by when actors
-speak after each other. So they only give a rough estimate and actors
-giving one line off character comments may inflate the results.
+![](output/markdown_figs/speed_of_talking-1.png)
 
-![](output/images/blog_text_figs/who_to_whom-1.png)
+Despite these shortcomings, we can still look at the most used words per
+actor to see if players use a set of unique words often. To do so we can
+calculate the log-odds ratio for the words used by the players. A high
+log-odds ratio tells us that if a given spoken text contains a specific
+word, it is more likely to be said by a certain cast member. For
+example, the graphs below show that if a text contains the word
+‘inspire’ it is likely to be said by Sam who plays the bard Scanlan. As
+‘inspire’ is a class ability of bards, it is not surprising that Sam
+uses that word that often. Similar relationships between class abilities
+and what the player said can be found for almost all players. Among
+others, Laura’s list contains parts of the iconic ranger ability
+“hunter’s mark”, while Travis’ includes the barbarian ability
+“reckless”. Taliesien’s “sharpshooter” feat and can be seen in the
+graph.
 
-However, one liners may not only come from on actor but multiple actors
-simultaneously. In the subtitles this may be shown by as follows:
-“Ashley and Laura: no no no no!”. So lets see how has the same thoughts.
-Similarly, to the interactions earlier, we can see that Laura has indeed
-the most shared thoughts with her cast members, indicating that she
-indeed off character comments the most. Again, Marisha and Taliesin have
-the same ideas when it comes same thoughts. Similarly, the same applies
-to Ashley, Laura and Travis or Sam and Taliesin. It also becomes obvious
-that the cast is more likely to have the same thoughts as it rarely
-happens that guests save the same thing as the cast simultaneously.
+Moreover, it is unsurprising to find Matt use ‘you’ more often compared
+to the rest of the cast as he is describing the actions of players. For
+example, if players want to attack an enemy, they have to roll to see
+whether the action succeeds. Upon rolling Matt tells players and
+audience alike how the rolls play out in game. Likewise, the fact that
+many of the top five words contain the word ‘I’ or variants thereof show
+that players describe what they want to do while Matt describes to them
+how it plays out. More advanced statistical methods, like random forests
+or decision trees, can be used to examine the relationship between words
+and actors in more detail. However, these require a more in-depth
+explanation. Thus, I will discuss in a future blog post.
 
-    ## Error in graph_from_data_frame(d = same_thought_network, vertices = nodes_thought, : Some vertex names in edge list are not listed in vertex data frame
+![](output/markdown_figs/log_odds-1.png)
 
-![](output/images/blog_text_figs/same_thought-1.png)
+What we can do easily, however, is to investigate, which cast member
+used the most elaborate vocabulary. A commonly used measure is to
+examine the readability of text is the [Coleman–Liau
+index](https://en.wikipedia.org/wiki/Coleman%E2%80%93Liau_index). It
+uses the number of words, letters, and sentences to calculate a score,
+which then can be translated into grades. Score of five or below
+indicates very easy to read text and can be used for kids in grade 5th
+or below. A of six characterizes text, which is easy to read and can be
+used for children in grade 6. Higher scores can be translated into
+grades in a similar fashion.
 
-The text can also be used to examine, which character is the most happy
-or sad. To do so, dictionaries can be used, which assign words a
-positive (happy) or a negative (sad) value. These values can then be
-used to examine which characters are the most happy and sad. This will
-give you some indication, which character has the most happy or sad
-dialogues. So be wary of spoilers (and mimics) from now on.
+As we can see in the graph below, the show is easy to follow. This is
+hardly surprising as the show is basically one long conversations
+between cast members. As most of us don’t speak like academic paper are
+written this results in a good readability of the dialogue. The only
+member of the crew, who scores higher than a six on average is Matt.
+This, again, to be expected as he has to flesh out the world for
+everyone. In contrast, all the players get a mean score of 4 or below.
+Only Talisien achieves a score of four. Maybe surprisingly Ashley has
+the easiest to follow text. However, this could also be because Ashley
+is only present for half of the episode and her character Pike is rather
+shy. Please note, in the interest of keeping this light on spoilers, I
+intentionally do not differentiate between different characters played
+by the same actor. Some of the differences may be driven by players
+playing different characters throughout the show.
 
-Looking at the sentiment of the different actor some differences become
-apparent. One the one hand, Matt stands out as being the happiest of the
-bunch. This may likely be because he also has the most text and time he
-says while describing the scenes. Additionally, most of the NPC he
-describes are more of the happy type. Additionally, it becomes obvious
-that Liam plays the saddest character from the group. This maybe because
-he is always worried about his sister, his death. However, he also
-stated that dungeons and dragons serves as an outlet for him. Behind
-this background the score may be understandable. Personally, I found the
-high score for Marisha surprising as I remembered her to be a bit more
-reserved in the earlier episodes. But it looks like she made up for it
-in later Episodes (anybody remembers the wine incident?).
+![](output/markdown_figs/grade_level-1.png)
 
-![](output/images/blog_text_figs/sentiment_actor-1.png)
+So far, we have only looked at actor individually. As Dungeons and
+Dragons is an interactive experience, this seems restrictive. The graph
+below maps out interactions between players. In total, we see that Laura
+has the most interactions with everybody. Surprisingly, given how the
+story evolves, she interacts with Talisien the least. Likewise, Marisha
+interacts more with Talisien than with Liam. However, we can see that
+Travis often speaks before and after Sam, who act as kind of the chaos
+duo during the show (anybody looking for Suude?). Still, instead of
+interpersonal relationships we can see that there is tendency for
+players sitting next to each to speak with one another. It will be
+interesting to examine the interactions in season two as well, as both,
+the characters played by the actors and the seating arrangement was
+changed in the new studio.
 
-The same methodology can be used to analyse the entire arcs. Looking at
-the data the values we can see that the first two arcs were happier
-compared to the middle ones. Later arcs became happier again. This also
-matches my personal experience from watching. After a happy start and
-everybody getting accustomed to streaming and watching dungeons and
-dragons on a live stream, the story took a darker turn with the
-Briarwoood arc. Afterwards, the attack of the Conclave also made for a
-dire mood. However, finding the vestiges gave the group some heroic
-moments and brighten the mood (anybody looking to buy some suude?). The
-following fight with Conclave and the fallout thereof let to some
-sweating moments for audience and actor alike. Before during the last
-two arcs loose ends were tied together.
+![](output/markdown_figs/who_to_whom-1.png)
 
-![](output/images/blog_text_figs/sentiment_arc-1.png)
+Like the analyses before, there are some caveats to the results though.
+Interactions as shown in the graph are measured by counting when actors
+speak after each other. As we have seen earlier, Orion and Ashley did
+not participate in all episodes. Likewise, as Liam and Travis speak the
+least the results presented below mirror our previous findings. However,
+as we have seen earlier, Laura does not speak often (timewise) compared
+to other members of the cast. Thus, the number could be influenced by,
+among other things, Laura giving short comments throughout the show.
+Let’s see whether that’s the case. Indeed, on average a segment from her
+only contains 20 words, while average for all players is 32. As a side
+note, given the role of Matt everybody interacts with him the most.
+Therefore, Matt is not shown in the graph above.
 
-So far we looked at the sentiment across arcs. Similarly to the
-comparison in miss spellings the comparison may not be fair. After all,
-if combat was more prevalent in one arc compared to another, chances of
-failure and character deaths are increased for this arc. So lets look at
-the length of combat and role playing for the different arcs.
-Interestingly, the time spent for both parts of the shows is rather
-constant across arcs and always around one to four. This probably
-mirrors the experience with many people playing a role play heavy
-campaign. However, this means that combat may not be the driving factor
-behind low sentiment scores but can be found in role play as well
-(Draconia anyone?). After all some funny moments were happening during
-combat as well (). This brings us to the more interesting question:
-which episodes are the most happy or sad, and thus worth a rewatch?
-Note: biggest spoilers ahead
+![](output/markdown_figs/segment_length-1.png)
 
-![](output/images/blog_text_figs/rp_combat-1.png)
+Yet sometimes actors may do precisely the same thing simultaneously: For
+example, when a party member is close to dying in a fight, they may have
+the same reaction. In the subtitles this may be shown as follows:
+“Ashley and Laura: no no no no!”. So, let’s examine who tends to say the
+same thing at the same time.
 
-*note the numbers and content have to be checked again after numbers are
-fixed - 12 does not make sense*
+Similarly, to the interactions earlier, we can see that Laura has the
+most shared spoken text with her cast members, indicating that she
+indeed has the briefest comments from the group. Out of the cast she and
+Marisha often share the same thoughts out loud. Likewise, Marisha and
+Taliesin often share the same ideas. The same applies to Ashley, Laura
+and Travis or Sam and Taliesin respectively, though to a lesser extent.
+Interestingly, Matt never says the same thing at the same time with a
+guest.
 
-Looking at the most fun episodes, it becomes obvious that second early
-episodes are the ones with best scores. Additionally, the other three of
-the top 5 episodes are from the same seventh arc, namely *Daring Deeds,
-Deals, and Destinies*. These include the first full episode of Sam’s
-second character Taryon (86), Taryon and Grog’s first ever shopping tour
-and the end of Keyleth’s Aramenté (90) and the beach vacation (95).
+![](output/markdown_figs/same_thought_data-1.png)
 
-In contrast, the bad episodes are more evenly distributed around arcs.
-The worst episode is 68, where the groupcatches up with Rippley and the
-Percy’s past comes to a close. 114 is the second last episode where the
-story of Vox Machina comes to a close. Both 52 and 55 are episodes in
-the attack of the conclave arc. In 52 the group comes to the rescue of
-Grog after he is unable to defeat his uncle by himself. In 55 the group
-is facing off on the back of the ancient black dragon Umbrasyl in a
-fight for life and death. In 79, the party faces of against the head of
-the Chroma Conclave Thordak, in which Gilmore is badly wounded.
+So far, we focused entirely. While this interesting, for fans, who
+finished both season one and two, the more interesting question might
+be: which episodes and arc should I watch again? We can use sentiment
+analysis to examine, which character, arc or episode is the most happy
+or sad. To fully understand a human being, non-spoken elements such as
+body language matters a lot too. However, the approach can be used to
+give us a rough first indication. When applying sentiment analysis, we
+which assign specific words or sentences happy or sad sentiments using
+the Lexicoder Sentiment Dictionary. Using this dictionary, higher values
+indicate a happier dialogue. These values can then be used to examine
+which characters express themselves in the happiest and the saddest way.
+As we have seen earlier, different actors have different speaking times.
+Thus, to make it comparable, let’s look at the mean sentiment of
+sentences spoken per actor. As this will give us some hints towards the
+personal journey of characters, be wary of spoilers (and mimics) from
+now on.
 
-![](output/images/blog_text_figs/sentiment_episodes-1.png)
+![](output/markdown_figs/sentiment_by_actor-1.png)
 
-    ## `geom_smooth()` using formula 'y ~ x'
+Examining the mean sentiment per episode for the different arcs we can
+indeed see that the first two arcs were happier compared to most other
+ones. After a happy start and everybody getting accustomed to streaming
+and watching Dungeons and Dragons on a live stream, the story takes a
+darker turn. The exception to this rule is the ‘Daring Deeds’-arc. This
+seems hardly surprising for viewers of the show given how a new
+character was introduced and how the story develops during their
+presence. Yet, in the interest of keeping this text light on spoilers,
+let’s not drive into the story any further. Instead let’s investigate
+whether the difference in sentiment was driven by differences in the
+amount of combat. As more combat represents higher chances of dying,
+this may be a driving force behind the differences between the arcs.
 
-![](output/images/blog_text_figs/correlates-1.png)
+![](output/markdown_figs/sentiment_arc-1.png)
 
-    ## `geom_smooth()` using formula 'y ~ x'
+As we can see below, the earlier arcs had more time dedicated to combat.
+During the search for the Vestiges of Divergence, while the group must
+figure out where to go first, the time spent in combat is the lowest
+17percent). In the last three arcs, around a quarter of the time was
+dedicated to combat. However, this means that combat may not be the
+driving factor behind sad moments in the story but can be found in
+role-play as well. Thus, it could be that in the beginning of the show
+players were less comfortable with the rules as they use a different
+rule set when they started to play onscreen.
 
-At this point I should mention that I am not the first to create a data
-set using the data. Rameshkumar and Bailey (2020) used the data in a
-published paper already. However, while it includes some additional
-information compared to my data set, it omits the time dimension of the
-data. Also creating my own data set served as a good practice in data
-cleaning for myself.
+Additionally, before streaming, the group didn’t play on a set schedule.
+Consequently, it seems likely that the players got more used to playing
+their characters and the abilities they have. Thus, the time of? does
+not necessarily reflect the in-game time in combat. To investigate the
+issue further let’s look at the happiest and saddest episodes to see
+whether they involve combat. As these episodes may also be the ones
+which drive much of the story forward the next paragraph contains
+spoilers for the uninitiated (but may also be worth to be watched
+again).
+
+![](output/markdown_figs/rp_combat-1.png)
+
+Looking at the happiest episodes a lot of the findings we have gathered
+so far come together. On the one hand, the top scoring episode involves
+the introduction of the already mentioned new character. Additionally,
+episode 95 involves the reunion after a one-year break in game and is
+more light-hearted. Yet, the other three episodes involve combat and
+guests. While episode 11 involves a lot of (useless) planning while
+attacking a temple, episode 88 involves fighting a kraken. Moreover,
+episode 18 involves two guests and parts of the cast absent. This ties
+in nicely with the results we obtained earlier that guests were
+genuinely happy to team up with Vox Machina.
+
+In contrast, most of the saddest episodes involve combat. The saddest
+episode (51) even has a negative score, meaning that the average
+sentences spoken during the episode has a sad connotation. It involves
+planning to help the child of one character to escape a city, while
+simultaneously fighting the uncle of another. Episode 68 features the
+fight against an antagonist and the death of one of the characters. As
+the other episodes on the list take place during the last arc and are
+preparation for the final boss fight, I will not discuss them in more
+detail. Instead, let’s look in more detail what drives the sentiment of
+an episode. So far, we have seen that the guests and Ashley had the
+happiest sentiment. We have also seen that time spent in combat and
+sentiment do not seem to be related when looking at entire arcs.
+However, having obtained mixed signals when looking at individual
+episodes, let’s investigate what exactly makes a happy or sad ”Critical
+Role”-episode.
+
+![](output/markdown_figs/sentiment_episodes-1.png)
+
+First, let’s see whether episodes starring Ashley and Guests are happier
+compared to episodes without. As we have seen earlier both, guests and
+Ashley had higher sentiment scores compared to the rest of the group. We
+might expect this to translate to happier episodes in general. However,
+when we run correlation tests, we find insignificant results. This means
+that starring episodes Ashley or a guest are not different from episodes
+without them when it comes to sentiment. In contrast, the time spent in
+combat does seem to negatively affect the sentiment of an episode. Using
+a simple OLS estimation we can estimate the effect. Doing so we estimate
+that one hour spent in combat is associated with a decrease 3.6 in the
+sentiment score of the episode. Given that an average episode has a
+sentiment score of 176 and an average combat per episode lasts for 1
+this is a significant effect. Yet, as success during combat in Dungeons
+and Dragons is dependent on the dice rolls made, let’s investigate the
+effect of those on the sentiment as well.
+
+![](output/markdown_figs/correlates-1.png)
+
+When we look at all the roles made during the combat, we don’t find any
+relationship (see graphs below). Yet, as always there is a caveat to
+these numbers. As players gain in levels, they also roll higher as they
+character get stronger. At the same time, they must achieve higher rolls
+to be successful as well. Thus, a high roll when modifiers are applied
+do not yield the same excitement in later episodes compared to later
+ones. Hence, we can only use the natural value rolled for the average of
+all dice rolls. However, this reduces the total number of dice rolls
+significantly as not often we only know the total outcome (meaning
+including abilities modifiers). Still, we often know when the players
+and the dungeon master roles a critical success (20 on 20-sided die) or
+a critical failure (1 out of 20). We can use these to investigate the
+relationship between dice rolls and the sentiment of an episode.
+
+When we run the numbers, we find associations between critical dice
+rolls and the sentiment of the episodes. A twenty rolled for one of the
+players is associated with a decrease in the sentiment score by 5 points
+this is a relevant effect. Similarly, when Matt rolls a critical failure
+or a success, the episode is generally sadder (one natural one/twenty
+decreases sentiment by 15)). Interestingly, the number of natural ones
+for the players does not have a significant effect on the sentiment on
+the table. This could be that natural ones from a player while playing a
+trick on other players, often results in funny situations during role
+play. Another good indicator for whether an episode is happy, are the
+amount of facepalms by Matt, which are collected by the volunteers as
+well (one face palm increases the sentiment by -6).
+
+![](output/markdown_figs/dice_rolls-1.png)
+
+#### In Text Stuff:
+
+Total Time Spoken:
+
+Total Words:
+
+Total Number miss spells:
+
+Average Length Segments Laura: 9
+
+Average Length Segments Players: 10
+
+Average Time Combat Vestiges Arc:
+
+Correlation with Intelligence??: 0.12
+
+Regression: 3.6
+
+#### Dice rolls:
+
+5 points
+
+NA
+
+10
 
 ### Acknowledgements
 
--   [Critical Role](https://critrole.com/team/)
+- [Critical Role](https://critrole.com/team/)
 
--   [Critical Role Transcript
-    Team](https://crtranscript.tumblr.com/about)
+- [Critical Role Transcript
+  Team](https://crtranscript.tumblr.com/about)
 
--   [Critical Role Stats Team](https://www.critrolestats.com)
+- [Critical Role Stats Team](https://www.critrolestats.com)
 
 ### References:
 
