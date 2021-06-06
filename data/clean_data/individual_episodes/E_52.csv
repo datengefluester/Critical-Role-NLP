@@ -1,5 +1,5 @@
 "","arc","arc_no","episode","turn_number","segment","actor","text","start_turn","end_turn","time_in_sec","word_count","words_per_minute","encounter_count","rp_combat","actor_guest","vox_machina","guest","staff","matt"
-"1","Attack_Conclave",4,52,1,"prologue","MATT","hello, and good evening everyone, to tonight's episode of critical role, where a bunch of us nerdy-ass voice actors sit around and play dungeons and dragons. tonight's going to be an interesting evening based on how we left off last week, so we'll get to that here in a moment. first and foremost, let's get through our announcements. at the top, we are excited. this episode and the episodes of this month are brought to you by our new sponsor for this month, loot crate.",0.235,27.375,27.14,91,201.179071481209,NA,"role_play","MATT",0,0,0,1
+"1","Attack_Conclave",4,52,1,"prologue","MATT","hello, and good evening everyone, to tonight's episode of critical role, where a bunch of us nerdy-ass voice actors sit around and play dungeons and dragons. tonight's going to be an interesting evening based on how we left off last week, so we'll get to that here in a moment. first and foremost, let's get through our announcements. at the top, we are excited. this episode and the episodes of this month are brought to you by our new sponsor for this month, loot crate.",0.235,24.652,24.417,91,223.614694679936,NA,"role_play","MATT",0,0,0,1
 "2","Attack_Conclave",4,52,2,"prologue","MATT","me and marisha have been loot crate",27.375,31.577,4.202,7,99.9524036173251,NA,"role_play","MATT",0,0,0,1
 "3","Attack_Conclave",4,52,3,"prologue","MARISHA","purveyors for like three years.",31.577,33.644,2.067,6,174.165457184325,NA,"role_play","MARISHA",1,0,0,0
 "4","Attack_Conclave",4,52,4,"prologue","MATT","but they've been awesome enough and interested in helping us sponsor this next month of content, so that being the case, if we want to go ahead and open some of these boxes real fast, and see, so you're aware of the kind of stuff that loot crate does. while they're opening this, loot crate is a monthly subscription box service that's 20 bucks a month and you get six to eight unique items that are based on a specific theme every month.",33.644,58.653,25.009,88,211.12399536167,NA,"role_play","MATT",0,0,0,1
@@ -44,7 +44,7 @@
 "43","Attack_Conclave",4,52,43,"prologue","TALIESIN","participation.",350.712,351.719,1.00700000000001,2,119.165839126117,NA,"role_play","TALIESIN",1,0,0,0
 "44","Attack_Conclave",4,52,44,"prologue","MATT","oh, i like anticipation awards, too. there's a video game that some people may have heard of called uncharted 4 that's coming out. reviews have been coming out and everyone's giving it the best game of forever.",351.719,366.086,14.367,41,171.225725621215,NA,"role_play","MATT",0,0,0,1
 "45","Attack_Conclave",4,52,45,"prologue","LAURA","it's amazing!",366.086,367.365,1.279,4,187.646598905395,NA,"role_play","LAURA",1,0,0,0
-"46","Attack_Conclave",4,52,46,"prologue","MATT","so, and i believe one of our own vox machina plays a rather awesome role in that, laura?",367.365,374.889,7.524,19,151.515151515152,NA,"role_play","MATT",0,0,0,1
+"46","Attack_Conclave",4,52,46,"prologue","MATT","so, and i believe one of our own vox machina plays a rather awesome role in that, laura?",367.365,372.674,5.30899999999997,19,214.729704275759,NA,"role_play","MATT",0,0,0,1
 "47","Attack_Conclave",4,52,47,"prologue","MATT","nadine ross in the story.",374.889,378.208,3.31900000000002,6,108.466405543838,NA,"role_play","MATT",0,0,0,1
 "48","Attack_Conclave",4,52,48,"prologue","LAURA","yeah, she's a villain, so you get to face off with her. it's really fun.",378.208,381.866,3.65799999999996,18,295.243302351015,NA,"role_play","LAURA",1,0,0,0
 "49","Attack_Conclave",4,52,49,"prologue","MATT","that is exciting.",381.866,383.092,1.226,4,195.758564437194,NA,"role_play","MATT",0,0,0,1
@@ -72,7 +72,7 @@
 "71","Attack_Conclave",4,52,71,"prologue","LIAM","we've come a long way to get here tonight. it's true we may die, and when our bones are turned to dust, carry them away in wyrmwood gaming boxes, the finest wooden boxes for carrying the remains of the dead ever. they're great! oh and you can put dice in 'em too, which is probably their intended purpose. and if you like them, they have many different kinds of woods, you go to wyrmwoodgaming.com. and if you want to pay for shipping, you can, but if you don't want to pay for shipping, use the code 'critrole'.",497.969,529.135,31.166,103,198.293011615222,NA,"role_play","LIAM",1,0,0,0
 "72","Attack_Conclave",4,52,72,"prologue","MATT","critrole!",529.135,531.104,1.96900000000005,2,60.944641950227,NA,"role_play","MATT",0,0,0,1
 "73","Attack_Conclave",4,52,73,"prologue","LIAM","feels so good. and you'll get free shipping. and then also, lastly, this is the last couple of hours for their kickstarter for the sentinel box. you can get our logo onto any box, like this, or you can get the real swag and get the master box. it looks like this on any wood. and you put your dice in it, cards in it.",531.104,552.054,20.9499999999999,67,191.885441527447,NA,"role_play","LIAM",1,0,0,0
-"74","Attack_Conclave",4,52,74,"prologue","ASHLEY","my favorite part of wyrmwood gaming is the magnets. magnets, bitch!",552.054,560.99,8.93600000000004,12,80.5729632945386,NA,"role_play","ASHLEY",1,0,0,0
+"74","Attack_Conclave",4,52,74,"prologue","ASHLEY","my favorite part of wyrmwood gaming is the magnets. magnets, bitch!",552.054,559.424,7.37,12,97.6933514246947,NA,"role_play","ASHLEY",1,0,0,0
 "75","Attack_Conclave",4,52,75,"prologue","MATT","it's so satisfying.",560.99,562.529,1.53899999999999,5,194.931773879144,NA,"role_play","MATT",0,0,0,1
 "76","Attack_Conclave",4,52,76,"prologue","LIAM","so, that kickstarter, a couple more hours, then finito if you want to get in on that. okay.",562.529,570.704,8.17499999999995,19,139.449541284404,NA,"role_play","LIAM",1,0,0,0
 "77","Attack_Conclave",4,52,77,"prologue","MATT","cool. and last but not least on my list, it says 'death to all puppies'. i don't know who wrote that.",570.704,575.53,4.82600000000002,23,285.951098217985,NA,"role_play","MATT",0,0,0,1
@@ -82,7 +82,7 @@
 "81","Attack_Conclave",4,52,81,"prologue","MATT","welcome back. so! leaving off from last week's episode, the party of intrepid adventurers, vox machina, trying to save the whole of tal'dorei from the chroma conclave, a collection of chromatic dragons that have destroyed many of the main cities here, have gone about searching for items called the vestiges of divergence, magical artifacts from a war of ancient times that apparently hold some great power that could aid in defeating these dragons. one of which, apparently, is being held by kevdak, the leader of the herd of roaming tribal barbaric individuals that grog once belonged to, and had beaten the crap out of and left grog for dead long ago. while the dragons had destroyed part of westruun and left it behind, this tribe utilized that time to take over the town, enslaving or keeping most of the people under their thumb, and making an accord with the one black dragon, umbrasyl, that is currently in a tenuous relationship right now with these herd members, herd of the storm, as they're known. you, having sent a few of them to their death via a trap on the outside, found your way into the city, saved some of the individuals that lived there, as well as kaylie and dr. dranzel, and grog went ahead and issued a challenge to the herd to meet with kevdak himself. after some fairly decent intimidation checks, it was agreed, and while most of the party stealthed behind, you made your way to the very center of the town square, where kevdak leapt off the top of the ex-margrave's homestead and the two of you began to do battle in a pit of spikes that was gathered in the center of the town square, surrounded by a number of the clan watching on. during this fight, it went back and forth a bit before grog felt that this was a losing battle should it continue in this way and decided to, at least it seemed to me, call out to his friends for aid with the classic shakespearean battle cry of, ""vox machina, fuck shit up!""",690.298,817.862,127.564,357,167.915712897056,NA,"role_play","MATT",0,0,0,1
 "82","Attack_Conclave",4,52,82,NA,"LIAM","that's from coriolanus.",817.862,819.475,1.61300000000006,5,185.988840669553,NA,"role_play","LIAM",1,0,0,0
 "83","Attack_Conclave",4,52,83,NA,"MATT","oh, sorry, coriolanus, thank you. and that is where we're picking up. so",819.475,824.305,4.82999999999993,14,173.913043478263,NA,"role_play","MATT",0,0,0,1
-"84","Attack_Conclave",4,52,84,NA,"SAM","before we go, i have to inspire everyone with this.",824.305,835.297,10.9920000000001,11,60.0436681222703,NA,"role_play","SAM",1,0,0,0
+"84","Attack_Conclave",4,52,84,NA,"SAM","before we go, i have to inspire everyone with this.",824.305,831.311,7.00600000000009,11,94.2049671709951,NA,"role_play","SAM",1,0,0,0
 "85","Attack_Conclave",4,52,85,NA,"MATT","holy shit. what the what?",835.297,837.756,2.45899999999995,6,146.40097600651,NA,"role_play","MATT",0,0,0,1
 "86","Attack_Conclave",4,52,86,NA,"TALIESIN","what are you? what the fuck are you? oh my god!",837.756,842.653,4.89700000000005,12,147.028793138655,NA,"role_play","TALIESIN",1,0,0,0
 "87","Attack_Conclave",4,52,87,NA,"LIAM","i want a d10!",842.653,845.341,2.68799999999999,5,111.607142857143,NA,"role_play","LIAM",1,0,0,0
@@ -170,7 +170,7 @@
 "169","Attack_Conclave",4,52,169,"combat","MATT","okay, you step to the very edge of the rooftop here.",1438.152,1443.393,5.24099999999999,12,137.378362907842,1,"combat","MATT",0,0,0,1
 "170","Attack_Conclave",4,52,170,"combat","LAURA","oh god.",1443.393,1444.894,1.50099999999998,3,119.920053297803,1,"combat","LAURA",1,0,0,0
 "171","Attack_Conclave",4,52,171,"combat","MATT","we'll say for the sake of this, right there.",1444.894,1447.038,2.14400000000001,11,307.835820895522,1,"combat","MATT",0,0,0,1
-"172","Attack_Conclave",4,52,172,"combat","SAM","and i shout, oi, kevdak! i have a message from the people of westruun! and i moon him.",1447.038,1457.839,10.8009999999999,19,105.54578279789,1,"combat","SAM",1,0,0,0
+"172","Attack_Conclave",4,52,172,"combat","SAM","and i shout, oi, kevdak! i have a message from the people of westruun! and i moon him.",1447.038,1455.033,7.99499999999989,19,142.589118198876,1,"combat","SAM",1,0,0,0
 "173","Attack_Conclave",4,52,173,"combat","SAM","and i say, kiss our metaphorical hairy arses!",1457.839,1460.991,3.15200000000004,9,171.319796954312,1,"combat","SAM",1,0,0,0
 "174","Attack_Conclave",4,52,174,"combat","MATT","just like that on your shirt. as he brings around his axe for a second swing, he hears that and glances over his shoulder and sees this shiny gnome butt up on the top. continuing the swing, though, to attack. go ahead and reduce the damage using your cutting words.",1460.991,1478.748,17.7570000000001,51,172.326406487582,1,"combat","MATT",0,0,0,1
 "175","Attack_Conclave",4,52,175,"combat","SAM","ten, right?",1478.748,1480.295,1.54700000000003,3,116.354234001291,1,"combat","SAM",1,0,0,0
@@ -202,7 +202,7 @@
 "201","Attack_Conclave",4,52,201,"combat","SAM","wisdom saving throw with disadvantage.",1644.68,1647.255,2.57500000000005,6,139.805825242716,1,"combat","SAM",1,0,0,0
 "202","Attack_Conclave",4,52,202,"combat","MATT","with disadvantage, yes, that is true. kevdak. all right.",1647.255,1650.73,3.47499999999991,10,172.661870503602,1,"combat","MATT",0,0,0,1
 "203","Attack_Conclave",4,52,203,"combat","SAM","because of cutting words.",1650.73,1652.273,1.54299999999989,5,194.426441996125,1,"combat","SAM",1,0,0,0
-"204","Attack_Conclave",4,52,204,"combat","MATT","he rolled a 19 and an eight. taking the eight, that brings it to a ten, so that's a failure on him.",1652.273,1665.418,13.145,24,109.547356409281,1,"combat","MATT",0,0,0,1
+"204","Attack_Conclave",4,52,204,"combat","MATT","he rolled a 19 and an eight. taking the eight, that brings it to a ten, so that's a failure on him.",1652.273,1663.783,11.51,24,125.108601216334,1,"combat","MATT",0,0,0,1
 "205","Attack_Conclave",4,52,205,"combat","LAURA","for hold person, does it un-paralyze him if we hit him?",1665.418,1673.627,8.20900000000006,13,95.0176635400164,1,"combat","LAURA",1,0,0,0
 "206","Attack_Conclave",4,52,206,"combat","SAM","no. he's just paralyzed. you can have at him. and can i still move and do other things?",1673.627,1681.881,8.25400000000013,20,145.384056215166,1,"combat","SAM",1,0,0,0
 "207","Attack_Conclave",4,52,207,"combat","MATT","you can in a moment. we have to figure out if the other guy makes his save. he rolls a natural one.",1681.881,1687.752,5.87099999999987,23,235.053653551359,1,"combat","MATT",0,0,0,1
@@ -221,7 +221,7 @@
 "220","Attack_Conclave",4,52,220,"combat","MATT","you can duck behind the other side of this roof if you'd like.",1732.493,1734.703,2.21000000000004,15,407.239819004518,1,"combat","MATT",0,0,0,1
 "221","Attack_Conclave",4,52,221,"combat","SAM","and still maintain sight? oh, wait, no, i'd be more than 60 feet away.",1734.703,1738.161,3.45800000000008,16,277.617119722376,1,"combat","SAM",1,0,0,0
 "222","Attack_Conclave",4,52,222,"combat","MATT","i mean, it's more the casting time. you can still move away once you've cast the spell and hold it there.",1738.161,1745.459,7.298,24,197.314332693889,1,"combat","MATT",0,0,0,1
-"223","Attack_Conclave",4,52,223,"combat","SAM","okay. then i'll duck back behind some cover. and as my bonus, i still get a bonus, i will inspire grog and i'll say, grog! now it's your turn to fuck shit up.",1745.459,1759.56,14.1009999999999,37,157.43564286221,1,"combat","SAM",1,0,0,0
+"223","Attack_Conclave",4,52,223,"combat","SAM","okay. then i'll duck back behind some cover. and as my bonus, i still get a bonus, i will inspire grog and i'll say, grog! now it's your turn to fuck shit up.",1745.459,1757.63,12.171,37,182.400788760167,1,"combat","SAM",1,0,0,0
 "224","Attack_Conclave",4,52,224,"combat","SAM","all right.",1759.56,1760.962,1.40200000000004,3,128.388017118398,1,"combat","SAM",1,0,0,0
 "225","Attack_Conclave",4,52,225,"combat","MATT","and that finishes your turn, scanlan?",1760.962,1763.338,2.37599999999998,7,176.767676767679,1,"combat","MATT",0,0,0,1
 "226","Attack_Conclave",4,52,226,"combat","SAM","yeah, that's it.",1763.338,1764.32,0.981999999999971,5,305.49898167007,1,"combat","SAM",1,0,0,0
@@ -295,7 +295,7 @@
 "294","Attack_Conclave",4,52,294,"combat","LIAM","okay. which doorway, where am i on the map, i can't see myself? right there? could i run to the corner of the building that the archers are on and scrabble up the side of it?",2063.296,2072.615,9.31899999999996,38,244.661444360984,1,"combat","LIAM",1,0,0,0
 "295","Attack_Conclave",4,52,295,"combat","MATT","over here?",2072.615,2073.792,1.17700000000013,3,152.931180968547,1,"combat","MATT",0,0,0,1
 "296","Attack_Conclave",4,52,296,"combat","LIAM","and get to that archer?",2073.792,2074.904,1.11200000000008,6,323.741007194221,1,"combat","LIAM",1,0,0,0
-"297","Attack_Conclave",4,52,297,"combat","MATT","you can certain try it.",2074.904,2077.894,2.98999999999978,6,120.401337792651,1,"combat","MATT",0,0,0,1
+"297","Attack_Conclave",4,52,297,"combat","MATT","you can certain try it.",2074.904,2076.151,1.24699999999984,6,288.692862870926,1,"combat","MATT",0,0,0,1
 "298","Attack_Conclave",4,52,298,"combat","MATT","you rush past one of the peasants, fear in their face, they're confused and looking around and you see there's mud and a little trickle of blood that's dried down their face. as you by, they go, you don't pay too much mind to them.",2077.894,2087.801,9.90700000000015,50,302.816190572318,1,"combat","MATT",0,0,0,1
 "299","Attack_Conclave",4,52,299,"combat","LIAM","acrobatics check?",2087.801,2092.086,4.28499999999985,3,42.0070011668626,1,"combat","LIAM",1,0,0,0
 "300","Attack_Conclave",4,52,300,"combat","MATT","make an acrobatics check.",2092.086,2093.53,1.44400000000041,5,207.756232686921,1,"combat","MATT",0,0,0,1
@@ -326,7 +326,7 @@
 "325","Attack_Conclave",4,52,325,"combat","MATT","yeah, it's a bonus action, so you could if you wanted to. the weapon isn't attuned to you, so it would just act as a regular axe, possibly.",2197.382,2205.301,7.91899999999987,31,234.878141179446,1,"combat","MATT",0,0,0,1
 "326","Attack_Conclave",4,52,326,"combat","ASHLEY","make it attuned to you!",2205.301,2206.859,1.55799999999999,6,231.065468549423,1,"combat","ASHLEY",1,0,0,0
 "327","Attack_Conclave",4,52,327,"combat","MARISHA","that's a short rest.",2206.859,2208.67,1.81100000000015,6,198.785201546091,1,"combat","MARISHA",1,0,0,0
-"328","Attack_Conclave",4,52,328,"combat","TRAVIS","can i, looking at the axe, say, oh, i do hope you have a necromancer in your group, because i'm looking at a fucking dead man.",2208.67,2222.539,13.8690000000001,28,121.133463119185,1,"combat","TRAVIS",1,0,0,0
+"328","Attack_Conclave",4,52,328,"combat","TRAVIS","can i, looking at the axe, say, oh, i do hope you have a necromancer in your group, because i'm looking at a fucking dead man.",2208.67,2220.696,12.0259999999998,28,139.697322467988,1,"combat","TRAVIS",1,0,0,0
 "329","Attack_Conclave",4,52,329,"combat","TRAVIS","can i aim right above the gauntlet below the elbow on his left arm? swing to his side with the axe.",2222.539,2234.433,11.8939999999998,22,110.9803262149,1,"combat","TRAVIS",1,0,0,0
 "330","Attack_Conclave",4,52,330,"combat","MATT","like on his left arm? sure. you're going to be it's going to okay, so you're raging. advantage. well no, reckless attack would be the advantage if you wanted to.",2234.433,2245.186,10.7530000000002,34,189.714498279547,1,"combat","MATT",0,0,0,1
 "331","Attack_Conclave",4,52,331,"combat","TRAVIS","well, he did it against me so i get it against him.",2245.186,2247.5,2.31399999999985,13,337.078651685415,1,"combat","TRAVIS",1,0,0,0
@@ -464,7 +464,7 @@
 "463","Attack_Conclave",4,52,463,"combat","MATT","spiritual weapon. as a cleric. that's a level... two?",2854.794,2863.9,9.10600000000022,11,72.4796837250147,1,"combat","MATT",0,0,0,1
 "464","Attack_Conclave",4,52,464,"combat","ASHLEY","i'm going to do it at a higher level, i'm going to do it at a level five.",2863.9,2867.677,3.77700000000004,21,333.598093725175,1,"combat","ASHLEY",1,0,0,0
 "465","Attack_Conclave",4,52,465,"combat","TALIESIN","five? five?",2867.677,2870.4,2.72299999999996,3,66.1035622475222,1,"combat","TALIESIN",1,0,0,0
-"466","Attack_Conclave",4,52,466,"combat","ASHLEY","it's a big one.",2870.4,2874.841,4.4409999999998,6,81.0628236883621,1,"combat","ASHLEY",1,0,0,0
+"466","Attack_Conclave",4,52,466,"combat","ASHLEY","it's a big one.",2870.4,2872.741,2.34099999999989,6,153.780435711241,1,"combat","ASHLEY",1,0,0,0
 "467","Attack_Conclave",4,52,467,"combat","LIAM","in the shape of madeline kahn and it's out for blood.",2874.841,2878.521,3.68000000000029,13,211.956521739114,1,"combat","LIAM",1,0,0,0
 "468","Attack_Conclave",4,52,468,"combat","MATT","we'll use this metal d20, where do you want to place it?",2878.521,2880.564,2.04299999999967,14,411.160058737219,1,"combat","MATT",0,0,0,1
 "469","Attack_Conclave",4,52,469,"combat","ASHLEY","right above him.",2880.564,2884.227,3.66300000000001,4,65.5200655200653,1,"combat","ASHLEY",1,0,0,0
@@ -565,7 +565,7 @@
 "564","Attack_Conclave",4,52,564,"combat","MATT","right, so two hits on you, you take 19 points of slashing damage from the first strike.",3301.93,3309.047,7.11700000000019,18,151.74933258395,1,"combat","MATT",0,0,0,1
 "565","Attack_Conclave",4,52,565,"combat","ASHLEY","that's not halved? no, it's only halved because he's",3309.047,3311.469,2.42200000000003,12,297.274979355901,1,"combat","ASHLEY",1,0,0,0
 "566","Attack_Conclave",4,52,566,"combat","MATT","only because he's raging.",3311.469,3312.788,1.31899999999996,6,272.934040940114,1,"combat","MATT",0,0,0,1
-"567","Attack_Conclave",4,52,567,"combat","ASHLEY","i'm a barbarian, too!",3312.788,3315.966,3.17799999999988,6,113.278791692893,1,"combat","ASHLEY",1,0,0,0
+"567","Attack_Conclave",4,52,567,"combat","ASHLEY","i'm a barbarian, too!",3312.788,3314.183,1.39499999999998,6,258.064516129036,1,"combat","ASHLEY",1,0,0,0
 "568","Attack_Conclave",4,52,568,"combat","MATT","19 on the first strike, the second one is 13, so that's a total of 32 points of slashing damage to you. and that's going to end the barbarians' turn, everyone else finishes out surprise round, now we're back into full initiative, everyone's in play, top of the round, vex, you're up.",3315.966,3336.149,20.183,58,172.422335628995,1,"combat","MATT",0,0,0,1
 "569","Attack_Conclave",4,52,569,"combat","LAURA","okay. if i aim an arrow, it's at disadvantage?",3336.149,3348.297,12.1480000000001,11,54.3299308528147,1,"combat","LAURA",1,0,0,0
 "570","Attack_Conclave",4,52,570,"combat","MATT","if you aimed specifically for something? it would be at disadvantage and a minus five to hit.",3348.297,3353.211,4.91399999999976,18,219.780219780231,1,"combat","MATT",0,0,0,1
@@ -743,7 +743,7 @@
 "742","Attack_Conclave",4,52,742,"combat","MARISHA","what? who's that?",4103.313,4106.517,3.20399999999972,5,93.6329588015062,1,"combat","MARISHA",1,0,0,0
 "743","Attack_Conclave",4,52,743,"combat","LAURA","oh, that's the one you pushed off the roof.",4106.517,4108.235,1.71799999999985,11,384.167636786996,1,"combat","LAURA",1,0,0,0
 "744","Attack_Conclave",4,52,744,"combat","MATT","is going to come over this way and hide to the side. just going to watch what's happening. that finishes the archers' turn. kevdak. unable to do anything, is going to attempt to make a saving throw. and that is going to be a total of 18. what's your dc?",4108.235,4128.739,20.5039999999999,53,155.091689426454,1,"combat","MATT",0,0,0,1
-"745","Attack_Conclave",4,52,745,"combat","SAM","20.",4128.739,4131.4,2.66100000000006,2,45.0958286358502,1,"combat","SAM",1,0,0,0
+"745","Attack_Conclave",4,52,745,"combat","SAM","20.",4128.739,4129.853,1.11400000000049,2,107.719928186667,1,"combat","SAM",1,0,0,0
 "746","Attack_Conclave",4,52,746,"combat","TRAVIS","oh, scanlan! i will make out with that fucking shirt, i swear to god!",4131.4,4137.555,6.15500000000065,15,146.222583265622,1,"combat","TRAVIS",1,0,0,0
 "747","Attack_Conclave",4,52,747,"combat","SAM","i mean, my spell dc's 18, but with the hand cone of clarity, okay.",4137.555,4148.206,10.6509999999998,16,90.1323819359698,1,"combat","SAM",1,0,0,0
 "748","Attack_Conclave",4,52,748,"combat","TALIESIN","don't talk him out of it.",4148.206,4151.526,3.31999999999971,8,144.578313253025,1,"combat","TALIESIN",1,0,0,0
@@ -789,7 +789,7 @@
 "788","Attack_Conclave",4,52,788,"combat","MATT","you can do that, you can shout over the side. you have to get into view of her, which means you have to move a little bit closer to the edge, but yeah.",4344.557,4348.276,3.71900000000005,34,548.534552298998,1,"combat","MATT",0,0,0,1
 "789","Attack_Conclave",4,52,789,"combat","SAM","okay, i'll do that.",4348.276,4349.676,1.40000000000055,6,257.142857142757,1,"combat","SAM",1,0,0,0
 "790","Attack_Conclave",4,52,790,"combat","MATT","okay, so you get about there, glance off the side. all right. go for it.",4349.676,4354.51,4.83399999999983,16,198.593297476217,1,"combat","MATT",0,0,0,1
-"791","Attack_Conclave",4,52,791,"combat","SAM","i'll peek over the side and say, never going to fuck you up, never going to let you down, never going to run around and not heal you.",4354.51,4368.415,13.9049999999997,30,129.449838187705,1,"combat","SAM",1,0,0,0
+"791","Attack_Conclave",4,52,791,"combat","SAM","i'll peek over the side and say, never going to fuck you up, never going to let you down, never going to run around and not heal you.",4354.51,4366.803,12.2929999999997,30,146.424794598556,1,"combat","SAM",1,0,0,0
 "792","Attack_Conclave",4,52,792,"combat","MATT","all right, so go ahead and roll your heal for pike. grog, you're up next.",4368.415,4373.894,5.47900000000027,17,186.165358642079,1,"combat","MATT",0,0,0,1
 "793","Attack_Conclave",4,52,793,"combat","SAM","yeah, seven points!",4373.894,4375.453,1.5590000000002,4,153.944836433592,1,"combat","SAM",1,0,0,0
 "794","Attack_Conclave",4,52,794,"combat","ASHLEY","oh, i'll take it.",4375.453,4376.956,1.5029999999997,6,239.52095808388,1,"combat","ASHLEY",1,0,0,0
@@ -804,7 +804,7 @@
 "803","Attack_Conclave",4,52,803,"combat","TRAVIS","23.",4414.515,4419.377,4.86200000000008,2,24.681201151789,1,"combat","TRAVIS",1,0,0,0
 "804","Attack_Conclave",4,52,804,"combat","MATT","23? hits. with the minus five?",4419.377,4422.753,3.37599999999929,7,124.407582938415,1,"combat","MATT",0,0,0,1
 "805","Attack_Conclave",4,52,805,"combat","TRAVIS","no. 18.",4422.753,4425.109,2.35600000000068,3,76.4006791171258,1,"combat","TRAVIS",1,0,0,0
-"806","Attack_Conclave",4,52,806,"combat","MATT","still hits.",4425.109,4427.809,2.69999999999982,3,66.6666666666712,1,"combat","MATT",0,0,0,1
+"806","Attack_Conclave",4,52,806,"combat","MATT","still hits.",4425.109,4426.261,1.15200000000004,3,156.249999999994,1,"combat","MATT",0,0,0,1
 "807","Attack_Conclave",4,52,807,"combat","TALIESIN","you asshole.",4427.809,4429.227,1.41799999999967,3,126.939351198902,1,"combat","TALIESIN",1,0,0,0
 "808","Attack_Conclave",4,52,808,"combat","MATT","so it's a d12.",4429.227,4432.527,3.30000000000018,6,109.090909090903,1,"combat","MATT",0,0,0,1
 "809","Attack_Conclave",4,52,809,"combat","TRAVIS","20 for the first one. 30, with great weapon master.",4432.527,4438.434,5.90700000000015,11,111.731843575416,1,"combat","TRAVIS",1,0,0,0
@@ -884,7 +884,7 @@
 "883","Attack_Conclave",4,52,883,"combat","TALIESIN","i can hit greenbeard, i'm going to hit greenbeard. he's got the magicky creepy thing, right?",4781.814,4785.916,4.10199999999986,19,277.913213066806,1,"combat","TALIESIN",1,0,0,0
 "884","Attack_Conclave",4,52,884,"combat","LAURA","yeah, he's gross. he's got mold on his neck.",4785.916,4789.465,3.54899999999998,12,202.874049027896,1,"combat","LAURA",1,0,0,0
 "885","Attack_Conclave",4,52,885,"combat","MATT","fungal moss on his whole neck and chest area.",4789.465,4791.944,2.47900000000027,10,242.033077853947,1,"combat","MATT",0,0,0,1
-"886","Attack_Conclave",4,52,886,"combat","TALIESIN","all right. well, we'll see how things go. let's do a sharpshooter shot at him right now. let's see what a little bit of damage does to him. so sharpshooter with retort. don't miss. and my pistol goes.",4791.944,4810.256,18.3119999999999,43,140.891218872871,1,"combat","TALIESIN",1,0,0,0
+"886","Attack_Conclave",4,52,886,"combat","TALIESIN","all right. well, we'll see how things go. let's do a sharpshooter shot at him right now. let's see what a little bit of damage does to him. so sharpshooter with retort. don't miss. and my pistol goes.",4791.944,4808.512,16.5679999999993,43,155.721873491074,1,"combat","TALIESIN",1,0,0,0
 "887","Attack_Conclave",4,52,887,"combat","MATT","all right.",4810.256,4811.64,1.38400000000001,3,130.057803468207,1,"combat","MATT",0,0,0,1
 "888","Attack_Conclave",4,52,888,"combat","TALIESIN","and i'm putting it away, so.",4811.64,4813.597,1.95699999999943,8,245.273377618876,1,"combat","TALIESIN",1,0,0,0
 "889","Attack_Conclave",4,52,889,"combat","MATT","okay, all right, so that's going to end your turn? keyleth, you're up.",4813.597,4816.87,3.27300000000014,16,293.308890925744,1,"combat","MATT",0,0,0,1
@@ -963,7 +963,7 @@
 "962","Attack_Conclave",4,52,962,"combat","LAURA","oh god.",5157.357,5158.605,1.24799999999959,3,144.230769230816,1,"combat","LAURA",1,0,0,0
 "963","Attack_Conclave",4,52,963,"combat","MATT","all right, so that comes to you, grog, since you did reckless attack on him for the stuff, they all have advantage on you anyway, so all the attacks are with advantage, that's six attacks.",5158.605,5166.282,7.67700000000059,37,289.175459163714,1,"combat","MATT",0,0,0,1
 "964","Attack_Conclave",4,52,964,"combat","MARISHA","six attacks.",5166.282,5168.581,2.29899999999998,3,78.2949108307967,1,"combat","MARISHA",1,0,0,0
-"965","Attack_Conclave",4,52,965,"combat","MATT","that's a natural 20.",5168.581,5171.424,2.84299999999985,6,126.626802673239,1,"combat","MATT",0,0,0,1
+"965","Attack_Conclave",4,52,965,"combat","MATT","that's a natural 20.",5168.581,5169.932,1.35099999999966,6,266.469282013391,1,"combat","MATT",0,0,0,1
 "966","Attack_Conclave",4,52,966,"combat","MATT","26 on the second. 23 on the third.",5171.424,5179.08,7.65599999999995,9,70.532915360502,1,"combat","MATT",0,0,0,1
 "967","Attack_Conclave",4,52,967,"combat","TRAVIS","hits.",5179.08,5180.63,1.55000000000018,2,77.4193548387006,1,"combat","TRAVIS",1,0,0,0
 "968","Attack_Conclave",4,52,968,"combat","MATT","24 on the fourth.",5180.63,5184.68,4.05000000000018,5,74.0740740740708,1,"combat","MATT",0,0,0,1
@@ -1017,7 +1017,7 @@
 "1016","Attack_Conclave",4,52,1016,"combat","SAM","17.",5362.25,5365.743,3.49300000000039,2,34.3544231319744,1,"combat","SAM",1,0,0,0
 "1017","Attack_Conclave",4,52,1017,"combat","MATT","let me check here real fast. plus the spell's level. yeah. it's dispelled.",5365.743,5372.379,6.63599999999951,16,144.665461121168,1,"combat","MATT",0,0,0,1
 "1018","Attack_Conclave",4,52,1018,"combat","SAM","it's dispelled?",5372.379,5374.261,1.88200000000052,4,127.523910733227,1,"combat","SAM",1,0,0,0
-"1019","Attack_Conclave",4,52,1019,"combat","MATT","yeah, counterspell.",5374.261,5377.749,3.48799999999937,3,51.6055045871652,1,"combat","MATT",0,0,0,1
+"1019","Attack_Conclave",4,52,1019,"combat","MATT","yeah, counterspell.",5374.261,5375.357,1.09599999999955,3,164.233576642403,1,"combat","MATT",0,0,0,1
 "1020","Attack_Conclave",4,52,1020,"combat","MATT","it was 15, was what he had to beat.",5377.749,5380.062,2.3130000000001,10,259.403372243828,1,"combat","MATT",0,0,0,1
 "1021","Attack_Conclave",4,52,1021,"combat","MARISHA","mvp this fight!",5380.062,5381.951,1.88900000000012,4,127.051349920585,1,"combat","MARISHA",1,0,0,0
 "1022","Attack_Conclave",4,52,1022,"combat","TALIESIN","oh my god, sam. oh my god.",5381.951,5383.633,1.68199999999979,8,285.374554102295,1,"combat","TALIESIN",1,0,0,0
@@ -1083,7 +1083,7 @@
 "1082","Attack_Conclave",4,52,1082,"combat","MATT","that's going to be a 13 with the first strike.",5688.172,5691.949,3.77700000000004,12,190.627482128671,1,"combat","MATT",0,0,0,1
 "1083","Attack_Conclave",4,52,1083,"combat","SAM","that misses.",5691.949,5693.712,1.76300000000083,3,102.098695405511,1,"combat","SAM",1,0,0,0
 "1084","Attack_Conclave",4,52,1084,"combat","MATT","misses, second one's going to be a 22.",5693.712,5696.479,2.76699999999983,10,216.841344416349,1,"combat","MATT",0,0,0,1
-"1085","Attack_Conclave",4,52,1085,"combat","SAM","that just hits.",5696.479,5700.044,3.5649999999996,4,67.3211781206247,1,"combat","SAM",1,0,0,0
+"1085","Attack_Conclave",4,52,1085,"combat","SAM","that just hits.",5696.479,5697.903,1.42399999999998,4,168.539325842699,1,"combat","SAM",1,0,0,0
 "1086","Attack_Conclave",4,52,1086,"combat","MATT","all right, that's going to be 17 points of slashing damage from that greatsword, whoosh. i need you to go ahead and make a concentration check.",5700.044,5710.926,10.8820000000005,28,154.383385407087,1,"combat","MATT",0,0,0,1
 "1087","Attack_Conclave",4,52,1087,"combat","LAURA","oh no!",5710.926,5713.004,2.07799999999952,3,86.6217516843319,1,"combat","LAURA",1,0,0,0
 "1088","Attack_Conclave",4,52,1088,"combat","MATT","yeah, you have warcaster, so you have advantage on that.",5713.004,5717.286,4.28200000000015,11,154.133582438108,1,"combat","MATT",0,0,0,1
@@ -1174,7 +1174,7 @@
 "1173","Attack_Conclave",4,52,1173,"combat","LIAM","all right. yep. i want to go along the wall. i can swoop around it and avoid greenbeard, i'm going to run past this barbarian, she'll probably take an attack but i'm wearing that cloak so she's at disadvantage. i'm going to run up to kevdak and i'm going to stab him twice i should get sneak attack damage and a crit, because he's frozen.",6034.077,6053.602,19.5249999999996,73,224.327784891169,1,"combat","LIAM",1,0,0,0
 "1174","Attack_Conclave",4,52,1174,"combat","MATT","you do.",6053.602,6054.724,1.1220000000003,3,160.427807486588,1,"combat","MATT",0,0,0,1
 "1175","Attack_Conclave",4,52,1175,"combat","LIAM","then i'm going to run the fuck out. that's what i'd like to do.",6054.724,6056.639,1.91499999999996,18,563.968668407321,1,"combat","LIAM",1,0,0,0
-"1176","Attack_Conclave",4,52,1176,"combat","MATT","okay.",6056.639,6058.824,2.18499999999949,2,54.919908466832,1,"combat","MATT",0,0,0,1
+"1176","Attack_Conclave",4,52,1176,"combat","MATT","okay.",6056.639,6057.566,0.92699999999968,2,129.449838187747,1,"combat","MATT",0,0,0,1
 "1177","Attack_Conclave",4,52,1177,"combat","MATT","you rush up, you manage to avoid greenbeard, there is one of these guys there who was holding his place, seeing what things were going on, he had no target at the moment, was staying nearby. with disadvantage, that is 21?",6058.824,6071.513,12.6890000000003,42,198.597210182043,1,"combat","MATT",0,0,0,1
 "1178","Attack_Conclave",4,52,1178,"combat","LIAM","misses. 22.",6071.513,6073.544,2.03099999999995,3,88.6262924667674,1,"combat","LIAM",1,0,0,0
 "1179","Attack_Conclave",4,52,1179,"combat","MATT","22!",6073.544,6074.617,1.07300000000032,2,111.835973904906,1,"combat","MATT",0,0,0,1
@@ -1278,7 +1278,7 @@
 "1277","Attack_Conclave",4,52,1277,"combat","TALIESIN","oh, jesus.",6564.471,6565.788,1.31700000000001,3,136.674259681093,1,"combat","TALIESIN",1,0,0,0
 "1278","Attack_Conclave",4,52,1278,"combat","SAM","six.",6565.788,6571.568,5.78000000000065,2,20.7612456747381,1,"combat","SAM",1,0,0,0
 "1279","Attack_Conclave",4,52,1279,"combat","MATT","and with that, the hold person fades, concentration lost from the barrage of arrows from the nearby herd archers. you hear a roar across the battlefield,. currently with one busted arm, no arm on the other side, kevdak is screaming in terrible pain and anger.",6571.568,6595.094,23.5259999999998,46,117.317010966591,1,"combat","MATT",0,0,0,1
-"1280","Attack_Conclave",4,52,1280,"combat","LIAM","but he's great at riverdance.",6595.094,6599.326,4.23199999999997,7,99.2438563327039,1,"combat","LIAM",1,0,0,0
+"1280","Attack_Conclave",4,52,1280,"combat","LIAM","but he's great at riverdance.",6595.094,6596.972,1.8779999999997,7,223.642172523997,1,"combat","LIAM",1,0,0,0
 "1281","Attack_Conclave",4,52,1281,"combat","MATT","all right, archers finish their turn. it comes to kevdak's turn. he's going to go ahead and use his bonus action to go ahead and use second wind. heals 17 hit points on that, rolled a ten. he is then going to let's see. huh.",6599.326,6624.809,25.4830000000002,49,115.37103166817,1,"combat","MATT",0,0,0,1
 "1282","Attack_Conclave",4,52,1282,"combat","MARISHA","no one's around him.",6624.809,6626.4,1.59099999999944,6,226.272784412399,1,"combat","MARISHA",1,0,0,0
 "1283","Attack_Conclave",4,52,1283,"combat","MATT","yeah, he has no axe. he reaches over and picks up your hammer.",6626.4,6628.793,2.39300000000003,14,351.02381947346,1,"combat","MATT",0,0,0,1
@@ -1542,7 +1542,7 @@
 "1541","Attack_Conclave",4,52,1541,"combat","TALIESIN","32 points of damage? 32 points of damage.",7644.18,7648.849,4.66899999999987,9,115.656457485546,1,"combat","TALIESIN",1,0,0,0
 "1542","Attack_Conclave",4,52,1542,"combat","MATT","16 points of piercing damage, all right.",7648.849,7650.796,1.94700000000012,8,246.533127889045,1,"combat","MATT",0,0,0,1
 "1543","Attack_Conclave",4,52,1543,"combat","TALIESIN","and a reload.",7650.796,7651.957,1.16100000000006,4,206.71834625322,1,"combat","TALIESIN",1,0,0,0
-"1544","Attack_Conclave",4,52,1544,"combat","MATT","and a reload. that's your turn. percy is done, dealing a grand total of 47 points of damage in that round.",7651.957,7667.309,15.3519999999999,23,89.8905680041697,1,"combat","MATT",0,0,0,1
+"1544","Attack_Conclave",4,52,1544,"combat","MATT","and a reload. that's your turn. percy is done, dealing a grand total of 47 points of damage in that round.",7651.957,7665.924,13.9669999999996,23,98.8043244791319,1,"combat","MATT",0,0,0,1
 "1545","Attack_Conclave",4,52,1545,"combat","LAURA","that's good!",7667.309,7668.743,1.4340000000002,4,167.364016736379,1,"combat","LAURA",1,0,0,0
 "1546","Attack_Conclave",4,52,1546,"combat","SAM","and i did ten, so we're almost back to where we were.",7668.743,7671.623,2.8799999999992,14,291.666666666748,1,"combat","SAM",1,0,0,0
 "1547","Attack_Conclave",4,52,1547,"combat","MARISHA","okay, angry at the fact that i'm not doing much, i'm going to slowly, for flavor, my air elemental's going to start burning a little fire, i'm going to drop my air elemental and i'm going to do firestorm.",7671.623,7684.823,13.2000000000007,45,204.545454545443,1,"combat","MARISHA",1,0,0,0
@@ -1551,7 +1551,7 @@
 "1550","Attack_Conclave",4,52,1550,"combat","LIAM","borrow the thordak mini.",7689.449,7695.072,5.6230000000005,5,53.3523030410765,1,"combat","LIAM",1,0,0,0
 "1551","Attack_Conclave",4,52,1551,"combat","LAURA","what if we all die and the dragons take over everything?",7695.072,7704.617,9.54500000000007,12,75.4321634363535,1,"combat","LAURA",1,0,0,0
 "1552","Attack_Conclave",4,52,1552,"combat","LIAM","no. no.",7704.617,7706.182,1.5649999999996,3,115.015974440924,1,"combat","LIAM",1,0,0,0
-"1553","Attack_Conclave",4,52,1553,"combat","SAM","you know, it's this kind of intense fun that you can get in every loot crate.",7706.182,7713.327,7.14500000000044,18,151.15465360391,1,"combat","SAM",1,0,0,0
+"1553","Attack_Conclave",4,52,1553,"combat","SAM","you know, it's this kind of intense fun that you can get in every loot crate.",7706.182,7710.383,4.20100000000002,18,257.081647226849,1,"combat","SAM",1,0,0,0
 "1554","Attack_Conclave",4,52,1554,"combat","MATT","dammit, sam.",7713.327,7714.663,1.33599999999933,3,134.730538922223,1,"combat","MATT",0,0,0,1
 "1555","Attack_Conclave",4,52,1555,"combat","SAM","every month, you'll be on pins and needles to see what's in this box.",7714.663,7718.989,4.32600000000002,17,235.783633841885,1,"combat","SAM",1,0,0,0
 "1556","Attack_Conclave",4,52,1556,"combat","MATT","all right, for the time being, i'll use this one here. all right, so keyleth, you revert back.",7718.989,7726.483,7.4940000000006,20,160.128102481973,1,"combat","MATT",0,0,0,1
@@ -1799,7 +1799,7 @@
 "1798","Attack_Conclave",4,52,1798,"combat","ASHLEY","he dies!",8853.434,8855.723,2.28900000000067,3,78.6369593708813,1,"combat","ASHLEY",1,0,0,0
 "1799","Attack_Conclave",4,52,1799,"combat","MATT","this guy gets slammed into the side and falls back to the ground, missing his turn.",8855.723,8859.76,4.03700000000026,17,252.662868466667,1,"combat","MATT",0,0,0,1
 "1800","Attack_Conclave",4,52,1800,"combat","LAURA","falls right back down like some other loser that i know of.",8859.76,8862.294,2.53399999999965,13,307.81373322814,1,"combat","LAURA",1,0,0,0
-"1801","Attack_Conclave",4,52,1801,"combat","MATT","yeah,. greenbeard miscalculates and actually slams him against the wall. and then the goliath sort of slides down. takes four points of bludgeoning damage from that.",8862.294,8876.711,14.4169999999995,27,112.367344107655,1,"combat","MATT",0,0,0,1
+"1801","Attack_Conclave",4,52,1801,"combat","MATT","yeah,. greenbeard miscalculates and actually slams him against the wall. and then the goliath sort of slides down. takes four points of bludgeoning damage from that.",8862.294,8874.652,12.3580000000002,27,131.089173005339,1,"combat","MATT",0,0,0,1
 "1802","Attack_Conclave",4,52,1802,"combat","MATT","all righty. and that guy there is going to go ahead and strike at the child.",8876.711,8886.43,9.71900000000096,17,104.949068834232,1,"combat","MATT",0,0,0,1
 "1803","Attack_Conclave",4,52,1803,"combat","LAURA","no!",8886.43,8887.509,1.07899999999972,2,111.21408711773,1,"combat","LAURA",1,0,0,0
 "1804","Attack_Conclave",4,52,1804,"combat","MATT","a three. and 14.",8887.509,8893.312,5.80299999999988,5,51.6973978976402,1,"combat","MATT",0,0,0,1
@@ -1843,7 +1843,7 @@
 "1842","Attack_Conclave",4,52,1842,"combat","MATT","up to you.",9098.004,9099.25,1.24599999999919,4,192.616372391779,1,"combat","MATT",0,0,0,1
 "1843","Attack_Conclave",4,52,1843,"combat","TRAVIS","oh, thank god for that. natural. 20. look at it. the first one was a one.",9099.25,9106.995,7.7450000000008,17,131.697869593272,1,"combat","TRAVIS",1,0,0,0
 "1844","Attack_Conclave",4,52,1844,"combat","ASHLEY","fuck you!",9106.995,9108.263,1.26800000000003,3,141.955835962142,1,"combat","ASHLEY",1,0,0,0
-"1845","Attack_Conclave",4,52,1845,"combat","MATT","ones and twenties, man, you got to stop this. and that's why he did reckless.",9108.263,9117.74,9.47699999999895,17,107.628996517897,1,"combat","MATT",0,0,0,1
+"1845","Attack_Conclave",4,52,1845,"combat","MATT","ones and twenties, man, you got to stop this. and that's why he did reckless.",9108.263,9113.578,5.31499999999869,17,191.909689557902,1,"combat","MATT",0,0,0,1
 "1846","Attack_Conclave",4,52,1846,"combat","MATT","all right, so go ahead and roll damage on this.",9117.74,9120.176,2.43599999999969,11,270.935960591167,1,"combat","MATT",0,0,0,1
 "1847","Attack_Conclave",4,52,1847,"combat","ASHLEY","get 'im, grog.",9120.176,9121.829,1.65300000000025,4,145.190562613408,1,"combat","ASHLEY",1,0,0,0
 "1848","Attack_Conclave",4,52,1848,"combat","LAURA","does that mean he gets the three 12s again?",9121.829,9125.218,3.38900000000103,10,177.043375626975,1,"combat","LAURA",1,0,0,0
@@ -1860,7 +1860,7 @@
 "1859","Attack_Conclave",4,52,1859,"combat","LAURA","and then double that? his crits don't get double?",9165.368,9170.67,5.30199999999968,11,124.481327800837,1,"combat","LAURA",1,0,0,0
 "1860","Attack_Conclave",4,52,1860,"combat","MATT","you only double the first roll.",9170.695,9172.703,2.00799999999981,7,209.163346613566,1,"combat","MATT",0,0,0,1
 "1861","Attack_Conclave",4,52,1861,"combat","TRAVIS","yeah, double the first, right. which was ten, so 20, so 42.",9172.703,9174.786,2.08300000000054,13,374.459913586077,1,"combat","TRAVIS",1,0,0,0
-"1862","Attack_Conclave",4,52,1862,"combat","MATT","42, brings it to 21 damage. how do you want to do this?",9174.786,9184.569,9.78299999999945,14,85.863232137386,1,"combat","MATT",0,0,0,1
+"1862","Attack_Conclave",4,52,1862,"combat","MATT","42, brings it to 21 damage. how do you want to do this?",9174.786,9179.714,4.92799999999988,14,170.454545454549,1,"combat","MATT",0,0,0,1
 "1863","Attack_Conclave",4,52,1863,"combat","MARISHA","it worked!",9184.569,9185.687,1.11800000000039,3,161.001788908709,1,"combat","MARISHA",1,0,0,0
 "1864","Attack_Conclave",4,52,1864,"combat","LIAM","poetic justice!",9185.687,9187.002,1.31500000000051,3,136.882129277514,1,"combat","LIAM",1,0,0,0
 "1865","Attack_Conclave",4,52,1865,"combat","MATT","as the shadow fires from the necklace as she holds it aloft, bleeding and shaking, you appear, and dive down in silence. the square coming towards you, as kevdak, clutching in the one nearly ruined arm, the other arm that you bisected, is turning the corner, about to open the door to dive into the house to avoid it, looks up just in time to see you streaking down. what do you do?",9187.002,9212.901,25.8989999999994,74,171.435190547901,1,"combat","MATT",0,0,0,1
@@ -1902,7 +1902,7 @@
 "1901","Attack_Conclave",4,52,1901,"combat","LAURA","i'm going to shout, witness grog strongjaw, and bend the knee!",9444.816,9450.349,5.53299999999945,13,140.972347731805,1,"combat","LAURA",1,0,0,0
 "1902","Attack_Conclave",4,52,1902,"combat","ASHLEY","it's great, it's great, it's great.",9450.349,9454.309,3.95999999999913,10,151.515151515185,1,"combat","ASHLEY",1,0,0,0
 "1903","Attack_Conclave",4,52,1903,"combat","MATT","make an intimidation check.",9454.309,9457.835,3.52599999999984,5,85.0822461713028,1,"combat","MATT",0,0,0,1
-"1904","Attack_Conclave",4,52,1904,"combat","LAURA","natural 20!",9457.835,9463.962,6.12700000000041,3,29.3781622327384,1,"combat","LAURA",1,0,0,0
+"1904","Attack_Conclave",4,52,1904,"combat","LAURA","natural 20!",9457.835,9461.581,3.746000000001,3,48.0512546716369,1,"combat","LAURA",1,0,0,0
 "1905","Attack_Conclave",4,52,1905,"combat","MATT","don't hit the table, i was going to go inspect it.",9463.962,9465.604,1.64199999999983,13,475.030450669965,1,"combat","MATT",0,0,0,1
 "1906","Attack_Conclave",4,52,1906,"combat","LAURA","no, i hit, i hit, but it was, it was a 20, i swear.",9465.604,9467.61,2.00600000000122,15,448.654037886068,1,"combat","LAURA",1,0,0,0
 "1907","Attack_Conclave",4,52,1907,"combat","MATT","no, i trust you guys. i trust you guys.",9467.61,9472.155,4.54500000000007,10,132.01320132013,1,"combat","MATT",0,0,0,1
@@ -1965,13 +1965,13 @@
 "1964","Attack_Conclave",4,52,1964,"combat","MATT","okay. good to know. finishes your turn, scanlan?",9779.729,9783.364,3.63500000000022,9,148.555708390638,1,"combat","MATT",0,0,0,1
 "1965","Attack_Conclave",4,52,1965,"combat","SAM","no, i have an action still.",9783.364,9784.9,1.53600000000006,7,273.43749999999,1,"combat","SAM",1,0,0,0
 "1966","Attack_Conclave",4,52,1966,"combat","MATT","yes, you do.",9784.9,9786.207,1.3070000000007,4,183.626625860652,1,"combat","MATT",0,0,0,1
-"1967","Attack_Conclave",4,52,1967,"combat","SAM","so i will cast bigby's hand and lift grog up 30 feet like a fucking god.",9786.207,9799.59,13.3829999999998,18,80.6993947545405,1,"combat","SAM",1,0,0,0
+"1967","Attack_Conclave",4,52,1967,"combat","SAM","so i will cast bigby's hand and lift grog up 30 feet like a fucking god.",9786.207,9798.045,11.8379999999997,18,91.2316269640162,1,"combat","SAM",1,0,0,0
 "1968","Attack_Conclave",4,52,1968,"combat","SAM","if he's willing.",9799.59,9806.314,6.72400000000016,5,44.6162998215337,1,"combat","SAM",1,0,0,0
 "1969","Attack_Conclave",4,52,1969,"combat","MATT","i will say for the purposes of this, because i want to do this, this is ridiculous.",9806.314,9816.863,10.5489999999991,18,102.379372452374,1,"combat","MATT",0,0,0,1
 "1970","Attack_Conclave",4,52,1970,"combat","SAM","oh, i had to cast that at level six, by the way.",9816.863,9822.763,5.90000000000146,13,132.203389830476,1,"combat","SAM",1,0,0,0
 "1971","Attack_Conclave",4,52,1971,"combat","LIAM","is it full palm-up, or is it barcalounger style?",9822.763,9825.268,2.5049999999992,11,263.4730538923,1,"combat","LIAM",1,0,0,0
 "1972","Attack_Conclave",4,52,1972,"combat","MARISHA","is it like a chair?",9825.268,9828.399,3.1309999999994,6,114.979239859492,1,"combat","MARISHA",1,0,0,0
-"1973","Attack_Conclave",4,52,1973,"combat","SAM","you know what, because he's the god and the hand is subservient, it's the back of the hand like this. it's a dainty lift.",9828.399,9836.704,8.30500000000029,28,202.287778446712,1,"combat","SAM",1,0,0,0
+"1973","Attack_Conclave",4,52,1973,"combat","SAM","you know what, because he's the god and the hand is subservient, it's the back of the hand like this. it's a dainty lift.",9828.399,9835,6.60100000000057,28,254.506892894994,1,"combat","SAM",1,0,0,0
 "1974","Attack_Conclave",4,52,1974,"combat","MATT","i will say grog is now currently being held aloft right there.",9836.704,9840.808,4.10400000000118,13,190.058479532109,1,"combat","MATT",0,0,0,1
 "1975","Attack_Conclave",4,52,1975,"combat","MARISHA","nice!",9840.808,9842.281,1.47299999999996,2,81.4663951120187,1,"combat","MARISHA",1,0,0,0
 "1976","Attack_Conclave",4,52,1976,"combat","MATT","as the hand is clutching grog strongjaw, lifting him up into the air, you're conscious now as the hand's holding you on its back and you get up from one knee. grog, it's your turn.",9842.281,9854.07,11.7889999999989,39,198.490117906542,1,"combat","MATT",0,0,0,1
@@ -1984,7 +1984,7 @@
 "1983","Attack_Conclave",4,52,1983,"combat","SAM","does he have an actual name or is that just his name?",9930.071,9931.891,1.81999999999971,13,428.571428571497,1,"combat","SAM",1,0,0,0
 "1984","Attack_Conclave",4,52,1984,"combat","MATT","greenbeard's his name.",9931.891,9932.892,1.0010000000002,5,299.700299700239,1,"combat","MATT",0,0,0,1
 "1985","Attack_Conclave",4,52,1985,"combat","SAM","oh, great.",9932.892,9934.171,1.27900000000045,3,140.734949178996,1,"combat","SAM",1,0,0,0
-"1986","Attack_Conclave",4,52,1986,"combat","MATT","steps out into the middle, looking up at you. ""strongjaw. you stand above us all. in a way.""",9934.171,9950.231,16.0599999999995,19,70.9838107098404,1,"combat","MATT",0,0,0,1
+"1986","Attack_Conclave",4,52,1986,"combat","MATT","steps out into the middle, looking up at you. ""strongjaw. you stand above us all. in a way.""",9934.171,9947.786,13.6149999999998,19,83.7311788468614,1,"combat","MATT",0,0,0,1
 "1987","Attack_Conclave",4,52,1987,"combat","MATT","""claiming dominion over a herd that you fell to and left behind for years. though you struck ""down kevdak, what do you think makes you aligned with the interests of our people?""",9950.231,9968.943,18.7119999999995,34,109.02094912356,1,"combat","MATT",0,0,0,1
 "1988","Attack_Conclave",4,52,1988,"combat","TRAVIS","oh, you mistake me, seer of the herd. i do not mean to lead this herd, but rather to empower you to more powerful game. i'm here to inspire your aspirations. never would i ask you to bend the knee. only would i ask you to live and fight and perhaps die in the most beautiful death you can possibly attain. join me and my fellows. come to our aid when i call. and with that, we will chase down dragons, gods, and more.",9968.943,10012.806,43.8630000000012,86,117.639012379451,1,"combat","TRAVIS",1,0,0,0
 "1989","Attack_Conclave",4,52,1989,"combat","MATT","make a persuasion check with advantage.",10012.806,10016.254,3.44800000000032,7,121.809744779571,1,"combat","MATT",0,0,0,1
@@ -2044,7 +2044,7 @@
 "2043","Attack_Conclave",4,52,2043,NA,"SAM","we're going to have to get these dice calibrated later.",10502.441,10504.844,2.40299999999843,12,299.62546816499,NA,"role_play","SAM",1,0,0,0
 "2044","Attack_Conclave",4,52,2044,NA,"LAURA","but why does it only happen when it's a story element?",10504.844,10507.619,2.77500000000146,13,281.081081080934,NA,"role_play","LAURA",1,0,0,0
 "2045","Attack_Conclave",4,52,2045,NA,"TRAVIS","that's an 11.",10507.619,10508.979,1.35999999999876,5,220.588235294318,NA,"role_play","TRAVIS",1,0,0,0
-"2046","Attack_Conclave",4,52,2046,NA,"MATT","watch as next week critical role implements dice cam.",10508.979,10513.187,4.20800000000054,10,142.58555133078,NA,"role_play","MATT",0,0,0,1
+"2046","Attack_Conclave",4,52,2046,NA,"MATT","watch as next week critical role implements dice cam.",10508.979,10511.785,2.80600000000049,10,213.827512473234,NA,"role_play","MATT",0,0,0,1
 "2047","Attack_Conclave",4,52,2047,NA,"MATT","no, that's awesome.",10513.187,10514.824,1.63700000000063,5,183.262064752526,NA,"role_play","MATT",0,0,0,1
 "2048","Attack_Conclave",4,52,2048,NA,"LAURA","oh, let me take a picture, i'll take a picture.",10514.824,10516.32,1.49599999999919,12,481.283422460155,NA,"role_play","LAURA",1,0,0,0
 "2049","Attack_Conclave",4,52,2049,NA,"TRAVIS","so that's 15.",10516.32,10517.408,1.08799999999974,5,275.735294117713,NA,"role_play","TRAVIS",1,0,0,0
@@ -2062,7 +2062,7 @@
 "2061","Attack_Conclave",4,52,2061,NA,"TRAVIS","it seems all the poison came from his head, so i'll remove that from his body.",10539.178,10543.519,4.34100000000035,18,248.790601243933,NA,"role_play","TRAVIS",1,0,0,0
 "2062","Attack_Conclave",4,52,2062,NA,"MATT","and with that moment,, with a very slick snapping sound, the blade coasts through and the neck retreats as the head continues forward and tumbles to the feet as greenbeard's body takes an instinctual step backward and then falls, lifeless, in the center of the marketplace. all the rest of the herd moves for a second, nervously.",10543.519,10565.758,22.2389999999996,59,159.179819236479,NA,"role_play","MATT",0,0,0,1
 "2063","Attack_Conclave",4,52,2063,NA,"TRAVIS","i spin and i say: do you see? do you see what staying in one place does? this is what weakness looks like. i would return you to the wild. i would return you to power. but you will have to do it under this goliath's rule. unchain zanror.",10565.758,10589.346,23.5879999999997,51,129.726979820249,NA,"role_play","TRAVIS",1,0,0,0
-"2064","Attack_Conclave",4,52,2064,NA,"SAM","i point bigby's hand like he was too.",10589.346,10594.106,4.76000000000022,10,126.050420168061,NA,"role_play","SAM",1,0,0,0
+"2064","Attack_Conclave",4,52,2064,NA,"SAM","i point bigby's hand like he was too.",10589.346,10592.073,2.72700000000077,10,220.022002200158,NA,"role_play","SAM",1,0,0,0
 "2065","Attack_Conclave",4,52,2065,NA,"MATT","as bigby's hand points to zanror, the two that are holding the chains move up and begin to unchain them both, taking the shackles off his hands and the female goliath at his side. eventually he stands up, reaches over and puts his arm around her and says, ""i am sorry, worra.""",10594.106,10612.433,18.3270000000011,54,176.788345064648,NA,"role_play","MATT",0,0,0,1
 "2066","Attack_Conclave",4,52,2066,NA,"TRAVIS","worra.",10612.433,10614.765,2.33199999999852,2,51.4579759863106,NA,"role_play","TRAVIS",1,0,0,0
 "2067","Attack_Conclave",4,52,2067,NA,"MATT","worra. she stands and goes, ""do not be sorry. it seems we've been delivered from our ""judgment."" she looks up towards you. you don't recognize her.",10614.765,10626.121,11.3559999999998,29,153.222965833043,NA,"role_play","MATT",0,0,0,1
@@ -2076,7 +2076,7 @@
 "2075","Attack_Conclave",4,52,2075,NA,"MATT","he looks about and takes in the mental math of all the people that were killed.",10718.745,10723.239,4.49399999999878,17,226.969292389915,NA,"role_play","MATT",0,0,0,1
 "2076","Attack_Conclave",4,52,2076,NA,"MARISHA","yeah, we didn't kill that many.",10723.239,10727.049,3.81000000000131,8,125.984251968461,NA,"role_play","MARISHA",1,0,0,0
 "2077","Attack_Conclave",4,52,2077,NA,"MATT","i know, you took a few down. ""we'd stand, between the people that were loyal to me and my ""father, a good 43 men strong.""",10727.049,10740.928,13.878999999999,27,116.723106852087,NA,"role_play","MATT",0,0,0,1
-"2078","Attack_Conclave",4,52,2078,NA,"TRAVIS","more than we need. and i grab my earpiece and i go, thoughts?",10740.928,10748.824,7.89600000000064,14,106.382978723396,NA,"role_play","TRAVIS",1,0,0,0
+"2078","Attack_Conclave",4,52,2078,NA,"TRAVIS","more than we need. and i grab my earpiece and i go, thoughts?",10740.928,10746.899,5.97099999999955,14,140.679953106693,NA,"role_play","TRAVIS",1,0,0,0
 "2079","Attack_Conclave",4,52,2079,NA,"SAM","i mean, we have a busy day tomorrow already, i don't know if we should add dragons to it.",10748.824,10753.795,4.97099999999955,21,253.470126735086,NA,"role_play","SAM",1,0,0,0
 "2080","Attack_Conclave",4,52,2080,NA,"TALIESIN","we're hunting another dragon.",10753.795,10755.903,2.10800000000017,6,170.777988614787,NA,"role_play","TALIESIN",1,0,0,0
 "2081","Attack_Conclave",4,52,2081,NA,"SAM","just say yes, we can always leave in the dead of night.",10755.903,10758.253,2.35000000000036,13,331.91489361697,NA,"role_play","SAM",1,0,0,0
@@ -2151,7 +2151,7 @@
 "2150","Attack_Conclave",4,52,2150,NA,"SAM","it's me. i'm off here in the corner.",11072.84,11078.536,5.69599999999991,11,115.870786516856,NA,"role_play","SAM",1,0,0,0
 "2151","Attack_Conclave",4,52,2151,NA,"MATT","as the beautiful musical tones of the singing come to a close, your holy symbol, the glow fades, and a moment passes before you hear the soft coughing of the child's throaty expulsion, himself taking in his next breath of air. he sits up, cradling his head. ""what happened?""",11078.536,11103.368,24.8320000000003,51,123.228092783503,NA,"role_play","MATT",0,0,0,1
 "2152","Attack_Conclave",4,52,2152,NA,"MARISHA","it's okay. i dump a cure wounds in him now.",11103.368,11107.711,4.34299999999894,12,165.784020262532,NA,"role_play","MARISHA",1,0,0,0
-"2153","Attack_Conclave",4,52,2153,NA,"MATT","it's okay!",11107.711,11111.538,3.82700000000114,4,62.7123072902871,NA,"role_play","MATT",0,0,0,1
+"2153","Attack_Conclave",4,52,2153,NA,"MATT","it's okay!",11107.711,11109.656,1.94500000000153,4,123.393316195276,NA,"role_play","MATT",0,0,0,1
 "2154","Attack_Conclave",4,52,2154,NA,"MARISHA","not a potion! i cast cure wounds.",11111.538,11114.485,2.94700000000012,8,162.877502544955,NA,"role_play","MARISHA",1,0,0,0
 "2155","Attack_Conclave",4,52,2155,NA,"MATT","okay, okay.",11114.485,11115.78,1.29500000000007,3,138.996138996131,NA,"role_play","MATT",0,0,0,1
 "2156","Attack_Conclave",4,52,2156,NA,"TALIESIN","take it, take it!",11115.78,11117.051,1.27099999999882,5,236.034618410919,NA,"role_play","TALIESIN",1,0,0,0
@@ -2281,7 +2281,7 @@
 "2280","Attack_Conclave",4,52,2280,"epilog","TRAVIS","yeah. yep.",11683.201,11684.409,1.20800000000054,3,149.00662251649,NA,NA,"TRAVIS",1,0,0,0
 "2281","Attack_Conclave",4,52,2281,"epilog","LIAM","look at that guy.",11684.409,11685.714,1.30500000000029,5,229.885057471213,NA,NA,"LIAM",1,0,0,0
 "2282","Attack_Conclave",4,52,2282,"epilog","MATT","what?",11685.714,11687.076,1.36199999999917,2,88.1057268723004,NA,NA,"MATT",0,0,0,1
-"2283","Attack_Conclave",4,52,2283,"epilog","TRAVIS","i know, look at the face, you saw it too, didn't you? the shadow of a man that wished he could have butchered somebody and didn't quite get to.",11687.076,11695.349,8.27300000000105,32,232.080261090264,NA,NA,"TRAVIS",1,0,0,0
+"2283","Attack_Conclave",4,52,2283,"epilog","TRAVIS","i know, look at the face, you saw it too, didn't you? the shadow of a man that wished he could have butchered somebody and didn't quite get to.",11687.076,11693.617,6.54100000000108,32,293.533098914491,NA,NA,"TRAVIS",1,0,0,0
 "2284","Attack_Conclave",4,52,2284,"epilog","TRAVIS","the shadow of craven edge lives behind those eyes.",11695.349,11698.129,2.78000000000065,10,215.827338129446,NA,NA,"TRAVIS",1,0,0,0
 "2285","Attack_Conclave",4,52,2285,"epilog","MATT","it's okay. bunch of dudes. you guys have dragons to deal with.",11698.129,11701.19,3.06099999999969,14,274.420124142464,NA,NA,"MATT",0,0,0,1
 "2286","Attack_Conclave",4,52,2286,"epilog","LAURA","oh god.",11701.19,11702.509,1.31899999999951,3,136.467020470104,NA,NA,"LAURA",1,0,0,0
@@ -2306,7 +2306,7 @@
 "2305","Attack_Conclave",4,52,2305,"epilog","SAM","that was an amazing battlefield.",11782.513,11784.463,1.94999999999891,6,184.615384615488,NA,NA,"SAM",1,0,0,0
 "2306","Attack_Conclave",4,52,2306,"epilog","LAURA","good job, matthew mercer.",11784.463,11786.317,1.85399999999936,5,161.812297734684,NA,NA,"LAURA",1,0,0,0
 "2307","Attack_Conclave",4,52,2307,"epilog","MARISHA","thank you, dwarven forge!",11786.317,11788.692,2.375,5,126.315789473684,NA,NA,"MARISHA",1,0,0,0
-"2308","Attack_Conclave",4,52,2308,"epilog","MATT","is he he's not here?",11788.692,11793.936,5.2440000000006,7,80.0915331807689,NA,NA,"MATT",0,0,0,1
+"2308","Attack_Conclave",4,52,2308,"epilog","MATT","is he he's not here?",11788.692,11791.895,3.20300000000134,7,131.127068373345,NA,NA,"MATT",0,0,0,1
 "2309","Attack_Conclave",4,52,2309,"epilog","MATT","well, we had the pleasure of having patrick rothfuss in the office today to watch the game, so wherever you are, patrick, pleasure to meet you, and maybe we'll drag you",11793.936,11802.792,8.85599999999977,32,216.802168021686,NA,NA,"MATT",0,0,0,1
 "2310","Attack_Conclave",4,52,2310,"epilog","ASHLEY","big fans, big fans.",11802.792,11804.321,1.52900000000045,5,196.206671026757,NA,NA,"ASHLEY",1,0,0,0
 "2311","Attack_Conclave",4,52,2311,"epilog","MATT","maybe we'll drag you on the show sometime. next time you're in la. so, anyway guys, have a wonderful evening, see you next week, and is it thursday yet? [end of transcript]",11804.321,11967.675,163.353999999999,35,12.8555162408022,NA,NA,"MATT",0,0,0,1

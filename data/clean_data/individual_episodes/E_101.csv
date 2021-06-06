@@ -1,5 +1,5 @@
 "","arc","arc_no","episode","turn_number","segment","actor","text","start_turn","end_turn","time_in_sec","word_count","words_per_minute","encounter_count","rp_combat","actor_guest","vox_machina","guest","staff","matt"
-"1","End",8,101,1,"prologue","MATT","hello, everyone, and welcome to tonight's episode of critical role, where a bunch of us nerdy-ass voice actors sit around and play dungeons and dragons at the same table. thank you so much for your patience. as mentioned last week, we're adjusting and changing and updating things and taking your feedback and our feedback, and everyone's been working really hard to make this set progressively better and better to make it a better experience. this is our first time all at the same table since the home game.",0.067,28.083,28.016,93,199.171901770417,NA,"role_play","MATT",0,0,0,1
+"1","End",8,101,1,"prologue","MATT","hello, everyone, and welcome to tonight's episode of critical role, where a bunch of us nerdy-ass voice actors sit around and play dungeons and dragons at the same table. thank you so much for your patience. as mentioned last week, we're adjusting and changing and updating things and taking your feedback and our feedback, and everyone's been working really hard to make this set progressively better and better to make it a better experience. this is our first time all at the same table since the home game.",0.067,23.67,23.603,93,236.410625767911,NA,"role_play","MATT",0,0,0,1
 "2","End",8,101,2,"prologue","MATT","but no, seriously, don't do that. that's okay.",28.083,32.203,4.12,11,160.194174757281,NA,"role_play","MATT",0,0,0,1
 "3","End",8,101,3,"prologue","MARISHA","still in front of a green screen.",32.203,34.069,1.866,8,257.234726688103,NA,"role_play","MARISHA",1,0,0,0
 "4","End",8,101,4,"prologue","MATT","still in front of a green screen. totally. thank you guys so much for being patient. we are up now, and let's dive into the announcements for the evening. we don't have a whole lot this week, but we have, let's see. any updates as far as the merch is concerned?",34.069,46.805,12.736,55,259.108040201005,NA,"role_play","MATT",0,0,0,1
@@ -18,7 +18,7 @@
 "17","End",8,101,17,"prologue","SAM","i can do some art.",156.067,157.358,1.291,6,278.853601859025,NA,"role_play","SAM",1,0,0,0
 "18","End",8,101,18,"prologue","MATT","i was referring to the community, not you guys.",157.358,159.17,1.81199999999998,10,331.125827814573,NA,"role_play","MATT",0,0,0,1
 "19","End",8,101,19,"prologue","TRAVIS","sam's art is really rare.",159.17,160.807,1.637,7,256.566890653635,NA,"role_play","TRAVIS",1,0,0,0
-"20","End",8,101,20,"prologue","MATT","yeah, i've seen it, and it's pretty... yeah. they all wind up looking like genitals. it's crazy. we have the podcast, which is now up.",160.807,172.01,11.203,29,155.315540480228,NA,"role_play","MATT",0,0,0,1
+"20","End",8,101,20,"prologue","MATT","yeah, i've seen it, and it's pretty... yeah. they all wind up looking like genitals. it's crazy. we have the podcast, which is now up.",160.807,169.934,9.12700000000001,29,190.643146707571,NA,"role_play","MATT",0,0,0,1
 "21","End",8,101,21,"prologue","MATT","audio podcast, for people who want to save their data and listen on long drives.",172.01,175.16,3.15000000000001,16,304.761904761904,NA,"role_play","MATT",0,0,0,1
 "22","End",8,101,22,"prologue","LAURA","who don't want to look at our faces.",175.16,177.139,1.97900000000001,10,303.183425972711,NA,"role_play","LAURA",1,0,0,0
 "23","End",8,101,23,"prologue","MATT","i don't blame you.",177.139,178.723,1.584,6,227.272727272727,NA,"role_play","MATT",0,0,0,1
@@ -35,12 +35,12 @@
 "34","End",8,101,34,"prologue","MATT","make a big effort to bring back the what the?! comics.",226.475,229.588,3.113,12,231.288146482493,NA,"role_play","MATT",0,0,0,1
 "35","End",8,101,35,"prologue","LIAM","what about the scientology graphic novels?",229.588,233.114,3.52600000000001,7,119.115144639818,NA,"role_play","LIAM",1,0,0,0
 "36","End",8,101,36,"prologue","TALIESIN","i haven't read those. do they have those?",233.114,235.251,2.137,10,280.767430978007,NA,"role_play","TALIESIN",1,0,0,0
-"37","End",8,101,37,"prologue","LIAM","well, i'm up to level six.",235.251,238.725,3.47399999999999,8,138.169257340242,NA,"role_play","LIAM",1,0,0,0
+"37","End",8,101,37,"prologue","LIAM","well, i'm up to level six.",235.251,236.868,1.61699999999999,8,296.846011131727,NA,"role_play","LIAM",1,0,0,0
 "38","End",8,101,38,"prologue","TALIESIN","do you want to be a guest on the show?",238.725,241.065,2.34,11,282.051282051282,NA,"role_play","TALIESIN",1,0,0,0
 "39","End",8,101,39,"prologue","MATT","you've almost learned invisibility! anyway. apologies to all our scientology fans.",241.065,247.001,5.93600000000001,13,131.401617250674,NA,"role_play","MATT",0,0,0,1
 "40","End",8,101,40,"prologue","SAM","yeah, we just lost half the audience.",247.001,248.871,1.87,8,256.684491978609,NA,"role_play","SAM",1,0,0,0
 "41","End",8,101,41,"prologue","MATT","all right, so.",248.871,252.813,3.94199999999998,4,60.8828006088283,NA,"role_play","MATT",0,0,0,1
-"42","End",8,101,42,"prologue","LIAM","sea org uniforms, watching a giant-screen tv of critical role.",252.813,262.09,9.27699999999999,12,77.6112967554167,NA,"role_play","LIAM",1,0,0,0
+"42","End",8,101,42,"prologue","LIAM","sea org uniforms, watching a giant-screen tv of critical role.",252.813,256.978,4.16500000000002,12,172.869147659063,NA,"role_play","LIAM",1,0,0,0
 "43","End",8,101,43,"prologue","MATT","exactly. and signal boost?",262.09,265.228,3.13800000000003,5,95.6022944550659,NA,"role_play","MATT",0,0,0,1
 "44","End",8,101,44,"prologue","MARISHA","jeff lewis. we announced it on tuesday on talks. yeah, jeff lewis, still jeff.",265.228,270.034,4.80599999999998,15,187.265917602997,NA,"role_play","MARISHA",1,0,0,0
 "45","End",8,101,45,"prologue","MATT","all right, cool. then, unless we have anything else to announce, let's get into tonight's episode of critical role. [dramatic music]",270.034,369.122,99.088,24,14.5325367350234,NA,"role_play","MATT",0,0,0,1
@@ -245,7 +245,7 @@
 "244","End",8,101,244,"first_half_rp","LAURA","do you? it makes music. you like music.",1490.839,1492.801,1.96199999999999,9,275.229357798167,NA,"role_play","LAURA",1,0,0,0
 "245","End",8,101,245,"first_half_rp","MATT","""it makes music, do i want it?""",1492.801,1494.066,1.2650000000001,9,426.877470355697,NA,"role_play","MATT",0,0,0,1
 "246","End",8,101,246,"first_half_rp","SAM","when a girl offers you something, you just say yes.",1494.066,1495.87,1.80399999999986,11,365.853658536614,NA,"role_play","SAM",1,0,0,0
-"247","End",8,101,247,"first_half_rp","MATT","""yes, please. take all of it."" now he's carrying the music box and doty.",1495.87,1502.058,6.1880000000001,17,164.835164835162,NA,"role_play","MATT",0,0,0,1
+"247","End",8,101,247,"first_half_rp","MATT","""yes, please. take all of it."" now he's carrying the music box and doty.",1495.87,1500.653,4.78300000000013,17,213.255279113521,NA,"role_play","MATT",0,0,0,1
 "248","End",8,101,248,"first_half_rp","LAURA","i'll mark that off.",1502.058,1503.595,1.53700000000003,6,234.222511385811,NA,"role_play","LAURA",1,0,0,0
 "249","End",8,101,249,"first_half_rp","LIAM","lionel, i have the perfect thing for you. and i pull out the metal skullcap.",1503.595,1507.965,4.36999999999989,16,219.679633867282,NA,"role_play","LIAM",1,0,0,0
 "250","End",8,101,250,"first_half_rp","MATT","""that's loud.""",1507.965,1513.352,5.38700000000017,5,55.6896231668815,NA,"role_play","MATT",0,0,0,1
@@ -270,7 +270,7 @@
 "269","End",8,101,269,"first_half_rp","MATT","""no.""",1579.741,1581.858,2.11699999999996,3,85.0259801606062,NA,"role_play","MATT",0,0,0,1
 "270","End",8,101,270,"first_half_rp","TRAVIS","oh.",1581.858,1583.126,1.26800000000003,2,94.6372239747612,NA,"role_play","TRAVIS",1,0,0,0
 "271","End",8,101,271,"first_half_rp","LAURA","not everybody has a bag of holding, grog.",1583.126,1586.632,3.50600000000009,9,154.021677124925,NA,"role_play","LAURA",1,0,0,0
-"272","End",8,101,272,"first_half_rp","TRAVIS","i'll just give him mine.",1586.632,1592.981,6.34899999999993,7,66.1521499448739,NA,"role_play","TRAVIS",1,0,0,0
+"272","End",8,101,272,"first_half_rp","TRAVIS","i'll just give him mine.",1586.632,1589.268,2.63599999999997,7,159.332321699547,NA,"role_play","TRAVIS",1,0,0,0
 "273","End",8,101,273,"first_half_rp","LAURA","we just give him everything.",1592.981,1596.298,3.31700000000001,6,108.531805848658,NA,"role_play","LAURA",1,0,0,0
 "274","End",8,101,274,"first_half_rp","TALIESIN","we would turn on you so fast. let's get back to whitestone.",1596.298,1599.807,3.50900000000001,14,239.384440011398,NA,"role_play","TALIESIN",1,0,0,0
 "275","End",8,101,275,"first_half_rp","LAURA","okay, okay, okay. how do we collapse these tunnels",1599.807,1603.091,3.28399999999988,9,164.433617539592,NA,"role_play","LAURA",1,0,0,0
@@ -325,7 +325,7 @@
 "324","End",8,101,324,"first_half_rp","TALIESIN","all right.",1768.562,1769.794,1.2320000000002,3,146.103896103873,NA,"role_play","TALIESIN",1,0,0,0
 "325","End",8,101,325,"first_half_rp","MATT","and you can assist him, which gives him advantage.",1769.794,1771.913,2.11899999999991,10,283.152430391706,NA,"role_play","MATT",0,0,0,1
 "326","End",8,101,326,"first_half_rp","SAM","ah. i will assist you.",1771.913,1773.724,1.81099999999992,6,198.785201546116,NA,"role_play","SAM",1,0,0,0
-"327","End",8,101,327,"first_half_rp","TALIESIN","thank you. oh, yes. that's excellent. it's a 19.",1773.724,1780.483,6.75900000000001,12,106.524633821571,NA,"role_play","TALIESIN",1,0,0,0
+"327","End",8,101,327,"first_half_rp","TALIESIN","thank you. oh, yes. that's excellent. it's a 19.",1773.724,1779.106,5.38200000000006,12,133.779264214045,NA,"role_play","TALIESIN",1,0,0,0
 "328","End",8,101,328,"first_half_rp","MATT","total of 19? okay. halfway through the hallway, you find the place where the initial collapse was started. or you start looking to see what they used to destroy the first entrance that you were supposed to come through. you can see the way it's carved, designed, especially the smooth entrance. which, now that you get a better look at it, that soft, spongy ground, that dust you were finding: you begin to recognize the pattern of what carved its way in. you saw it used at the top of the emberhold when you were fighting the queen there. it was a series of disintegration rays used to carve away into this mountain. that's what that dust is that's on the ground. and why it's such a smooth entrance on this side.",1780.483,1825.145,44.662,137,184.049079754601,NA,"role_play","MATT",0,0,0,1
 "329","End",8,101,329,"first_half_rp","MARISHA","but i rolled so shitty on that nature check before, right?",1825.145,1828.493,3.34799999999996,12,215.053763440863,NA,"role_play","MARISHA",1,0,0,0
 "330","End",8,101,330,"first_half_rp","MATT","mm-hm. however, because it was just a series of magic disintegrations pushed through to create this second opening, it's a little harder to find points in the structure where the weakness is. so you begin to cut away at some areas, you get like a small axe or one of the various objects that you've pointed objects that you've acquired over the",1828.493,1850.862,22.3690000000001,66,177.030712146273,NA,"role_play","MATT",0,0,0,1
@@ -333,7 +333,7 @@
 "332","End",8,101,332,"first_half_rp","MATT","yeah. and you just hit at some areas, and you do find one section where you would think it would be a relatively weak point of impact between the various rocks and stones that hold this up.",1852.565,1862.253,9.68799999999987,38,235.342691990094,NA,"role_play","MATT",0,0,0,1
 "333","End",8,101,333,"first_half_rp","TALIESIN","hit this and stand on this side of it, and that should do some intense damage.",1862.253,1866.643,4.3900000000001,17,232.346241457853,NA,"role_play","TALIESIN",1,0,0,0
 "334","End",8,101,334,"first_half_rp","MATT","you would recommend hitting it and then running.",1866.643,1868.592,1.94900000000007,9,277.065161621334,NA,"role_play","MATT",0,0,0,1
-"335","End",8,101,335,"first_half_rp","TALIESIN","and run in this direction.",1868.592,1871.763,3.17099999999982,6,113.528855250716,NA,"role_play","TALIESIN",1,0,0,0
+"335","End",8,101,335,"first_half_rp","TALIESIN","and run in this direction.",1868.592,1870.113,1.52099999999996,6,236.686390532551,NA,"role_play","TALIESIN",1,0,0,0
 "336","End",8,101,336,"first_half_rp","TRAVIS","okay, pike.",1871.763,1872.895,1.13200000000006,3,159.010600706705,NA,"role_play","TRAVIS",1,0,0,0
 "337","End",8,101,337,"first_half_rp","ASHLEY","yeah.",1872.895,1873.668,0.772999999999911,2,155.239327296266,NA,"role_play","ASHLEY",1,0,0,0
 "338","End",8,101,338,"first_half_rp","TRAVIS","i want you to warm up this spot for me, and then you're going to jump on my back and then i'm going to hit it.",1873.668,1879.263,5.59500000000003,29,310.991957104556,NA,"role_play","TRAVIS",1,0,0,0
@@ -348,7 +348,7 @@
 "347","End",8,101,347,"first_half_rp","TRAVIS","ready to run, just in case she just goes beast mode.",1903.966,1906.826,2.86000000000013,12,251.748251748241,NA,"role_play","TRAVIS",1,0,0,0
 "348","End",8,101,348,"first_half_rp","MARISHA","we should make little pike backpacks.",1906.826,1910.726,3.90000000000009,7,107.692307692305,NA,"role_play","MARISHA",1,0,0,0
 "349","End",8,101,349,"first_half_rp","LAURA","oh my gosh, how cute would that be?",1910.726,1914.639,3.91299999999978,9,138.001533350378,NA,"role_play","LAURA",1,0,0,0
-"350","End",8,101,350,"first_half_rp","SAM","with, like, ashley's face right here.",1914.639,1919.17,4.53100000000018,8,105.936879276094,NA,"role_play","SAM",1,0,0,0
+"350","End",8,101,350,"first_half_rp","SAM","with, like, ashley's face right here.",1914.639,1917.38,2.74100000000021,8,175.118569864999,NA,"role_play","SAM",1,0,0,0
 "351","End",8,101,351,"first_half_rp","ASHLEY","no, guys, that doesn't need to be anywhere.",1919.17,1921.248,2.07799999999997,10,288.739172281043,NA,"role_play","ASHLEY",1,0,0,0
 "352","End",8,101,352,"first_half_rp","LIAM","we'll just repurpose those yoda bags.",1921.248,1923.859,2.61099999999988,8,183.837610111077,NA,"role_play","LIAM",1,0,0,0
 "353","End",8,101,353,"first_half_rp","ASHLEY","13.",1923.859,1924.958,1.09900000000016,2,109.190172884424,NA,"role_play","ASHLEY",1,0,0,0
@@ -372,8 +372,8 @@
 "371","End",8,101,371,"first_half_rp","TRAVIS","20. no 18.",2001.888,2005.35,3.46199999999999,4,69.3240901213174,NA,"role_play","TRAVIS",1,0,0,0
 "372","End",8,101,372,"first_half_rp","MATT","okay, so as you guys are bolting, you're holding onto grog, and you manage to look behind just fast enough to see one of the walls is about to full-on collapse at the side, and you go ahead and grab the side of grog's ear and yank his vision that way.",2005.35,2019.093,13.7430000000002,55,240.122244051514,NA,"role_play","MATT",0,0,0,1
 "373","End",8,101,373,"first_half_rp","ASHLEY","just going to start kicking him in the side.",2020.462,2022.39,1.92800000000011,10,311.203319502057,NA,"role_play","ASHLEY",1,0,0,0
-"374","End",8,101,374,"first_half_rp","MATT","he starts turning off to that side, and you manage to just avoid that side of the wall as it.",2022.39,2026.96,4.56999999999994,21,275.711159737422,NA,"role_play","MATT",0,0,0,1
-"375","End",8,101,375,"first_half_rp","SAM","gif it! gif it!",2026.96,2031.089,4.12899999999991,5,72.6568176313894,NA,"role_play","SAM",1,0,0,0
+"374","End",8,101,374,"first_half_rp","MATT","he starts turning off to that side, and you manage to just avoid that side of the wall as it .",2022.39,2026.96,4.56999999999994,21,275.711159737422,NA,"role_play","MATT",0,0,0,1
+"375","End",8,101,375,"first_half_rp","SAM","gif it! gif it!",2026.96,2028.211,1.25099999999998,5,239.808153477223,NA,"role_play","SAM",1,0,0,0
 "376","End",8,101,376,"first_half_rp","MATT","so you start steering him from behind like a prized racehorse, and making your way through this cavern until eventually the back half of the cavern collapses and comes to a rest. the front half is not collapsing, but you do you have a large portion of the path leading to the ziggurat is now just rubble and rocks.",2031.089,2046.585,15.4960000000001,60,232.318017552915,NA,"role_play","MATT",0,0,0,1
 "377","End",8,101,377,"first_half_rp","ASHLEY","okay, okay, okay! good job!",2046.585,2049.177,2.5920000000001,6,138.888888888884,NA,"role_play","ASHLEY",1,0,0,0
 "378","End",8,101,378,"first_half_rp","TRAVIS","nice job!",2049.177,2050.455,1.27799999999979,3,140.845070422558,NA,"role_play","TRAVIS",1,0,0,0
@@ -573,20 +573,20 @@
 "572","End",8,101,572,"first_half_rp","LIAM","i'm behind her doing this.",3122.488,3126.209,3.721,7,112.872883633432,NA,"role_play","LIAM",1,0,0,0
 "573","End",8,101,573,"first_half_rp","TRAVIS","yeah, rolling eyes.",3126.209,3127.889,1.68000000000029,4,142.857142857118,NA,"role_play","TRAVIS",1,0,0,0
 "574","End",8,101,574,"first_half_rp","LAURA","lionel?",3127.889,3130.658,2.76899999999978,2,43.3369447453989,NA,"role_play","LAURA",1,0,0,0
-"575","End",8,101,575,"first_half_rp","MATT","his mouth is filled with fruit.",3130.658,3137.391,6.73300000000017,7,62.3793257091919,NA,"role_play","MATT",0,0,0,1
+"575","End",8,101,575,"first_half_rp","MATT","his mouth is filled with fruit.",3130.658,3133.697,3.03900000000021,7,138.203356367216,NA,"role_play","MATT",0,0,0,1
 "576","End",8,101,576,"first_half_rp","LAURA","is it good? how are you doing?",3137.391,3139.252,1.86099999999988,8,257.9258463192,NA,"role_play","LAURA",1,0,0,0
 "577","End",8,101,577,"first_half_rp","MATT","""it's getting really heavy. this is really heavy.""",3139.252,3143.077,3.82500000000027,11,172.549019607831,NA,"role_play","MATT",0,0,0,1
 "578","End",8,101,578,"first_half_rp","LAURA","yeah. are you coming back to whitestone, as well? scanlan, i mean aes is he coming back?",3143.077,3151.113,8.0359999999996,18,134.395221503242,NA,"role_play","LAURA",1,0,0,0
 "579","End",8,101,579,"first_half_rp","SAM","i suppose we'll need him for now, yes.",3151.113,3153.647,2.53400000000011,10,236.779794790835,NA,"role_play","SAM",1,0,0,0
 "580","End",8,101,580,"first_half_rp","LAURA","okay.",3153.647,3154.808,1.16100000000006,2,103.35917312661,NA,"role_play","LAURA",1,0,0,0
-"581","End",8,101,581,"first_half_rp","TALIESIN","i still like the idea of perhaps the two of you working together. you could talk to scanlan about it and see if he'd be all right",3154.808,3163.875,9.06700000000001,28,185.287305613764,NA,"role_play","TALIESIN",1,0,0,0
+"581","End",8,101,581,"first_half_rp","TALIESIN","i still like the idea of perhaps the two of you working together. you could talk to scanlan about it and see if he'd be all right",3154.808,3162.035,7.22699999999986,28,232.46160232462,NA,"role_play","TALIESIN",1,0,0,0
 "582","End",8,101,582,"first_half_rp","TALIESIN","i'm never going to get bored of this. i'm never going to get bored of this!",3163.875,3166.213,2.33800000000019,19,487.59623609919,NA,"role_play","TALIESIN",1,0,0,0
 "583","End",8,101,583,"first_half_rp","LIAM","scanlan, what do you think?",3166.213,3168.19,1.97699999999986,6,182.09408194235,NA,"role_play","LIAM",1,0,0,0
 "584","End",8,101,584,"first_half_rp","TRAVIS","that was a fucking awesome physical reaction.",3168.19,3173.92,5.73000000000002,8,83.7696335078531,NA,"role_play","TRAVIS",1,0,0,0
 "585","End",8,101,585,"first_half_rp","LIAM","at least in the short term.",3173.92,3175.646,1.72600000000011,7,243.337195828489,NA,"role_play","LIAM",1,0,0,0
 "586","End",8,101,586,"first_half_rp","SAM","you're suggesting that i, scanlan shorthalt, bequeath my employee chod to this gentleman here? you mean me, taryon darrington? you mean chod could join my brigade? well, yes. i guess that's what they're talking about. well, i don't see why not. he's very capable and strong. yes, and i won't have much use for him for a while, so if you'd like to take him with your brigade, you can. well, i'm not going to say no to a fellow member of vox machina now, am i? no, you're not. no, i'm not.",3175.646,3210.576,34.9299999999998,104,178.643000286288,NA,"role_play","SAM",1,0,0,0
 "587","End",8,101,587,"first_half_rp","TRAVIS","yes.",3210.576,3211.938,1.36200000000008,2,88.1057268722415,NA,"role_play","TRAVIS",1,0,0,0
-"588","End",8,101,588,"first_half_rp","MATT","""i don't see any similarities.""",3211.938,3220.592,8.654,8,55.4656806101225,NA,"role_play","MATT",0,0,0,1
+"588","End",8,101,588,"first_half_rp","MATT","""i don't see any similarities.""",3211.938,3218.397,6.45899999999983,8,74.3149094287061,NA,"role_play","MATT",0,0,0,1
 "589","End",8,101,589,"first_half_rp","TALIESIN","that's everything i wanted. i'm good.",3220.592,3224.771,4.17900000000009,9,129.217516152187,NA,"role_play","TALIESIN",1,0,0,0
 "590","End",8,101,590,"first_half_rp","LAURA","through the tree, then?",3224.771,3225.898,1.12699999999995,5,266.193433895308,NA,"role_play","LAURA",1,0,0,0
 "591","End",8,101,591,"first_half_rp","MARISHA","through the tree.",3225.898,3226.86,0.961999999999989,4,249.480249480252,NA,"role_play","MARISHA",1,0,0,0
@@ -603,7 +603,7 @@
 "602","End",8,101,602,"first_half_rp","SAM","change arms.",3302.641,3304.909,2.26800000000003,3,79.3650793650783,NA,"role_play","SAM",1,0,0,0
 "603","End",8,101,603,"first_half_rp","MATT","""ooh! that helps a lot."" you make your way to the castle. doty's delivered to the workshop. taryon?",3304.909,3321.409,16.5,21,76.3636363636364,NA,"role_play","MATT",0,0,0,1
 "604","End",8,101,604,"first_half_rp","SAM","stays there.",3321.409,3322.794,1.38499999999976,3,129.96389891699,NA,"role_play","SAM",1,0,0,0
-"605","End",8,101,605,"first_half_rp","MATT","okay.",3322.794,3326.35,3.55600000000004,2,33.7457817772775,NA,"role_play","MATT",0,0,0,1
+"605","End",8,101,605,"first_half_rp","MATT","okay.",3322.794,3323.756,0.961999999999989,2,124.740124740126,NA,"role_play","MATT",0,0,0,1
 "606","End",8,101,606,"first_half_rp","TALIESIN","we'll keep you informed.",3326.35,3329.448,3.09799999999996,6,116.204002582313,NA,"role_play","TALIESIN",1,0,0,0
 "607","End",8,101,607,"first_half_rp","SAM","thank you.",3329.448,3330.989,1.54100000000017,3,116.807268007774,NA,"role_play","SAM",1,0,0,0
 "608","End",8,101,608,"first_half_rp","MATT","all right, so you guys now have the run of the castle. what do you wish to do?",3330.989,3336.358,5.36900000000014,19,212.330042838512,NA,"role_play","MATT",0,0,0,1
@@ -730,7 +730,7 @@
 "729","End",8,101,729,"first_half_rp","MATT","no.",4219.617,4220.746,1.12899999999991,2,106.288751107183,NA,"role_play","MATT",0,0,0,1
 "730","End",8,101,730,"first_half_rp","TALIESIN","keyleth, you know damn well where i am right now, i'm sitting in the library reading books, so if you have something to say. oh, wow, you're going way back.",4220.746,4229.684,8.9380000000001,33,221.526068471691,NA,"role_play","TALIESIN",1,0,0,0
 "731","End",8,101,731,"first_half_rp","MARISHA","i'm looking. i'll meet you in the library.",4229.684,4236.334,6.64999999999964,11,99.2481203007573,NA,"role_play","MARISHA",1,0,0,0
-"732","End",8,101,732,"first_half_rp","SAM","how to play pathfinder.",4236.334,4242.524,6.19000000000051,5,48.4652665589621,NA,"role_play","SAM",1,0,0,0
+"732","End",8,101,732,"first_half_rp","SAM","how to play pathfinder.",4236.334,4238.293,1.95899999999983,5,153.139356814714,NA,"role_play","SAM",1,0,0,0
 "733","End",8,101,733,"first_half_rp","TALIESIN","is that hercules mulligan?",4242.524,4244.447,1.92299999999977,5,156.006240249628,NA,"role_play","TALIESIN",1,0,0,0
 "734","End",8,101,734,"first_half_rp","MARISHA","this is a tiny hercules mulligan. i was looking for him! he's been in here the whole time.",4244.447,4251.148,6.70100000000002,20,179.077749589613,NA,"role_play","MARISHA",1,0,0,0
 "735","End",8,101,735,"first_half_rp","LIAM","delilah gets knocked out, she gets the fuck back up again!",4251.148,4254.145,2.9970000000003,12,240.240240240216,NA,"role_play","LIAM",1,0,0,0
@@ -771,7 +771,7 @@
 "770","End",8,101,770,"first_half_rp","MATT","he begins writing these things down. ""all right, all right. you would need approval from ""lady cassandra, of course, to put this in the familial""",4489.428,4501.186,11.7579999999998,26,132.675625106313,NA,"role_play","MATT",0,0,0,1
 "771","End",8,101,771,"first_half_rp","TRAVIS","approval?",4501.186,4502.275,1.08899999999994,2,110.192837465571,NA,"role_play","TRAVIS",1,0,0,0
 "772","End",8,101,772,"first_half_rp","MATT","""well, if you were to make this the official meal of whitestone, that is entirely within""",4502.275,4507.155,4.88000000000011,18,221.311475409831,NA,"role_play","MATT",0,0,0,1
-"773","End",8,101,773,"first_half_rp","TRAVIS","this just gets better and better. submit whatever paperwork is necessary. see that it's done.",4507.155,4522.423,15.268,17,66.8063924548073,NA,"role_play","TRAVIS",1,0,0,0
+"773","End",8,101,773,"first_half_rp","TRAVIS","this just gets better and better. submit whatever paperwork is necessary. see that it's done.",4507.155,4519.024,11.8690000000006,17,85.9381582273105,NA,"role_play","TRAVIS",1,0,0,0
 "774","End",8,101,774,"first_half_rp","MATT","""you heard him, folks! grand poobah has spoken.""",4522.423,4525.485,3.0619999999999,10,195.950359242332,NA,"role_play","MATT",0,0,0,1
 "775","End",8,101,775,"first_half_rp","TRAVIS","gofibepo.",4525.485,4527.268,1.78300000000036,2,67.3022994952193,NA,"role_play","TRAVIS",1,0,0,0
 "776","End",8,101,776,"first_half_rp","MATT","gofibepo.",4527.268,4530.006,2.73800000000028,2,43.8276113951744,NA,"role_play","MATT",0,0,0,1
@@ -909,7 +909,7 @@
 "908","End",8,101,908,"first_half_rp","MARISHA","and you were trying to do something",5193.281,5195.175,1.89400000000023,7,221.752903907048,NA,"role_play","MARISHA",1,0,0,0
 "909","End",8,101,909,"first_half_rp","TALIESIN","which i do.",5195.175,5196.581,1.40599999999995,4,170.697012802282,NA,"role_play","TALIESIN",1,0,0,0
 "910","End",8,101,910,"first_half_rp","MARISHA","what would be your second place of choosing to go?",5196.581,5204.516,7.93499999999949,11,83.1758034026518,NA,"role_play","MARISHA",1,0,0,0
-"911","End",8,101,911,"first_half_rp","TALIESIN","anywhere that they serve some sort of meat salad, i imagine.",5204.516,5211,6.48400000000038,12,111.042566317082,NA,"role_play","TALIESIN",1,0,0,0
+"911","End",8,101,911,"first_half_rp","TALIESIN","anywhere that they serve some sort of meat salad, i imagine.",5204.516,5207.513,2.9970000000003,12,240.240240240216,NA,"role_play","TALIESIN",1,0,0,0
 "912","End",8,101,912,"first_half_rp","MARISHA","i'm just saying, if you're run out of one place for doing something, i imagine",5211,5213.968,2.96799999999985,17,343.665768194088,NA,"role_play","MARISHA",1,0,0,0
 "913","End",8,101,913,"first_half_rp","TALIESIN","you're thinking maybe they have another portal in wildmount.",5213.968,5216.108,2.14000000000033,11,308.411214953224,NA,"role_play","TALIESIN",1,0,0,0
 "914","End",8,101,914,"first_half_rp","MARISHA","yes, i do.",5216.108,5217.319,1.21100000000024,4,198.183319570564,NA,"role_play","MARISHA",1,0,0,0
@@ -957,15 +957,15 @@
 "956","End",8,101,956,"first_half_rp","TALIESIN","offerings? because they would've become magical once they got to the other side of the portal. i mean, they would've been great gifts.",5360.493,5365.628,5.13499999999931,26,303.797468354471,NA,"role_play","TALIESIN",1,0,0,0
 "957","End",8,101,957,"first_half_rp","LIAM","what do you think, taryon darrington? or scanlan.",5365.628,5368.062,2.4340000000002,9,221.857025472455,NA,"role_play","LIAM",1,0,0,0
 "958","End",8,101,958,"first_half_rp","MATT","tary is fixing doty.",5368.062,5371.082,3.02000000000044,5,99.3377483443565,NA,"role_play","MATT",0,0,0,1
-"959","End",8,101,959,"first_half_rp","SAM","i'm just giving him cpr.",5371.082,5375.587,4.50500000000011,7,93.2297447280776,NA,"role_play","SAM",1,0,0,0
-"960","End",8,101,960,"first_half_rp","SAM","you've never given up on anything in your life. now live!",5375.587,5379.669,4.08199999999943,13,191.082802547798,NA,"role_play","SAM",1,0,0,0
+"959","End",8,101,959,"first_half_rp","SAM","i'm just giving him cpr.",5371.082,5373.789,2.70699999999943,7,155.153306243106,NA,"role_play","SAM",1,0,0,0
+"960","End",8,101,960,"first_half_rp","SAM","you've never given up on anything in your life. now live!",5375.587,5377.405,1.8179999999993,13,429.042904290594,NA,"role_play","SAM",1,0,0,0
 "961","End",8,101,961,"first_half_rp","LIAM","ed harris in the abyss. you've never given up a day in your life, you bitch.",5379.669,5385.399,5.73000000000047,18,188.481675392655,NA,"role_play","LIAM",1,0,0,0
 "962","End",8,101,962,"first_half_rp","ASHLEY","scanlan?",5385.399,5388.109,2.71000000000004,2,44.2804428044275,NA,"role_play","ASHLEY",1,0,0,0
 "963","End",8,101,963,"first_half_rp","SAM","i'm in my room, praying.",5388.109,5390.631,2.52199999999993,7,166.534496431408,NA,"role_play","SAM",1,0,0,0
 "964","End",8,101,964,"first_half_rp","LAURA","you're not here?",5390.631,5391.966,1.33500000000004,5,224.719101123589,NA,"role_play","LAURA",1,0,0,0
 "965","End",8,101,965,"first_half_rp","MARISHA","in your room, praying?",5391.966,5393.585,1.61899999999969,5,185.299567634378,NA,"role_play","MARISHA",1,0,0,0
 "966","End",8,101,966,"first_half_rp","LAURA","praying to sarenrae?",5393.585,5394.889,1.30400000000009,4,184.049079754589,NA,"role_play","LAURA",1,0,0,0
-"967","End",8,101,967,"first_half_rp","SAM","mm-hm. or logic.",5394.889,5399.954,5.0649999999996,5,59.230009871673,NA,"role_play","SAM",1,0,0,0
+"967","End",8,101,967,"first_half_rp","SAM","mm-hm. or logic.",5394.889,5396.706,1.81700000000001,5,165.107319757842,NA,"role_play","SAM",1,0,0,0
 "968","End",8,101,968,"first_half_rp","TALIESIN","logic is a fickle god.",5399.954,5402.029,2.07500000000073,6,173.493975903554,NA,"role_play","TALIESIN",1,0,0,0
 "969","End",8,101,969,"first_half_rp","MARISHA","yeah. desmond. briarwood's carriage driver. lady briarwood is immune to daylight.",5402.029,5410.583,8.55399999999918,13,91.1854103343553,NA,"role_play","MARISHA",1,0,0,0
 "970","End",8,101,970,"first_half_rp","TALIESIN","it's like watching your game in fast-forward.",5410.583,5412.716,2.13300000000072,10,281.293952179933,NA,"role_play","TALIESIN",1,0,0,0
@@ -1064,7 +1064,7 @@
 "1063","End",8,101,1063,"break","LIAM","life comes at you fast, matt.",7163.669,7165.597,1.92799999999988,7,217.842323651465,NA,NA,"LIAM",1,0,0,0
 "1064","End",8,101,1064,"break","MATT","that it does, apparently. anyway, welcome back.",7165.597,7168.369,2.77199999999993,8,173.160173160177,NA,NA,"MATT",0,0,0,1
 "1065","End",8,101,1065,"break","LAURA","i think that was the best one i've ever heard, though, ashley. that was a really good one.",7168.369,7171.189,2.82000000000062,20,425.531914893524,NA,NA,"LAURA",1,0,0,0
-"1066","End",8,101,1066,"break","MATT","you may fight one later.",7171.189,7176.642,5.45299999999952,6,66.0187052998408,NA,NA,"MATT",0,0,0,1
+"1066","End",8,101,1066,"break","MATT","you may fight one later.",7171.189,7173.424,2.23499999999967,6,161.073825503379,NA,NA,"MATT",0,0,0,1
 "1067","End",8,101,1067,"break","MATT","so as you guys rested for the evening and found yourself the following morning, presenting the possibility of making your way into the shadowfell and what waits for you there. you come to consciousness, you have your morning meal, you begin to plot and plan. what do you wish to do?",7176.642,7197.011,20.3690000000006,52,153.173940792376,NA,NA,"MATT",0,0,0,1
 "1068","End",8,101,1068,"second_half_rp","MARISHA","go find eskil.",7197.011,7200.999,3.98799999999937,4,60.1805416248841,NA,"role_play","MARISHA",1,0,0,0
 "1069","End",8,101,1069,"second_half_rp","LAURA","go find eskil. somebody else is going to go find out from him, right?",7200.999,7204.617,3.61800000000039,15,248.756218905446,NA,"role_play","LAURA",1,0,0,0
@@ -1101,7 +1101,7 @@
 "1100","End",8,101,1100,"second_half_rp","MATT","""who's your father?""",7443.396,7445.566,2.17000000000007,6,165.898617511515,NA,"role_play","MATT",0,0,0,1
 "1101","End",8,101,1101,"second_half_rp","MARISHA","korren of the ashari, who is one of the headmasters.",7445.566,7452.044,6.47800000000007,11,101.883297313985,NA,"role_play","MARISHA",1,0,0,0
 "1102","End",8,101,1102,"second_half_rp","MATT","""right, of the wind people. whatever. right, okay.""",7452.044,7456.756,4.71200000000044,10,127.334465195234,NA,"role_play","MATT",0,0,0,1
-"1103","End",8,101,1103,"second_half_rp","LIAM","who is your daddy, and what does he do?",7456.756,7462.833,6.07699999999932,10,98.7329274313094,NA,"role_play","LIAM",1,0,0,0
+"1103","End",8,101,1103,"second_half_rp","LIAM","who is your daddy, and what does he do?",7456.756,7460.192,3.43599999999969,10,174.621653084998,NA,"role_play","LIAM",1,0,0,0
 "1104","End",8,101,1104,"second_half_rp","MATT","he thinks for a second. begins to run his finger in the air, and you watch as there's a faint scrolling of soft bluish-white light. turns to smoke and vanishes. ""all right, he knows ""you're going to be off doing stuff in the shadowfell and probably won't be back for a while.""",7462.833,7480.356,17.5230000000001,57,195.172059578838,NA,"role_play","MATT",0,0,0,1
 "1105","End",8,101,1105,"second_half_rp","MARISHA","thank you.",7480.356,7482.191,1.83500000000004,3,98.0926430517692,NA,"role_play","MARISHA",1,0,0,0
 "1106","End",8,101,1106,"second_half_rp","MATT","""you're welcome.""",7482.191,7483.628,1.4369999999999,5,208.768267223397,NA,"role_play","MATT",0,0,0,1
@@ -1141,7 +1141,7 @@
 "1140","End",8,101,1140,"second_half_rp","MARISHA","apiece, or total?",7613.723,7614.887,1.16399999999976,4,206.185567010352,NA,"role_play","MARISHA",1,0,0,0
 "1141","End",8,101,1141,"second_half_rp","MATT","""apiece.""",7614.887,7616.387,1.5,3,120,NA,"role_play","MATT",0,0,0,1
 "1142","End",8,101,1142,"second_half_rp","LIAM","why is the school crossing guard from my hometown in new jersey in whitestone right now?",7616.387,7621.595,5.20800000000054,17,195.852534562192,NA,"role_play","LIAM",1,0,0,0
-"1143","End",8,101,1143,"second_half_rp","MATT","""hey, you think i haven't been busy after you left school?""",7621.595,7627.676,6.08100000000013,14,138.135175135665,NA,"role_play","MATT",0,0,0,1
+"1143","End",8,101,1143,"second_half_rp","MATT","""hey, you think i haven't been busy after you left school?""",7621.595,7624.466,2.87100000000009,14,292.580982236145,NA,"role_play","MATT",0,0,0,1
 "1144","End",8,101,1144,"second_half_rp","LIAM","everybody in weehawken is like, what happened to larry?",7627.676,7629.653,1.97699999999986,10,303.490136570583,NA,"role_play","LIAM",1,0,0,0
 "1145","End",8,101,1145,"second_half_rp","MATT","""found a new occupation: chalice collector.""",7629.653,7633.073,3.42000000000007,8,140.350877192979,NA,"role_play","MATT",0,0,0,1
 "1146","End",8,101,1146,"second_half_rp","TALIESIN","what am i going to do with all these chalices?",7633.073,7636.57,3.49699999999939,11,188.733199885649,NA,"role_play","TALIESIN",1,0,0,0
@@ -1164,7 +1164,7 @@
 "1163","End",8,101,1163,"second_half_rp","LAURA","what would i add to that?",7749.529,7752.659,3.1299999999992,7,134.185303514411,NA,"role_play","LAURA",1,0,0,0
 "1164","End",8,101,1164,"second_half_rp","MATT","your insight.",7752.659,7754.187,1.52800000000025,3,117.8010471204,NA,"role_play","MATT",0,0,0,1
 "1165","End",8,101,1165,"second_half_rp","LAURA","okay, see if he's full of shit. 14?",7754.187,7757.877,3.69000000000051,10,162.601626016238,NA,"role_play","LAURA",1,0,0,0
-"1166","End",8,101,1166,"second_half_rp","MATT","14? hard to read.",7757.877,7763.031,5.15399999999954,5,58.2072176949994,NA,"role_play","MATT",0,0,0,1
+"1166","End",8,101,1166,"second_half_rp","MATT","14? hard to read.",7757.877,7759.707,1.82999999999993,5,163.934426229515,NA,"role_play","MATT",0,0,0,1
 "1167","End",8,101,1167,"second_half_rp","LAURA","you know what? fuck it. we're probably going to die, anyway.",7763.031,7765.608,2.57700000000023,13,302.677532013943,NA,"role_play","LAURA",1,0,0,0
 "1168","End",8,101,1168,"second_half_rp","MATT","""a pleasure doing business with you, milady."" hands you the two chalices. they're beautiful. one's more reddish gem-encrusted. the other has a platinum spiral that runs around the base of it. they're both beautiful and intricate.",7765.608,7786.42,20.8119999999999,42,121.083990005766,NA,"role_play","MATT",0,0,0,1
 "1169","End",8,101,1169,"second_half_rp","LAURA","and you just threw the sippy cup lid as a little",7786.42,7789.217,2.79699999999957,11,235.967107615338,NA,"role_play","LAURA",1,0,0,0
@@ -1209,8 +1209,8 @@
 "1208","End",8,101,1208,"second_half_rp","MATT","three applications with the vial that you have.",8001.048,8003.199,2.15099999999984,9,251.046025104621,NA,"role_play","MATT",0,0,0,1
 "1209","End",8,101,1209,"second_half_rp","LAURA","oh, this one has a little bit missing? how much? because this is less than it normally is.",8003.199,8007.255,4.05600000000049,19,281.065088757362,NA,"role_play","LAURA",1,0,0,0
 "1210","End",8,101,1210,"second_half_rp","MATT","""look, you've already done some good business with me. i'll give it to you for 150.""",8007.255,8012.193,4.9380000000001,20,243.01336573511,NA,"role_play","MATT",0,0,0,1
-"1211","End",8,101,1211,"second_half_rp","SAM","but you have to sign this poster.",8012.193,8017.693,5.5,8,87.2727272727273,NA,"role_play","SAM",1,0,0,0
-"1212","End",8,101,1212,"second_half_rp","ASHLEY","for my hawaiian poke bowl mascot.",8017.693,8022.583,4.88999999999942,7,85.8895705521575,NA,"role_play","ASHLEY",1,0,0,0
+"1211","End",8,101,1211,"second_half_rp","SAM","but you have to sign this poster.",8012.193,8014.927,2.73399999999947,8,175.566934893962,NA,"role_play","SAM",1,0,0,0
+"1212","End",8,101,1212,"second_half_rp","ASHLEY","for my hawaiian poke bowl mascot.",8017.693,8020.147,2.45399999999972,7,171.149144254298,NA,"role_play","ASHLEY",1,0,0,0
 "1213","End",8,101,1213,"second_half_rp","TRAVIS","i would eat there all the time.",8022.622,8026.115,3.49299999999948,8,137.417692527933,NA,"role_play","TRAVIS",1,0,0,0
 "1214","End",8,101,1214,"second_half_rp","LAURA","150 gold. sure. only because percy gave me a look. you know what yeah, okay.",8026.115,8041.795,15.6800000000003,16,61.2244897959172,NA,"role_play","LAURA",1,0,0,0
 "1215","End",8,101,1215,"second_half_rp","MATT","all right.",8041.795,8043.182,1.38699999999972,3,129.776496034634,NA,"role_play","MATT",0,0,0,1
@@ -1231,7 +1231,7 @@
 "1230","End",8,101,1230,"second_half_rp","MATT","""there's still a ways to go.""",8174.241,8178.655,4.41399999999976,9,122.338015405535,NA,"role_play","MATT",0,0,0,1
 "1231","End",8,101,1231,"second_half_rp","LIAM","pat, pat.",8178.655,8180.111,1.45600000000013,3,123.626373626363,NA,"role_play","LIAM",1,0,0,0
 "1232","End",8,101,1232,"second_half_rp","LAURA","pat, pat where?",8180.111,8181.277,1.16600000000017,4,205.831903945082,NA,"role_play","LAURA",1,0,0,0
-"1233","End",8,101,1233,"second_half_rp","LIAM","on his dick, obviously.",8181.277,8184.623,3.34599999999955,5,89.6592946802273,NA,"role_play","LIAM",1,0,0,0
+"1233","End",8,101,1233,"second_half_rp","LIAM","on his dick, obviously.",8181.277,8182.73,1.45299999999952,5,206.469373709635,NA,"role_play","LIAM",1,0,0,0
 "1234","End",8,101,1234,"second_half_rp","TRAVIS","the open palm?",8184.623,8188.538,3.91499999999996,4,61.3026819923377,NA,"role_play","TRAVIS",1,0,0,0
 "1235","End",8,101,1235,"second_half_rp","LIAM","on his cheek. that's it. anyway, you're busy. we'll see you soon.",8188.538,8198.078,9.53999999999996,16,100.62893081761,NA,"role_play","LIAM",1,0,0,0
 "1236","End",8,101,1236,"second_half_rp","MATT","""i look forward to it. stay safe.""",8198.078,8202.299,4.22100000000137,9,127.931769722773,NA,"role_play","MATT",0,0,0,1
@@ -1245,11 +1245,11 @@
 "1244","End",8,101,1244,"second_half_rp","LAURA","i give him a big old hug. and i give him...",8241.08,8250.807,9.72700000000077,12,74.0207669373849,NA,"role_play","LAURA",1,0,0,0
 "1245","End",8,101,1245,"second_half_rp","LIAM","three copper.",8250.807,8252.791,1.98399999999856,3,90.7258064516788,NA,"role_play","LIAM",1,0,0,0
 "1246","End",8,101,1246,"second_half_rp","LAURA","i give him i don't have any feathers left, i don't think.",8252.791,8257.757,4.96600000000035,15,181.232380185247,NA,"role_play","LAURA",1,0,0,0
-"1247","End",8,101,1247,"second_half_rp","SAM","do you have any money?",8257.757,8261.915,4.15800000000127,6,86.5800865800602,NA,"role_play","SAM",1,0,0,0
+"1247","End",8,101,1247,"second_half_rp","SAM","do you have any money?",8257.757,8259.446,1.68900000000031,6,213.143872113638,NA,"role_play","SAM",1,0,0,0
 "1248","End",8,101,1248,"second_half_rp","LAURA","i have no money, tary.",8261.915,8263.834,1.91899999999987,6,187.597707139148,NA,"role_play","LAURA",1,0,0,0
 "1249","End",8,101,1249,"second_half_rp","SAM","i need money.",8263.834,8265.085,1.25099999999838,4,191.846522782022,NA,"role_play","SAM",1,0,0,0
 "1250","End",8,101,1250,"second_half_rp","TALIESIN","technically speaking, you've been on salary.",8265.085,8268.055,2.97000000000116,8,161.616161616098,NA,"role_play","TALIESIN",1,0,0,0
-"1251","End",8,101,1251,"second_half_rp","SAM","how about this? i wrote you a check. can you rip it up? i don't think i can pay it, ever.",8268.055,8281.746,13.6909999999989,23,100.796143451911,NA,"role_play","SAM",1,0,0,0
+"1251","End",8,101,1251,"second_half_rp","SAM","how about this? i wrote you a check. can you rip it up? i don't think i can pay it, ever.",8268.055,8277.79,9.73500000000058,23,141.756548536201,NA,"role_play","SAM",1,0,0,0
 "1252","End",8,101,1252,"second_half_rp","LAURA","tary, i ripped it up about two weeks after you moved in.",8281.746,8285.322,3.57600000000093,13,218.120805369071,NA,"role_play","LAURA",1,0,0,0
 "1253","End",8,101,1253,"second_half_rp","SAM","thank you. and you have no other money on you?",8285.322,8290.25,4.92799999999988,11,133.928571428575,NA,"role_play","SAM",1,0,0,0
 "1254","End",8,101,1254,"second_half_rp","LAURA","i open up my pouch, and i've got zero personal gold. just party funds.",8290.25,8296.531,6.28100000000086,16,152.841904155368,NA,"role_play","LAURA",1,0,0,0
@@ -1546,7 +1546,7 @@
 "1545","End",8,101,1545,"second_half_rp","SAM","maybe we should stagger.",10001.24,10004.045,2.80500000000029,5,106.951871657743,NA,"role_play","SAM",1,0,0,0
 "1546","End",8,101,1546,"second_half_rp","LAURA","no, those things were speedy. be normal.",10004.045,10007.95,3.90500000000065,8,122.919334186919,NA,"role_play","LAURA",1,0,0,0
 "1547","End",8,101,1547,"second_half_rp","SAM","we'll walk like this.",10007.95,10009.934,1.98399999999856,6,181.451612903358,NA,"role_play","SAM",1,0,0,0
-"1548","End",8,101,1548,"second_half_rp","TALIESIN","left, right, left, step, step, step.",10009.934,10017.138,7.20400000000154,7,58.3009439200319,NA,"role_play","TALIESIN",1,0,0,0
+"1548","End",8,101,1548,"second_half_rp","TALIESIN","left, right, left, step, step, step.",10009.934,10013.349,3.41500000000087,7,122.986822840379,NA,"role_play","TALIESIN",1,0,0,0
 "1549","End",8,101,1549,"second_half_rp","MATT","make a performance check. no.",10017.138,10026.681,9.54299999999967,6,37.7239861678731,NA,"role_play","MATT",0,0,0,1
 "1550","End",8,101,1550,"second_half_rp","MARISHA","while they were looking at weapons racks and doing stuff like that",10026.681,10033.996,7.31499999999869,12,98.4278879015897,NA,"role_play","MARISHA",1,0,0,0
 "1551","End",8,101,1551,"second_half_rp","TALIESIN","you make it sound so tawdry. carry on.",10033.996,10036.757,2.76100000000042,9,195.58131111913,NA,"role_play","TALIESIN",1,0,0,0
@@ -1562,7 +1562,7 @@
 "1561","End",8,101,1561,"second_half_rp","MARISHA","i need you with us. not with her. i need you with us, and with me. so let me do this. and i'm going to burn my 9th-level spell and cast foresight on vax.",10084.941,10107.638,22.6970000000001,37,97.8102832973516,NA,"role_play","MARISHA",1,0,0,0
 "1562","End",8,101,1562,"second_half_rp","SAM","ooh, foresight!",10107.638,10109.418,1.77999999999884,3,101.123595505684,NA,"role_play","SAM",1,0,0,0
 "1563","End",8,101,1563,"second_half_rp","LAURA","what is that?",10109.418,10110.887,1.46900000000096,4,163.37644656218,NA,"role_play","LAURA",1,0,0,0
-"1564","End",8,101,1564,"second_half_rp","SAM","shit. it's real good.",10110.887,10116.694,5.80699999999888,6,61.9941449974289,NA,"role_play","SAM",1,0,0,0
+"1564","End",8,101,1564,"second_half_rp","SAM","shit. it's real good.",10110.887,10114.152,3.26499999999942,6,110.260336906605,NA,"role_play","SAM",1,0,0,0
 "1565","End",8,101,1565,"second_half_rp","LIAM","this one goes to nine.",10116.694,10118.934,2.23999999999978,6,160.714285714301,NA,"role_play","LIAM",1,0,0,0
 "1566","End",8,101,1566,"second_half_rp","LAURA","what is foresight?",10118.934,10120.245,1.31100000000151,4,183.066361555853,NA,"role_play","LAURA",1,0,0,0
 "1567","End",8,101,1567,"second_half_rp","MARISHA","don't fuck it up, man. it's my 9th-level spell.",10120.245,10124.982,4.73699999999917,13,164.661177960763,NA,"role_play","MARISHA",1,0,0,0
@@ -1570,10 +1570,10 @@
 "1569","End",8,101,1569,"second_half_rp","LAURA","holy shit.",10136.743,10138.072,1.32899999999972,3,135.440180586936,NA,"role_play","LAURA",1,0,0,0
 "1570","End",8,101,1570,"second_half_rp","SAM","you can see just in the future. three seconds.",10138.072,10144.248,6.17599999999948,10,97.1502590673658,NA,"role_play","SAM",1,0,0,0
 "1571","End",8,101,1571,"second_half_rp","LAURA","that's amazing!",10144.248,10146,1.75200000000041,4,136.986301369831,NA,"role_play","LAURA",1,0,0,0
-"1572","End",8,101,1572,"second_half_rp","LIAM","you guys, let's go shopping!",10146,10152.482,6.48199999999997,7,64.7948164146871,NA,"role_play","LIAM",1,0,0,0
+"1572","End",8,101,1572,"second_half_rp","LIAM","you guys, let's go shopping!",10146,10149.251,3.2510000000002,7,129.191018148254,NA,"role_play","LIAM",1,0,0,0
 "1573","End",8,101,1573,"second_half_rp","TRAVIS","i raise my blood axe...",10152.482,10155.687,3.20499999999993,6,112.324492979722,NA,"role_play","TRAVIS",1,0,0,0
 "1574","End",8,101,1574,"second_half_rp","MATT","all right.",10155.687,10160.246,4.55899999999929,3,39.4823426190016,NA,"role_play","MATT",0,0,0,1
-"1575","End",8,101,1575,"second_half_rp","SAM","am i going to die in three seconds? am i going to die in three seconds?",10160.246,10170.821,10.5750000000007,17,96.4539007092132,NA,"role_play","SAM",1,0,0,0
+"1575","End",8,101,1575,"second_half_rp","SAM","am i going to die in three seconds? am i going to die in three seconds?",10160.246,10165.364,5.11800000000039,17,199.296600234451,NA,"role_play","SAM",1,0,0,0
 "1576","End",8,101,1576,"second_half_rp","TALIESIN","let's make our way into town. quietly.",10170.821,10174.238,3.41699999999946,9,158.033362598796,NA,"role_play","TALIESIN",1,0,0,0
 "1577","End",8,101,1577,"second_half_rp","LIAM","within the next eight hours.",10174.238,10176.055,1.81700000000092,6,198.128783709311,NA,"role_play","LIAM",1,0,0,0
 "1578","End",8,101,1578,"second_half_rp","SAM","i feel like vax should lead the party.",10176.055,10178.541,2.48599999999897,9,217.216411906768,NA,"role_play","SAM",1,0,0,0
@@ -1608,7 +1608,7 @@
 "1607","End",8,101,1607,"second_half_rp","SAM","mid-century modern, mostly?",10442.367,10444.349,1.98199999999997,5,151.36226034309,NA,"role_play","SAM",1,0,0,0
 "1608","End",8,101,1608,"second_half_rp","MATT","yeah, yeah, lot of ikea. no, but you do get the sense some of the architecture here does resemble elements of some architecture designs that remind you of wildemount.",10444.349,10466.272,21.9230000000007,30,82.1055512475457,NA,"role_play","MATT",0,0,0,1
 "1609","End",8,101,1609,"second_half_rp","SAM","man, we should have brought tary.",10466.272,10468.864,2.59199999999873,7,162.037037037116,NA,"role_play","SAM",1,0,0,0
-"1610","End",8,101,1610,"second_half_rp","MATT","but, like, old wildemount. like, no modern structures, definitely from centuries back. as you continue to wander and keep your eyes out, you occasionally hear the distant. you watch as the winged, dark beasts are circling overhead.",10468.864,10500.561,31.6970000000001,38,71.9310975802124,NA,"role_play","MATT",0,0,0,1
+"1610","End",8,101,1610,"second_half_rp","MATT","but, like, old wildemount. like, no modern structures, definitely from centuries back. as you continue to wander and keep your eyes out, you occasionally hear the distant (creature shrieking). you watch as the winged, dark beasts are circling overhead.",10468.864,10500.561,31.6970000000001,40,75.7169448212762,NA,"role_play","MATT",0,0,0,1
 "1611","End",8,101,1611,"second_half_rp","SAM","do we recognize them?",10500.561,10501.999,1.4380000000001,5,208.623087621682,NA,"role_play","SAM",1,0,0,0
 "1612","End",8,101,1612,"second_half_rp","MATT","no, not yet.",10501.999,10503.39,1.39099999999962,4,172.537742631248,NA,"role_play","MATT",0,0,0,1
 "1613","End",8,101,1613,"second_half_rp","LAURA","never seen anything like it?",10503.39,10504.825,1.43500000000131,6,250.871080139144,NA,"role_play","LAURA",1,0,0,0
@@ -1909,5 +1909,5 @@
 "1908","End",8,101,1908,"epilog","LIAM","and charlie? can charlie come?",12211.347,12214.168,2.82099999999991,6,127.614321162712,NA,NA,"LIAM",1,0,0,0
 "1909","End",8,101,1909,"epilog","LAURA","i think it's necessary.",12214.168,12215.846,1.67799999999988,6,214.541120381421,NA,NA,"LAURA",1,0,0,0
 "1910","End",8,101,1910,"epilog","TALIESIN","charlie can run trinket.",12215.846,12219.556,3.71000000000095,5,80.8625336927018,NA,NA,"TALIESIN",1,0,0,0
-"1911","End",8,101,1911,"epilog","MATT","so guys, thank you so much. we're back next week. i want to give another big thank you to the amazing crew and people here at legendary/geek and sundry that have been working almost around the clock to make this set work, to make this table work, to make the equipment work, the lighting, the audio. we've taken all of your suggestions, we've reached out to the community, to try and make this as best and as comfortable as possible for us and you guys. i know it's a work in progress, and you'll watch things improve as we go, as we learn and figure things out, so thank you for your patience. but seriously, if you get the opportunity, show some appreciation for the people who've been working really hard to try and improve this experience for everyone involved. thank you guys, you're all so amazing.",12219.556,12263.396,43.8400000000001,156,213.503649635036,NA,NA,"MATT",0,0,0,1
+"1911","End",8,101,1911,"epilog","MATT","so guys, thank you so much. we're back next week. i want to give another big thank you to the amazing crew and people here at legendary/geek and sundry that have been working almost around the clock to make this set work, to make this table work, to make the equipment work, the lighting, the audio. we've taken all of your suggestions, we've reached out to the community, to try and make this as best and as comfortable as possible for us and you guys. i know it's a work in progress, and you'll watch things improve as we go, as we learn and figure things out, so thank you for your patience. but seriously, if you get the opportunity, show some appreciation for the people who've been working really hard to try and improve this experience for everyone involved. thank you guys, you're all so amazing.",12219.556,12259.789,40.2330000000002,156,232.644843784952,NA,NA,"MATT",0,0,0,1
 "1912","End",8,101,1912,"epilog","MATT","in the meantime, i want to tell you all, i love you very much. happy 101st episode. and is it thursday yet? good night, guys! [art]",12263.396,12685.391,421.994999999999,27,3.83890804393418,NA,NA,"MATT",0,0,0,1

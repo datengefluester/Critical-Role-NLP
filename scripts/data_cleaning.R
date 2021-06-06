@@ -86,6 +86,23 @@ rm(raw)
 # read in raw data
 clean <- read.csv(file = "data/raw_data/raw_csv/raw.csv")
 
+
+# dropping everything which is contained within brackets, as these
+# indicate descriptive text, i.e. Matt: "(heavy accent) Hi"
+clean$textString <- gsub("\\s*\\([^\\)]+\\)", "", clean$textString)
+
+# delete every row, which is empty (""), which indicates a text only contains
+# description previously
+clean <- clean %>% filter(textString != "")
+
+# get example for text
+example_raw <- clean %>% 
+  filter(file_name == 100) %>% 
+  slice(1:2) %>% 
+  select(-file_name)
+write.csv(example_raw, "data/data_for_graphs/example_raw", row.names = FALSE)
+
+
 # to be able to analysis things like words per minute etc.:
 # split start and end times
 tmp <- do.call(rbind, strsplit(clean[, "times"], " --> "))
@@ -1620,13 +1637,6 @@ clean <- clean %>%
 # Clean up text
 ###############################################################################
 
-# dropping everything which is contained within brackets, as these
-# indicate descriptive text, i.e. Matt: "(heavy accent) Hi"
-clean$Text <- gsub("\\s*\\([^\\)]+\\)", "", clean$Text)
-
-# delete every row, which is empty (""), which indicates a text only contains
-# description previously
-clean <- clean %>% filter(Text != "")
 
 # some clean up: delete \
 clean$Text <- gsub("\\\\", "", clean$Text)
@@ -2370,6 +2380,42 @@ face_palms <- face_palms %>%
   select(-raw)
 
 write.csv(face_palms, "./data/clean_data/rest/face_palms.csv", row.names = FALSE)
+
+
+###############################################################################
+# Seating Order
+###############################################################################
+
+seating_order <- read.csv("./data/raw_data/rest/seating_order.csv")
+
+# change into long format
+seating_order <- seating_order %>%
+  pivot_longer(!Actor,
+               names_to = "Actor2",
+               values_to = "Distance"
+  ) %>% 
+  filter(Actor != Actor2) %>% 
+  filter(!is.na(Distance))
+
+# Same order
+seating_order <- seating_order %>% 
+  mutate(Actor = paste(Actor, " And ", Actor2)) %>% 
+  select(-Actor2)
+
+seating_order$Actor <- unname(sapply(seating_order$Actor, function(x) {
+  paste(sort(trimws(strsplit(x[1], " And ")[[1]])), collapse = " And ")
+}))
+
+seating_order <- seating_order %>% 
+  separate(Actor,
+         c("from", "to"),
+         sep = " And ",
+         fill = "left",
+         remove = TRUE
+  ) 
+
+write.csv(seating_order, "./data/clean_data/rest/seating_order.csv", row.names = FALSE)
+  
 
 ###############################################################################
 # clear console

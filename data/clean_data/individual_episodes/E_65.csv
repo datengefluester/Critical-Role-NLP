@@ -7,7 +7,7 @@
 "6","Vestiges",5,65,6,"prologue","MATT","yeah, it's going to be fun. this is liam's brainchild, and i'm excited to see them play through it.",48.396,56.84,8.444,23,163.429654192326,NA,"role_play","MATT",0,0,0,1
 "7","Vestiges",5,65,7,"prologue","LIAM","it could blow up in my face.",56.84,58.768,1.928,8,248.96265560166,NA,"role_play","LIAM",1,0,0,0
 "8","Vestiges",5,65,8,"prologue","MATT","i think you'll be fine. if the last game was any indication, i think you'll be fine. all right, other announcements: once again, we have our wonderful sponsor with a new theme kicking in. sam, you want to take this away?",58.768,74.911,16.143,44,163.538375766586,NA,"role_play","MATT",0,0,0,1
-"9","Vestiges",5,65,9,"prologue","SAM","yes, i do, matt mercer. guys: loot crate. loot crate has been such a great sponsor all year long, and we got another great week to share with you. speed is this month's theme of the loot crate. i'm going to read this script first. lace up your sneakers or rev your engines. september's all about speed. feel the adrenaline with some of pop culture's quickest vehicles and characters. high-octane assortment of goodies from batman, the flash, the arrow, the battlestar galactica, the iron man, the gone in the sixty the seconds.",74.911,112.994,38.083,98,154.39960087178,NA,"role_play","SAM",1,0,0,0
+"9","Vestiges",5,65,9,"prologue","SAM","yes, i do, matt mercer. guys: loot crate. loot crate has been such a great sponsor all year long, and we got another great week to share with you. speed is this month's theme of the loot crate. i'm going to read this script first. lace up your sneakers or rev your engines. september's all about speed. feel the adrenaline with some of pop culture's quickest vehicles and characters. high-octane assortment of goodies from batman, the flash, the arrow, the battlestar galactica, the iron man, the gone in the sixty the seconds.",74.911,110.835,35.924,98,163.678877630553,NA,"role_play","SAM",1,0,0,0
 "10","Vestiges",5,65,10,"prologue","SAM","it includes two collectibles, a figure, and as always, a monthly t-shirt. i'm wearing a t-shirt. not from this month, but from last month.",112.994,118.334,5.34,28,314.606741573034,NA,"role_play","SAM",1,0,0,0
 "11","Vestiges",5,65,11,"prologue","LAURA","it's got futurama stuff on it.",118.334,119.87,1.536,8,312.5,NA,"role_play","LAURA",1,0,0,0
 "12","Vestiges",5,65,12,"prologue","SAM","guys, i'm an actor. why would you listen to me about this stuff? i'm a liar and a deceiver. but what you can listen to, and what you know in your heart, is hardcore facts. i'm talking statistics. i'm talking math. i've broken this down for you guys. if you use the promo-code criticalrole, you'll get $3 off your first month. doesn't sound like a lot, you think? oh, that's 1.2 gallons of gas at the quik mart down the street. regular, unleaded. or let's say you're generous. you give loot crates to everyone in your family. that's four loot crates; that's $12. that is 25 and half forever stamps that you've just gotten for free. for free! let's say you're more generous than that. you give loot crates to everyone in your whole company. all 266 employees. you've just saved enough money to buy a 2002 kia sedona with 181,000 miles on it. the transmission is going out, and it doesn't shift in the higher gears, but it is for $800 on craigslist. go look for it right now, and it will be yours for free, essentially, if you buy 266 subscriptions to loot crate. 266.67. okay, that is <i>hardcore facts.</i> you can't argue with that. go out. subscribe now. save money. get stamps and gas.",119.87,208.007,88.137,242,164.743524286055,NA,"role_play","SAM",1,0,0,0
@@ -212,7 +212,7 @@
 "211","Vestiges",5,65,211,"first_half_rp","MARISHA","we need a big beast on draconia.",1824.281,1828.235,3.95399999999995,8,121.396054628226,NA,"role_play","MARISHA",1,0,0,0
 "212","Vestiges",5,65,212,"first_half_rp","MATT","""so you're saying that i go back to frozen-ass vasselheim to deliver a paper message ""to the headmistress, whom already i am so happy to be away from.""",1828.235,1845.621,17.3860000000002,32,110.433682273092,NA,"role_play","MATT",0,0,0,1
 "213","Vestiges",5,65,213,"first_half_rp","MARISHA","yeah. see?",1845.621,1847.269,1.64799999999991,3,109.22330097088,NA,"role_play","MARISHA",1,0,0,0
-"214","Vestiges",5,65,214,"first_half_rp","MATT","he glances over at the rest of the soldiers. ""yeah, i'll take it.""",1847.269,1855.35,8.0809999999999,15,111.372354906572,NA,"role_play","MATT",0,0,0,1
+"214","Vestiges",5,65,214,"first_half_rp","MATT","he glances over at the rest of the soldiers. ""yeah, i'll take it.""",1847.269,1853.024,5.75499999999988,15,156.38575152042,NA,"role_play","MATT",0,0,0,1
 "215","Vestiges",5,65,215,"first_half_rp","LAURA","thank you.",1855.35,1856.69,1.34000000000015,3,134.328358208941,NA,"role_play","LAURA",1,0,0,0
 "216","Vestiges",5,65,216,"first_half_rp","TALIESIN","we are in your debt. i'll have the paper drawn up, and anything you can do to put the weight of the situation behind us and make sure they know how clear it is and how necessary this is and how desperate we are.",1856.69,1871.618,14.9279999999999,46,184.887459807075,NA,"role_play","TALIESIN",1,0,0,0
 "217","Vestiges",5,65,217,"first_half_rp","MATT","""i'll do my best to muster some semblance of emphasis.""",1871.618,1877.573,5.95500000000015,13,130.982367758183,NA,"role_play","MATT",0,0,0,1
@@ -272,17 +272,17 @@
 "271","Vestiges",5,65,271,"first_half_rp","TALIESIN","i'm seeing this going down. i've walked away.",2061.108,2067.615,6.50699999999961,11,101.429230059942,NA,"role_play","TALIESIN",1,0,0,0
 "272","Vestiges",5,65,272,"first_half_rp","LIAM","i see a gauntlet on a table, and i throw it at his face.",2067.615,2069.899,2.28400000000011,15,394.045534150595,NA,"role_play","LIAM",1,0,0,0
 "273","Vestiges",5,65,273,"first_half_rp","MATT","okay, roll an attack roll.",2069.899,2073.824,3.92500000000018,6,91.7197452229257,NA,"role_play","MATT",0,0,0,1
-"274","Vestiges",5,65,274,"first_half_rp","LIAM","it's a one!",2073.824,2077.199,3.375,5,88.8888888888889,NA,"role_play","LIAM",1,0,0,0
+"274","Vestiges",5,65,274,"first_half_rp","LIAM","it's a one!",2073.824,2075.208,1.38400000000001,5,216.763005780345,NA,"role_play","LIAM",1,0,0,0
 "275","Vestiges",5,65,275,"first_half_rp","SAM","i see this going on, and i stand up on something, and i yell to the students",2077.199,2081.118,3.91899999999987,17,260.27047716255,NA,"role_play","SAM",1,0,0,0
-"276","Vestiges",5,65,276,"first_half_rp","MATT","before this happens, as you're getting up, you watch as vax rears back, and as he throws it, he pulls a muscle in his shoulder and it drops to the ground, and you're like.",2081.118,2093.306,12.1880000000001,37,182.146373482112,NA,"role_play","MATT",0,0,0,1
+"276","Vestiges",5,65,276,"first_half_rp","MATT","before this happens, as you're getting up, you watch as vax rears back, and as he throws it, he pulls a muscle in his shoulder and it drops to the ground, and you're like .",2081.118,2093.306,12.1880000000001,37,182.146373482112,NA,"role_play","MATT",0,0,0,1
 "277","Vestiges",5,65,277,"first_half_rp","LAURA","seriously?",2093.306,2094.774,1.46799999999985,2,81.7438692098178,NA,"role_play","LAURA",1,0,0,0
 "278","Vestiges",5,65,278,"first_half_rp","SAM","i jump up on a chair and i yell to the students: instructor kashaw has instructed us that this is a drill! you are to attack that man right there, that large man, as a test of your strength and training. now!",2094.774,2109.192,14.4180000000001,43,178.94298793175,NA,"role_play","SAM",1,0,0,0
 "279","Vestiges",5,65,279,"first_half_rp","LAURA","don't kill them, grog!",2109.192,2110.607,1.41499999999996,6,254.416961130749,NA,"role_play","LAURA",1,0,0,0
 "280","Vestiges",5,65,280,"first_half_rp","MATT","make a persuasion check.",2110.607,2112.116,1.50900000000001,5,198.807157057652,NA,"role_play","MATT",0,0,0,1
 "281","Vestiges",5,65,281,"first_half_rp","TALIESIN","oh, this is going to be awful. wow. that is cruel.",2112.116,2116.67,4.55400000000009,12,158.102766798416,NA,"role_play","TALIESIN",1,0,0,0
-"282","Vestiges",5,65,282,"first_half_rp","SAM","34.",2116.67,2124.09,7.42000000000007,2,16.1725067385443,NA,"role_play","SAM",1,0,0,0
+"282","Vestiges",5,65,282,"first_half_rp","SAM","34.",2116.67,2120.17,3.5,2,34.2857142857143,NA,"role_play","SAM",1,0,0,0
 "283","Vestiges",5,65,283,"first_half_rp","MATT","you watch as roughly 45 armored soldiers all turn towards you with their shields and spears... and freeze. they all slowly look towards scanlan and whisper among themselves, then look back at grog and stay frozen and two creep forward for a minute. get a little closer.",2124.09,2145.771,21.681,48,132.835201328352,NA,"role_play","MATT",0,0,0,1
-"284","Vestiges",5,65,284,"first_half_rp","TRAVIS","i take the gauntlets and i smash them together, and i grow in size.",2145.771,2152.252,6.48099999999977,15,138.86745872551,NA,"role_play","TRAVIS",1,0,0,0
+"284","Vestiges",5,65,284,"first_half_rp","TRAVIS","i take the gauntlets and i smash them together, and i grow in size.",2145.771,2149.533,3.76199999999972,15,239.234449760784,NA,"role_play","TRAVIS",1,0,0,0
 "285","Vestiges",5,65,285,"first_half_rp","MATT","as your form swells into your now enlarged goliath battle-ready form, you notice a few of them start giving off this rattling metal sound as their armored knees together. many of them step back about ten feet, and kashaw, who hasn't left entirely, spins around and goes: ""the ""gnome's fucking with you. it's fine!"" he walks up to you, scanlan, pats your arm and goes, ""that was ""pretty funny.""",2152.252,2183.547,31.2950000000001,74,141.875698993449,NA,"role_play","MATT",0,0,0,1
 "286","Vestiges",5,65,286,"first_half_rp","SAM","i try.",2183.547,2185.136,1.58899999999994,3,113.278791692893,NA,"role_play","SAM",1,0,0,0
 "287","Vestiges",5,65,287,"first_half_rp","MATT","""don't get the people killed. i've been working on them for four days.""",2185.136,2187.994,2.85800000000017,17,356.892932120342,NA,"role_play","MATT",0,0,0,1
@@ -311,7 +311,7 @@
 "310","Vestiges",5,65,310,"first_half_rp","MATT","i know and we'll get to that. instinctually, you turn to dodge out of something grog-sized, not giant-sized. and in that brief minute that you remember that he grew, you pause just long enough to feel the force of what feels like a giant battering ram slam into your side, sending you off your feet and arcing a good 30 feet before you tumble and skid to the ground. what's your strength modifier?",2254.885,2289.893,35.0079999999998,78,133.683729433273,NA,"role_play","MATT",0,0,0,1
 "311","Vestiges",5,65,311,"first_half_rp","TRAVIS","seven.",2289.893,2291.115,1.22199999999975,2,98.1996726677777,NA,"role_play","TRAVIS",1,0,0,0
 "312","Vestiges",5,65,312,"first_half_rp","MATT","seven. you take 14 points of bludgeoning damage, reduced to half because you're taking uncanny dodge. so only seven points bludgeoning damage. you stay there for a second, stunned. you feel a bit of bile and iron taste in the back of your throat.",2291.115,2307.696,16.5810000000001,46,166.455581689885,NA,"role_play","MATT",0,0,0,1
-"313","Vestiges",5,65,313,"first_half_rp","LIAM","and in the distance you hear: i feel so alive.",2307.696,2314.926,7.23000000000002,11,91.2863070539417,NA,"role_play","LIAM",1,0,0,0
+"313","Vestiges",5,65,313,"first_half_rp","LIAM","and in the distance you hear: i feel so alive.",2307.696,2312.224,4.52800000000025,11,145.75971731448,NA,"role_play","LIAM",1,0,0,0
 "314","Vestiges",5,65,314,"first_half_rp","TALIESIN","first rule of fight club.",2314.926,2316.623,1.69700000000012,6,212.139068945183,NA,"role_play","TALIESIN",1,0,0,0
 "315","Vestiges",5,65,315,"first_half_rp","TRAVIS","can i check the titanstone knuckles? have they changed now that i've kicked a friend in the face?",2316.623,2324.476,7.85300000000007,20,152.807844135998,NA,"role_play","TRAVIS",1,0,0,0
 "316","Vestiges",5,65,316,"first_half_rp","MATT","make an investigation check.",2324.476,2329.537,5.06099999999969,5,59.2768227623035,NA,"role_play","MATT",0,0,0,1
@@ -359,7 +359,7 @@
 "358","Vestiges",5,65,358,"first_half_rp","LIAM","he did talk for quite a while.",2525.296,2527.063,1.76700000000028,8,271.646859083149,NA,"role_play","LIAM",1,0,0,0
 "359","Vestiges",5,65,359,"first_half_rp","TALIESIN","is there a way to enchant me so that i have his voice? and then he'll listen more closely?",2527.063,2531.856,4.79300000000012,21,262.883371583553,NA,"role_play","TALIESIN",1,0,0,0
 "360","Vestiges",5,65,360,"first_half_rp","MARISHA","yeah, actually.",2531.856,2534.196,2.33999999999969,3,76.9230769230871,NA,"role_play","MARISHA",1,0,0,0
-"361","Vestiges",5,65,361,"first_half_rp","MATT","he has a spell for that.",2534.196,2537.814,3.61799999999994,7,116.086235489223,NA,"role_play","MATT",0,0,0,1
+"361","Vestiges",5,65,361,"first_half_rp","MATT","he has a spell for that.",2534.196,2535.98,1.78400000000011,7,235.426008968596,NA,"role_play","MATT",0,0,0,1
 "362","Vestiges",5,65,362,"first_half_rp","TALIESIN","don't answer that.",2537.814,2541.07,3.25600000000031,5,92.1375921375833,NA,"role_play","TALIESIN",1,0,0,0
 "363","Vestiges",5,65,363,"first_half_rp","MATT","as you finish penning the letter, you read over it once, twice, make sure all the information is contained. you go ahead and grab the little bit of your offering of dragon scales and teeth. present them to kashaw. he takes the letter and reads it over. ""sure.""",2541.07,2554.522,13.4519999999998,49,218.554861730601,NA,"role_play","MATT",0,0,0,1
 "364","Vestiges",5,65,364,"first_half_rp","SAM","should we add an nda?",2554.522,2557.484,2.96199999999999,6,121.53950033761,NA,"role_play","SAM",1,0,0,0
@@ -393,7 +393,7 @@
 "392","Vestiges",5,65,392,"first_half_rp","LIAM","but you can't address it. you just have to let it be. i'm not going to encourage it. i'm not interested in him.",2639.642,2647.858,8.21600000000035,27,197.176241480031,NA,"role_play","LIAM",1,0,0,0
 "393","Vestiges",5,65,393,"first_half_rp","TALIESIN","i see it every time. he does. he smolders.",2647.858,2649.974,2.11599999999999,10,283.553875236297,NA,"role_play","TALIESIN",1,0,0,0
 "394","Vestiges",5,65,394,"first_half_rp","MATT","as he walks with you down the pathway, having this conversation. it's that awkward, quiet about three, four minutes of walking before he goes. ""ugh. so when all this is over""",2649.974,2667.063,17.0889999999999,33,115.864006085787,NA,"role_play","MATT",0,0,0,1
-"395","Vestiges",5,65,395,"first_half_rp","MARISHA","oh, come on, man. why are you doing this to me?",2667.063,2676.364,9.30099999999993,12,77.4110310719283,NA,"role_play","MARISHA",1,0,0,0
+"395","Vestiges",5,65,395,"first_half_rp","MARISHA","oh, come on, man. why are you doing this to me?",2667.063,2674.216,7.15299999999979,12,100.657066964913,NA,"role_play","MARISHA",1,0,0,0
 "396","Vestiges",5,65,396,"first_half_rp","TRAVIS","hold on, it's going to happen. let it happen.",2676.364,2678.978,2.61400000000003,11,252.486610558528,NA,"role_play","TRAVIS",1,0,0,0
 "397","Vestiges",5,65,397,"first_half_rp","MATT","""if we survive all this dragon business""",2678.978,2684.468,5.48999999999978,9,98.3606557377088,NA,"role_play","MATT",0,0,0,1
 "398","Vestiges",5,65,398,"first_half_rp","MARISHA","fuck you, i hate you so much right now. uh-huh?",2684.468,2691.081,6.61300000000028,12,108.876455466501,NA,"role_play","MARISHA",1,0,0,0
@@ -520,7 +520,7 @@
 "519","Vestiges",5,65,519,"first_half_rp","MATT","""all right. you don't want the rest of your tea?""",3414.286,3417.838,3.55200000000013,13,219.594594594586,NA,"role_play","MATT",0,0,0,1
 "520","Vestiges",5,65,520,"first_half_rp","SAM","oh. i'll drink it.",3417.838,3419.465,1.62699999999995,6,221.266133988943,NA,"role_play","SAM",1,0,0,0
 "521","Vestiges",5,65,521,"first_half_rp","LAURA","do you have any to-go cups? just kidding.",3419.465,3422.908,3.44299999999976,10,174.266627940762,NA,"role_play","LAURA",1,0,0,0
-"522","Vestiges",5,65,522,"first_half_rp","MATT","""these didn't belong to me, so please, take them if you want.""",3422.908,3428.258,5.34999999999991,15,168.224299065423,NA,"role_play","MATT",0,0,0,1
+"522","Vestiges",5,65,522,"first_half_rp","MATT","""these didn't belong to me, so please, take them if you want.""",3422.908,3425.685,2.77700000000004,15,324.090745408709,NA,"role_play","MATT",0,0,0,1
 "523","Vestiges",5,65,523,"first_half_rp","MATT","he transitions the tea over into a couple of cups and hands them off to you guys who haven't finished. you head out. as you're leaving, you see sherri coming up. her hair's a bit tattered. she's usually more put together when she runs the shop. now she's in casual sherri mode. her hair is frazzled and pulled back. her glasses are pushed to the end of her nose, and she's carrying a bundle of groceries, various bits of produce and such. ""oh, hello, everyone. i'm bringing gilmore ""his breakfast.""",3428.258,3459.598,31.3400000000001,98,187.619655392469,NA,"role_play","MATT",0,0,0,1
 "524","Vestiges",5,65,524,"first_half_rp","LIAM","sherri. we asked him, but he's modest. how's he doing?",3459.598,3463.63,4.03200000000015,13,193.452380952374,NA,"role_play","LIAM",1,0,0,0
 "525","Vestiges",5,65,525,"first_half_rp","MATT","""not that he'd tell me anything, but he doesn't have a very lengthy period of keeping this ""up without him probably collapsing like he did back in the city. just please, try to do your best to ""get this over with. i'm worried. at the very least, until allura comes back. at least they can ""share the load. all right."" she knocks on the door and opens it. ""gilmore? gilmore, breakfast."" the door closes behind her.",3463.63,3504.337,40.7069999999999,81,119.389785540571,NA,"role_play","MATT",0,0,0,1
@@ -546,7 +546,7 @@
 "545","Vestiges",5,65,545,"first_half_rp","LIAM","well, we're going there, so i'm hoping either you can give us a lot of tips so we don't run into problems, or i don't know if anyone can take your place right now. do you want to go on a field trip?",3627.767,3642.192,14.4250000000002,48,199.653379549391,NA,"role_play","LIAM",1,0,0,0
 "546","Vestiges",5,65,546,"first_half_rp","MATT","""to ank'harel?""",3642.192,3643.526,1.33399999999983,5,224.887556221917,NA,"role_play","MATT",0,0,0,1
 "547","Vestiges",5,65,547,"first_half_rp","LIAM","yeah.",3643.526,3644.645,1.11900000000014,2,107.23860589811,NA,"role_play","LIAM",1,0,0,0
-"548","Vestiges",5,65,548,"first_half_rp","MATT","""no!""",3644.645,3646.949,2.30400000000009,3,78.124999999997,NA,"role_play","MATT",0,0,0,1
+"548","Vestiges",5,65,548,"first_half_rp","MATT","""no!""",3644.645,3645.759,1.11400000000003,3,161.579892280067,NA,"role_play","MATT",0,0,0,1
 "549","Vestiges",5,65,549,"first_half_rp","MATT","""i'm sorry, i respect this. i think my strength and skill set is much better used here ""than in the scarlet prison beneath the cerulean palace. i do not want to even conjecture spending ""the rest of my life there, or in pieces. also possible.""",3646.949,3662.032,15.0830000000001,48,190.943446264005,NA,"role_play","MATT",0,0,0,1
 "550","Vestiges",5,65,550,"first_half_rp","LIAM","forget it. we need all the knowledge in your head, in ours.",3662.032,3666.128,4.096,13,190.4296875,NA,"role_play","LIAM",1,0,0,0
 "551","Vestiges",5,65,551,"first_half_rp","MARISHA","yeah, what was that scarlet prison you just mentioned, under the what now?",3666.128,3670.384,4.25599999999986,14,197.368421052638,NA,"role_play","MARISHA",1,0,0,0
@@ -603,7 +603,7 @@
 "602","Vestiges",5,65,602,"first_half_rp","MATT","""well, most of it's controlled in the river district. a number of canals begin in the river ""district. this is where there is the spring, the perpetual oasis that fuels the city, and many of ""the caravans that travel to and from.""",4029.979,4047.22,17.241,45,156.603445275796,NA,"role_play","MATT",0,0,0,1
 "603","Vestiges",5,65,603,"first_half_rp","TRAVIS","perpetual oasis.",4047.22,4050.474,3.25400000000036,3,55.3165334972281,NA,"role_play","TRAVIS",1,0,0,0
 "604","Vestiges",5,65,604,"first_half_rp","MATT","""yes.""",4050.474,4051.684,1.21000000000004,3,148.760330578508,NA,"role_play","MATT",0,0,0,1
-"605","Vestiges",5,65,605,"first_half_rp","TRAVIS","source of power.",4051.684,4056.342,4.6579999999999,4,51.5242593387731,NA,"role_play","TRAVIS",1,0,0,0
+"605","Vestiges",5,65,605,"first_half_rp","TRAVIS","source of power.",4051.684,4053.365,1.68099999999959,4,142.772159428947,NA,"role_play","TRAVIS",1,0,0,0
 "606","Vestiges",5,65,606,"first_half_rp","SAM","good note-taking, grog. how do people greet each other there in ank'harel? is there a ""kord's ""strength be with you"" thing?",4056.342,4064.298,7.95599999999968,25,188.536953242843,NA,"role_play","SAM",1,0,0,0
 "607","Vestiges",5,65,607,"first_half_rp","MATT","""there is 'be pleased,' with a small bow, preferably with the hand down towards the stomach, ""with the hand out. be pleased.""",4064.298,4073.818,9.52000000000044,24,151.260504201674,NA,"role_play","MATT",0,0,0,1
 "608","Vestiges",5,65,608,"first_half_rp","LAURA","be pleased.",4073.818,4075.493,1.67499999999973,3,107.462686567182,NA,"role_play","LAURA",1,0,0,0
@@ -658,7 +658,7 @@
 "657","Vestiges",5,65,657,"first_half_rp","SAM","sure, we get some water jugs.",4266.152,4268.162,2.01000000000022,7,208.955223880574,NA,"role_play","SAM",1,0,0,0
 "658","Vestiges",5,65,658,"first_half_rp","MARISHA","yeah, more water's good.",4268.162,4269.702,1.53999999999996,6,233.766233766239,NA,"role_play","MARISHA",1,0,0,0
 "659","Vestiges",5,65,659,"first_half_rp","MATT","you can pick up a few. we'll say for about five gold pieces here, you can acquire some jugs that are compact enough that they'll actually fit within the bag of holding, should you place them.",4269.702,4279.538,9.83599999999933,39,237.90158601059,NA,"role_play","MATT",0,0,0,1
-"660","Vestiges",5,65,660,"first_half_rp","LIAM","five gold. mark it off.",4279.538,4285.308,5.77000000000044,6,62.3916811091807,NA,"role_play","LIAM",1,0,0,0
+"660","Vestiges",5,65,660,"first_half_rp","LIAM","five gold. mark it off.",4279.538,4281.21,1.67200000000048,6,215.311004784627,NA,"role_play","LIAM",1,0,0,0
 "661","Vestiges",5,65,661,"first_half_rp","TALIESIN","wow!",4285.308,4286.577,1.26900000000023,2,94.5626477541198,NA,"role_play","TALIESIN",1,0,0,0
 "662","Vestiges",5,65,662,"first_half_rp","SAM","how we doing on potions? we got potions?",4286.577,4288.32,1.74299999999948,9,309.810671256546,NA,"role_play","SAM",1,0,0,0
 "663","Vestiges",5,65,663,"first_half_rp","LAURA","we need to get some potions.",4288.32,4289.752,1.4320000000007,7,293.296089385332,NA,"role_play","LAURA",1,0,0,0
@@ -864,8 +864,8 @@
 "863","Vestiges",5,65,863,"first_half_rp","TRAVIS","all right, i take the alchemy jug and i go: you want to see a trick? look inside. do you see anything?",5570.514,5577.112,6.59799999999996,23,209.15428917854,NA,"role_play","TRAVIS",1,0,0,0
 "864","Vestiges",5,65,864,"first_half_rp","MATT","""hey, opesa, do you see anything?"" and she blinks a bit. ""no, it's empty.""",5577.112,5581.635,4.52300000000014,17,225.514039354404,NA,"role_play","MATT",0,0,0,1
 "865","Vestiges",5,65,865,"first_half_rp","TRAVIS","and i say: now, give it a listen. and i shake it. what do you hear?",5581.635,5586.104,4.46900000000005,17,228.2389796375,NA,"role_play","TRAVIS",1,0,0,0
-"866","Vestiges",5,65,866,"first_half_rp","MATT","""nothing. you are a strange man.""",5586.104,5593.468,7.36399999999958,8,65.1819663226545,NA,"role_play","MATT",0,0,0,1
-"867","Vestiges",5,65,867,"first_half_rp","TRAVIS","forgot they're old. right, well, it sounds fuck it. water. and i start pouring.",5593.468,5600.488,7.02000000000044,16,136.752136752128,NA,"role_play","TRAVIS",1,0,0,0
+"866","Vestiges",5,65,866,"first_half_rp","MATT","""nothing. you are a strange man.""",5586.104,5590.384,4.27999999999975,8,112.149532710287,NA,"role_play","MATT",0,0,0,1
+"867","Vestiges",5,65,867,"first_half_rp","TRAVIS","forgot they're old. right, well, it sounds fuck it. water. and i start pouring.",5593.468,5598.923,5.45499999999993,16,175.985334555456,NA,"role_play","TRAVIS",1,0,0,0
 "868","Vestiges",5,65,868,"first_half_rp","MATT","how much water does it create?",5600.488,5601.78,1.29199999999946,7,325.07739938094,NA,"role_play","MATT",0,0,0,1
 "869","Vestiges",5,65,869,"first_half_rp","TRAVIS","it creates eight gallons of fresh water.",5601.78,5603.953,2.17300000000068,8,220.892774965416,NA,"role_play","TRAVIS",1,0,0,0
 "870","Vestiges",5,65,870,"first_half_rp","MATT","oh wow. ""you are still a very strange man, but i'm very happy and appreciative.""",5603.953,5612.219,8.26599999999962,17,123.39704814905,NA,"role_play","MATT",0,0,0,1
@@ -906,12 +906,12 @@
 "905","Vestiges",5,65,905,"first_half_rp","TRAVIS","now i'm <i>moisture.</i>",5737.992,5740.738,2.74600000000009,7,152.949745083753,NA,"role_play","TRAVIS",1,0,0,0
 "906","Vestiges",5,65,906,"first_half_rp","MARISHA","i don't think we'd evaporate. i think he's fucking with us. i don't think we'd evaporate.",5740.738,5746.756,6.01800000000003,22,219.341974077766,NA,"role_play","MARISHA",1,0,0,0
 "907","Vestiges",5,65,907,"first_half_rp","LAURA","let's mist it.",5746.756,5748.4,1.64399999999932,5,182.481751824893,NA,"role_play","LAURA",1,0,0,0
-"908","Vestiges",5,65,908,"first_half_rp","MATT","that would be the saddest tpk ever. ""let's go, guys!"" and so ends the journey of vox machina.",5748.4,5760.529,12.1290000000008,20,98.9364333415714,NA,"role_play","MATT",0,0,0,1
+"908","Vestiges",5,65,908,"first_half_rp","MATT","that would be the saddest tpk ever. ""let's go, guys!"" and so ends the journey of vox machina.",5748.4,5757.265,8.86500000000069,20,135.363790186115,NA,"role_play","MATT",0,0,0,1
 "909","Vestiges",5,65,909,"first_half_rp","MARISHA","they fade into existence!",5760.529,5765.076,4.54699999999957,5,65.977567627013,NA,"role_play","MARISHA",1,0,0,0
 "910","Vestiges",5,65,910,"first_half_rp","LAURA","that would be the worst thing ever.",5765.076,5767.52,2.44400000000041,8,196.399345335482,NA,"role_play","LAURA",1,0,0,0
 "911","Vestiges",5,65,911,"first_half_rp","TALIESIN","was that a global warming metaphor?",5767.52,5770.375,2.85499999999956,7,147.110332749585,NA,"role_play","TALIESIN",1,0,0,0
 "912","Vestiges",5,65,912,"first_half_rp","TRAVIS","no songs to be sung. just fucking another cloud in the fucking sky.",5770.375,5781.424,11.049,14,76.0249796361663,NA,"role_play","TRAVIS",1,0,0,0
-"913","Vestiges",5,65,913,"first_half_rp","SAM","some say you can see them still, overhead.",5781.424,5790.664,9.23999999999978,9,58.4415584415598,NA,"role_play","SAM",1,0,0,0
+"913","Vestiges",5,65,913,"first_half_rp","SAM","some say you can see them still, overhead.",5781.424,5786.417,4.99300000000039,9,108.151411976759,NA,"role_play","SAM",1,0,0,0
 "914","Vestiges",5,65,914,"first_half_rp","MARISHA","i don't think we'll evaporate.",5790.664,5795.528,4.86400000000049,8,98.6842105263059,NA,"role_play","MARISHA",1,0,0,0
 "915","Vestiges",5,65,915,"first_half_rp","LAURA","let's do it.",5795.528,5797.391,1.86299999999937,5,161.030595813259,NA,"role_play","LAURA",1,0,0,0
 "916","Vestiges",5,65,916,"first_half_rp","SAM","we're going to mist it?",5797.391,5798.656,1.26500000000033,7,332.015810276594,NA,"role_play","SAM",1,0,0,0
@@ -1101,7 +1101,7 @@
 "1100","Vestiges",5,65,1100,"first_half_rp","LAURA","thank you for the warning.",6857.222,6860.824,3.60199999999986,6,99.9444752915086,NA,"role_play","LAURA",1,0,0,0
 "1101","Vestiges",5,65,1101,"first_half_rp","MATT","turns around and walks back to the gate.",6860.824,6863.951,3.12700000000041,9,172.689478733588,NA,"role_play","MATT",0,0,0,1
 "1102","Vestiges",5,65,1102,"first_half_rp","TALIESIN","that could not have gone better.",6863.951,6867.099,3.14800000000014,7,133.418043202027,NA,"role_play","TALIESIN",1,0,0,0
-"1103","Vestiges",5,65,1103,"first_half_rp","TRAVIS","we've got to kill everybody.",6867.099,6870.757,3.65799999999945,7,114.816839803189,NA,"role_play","TRAVIS",1,0,0,0
+"1103","Vestiges",5,65,1103,"first_half_rp","TRAVIS","we've got to kill everybody.",6867.099,6868.916,1.81700000000001,7,231.150247660979,NA,"role_play","TRAVIS",1,0,0,0
 "1104","Vestiges",5,65,1104,"first_half_rp","LAURA","magic is allowed, but this is strange magic. how will we know what isn't strange magic?",6870.757,6875.361,4.60400000000027,18,234.578627280612,NA,"role_play","LAURA",1,0,0,0
 "1105","Vestiges",5,65,1105,"first_half_rp","TALIESIN","everything we can do is strange magic. be prepared that not being from around here is going to be trouble.",6875.361,6883.723,8.36200000000008,21,150.681655106432,NA,"role_play","TALIESIN",1,0,0,0
 "1106","Vestiges",5,65,1106,"first_half_rp","MARISHA","yeah, i think we're just strange.",6883.723,6885.517,1.79399999999987,8,267.558528428113,NA,"role_play","MARISHA",1,0,0,0
@@ -1133,7 +1133,7 @@
 "1132","Vestiges",5,65,1132,"break","TALIESIN","two ones!",7215.459,7216.788,1.32899999999972,3,135.440180586936,NA,NA,"TALIESIN",1,0,0,0
 "1133","Vestiges",5,65,1133,"break","MATT","yes!",7216.788,7221.042,4.25400000000081,2,28.208744710855,NA,NA,"MATT",0,0,0,1
 "1134","Vestiges",5,65,1134,"break","TALIESIN","there is a god, and he hates you!",7221.042,7223.198,2.15599999999995,9,250.463821892399,NA,NA,"TALIESIN",1,0,0,0
-"1135","Vestiges",5,65,1135,"break","MARISHA","you are so walk of shaming right now.",7223.198,7227.388,4.1899999999996,9,128.878281622924,NA,NA,"MARISHA",1,0,0,0
+"1135","Vestiges",5,65,1135,"break","MARISHA","you are so walk of shaming right now.",7223.198,7225.6,2.40200000000004,9,224.812656119896,NA,NA,"MARISHA",1,0,0,0
 "1136","Vestiges",5,65,1136,"break","MATT","so as the morning comes about, vex, you go stretch out of your room, scratching the side of your head, messed up from sleeping wrong on the pillow, and as you walk out you hear and look to your right and see your brother slowly slinking away from keyleth's room.",7227.388,7243.434,16.0460000000003,52,194.44098217624,NA,NA,"MATT",0,0,0,1
 "1137","Vestiges",5,65,1137,"break","LAURA","i go back in my room.",7243.434,7250.02,6.58600000000024,7,63.7716368053423,NA,NA,"LAURA",1,0,0,0
 "1138","Vestiges",5,65,1138,"break","LIAM","oh hey, hold on a second, though.",7250.02,7252.75,2.72999999999956,8,175.824175824204,NA,NA,"LIAM",1,0,0,0
@@ -1150,7 +1150,7 @@
 "1149","Vestiges",5,65,1149,"break","LIAM","sorry, i'm a little discombobulated. i've never rolled two ones in a row.",7296.478,7304.13,7.65200000000004,16,125.457396759017,NA,NA,"LIAM",1,0,0,0
 "1150","Vestiges",5,65,1150,"break","MATT","yeah, that happened.",7304.13,7306.219,2.08899999999994,4,114.887505983727,NA,NA,"MATT",0,0,0,1
 "1151","Vestiges",5,65,1151,"break","LAURA","oh, that was so amazing.",7306.219,7308.116,1.89699999999993,6,189.773326304698,NA,NA,"LAURA",1,0,0,0
-"1152","Vestiges",5,65,1152,"break","MATT","take that, luck feat!",7308.116,7312.329,4.21299999999974,5,71.2081652029477,NA,NA,"MATT",0,0,0,1
+"1152","Vestiges",5,65,1152,"break","MATT","take that, luck feat!",7308.116,7309.521,1.40499999999975,5,213.523131672637,NA,NA,"MATT",0,0,0,1
 "1153","Vestiges",5,65,1153,"break","LIAM","i know this is a really stupid time to talk about it, but we never get to talk to each other, and i have a serious question. relax. in that tree, that guy said a lot of fucked-up shit to you, and it just sounded like a lot of fucked-up shit and him trying to make you feel bad, so fuck him, right? fuck that guy. but he said something about a dagger? and i saw your face fall.",7312.329,7348.071,35.7420000000002,82,137.653181131441,NA,NA,"LIAM",1,0,0,0
 "1154","Vestiges",5,65,1154,"break","LAURA","jesus christ.",7348.071,7351.88,3.8090000000002,3,47.2564977684407,NA,NA,"LAURA",1,0,0,0
 "1155","Vestiges",5,65,1155,"break","LIAM","and i asked you if you were all right the other day, and i think you might have not told me the entire truth. are you all right?",7351.88,7361.613,9.73300000000017,29,178.773245659095,NA,NA,"LIAM",1,0,0,0
@@ -1216,7 +1216,7 @@
 "1215","Vestiges",5,65,1215,"second_half_rp","LIAM","all right. sorry to babble.",7766.423,7771.198,4.77500000000055,6,75.3926701570594,NA,"role_play","LIAM",1,0,0,0
 "1216","Vestiges",5,65,1216,"second_half_rp","LAURA","oh, yeah, no. maybe go take a shower.",7771.198,7774.742,3.54399999999987,9,152.370203160277,NA,"role_play","LAURA",1,0,0,0
 "1217","Vestiges",5,65,1217,"second_half_rp","LIAM","i'm not going to answer that. i'll see you at breakfast. and i walk away.",7774.742,7781.41,6.66799999999967,18,161.967606478712,NA,"role_play","LIAM",1,0,0,0
-"1218","Vestiges",5,65,1218,"second_half_rp","MATT","yeah, you do. all right, as you all find breakfast, a fair prepared chicken feast, as they've been given no other instruction.",7781.41,7794.304,12.8940000000002,24,111.67985109353,NA,"role_play","MATT",0,0,0,1
+"1218","Vestiges",5,65,1218,"second_half_rp","MATT","yeah, you do. all right, as you all find breakfast, a fair prepared chicken feast, as they've been given no other instruction.",7781.41,7791.854,10.4440000000004,24,137.878207583296,NA,"role_play","MATT",0,0,0,1
 "1219","Vestiges",5,65,1219,"second_half_rp","TRAVIS","can't we change it up?",7794.304,7796.236,1.93199999999979,7,217.39130434785,NA,"role_play","TRAVIS",1,0,0,0
 "1220","Vestiges",5,65,1220,"second_half_rp","LIAM","i'm afraid not.",7796.236,7798.398,2.16200000000026,5,138.76040703051,NA,"role_play","LIAM",1,0,0,0
 "1221","Vestiges",5,65,1221,"second_half_rp","SAM","change up the food?",7798.398,7799.998,1.59999999999945,5,187.500000000064,NA,"role_play","SAM",1,0,0,0
@@ -1297,7 +1297,7 @@
 "1296","Vestiges",5,65,1296,"second_half_rp","LIAM","is it the beard?",8178.848,8181.157,2.3090000000002,5,129.926375054125,NA,"role_play","LIAM",1,0,0,0
 "1297","Vestiges",5,65,1297,"second_half_rp","MATT","""very well. welcome to ank'harel. be pleased.""",8181.157,8186.323,5.16600000000017,10,116.144018583039,NA,"role_play","MATT",0,0,0,1
 "1298","Vestiges",5,65,1298,"second_half_rp","MATT","be pleased.",8186.323,8188.998,2.67499999999927,3,67.2897196261865,NA,"role_play","MATT",0,0,0,1
-"1299","Vestiges",5,65,1299,"second_half_rp","MATT","he turns around and walks away. his bow is much smaller than you were originally taught by jarett. you get the sense that that's more of a formality and is on a smaller scale for more informal conversations. as he walks back, he lifts one hand and does a loop with it. as he does,. the gates open ever so slightly, enough to bring through as broad-shouldered an individual as grog, as well as the rest of you easily. you guys walk up and approach.",8188.998,8217.22,28.2219999999998,88,187.088087307776,NA,"role_play","MATT",0,0,0,1
+"1299","Vestiges",5,65,1299,"second_half_rp","MATT","he turns around and walks away. his bow is much smaller than you were originally taught by jarett. you get the sense that that's more of a formality and is on a smaller scale for more informal conversations. as he walks back, he lifts one hand and does a loop with it. as he does, . the gates open ever so slightly, enough to bring through as broad-shouldered an individual as grog, as well as the rest of you easily. you guys walk up and approach.",8188.998,8217.22,28.2219999999998,88,187.088087307776,NA,"role_play","MATT",0,0,0,1
 "1300","Vestiges",5,65,1300,"second_half_rp","LAURA","is anybody looking at trinket weird, or is it okay? he's with us.",8217.22,8222.695,5.47500000000036,15,164.383561643825,NA,"role_play","LAURA",1,0,0,0
 "1301","Vestiges",5,65,1301,"second_half_rp","MATT","actually, no one seems to bat an eye at the large bear that's wandering inside.",8222.695,8226.376,3.68100000000049,17,277.09861450689,NA,"role_play","MATT",0,0,0,1
 "1302","Vestiges",5,65,1302,"second_half_rp","TRAVIS","but they give a shit about the goliath? that's fucked up.",8226.376,8229.849,3.47299999999996,13,224.589691909015,NA,"role_play","TRAVIS",1,0,0,0
@@ -1321,7 +1321,7 @@
 "1320","Vestiges",5,65,1320,"second_half_rp","MATT","what do you guys wish to do?",8365.783,8368.226,2.44300000000112,8,196.479738026926,NA,"role_play","MATT",0,0,0,1
 "1321","Vestiges",5,65,1321,"second_half_rp","SAM","we need spice. we need to find out about this merchant guy.",8368.226,8374.375,6.14899999999943,13,126.849894291766,NA,"role_play","SAM",1,0,0,0
 "1322","Vestiges",5,65,1322,"second_half_rp","TRAVIS","got to get laid.",8374.375,8376.81,2.43499999999949,5,123.20328542097,NA,"role_play","TRAVIS",1,0,0,0
-"1323","Vestiges",5,65,1323,"second_half_rp","SAM","we got to get laid. every continent, right? that's our pact.",8376.81,8386.323,9.51300000000083,13,81.9930621255053,NA,"role_play","SAM",1,0,0,0
+"1323","Vestiges",5,65,1323,"second_half_rp","SAM","we got to get laid. every continent, right? that's our pact.",8376.81,8380.36,3.55000000000109,13,219.718309859087,NA,"role_play","SAM",1,0,0,0
 "1324","Vestiges",5,65,1324,"second_half_rp","TRAVIS","there's nothing that doesn't mean it's a pact.",8386.323,8389.297,2.97400000000016,12,242.098184263605,NA,"role_play","TRAVIS",1,0,0,0
 "1325","Vestiges",5,65,1325,"second_half_rp","TALIESIN","we're going to need to talk to some gentry. we're going to need to talk to a library.",8389.297,8393.353,4.05599999999868,21,310.650887574066,NA,"role_play","TALIESIN",1,0,0,0
 "1326","Vestiges",5,65,1326,"second_half_rp","MARISHA","well, we should probably start with a tavern.",8393.353,8396.531,3.1780000000017,9,169.918187539242,NA,"role_play","MARISHA",1,0,0,0
@@ -1336,11 +1336,11 @@
 "1335","Vestiges",5,65,1335,"second_half_rp","TRAVIS","wait, what if there's a market, like an open farmer's market we could get some spice?",8437.482,8442.312,4.82999999999993,19,236.0248447205,NA,"role_play","TRAVIS",1,0,0,0
 "1336","Vestiges",5,65,1336,"second_half_rp","LAURA","yeah. as we look around, do we see any markets? actually, the shopping district would be a wonderful place to look for",8442.312,8454.278,11.9660000000003,22,110.312552231319,NA,"role_play","LAURA",1,0,0,0
 "1337","Vestiges",5,65,1337,"second_half_rp","MARISHA","is that in the suncut bazaar, or could we head that direction while we look?",8454.278,8458.425,4.14699999999903,16,231.492645285803,NA,"role_play","MARISHA",1,0,0,0
-"1338","Vestiges",5,65,1338,"second_half_rp","SAM","oi! oi, you there, boy!",8458.425,8464.985,6.56000000000131,6,54.8780487804768,NA,"role_play","SAM",1,0,0,0
+"1338","Vestiges",5,65,1338,"second_half_rp","SAM","oi! oi, you there, boy!",8458.425,8460.888,2.46300000000156,6,146.163215590651,NA,"role_play","SAM",1,0,0,0
 "1339","Vestiges",5,65,1339,"second_half_rp","MATT","as you glance over, you see walking down the street what appears to be two teenage boys, huddled together, wearing drab, ankle-length cloth robes. one of them has a purple shawl over their shoulders. the other has a hood up, and they're both carrying small satchels of fruit in their arms. they both stop and turn. they look curiously at the small gnome, the small, pale gnome in foreign clothes and adorned, beautiful armor that walks up to them in the street.",8464.985,8499.05,34.0649999999987,85,149.713782474686,NA,"role_play","MATT",0,0,0,1
 "1340","Vestiges",5,65,1340,"second_half_rp","SAM","that looks like fine fruit. where would you go to go shopping for things here, market-y things?",8499.05,8507.648,8.59799999999996,19,132.588974180043,NA,"role_play","SAM",1,0,0,0
 "1341","Vestiges",5,65,1341,"second_half_rp","MATT","""you are a very small man.""",8507.648,8514.629,6.98100000000159,8,68.7580575848576,NA,"role_play","MATT",0,0,0,1
-"1342","Vestiges",5,65,1342,"second_half_rp","SAM","i've heard that. it's a glandular condition.",8514.629,8520.562,5.93299999999908,10,101.129276925686,NA,"role_play","SAM",1,0,0,0
+"1342","Vestiges",5,65,1342,"second_half_rp","SAM","i've heard that. it's a glandular condition.",8514.629,8517.847,3.21799999999894,10,186.451211932939,NA,"role_play","SAM",1,0,0,0
 "1343","Vestiges",5,65,1343,"second_half_rp","MATT","""i'm sorry to hear that.""",8520.562,8522.359,1.79700000000048,8,267.111853088409,NA,"role_play","MATT",0,0,0,1
 "1344","Vestiges",5,65,1344,"second_half_rp","SAM","yes. my cross to bear. i've seen many medicine men about it, but they can't cure it, but many have recommended that i get a diet of vegetables and fruit. where could i buy some, just like the kind that you have?",8522.359,8536.498,14.1389999999992,45,190.961171228527,NA,"role_play","SAM",1,0,0,0
 "1345","Vestiges",5,65,1345,"second_half_rp","MATT","""this fruit is actually very difficult to find and come across. if you wish, you could ""purchase this batch.""",8536.498,8541.669,5.17100000000028,21,243.66660220459,NA,"role_play","MATT",0,0,0,1
@@ -1358,7 +1358,7 @@
 "1357","Vestiges",5,65,1357,"second_half_rp","MATT","20. they both seem confused, but also strangely enamored with this tiny man who's talking to them. no shifty behavior beyond that.",8588.452,8595.183,6.73100000000159,24,213.935522210617,NA,"role_play","MATT",0,0,0,1
 "1358","Vestiges",5,65,1358,"second_half_rp","TRAVIS","their hands aren't moving into someone's pockets?",8595.183,8599.378,4.19499999999971,10,143.027413587614,NA,"role_play","TRAVIS",1,0,0,0
 "1359","Vestiges",5,65,1359,"second_half_rp","LAURA","no.",8599.378,8601.334,1.95600000000013,2,61.3496932515296,NA,"role_play","LAURA",1,0,0,0
-"1360","Vestiges",5,65,1360,"second_half_rp","SAM","thank you so much, young men, for your help. also, spice?",8601.334,8611.443,10.1089999999986,12,71.2236620833023,NA,"role_play","SAM",1,0,0,0
+"1360","Vestiges",5,65,1360,"second_half_rp","SAM","thank you so much, young men, for your help. also, spice?",8601.334,8608.579,7.24499999999898,12,99.3788819875916,NA,"role_play","SAM",1,0,0,0
 "1361","Vestiges",5,65,1361,"second_half_rp","TRAVIS","yes! oh my god!",8611.443,8612.909,1.46600000000035,5,204.638472032693,NA,"role_play","TRAVIS",1,0,0,0
 "1362","Vestiges",5,65,1362,"second_half_rp","TALIESIN","no!",8612.909,8614.963,2.05400000000009,2,58.4225900681572,NA,"role_play","TALIESIN",1,0,0,0
 "1363","Vestiges",5,65,1363,"second_half_rp","SAM","do you spice?",8614.963,8616.143,1.18000000000029,4,203.389830508424,NA,"role_play","SAM",1,0,0,0
@@ -1378,7 +1378,7 @@
 "1377","Vestiges",5,65,1377,"second_half_rp","SAM","they're riffraff. they could know what spice is.",8661.749,8664.801,3.05199999999968,10,196.592398427281,NA,"role_play","SAM",1,0,0,0
 "1378","Vestiges",5,65,1378,"second_half_rp","TALIESIN","they were carrying fruit!",8664.801,8666.988,2.1869999999999,5,137.174211248292,NA,"role_play","TALIESIN",1,0,0,0
 "1379","Vestiges",5,65,1379,"second_half_rp","SAM","they look normal, but i've got a keen eye for these things. i was a kid on the street for a long time.",8666.988,8673.118,6.13000000000102,25,244.698205546452,NA,"role_play","SAM",1,0,0,0
-"1380","Vestiges",5,65,1380,"second_half_rp","LIAM","sam? no joke, thanks for the ab workout.",8673.118,8678.43,5.3119999999999,9,101.656626506026,NA,"role_play","LIAM",1,0,0,0
+"1380","Vestiges",5,65,1380,"second_half_rp","LIAM","sam? no joke, thanks for the ab workout.",8673.118,8675.194,2.07599999999911,9,260.115606936527,NA,"role_play","LIAM",1,0,0,0
 "1381","Vestiges",5,65,1381,"second_half_rp","TALIESIN","oh god.",8678.43,8680.078,1.64799999999923,3,109.223300970925,NA,"role_play","TALIESIN",1,0,0,0
 "1382","Vestiges",5,65,1382,"second_half_rp","TRAVIS","fuck. that was great.",8680.078,8683.449,3.371000000001,5,88.9943636902731,NA,"role_play","TRAVIS",1,0,0,0
 "1383","Vestiges",5,65,1383,"second_half_rp","TALIESIN","i can't.",8683.449,8684.995,1.54600000000028,4,155.239327296221,NA,"role_play","TALIESIN",1,0,0,0
@@ -1444,7 +1444,7 @@
 "1443","Vestiges",5,65,1443,"second_half_rp","LIAM","and i don't like the way these folks are looking at big man, so i'm going to stay by him.",9284.476,9290.06,5.58399999999892,23,247.134670487154,NA,"role_play","LIAM",1,0,0,0
 "1444","Vestiges",5,65,1444,"second_half_rp","MATT","you stay close to grog.",9290.06,9291.801,1.74099999999999,6,206.777713957497,NA,"role_play","MATT",0,0,0,1
 "1445","Vestiges",5,65,1445,"second_half_rp","LAURA","no going up from that. that's what it is.",9291.801,9293.897,2.09600000000137,11,314.885496183001,NA,"role_play","LAURA",1,0,0,0
-"1446","Vestiges",5,65,1446,"second_half_rp","TRAVIS","negative two.",9293.897,9298.413,4.51599999999962,3,39.8582816651938,NA,"role_play","TRAVIS",1,0,0,0
+"1446","Vestiges",5,65,1446,"second_half_rp","TRAVIS","negative two.",9293.897,9295.193,1.29599999999846,3,138.888888889054,NA,"role_play","TRAVIS",1,0,0,0
 "1447","Vestiges",5,65,1447,"second_half_rp","SAM","is that true?",9298.413,9299.844,1.43099999999868,4,167.714884696172,NA,"role_play","SAM",1,0,0,0
 "1448","Vestiges",5,65,1448,"second_half_rp","TRAVIS","yep.",9299.844,9301.188,1.34400000000096,2,89.2857142856505,NA,"role_play","TRAVIS",1,0,0,0
 "1449","Vestiges",5,65,1449,"second_half_rp","TALIESIN","i am city-blind, apparently.",9301.188,9303.573,2.38500000000022,6,150.943396226401,NA,"role_play","TALIESIN",1,0,0,0
@@ -1457,7 +1457,7 @@
 "1456","Vestiges",5,65,1456,"second_half_rp","TRAVIS","oh! what does it taste like?",9344.55,9352.343,7.79300000000148,7,53.8945207237162,NA,"role_play","TRAVIS",1,0,0,0
 "1457","Vestiges",5,65,1457,"second_half_rp","MATT","there's a hit of saltiness to the dust that has gathered in this vicinity.",9352.343,9358.008,5.66499999999905,16,169.461606354839,NA,"role_play","MATT",0,0,0,1
 "1458","Vestiges",5,65,1458,"second_half_rp","TRAVIS","i gave away my salt-lick rock!",9358.008,9359.906,1.89800000000105,8,252.897787144223,NA,"role_play","TRAVIS",1,0,0,0
-"1459","Vestiges",5,65,1459,"second_half_rp","MATT","you did.",9359.906,9365.222,5.31599999999889,3,33.8600451467339,NA,"role_play","MATT",0,0,0,1
+"1459","Vestiges",5,65,1459,"second_half_rp","MATT","you did.",9359.906,9361.815,1.90899999999965,3,94.2902042954599,NA,"role_play","MATT",0,0,0,1
 "1460","Vestiges",5,65,1460,"second_half_rp","LIAM","i take a moment to marvel at how a being of such ferocity and power can be such a doofus at the same time. it's amazing.",9365.222,9374.854,9.63199999999961,28,174.41860465117,NA,"role_play","LIAM",1,0,0,0
 "1461","Vestiges",5,65,1461,"second_half_rp","SAM","i'm going to plant myself at the end of two rows of the intersection and wait for people to walk by. and as they do, i say: spice? spice, spice, spice? you spice it? spice, spice, spice?",9374.854,9389.554,14.7000000000007,39,159.18367346938,NA,"role_play","SAM",1,0,0,0
 "1462","Vestiges",5,65,1462,"second_half_rp","LAURA","can i have seen percy looking around?",9389.554,9395.903,6.34900000000016,8,75.6024570798532,NA,"role_play","LAURA",1,0,0,0
@@ -1548,7 +1548,7 @@
 "1547","Vestiges",5,65,1547,"second_half_rp","LAURA","goddamn it. five more gold.",10029.871,10034.837,4.96600000000035,6,72.4929520740988,NA,"role_play","LAURA",1,0,0,0
 "1548","Vestiges",5,65,1548,"second_half_rp","MATT","""is this all of your questions?""",10034.837,10039.781,4.94400000000132,8,97.0873786407507,NA,"role_play","MATT",0,0,0,1
 "1549","Vestiges",5,65,1549,"second_half_rp","TALIESIN","that will do, yes.",10039.781,10043.232,3.45099999999911,5,86.9313242538618,NA,"role_play","TALIESIN",1,0,0,0
-"1550","Vestiges",5,65,1550,"second_half_rp","MATT","he bows his head ever so slowly towards you. ""then be pleased."" and he takes the cards and shuffles them back into the deck, rights them into a perfect square with one quick move of his hand, and places them back in front, puts his hands back on his knees, and closes his eyes and puts his head down. there's a pause, and he reaches over and grabs a small, partially eaten apple and.",10043.232,10071.765,28.5329999999994,76,159.814951109245,NA,"role_play","MATT",0,0,0,1
+"1550","Vestiges",5,65,1550,"second_half_rp","MATT","he bows his head ever so slowly towards you. ""then be pleased."" and he takes the cards and shuffles them back into the deck, rights them into a perfect square with one quick move of his hand, and places them back in front, puts his hands back on his knees, and closes his eyes and puts his head down. there's a pause, and he reaches over and grabs a small, partially eaten apple and .",10043.232,10071.765,28.5329999999994,76,159.814951109245,NA,"role_play","MATT",0,0,0,1
 "1551","Vestiges",5,65,1551,"second_half_rp","LAURA","i as quietly as possible put another five gold in front of him.",10071.765,10082.519,10.7540000000008,14,78.1104705225903,NA,"role_play","LAURA",1,0,0,0
 "1552","Vestiges",5,65,1552,"second_half_rp","MATT","his chewing stops, and he swallows. reaches out, patting around it, and finds the gold coins. puts it into a pocket. ""you ask for one more question. what do you inquire?""",10082.519,10104.487,21.9679999999989,32,87.3998543335803,NA,"role_play","MATT",0,0,0,1
 "1553","Vestiges",5,65,1553,"second_half_rp","LAURA","did i make the right choice?",10104.487,10114.78,10.2930000000015,7,40.8044301952725,NA,"role_play","LAURA",1,0,0,0
@@ -1618,8 +1618,8 @@
 "1617","Vestiges",5,65,1617,"second_half_rp","MATT","he gives you a look and bends down.",10439.129,10441.635,2.5059999999994,9,215.482841181217,NA,"role_play","MATT",0,0,0,1
 "1618","Vestiges",5,65,1618,"second_half_rp","SAM","i've had a rough few weeks, and i need to get away from it all and go to that place",10441.635,10446.476,4.84100000000035,21,260.276802313553,NA,"role_play","SAM",1,0,0,0
 "1619","Vestiges",5,65,1619,"second_half_rp","MATT","he gets close to your face, interrupts you, and goes, ""i mean this with all due respect: ""being as small a man as you are, you have to be careful.""",10446.476,10457.481,11.0049999999992,31,169.014084507055,NA,"role_play","MATT",0,0,0,1
-"1620","Vestiges",5,65,1620,"second_half_rp","SAM","don't tell me what to do. i can take it, all right?",10457.481,10464.036,6.55500000000029,14,128.146453089239,NA,"role_play","SAM",1,0,0,0
-"1621","Vestiges",5,65,1621,"second_half_rp","SAM","let's just say that when i started using, i was your height.",10464.036,10472.877,8.84100000000035,14,95.0118764845568,NA,"role_play","SAM",1,0,0,0
+"1620","Vestiges",5,65,1620,"second_half_rp","SAM","don't tell me what to do. i can take it, all right?",10457.481,10460.761,3.28000000000065,14,256.097560975559,NA,"role_play","SAM",1,0,0,0
+"1621","Vestiges",5,65,1621,"second_half_rp","SAM","let's just say that when i started using, i was your height.",10464.036,10467.333,3.29700000000048,14,254.777070063657,NA,"role_play","SAM",1,0,0,0
 "1622","Vestiges",5,65,1622,"second_half_rp","MATT","he backs off, hands up. he goes, ""very well. the amount you ask, i have no specific amount. i'd ""have to inquire, but i would say, to be safe, bring about 200 gold pieces with you. just in case.""",10472.877,10492.151,19.2739999999994,41,127.633080834288,NA,"role_play","MATT",0,0,0,1
 "1623","Vestiges",5,65,1623,"second_half_rp","SAM","it'll be pure, not cut with anything else? i want the good stuff.",10492.151,10499.828,7.67699999999968,15,117.233294255573,NA,"role_play","SAM",1,0,0,0
 "1624","Vestiges",5,65,1624,"second_half_rp","MATT","he looks at you, confused.",10499.828,10503.307,3.47900000000118,6,103.478010922644,NA,"role_play","MATT",0,0,0,1
@@ -1644,7 +1644,7 @@
 "1643","Vestiges",5,65,1643,"second_half_rp","SAM","no! i'll tell you later!",10565.07,10566.759,1.68900000000031,7,248.667850799245,NA,"role_play","SAM",1,0,0,0
 "1644","Vestiges",5,65,1644,"second_half_rp","TALIESIN","these earrings are tapped. you know that.",10566.759,10568.781,2.02200000000084,8,237.388724035509,NA,"role_play","TALIESIN",1,0,0,0
 "1645","Vestiges",5,65,1645,"second_half_rp","SAM","they could be listening! i'm coming to you!",10568.781,10570.621,1.83999999999833,10,326.086956522036,NA,"role_play","SAM",1,0,0,0
-"1646","Vestiges",5,65,1646,"second_half_rp","LIAM","pike hears everything.",10570.621,10575.216,4.59500000000116,4,52.2306855277343,NA,"role_play","LIAM",1,0,0,0
+"1646","Vestiges",5,65,1646,"second_half_rp","LIAM","pike hears everything.",10570.621,10572.261,1.64000000000124,4,146.341463414524,NA,"role_play","LIAM",1,0,0,0
 "1647","Vestiges",5,65,1647,"second_half_rp","MATT","you guys find your way to the shade, and it's a large, circular sandstone wall that has a pointed tent roof above it held by a singular pole in the center. it is segmented into various rooms that have no ceiling, so everyone shares the same roof. this is what appears to be a lounge tavern, meaning there are drinks and wine served, but each room seems to have a carpeted and pillowed floor. looks like there are beaded curtains and various draperies that separate each of the different rooms, and there's large, hookah-type tobacco pipes. it's very much just a relaxing lounge area.",10575.216,10612.304,37.0879999999997,109,176.337359792926,NA,"role_play","MATT",0,0,0,1
 "1648","Vestiges",5,65,1648,"second_half_rp","TALIESIN","there's hookah.",10612.304,10613.388,1.08400000000074,4,221.402214021989,NA,"role_play","TALIESIN",1,0,0,0
 "1649","Vestiges",5,65,1649,"second_half_rp","MARISHA","there's hookah!",10613.388,10614.545,1.15699999999924,4,207.433016421916,NA,"role_play","MARISHA",1,0,0,0
@@ -1660,7 +1660,7 @@
 "1659","Vestiges",5,65,1659,"second_half_rp","TALIESIN","it's not very private, and privacy is definitely higher on the list.",10637.687,10643.776,6.08899999999994,14,137.953686976516,NA,"role_play","TALIESIN",1,0,0,0
 "1660","Vestiges",5,65,1660,"second_half_rp","LAURA","can i find a patron that seems chill?",10643.776,10648.64,4.86399999999958,9,111.019736842115,NA,"role_play","LAURA",1,0,0,0
 "1661","Vestiges",5,65,1661,"second_half_rp","MATT","yeah. you look around. you can see what looks to be a matronly older woman wearing some nicer dark purple and black clothing, who is sitting there with one big hookah next to her side, by herself, with a glass of wine to one of the sides, and is staring into space.",10648.64,10667.001,18.3610000000008,53,173.193181199274,NA,"role_play","MATT",0,0,0,1
-"1662","Vestiges",5,65,1662,"second_half_rp","TALIESIN","i can literally only see my mother when you describe this image, by the way.",10667.001,10673.816,6.81500000000051,16,140.865737344083,NA,"role_play","TALIESIN",1,0,0,0
+"1662","Vestiges",5,65,1662,"second_half_rp","TALIESIN","i can literally only see my mother when you describe this image, by the way.",10667.001,10670.854,3.85299999999916,16,249.156501427514,NA,"role_play","TALIESIN",1,0,0,0
 "1663","Vestiges",5,65,1663,"second_half_rp","TALIESIN","and only you and you know how funny that is, because it's sealed in there.",10673.816,10678.97,5.15399999999863,17,197.904540163033,NA,"role_play","TALIESIN",1,0,0,0
 "1664","Vestiges",5,65,1664,"second_half_rp","LAURA","i walk up. be pleased.",10678.97,10682.924,3.95400000000154,6,91.0470409711329,NA,"role_play","LAURA",1,0,0,0
 "1665","Vestiges",5,65,1665,"second_half_rp","MATT","""be pleased. can i help you?""",10682.924,10687.778,4.85399999999936,8,98.8875154511873,NA,"role_play","MATT",0,0,0,1
@@ -1757,7 +1757,7 @@
 "1756","Vestiges",5,65,1756,"second_half_rp","SAM","well...",11087.849,11088.892,1.04299999999967,2,115.052732502434,NA,"role_play","SAM",1,0,0,0
 "1757","Vestiges",5,65,1757,"second_half_rp","TALIESIN","no, what do you mean? we're cool.",11088.892,11090.913,2.02100000000064,9,267.194458188931,NA,"role_play","TALIESIN",1,0,0,0
 "1758","Vestiges",5,65,1758,"second_half_rp","SAM","i don't want to draw too much attention, but i want to be safe.",11090.913,11094.088,3.17499999999927,16,302.362204724479,NA,"role_play","SAM",1,0,0,0
-"1759","Vestiges",5,65,1759,"second_half_rp","TRAVIS","are you buying drugs?",11094.088,11101.138,7.05000000000109,5,42.5531914893551,NA,"role_play","TRAVIS",1,0,0,0
+"1759","Vestiges",5,65,1759,"second_half_rp","TRAVIS","are you buying drugs?",11094.088,11095.74,1.65200000000004,5,181.59806295399,NA,"role_play","TRAVIS",1,0,0,0
 "1760","Vestiges",5,65,1760,"second_half_rp","TALIESIN","could not be happier.",11101.138,11103.395,2.25699999999961,5,132.919805050976,NA,"role_play","TALIESIN",1,0,0,0
 "1761","Vestiges",5,65,1761,"second_half_rp","LIAM","what an episode! what an episode.",11103.395,11105.581,2.18599999999969,7,192.131747484016,NA,"role_play","LIAM",1,0,0,0
 "1762","Vestiges",5,65,1762,"second_half_rp","TALIESIN","there's so many valuable lessons that can be learned at any moment.",11105.581,11108.647,3.06600000000071,14,273.972602739662,NA,"role_play","TALIESIN",1,0,0,0
@@ -1766,7 +1766,7 @@
 "1765","Vestiges",5,65,1765,"second_half_rp","LAURA","what the hell was he thinking?",11117.913,11119.825,1.91200000000026,7,219.665271966497,NA,"role_play","LAURA",1,0,0,0
 "1766","Vestiges",5,65,1766,"second_half_rp","SAM","but we're going to do it smarter. we're going to do it better.",11119.825,11121.883,2.05799999999908,16,466.472303207205,NA,"role_play","SAM",1,0,0,0
 "1767","Vestiges",5,65,1767,"second_half_rp","TALIESIN","no, we're not! he's legitimately smarter than us.",11121.883,11126.304,4.42100000000028,11,149.287491517747,NA,"role_play","TALIESIN",1,0,0,0
-"1768","Vestiges",5,65,1768,"second_half_rp","SAM","i can do this. i am the one who cocks.",11126.304,11134.574,8.27000000000044,11,79.8065296251469,NA,"role_play","SAM",1,0,0,0
+"1768","Vestiges",5,65,1768,"second_half_rp","SAM","i can do this. i am the one who cocks.",11126.304,11129.035,2.73099999999977,11,241.669718052016,NA,"role_play","SAM",1,0,0,0
 "1769","Vestiges",5,65,1769,"second_half_rp","SAM","i can do this. but i need some backup. maybe vax could come and he could wear red. and he could be the guy who",11134.574,11143.113,8.53899999999885,25,175.664597728095,NA,"role_play","SAM",1,0,0,0
 "1770","Vestiges",5,65,1770,"second_half_rp","LAURA","aren't they going to be looking for a very little man?",11143.113,11146.132,3.01900000000023,13,258.363696588254,NA,"role_play","LAURA",1,0,0,0
 "1771","Vestiges",5,65,1771,"second_half_rp","SAM","okay, i'll wear the red, but maybe you could be there.",11146.132,11148.287,2.15500000000065,13,361.948955916363,NA,"role_play","SAM",1,0,0,0
@@ -1892,7 +1892,7 @@
 "1891","Vestiges",5,65,1891,"second_half_rp","TRAVIS","does it taste good?",11663.776,11664.882,1.10599999999977,5,271.247739602227,NA,"role_play","TRAVIS",1,0,0,0
 "1892","Vestiges",5,65,1892,"second_half_rp","LIAM","do you recommend it?",11666.663,11668.502,1.83899999999994,5,163.132137031,NA,"role_play","LIAM",1,0,0,0
 "1893","Vestiges",5,65,1893,"second_half_rp","TRAVIS","it hurts man, oh my god!",11678.402,11680.92,2.51800000000003,7,166.799046862587,NA,"role_play","TRAVIS",1,0,0,0
-"1894","Vestiges",5,65,1894,"second_half_rp","LAURA","are you going to try it, grog?",11680.92,11687.222,6.30199999999968,8,76.1662964138407,NA,"role_play","LAURA",1,0,0,0
+"1894","Vestiges",5,65,1894,"second_half_rp","LAURA","are you going to try it, grog?",11680.92,11683.348,2.42799999999988,8,197.693574958823,NA,"role_play","LAURA",1,0,0,0
 "1895","Vestiges",5,65,1895,"second_half_rp","LIAM","i am not going to have a sip of that right now. definitely sometime, but",11687.222,11694.966,7.7440000000006,15,116.219008264454,NA,"role_play","LIAM",1,0,0,0
 "1896","Vestiges",5,65,1896,"second_half_rp","LAURA","back in the mansion, maybe.",11694.966,11696.04,1.07400000000052,6,335.195530726093,NA,"role_play","LAURA",1,0,0,0
 "1897","Vestiges",5,65,1897,"second_half_rp","LIAM","yeah.",11696.04,11697.093,1.05299999999988,2,113.960113960127,NA,"role_play","LIAM",1,0,0,0
@@ -2108,10 +2108,10 @@
 "2107","Vestiges",5,65,2107,"second_half_rp","TALIESIN","arm wrestling or i don't know, what would be worse less than",12863.459,12867.713,4.253999999999,13,183.356840620636,NA,"role_play","TALIESIN",1,0,0,0
 "2108","Vestiges",5,65,2108,"second_half_rp","LAURA","ufc.",12867.713,12869.559,1.84599999999955,2,65.0054171181091,NA,"role_play","LAURA",1,0,0,0
 "2109","Vestiges",5,65,2109,"second_half_rp","MARISHA","less than a bowl of judgment?",12869.559,12871.965,2.40600000000086,7,174.563591022382,NA,"role_play","MARISHA",1,0,0,0
-"2110","Vestiges",5,65,2110,"second_half_rp","SAM","cup of truth?",12871.965,12877.348,5.38299999999981,4,44.5848040126339,NA,"role_play","SAM",1,0,0,0
+"2110","Vestiges",5,65,2110,"second_half_rp","SAM","cup of truth?",12871.965,12874.893,2.92799999999988,4,81.9672131147574,NA,"role_play","SAM",1,0,0,0
 "2111","Vestiges",5,65,2111,"second_half_rp","TALIESIN","a wok of truth, maybe.",12877.348,12880.815,3.46700000000055,6,103.83616959906,NA,"role_play","TALIESIN",1,0,0,0
 "2112","Vestiges",5,65,2112,"second_half_rp","MARISHA","bowl of wheaties.",12880.815,12882.451,1.6359999999986,4,146.699266503793,NA,"role_play","MARISHA",1,0,0,0
-"2113","Vestiges",5,65,2113,"second_half_rp","LIAM","tablespoon of wrath.",12882.451,12886.165,3.71400000000176,4,64.6203554119241,NA,"role_play","LIAM",1,0,0,0
+"2113","Vestiges",5,65,2113,"second_half_rp","LIAM","tablespoon of wrath.",12882.451,12884.004,1.5530000000017,4,154.539600772529,NA,"role_play","LIAM",1,0,0,0
 "2114","Vestiges",5,65,2114,"second_half_rp","TALIESIN","this is really uncomfortable.",12886.165,12889.199,3.03399999999965,5,98.8793671720615,NA,"role_play","TALIESIN",1,0,0,0
 "2115","Vestiges",5,65,2115,"second_half_rp","MATT","""a few months until the games begin, but until then, that's about the only way you'll find ""bloodshed here. at least that won't lend you up in prison.""",12889.199,12895.253,6.05400000000009,33,327.056491575813,NA,"role_play","MATT",0,0,0,1
 "2116","Vestiges",5,65,2116,"second_half_rp","TRAVIS","all right.",12895.253,12896.78,1.52700000000004,3,117.878192534378,NA,"role_play","TRAVIS",1,0,0,0
@@ -2334,7 +2334,7 @@
 "2333","Vestiges",5,65,2333,"second_half_rp","LIAM","come on, snitch.",14044.171,14045.879,1.70800000000054,4,140.515222482391,NA,"role_play","LIAM",1,0,0,0
 "2334","Vestiges",5,65,2334,"second_half_rp","TALIESIN","come on. 12.",14045.879,14048.539,2.65999999999985,4,90.2255639097794,NA,"role_play","TALIESIN",1,0,0,0
 "2335","Vestiges",5,65,2335,"second_half_rp","LAURA","you flirted with grass better!",14048.539,14051.464,2.92499999999927,6,123.076923076954,NA,"role_play","LAURA",1,0,0,0
-"2336","Vestiges",5,65,2336,"second_half_rp","MATT","she goes, ""i appreciate your patronage, but i am a patient woman, and that is how i hold ""business.""",14051.464,14060.477,9.01300000000083,20,133.141018528779,NA,"role_play","MATT",0,0,0,1
+"2336","Vestiges",5,65,2336,"second_half_rp","MATT","she goes, ""i appreciate your patronage, but i am a patient woman, and that is how i hold ""business.""",14051.464,14057.628,6.16400000000067,20,194.678780012957,NA,"role_play","MATT",0,0,0,1
 "2337","Vestiges",5,65,2337,"second_half_rp","TRAVIS","stonewalled!",14060.477,14064.267,3.78999999999905,2,31.6622691292955,NA,"role_play","TRAVIS",1,0,0,0
 "2338","Vestiges",5,65,2338,"second_half_rp","TALIESIN","keyleth?",14064.267,14065.927,1.65999999999985,2,72.2891566265124,NA,"role_play","TALIESIN",1,0,0,0
 "2339","Vestiges",5,65,2339,"second_half_rp","MARISHA","yes?",14065.927,14067.024,1.09699999999975,2,109.389243391091,NA,"role_play","MARISHA",1,0,0,0

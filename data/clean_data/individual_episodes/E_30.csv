@@ -48,7 +48,7 @@
 "47","Briarwoods",3,30,47,"prologue","MATT","that's fantastic. other side of the table, let's see.",316.066,321.392,5.32600000000002,12,135.185880585805,NA,"role_play","MATT",0,0,0,1
 "48","Briarwoods",3,30,48,"prologue","MARISHA","oh, look who just showed up.",321.392,324.419,3.02699999999999,7,138.751238850347,NA,"role_play","MARISHA",1,0,0,0
 "49","Briarwoods",3,30,49,"prologue","MATT","who are you dressed as, sam?",324.419,326.683,2.26400000000001,7,185.512367491165,NA,"role_play","MATT",0,0,0,1
-"50","Briarwoods",3,30,50,"prologue","SAM","i'm either a porn actor or burt reynolds. i can't smile.",326.683,340.742,14.059,14,59.7482039974393,NA,"role_play","SAM",1,0,0,0
+"50","Briarwoods",3,30,50,"prologue","SAM","i'm either a porn actor or burt reynolds. i can't smile.",326.683,336.703,10.02,14,83.8323353293415,NA,"role_play","SAM",1,0,0,0
 "51","Briarwoods",3,30,51,"prologue","SAM","it's smokey and the bandit. i can't get him to stay.",340.742,344.498,3.75599999999997,14,223.642172523963,NA,"role_play","SAM",1,0,0,0
 "52","Briarwoods",3,30,52,"prologue","MATT","that's okay, we'll find some duct tape for you.",344.498,346.849,2.351,12,306.252658443216,NA,"role_play","MATT",0,0,0,1
 "53","Briarwoods",3,30,53,"prologue","SAM","my costume is awesome.",346.849,348.566,1.71699999999998,5,174.723354688412,NA,"role_play","SAM",1,0,0,0
@@ -147,7 +147,7 @@
 "146","Briarwoods",3,30,146,"first_half_rp","MATT","okay.",964.795,965.867,1.072,2,111.940298507462,NA,"role_play","MATT",0,0,0,1
 "147","Briarwoods",3,30,147,"first_half_rp","TALIESIN","those eyes make you look far more sarcastic than you normally do.",965.867,969.882,4.01499999999999,13,194.271481942715,NA,"role_play","TALIESIN",1,0,0,0
 "148","Briarwoods",3,30,148,"first_half_rp","MATT","do they?",969.882,971.655,1.77300000000002,3,101.522842639592,NA,"role_play","MATT",0,0,0,1
-"149","Briarwoods",3,30,149,"first_half_rp","TALIESIN","argh, god!",971.655,976.675,5.01999999999998,3,35.8565737051794,NA,"role_play","TALIESIN",1,0,0,0
+"149","Briarwoods",3,30,149,"first_half_rp","TALIESIN","argh, god!",971.655,973.187,1.53200000000004,3,117.493472584853,NA,"role_play","TALIESIN",1,0,0,0
 "150","Briarwoods",3,30,150,"first_half_rp","LAURA","and he doesn't even smile at all.",976.675,978.369,1.69400000000007,9,318.772136953941,NA,"role_play","LAURA",1,0,0,0
 "151","Briarwoods",3,30,151,"first_half_rp","TRAVIS","jeez, you're the worst.",978.369,979.918,1.54899999999998,6,232.408005164626,NA,"role_play","TRAVIS",1,0,0,0
 "152","Briarwoods",3,30,152,"first_half_rp","LIAM","so percival, spill your guts. what the fuck is going on?",979.918,985.22,5.30200000000002,12,135.797812146359,NA,"role_play","LIAM",1,0,0,0
@@ -386,7 +386,7 @@
 "385","Briarwoods",3,30,385,"combat","LAURA","the source of the bad?",2515.239,2516.854,1.61499999999978,6,222.910216718296,1,"combat","LAURA",1,0,0,0
 "386","Briarwoods",3,30,386,"combat","SAM","yeah.",2516.854,2517.732,0.878000000000156,2,136.674259681069,1,"combat","SAM",1,0,0,0
 "387","Briarwoods",3,30,387,"combat","LAURA","it's possible it is.",2517.732,2519.12,1.38799999999992,6,259.365994236326,1,"combat","LAURA",1,0,0,0
-"388","Briarwoods",3,30,388,"combat","MARISHA","that's kind of funny.",2519.12,2525.786,6.66600000000017,6,54.0054005400526,1,"combat","MARISHA",1,0,0,0
+"388","Briarwoods",3,30,388,"combat","MARISHA","that's kind of funny.",2519.12,2521.266,2.14600000000019,6,167.753960857395,1,"combat","MARISHA",1,0,0,0
 "389","Briarwoods",3,30,389,"combat","LAURA","what if the briarwoods are right under the sun tree, and we're right above them?",2525.786,2530.179,4.39300000000003,17,232.187571135896,1,"combat","LAURA",1,0,0,0
 "390","Briarwoods",3,30,390,"combat","TRAVIS","what if they didn't hang the bodies, the tree just grabbed people?",2530.179,2533.359,3.17999999999984,14,264.15094339624,1,"combat","TRAVIS",1,0,0,0
 "391","Briarwoods",3,30,391,"combat","MATT","so grog back in the fog, vex is waking up the back, trinket asleep next to her. percy, scanlan.",2533.359,2546.486,13.127,20,91.4146415784265,1,"combat","MATT",0,0,0,1
@@ -421,7 +421,7 @@
 "420","Briarwoods",3,30,420,"combat","TRAVIS","that hits.",2652.569,2653.531,0.961999999999989,3,187.110187110189,1,"combat","TRAVIS",1,0,0,0
 "421","Briarwoods",3,30,421,"combat","MATT","that hits. all right, you take eight points of slashing damage or no, you do not, actually. instead, it is going to attempt to grapple you. not attempt, it grapples you. so it reaches out and grasps on to some of the hide armor you have tied around your shoulder, pulls you in, and is going to attempt to sink its teeth into your actual body.",2653.531,2673.782,20.2510000000002,67,198.50871561898,1,"combat","MATT",0,0,0,1
 "422","Briarwoods",3,30,422,"combat","LAURA","don't forget that we all have our amazing metal around our neck that scanlan got us.",2673.782,2679.078,5.29599999999982,18,203.927492447137,1,"combat","LAURA",1,0,0,0
-"423","Briarwoods",3,30,423,"combat","MATT","that's true.",2679.078,2686.547,7.46900000000005,4,32.1328156379701,1,"combat","MATT",0,0,0,1
+"423","Briarwoods",3,30,423,"combat","MATT","that's true.",2679.078,2680.685,1.60699999999997,4,149.346608587433,1,"combat","MATT",0,0,0,1
 "424","Briarwoods",3,30,424,"combat","LIAM","you're so intimidating in that costume.",2686.547,2688.342,1.79500000000007,8,267.409470752078,1,"combat","LIAM",1,0,0,0
 "425","Briarwoods",3,30,425,"combat","MATT","good. that is a 17 versus armor class.",2688.342,2694.56,6.21799999999985,9,86.844644580253,1,"combat","MATT",0,0,0,1
 "426","Briarwoods",3,30,426,"combat","TRAVIS","that misses.",2694.56,2696.382,1.82200000000012,3,98.792535675076,1,"combat","TRAVIS",1,0,0,0
@@ -484,7 +484,7 @@
 "483","Briarwoods",3,30,483,"combat","MATT","all righty. cool, so you click your boots of haste. you feel the influx of adrenaline hit your body, the magical push. you take the daggers and the vampire in front of you tries to swipe out of your hands, but you're too fast; you've already released all three before he even gets to your wrist and pull back, grinning at it. all three daggers repeatedly, hitting nearly the same point like an amazing throwing of darts. just smack, smack, smack into the center of the chest of the vampire across the way. it's distracted by grog; it doesn't see them coming until it is too late, and it screeches out in pain towards you. the eyes help on this, huh? a nice and sizable chunk of damage. all righty, that ends your turn, unless you want to try to move?",3038.524,3084.692,46.1680000000001,146,189.74181251083,1,"combat","MATT",0,0,0,1
 "484","Briarwoods",3,30,484,"combat","LIAM","yeah, actually i'm going to no. nope. i'm good.",3084.692,3090.583,5.89100000000008,12,122.220336105923,1,"combat","LIAM",1,0,0,0
 "485","Briarwoods",3,30,485,"combat","MATT","all right. grog, you're up.",3090.583,3092.984,2.40099999999984,7,174.927113702636,1,"combat","MATT",0,0,0,1
-"486","Briarwoods",3,30,486,"combat","TRAVIS","i would like to rage.",3092.984,3098.953,5.96900000000005,6,60.3116099849216,1,"combat","TRAVIS",1,0,0,0
+"486","Briarwoods",3,30,486,"combat","TRAVIS","i would like to rage.",3092.984,3095.814,2.82999999999993,6,127.208480565374,1,"combat","TRAVIS",1,0,0,0
 "487","Briarwoods",3,30,487,"combat","MATT","please do.",3098.953,3100.645,1.69200000000001,3,106.382978723404,1,"combat","MATT",0,0,0,1
 "488","Briarwoods",3,30,488,"combat","TRAVIS","and i would like to take my firebrand warhammer and pound that shit to the left of me twice in the head with my fiery hammer.",3100.645,3108.4,7.75500000000011,27,208.897485493227,1,"combat","TRAVIS",1,0,0,0
 "489","Briarwoods",3,30,489,"combat","MATT","all righty, go for it.",3108.4,3109.762,1.36200000000008,6,264.317180616725,1,"combat","MATT",0,0,0,1
@@ -549,7 +549,7 @@
 "548","Briarwoods",3,30,548,"combat","TALIESIN","do i get three attacks with the sword i just picked up? since i'm too close to use my gun right now?",3453.061,3457.189,4.1279999999997,24,348.837209302351,1,"combat","TALIESIN",1,0,0,0
 "549","Briarwoods",3,30,549,"combat","MATT","technically, yeah.",3457.189,3458.335,1.14600000000019,3,157.0680628272,1,"combat","MATT",0,0,0,1
 "550","Briarwoods",3,30,550,"combat","TALIESIN","i'm going to draw the rapier that i just picked and start stabbing at the terrible thing, all the while screaming.",3458.335,3466.307,7.97199999999975,23,173.10587054692,1,"combat","TALIESIN",1,0,0,0
-"551","Briarwoods",3,30,551,"combat","MATT","all right, go for it.",3466.307,3470.102,3.79500000000007,6,94.8616600790496,1,"combat","MATT",0,0,0,1
+"551","Briarwoods",3,30,551,"combat","MATT","all right, go for it.",3466.307,3467.477,1.17000000000007,6,307.692307692289,1,"combat","MATT",0,0,0,1
 "552","Briarwoods",3,30,552,"combat","LAURA","is your little butt flap down? are you in the long johns?",3470.102,3474.461,4.35899999999992,13,178.940123881627,1,"combat","LAURA",1,0,0,0
 "553","Briarwoods",3,30,553,"combat","TALIESIN","the butt flap of my soul is down. i'm well-dressed at the moment.",3474.461,3478.637,4.17600000000039,16,229.885057471243,1,"combat","TALIESIN",1,0,0,0
 "554","Briarwoods",3,30,554,"combat","MATT","it's a plus-one rapier. but your archery you took, i think was your combat?",3478.637,3485.774,7.13699999999972,17,142.917192097526,1,"combat","MATT",0,0,0,1
@@ -632,16 +632,16 @@
 "631","Briarwoods",3,30,631,"combat","MATT","happy halloween!",3840.217,3843.325,3.10799999999972,3,57.9150579150631,1,"combat","MATT",0,0,0,1
 "632","Briarwoods",3,30,632,"combat","TRAVIS","are you writing your name with your left hand?",3843.325,3845.786,2.46100000000024,10,243.803331978847,1,"combat","TRAVIS",1,0,0,0
 "633","Briarwoods",3,30,633,"combat","MATT","okay, so. as you sign your signature on the ground, you also burst forth with a series of arcane bolts that streak across the room, slamming into the sides of each of these vampires. they all look towards you as a reaction to the pain, and their heads all turn curiously as to what they see. not what they were expecting.",3845.786,3869.515,23.7289999999998,62,156.770196805598,1,"combat","MATT",0,0,0,1
-"634","Briarwoods",3,30,634,"combat","SAM","don't worry, i won't wash my hands.",3869.515,3874.235,4.72000000000025,10,127.11864406779,1,"combat","SAM",1,0,0,0
+"634","Briarwoods",3,30,634,"combat","SAM","don't worry, i won't wash my hands.",3869.515,3871.769,2.25399999999991,10,266.193433895308,1,"combat","SAM",1,0,0,0
 "635","Briarwoods",3,30,635,"combat","MATT","all right, that's your movement and your action. i think that's your turn, right?",3874.235,3877.314,3.07899999999972,17,331.276388437834,1,"combat","MATT",0,0,0,1
 "636","Briarwoods",3,30,636,"combat","SAM","do i get a bonus?",3877.314,3878.663,1.34900000000016,6,266.864343958456,1,"combat","SAM",1,0,0,0
 "637","Briarwoods",3,30,637,"combat","MATT","if you want to use one, yeah.",3878.663,3879.737,1.07400000000007,8,446.927374301647,1,"combat","MATT",0,0,0,1
-"638","Briarwoods",3,30,638,"combat","SAM","sure, so i'll inspire grog. i need grog to rage and get us through this semi-fucked kind of fight, baby, baby.",3879.737,3894.277,14.54,24,99.0371389270979,1,"combat","SAM",1,0,0,0
+"638","Briarwoods",3,30,638,"combat","SAM","sure, so i'll inspire grog. i need grog to rage and get us through this semi-fucked kind of fight, baby, baby.",3879.737,3890.768,11.0309999999999,24,130.541202066903,1,"combat","SAM",1,0,0,0
 "639","Briarwoods",3,30,639,"combat","TRAVIS","wow, way back.",3894.277,3897.873,3.596,4,66.7408231368186,1,"combat","TRAVIS",1,0,0,0
 "640","Briarwoods",3,30,640,"combat","SAM","kill-kill-kill kill-kill-kill-kill!",3897.912,3900.426,2.51400000000012,8,190.930787589489,1,"combat","SAM",1,0,0,0
-"641","Briarwoods",3,30,641,"combat","MATT","kill-kill-kill kill-kill-kill-kill!",3900.426,3906.485,6.0590000000002,8,79.2209935632917,1,"combat","MATT",0,0,0,1
+"641","Briarwoods",3,30,641,"combat","MATT","kill-kill-kill kill-kill-kill-kill!",3900.426,3904.107,3.68100000000004,8,130.399348003259,1,"combat","MATT",0,0,0,1
 "642","Briarwoods",3,30,642,"combat","MATT","all right. take your d10 inspiration die, grog. oh man, i get a d10 inspiration for that.",3906.485,3912.553,6.06799999999976,18,177.982860909697,1,"combat","MATT",0,0,0,1
-"643","Briarwoods",3,30,643,"combat","LIAM","oh, that's so ravenloft.",3912.553,3917.666,5.11300000000028,6,70.4087619792646,1,"combat","LIAM",1,0,0,0
+"643","Briarwoods",3,30,643,"combat","LIAM","oh, that's so ravenloft.",3912.553,3915.105,2.55200000000013,6,141.065830720996,1,"combat","LIAM",1,0,0,0
 "644","Briarwoods",3,30,644,"combat","TALIESIN","wow!",3917.666,3919.411,1.74499999999989,2,68.7679083094599,1,"combat","TALIESIN",1,0,0,0
 "645","Briarwoods",3,30,645,"combat","MATT","good night, everybody! and we're done.",3919.411,3921.313,1.90200000000004,8,252.365930599363,1,"combat","MATT",0,0,0,1
 "646","Briarwoods",3,30,646,"combat","SAM","take the inspiration back.",3921.313,3922.795,1.48199999999997,5,202.429149797575,1,"combat","SAM",1,0,0,0
@@ -665,7 +665,7 @@
 "664","Briarwoods",3,30,664,"combat","MATT","all righty.",3993.523,3994.539,1.01600000000008,3,177.165354330695,1,"combat","MATT",0,0,0,1
 "665","Briarwoods",3,30,665,"combat","TRAVIS","14 and 15, so 25 for the first one.",3994.539,3998.427,3.88799999999992,10,154.320987654324,1,"combat","TRAVIS",1,0,0,0
 "666","Briarwoods",3,30,666,"combat","MATT","all right.",3998.427,3999.931,1.50399999999991,3,119.680851063837,1,"combat","MATT",0,0,0,1
-"667","Briarwoods",3,30,667,"combat","TRAVIS","stanky.",3999.931,4003.364,3.43299999999999,2,34.9548499854356,1,"combat","TRAVIS",1,0,0,0
+"667","Briarwoods",3,30,667,"combat","TRAVIS","stanky.",3999.931,4001.164,1.23300000000017,2,97.3236009732222,1,"combat","TRAVIS",1,0,0,0
 "668","Briarwoods",3,30,668,"combat","SAM","did you just say stanky?",4003.364,4004.668,1.30400000000009,6,276.073619631883,1,"combat","SAM",1,0,0,0
 "669","Briarwoods",3,30,669,"combat","LAURA","yeah, he did.",4004.668,4006.196,1.52799999999979,4,157.068062827246,1,"combat","LAURA",1,0,0,0
 "670","Briarwoods",3,30,670,"combat","LIAM","there is no difference between our old home game and this.",4006.196,4009.69,3.49400000000014,12,206.067544361755,1,"combat","LIAM",1,0,0,0
@@ -692,13 +692,13 @@
 "691","Briarwoods",3,30,691,"combat","MATT","all right. so those all hit.",4129.306,4131.319,2.01300000000083,7,208.643815201106,1,"combat","MATT",0,0,0,1
 "692","Briarwoods",3,30,692,"combat","LIAM","okay, they do. that's 11 for the first and eight for the second and eight for the third. right in his vampire guts.",4131.319,4144.049,12.7299999999996,25,117.831893165754,1,"combat","LIAM",1,0,0,0
 "693","Briarwoods",3,30,693,"combat","MATT","you jam the dagger into its torso. it's trying to stop and slap the hands away, but you're too fast and the final hit, you push it up, and you're right in its face again; you can see its fangs still wet with the blood that it pulled from your throat, and you grin at it back as you withdraw the dagger with much force and anger.",4144.049,4159.313,15.2640000000001,71,279.088050314463,1,"combat","MATT",0,0,0,1
-"694","Briarwoods",3,30,694,"combat","LIAM","and the last thing i say is, vampires ain't shit.",4159.313,4165.472,6.15899999999965,12,116.902094495866,1,"combat","LIAM",1,0,0,0
+"694","Briarwoods",3,30,694,"combat","LIAM","and the last thing i say is, vampires ain't shit.",4159.313,4163.375,4.0619999999999,12,177.252584933535,1,"combat","LIAM",1,0,0,0
 "695","Briarwoods",3,30,695,"combat","MATT","getting that on a jacket now. vampires ain't shit. all right, cool. that ends your turn, unless you want to move or do anything else?",4165.472,4173.007,7.53499999999985,27,214.996682149971,1,"combat","MATT",0,0,0,1
 "696","Briarwoods",3,30,696,"combat","LIAM","nah.",4173.007,4174.053,1.04600000000028,2,114.72275334605,1,"combat","LIAM",1,0,0,0
 "697","Briarwoods",3,30,697,"combat","MATT","all right. now it's their turn. you notice, by the way: this round, specifically, as they're looking a little more wounded, their flesh begins to slowly reform. the wounds they've taken begin to seal up and the pouring of blood begins to slowly turn into a trickle.",4174.053,4189.182,15.1289999999999,51,202.260559190959,1,"combat","MATT",0,0,0,1
 "698","Briarwoods",3,30,698,"combat","LIAM","so what? so does scanlan's mustache.",4189.182,4191.36,2.17799999999988,8,220.385674931141,1,"combat","LIAM",1,0,0,0
 "699","Briarwoods",3,30,699,"combat","MATT","it's true.",4191.36,4192.726,1.36599999999999,4,175.695461200588,1,"combat","MATT",0,0,0,1
-"700","Briarwoods",3,30,700,"combat","SAM","i would smile right now if i could.",4192.726,4198.114,5.38799999999992,9,100.222717149222,1,"combat","SAM",1,0,0,0
+"700","Briarwoods",3,30,700,"combat","SAM","i would smile right now if i could.",4192.726,4196.23,3.50399999999991,9,154.1095890411,1,"combat","SAM",1,0,0,0
 "701","Briarwoods",3,30,701,"combat","TALIESIN","i want to tickle you. see what happens.",4198.114,4200.853,2.73900000000049,9,197.152245344981,1,"combat","TALIESIN",1,0,0,0
 "702","Briarwoods",3,30,702,"combat","MATT","all righty. this one's going to move up to here.",4200.853,4203.041,2.1880000000001,12,329.067641681886,1,"combat","MATT",0,0,0,1
 "703","Briarwoods",3,30,703,"combat","MARISHA","did i just get seriously boned in initiative? am i still sleeping?",4203.041,4208.622,5.58100000000013,13,139.759899659556,1,"combat","MARISHA",1,0,0,0
@@ -712,7 +712,7 @@
 "711","Briarwoods",3,30,711,"combat","TRAVIS","what? oh, you and i have been together. did you see?",4226.735,4231.773,5.03800000000047,12,142.913854704234,1,"combat","TRAVIS",1,0,0,0
 "712","Briarwoods",3,30,712,"combat","SAM","look at that.",4231.773,4233.154,1.38100000000031,4,173.787110789244,1,"combat","SAM",1,0,0,0
 "713","Briarwoods",3,30,713,"combat","TRAVIS","i carved that in with a pen, myself, after our night together. where have you been my whole life?",4233.154,4240.131,6.97699999999986,20,171.993693564573,1,"combat","TRAVIS",1,0,0,0
-"714","Briarwoods",3,30,714,"combat","MATT","it's canon.",4240.131,4247.143,7.01199999999972,4,34.2270393610967,1,"combat","MATT",0,0,0,1
+"714","Briarwoods",3,30,714,"combat","MATT","it's canon.",4240.131,4242.013,1.88199999999961,4,127.523910733289,1,"combat","MATT",0,0,0,1
 "715","Briarwoods",3,30,715,"combat","LIAM","this is our least serious episode ever. we cannot wear costumes but once a year.",4247.143,4252.084,4.9409999999998,16,194.292653309054,1,"combat","LIAM",1,0,0,0
 "716","Briarwoods",3,30,716,"combat","MATT","yeah. only time that it works.",4252.084,4254.122,2.03800000000047,7,206.084396467078,1,"combat","MATT",0,0,0,1
 "717","Briarwoods",3,30,717,"combat","SAM","and purim, also.",4254.255,4256.174,1.91899999999987,4,125.065138092765,1,"combat","SAM",1,0,0,0
@@ -747,7 +747,7 @@
 "746","Briarwoods",3,30,746,"combat","MARISHA","that's what i want to do.",4399.904,4400.877,0.972999999999956,8,493.3196300103,1,"combat","MARISHA",1,0,0,0
 "747","Briarwoods",3,30,747,"combat","MATT","okay, so you slide alongside scanlan",4400.877,4402.988,2.11099999999988,6,170.535291331133,1,"combat","MATT",0,0,0,1
 "748","Briarwoods",3,30,748,"combat","MARISHA","and i yell to the party: shield your eyes!",4402.988,4406.912,3.92399999999998,10,152.905198776759,1,"combat","MARISHA",1,0,0,0
-"749","Briarwoods",3,30,749,"combat","SAM","i instinctively cover my penis.",4406.912,4413.601,6.6889999999994,6,53.8197039916329,1,"combat","SAM",1,0,0,0
+"749","Briarwoods",3,30,749,"combat","SAM","i instinctively cover my penis.",4406.912,4410.38,3.46799999999985,6,103.806228373707,1,"combat","SAM",1,0,0,0
 "750","Briarwoods",3,30,750,"combat","LIAM","oh my goodness.",4413.601,4415.075,1.47400000000016,4,162.822252374473,1,"combat","LIAM",1,0,0,0
 "751","Briarwoods",3,30,751,"combat","SAM","it's more important than my eyes.",4415.075,4417.677,2.60199999999986,8,184.473481936981,1,"combat","SAM",1,0,0,0
 "752","Briarwoods",3,30,752,"combat","TRAVIS","take my eyes, not my penis.",4417.677,4422.49,4.8130000000001,7,87.2636609183443,1,"combat","TRAVIS",1,0,0,0
@@ -805,7 +805,7 @@
 "804","Briarwoods",3,30,804,"combat","LAURA","nine?",4675.486,4680.625,5.13900000000012,2,23.3508464681839,1,"combat","LAURA",1,0,0,0
 "805","Briarwoods",3,30,805,"combat","MATT","all right, so you take the heavily-sharpened wooden dagger, essentially. you jam it into its chest. it screeches out in pain, the wooden stake itself partially destroyed in the process of jamming it in to do so much damage. it reaches up grabs it and breaks it off, and part of it still in its chest, goes. hisses at you angrily.",4680.625,4703.158,22.5330000000004,63,167.753960857406,1,"combat","MATT",0,0,0,1
 "806","Briarwoods",3,30,806,"combat","LAURA","wooden stakes don't work! i back up a little bit.",4703.158,4707.21,4.05199999999968,12,177.690029615019,1,"combat","LAURA",1,0,0,0
-"807","Briarwoods",3,30,807,"combat","SAM","you got some damage in, no? yes? that stake was well done. yeah!",4707.21,4721.069,13.8590000000004,14,60.6104336532201,1,"combat","SAM",1,0,0,0
+"807","Briarwoods",3,30,807,"combat","SAM","you got some damage in, no? yes? that stake was well done. yeah!",4707.21,4718.174,10.9639999999999,14,76.6143743159435,1,"combat","SAM",1,0,0,0
 "808","Briarwoods",3,30,808,"combat","TRAVIS","that was so csi miami, man.",4721.069,4724.051,2.98199999999997,7,140.845070422537,1,"combat","TRAVIS",1,0,0,0
 "809","Briarwoods",3,30,809,"combat","LIAM","your mustache is almost down to your chin for a goatee.",4724.051,4728.946,4.89499999999953,12,147.088866190004,1,"combat","LIAM",1,0,0,0
 "810","Briarwoods",3,30,810,"combat","SAM","soon it will be creeping across my face.",4728.946,4731.858,2.91200000000026,9,185.439560439544,1,"combat","SAM",1,0,0,0
@@ -860,7 +860,7 @@
 "859","Briarwoods",3,30,859,"combat","SAM","can i do it at an even higher level?",4948.819,4951.77,2.95100000000002,10,203.320908166722,1,"combat","SAM",1,0,0,0
 "860","Briarwoods",3,30,860,"combat","MATT","no, i was thinking of another spell. go for it.",4951.77,4954.256,2.48599999999988,11,265.48672566373,1,"combat","MATT",0,0,0,1
 "861","Briarwoods",3,30,861,"combat","SAM","four, two, two. eight!",4954.256,4961.959,7.70299999999952,5,38.9458652473087,1,"combat","SAM",1,0,0,0
-"862","Briarwoods",3,30,862,"combat","MATT","eight points of damage. how do you want to do this?",4961.959,4972.449,10.4899999999998,12,68.6367969494771,1,"combat","MATT",0,0,0,1
+"862","Briarwoods",3,30,862,"combat","MATT","eight points of damage. how do you want to do this?",4961.959,4968.103,6.14400000000023,12,117.187499999996,1,"combat","MATT",0,0,0,1
 "863","Briarwoods",3,30,863,"combat","SAM","that's how i want to do it. i want to do some pelvic thrusting while i'm saying it: bite me. bite me hard. bite me, motherfucker, bite me!",4972.449,4982.207,9.75800000000072,31,190.612830498039,1,"combat","SAM",1,0,0,0
 "864","Briarwoods",3,30,864,"combat","TALIESIN","urine flying everywhere.",4982.207,4983.637,1.42999999999938,4,167.83216783224,1,"combat","TALIESIN",1,0,0,0
 "865","Briarwoods",3,30,865,"combat","SAM","oh shit, i forgot. oh, there's urine everywhere. my mustache is falling off; it's terrible.",4983.637,4990.761,7.12400000000071,18,151.60022459291,1,"combat","SAM",1,0,0,0
@@ -1106,7 +1106,7 @@
 "1105","Briarwoods",3,30,1105,"break","LAURA","no, have you?",7044.441,7047.243,2.80200000000059,4,85.6531049250355,NA,NA,"LAURA",1,0,0,0
 "1106","Briarwoods",3,30,1106,"break","MATT","thank you, laura.",7047.243,7048.632,1.38899999999921,4,172.786177105929,NA,NA,"MATT",0,0,0,1
 "1107","Briarwoods",3,30,1107,"break","LAURA","you got it.",7048.632,7049.968,1.33600000000024,4,179.640718562842,NA,NA,"LAURA",1,0,0,0
-"1108","Briarwoods",3,30,1108,"break","MATT","grog has disadvantage on his next attack.",7049.968,7055.183,5.21500000000015,8,92.042186001915,NA,NA,"MATT",0,0,0,1
+"1108","Briarwoods",3,30,1108,"break","MATT","grog has disadvantage on his next attack.",7049.968,7053.83,3.86200000000008,8,124.287933713099,NA,NA,"MATT",0,0,0,1
 "1109","Briarwoods",3,30,1109,"break","LAURA","and vex has advantage?",7055.183,7056.348,1.16499999999996,5,257.510729613742,NA,NA,"LAURA",1,0,0,0
 "1110","Briarwoods",3,30,1110,"break","MATT","yeah, probably. we'll see when we get there. all right, so.",7056.348,7060.322,3.97400000000016,13,196.275792652232,NA,NA,"MATT",0,0,0,1
 "1111","Briarwoods",3,30,1111,"break","MATT","down. i will quen all over your ass. i got aard signs all day, yo. all right, anyway. so. what are the groups? you guys are splitting up across the city?",7063.397,7077.693,14.2960000000003,32,134.303301622829,NA,NA,"MATT",0,0,0,1
@@ -1325,7 +1325,7 @@
 "1324","Briarwoods",3,30,1324,"second_half_rp","SAM","wait, two rolls?",8356.592,8361.191,4.59900000000016,4,52.1852576647079,NA,"role_play","SAM",1,0,0,0
 "1325","Briarwoods",3,30,1325,"second_half_rp","MATT","yes.",8361.191,8362.248,1.05699999999888,2,113.52885525083,NA,"role_play","MATT",0,0,0,1
 "1326","Briarwoods",3,30,1326,"second_half_rp","TRAVIS","it was that good.",8362.248,8364.764,2.51599999999962,5,119.236883942784,NA,"role_play","TRAVIS",1,0,0,0
-"1327","Briarwoods",3,30,1327,"second_half_rp","SAM","okay, persuasion and deception, you say. oh jesus. okay, persuasion. 39.",8364.764,8376.502,11.7380000000012,12,61.3392400749639,NA,"role_play","SAM",1,0,0,0
+"1327","Briarwoods",3,30,1327,"second_half_rp","SAM","okay, persuasion and deception, you say. oh jesus. okay, persuasion. 39.",8364.764,8373.708,8.94400000000132,12,80.5008944543709,NA,"role_play","SAM",1,0,0,0
 "1328","Briarwoods",3,30,1328,"second_half_rp","TALIESIN","what?!",8376.502,8377.586,1.08399999999892,2,110.70110701118,NA,"role_play","TALIESIN",1,0,0,0
 "1329","Briarwoods",3,30,1329,"second_half_rp","LAURA","how?! is that even possible?",8377.586,8380.592,3.00600000000122,6,119.760479041867,NA,"role_play","LAURA",1,0,0,0
 "1330","Briarwoods",3,30,1330,"second_half_rp","SAM","deception, 15. wait, or 29. it's a lot.",8380.592,8387.913,7.32099999999991,10,81.9560169375778,NA,"role_play","SAM",1,0,0,0
@@ -1353,7 +1353,7 @@
 "1352","Briarwoods",3,30,1352,"second_half_rp","MATT","he's listening in. go for it.",8560.147,8563.099,2.95199999999932,8,162.601626016298,NA,"role_play","MATT",0,0,0,1
 "1353","Briarwoods",3,30,1353,"second_half_rp","LIAM","all right, that's not that great. that's a 17.",8563.099,8566.337,3.23799999999937,12,222.359481161254,NA,"role_play","LIAM",1,0,0,0
 "1354","Briarwoods",3,30,1354,"second_half_rp","MATT","he seems honest. seems he's got not much to lose and his interest is piqued, but he's not wholly invested in this whole idea. but it's definitely caught his attention. ""well, let's get ""him up."" stands up, reaches over and grabs you by the arm, lifts you up onto the stool on the side of the table and says, ""up, you."" pats you on the back. ""you need to sober up, drink the water you ""got for your boy, there, and get your ass out of here.""",8566.337,8600.616,34.2790000000005,92,161.031535342336,NA,"role_play","MATT",0,0,0,1
-"1355","Briarwoods",3,30,1355,"second_half_rp","SAM","come on, papa. let's go. i turn around and i take the rest of his drink.",8600.616,8607.96,7.34399999999914,18,147.058823529429,NA,"role_play","SAM",1,0,0,0
+"1355","Briarwoods",3,30,1355,"second_half_rp","SAM","come on, papa. let's go. i turn around and i take the rest of his drink.",8600.616,8605.788,5.17200000000048,18,208.816705336408,NA,"role_play","SAM",1,0,0,0
 "1356","Briarwoods",3,30,1356,"second_half_rp","LIAM","and as he pulls me away, and i slovenly turn after him. i turn back for a second, and i completely sober up. pelor has returned. walked out.",8607.96,8637.079,29.1190000000006,29,59.7547992719518,NA,"role_play","LIAM",1,0,0,0
 "1357","Briarwoods",3,30,1357,"second_half_rp","MATT","he gives you a keen glance and nods slowly as you walk away. looks over at the bartender for a second, and, ""psst! trevor!"" and then you exit the building. all right, you guys all convene at the lady's chamber. the other day, there were a few folks walking through the courtyard. today, there's a group of about 25 people, all different dress, from what would be considered a whitestone middle class, the few there are, to a number of other peasantry, farmhands, and other folk that look destitute by nature of existence here. all gathered in the amphitheater, and what appears to be a relatively hushed sermon or discussion currently going on by keeper yennen.",8637.079,8687.52,50.4410000000007,119,141.551515632123,NA,"role_play","MATT",0,0,0,1
 "1358","Briarwoods",3,30,1358,"second_half_rp","MARISHA","let's not make ourselves known. i want to see this. i want to hear what's up.",8687.52,8693.911,6.39099999999962,19,178.375841026454,NA,"role_play","MARISHA",1,0,0,0
@@ -1664,7 +1664,7 @@
 "1663","Briarwoods",3,30,1663,"second_half_rp","TRAVIS","whenever you're ready.",10751.691,10753.202,1.5109999999986,5,198.544010589197,NA,"role_play","TRAVIS",1,0,0,0
 "1664","Briarwoods",3,30,1664,"second_half_rp","SAM","how about wait 30 seconds and go?",10753.202,10754.942,1.73999999999978,8,275.862068965552,NA,"role_play","SAM",1,0,0,0
 "1665","Briarwoods",3,30,1665,"second_half_rp","LAURA","got it.",10754.942,10755.811,0.869000000000597,3,207.134637514242,NA,"role_play","LAURA",1,0,0,0
-"1666","Briarwoods",3,30,1666,"second_half_rp","SAM","all right. i turn into a triceratops.",10755.811,10765.662,9.85100000000057,8,48.7260176631786,NA,"role_play","SAM",1,0,0,0
+"1666","Briarwoods",3,30,1666,"second_half_rp","SAM","all right. i turn into a triceratops.",10755.811,10760.097,4.28600000000006,8,111.992533831076,NA,"role_play","SAM",1,0,0,0
 "1667","Briarwoods",3,30,1667,"second_half_rp","LIAM","a what?",10765.662,10766.883,1.22099999999955,3,147.420147420202,NA,"role_play","LIAM",1,0,0,0
 "1668","Briarwoods",3,30,1668,"second_half_rp","MATT","i'm going to say, roll an intelligence check.",10766.883,10769.002,2.1190000000006,10,283.152430391614,NA,"role_play","MATT",0,0,0,1
 "1669","Briarwoods",3,30,1669,"second_half_rp","LIAM","come on, burt.",10769.002,10771.256,2.253999999999,4,106.477373558166,NA,"role_play","LIAM",1,0,0,0
@@ -1734,7 +1734,7 @@
 "1733","Briarwoods",3,30,1733,"second_half_rp","TALIESIN","can we see any of the damage? is there any smoke rising from the house yet?",11096.466,11100.721,4.2549999999992,17,239.717978848459,NA,"role_play","TALIESIN",1,0,0,0
 "1734","Briarwoods",3,30,1734,"second_half_rp","MATT","no, there's no smoke. there's no smoke. there's nothing sending smoke at that point.",11100.721,11105.318,4.59699999999975,18,234.935827713739,NA,"role_play","MATT",0,0,0,1
 "1735","Briarwoods",3,30,1735,"second_half_rp","LIAM","i'm trying to get a better look and listen as i run closer to the windows.",11105.318,11110.086,4.76800000000003,18,226.510067114093,NA,"role_play","LIAM",1,0,0,0
-"1736","Briarwoods",3,30,1736,"second_half_rp","MATT","and we will pick up at this moment next week.",11110.086,11116.143,6.0570000000007,11,108.964834076263,NA,"role_play","MATT",0,0,0,1
+"1736","Briarwoods",3,30,1736,"second_half_rp","MATT","and we will pick up at this moment next week.",11110.086,11114.644,4.5580000000009,11,144.800351031125,NA,"role_play","MATT",0,0,0,1
 "1737","Briarwoods",3,30,1737,"epilog","LAURA","oh my gosh!",11116.143,11117.256,1.11299999999937,4,215.633423180714,NA,NA,"LAURA",1,0,0,0
 "1738","Briarwoods",3,30,1738,"epilog","SAM","but i'm a dinosaur!",11117.256,11118.232,0.976000000000568,6,368.852459016179,NA,NA,"SAM",1,0,0,0
 "1739","Briarwoods",3,30,1739,"epilog","MATT","i know.",11118.232,11119.2,0.968000000000757,3,185.950413222995,NA,NA,"MATT",0,0,0,1

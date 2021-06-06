@@ -37,7 +37,7 @@
 "36","Vasselheim",2,21,36,"prologue","WILL","it's a hug-worthy moment. this is a good day.",226.984,230.093,3.10899999999998,12,231.58571888067,NA,"role_play","GUESTS",0,1,0,0
 "37","Vasselheim",2,21,37,"prologue","MARISHA","only because of the dice, not because of your choices.",230.093,234.824,4.73100000000002,11,139.505389980976,NA,"role_play","MARISHA",1,0,0,0
 "38","Vasselheim",2,21,38,"prologue","WIL","too late!",234.824,236.297,1.47299999999998,3,122.199592668026,NA,"role_play","GUESTS",0,1,0,0
-"39","Vasselheim",2,21,39,"prologue","LIAM","come on, guys. just like we did in rehearsals.",236.297,241.808,5.511,10,108.873162765378,NA,"role_play","LIAM",1,0,0,0
+"39","Vasselheim",2,21,39,"prologue","LIAM","come on, guys. just like we did in rehearsals.",236.297,239.727,3.43000000000001,10,174.927113702624,NA,"role_play","LIAM",1,0,0,0
 "40","Vasselheim",2,21,40,"prologue","MARISHA","so 826la, our charity. everyone should go check them out; they have amazing storefronts in cities all across the country. the one here is themed after time travel in echo park. and also in marina del rey; that's the other city that i'm trying to think of. but yes, a portion of all of our donations go to them, and they're amazing, so thank you so much. and thank you for everyone who has donated in the past. we love you. and i think we are going to be doing a video. i know i've been saying that for a while, but we have a date scheduled now! it is happening. we have a way for everyone to get back in town, but it's going to happen, and we're going to have a field trip.",241.808,286.157,44.349,142,192.112561726307,NA,"role_play","MARISHA",1,0,0,0
 "41","Vasselheim",2,21,41,"prologue","MATT","yeah, to 826 and deliver all your wonderful donations. last announcement i have to make. let's see. the wonderful folks at midnight syndicate for those who don't know who they are, they make fantastic music and soundtrack tracks. they've done an official dnd soundtrack years ago, and they've done stuff for world of darkness and call of cthulhu. they do great atmospheric music. they finally got back to me, and they gave me permission to use their songs on this feed, so my playlist expands even further. they're really cool guys.",286.157,320.445,34.288,97,169.738684087727,NA,"role_play","MATT",0,0,0,1
 "42","Vasselheim",2,21,42,"prologue","MARISHA","how long ago did you send that e-mail?",320.445,322.898,2.45300000000003,10,244.598450876475,NA,"role_play","MARISHA",1,0,0,0
@@ -73,7 +73,7 @@
 "72","Vasselheim",2,21,72,"combat","ORION","i'll take it. that's 20 for me.",684.741,687.33,2.58900000000006,10,231.749710312857,1,"combat","ORION",1,0,0,0
 "73","Vasselheim",2,21,73,"combat","WIL","well, i guess that just leaves me, then.",687.33,689.752,2.42199999999991,9,222.956234516936,1,"combat","GUESTS",0,1,0,0
 "74","Vasselheim",2,21,74,"combat","MARISHA","come on, wil.",689.752,692.217,2.46500000000003,4,97.3630831642989,1,"combat","MARISHA",1,0,0,0
-"75","Vasselheim",2,21,75,"combat","WIL","two.",692.217,694.77,2.553,2,47.0035252643949,1,"combat","GUESTS",0,1,0,0
+"75","Vasselheim",2,21,75,"combat","WIL","two.",692.217,693.295,1.07799999999997,2,111.3172541744,1,"combat","GUESTS",0,1,0,0
 "76","Vasselheim",2,21,76,"combat","MATT","and they're off!",694.77,695.846,1.07600000000002,5,278.810408921927,1,"combat","MATT",0,0,0,1
 "77","Vasselheim",2,21,77,"combat","WILL","we pick up where we left off.",695.846,698.073,2.22699999999998,8,215.536596317919,1,"combat","GUESTS",0,1,0,0
 "78","Vasselheim",2,21,78,"combat","LIAM","we never left.",698.073,699.448,1.375,4,174.545454545455,1,"combat","LIAM",1,0,0,0
@@ -184,7 +184,7 @@
 "183","Vasselheim",2,21,183,"combat","ORION","oh. actually, i don't do that, then. i don't spend those points. i was supposed to do true strike to make that work. d20s, right?",1305.494,1313.273,7.779,28,215.966062475897,1,"combat","ORION",1,0,0,0
 "184","Vasselheim",2,21,184,"combat","MATT","yep, so roll for each ray.",1313.273,1315.268,1.99500000000012,7,210.526315789461,1,"combat","MATT",0,0,0,1
 "185","Vasselheim",2,21,185,"combat","ORION","wonderful. yeah, they all hit. i got a 14, an 18, a 19, and my spell attack bonus is plus 11.",1315.268,1325.836,10.568,22,124.905374716124,1,"combat","ORION",1,0,0,0
-"186","Vasselheim",2,21,186,"combat","MATT","okay. they all hit.",1325.836,1331.801,5.96499999999992,5,50.2933780385589,1,"combat","MATT",0,0,0,1
+"186","Vasselheim",2,21,186,"combat","MATT","okay. they all hit.",1325.836,1329.498,3.66200000000003,5,81.9224467504088,1,"combat","MATT",0,0,0,1
 "187","Vasselheim",2,21,187,"combat","WIL","i saw that dm move of, i'll tell you if it hits. i felt that.",1331.801,1338.24,6.43900000000008,17,158.409690945797,1,"combat","GUESTS",0,1,0,0
 "188","Vasselheim",2,21,188,"combat","MATT","it was there, and he was right. 6d6 fire damage.",1338.24,1347.214,8.97399999999993,11,73.5457989748167,1,"combat","MATT",0,0,0,1
 "189","Vasselheim",2,21,189,"combat","ORION","ooh, that's gross, and i'm going to empower that spell, as well. so it's four, and i'm going to pick four out of these six no! i rolled a six. 29.",1347.214,1372.211,24.9970000000001,36,86.4103692443091,1,"combat","ORION",1,0,0,0
@@ -467,7 +467,7 @@
 "466","Vasselheim",2,21,466,"combat","LIAM","oh hey, rats.",3216.282,3217.35,1.06799999999976,4,224.719101123647,1,"combat","LIAM",1,0,0,0
 "467","Vasselheim",2,21,467,"combat","MATT","rats are easy to hit.",3217.35,3218.902,1.55200000000013,6,231.958762886578,1,"combat","MATT",0,0,0,1
 "468","Vasselheim",2,21,468,"combat","LIAM","oh, right.",3218.902,3219.943,1.04100000000017,3,172.91066282418,1,"combat","LIAM",1,0,0,0
-"469","Vasselheim",2,21,469,"combat","WIL","no, they're not.",3219.943,3222.376,2.43299999999999,5,123.304562268804,1,"combat","GUESTS",0,1,0,0
+"469","Vasselheim",2,21,469,"combat","WIL","no, they're not.",3219.943,3221.181,1.23799999999983,5,242.326332794864,1,"combat","GUESTS",0,1,0,0
 "470","Vasselheim",2,21,470,"combat","WILL","usually, they are.",3222.376,3224.097,1.721,4,139.453805926786,1,"combat","GUESTS",0,1,0,0
 "471","Vasselheim",2,21,471,"combat","LIAM","that's two plus seven is nine, plus 11, 12, 17, 18, 19, 21 is the first dagger, and i send the next one down. if the last one hit, this one hits. so that's 21 and the second dagger is a ten, so 31.",3224.097,3242.271,18.174,47,155.166721690327,1,"combat","LIAM",1,0,0,0
 "472","Vasselheim",2,21,472,"combat","MATT","31 damage total? all right. you notice that because of the nature of the swarm, what would normally be a creature that you could do a shit-ton of damage to, knowing its physicality, it seems like a lot of the physical attacks aren't as effective as you would like. however, this swarm has already taken a few hits, and as you carve through, dagger after dagger, eventually you pick off the remainder of the rats and the swarm is dissipated. the few ones that are stragglers, realizing that safety in numbers is missing, begin to curl their ways back underneath the piles they clawed from originally.",3242.271,3275.162,32.8909999999996,109,198.838588063606,1,"combat","MATT",0,0,0,1
@@ -534,7 +534,7 @@
 "533","Vasselheim",2,21,533,"first_half_rp","LIAM","okay. out comes the pick. i'm going to perception check that corpse through the cell. that's a 12.",3761.237,3769.28,8.04300000000012,21,156.657963446473,NA,"role_play","LIAM",1,0,0,0
 "534","Vasselheim",2,21,534,"first_half_rp","MATT","it's hard to tell. it's mostly covered with a lot of this thatch. it doesn't look like it was intentionally covered, but some sort of a struggle took place in this room.",3769.28,3777.796,8.51599999999962,36,253.640206669809,NA,"role_play","MATT",0,0,0,1
 "535","Vasselheim",2,21,535,"first_half_rp","LIAM","now for the door. natural 20.",3777.796,3780.736,2.94000000000005,7,142.85714285714,NA,"role_play","LIAM",1,0,0,0
-"536","Vasselheim",2,21,536,"first_half_rp","WIL","you're welcome.",3780.736,3787.68,6.94399999999996,4,34.562211981567,NA,"role_play","GUESTS",0,1,0,0
+"536","Vasselheim",2,21,536,"first_half_rp","WIL","you're welcome.",3780.736,3783.945,3.20900000000029,4,74.7896540978431,NA,"role_play","GUESTS",0,1,0,0
 "537","Vasselheim",2,21,537,"first_half_rp","WIL","i work in mysterious ways.",3787.68,3790.625,2.94500000000016,6,122.24108658743,NA,"role_play","GUESTS",0,1,0,0
 "538","Vasselheim",2,21,538,"first_half_rp","MATT","the lock on this, it's not an intricate lock, but it is very heavily rusted, and as soon as you start moving in there, you realize that there is actually something metal that has been broken off inside, whether by a previous key, just through accident, or intent, it was broken off inside. you manage to find a way to remove it, pull the piece out, and still get the lock open. the gate swings open, and you guys enter to inspect this corpse. looking at it, you notice that the body has been probably dead for a couple months. it is in prolonged state of decomposition, but there is still some semblance of flesh sloughing off the remnants of the bone. you can see from the wounds that it has received that a large portion of it has been torn open very violently and elements of it have been removed. the softer organs.",3790.625,3842.906,52.2809999999999,156,179.032535720434,NA,"role_play","MATT",0,0,0,1
 "539","Vasselheim",2,21,539,"first_half_rp","WIL","is it wearing any clothing?",3842.906,3845.785,2.87899999999991,6,125.043417853425,NA,"role_play","GUESTS",0,1,0,0
@@ -639,7 +639,7 @@
 "638","Vasselheim",2,21,638,"first_half_rp","MARISHA","15.",4568.454,4569.935,1.48100000000068,2,81.0263335583695,NA,"role_play","MARISHA",1,0,0,0
 "639","Vasselheim",2,21,639,"first_half_rp","WILL","five.",4569.935,4571.106,1.17099999999937,2,102.476515798518,NA,"role_play","GUESTS",0,1,0,0
 "640","Vasselheim",2,21,640,"first_half_rp","ORION","20.",4571.106,4572.255,1.14900000000034,2,104.438642297619,NA,"role_play","ORION",1,0,0,0
-"641","Vasselheim",2,21,641,"first_half_rp","WIL","a viewer whose chat name begins with a u i won't identify the viewer in case this goes badly sent me these dice and said, may they roll well. i would like to apologize in advance for what is about to happen to this person's beloved dice. it's a 15. oh, look at that! it turns out that there are two-digit numbers on these dice.",4572.255,4610.951,38.6959999999999,70,108.538350217077,NA,"role_play","GUESTS",0,1,0,0
+"641","Vasselheim",2,21,641,"first_half_rp","WIL","a viewer whose chat name begins with a u i won't identify the viewer in case this goes badly sent me these dice and said, may they roll well. i would like to apologize in advance for what is about to happen to this person's beloved dice. it's a 15. oh, look at that! it turns out that there are two-digit numbers on these dice.",4572.255,4608.664,36.4089999999997,70,115.356093273642,NA,"role_play","GUESTS",0,1,0,0
 "642","Vasselheim",2,21,642,"first_half_rp","WIL","and my stealth is two, so that's 17.",4610.951,4615.661,4.71000000000004,10,127.388535031846,NA,"role_play","GUESTS",0,1,0,0
 "643","Vasselheim",2,21,643,"first_half_rp","MATT","17, all right. so the guy walks into the room, looks back and forth. the one behind him steps forward into the room a bit. the other one steps behind him. looks about. looks from one side of the room, looks over to your room. there's almost a glimmer of recognition in his eye, and continues walking past. they just start walking back the direction you guys came from.",4615.661,4657.986,42.3249999999998,71,100.649734199646,NA,"role_play","MATT",0,0,0,1
 "644","Vasselheim",2,21,644,"first_half_rp","MARISHA","uh.",4658.055,4660.056,2.00099999999929,2,59.9700149925249,NA,"role_play","MARISHA",1,0,0,0
@@ -717,7 +717,7 @@
 "716","Vasselheim",2,21,716,"combat","MARISHA","sorry, guys.",5029.106,5031.029,1.92300000000068,3,93.6037441497327,2,"combat","MARISHA",1,0,0,0
 "717","Vasselheim",2,21,717,"combat","LIAM","this is going to be fun.",5031.029,5033.292,2.26299999999992,7,185.594343791434,2,"combat","LIAM",1,0,0,0
 "718","Vasselheim",2,21,718,"combat","MATT","suddenly you see vax pull his daggers out and turn around and look at the rest of the group. keyleth turns around and snarls at the rest of the group, this twisted grin.",5033.292,5045.698,12.4059999999999,34,164.43656295341,2,"combat","MATT",0,0,0,1
-"719","Vasselheim",2,21,719,"combat","LIAM","they call me count chocula.",5045.698,5053.319,7.62100000000009,6,47.2378952893315,2,"combat","LIAM",1,0,0,0
+"719","Vasselheim",2,21,719,"combat","LIAM","they call me count chocula.",5045.698,5048.959,3.26099999999951,6,110.395584176649,2,"combat","LIAM",1,0,0,0
 "720","Vasselheim",2,21,720,"combat","MATT","thorbir, you're up.",5053.319,5055.371,2.05199999999968,5,146.19883040938,2,"combat","MATT",0,0,0,1
 "721","Vasselheim",2,21,721,"combat","WIL","i am going to make a goading attack to try and draw whoever's closer.",5055.371,5072.612,17.241,16,55.6812249869498,2,"combat","GUESTS",0,1,0,0
 "722","Vasselheim",2,21,722,"combat","MATT","closest to you would be keyleth. keyleth is right next to you.",5072.612,5075.383,2.77099999999973,13,281.486827860006,2,"combat","MATT",0,0,0,1
@@ -1047,7 +1047,7 @@
 "1046","Vasselheim",2,21,1046,"first_half_rp","LIAM","it's a 20-foot-long hoagie.",6970.686,6973.763,3.07700000000023,8,155.996100097486,NA,"role_play","LIAM",1,0,0,0
 "1047","Vasselheim",2,21,1047,"first_half_rp","MARISHA","yes, it's the 20-foot-long subway dealio.",6973.763,6978.469,4.70600000000013,10,127.496812579682,NA,"role_play","MARISHA",1,0,0,0
 "1048","Vasselheim",2,21,1048,"first_half_rp","WILL","no, not subway.",6978.469,6980.562,2.09299999999985,4,114.667940754906,NA,"role_play","GUESTS",0,1,0,0
-"1049","Vasselheim",2,21,1049,"first_half_rp","LIAM","too soon.",6980.562,6984.124,3.5619999999999,3,50.5334081976432,NA,"role_play","LIAM",1,0,0,0
+"1049","Vasselheim",2,21,1049,"first_half_rp","LIAM","too soon.",6980.562,6981.684,1.1220000000003,3,160.427807486588,NA,"role_play","LIAM",1,0,0,0
 "1050","Vasselheim",2,21,1050,"first_half_rp","MATT","marisha. just a heads-up. one of the material components is a gem-encrusted bowl that costs 1000 gold pieces that is consumed by it. you can totally cast this, but you'll have to deduct a thousand gold off your personal gold supply.",6984.124,6998.798,14.674,45,183.998909636091,NA,"role_play","MATT",0,0,0,1
 "1051","Vasselheim",2,21,1051,"first_half_rp","WILL","how much money have you got?",6998.798,7001.662,2.86400000000049,7,146.648044692712,NA,"role_play","GUESTS",0,1,0,0
 "1052","Vasselheim",2,21,1052,"first_half_rp","MARISHA","like 3k, i think.",7001.662,7003.598,1.93599999999969,5,154.958677685975,NA,"role_play","MARISHA",1,0,0,0
@@ -1354,12 +1354,12 @@
 "1353","Vasselheim",2,21,1353,"second_half_rp","WILL","they carry tiny little microphone things right here.",9241.498,9243.687,2.18900000000031,9,246.687985381418,NA,"role_play","GUESTS",0,1,0,0
 "1354","Vasselheim",2,21,1354,"second_half_rp","MATT","yeah, they have to construct eagle noises in post.",9243.687,9246.092,2.40500000000065,10,249.480249480182,NA,"role_play","MATT",0,0,0,1
 "1355","Vasselheim",2,21,1355,"second_half_rp","WIL","it's all part of the great eagle conspiracy.",9246.092,9248.205,2.11299999999937,10,283.956460009549,NA,"role_play","GUESTS",0,1,0,0
-"1356","Vasselheim",2,21,1356,"second_half_rp","WILL","it's all foley. everything with an eagle. frank welker is the sound of every eagle that's ever been out there.",9248.205,9256.917,8.71199999999953,23,158.402203856758,NA,"role_play","GUESTS",0,1,0,0
+"1356","Vasselheim",2,21,1356,"second_half_rp","WILL","it's all foley. everything with an eagle. frank welker is the sound of every eagle that's ever been out there.",9248.205,9255.39,7.18499999999949,23,192.066805845525,NA,"role_play","GUESTS",0,1,0,0
 "1357","Vasselheim",2,21,1357,"second_half_rp","LIAM","i saw this great documentary about it on youtube.",9256.917,9259.125,2.20800000000054,10,271.739130434716,NA,"role_play","LIAM",1,0,0,0
 "1358","Vasselheim",2,21,1358,"second_half_rp","MATT","giraffes, foxes, eagles.",9259.125,9261.518,2.39300000000003,4,100.29251984956,NA,"role_play","MATT",0,0,0,1
 "1359","Vasselheim",2,21,1359,"second_half_rp","WILL","it's all frank welker.",9261.518,9263.262,1.7440000000006,6,206.422018348553,NA,"role_play","GUESTS",0,1,0,0
 "1360","Vasselheim",2,21,1360,"second_half_rp","WIL","every other animal, dee bradley baker.",9263.262,9267.488,4.22599999999875,7,99.3847610033423,NA,"role_play","GUESTS",0,1,0,0
-"1361","Vasselheim",2,21,1361,"second_half_rp","MATT","dee bradley baker!",9267.488,9271.59,4.10200000000077,4,58.5080448561567,NA,"role_play","MATT",0,0,0,1
+"1361","Vasselheim",2,21,1361,"second_half_rp","MATT","dee bradley baker!",9267.488,9268.654,1.16600000000108,4,205.831903944921,NA,"role_play","MATT",0,0,0,1
 "1362","Vasselheim",2,21,1362,"second_half_rp","MATT","so are you grabbing tiberius or thorbir?",9271.59,9274.75,3.15999999999985,8,151.898734177222,NA,"role_play","MATT",0,0,0,1
 "1363","Vasselheim",2,21,1363,"second_half_rp","MARISHA","tiberius. sorry! he's more important.",9274.75,9282.99,8.23999999999978,7,50.9708737864091,NA,"role_play","MARISHA",1,0,0,0
 "1364","Vasselheim",2,21,1364,"second_half_rp","ORION","i'll take out my mending wheel when i land, and grab the carpet.",9282.99,9285.745,2.75500000000102,15,326.678765880097,NA,"role_play","ORION",1,0,0,0
@@ -1478,7 +1478,7 @@
 "1477","Vasselheim",2,21,1477,"second_half_rp","ORION","that same guy?",10096.504,10098.317,1.81299999999828,4,132.377275234543,NA,"role_play","ORION",1,0,0,0
 "1478","Vasselheim",2,21,1478,"second_half_rp","MARISHA","well, i'm assuming if he's got the statue of",10098.317,10101.991,3.67400000000089,11,179.640718562831,NA,"role_play","MARISHA",1,0,0,0
 "1479","Vasselheim",2,21,1479,"second_half_rp","WILL","the iron duke himself.",10102.035,10105.688,3.65300000000025,5,82.1242814125321,NA,"role_play","GUESTS",0,1,0,0
-"1480","Vasselheim",2,21,1480,"second_half_rp","WIL","i'd like to make an insight check and see if i can get a sense of how confident he feels. 20, motherfuckers! i want to know everything about him. i want to know his parents' name. i want to know his social security number. i want to know what his bank account balance is. and i want to know his ashley madison password.",10105.688,10143.43,37.7420000000002,65,103.333156695458,NA,"role_play","GUESTS",0,1,0,0
+"1480","Vasselheim",2,21,1480,"second_half_rp","WIL","i'd like to make an insight check and see if i can get a sense of how confident he feels. 20, motherfuckers! i want to know everything about him. i want to know his parents' name. i want to know his social security number. i want to know what his bank account balance is. and i want to know his ashley madison password.",10105.688,10139.907,34.2189999999991,65,113.971770069263,NA,"role_play","GUESTS",0,1,0,0
 "1481","Vasselheim",2,21,1481,"second_half_rp","LIAM","i want him dead. i want his house burned to the ground.",10143.43,10146.614,3.18399999999929,13,244.974874371914,NA,"role_play","LIAM",1,0,0,0
 "1482","Vasselheim",2,21,1482,"second_half_rp","MATT","as you're all taking in this still and very creepy omnipresence of this hotis character, you, in hearing the voice, it is a very trained voice. this is an individual that has spent the entirety of their life manipulating and toying with the emotions, minds, greed, and goals of others to get its desires itself, both self-preservation and progressive expansion of its own territory. you can tell in its voice, there is a hint of fear and a very heavy coating of words that are very well practiced and silver-tongued. but you gather that there is very little intent to follow through on its side of the bargain, and everything is designed as misdirection to send whatever it's made a deal with to its eventual doom.",10146.614,10196.25,49.6360000000004,131,158.352808445482,NA,"role_play","MATT",0,0,0,1
 "1483","Vasselheim",2,21,1483,"second_half_rp","WIL","it dies in this room. do you hear me? you die in this room.",10196.25,10203.397,7.14700000000084,15,125.926962361815,NA,"role_play","GUESTS",0,1,0,0
@@ -1515,7 +1515,7 @@
 "1514","Vasselheim",2,21,1514,"combat","ORION","rakshasa.",10412.07,10413.263,1.19300000000112,2,100.586756077022,3,"combat","ORION",1,0,0,0
 "1515","Vasselheim",2,21,1515,"combat","MARISHA","rakshasa.",10413.263,10414.663,1.39999999999964,2,85.714285714308,3,"combat","MARISHA",1,0,0,0
 "1516","Vasselheim",2,21,1516,"combat","MATT","rakshasa.",10414.663,10419.718,5.05500000000029,2,23.7388724035595,3,"combat","MATT",0,0,0,1
-"1517","Vasselheim",2,21,1517,"combat","WILL","a rakshasa!",10419.874,10423.62,3.746000000001,3,48.0512546716369,3,"combat","GUESTS",0,1,0,0
+"1517","Vasselheim",2,21,1517,"combat","WILL","a rakshasa!",10419.874,10421.013,1.13900000000103,3,158.033362598627,3,"combat","GUESTS",0,1,0,0
 "1518","Vasselheim",2,21,1518,"combat","MATT","and with that, tiberius.",10423.663,10426.017,2.35399999999936,5,127.442650807171,3,"combat","MATT",0,0,0,1
 "1519","Vasselheim",2,21,1519,"combat","MARISHA","so i don't get faerie fire off on him first?",10426.177,10428.328,2.15099999999984,12,334.728033472828,3,"combat","MARISHA",1,0,0,0
 "1520","Vasselheim",2,21,1520,"combat","MATT","no, that's going to be on your turn there. that's what the initiative roll was for. i need you to go ahead and make a wisdom saving throw.",10428.328,10438.162,9.83400000000074,31,189.139719341047,3,"combat","MATT",0,0,0,1
@@ -1620,7 +1620,7 @@
 "1619","Vasselheim",2,21,1619,"combat","MATT","you cast faerie fire, and you can see the energy coalesce and dissipate.",11008.601,11014.144,5.54299999999967,14,151.542486018411,3,"combat","MATT",0,0,0,1
 "1620","Vasselheim",2,21,1620,"combat","MARISHA","son of a bitch.",11014.144,11015.688,1.54399999999987,5,194.300518134732,3,"combat","MARISHA",1,0,0,0
 "1621","Vasselheim",2,21,1621,"combat","MATT","the rakshasa: unaffected entirely by the spell.",11015.688,11018.603,2.91499999999905,8,164.665523156143,3,"combat","MATT",0,0,0,1
-"1622","Vasselheim",2,21,1622,"combat","ORION","none of our magical works against you know what i'm going to say! i'm speaking draconic again, sorry.",11018.603,11025.889,7.28600000000006,21,172.934394729617,3,"combat","ORION",1,0,0,0
+"1622","Vasselheim",2,21,1622,"combat","ORION","none of our magical works against you know what i'm going to say! i'm speaking draconic again, sorry.",11018.603,11023.572,4.96900000000096,21,253.572147313294,3,"combat","ORION",1,0,0,0
 "1623","Vasselheim",2,21,1623,"combat","MARISHA","i look at him, and i go, um? and now i'm going minxie.",11025.889,11033.522,7.63300000000163,15,117.909078999058,3,"combat","MARISHA",1,0,0,0
 "1624","Vasselheim",2,21,1624,"combat","MATT","okay.",11033.522,11034.836,1.31399999999849,2,91.3242009133472,3,"combat","MATT",0,0,0,1
 "1625","Vasselheim",2,21,1625,"combat","MARISHA","going minxie!",11034.836,11037.883,3.04700000000048,3,59.0744995077032,3,"combat","MARISHA",1,0,0,0
@@ -1754,7 +1754,7 @@
 "1753","Vasselheim",2,21,1753,"combat","LIAM","this is not sneak attack, so it's not the worst it could be.",11740.205,11743.651,3.44599999999991,15,261.172373766693,3,"combat","LIAM",1,0,0,0
 "1754","Vasselheim",2,21,1754,"combat","WILL","it's not the worst it could be. thanks. i'm not stabbing you the worst i could.",11743.651,11748.084,4.4330000000009,19,257.162192646011,3,"combat","GUESTS",0,1,0,0
 "1755","Vasselheim",2,21,1755,"combat","LIAM","that was my life-stealing dagger, and on a natural 20, i get the ten hit points that i cut from him. or whatever i get, i guess.",11748.084,11760.406,12.3220000000001,29,141.210842395714,3,"combat","LIAM",1,0,0,0
-"1756","Vasselheim",2,21,1756,"combat","WILL","do it without the smile. do it without the little smile!",11760.406,11766.775,6.36899999999878,12,113.047574187492,3,"combat","GUESTS",0,1,0,0
+"1756","Vasselheim",2,21,1756,"combat","WILL","do it without the smile. do it without the little smile!",11760.406,11763.948,3.54199999999946,12,203.274985883712,3,"combat","GUESTS",0,1,0,0
 "1757","Vasselheim",2,21,1757,"combat","WILL","just do it without the tiny little smile!",11766.775,11769.993,3.21800000000076,9,167.80609073955,3,"combat","GUESTS",0,1,0,0
 "1758","Vasselheim",2,21,1758,"combat","LIAM","it was seven, which is doubled to 14.",11769.993,11773.079,3.08599999999933,9,174.983797796538,3,"combat","LIAM",1,0,0,0
 "1759","Vasselheim",2,21,1759,"combat","MATT","the dice is doubled, and then you add the modifier.",11773.079,11776.033,2.95399999999972,11,223.425863236311,3,"combat","MATT",0,0,0,1
@@ -1822,7 +1822,7 @@
 "1821","Vasselheim",2,21,1821,"combat","MARISHA","all right. i'm still pretty close to the rakshasa, right?",12064.434,12072.114,7.68000000000029,12,93.7499999999964,3,"combat","MARISHA",1,0,0,0
 "1822","Vasselheim",2,21,1822,"combat","MATT","correct.",12072.114,12073.13,1.01599999999962,2,118.110236220516,3,"combat","MATT",0,0,0,1
 "1823","Vasselheim",2,21,1823,"combat","MARISHA","all right, hitting it with my bite attack. ooh, that's much better. chopper, sic balls.",12073.13,12078.918,5.78800000000047,17,176.226675881119,3,"combat","MARISHA",1,0,0,0
-"1824","Vasselheim",2,21,1824,"combat","WIL","that's not what i heard. i heard, chopper, sic kid.",12078.918,12087.732,8.81400000000031,12,81.6882232811408,3,"combat","GUESTS",0,1,0,0
+"1824","Vasselheim",2,21,1824,"combat","WIL","that's not what i heard. i heard, chopper, sic kid.",12078.918,12084.588,5.67000000000007,12,126.984126984125,3,"combat","GUESTS",0,1,0,0
 "1825","Vasselheim",2,21,1825,"combat","MARISHA","that just made my night, in many ways. okay, 21.",12087.732,12093.695,5.96299999999974,11,110.682542344462,3,"combat","MARISHA",1,0,0,0
 "1826","Vasselheim",2,21,1826,"combat","MATT","that does hit. however, are your natural weapons magical?",12093.695,12098.183,4.48800000000119,10,133.689839572157,3,"combat","MATT",0,0,0,1
 "1827","Vasselheim",2,21,1827,"combat","MARISHA","yes, they are, because circle of the moon, baby.",12098.183,12101.008,2.82499999999891,10,212.389380531056,3,"combat","MARISHA",1,0,0,0
@@ -1932,7 +1932,7 @@
 "1931","Vasselheim",2,21,1931,"combat","MATT","okay. all right, so you create a spiritual weapon of some kind. what weapon would you like to create?",12743.759,12750.997,7.23799999999937,20,165.791655153372,3,"combat","MATT",0,0,0,1
 "1932","Vasselheim",2,21,1932,"combat","WILL","how about a giant mace?",12750.997,12752.651,1.65400000000045,6,217.654171704898,3,"combat","GUESTS",0,1,0,0
 "1933","Vasselheim",2,21,1933,"combat","MATT","okay, so as you clutch your holy symbol to yourself, now there's a sudden pillar of bright, vibrant healing light surrounded by that same halo of pitch-black darkness, almost like this strange border around it. this duality hits the ground, and as it vanishes, you can see on the ground this shimmering, almost static-y mace is left behind, almost flickering in and out of existence. it drifts off on its own and is now hovering in the air next to you.",12752.651,12779.445,26.7939999999999,85,190.341121146526,3,"combat","MATT",0,0,0,1
-"1934","Vasselheim",2,21,1934,"combat","WILL","sweet.",12779.445,12784.709,5.26400000000103,2,22.7963525835822,3,"combat","GUESTS",0,1,0,0
+"1934","Vasselheim",2,21,1934,"combat","WILL","sweet.",12779.445,12782.191,2.746000000001,2,43.6999271667721,3,"combat","GUESTS",0,1,0,0
 "1935","Vasselheim",2,21,1935,"combat","MATT","do you wish to send it up?",12784.709,12786.651,1.9419999999991,8,247.167868177252,3,"combat","MATT",0,0,0,1
 "1936","Vasselheim",2,21,1936,"combat","WILL","i do. i wish to send it towards the rakshasa. concentrate all fire on the rakshasa.",12786.651,12792.68,6.02900000000045,17,169.182285619493,3,"combat","GUESTS",0,1,0,0
 "1937","Vasselheim",2,21,1937,"combat","MATT","okay. what's the damage on the magical weapon?",12792.68,12795.905,3.22500000000036,10,186.046511627886,3,"combat","MATT",0,0,0,1
@@ -2002,9 +2002,9 @@
 "2001","Vasselheim",2,21,2001,"combat","MATT","you can if you want to. you can use your action to hold off until something triggers, which could be moving into range, in case you could then take your action on it.",13199.434,13206.995,7.56100000000151,34,269.805581272264,3,"combat","MATT",0,0,0,1
 "2002","Vasselheim",2,21,2002,"combat","WIL","i'll do that. i can't get the rakshasa.",13206.995,13211.377,4.38199999999961,11,150.616157005947,3,"combat","GUESTS",0,1,0,0
 "2003","Vasselheim",2,21,2003,"combat","MATT","not from that distance, no. so you'll wait for this thing to try and find its way out. all right, cool. so that brings us to the top: the rakshasa's turn.",13211.377,13220.242,8.86499999999978,34,230.118443316419,3,"combat","MATT",0,0,0,1
-"2004","Vasselheim",2,21,2004,"combat","WIL","oh, but i am calling out, and yelling at, and taunting at the guy. and it's just this.",13220.242,13228.064,7.82200000000012,20,153.413449245715,3,"combat","GUESTS",0,1,0,0
+"2004","Vasselheim",2,21,2004,"combat","WIL","oh, but i am calling out, and yelling at, and taunting at the guy. and it's just this.",13220.242,13226.093,5.85100000000057,20,205.093146470669,3,"combat","GUESTS",0,1,0,0
 "2005","Vasselheim",2,21,2005,"combat","ORION","oh, because of the silence. i'll dissipate the spell so i can hear him. were you trying to say something, thorbir?",13228.064,13237.559,9.49499999999898,23,145.339652448673,3,"combat","ORION",1,0,0,0
-"2006","Vasselheim",2,21,2006,"combat","WIL","and i will be naked and riding through the desert",13237.559,13244.837,7.27800000000025,10,82.4402308326435,3,"combat","GUESTS",0,1,0,0
+"2006","Vasselheim",2,21,2006,"combat","WIL","and i will be naked and riding through the desert",13237.559,13241.124,3.56500000000051,10,168.302945301519,3,"combat","GUESTS",0,1,0,0
 "2007","Vasselheim",2,21,2007,"combat","MATT","the rakshasa finishes scanning the room for a second, and he says, ""well, this has been a lot ""of fun. i appreciate this little scuffle. however, i have other business to attend to. looking at the ""rest of you, at least i know where to hit you all the hardest. i know you have a father you seek. i ""know you have family in draconia. i know you have a sister that is not too far from here. and you. i ""know you have one you hold dear to your heart. i can now see your minds, see their faces, and i ""will see them soon. however, i must say adieu."" and he begins to cast",13244.837,13283.256,38.4189999999999,116,181.160363361879,3,"combat","MATT",0,0,0,1
 "2008","Vasselheim",2,21,2008,"combat","ORION","4th-level counterspell!",13283.256,13284.963,1.70700000000033,4,140.59753954303,3,"combat","ORION",1,0,0,0
 "2009","Vasselheim",2,21,2009,"combat","MARISHA","tiberius!",13284.963,13286.275,1.3119999999999,2,91.4634146341534,3,"combat","MARISHA",1,0,0,0
@@ -2046,12 +2046,12 @@
 "2045","Vasselheim",2,21,2045,"combat","LIAM","you were saying something about my sister?",13455.891,13457.937,2.04600000000028,8,234.604105571816,3,"combat","LIAM",1,0,0,0
 "2046","Vasselheim",2,21,2046,"combat","ORION","no one threatens a goddamn stormwind!",13457.937,13460.858,2.92100000000028,7,143.786374529257,3,"combat","ORION",1,0,0,0
 "2047","Vasselheim",2,21,2047,"combat","WILL","what he said.",13460.858,13462.652,1.79399999999987,4,133.779264214057,3,"combat","GUESTS",0,1,0,0
-"2048","Vasselheim",2,21,2048,"combat","ORION","i think i just broke my hand.",13462.652,13467.79,5.13800000000083,8,93.4215648111955,3,"combat","ORION",1,0,0,0
+"2048","Vasselheim",2,21,2048,"combat","ORION","i think i just broke my hand.",13462.652,13465.995,3.34300000000076,8,143.583607538107,3,"combat","ORION",1,0,0,0
 "2049","Vasselheim",2,21,2049,"combat","MATT","don't break your hand! it's going to fly actually, it's going to fly toward the door.",13467.79,13476.951,9.16099999999824,20,130.990066586642,3,"combat","MATT",0,0,0,1
 "2050","Vasselheim",2,21,2050,"combat","WILL","towards the door?",13476.951,13479.045,2.09400000000096,4,114.613180515707,3,"combat","GUESTS",0,1,0,0
 "2051","Vasselheim",2,21,2051,"combat","MATT","yeah. that's all the movement it can get, there, but it is heading towards the exit.",13479.045,13482.89,3.84499999999935,18,280.884265279632,3,"combat","MATT",0,0,0,1
 "2052","Vasselheim",2,21,2052,"combat","MARISHA","oh, he's fucking trying to leave!",13482.89,13484.587,1.69700000000012,8,282.85209192691,3,"combat","MARISHA",1,0,0,0
-"2053","Vasselheim",2,21,2053,"combat","LIAM","he suddenly turns pink and says, exit stage right, even!",13484.587,13490.518,5.93100000000049,11,111.27971674253,3,"combat","LIAM",1,0,0,0
+"2053","Vasselheim",2,21,2053,"combat","LIAM","he suddenly turns pink and says, exit stage right, even!",13484.587,13488.282,3.69499999999971,11,178.619756427619,3,"combat","LIAM",1,0,0,0
 "2054","Vasselheim",2,21,2054,"combat","MATT","he's gliding toward the doorway over everybody. that brings us to vax's turn.",13490.518,13496.389,5.87099999999919,16,163.515585079226,3,"combat","MATT",0,0,0,1
 "2055","Vasselheim",2,21,2055,"combat","WILL","come on, vax! don't let this bitch leave!",13496.389,13499.976,3.58700000000135,10,167.270699749031,3,"combat","GUESTS",0,1,0,0
 "2056","Vasselheim",2,21,2056,"combat","LIAM","how far is he from that statue?",13499.976,13506.477,6.5010000000002,8,73.8347946469751,3,"combat","LIAM",1,0,0,0
@@ -2063,7 +2063,7 @@
 "2062","Vasselheim",2,21,2062,"combat","MARISHA","ugh, i'm out of alcohol. it's the worst time to be out.",13553.264,13561.482,8.21800000000076,15,109.515697249929,3,"combat","MARISHA",1,0,0,0
 "2063","Vasselheim",2,21,2063,"combat","WIL","druid needs booze badly.",13561.482,13565.622,4.13999999999942,5,72.4637681159522,3,"combat","GUESTS",0,1,0,0
 "2064","Vasselheim",2,21,2064,"combat","LIAM","30.",13565.622,13566.718,1.09600000000137,2,109.489051094754,3,"combat","LIAM",1,0,0,0
-"2065","Vasselheim",2,21,2065,"combat","MATT","30 damage? how do you want to do this?",13566.718,13579.766,13.0479999999989,10,45.9840588595993,3,"combat","MATT",0,0,0,1
+"2065","Vasselheim",2,21,2065,"combat","MATT","30 damage? how do you want to do this?",13566.718,13573.325,6.60699999999997,10,90.8127743302562,3,"combat","MATT",0,0,0,1
 "2066","Vasselheim",2,21,2066,"combat","LIAM","i've got the dagger in my hand, right? i see him flying away. i'm crouched down. i flip it over so the blade's in my hand. i don't go fast. i just take my time, pull back, throw it harder than i usually do, through its neck, out the front.",13579.766,13594.703,14.9369999999999,55,220.927897168108,3,"combat","LIAM",1,0,0,0
 "2067","Vasselheim",2,21,2067,"combat","MATT","the dagger hits it in the back of the neck and the spine. it doesn't quite cut through the spinal column. you see it comes out the front of the throat. the spell falters. it falls to the ground, taking a serious impact fall and is now, dragging itself towards the exit of the room as you start walking up to collect your blade. it brings up its hand to start trying to cast a spell. it coughs this big pool of blood onto the ground.",13594.703,13629.147,34.4440000000013,88,153.292300545808,3,"combat","MATT",0,0,0,1
 "2068","Vasselheim",2,21,2068,"combat","LIAM","i grab it by the ear and lift its head back. you talk about my sister again.",13629.147,13635.142,5.99499999999898,18,180.150125104284,3,"combat","LIAM",1,0,0,0
@@ -2139,7 +2139,7 @@
 "2138","Vasselheim",2,21,2138,"second_half_rp","MATT","one vial.",13957.445,13958.818,1.37299999999959,3,131.099781500403,NA,"role_play","MATT",0,0,0,1
 "2139","Vasselheim",2,21,2139,"second_half_rp","ORION","i'm going to take my dagger out, and i'm going to shave trimmings from his fur and his whiskers. i'll take those.",13958.818,13966.65,7.83200000000033,26,199.182839632269,NA,"role_play","ORION",1,0,0,0
 "2140","Vasselheim",2,21,2140,"second_half_rp","MATT","you currently have a vial of rakshasa shave scum.",13966.65,13971.332,4.6820000000007,10,128.150363092676,NA,"role_play","MATT",0,0,0,1
-"2141","Vasselheim",2,21,2141,"second_half_rp","WILL","thorbir, you want the taint? there's tons of magic in it.",13971.332,13981.689,10.357,13,75.3113836052913,NA,"role_play","GUESTS",0,1,0,0
+"2141","Vasselheim",2,21,2141,"second_half_rp","WILL","thorbir, you want the taint? there's tons of magic in it.",13971.332,13977.09,5.75799999999981,13,135.463702674544,NA,"role_play","GUESTS",0,1,0,0
 "2142","Vasselheim",2,21,2142,"second_half_rp","WIL","i take the jeweled dagger, and i walk down to the corpse of the rakshasa. i drive the dagger through one of the eye sockets, and i say, you will never harm my daughter.",13981.689,14006.088,24.3989999999994,35,86.0691011926738,NA,"role_play","GUESTS",0,1,0,0
 "2143","Vasselheim",2,21,2143,"second_half_rp","MATT","the dagger is left there as a proclaiment, and all of you feel the weight behind that whispered statement and decide it might be best to leave that dagger where it sits.",14006.088,14017.464,11.3760000000002,33,174.050632911389,NA,"role_play","MATT",0,0,0,1
 "2144","Vasselheim",2,21,2144,"second_half_rp","WIL","let us conclude our business.",14017.464,14022.233,4.76900000000023,6,75.4875235898474,NA,"role_play","GUESTS",0,1,0,0
@@ -2151,7 +2151,7 @@
 "2150","Vasselheim",2,21,2150,"second_half_rp","MATT","they completed the contract, but then all suffocated due to a sudden cave-in. it was so unfortunate, the second team.",14062.339,14067.22,4.8809999999994,22,270.436385986511,NA,"role_play","MATT",0,0,0,1
 "2151","Vasselheim",2,21,2151,"second_half_rp","ORION","i had a bottle of air!",14067.22,14068.984,1.76400000000103,7,238.095238095099,NA,"role_play","ORION",1,0,0,0
 "2152","Vasselheim",2,21,2152,"second_half_rp","MATT","everyone's just permanently breathing air. it is the worst fate ever for a pc.",14068.984,14078.091,9.10699999999997,16,105.413418249698,NA,"role_play","MATT",0,0,0,1
-"2153","Vasselheim",2,21,2153,"second_half_rp","LIAM","gather around. watch what i can do!",14078.091,14082.37,4.27900000000045,8,112.175741995782,NA,"role_play","LIAM",1,0,0,0
+"2153","Vasselheim",2,21,2153,"second_half_rp","LIAM","gather around. watch what i can do!",14078.091,14080.365,2.27399999999943,8,211.081794195303,NA,"role_play","LIAM",1,0,0,0
 "2154","Vasselheim",2,21,2154,"second_half_rp","MATT","it takes you a long time to retrace your steps and find your way through the entrapment, especially since as you remove the iron pillars, the boulder then begins to roll past, so you carve your way through. you make your way precariously back to the velvet cabaret, back into the room where the rakshasa once lived. do you wish to walk into the center of the velvet cabaret, covered in various fluids?",14082.37,14110.543,28.1729999999989,74,157.597699925467,NA,"role_play","MATT",0,0,0,1
 "2155","Vasselheim",2,21,2155,"second_half_rp","WIL","fuck yes, we do.",14110.543,14112.073,1.53000000000065,5,196.078431372465,NA,"role_play","GUESTS",0,1,0,0
 "2156","Vasselheim",2,21,2156,"second_half_rp","WILL","yeah, i think absolutely.",14112.073,14113.281,1.20800000000054,5,248.344370860816,NA,"role_play","GUESTS",0,1,0,0
@@ -2161,11 +2161,11 @@
 "2160","Vasselheim",2,21,2160,"second_half_rp","MATT","make an intimidation check.",14133.461,14135.815,2.35400000000118,5,127.442650807073,NA,"role_play","MATT",0,0,0,1
 "2161","Vasselheim",2,21,2161,"second_half_rp","ORION","oh, what is that? 14.",14135.815,14141.681,5.86599999999999,6,61.3706102966248,NA,"role_play","ORION",1,0,0,0
 "2162","Vasselheim",2,21,2162,"second_half_rp","MATT","14? he rolled a three. he looks to the other guy. ""as long as you're leaving.""",14141.681,14148.776,7.09499999999935,18,152.21987315012,NA,"role_play","MATT",0,0,0,1
-"2163","Vasselheim",2,21,2163,"second_half_rp","ORION","draconian again.",14148.776,14153.775,4.9989999999998,3,36.0072014402895,NA,"role_play","ORION",1,0,0,0
+"2163","Vasselheim",2,21,2163,"second_half_rp","ORION","draconian again.",14148.776,14151.64,2.86399999999958,3,62.8491620111824,NA,"role_play","ORION",1,0,0,0
 "2164","Vasselheim",2,21,2164,"second_half_rp","WIL","thorbir just keeps walking.",14153.775,14155.565,1.79000000000087,5,167.597765363047,NA,"role_play","GUESTS",0,1,0,0
 "2165","Vasselheim",2,21,2165,"second_half_rp","MATT","he sheathes the sword, and they give a wide berth. you can hear the music playing, and everyone's laughing. as you enter the room, the music comes to a stop.",14155.565,14162.3,6.73499999999876,32,285.07795100228,NA,"role_play","MATT",0,0,0,1
 "2166","Vasselheim",2,21,2166,"second_half_rp","MARISHA","right before we leave, i turn and have a piece of pelt from the rakshasa, and i throw it at the guard's feet, and i say, here. that's what's left of your boss.",14162.3,14176.363,14.0630000000001,37,157.861053829196,NA,"role_play","MARISHA",1,0,0,0
-"2167","Vasselheim",2,21,2167,"second_half_rp","MATT","he steps back for a second. some of the other patrons are watching this. some look scared; some look intrigued by this whole sudden arrival of strange warriors covered in various ichor. watching as you step out, a swarm of them look at the feet, and one of them goes, ""oh! they killed ""some sort of tiger!"" that's not an accent.",14176.363,14200.945,24.5820000000003,63,153.771051989258,NA,"role_play","MATT",0,0,0,1
+"2167","Vasselheim",2,21,2167,"second_half_rp","MATT","he steps back for a second. some of the other patrons are watching this. some look scared; some look intrigued by this whole sudden arrival of strange warriors covered in various ichor. watching as you step out, a swarm of them look at the feet, and one of them goes, ""oh! they killed ""some sort of tiger!"" that's not an accent.",14176.363,14197.317,20.9539999999997,63,180.395151283767,NA,"role_play","MATT",0,0,0,1
 "2168","Vasselheim",2,21,2168,"second_half_rp","MATT","another who's watching says, ""they bought that down at the market."" the guards take it and lift it up with the blade and look strangely, and you see, coming out of the far corner, the bashful owner of the establishment that you had previously knocked unconscious, looks out. not wanting to engage, just watching you as you leave with a look of fear on his face. you step out onto the thoroughfare, close the door behind you, back into the quad roads district, making your way towards the slayer's take guildhall.",14200.945,14229.625,28.6800000000003,94,196.65271966527,NA,"role_play","MATT",0,0,0,1
 "2169","Vasselheim",2,21,2169,"second_half_rp","LIAM","on the way out, i grab two glasses of ale, and i hand one to this guy and just walk and don't say shit.",14229.625,14237.735,8.11000000000058,26,192.35511713932,NA,"role_play","LIAM",1,0,0,0
 "2170","Vasselheim",2,21,2170,"second_half_rp","MATT","no one argues.",14237.735,14239.308,1.57300000000032,4,152.574698029212,NA,"role_play","MATT",0,0,0,1
@@ -2202,12 +2202,12 @@
 "2201","Vasselheim",2,21,2201,"second_half_rp","ORION","it has been a pleasure and an honor, kashaw. you as well, thorbir. you are brave warriors and would do well in the draconian knights.",14506.87,14514.692,7.8219999999983,26,199.437484019476,NA,"role_play","ORION",1,0,0,0
 "2202","Vasselheim",2,21,2202,"second_half_rp","WILL","thank you, stormwind.",14514.692,14517.495,2.8030000000017,4,85.6225472707293,NA,"role_play","GUESTS",0,1,0,0
 "2203","Vasselheim",2,21,2203,"second_half_rp","ORION","he said my name right!",14517.495,14522.596,5.10099999999875,6,70.5743971770414,NA,"role_play","ORION",1,0,0,0
-"2204","Vasselheim",2,21,2204,"second_half_rp","WILL","and you. you might be the most annoying person i've ever met in my life. with that, he grabs her around the waist, pulls her in, and plants one right on her.",14522.596,14537.697,15.1010000000006,34,135.090391364805,NA,"role_play","GUESTS",0,1,0,0
+"2204","Vasselheim",2,21,2204,"second_half_rp","WILL","and you. you might be the most annoying person i've ever met in my life. with that, he grabs her around the waist, pulls her in, and plants one right on her.",14522.596,14531.294,8.69800000000032,34,234.536675097715,NA,"role_play","GUESTS",0,1,0,0
 "2205","Vasselheim",2,21,2205,"second_half_rp","WILL","turns, winks, and walks out of the room.",14537.697,14543.894,6.19700000000012,9,87.1389381958996,NA,"role_play","GUESTS",0,1,0,0
 "2206","Vasselheim",2,21,2206,"second_half_rp","WIL","thorbir sighs heavily and is annoyed.",14543.894,14549.065,5.17100000000028,7,81.2222007348632,NA,"role_play","GUESTS",0,1,0,0
-"2207","Vasselheim",2,21,2207,"second_half_rp","MATT","""very well. welcome to the slayer's take."" and with that, we'll close this evening's session.",14549.065,14561.896,12.8310000000001,20,93.523497778816,NA,"role_play","MATT",0,0,0,1
-"2208","Vasselheim",2,21,2208,"epilog","LIAM","what a button on the night!",14561.896,14567.2,5.30400000000009,7,79.1855203619896,NA,NA,"LIAM",1,0,0,0
-"2209","Vasselheim",2,21,2209,"epilog","MATT","well done, guys. there were a few seriously clutch moments in those encounters there. you were one roll away from losing the contract. congrats on that. guys, well done. please, round of applause for our fantastic guests these past couple of weeks.",14567.2,14595.701,28.5009999999984,43,90.5231395389687,NA,NA,"MATT",0,0,0,1
+"2207","Vasselheim",2,21,2207,"second_half_rp","MATT","""very well. welcome to the slayer's take."" and with that, we'll close this evening's session.",14549.065,14558.483,9.41799999999967,20,127.415587173502,NA,"role_play","MATT",0,0,0,1
+"2208","Vasselheim",2,21,2208,"epilog","LIAM","what a button on the night!",14561.896,14564.302,2.40599999999904,7,174.563591022514,NA,NA,"LIAM",1,0,0,0
+"2209","Vasselheim",2,21,2209,"epilog","MATT","well done, guys. there were a few seriously clutch moments in those encounters there. you were one roll away from losing the contract. congrats on that. guys, well done. please, round of applause for our fantastic guests these past couple of weeks.",14567.2,14591.409,24.2089999999989,43,106.571936056843,NA,NA,"MATT",0,0,0,1
 "2210","Vasselheim",2,21,2210,"epilog","MATT","happy to have you in the player's seat. you've been an absolute pleasure, man.",14595.701,14599.313,3.61200000000099,17,282.392026577996,NA,NA,"MATT",0,0,0,1
 "2211","Vasselheim",2,21,2211,"epilog","WIL","thanks very much. like i said last week, it's weird. this is out of my comfort zone, to be in this place. but yeah, this was really fun.",14599.313,14608.469,9.15599999999904,30,196.592398427281,NA,NA,"GUESTS",0,1,0,0
 "2212","Vasselheim",2,21,2212,"epilog","MATT","awesome. thank you for coming to be a part.",14608.469,14610.658,2.18900000000031,10,274.097761534909,NA,NA,"MATT",0,0,0,1
@@ -2215,7 +2215,7 @@
 "2214","Vasselheim",2,21,2214,"epilog","ORION","it's mind-boggling.",14614.174,14616.376,2.20199999999932,5,136.239782016391,NA,NA,"ORION",1,0,0,0
 "2215","Vasselheim",2,21,2215,"epilog","MARISHA","it's so insane.",14616.376,14617.778,1.40200000000004,5,213.980028530664,NA,NA,"MARISHA",1,0,0,0
 "2216","Vasselheim",2,21,2216,"epilog","MATT","absolutely surreal.",14617.778,14619.386,1.60800000000017,3,111.940298507451,NA,NA,"MATT",0,0,0,1
-"2217","Vasselheim",2,21,2217,"epilog","WIL","people always accuse me of taking it easy on my players. i really don't.",14619.386,14625.223,5.83699999999953,16,164.468048655144,NA,NA,"GUESTS",0,1,0,0
+"2217","Vasselheim",2,21,2217,"epilog","WIL","people always accuse me of taking it easy on my players. i really don't.",14619.386,14623.595,4.20899999999892,16,228.082679971548,NA,NA,"GUESTS",0,1,0,0
 "2218","Vasselheim",2,21,2218,"epilog","LIAM","dice aside, great character.",14625.223,14630.762,5.53900000000067,5,54.1614009748987,NA,NA,"LIAM",1,0,0,0
 "2219","Vasselheim",2,21,2219,"epilog","MARISHA","keyleth got her first kiss!",14630.762,14632.62,1.85800000000017,6,193.756727664137,NA,NA,"MARISHA",1,0,0,0
 "2220","Vasselheim",2,21,2220,"epilog","TALIESIN","that was so awesome.",14632.62,14634.411,1.79099999999926,5,167.50418760476,NA,NA,"TALIESIN",1,0,0,0
@@ -2223,12 +2223,12 @@
 "2222","Vasselheim",2,21,2222,"epilog","WILL","oh, yeah. i've never played. this was a ton of fun.",14637.093,14642.299,5.20600000000013,13,149.827122550899,NA,NA,"GUESTS",0,1,0,0
 "2223","Vasselheim",2,21,2223,"epilog","TALIESIN","you were amazing.",14642.299,14644.906,2.60699999999997,4,92.059838895283,NA,NA,"TALIESIN",1,0,0,0
 "2224","Vasselheim",2,21,2224,"epilog","MARISHA","so good.",14644.906,14646.62,1.71399999999994,3,105.017502917156,NA,NA,"MARISHA",1,0,0,0
-"2225","Vasselheim",2,21,2225,"epilog","MATT","you totally gave keyleth her first kiss.",14646.62,14651.539,4.91899999999987,8,97.5808091075448,NA,NA,"MATT",0,0,0,1
+"2225","Vasselheim",2,21,2225,"epilog","MATT","you totally gave keyleth her first kiss.",14646.62,14648.595,1.97499999999854,8,243.037974683723,NA,NA,"MATT",0,0,0,1
 "2226","Vasselheim",2,21,2226,"epilog","WILL","and then vanish like a thief in the night!",14651.539,14655.474,3.93499999999949,10,152.477763659486,NA,NA,"GUESTS",0,1,0,0
 "2227","Vasselheim",2,21,2227,"epilog","MARISHA","moments that keyleth has dreamed of.",14655.474,14659.791,4.3169999999991,7,97.2897845726402,NA,NA,"MARISHA",1,0,0,0
 "2228","Vasselheim",2,21,2228,"epilog","MATT","damn, guys. all right, so we have our donation list for the evening.",14659.791,14666.798,7.00700000000143,14,119.880119880095,NA,NA,"MATT",0,0,0,1
 "2229","Vasselheim",2,21,2229,"epilog","ZAC","lots of donations tonight.",14666.798,14668.772,1.97400000000016,5,151.975683890565,NA,NA,"ZAC",0,0,1,0
-"2230","Vasselheim",2,21,2230,"epilog","ORION","and our warlock.",14668.772,14674.977,6.20499999999993,4,38.6784850926677,NA,NA,"ORION",1,0,0,0
+"2230","Vasselheim",2,21,2230,"epilog","ORION","and our warlock.",14668.772,14672.456,3.68399999999929,4,65.1465798045729,NA,NA,"ORION",1,0,0,0
 "2231","Vasselheim",2,21,2231,"epilog","MARISHA","we fucking lived!",14674.977,14678.457,3.47999999999956,4,68.965517241388,NA,NA,"MARISHA",1,0,0,0
 "2232","Vasselheim",2,21,2232,"epilog","MARY","how was the kiss?",14678.457,14679.983,1.52599999999984,5,196.592398427281,NA,NA,"GUESTS",0,1,0,0
 "2233","Vasselheim",2,21,2233,"epilog","MARISHA","oh my god. i got pink in the face. in real life.",14679.983,14685.907,5.92399999999907,13,131.667792032431,NA,NA,"MARISHA",1,0,0,0
@@ -2239,9 +2239,9 @@
 "2238","Vasselheim",2,21,2238,"epilog","MARISHA","i have a cowboy who just rode into the sunset, you guys.",14696.871,14702.915,6.04400000000169,13,129.053606882823,NA,NA,"MARISHA",1,0,0,0
 "2239","Vasselheim",2,21,2239,"epilog","TALIESIN","ship. he just shipped all over.",14702.915,14705.668,2.75299999999879,7,152.560842717103,NA,NA,"TALIESIN",1,0,0,0
 "2240","Vasselheim",2,21,2240,"epilog","MATT","darin, get in here!",14705.668,14707.458,1.79000000000087,5,167.597765363047,NA,NA,"MATT",0,0,0,1
-"2241","Vasselheim",2,21,2241,"epilog","LIAM","kash money!",14707.458,14713.715,6.25699999999961,3,28.7677800863051,NA,NA,"LIAM",1,0,0,0
+"2241","Vasselheim",2,21,2241,"epilog","LIAM","kash money!",14707.458,14710.502,3.04399999999987,3,59.1327201051274,NA,NA,"LIAM",1,0,0,0
 "2242","Vasselheim",2,21,2242,"epilog","WILL","i know what you've got to do to get invited back.",14713.715,14716.346,2.6309999999994,13,296.465222348984,NA,NA,"GUESTS",0,1,0,0
-"2243","Vasselheim",2,21,2243,"epilog","MATT","also, guys, this is a friend of the show. darin, another amazing voice actor who's a fan of the show.",14716.346,14724.151,7.80500000000029,22,169.122357463158,NA,NA,"MATT",0,0,0,1
+"2243","Vasselheim",2,21,2243,"epilog","MATT","also, guys, this is a friend of the show. darin, another amazing voice actor who's a fan of the show.",14716.346,14722.178,5.83200000000033,22,226.337448559658,NA,NA,"MATT",0,0,0,1
 "2244","Vasselheim",2,21,2244,"epilog","MATT","for all you warcraft players, you've probably killed him as blackhand in warlords of draenor.",14724.151,14728.335,4.18399999999929,17,243.785850860462,NA,NA,"MATT",0,0,0,1
-"2245","Vasselheim",2,21,2245,"epilog","DARIN","how dare you?!",14728.335,14732.093,3.75800000000163,4,63.8637573176945,NA,NA,"GUESTS",0,1,0,0
+"2245","Vasselheim",2,21,2245,"epilog","DARIN","how dare you?!",14728.335,14729.912,1.57700000000114,4,152.187698160956,NA,NA,"GUESTS",0,1,0,0
 "2246","Vasselheim",2,21,2246,"epilog","MATT","and so many other great characters. i'm so glad he could come and watch tonight. [end of captions]",14732.093,17059.471,2327.378,20,0.515601677080388,NA,NA,"MATT",0,0,0,1

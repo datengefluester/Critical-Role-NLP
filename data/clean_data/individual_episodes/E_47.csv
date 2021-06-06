@@ -367,7 +367,7 @@
 "366","Attack_Conclave",4,47,366,"first_half_rp","TRAVIS","wizard of the day?",1819.034,1822.205,3.17099999999982,5,94.6073793755966,NA,"role_play","TRAVIS",1,0,0,0
 "367","Attack_Conclave",4,47,367,"first_half_rp","LAURA","the minute we get downstairs, i start pawing into the bag of holding.",1822.205,1826.803,4.59800000000018,14,182.68812527185,NA,"role_play","LAURA",1,0,0,0
 "368","Attack_Conclave",4,47,368,"first_half_rp","TRAVIS","what are you doing?",1826.803,1828.069,1.26599999999985,5,236.966824644578,NA,"role_play","TRAVIS",1,0,0,0
-"369","Attack_Conclave",4,47,369,"first_half_rp","LAURA","i just need to.",1828.069,1830.849,2.77999999999997,5,107.913669064749,NA,"role_play","LAURA",1,0,0,0
+"369","Attack_Conclave",4,47,369,"first_half_rp","LAURA","i just need to.",1828.069,1829.528,1.45900000000006,5,205.620287868395,NA,"role_play","LAURA",1,0,0,0
 "370","Attack_Conclave",4,47,370,"first_half_rp","SAM","ooh, how did you do that?",1830.849,1832.452,1.60300000000007,7,262.008733624443,NA,"role_play","SAM",1,0,0,0
 "371","Attack_Conclave",4,47,371,"first_half_rp","TRAVIS","that was awesome.",1832.452,1834.086,1.63400000000001,4,146.878824969399,NA,"role_play","TRAVIS",1,0,0,0
 "372","Attack_Conclave",4,47,372,"first_half_rp","TRAVIS","what did you grab?",1834.086,1836.648,2.5619999999999,5,117.096018735368,NA,"role_play","TRAVIS",1,0,0,0
@@ -404,7 +404,7 @@
 "403","Attack_Conclave",4,47,403,"first_half_rp","TRAVIS","i start climbing all over the walls.",1972.062,1973.95,1.88800000000015,8,254.237288135573,NA,"role_play","TRAVIS",1,0,0,0
 "404","Attack_Conclave",4,47,404,"first_half_rp","LAURA","i put it between my legs and try to sit on it.",1973.95,1980.092,6.14200000000005,13,126.994464343861,NA,"role_play","LAURA",1,0,0,0
 "405","Attack_Conclave",4,47,405,"first_half_rp","MATT","all right.",1980.092,1981.383,1.29099999999994,3,139.426800929518,NA,"role_play","MATT",0,0,0,1
-"406","Attack_Conclave",4,47,406,"first_half_rp","SAM","weirdly, i'm doing the same thing upstairs.",1981.383,1985.507,4.12400000000002,9,130.940834141609,NA,"role_play","SAM",1,0,0,0
+"406","Attack_Conclave",4,47,406,"first_half_rp","SAM","weirdly, i'm doing the same thing upstairs.",1981.383,1983.523,2.13999999999987,9,252.336448598146,NA,"role_play","SAM",1,0,0,0
 "407","Attack_Conclave",4,47,407,"first_half_rp","TRAVIS","is one of your servants named broom?",1985.507,1987.896,2.3889999999999,8,200.920887400595,NA,"role_play","TRAVIS",1,0,0,0
 "408","Attack_Conclave",4,47,408,"first_half_rp","LAURA","and i jump in the air a little bit.",1987.896,1991.347,3.45100000000002,10,173.862648507678,NA,"role_play","LAURA",1,0,0,0
 "409","Attack_Conclave",4,47,409,"first_half_rp","MATT","hop.",1991.347,1992.811,1.46399999999994,2,81.9672131147574,NA,"role_play","MATT",0,0,0,1
@@ -412,7 +412,7 @@
 "411","Attack_Conclave",4,47,411,"first_half_rp","TRAVIS","rotisserie chicken!",2012.994,2014.45,1.45600000000013,3,123.626373626363,NA,"role_play","TRAVIS",1,0,0,0
 "412","Attack_Conclave",4,47,412,"first_half_rp","LAURA","fuck! grog.",2014.45,2017.589,3.1389999999999,3,57.3431028990143,NA,"role_play","LAURA",1,0,0,0
 "413","Attack_Conclave",4,47,413,"first_half_rp","TALIESIN","perhaps it requires a bad irish accent.",2017.589,2020.031,2.44200000000001,8,196.560196560196,NA,"role_play","TALIESIN",1,0,0,0
-"414","Attack_Conclave",4,47,414,"first_half_rp","LAURA","fatty arbuckle!",2020.031,2024.612,4.58100000000013,3,39.2927308447926,NA,"role_play","LAURA",1,0,0,0
+"414","Attack_Conclave",4,47,414,"first_half_rp","LAURA","fatty arbuckle!",2020.031,2022.051,2.01999999999998,3,89.1089108910899,NA,"role_play","LAURA",1,0,0,0
 "415","Attack_Conclave",4,47,415,"first_half_rp","LAURA","nothing.",2024.612,2026.229,1.61699999999996,2,74.2115027829331,NA,"role_play","LAURA",1,0,0,0
 "416","Attack_Conclave",4,47,416,"first_half_rp","MATT","nothing.",2026.229,2027.45,1.221,2,98.280098280098,NA,"role_play","MATT",0,0,0,1
 "417","Attack_Conclave",4,47,417,"first_half_rp","TRAVIS","do you usually yell when you clean?",2027.45,2030.375,2.92499999999995,8,164.102564102567,NA,"role_play","TRAVIS",1,0,0,0
@@ -1460,7 +1460,7 @@
 "1459","Attack_Conclave",4,47,1459,"first_half_rp","MATT","""that's a good blade.""",7303.287,7306.257,2.96999999999935,7,141.414141414173,NA,"role_play","MATT",0,0,0,1
 "1460","Attack_Conclave",4,47,1460,"first_half_rp","TRAVIS","isn't it. and i ask out loud, are you hungry?",7306.257,7311.212,4.95500000000084,12,145.30776992934,NA,"role_play","TRAVIS",1,0,0,0
 "1461","Attack_Conclave",4,47,1461,"first_half_rp","MATT","""it's been probably half a day since breakfast. aye. why?"" his expression begins to shift as realization begins to dawn on his face.",7311.212,7326.245,15.0329999999994,26,103.771702255043,NA,"role_play","MATT",0,0,0,1
-"1462","Attack_Conclave",4,47,1462,"first_half_rp","TRAVIS","i pull it back. i stick the point in between his ribcage, and i drive it up through him.",7326.245,7332.251,6.00600000000031,20,199.800199800189,NA,"role_play","TRAVIS",1,0,0,0
+"1462","Attack_Conclave",4,47,1462,"first_half_rp","TRAVIS","i pull it back. i stick the point in between his ribcage, and i drive it up through him.",7326.245,7330.174,3.92900000000009,20,305.421226775254,NA,"role_play","TRAVIS",1,0,0,0
 "1463","Attack_Conclave",4,47,1463,"first_half_rp","MATT","before he can say a word he tries to speak through the pain, but it's met with the gurgle as various bodily fluids fill the inside of his lungs and throat.",7332.251,7342.745,10.4939999999997,33,188.679245283024,NA,"role_play","MATT",0,0,0,1
 "1464","Attack_Conclave",4,47,1464,"first_half_rp","TRAVIS","oh, more?",7342.745,7344.622,1.87700000000041,3,95.8977091102616,NA,"role_play","TRAVIS",1,0,0,0
 "1465","Attack_Conclave",4,47,1465,"first_half_rp","MATT","the blade, now, you can see peeks through the back of the mouth as his eyes go ever so dull, the rest of the blood flow pouring out the sides of his mouth.",7344.622,7355.917,11.2950000000001,34,180.610889774235,NA,"role_play","MATT",0,0,0,1
@@ -1677,7 +1677,7 @@
 "1676","Attack_Conclave",4,47,1676,"second_half_rp","SAM","not good.",9658.911,9659.954,1.04299999999967,3,172.579098753651,NA,"role_play","SAM",1,0,0,0
 "1677","Attack_Conclave",4,47,1677,"second_half_rp","MATT","grog, make a deception check.",9659.954,9662.041,2.08699999999953,6,172.496406324907,NA,"role_play","MATT",0,0,0,1
 "1678","Attack_Conclave",4,47,1678,"second_half_rp","SAM","not good! seven!",9662.041,9665.175,3.13400000000001,4,76.5794511805995,NA,"role_play","SAM",1,0,0,0
-"1679","Attack_Conclave",4,47,1679,"second_half_rp","TRAVIS","three!",9665.175,9669.307,4.13200000000143,2,29.0416263310645,NA,"role_play","TRAVIS",1,0,0,0
+"1679","Attack_Conclave",4,47,1679,"second_half_rp","TRAVIS","three!",9665.175,9666.311,1.13600000000042,2,105.633802816862,NA,"role_play","TRAVIS",1,0,0,0
 "1680","Attack_Conclave",4,47,1680,"second_half_rp","MATT","grog's not the most able liar, you glean. you're pretty good at seeing past the deceit of others. this definitely falls under the line of deceit, as adorable as it is to see him try.",9669.307,9680.102,10.7950000000001,38,211.20889300602,NA,"role_play","MATT",0,0,0,1
 "1681","Attack_Conclave",4,47,1681,"second_half_rp","SAM","grog, you want to give me the sword. and i will cast suggestion on him.",9680.102,9688.597,8.49499999999898,16,113.007651559755,NA,"role_play","SAM",1,0,0,0
 "1682","Attack_Conclave",4,47,1682,"second_half_rp","LAURA","ooh!",9688.597,9691.104,2.50699999999961,2,47.8659752692536,NA,"role_play","LAURA",1,0,0,0
@@ -1711,7 +1711,7 @@
 "1710","Attack_Conclave",4,47,1710,"second_half_rp","SAM","no.",9855.487,9857.645,2.15800000000127,2,55.6070435588182,NA,"role_play","SAM",1,0,0,0
 "1711","Attack_Conclave",4,47,1711,"second_half_rp","TRAVIS","no?! it's not saying anything?!",9857.645,9860.486,2.84100000000035,7,147.835269271365,NA,"role_play","TRAVIS",1,0,0,0
 "1712","Attack_Conclave",4,47,1712,"second_half_rp","SAM","craven edge? how do i prove i'm worthy?",9860.486,9868.128,7.64199999999983,10,78.5134781470837,NA,"role_play","SAM",1,0,0,0
-"1713","Attack_Conclave",4,47,1713,"second_half_rp","TRAVIS","what?",9868.128,9873.872,5.74399999999878,2,20.8913649025114,NA,"role_play","TRAVIS",1,0,0,0
+"1713","Attack_Conclave",4,47,1713,"second_half_rp","TRAVIS","what?",9868.128,9869.499,1.37099999999919,2,87.527352297645,NA,"role_play","TRAVIS",1,0,0,0
 "1714","Attack_Conclave",4,47,1714,"second_half_rp","MATT","the blade, all of a sudden, it almost seems to have a slight shift of its own, like a divining rod, and it moves. and the blade shifts away from the direction of you and grog and gently shifts down the way to an older gentleman who's now returned to picking a few crops and it points in his direction and says, ""prove to me.""",9873.872,9898.187,24.3150000000005,67,165.330043183217,NA,"role_play","MATT",0,0,0,1
 "1715","Attack_Conclave",4,47,1715,"second_half_rp","LAURA","is it reggie?",9898.187,9899.956,1.76900000000023,4,135.669869983023,NA,"role_play","LAURA",1,0,0,0
 "1716","Attack_Conclave",4,47,1716,"second_half_rp","MATT","pointing to reginald.",9899.956,9901.355,1.39899999999943,4,171.551107934308,NA,"role_play","MATT",0,0,0,1
@@ -1744,7 +1744,7 @@
 "1743","Attack_Conclave",4,47,1743,"second_half_rp","TRAVIS","no! it just says it's hungry.",10038.153,10040.216,2.0630000000001,8,232.670867668433,NA,"role_play","TRAVIS",1,0,0,0
 "1744","Attack_Conclave",4,47,1744,"second_half_rp","MATT","at which point, you both hear a voice simultaneously go, ""always hungry.""",10040.216,10047.277,7.06099999999969,13,110.465939668607,NA,"role_play","MATT",0,0,0,1
 "1745","Attack_Conclave",4,47,1745,"second_half_rp","SAM","yeah!",10047.277,10048.526,1.2489999999998,2,96.076861489207,NA,"role_play","SAM",1,0,0,0
-"1746","Attack_Conclave",4,47,1746,"second_half_rp","TRAVIS","you heard it that time! holy shit! i feel like kevin costner in field of dreams and you're james earl jones! i've got a friend in this now!",10048.526,10059.539,11.0130000000008,31,168.891310269669,NA,"role_play","TRAVIS",1,0,0,0
+"1746","Attack_Conclave",4,47,1746,"second_half_rp","TRAVIS","you heard it that time! holy shit! i feel like kevin costner in field of dreams and you're james earl jones! i've got a friend in this now!",10048.526,10056.541,8.01499999999942,31,232.064878353105,NA,"role_play","TRAVIS",1,0,0,0
 "1747","Attack_Conclave",4,47,1747,"second_half_rp","TALIESIN","oh boy.",10059.539,10063.634,4.09499999999935,3,43.956043956051,NA,"role_play","TALIESIN",1,0,0,0
 "1748","Attack_Conclave",4,47,1748,"second_half_rp","TRAVIS","right, so, look, you know.",10063.634,10067.662,4.02800000000025,6,89.3743793445824,NA,"role_play","TRAVIS",1,0,0,0
 "1749","Attack_Conclave",4,47,1749,"second_half_rp","SAM","we should not tell the others about this. this is very strange.",10067.662,10069.998,2.33599999999933,13,333.904109589137,NA,"role_play","SAM",1,0,0,0

@@ -367,13 +367,15 @@ network <- network %>%
   ) %>%
   rename(from = actor_guest, to = previous, weights = total) %>%
   mutate(type = "hyperlink") %>%
-  mutate(weights = replace(weights, is.na(weights), 1))
+  filter(!is.na(weights))
+  #mutate(weights = replace(weights, is.na(weights), 1))
 
 # export data frame
 write.csv(network,
   "./data/data_for_graphs/network.csv",
   row.names = FALSE
 )
+
 
 
 
@@ -499,6 +501,33 @@ write.csv(same_thought_network,
 )
 
 
+
+###############################################################################
+# Network graphs: correlates
+###############################################################################
+
+seating_order <- read.csv("./data/clean_data/rest/seating_order.csv")
+
+seating_order <- seating_order %>% 
+  left_join(same_thought_network,.) %>%
+  rename(same_thought = weights) %>% 
+  select(-type) %>% 
+  left_join(.,network) %>% 
+  rename(interactions = weights) %>% 
+  select(-type) %>% 
+  filter(!is.na(Distance))
+  
+  
+  
+# export data frame
+write.csv(seating_order,
+            "./data/data_for_graphs/seating_order.csv",
+            row.names = FALSE
+  )
+
+
+
+
 ###############################################################################
 # Sentiment Analysis
 ###############################################################################
@@ -540,7 +569,18 @@ sentiment_by_episode <- sentences_sentiment %>%
   )
 
 
-# add dice rolls:
+# add run time episode
+sentiment_by_episode <- data %>% 
+  group_by(episode) %>% 
+  summarise(
+    time_in_hour = sum(time_in_sec)
+  ) %>% 
+  mutate(time_in_hour = time_in_hour/3600) %>% 
+  left_join(sentiment_by_episode, ., by = "episode")
+
+
+
+# ------------------- add dice rolls:
 
 # pc natural 1s
 dice_pc_1 <- read.csv(file = "./data/clean_data/dice_rolls/pc_1.csv")
@@ -598,8 +638,8 @@ dice_rolls <- read.csv("./data/clean_data/dice_rolls/dice_rolls.csv") %>%
   filter(Natural.Value !="Unkown")  %>%
   filter(Natural.Value !="#REF!")  %>%
   filter(Natural.Value !="Uknown")  %>%
-  filter(!is.na(Natural.Value))  %>%
-  filter(Natural.Value<=20 & Natural.Value>=1)  
+  filter(Character != "Shark") %>% 
+  filter(Character != "Gloomstalker")
 
 # drop "-1" & "-2" from file name and turn into episode number
 dice_rolls <- dice_rolls %>%
@@ -609,17 +649,19 @@ dice_rolls <- dice_rolls %>%
   rename(episode = file_name) 
 
 
-# character: drop shark and gloomstalker
-dice_rolls <- dice_rolls %>%
-  filter(Character != "Shark") %>% 
-  filter(Character != "Gloomstalker") 
-
-# get mean of dice rolls and join episode data frame  
+# get number of rolls per episodes and join episode data frame  
 sentiment_by_episode <- dice_rolls %>%
+  group_by(episode) %>% 
+  summarise(number_rolls = n()) %>% 
+  left_join(sentiment_by_episode, ., by = "episode")
+
+# get mean of natural dice rolls and join episode data frame  
+sentiment_by_episode <- dice_rolls %>%
+  filter(!is.na(Natural.Value))  %>%
+  filter(Natural.Value<=20 & Natural.Value>=1) %>% 
   select(episode,Natural.Value) %>% 
   group_by(episode) %>% 
-  mutate(Natural.Value = as.numeric(Natural.Value),
-         episode = as.numeric(episode)) %>% 
+  mutate(Natural.Value = as.numeric(Natural.Value)) %>% 
   summarise(mean_natural_rolls = mean(Natural.Value)) %>% 
   left_join(sentiment_by_episode, ., by = "episode")
 
@@ -634,11 +676,17 @@ sentiment_by_episode <- data %>%
   filter(!is.na(rp_combat)) %>%
   filter(!is.na(time_in_sec)) %>%
   group_by(episode, rp_combat) %>%
-  summarise(combat_time = sum(time_in_sec, na.rm = TRUE)) %>% 
+  summarise(combat_time = sum(time_in_sec, na.rm = TRUE)) %>%
+  mutate(combat_time = combat_time/3600) %>% 
   filter(rp_combat == "combat") %>%
   select(-rp_combat) %>% 
   left_join(sentiment_by_episode, ., by = "episode") %>% 
   mutate(combat_time = replace(combat_time, is.na(combat_time), 0))
+
+# change order variables
+sentiment_by_episode <- sentiment_by_episode %>% 
+  select(1:4,6:10,12:14, number_rolls,time_in_hour,combat_time)
+
 
 # export data frame
 write.csv(sentiment_by_episode,

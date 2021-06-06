@@ -1,5 +1,5 @@
 "","arc","arc_no","episode","turn_number","segment","actor","text","start_turn","end_turn","time_in_sec","word_count","words_per_minute","encounter_count","rp_combat","actor_guest","vox_machina","guest","staff","matt"
-"1","Daring_Deeds",7,91,1,"prologue","MATT","hello, everyone! and welcome to tonight's episode of critical role, where a bunch of us nerdy-ass voice actors sit around and play dungeons and dragons.",0.358,8.88,8.522,28,197.136822342173,NA,"role_play","MATT",0,0,0,1
+"1","Daring_Deeds",7,91,1,"prologue","MATT","hello, everyone! and welcome to tonight's episode of critical role, where a bunch of us nerdy-ass voice actors sit around and play dungeons and dragons.",0.358,6.61,6.252,28,268.714011516315,NA,"role_play","MATT",0,0,0,1
 "2","Daring_Deeds",7,91,2,"prologue","MATT","indeed. tonight, we are sadly down one sam riegel, because apparently he has priorities.",8.88,12.565,3.685,15,244.233378561737,NA,"role_play","MATT",0,0,0,1
 "3","Daring_Deeds",7,91,3,"prologue","LAURA","where is he?",12.565,14.323,1.758,4,136.518771331058,NA,"role_play","LAURA",1,0,0,0
 "4","Daring_Deeds",7,91,4,"prologue","MATT","i actually don't know.",14.323,15.494,1.171,6,307.429547395389,NA,"role_play","MATT",0,0,0,1
@@ -8,19 +8,19 @@
 "7","Daring_Deeds",7,91,7,"prologue","LIAM","i don't know where he is.",18.707,19.774,1.067,8,449.859418931584,NA,"role_play","LIAM",1,0,0,0
 "8","Daring_Deeds",7,91,8,"prologue","LAURA","i don't know where he is.",19.774,20.632,0.858000000000001,8,559.440559440559,NA,"role_play","LAURA",1,0,0,0
 "9","Daring_Deeds",7,91,9,"prologue","MATT","that's weird. well",20.632,21.59,0.957999999999998,4,250.521920668059,NA,"role_play","MATT",0,0,0,1
-"10","Daring_Deeds",7,91,10,"prologue","MARISHA","oh, man, i feel like he told us.",21.59,23.683,2.093,9,258.002866698519,NA,"role_play","MARISHA",1,0,0,0
+"10","Daring_Deeds",7,91,10,"prologue","MARISHA","oh, man, i feel like he told us.",21.59,22.722,1.132,9,477.031802120141,NA,"role_play","MARISHA",1,0,0,0
 "11","Daring_Deeds",7,91,11,"prologue","MARISHA","you know? i just don't remember where he is",23.683,24.709,1.026,10,584.795321637427,NA,"role_play","MARISHA",1,0,0,0
 "12","Daring_Deeds",7,91,12,"prologue","LAURA","what is his mother's name!?",24.709,25.7,0.991,7,423.814328960646,NA,"role_play","LAURA",1,0,0,0
 "13","Daring_Deeds",7,91,13,"prologue","MARISHA","what is his mother's name!?",25.7,26.855,1.155,7,363.636363636363,NA,"role_play","MARISHA",1,0,0,0
 "14","Daring_Deeds",7,91,14,"prologue","LAURA","it's lenore! i know it. it's scanlan's mom",26.855,29.498,2.643,11,249.716231555051,NA,"role_play","LAURA",1,0,0,0
 "15","Daring_Deeds",7,91,15,"prologue","MARISHA","you don't care about his past!",29.498,30.707,1.209,8,397.022332506204,NA,"role_play","MARISHA",1,0,0,0
-"16","Daring_Deeds",7,91,16,"prologue","TALIESIN","what am i doing thursday night!?",30.707,33.591,2.884,7,145.631067961165,NA,"role_play","TALIESIN",1,0,0,0
+"16","Daring_Deeds",7,91,16,"prologue","TALIESIN","what am i doing thursday night!?",30.707,32.115,1.408,7,298.295454545454,NA,"role_play","TALIESIN",1,0,0,0
 "17","Daring_Deeds",7,91,17,"prologue","TRAVIS","it's not that we don't remember, we just don't care.",33.591,35.103,1.512,14,555.555555555555,NA,"role_play","TRAVIS",1,0,0,0
 "18","Daring_Deeds",7,91,18,"prologue","TALIESIN","yeah.",35.103,36.34,1.237,2,97.0088924818107,NA,"role_play","TALIESIN",1,0,0,0
-"19","Daring_Deeds",7,91,19,"prologue","MATT","well, sam, wherever you are, you're not watching, so you'll never hear this anyway.",36.34,42.646,6.306,17,161.75071360609,NA,"role_play","MATT",0,0,0,1
+"19","Daring_Deeds",7,91,19,"prologue","MATT","well, sam, wherever you are, you're not watching, so you'll never hear this anyway.",36.34,38.734,2.394,17,426.065162907268,NA,"role_play","MATT",0,0,0,1
 "20","Daring_Deeds",7,91,20,"prologue","MATT","but we love you.",42.646,44.164,1.518,5,197.628458498024,NA,"role_play","MATT",0,0,0,1
 "21","Daring_Deeds",7,91,21,"prologue","TRAVIS","it's true. that's hilarious because it's true.",44.164,46.703,2.539,11,259.944860181174,NA,"role_play","TRAVIS",1,0,0,0
-"22","Daring_Deeds",7,91,22,"prologue","MATT","before we get into tonight's episode, let's get through a few announcements here. first and foremost, tonight we have the delight of being sponsored by our returning friends puzzle quest!",46.703,58.024,11.321,33,174.896210582104,NA,"role_play","MATT",0,0,0,1
+"22","Daring_Deeds",7,91,22,"prologue","MATT","before we get into tonight's episode, let's get through a few announcements here. first and foremost, tonight we have the delight of being sponsored by our returning friends puzzle quest!",46.703,56.218,9.515,33,208.092485549133,NA,"role_play","MATT",0,0,0,1
 "23","Daring_Deeds",7,91,23,"prologue","MATT","puzzle quest, they're not pushing anything in particular, but we're wanting to talk about a bit how they're just their marvel puzzle quest is awesome. i've been playing puzzle quest since it first came out. i remember spending many angry hours on xbox live, getting my ass kicked by people in puzzle quest when it first came there. but taliesin, did you have anything you wanted to say?",58.024,76.314,18.29,73,239.475123018043,NA,"role_play","MATT",0,0,0,1
 "24","Daring_Deeds",7,91,24,"prologue","TRAVIS","it's a big anniversary for them.",76.314,77.186,0.872000000000014,8,550.458715596321,NA,"role_play","TRAVIS",1,0,0,0
 "25","Daring_Deeds",7,91,25,"prologue","TALIESIN","yeah, it's puzzle quest's ten-year anniversary.",77.186,79.951,2.76499999999999,10,216.998191681737,NA,"role_play","TALIESIN",1,0,0,0
@@ -43,7 +43,7 @@
 "42","Daring_Deeds",7,91,42,"prologue","TALIESIN","i know, and i suddenly realised a couple of them watch the show, and now they know that i'm not really texting you guys.",128.315,133.048,4.733,26,329.600676103951,NA,"role_play","TALIESIN",1,0,0,0
 "43","Daring_Deeds",7,91,43,"prologue","LIAM","taliesin pulls out a curly blonde wig and",133.048,135.119,2.071,8,231.772090777402,NA,"role_play","LIAM",1,0,0,0
 "44","Daring_Deeds",7,91,44,"prologue","MATT","and starts jamming candy bars in his mouth.",135.119,137.271,2.15199999999999,9,250.929368029741,NA,"role_play","MATT",0,0,0,1
-"45","Daring_Deeds",7,91,45,"prologue","LAURA","shaka, man, oh yeah.",137.271,139.73,2.459,5,122.000813338755,NA,"role_play","LAURA",1,0,0,0
+"45","Daring_Deeds",7,91,45,"prologue","LAURA","shaka, man, oh yeah.",137.271,138.657,1.38600000000002,5,216.450216450213,NA,"role_play","LAURA",1,0,0,0
 "46","Daring_Deeds",7,91,46,"prologue","TALIESIN","but, marvel puzzle quest is great, because it's all the fun of the three-gem, bejeweled-style games, but you would also collect characters if you're a big nerd like i am, and they've got basics like thor and iron man, and new fun ones, like ms. marvel, and",139.73,153.604,13.874,52,224.88107250973,NA,"role_play","TALIESIN",1,0,0,0
 "47","Daring_Deeds",7,91,47,"prologue","LAURA","what about black widow? do they have black widow?",153.604,154.903,1.29899999999998,10,461.893764434188,NA,"role_play","LAURA",1,0,0,0
 "48","Daring_Deeds",7,91,48,"prologue","TALIESIN","they have black widow.",154.903,155.78,0.87700000000001,5,342.075256556439,NA,"role_play","TALIESIN",1,0,0,0
@@ -54,7 +54,7 @@
 "53","Daring_Deeds",7,91,53,"prologue","MATT","do they have slapstick?",163.064,165.659,2.595,5,115.606936416185,NA,"role_play","MATT",0,0,0,1
 "54","Daring_Deeds",7,91,54,"prologue","TALIESIN","i'm even more embarrassed that i know you now. it was already bad. this is why you're never going to be on my show, matt.",165.659,173.906,8.24700000000001,28,203.710440160058,NA,"role_play","TALIESIN",1,0,0,0
 "55","Daring_Deeds",7,91,55,"prologue","MATT","i know.",173.906,176.567,2.661,3,67.6437429537767,NA,"role_play","MATT",0,0,0,1
-"56","Daring_Deeds",7,91,56,"prologue","TALIESIN","ooh. you're never going to be on my show because you don't have time. i know.",176.567,180.334,3.767,19,302.628086010088,NA,"role_play","TALIESIN",1,0,0,0
+"56","Daring_Deeds",7,91,56,"prologue","TALIESIN","ooh. you're never going to be on my show because you don't have time. i know.",176.567,179.038,2.471,19,461.35167948199,NA,"role_play","TALIESIN",1,0,0,0
 "57","Daring_Deeds",7,91,57,"prologue","MATT","that's exactly why.",180.334,181.557,1.22299999999998,5,245.298446443176,NA,"role_play","MATT",0,0,0,1
 "58","Daring_Deeds",7,91,58,"prologue","TALIESIN","but yeah. marvel puzzle quest. thank you guys. you can get it on steam, amazon app store, google play, apple store it's all over the place.",181.557,187.702,6.14500000000001,28,273.393002441008,NA,"role_play","TALIESIN",1,0,0,0
 "59","Daring_Deeds",7,91,59,"prologue","LAURA","yay, thanks, marvel puzzle quest!",187.702,191.334,3.63200000000001,6,99.1189427312774,NA,"role_play","LAURA",1,0,0,0
@@ -103,7 +103,7 @@
 "102","Daring_Deeds",7,91,102,"prologue","MATT","and peggy, not happy to be there. perfect.",351.824,357.172,5.34800000000001,9,100.972326103216,NA,"role_play","MATT",0,0,0,1
 "103","Daring_Deeds",7,91,103,"prologue","MARISHA","and if you go to itunes, you can get the signal boost ringtone for your phone and it's pretty great. also, we have another surprise coming next week that i'm pretty stoked about, but you have to wait. no one probably cares. but i care.",357.172,371.274,14.102,48,204.226350872217,NA,"role_play","MARISHA",1,0,0,0
 "104","Daring_Deeds",7,91,104,"prologue","LAURA","i'm so excited!",371.274,372.464,1.19,5,252.100840336135,NA,"role_play","LAURA",1,0,0,0
-"105","Daring_Deeds",7,91,105,"prologue","MATT","i'm so excited! i'm so excited! i'm so scared! for those who don't know what that is, you're young.",372.464,384.29,11.826,25,126.839167935058,NA,"role_play","MATT",0,0,0,1
+"105","Daring_Deeds",7,91,105,"prologue","MATT","i'm so excited! i'm so excited! i'm so scared! for those who don't know what that is, you're young.",372.464,382.373,9.90899999999999,25,151.377535573721,NA,"role_play","MATT",0,0,0,1
 "106","Daring_Deeds",7,91,106,"prologue","TRAVIS","youtube it!",384.29,386.189,1.899,3,94.7867298578199,NA,"role_play","TRAVIS",1,0,0,0
 "107","Daring_Deeds",7,91,107,"prologue","MATT","all right. also, today was the episode of celebrid&d.",386.189,394.942,8.75299999999999,11,75.4027190677483,NA,"role_play","MATT",0,0,0,1
 "108","Daring_Deeds",7,91,108,"prologue","LAURA","oh yay!",394.942,395.756,0.813999999999965,3,221.130221130231,NA,"role_play","LAURA",1,0,0,0
@@ -142,7 +142,7 @@
 "141","Daring_Deeds",7,91,141,"first_half_rp","MARISHA","what?!",655.968,657.742,1.774,2,67.6437429537767,NA,"role_play","MARISHA",1,0,0,0
 "142","Daring_Deeds",7,91,142,"first_half_rp","TALIESIN","sorry, we're good. carry on.",657.742,659.63,1.88800000000003,7,222.45762711864,NA,"role_play","TALIESIN",1,0,0,0
 "143","Daring_Deeds",7,91,143,"first_half_rp","TRAVIS","perfect timing.",659.63,660.771,1.14099999999996,3,157.756354075378,NA,"role_play","TRAVIS",1,0,0,0
-"144","Daring_Deeds",7,91,144,"first_half_rp","LIAM","rehearsal paid off.",660.771,665.609,4.83800000000008,4,49.6072757337735,NA,"role_play","LIAM",1,0,0,0
+"144","Daring_Deeds",7,91,144,"first_half_rp","LIAM","rehearsal paid off.",660.771,661.857,1.08600000000001,4,220.994475138119,NA,"role_play","LIAM",1,0,0,0
 "145","Daring_Deeds",7,91,145,"first_half_rp","TALIESIN","don't feed them.",665.609,667.703,2.09399999999994,5,143.266475644703,NA,"role_play","TALIESIN",1,0,0,0
 "146","Daring_Deeds",7,91,146,"first_half_rp","MATT","after the crowning, the ceremony coming to a close, the evening's celebration kicks off and as the setting sun begins to darken the sky, the people of zephra are now bringing out foods and treats and cakes, and they're putting up ribbons of blue and white and gold on some of the nearby trees and doorways. and the folks of the air ashari tribe now are in the process of enjoying both the return of their people and the fact that there is now a clear head of leadership, and you guys are now surrounded, basking in the afterglow of the event as well as deciding with slow-rising tension what you have as the next step in your journey. so, what would you guys like to do?",667.703,714.826,47.123,131,166.797529868641,NA,"role_play","MATT",0,0,0,1
 "147","Daring_Deeds",7,91,147,"first_half_rp","TRAVIS","charge headlong into danger with no lessons having been learned from the previous sessions.",715.3,721.517,6.2170000000001,15,144.764355798614,NA,"role_play","TRAVIS",1,0,0,0
@@ -159,12 +159,12 @@
 "158","Daring_Deeds",7,91,158,"first_half_rp","LAURA","should we talk to your dad?",755.151,756.232,1.08100000000002,7,388.52913968547,NA,"role_play","LAURA",1,0,0,0
 "159","Daring_Deeds",7,91,159,"first_half_rp","MARISHA","i should maybe talk to dad.",756.232,757.484,1.25200000000007,7,335.463258785925,NA,"role_play","MARISHA",1,0,0,0
 "160","Daring_Deeds",7,91,160,"first_half_rp","LAURA","all right.",757.484,758.499,1.01499999999999,3,177.339901477835,NA,"role_play","LAURA",1,0,0,0
-"161","Daring_Deeds",7,91,161,"first_half_rp","MARISHA","yeah. i go talk to dad.",758.499,762.378,3.87900000000002,7,108.275328692962,NA,"role_play","MARISHA",1,0,0,0
+"161","Daring_Deeds",7,91,161,"first_half_rp","MARISHA","yeah. i go talk to dad.",758.499,760.155,1.65599999999995,7,253.623188405805,NA,"role_play","MARISHA",1,0,0,0
 "162","Daring_Deeds",7,91,162,"first_half_rp","MATT","okay. and wherever you walk now, because you have the mantle upon you and you have the cascading autumn-colored leaf cloak that flows behind you, it still seems very ceremonial in this jovial, party-based atmosphere. and as you move, you still can't help but notice that all eyes are on you at any given point in time. people seem generally excited that you've returned and that you've taken up this position. eventually you make your way off where you can see there are a handful of the older, the more elder members of the zephra tribe. they're around korren currently, who notices you approach and shushes them all for a moment, turns to you, ""ah, keyleth, my daughter. ""how can i help you?""",762.378,805.395,43.0169999999999,130,181.323662737988,NA,"role_play","MATT",0,0,0,1
 "163","Daring_Deeds",7,91,163,"first_half_rp","MARISHA","korren, i was wondering if i could have a word with you for a minute?",805.395,808.59,3.19500000000005,16,300.46948356807,NA,"role_play","MARISHA",1,0,0,0
 "164","Daring_Deeds",7,91,164,"first_half_rp","MATT","""of course. you do realise that you can still call me father. i mean, i know you're the ""leader, but""",808.59,817.048,8.45799999999997,23,163.159139276425,NA,"role_play","MATT",0,0,0,1
 "165","Daring_Deeds",7,91,165,"first_half_rp","MARISHA","can i? is that allowed? i don't really know.",817.048,820.068,3.01999999999998,11,218.543046357617,NA,"role_play","MARISHA",1,0,0,0
-"166","Daring_Deeds",7,91,166,"first_half_rp","MATT","he puts his hand up and puts his arm around your shoulder and guides you off away from the chaos of the celebration. you hear the whistling of music and flutes and thin tanner drums going off in the distance. and as it fades the further off you guys walk in the direction of the tree where the ceremony took place",820.068,839.949,19.881,61,184.095367436246,NA,"role_play","MATT",0,0,0,1
+"166","Daring_Deeds",7,91,166,"first_half_rp","MATT","he puts his hand up and puts his arm around your shoulder and guides you off away from the chaos of the celebration. you hear the whistling of music and flutes and thin tanner drums going off in the distance. and as it fades the further off you guys walk in the direction of the tree where the ceremony took place",820.068,838.459,18.391,61,199.010385514654,NA,"role_play","MATT",0,0,0,1
 "167","Daring_Deeds",7,91,167,"first_half_rp","MATT","""oh, sorry.""",839.949,841.256,1.30700000000002,4,183.626625860748,NA,"role_play","MATT",0,0,0,1
 "168","Daring_Deeds",7,91,168,"first_half_rp","MARISHA","you should fire that guy.",841.256,842.515,1.25900000000001,6,285.941223193007,NA,"role_play","MARISHA",1,0,0,0
 "169","Daring_Deeds",7,91,169,"first_half_rp","MATT","""i will.""",842.515,843.876,1.36099999999999,4,176.340925789862,NA,"role_play","MATT",0,0,0,1
@@ -178,7 +178,7 @@
 "177","Daring_Deeds",7,91,177,"first_half_rp","MATT","""you are the acting head of law, like i've been all this time. if there is conflict, if there ""is difficulty, if there is a challenge that presents itself, that requires the wisdom of a ""leader to step in""",880.322,899.073,18.751,42,134.392832382273,NA,"role_play","MATT",0,0,0,1
 "178","Daring_Deeds",7,91,178,"first_half_rp","MARISHA","right.",899.073,899.922,0.849000000000046,2,141.342756183738,NA,"role_play","MARISHA",1,0,0,0
 "179","Daring_Deeds",7,91,179,"first_half_rp","MATT","""that's when you're called upon.""",899.922,901.65,1.72799999999995,9,312.500000000009,NA,"role_play","MATT",0,0,0,1
-"180","Daring_Deeds",7,91,180,"first_half_rp","MARISHA","so, i'm confused. was the aramente my training to be a leader? you apparently prepared me as best as you could before i left, i don't know how well you all did. so i'm just wondering if i need to expect that again, is this just me figuring this out again? or do i have guidance?",901.65,937.911,36.261,60,99.2802184164806,NA,"role_play","MARISHA",1,0,0,0
+"180","Daring_Deeds",7,91,180,"first_half_rp","MARISHA","so, i'm confused. was the aramente my training to be a leader? you apparently prepared me as best as you could before i left, i don't know how well you all did . so i'm just wondering if i need to expect that again, is this just me figuring this out again? or do i have guidance?",901.65,937.911,36.261,60,99.2802184164806,NA,"role_play","MARISHA",1,0,0,0
 "181","Daring_Deeds",7,91,181,"first_half_rp","MATT","""the nature of the aramente is fluid. i have not taken it as i am not the leader. it is ""tradition and it is both, as far as i understand, a series of challenges and lessons tailored to ""whatever a person seems to be seeking or what you can draw from that, but also to interface with the ""other tribes and establish that connection between all the leaderships.""",937.911,967.31,29.399,70,142.862002108915,NA,"role_play","MATT",0,0,0,1
 "182","Daring_Deeds",7,91,182,"first_half_rp","MARISHA","i did that. you're right, you haven't taken it, but that's been about 5% of my journey, all of the lessons that i've learned have been in the in-between.",967.31,986.882,19.572,35,107.296137339056,NA,"role_play","MARISHA",1,0,0,0
 "183","Daring_Deeds",7,91,183,"first_half_rp","MATT","""that is part of the aramente itself.""",986.882,990.736,3.85400000000004,9,140.114167099116,NA,"role_play","MATT",0,0,0,1
@@ -217,9 +217,9 @@
 "216","Daring_Deeds",7,91,216,"first_half_rp","LIAM","you are full of shit.",1307.926,1308.873,0.947000000000116,6,380.147835269225,NA,"role_play","LIAM",1,0,0,0
 "217","Daring_Deeds",7,91,217,"first_half_rp","LAURA","no, i heard she was saying how much she admired you, and he was saying, ""er. i don't think ""i feel it as much,"" and she was like, ""no, really, dad, you just need a chance to really talk to him,"" and he was like, ""no, just believe me, i did talk to him, and i don't feel that way.""",1308.873,1322.401,13.528,63,279.420461265523,NA,"role_play","LAURA",1,0,0,0
 "218","Daring_Deeds",7,91,218,"first_half_rp","LIAM","yeah. yeah, i'm",1322.401,1323.747,1.346,4,178.306092124814,NA,"role_play","LIAM",1,0,0,0
-"219","Daring_Deeds",7,91,219,"first_half_rp","LAURA","and then she was like never mind.",1323.747,1328.182,4.43499999999995,8,108.229988726044,NA,"role_play","LAURA",1,0,0,0
+"219","Daring_Deeds",7,91,219,"first_half_rp","LAURA","and then she was like never mind.",1323.747,1325.621,1.87400000000002,8,256.136606189965,NA,"role_play","LAURA",1,0,0,0
 "220","Daring_Deeds",7,91,220,"first_half_rp","LIAM","i'm so glad i confide in you. i have you to lean on. you are the rock in my life. what would i do without you?",1328.182,1335.578,7.39599999999996,28,227.149810708492,NA,"role_play","LIAM",1,0,0,0
-"221","Daring_Deeds",7,91,221,"first_half_rp","LAURA","they actually said that, as well. they were talking about how amazing i am.",1335.578,1339.459,3.88100000000009,15,231.898995104349,NA,"role_play","LAURA",1,0,0,0
+"221","Daring_Deeds",7,91,221,"first_half_rp","LAURA","they actually said that, as well. they were talking about how amazing i am.",1335.578,1338.179,2.60100000000011,15,346.02076124566,NA,"role_play","LAURA",1,0,0,0
 "222","Daring_Deeds",7,91,222,"first_half_rp","LIAM","while she's talking i start to walk away, quietly as possible.",1339.459,1344.422,4.96299999999997,13,157.163006246223,NA,"role_play","LIAM",1,0,0,0
 "223","Daring_Deeds",7,91,223,"first_half_rp","TRAVIS","i'm so happy right now.",1346.692,1351.404,4.71199999999999,7,89.1341256366725,NA,"role_play","TRAVIS",1,0,0,0
 "224","Daring_Deeds",7,91,224,"first_half_rp","MARISHA","so good.",1351.459,1354.163,2.70399999999995,3,66.5680473372793,NA,"role_play","MARISHA",1,0,0,0
@@ -231,7 +231,7 @@
 "230","Daring_Deeds",7,91,230,"first_half_rp","TRAVIS","first things first.",1397.341,1398.587,1.24600000000009,4,192.616372391639,NA,"role_play","TRAVIS",1,0,0,0
 "231","Daring_Deeds",7,91,231,"first_half_rp","LAURA","first things first what, grog?",1398.587,1399.885,1.298,6,277.349768875192,NA,"role_play","LAURA",1,0,0,0
 "232","Daring_Deeds",7,91,232,"first_half_rp","TRAVIS","right.",1399.885,1400.819,0.933999999999969,2,128.479657387585,NA,"role_play","TRAVIS",1,0,0,0
-"233","Daring_Deeds",7,91,233,"first_half_rp","LIAM","squad leader.",1400.819,1404.154,3.33500000000004,3,53.9730134932528,NA,"role_play","LIAM",1,0,0,0
+"233","Daring_Deeds",7,91,233,"first_half_rp","LIAM","squad leader.",1400.819,1401.67,0.851000000000113,3,211.515863689749,NA,"role_play","LIAM",1,0,0,0
 "234","Daring_Deeds",7,91,234,"first_half_rp","TRAVIS","how do we get there?",1404.154,1405.64,1.4860000000001,6,242.2611036339,NA,"role_play","TRAVIS",1,0,0,0
 "235","Daring_Deeds",7,91,235,"first_half_rp","LAURA","oh, she's got plane shift, right?",1405.64,1406.867,1.22699999999986,8,391.198044009824,NA,"role_play","LAURA",1,0,0,0
 "236","Daring_Deeds",7,91,236,"first_half_rp","MARISHA","i can get us there.",1406.867,1407.737,0.870000000000118,6,413.79310344822,NA,"role_play","MARISHA",1,0,0,0
@@ -280,7 +280,7 @@
 "279","Daring_Deeds",7,91,279,"first_half_rp","TALIESIN","oh, my.",1576.972,1578.036,1.06400000000008,3,169.172932330815,NA,"role_play","TALIESIN",1,0,0,0
 "280","Daring_Deeds",7,91,280,"first_half_rp","MARISHA","these are a power surge in there.",1578.036,1579.71,1.67399999999998,8,286.738351254484,NA,"role_play","MARISHA",1,0,0,0
 "281","Daring_Deeds",7,91,281,"first_half_rp","LIAM","we talked all night and we squared it away and we're going to hell!",1579.71,1582.483,2.77299999999991,16,346.195456184649,NA,"role_play","LIAM",1,0,0,0
-"282","Daring_Deeds",7,91,282,"first_half_rp","MATT","you talked all through the night. no rest was had.",1582.483,1586.79,4.30700000000002,11,153.238913396795,NA,"role_play","MATT",0,0,0,1
+"282","Daring_Deeds",7,91,282,"first_half_rp","MATT","you talked all through the night. no rest was had.",1582.483,1584.412,1.92900000000009,11,342.146189735599,NA,"role_play","MATT",0,0,0,1
 "283","Daring_Deeds",7,91,283,"first_half_rp","MARISHA","it's very bright.",1586.79,1589.362,2.57200000000012,5,116.640746500772,NA,"role_play","MARISHA",1,0,0,0
 "284","Daring_Deeds",7,91,284,"first_half_rp","TALIESIN","we're going to be offered things there. there's going to be deals made.",1589.362,1594.657,5.29499999999985,16,181.303116147314,NA,"role_play","TALIESIN",1,0,0,0
 "285","Daring_Deeds",7,91,285,"first_half_rp","LIAM","so we're talking negotiation or bullshitting our way. one or the other",1594.657,1599.858,5.20100000000002,13,149.971159392424,NA,"role_play","LIAM",1,0,0,0
@@ -322,8 +322,8 @@
 "321","Daring_Deeds",7,91,321,"first_half_rp","MARISHA","like a muff.",1765.329,1766.09,0.760999999999967,4,315.374507227346,NA,"role_play","MARISHA",1,0,0,0
 "322","Daring_Deeds",7,91,322,"first_half_rp","LAURA","that we can wear over those gloves.",1766.09,1767.388,1.298,8,369.79969183359,NA,"role_play","LAURA",1,0,0,0
 "323","Daring_Deeds",7,91,323,"first_half_rp","TRAVIS","like a what?",1767.388,1768.29,0.902000000000044,4,266.075388026595,NA,"role_play","TRAVIS",1,0,0,0
-"324","Daring_Deeds",7,91,324,"first_half_rp","MARISHA","like a hand muff.",1768.29,1772.692,4.40200000000004,5,68.1508405270325,NA,"role_play","MARISHA",1,0,0,0
-"325","Daring_Deeds",7,91,325,"first_half_rp","TRAVIS","you're going to make me a special hand muff?",1772.692,1776.197,3.50499999999988,11,188.302425106996,NA,"role_play","TRAVIS",1,0,0,0
+"324","Daring_Deeds",7,91,324,"first_half_rp","MARISHA","like a hand muff.",1768.29,1769.698,1.40800000000013,5,213.068181818162,NA,"role_play","MARISHA",1,0,0,0
+"325","Daring_Deeds",7,91,325,"first_half_rp","TRAVIS","you're going to make me a special hand muff?",1772.692,1774.438,1.74600000000009,11,378.006872852213,NA,"role_play","TRAVIS",1,0,0,0
 "326","Daring_Deeds",7,91,326,"first_half_rp","MATT","taryon does pipe in, he's like",1776.197,1777.518,1.32100000000014,7,317.940953822828,NA,"role_play","MATT",0,0,0,1
 "327","Daring_Deeds",7,91,327,"first_half_rp","MARISHA","we could put little ears on, we can make it like a kitten!",1777.518,1778.938,1.42000000000007,14,591.549295774618,NA,"role_play","MARISHA",1,0,0,0
 "328","Daring_Deeds",7,91,328,"first_half_rp","MATT","""oh, but i've such fine handwriting! if we need to sign anything, just let me know. i'm happy to.""",1778.938,1781.867,2.92899999999986,23,471.150563332218,NA,"role_play","MATT",0,0,0,1
@@ -336,7 +336,7 @@
 "335","Daring_Deeds",7,91,335,"first_half_rp","MATT","""this is true!""",1789.613,1790.427,0.813999999999851,5,368.550368550436,NA,"role_play","MATT",0,0,0,1
 "336","Daring_Deeds",7,91,336,"first_half_rp","LAURA","yes. you can read them, but don't sign them. how about that?",1790.427,1793.995,3.56799999999998,14,235.426008968611,NA,"role_play","LAURA",1,0,0,0
 "337","Daring_Deeds",7,91,337,"first_half_rp","MATT","""how about if i read them and i like it?""",1793.995,1796.19,2.19500000000016,12,328.0182232346,NA,"role_play","MATT",0,0,0,1
-"338","Daring_Deeds",7,91,338,"first_half_rp","LAURA","no. no signing.",1796.19,1799.637,3.44699999999989,4,69.625761531769,NA,"role_play","LAURA",1,0,0,0
+"338","Daring_Deeds",7,91,338,"first_half_rp","LAURA","no. no signing.",1796.19,1797.378,1.18799999999987,4,202.020202020223,NA,"role_play","LAURA",1,0,0,0
 "339","Daring_Deeds",7,91,339,"first_half_rp","LAURA","unless you want to stay in hell.",1799.637,1801.708,2.07100000000014,8,231.772090777387,NA,"role_play","LAURA",1,0,0,0
 "340","Daring_Deeds",7,91,340,"first_half_rp","MATT","""agree to disagree.""",1801.708,1803.229,1.52099999999996,5,197.238658777126,NA,"role_play","MATT",0,0,0,1
 "341","Daring_Deeds",7,91,341,"first_half_rp","LAURA","and we come back here.",1803.229,1804.5,1.27099999999996,6,283.24154209285,NA,"role_play","LAURA",1,0,0,0
@@ -346,7 +346,7 @@
 "345","Daring_Deeds",7,91,345,"first_half_rp","MATT","he goes through his bag and pulls out the contract. ""i stand corrected.""",1810.284,1815.287,5.00299999999993,14,167.899260443736,NA,"role_play","MATT",0,0,0,1
 "346","Daring_Deeds",7,91,346,"first_half_rp","TALIESIN","i'm very thorough.",1815.287,1817.647,2.3599999999999,5,127.118644067802,NA,"role_play","TALIESIN",1,0,0,0
 "347","Daring_Deeds",7,91,347,"first_half_rp","LAURA","i don't even remember he signed a contract.",1817.647,1820.167,2.51999999999998,10,238.09523809524,NA,"role_play","LAURA",1,0,0,0
-"348","Daring_Deeds",7,91,348,"first_half_rp","MATT","""doty, write this down. be more careful about exclusivity in future contracts.""",1820.167,1826.282,6.11500000000001,14,137.367130008176,NA,"role_play","MATT",0,0,0,1
+"348","Daring_Deeds",7,91,348,"first_half_rp","MATT","""doty, write this down. be more careful about exclusivity in future contracts.""",1820.167,1823.74,3.57300000000009,14,235.096557514687,NA,"role_play","MATT",0,0,0,1
 "349","Daring_Deeds",7,91,349,"first_half_rp","TALIESIN","i don't think you were there. this might have been just him and me getting drunk at one point.",1826.287,1829.808,3.52099999999996,21,357.852882703782,NA,"role_play","TALIESIN",1,0,0,0
 "350","Daring_Deeds",7,91,350,"first_half_rp","TRAVIS","is there any worth to only a few people, or one or two, going in to get a lay of the land, once we get there? instead of just moving in our truffle-shuffle normal formation.",1829.808,1841.981,12.173,37,182.370820668693,NA,"role_play","TRAVIS",1,0,0,0
 "351","Daring_Deeds",7,91,351,"first_half_rp","LAURA","i feel like that could be very dangerous, for one person to go in alone.",1841.981,1848.121,6.1400000000001,16,156.351791530942,NA,"role_play","LAURA",1,0,0,0
@@ -376,18 +376,18 @@
 "375","Daring_Deeds",7,91,375,"first_half_rp","TALIESIN","in dis?",1951.965,1953.01,1.04500000000007,3,172.248803827739,NA,"role_play","TALIESIN",1,0,0,0
 "376","Daring_Deeds",7,91,376,"first_half_rp","MATT","well, that are built within the hells as their primary domain.",1953.01,1956.983,3.97299999999996,12,181.223256984648,NA,"role_play","MATT",0,0,0,1
 "377","Daring_Deeds",7,91,377,"first_half_rp","LIAM","percy, help me understand, since you've read so much about this.",1956.983,1962.314,5.33100000000013,13,146.314012380413,NA,"role_play","LIAM",1,0,0,0
-"378","Daring_Deeds",7,91,378,"first_half_rp","TALIESIN","yes. whole page.",1962.314,1967.031,4.71699999999987,4,50.8797964808155,NA,"role_play","TALIESIN",1,0,0,0
+"378","Daring_Deeds",7,91,378,"first_half_rp","TALIESIN","yes. whole page.",1962.314,1964.891,2.577,4,93.1315483119908,NA,"role_play","TALIESIN",1,0,0,0
 "379","Daring_Deeds",7,91,379,"first_half_rp","LIAM","good on you. so if the raven queen escorts souls if you're an absolute, terrible shit of a person and the raven queen escorts you over to the other side, we're going to be wandering amongst the souls of the damned? people who die go to where we're going?",1967.031,1985.809,18.778,53,169.347108318245,NA,"role_play","LIAM",1,0,0,0
 "380","Daring_Deeds",7,91,380,"first_half_rp","TALIESIN","if they're under contract, this is where they go.",1985.863,1988.616,2.75299999999993,11,239.738467126777,NA,"role_play","TALIESIN",1,0,0,0
 "381","Daring_Deeds",7,91,381,"first_half_rp","MATT","and many who sometimes aren't under contract go there as well.",1988.616,1991.605,2.98900000000003,13,260.956841753092,NA,"role_play","MATT",0,0,0,1
 "382","Daring_Deeds",7,91,382,"first_half_rp","LAURA","oh really?",1991.605,1992.74,1.13499999999999,3,158.590308370045,NA,"role_play","LAURA",1,0,0,0
 "383","Daring_Deeds",7,91,383,"first_half_rp","MATT","and you would know this, actually. the raven queen, as part of the laws of the cosmos that hold the various planes together, the raven queen does indeed escort good souls to the positive planes, the upper planes, and not-so-good souls to the lower ones.",1992.74,2009.534,16.7940000000001,48,171.489817792068,NA,"role_play","MATT",0,0,0,1
 "384","Daring_Deeds",7,91,384,"first_half_rp","LAURA","actually, i know that from reading a lot about the raven queen. i can answer that for you.",2009.534,2014.116,4.58199999999988,19,248.799650807514,NA,"role_play","LAURA",1,0,0,0
-"385","Daring_Deeds",7,91,385,"first_half_rp","TRAVIS","if you don't use a turn signal, if you have a vanity plate, you go to hell.",2014.116,2018.92,4.80400000000009,19,237.302248126557,NA,"role_play","TRAVIS",1,0,0,0
+"385","Daring_Deeds",7,91,385,"first_half_rp","TRAVIS","if you don't use a turn signal, if you have a vanity plate, you go to hell.",2014.116,2017.674,3.55799999999999,19,320.404721753795,NA,"role_play","TRAVIS",1,0,0,0
 "386","Daring_Deeds",7,91,386,"first_half_rp","LIAM","thank you. i know they get escorted to the other side. it just seems like an odd idea to be walking in a city full of the thrown-away. i'm talking to the air right now.",2018.92,2031.336,12.4159999999999,38,183.634020618558,NA,"role_play","LIAM",1,0,0,0
 "387","Daring_Deeds",7,91,387,"first_half_rp","TALIESIN","no, we're absolutely listening.",2031.336,2033.261,1.92499999999995,6,187.012987012991,NA,"role_play","TALIESIN",1,0,0,0
 "388","Daring_Deeds",7,91,388,"first_half_rp","LAURA","i'm sorry. keep going.",2033.261,2034.467,1.20600000000013,6,298.507462686535,NA,"role_play","LAURA",1,0,0,0
-"389","Daring_Deeds",7,91,389,"first_half_rp","LIAM","it was the best thing you never heard.",2034.467,2037.151,2.68399999999997,9,201.192250372581,NA,"role_play","LIAM",1,0,0,0
+"389","Daring_Deeds",7,91,389,"first_half_rp","LIAM","it was the best thing you never heard.",2034.467,2035.634,1.16699999999992,9,462.724935732681,NA,"role_play","LIAM",1,0,0,0
 "390","Daring_Deeds",7,91,390,"first_half_rp","TALIESIN","that changed the game forever.",2037.151,2038.6,1.44899999999984,6,248.447204968971,NA,"role_play","TALIESIN",1,0,0,0
 "391","Daring_Deeds",7,91,391,"first_half_rp","LIAM","i miss scanlan shorthalt so badly.",2038.6,2040.974,2.37400000000002,7,176.916596461666,NA,"role_play","LIAM",1,0,0,0
 "392","Daring_Deeds",7,91,392,"first_half_rp","MARISHA","because he listened to you so much more?",2040.974,2043.464,2.49000000000001,9,216.867469879517,NA,"role_play","MARISHA",1,0,0,0
@@ -404,8 +404,8 @@
 "403","Daring_Deeds",7,91,403,"first_half_rp","MATT","since?",2081.34,2082.547,1.20699999999988,2,99.4200497100347,NA,"role_play","MATT",0,0,0,1
 "404","Daring_Deeds",7,91,404,"first_half_rp","LIAM","since pike wasted his sorry ass.",2082.547,2085.606,3.0590000000002,7,137.299771167039,NA,"role_play","LIAM",1,0,0,0
 "405","Daring_Deeds",7,91,405,"first_half_rp","MATT","it's been, offhand, a couple of months.",2085.606,2091.406,5.79999999999973,9,93.1034482758665,NA,"role_play","MATT",0,0,0,1
-"406","Daring_Deeds",7,91,406,"first_half_rp","LIAM","a couple months. i mean, i don't think one more day is going to kill us, if we want to go get her. you know.",2091.406,2109.44,18.0340000000001,27,89.8303205057109,NA,"role_play","LIAM",1,0,0,0
-"407","Daring_Deeds",7,91,407,"first_half_rp","LAURA","that's difficult.",2109.44,2111.661,2.221,4,108.059432687978,NA,"role_play","LAURA",1,0,0,0
+"406","Daring_Deeds",7,91,406,"first_half_rp","LIAM","a couple months. i mean, i don't think one more day is going to kill us, if we want to go get her. you know.",2091.406,2105.925,14.5190000000002,27,111.577932364486,NA,"role_play","LIAM",1,0,0,0
+"407","Daring_Deeds",7,91,407,"first_half_rp","LAURA","that's difficult.",2109.44,2110.694,1.25399999999991,4,191.387559808627,NA,"role_play","LAURA",1,0,0,0
 "408","Daring_Deeds",7,91,408,"first_half_rp","TALIESIN","i know, i do bring it up, though, that it is one those things that we should talk about.",2111.661,2117.403,5.74199999999973,20,208.986415882977,NA,"role_play","TALIESIN",1,0,0,0
 "409","Daring_Deeds",7,91,409,"first_half_rp","LIAM","i mean, if the fates allow.",2117.403,2118.999,1.596,7,263.157894736842,NA,"role_play","LIAM",1,0,0,0
 "410","Daring_Deeds",7,91,410,"first_half_rp","MARISHA","yes. i feel like we would have to find someone to send message.",2118.999,2124.274,5.27500000000009,14,159.241706161135,NA,"role_play","MARISHA",1,0,0,0
@@ -421,7 +421,7 @@
 "420","Daring_Deeds",7,91,420,"first_half_rp","LAURA","no, it's ashley's character, though.",2141.745,2143.298,1.55299999999988,8,309.079201545419,NA,"role_play","LAURA",1,0,0,0
 "421","Daring_Deeds",7,91,421,"first_half_rp","MARISHA","i mean we kind of did",2143.298,2144.464,1.16600000000017,6,308.747855917623,NA,"role_play","MARISHA",1,0,0,0
 "422","Daring_Deeds",7,91,422,"first_half_rp","TRAVIS","pike, tary, what else?",2144.464,2146.055,1.59099999999989,5,188.560653676945,NA,"role_play","TRAVIS",1,0,0,0
-"423","Daring_Deeds",7,91,423,"first_half_rp","MATT","yeah, just throw all the npcs at me.",2146.055,2148.481,2.42600000000039,9,222.58862324811,NA,"role_play","MATT",0,0,0,1
+"423","Daring_Deeds",7,91,423,"first_half_rp","MATT","yeah, just throw all the npcs at me.",2146.055,2147.535,1.48000000000002,9,364.86486486486,NA,"role_play","MATT",0,0,0,1
 "424","Daring_Deeds",7,91,424,"first_half_rp","LIAM","it's not the thordak battle, there's not 87 miniatures on the board!",2148.481,2150.767,2.2859999999996,15,393.700787401643,NA,"role_play","LIAM",1,0,0,0
 "425","Daring_Deeds",7,91,425,"first_half_rp","LAURA","no, but i mean, it could be, we don't know.",2150.767,2153.364,2.59700000000021,12,277.24297266074,NA,"role_play","LAURA",1,0,0,0
 "426","Daring_Deeds",7,91,426,"first_half_rp","LIAM","all right, well, we're all going to die.",2153.364,2154.451,1.08699999999999,10,551.97792088317,NA,"role_play","LIAM",1,0,0,0
@@ -432,7 +432,7 @@
 "431","Daring_Deeds",7,91,431,"first_half_rp","MATT","you guys could jaeger her again.",2160.878,2162.114,1.23599999999988,7,339.805825242752,NA,"role_play","MATT",0,0,0,1
 "432","Daring_Deeds",7,91,432,"first_half_rp","TALIESIN","'cause it is one of those things that is pretty clutch down there.",2162.114,2163.611,1.49699999999984,15,601.202404809682,NA,"role_play","TALIESIN",1,0,0,0
 "433","Daring_Deeds",7,91,433,"first_half_rp","LIAM","not prepared, but we never are.",2163.611,2164.899,1.28800000000001,7,326.086956521736,NA,"role_play","LIAM",1,0,0,0
-"434","Daring_Deeds",7,91,434,"first_half_rp","TRAVIS","nope. so we kidnap the president.",2164.899,2170.867,5.9680000000003,7,70.3753351206399,NA,"role_play","TRAVIS",1,0,0,0
+"434","Daring_Deeds",7,91,434,"first_half_rp","TRAVIS","nope. so we kidnap the president.",2164.899,2169.146,4.2470000000003,7,98.8933364727974,NA,"role_play","TRAVIS",1,0,0,0
 "435","Daring_Deeds",7,91,435,"first_half_rp","LAURA","definitely. i'm liking it more.",2170.867,2172.95,2.08299999999963,7,201.632261161822,NA,"role_play","LAURA",1,0,0,0
 "436","Daring_Deeds",7,91,436,"first_half_rp","MARISHA","so, i'm curious, if rakshasas aren't necessarily part of the system, and this guy tends to come in and out and just make people's lives a living hell. hell! we're going! puns!",2172.95,2192.155,19.2050000000004,37,115.594897162195,NA,"role_play","MARISHA",1,0,0,0
 "437","Daring_Deeds",7,91,437,"first_half_rp","TRAVIS","good. slick.",2192.155,2193.669,1.51399999999967,3,118.890356671096,NA,"role_play","TRAVIS",1,0,0,0
@@ -473,7 +473,7 @@
 "472","Daring_Deeds",7,91,472,"first_half_rp","MATT","you don't know.",2299.49,2301.41,1.92000000000007,5,156.249999999994,NA,"role_play","MATT",0,0,0,1
 "473","Daring_Deeds",7,91,473,"first_half_rp","MARISHA","percy, are tieflings a thing in the city of dis?",2301.41,2304.532,3.1220000000003,11,211.402946828936,NA,"role_play","MARISHA",1,0,0,0
 "474","Daring_Deeds",7,91,474,"first_half_rp","TALIESIN","i don't know.",2304.532,2305.604,1.07199999999966,5,279.850746268745,NA,"role_play","TALIESIN",1,0,0,0
-"475","Daring_Deeds",7,91,475,"first_half_rp","MATT","ah, actually",2305.604,2307.897,2.29300000000012,2,52.333187963364,NA,"role_play","MATT",0,0,0,1
+"475","Daring_Deeds",7,91,475,"first_half_rp","MATT","ah, actually",2305.604,2306.64,1.03600000000006,2,115.830115830109,NA,"role_play","MATT",0,0,0,1
 "476","Daring_Deeds",7,91,476,"first_half_rp","TALIESIN","would i know? it's not on the page. you gave me one page.",2307.897,2309.249,1.35199999999986,15,665.680473372849,NA,"role_play","TALIESIN",1,0,0,0
 "477","Daring_Deeds",7,91,477,"first_half_rp","LIAM","if you just think for a second.",2309.249,2310.775,1.52600000000029,8,314.547837483557,NA,"role_play","LIAM",1,0,0,0
 "478","Daring_Deeds",7,91,478,"first_half_rp","MATT","i know, i know. well, before i gave you a basic structure and i am filling in the gaps as we go.",2310.775,2313.431,2.65599999999995,23,519.578313253022,NA,"role_play","MATT",0,0,0,1
@@ -721,7 +721,7 @@
 "720","Daring_Deeds",7,91,720,"first_half_rp","LAURA","i feel like grog's getting more",3111.267,3119.11,7.8430000000003,7,53.5509371413979,NA,"role_play","LAURA",1,0,0,0
 "721","Daring_Deeds",7,91,721,"first_half_rp","MARISHA","indignant?",3119.11,3121.69,2.57999999999993,2,46.5116279069781,NA,"role_play","MARISHA",1,0,0,0
 "722","Daring_Deeds",7,91,722,"first_half_rp","LAURA","i feel like you're lying more now than you used to.",3121.69,3124.216,2.52599999999984,13,308.788598574841,NA,"role_play","LAURA",1,0,0,0
-"723","Daring_Deeds",7,91,723,"first_half_rp","TRAVIS","that is not true.",3124.216,3131.36,7.14400000000023,5,41.9932810750266,NA,"role_play","TRAVIS",1,0,0,0
+"723","Daring_Deeds",7,91,723,"first_half_rp","TRAVIS","that is not true.",3124.216,3125.877,1.66100000000006,5,180.61408789885,NA,"role_play","TRAVIS",1,0,0,0
 "724","Daring_Deeds",7,91,724,"first_half_rp","LIAM","what do you want to do after this, grog? say we get back from hell. what's the next step for you? i mean, we're going to party, that's a given, but, like, are you done with the herd?",3131.36,3146.306,14.9459999999999,42,168.606985146528,NA,"role_play","LIAM",1,0,0,0
 "725","Daring_Deeds",7,91,725,"first_half_rp","TRAVIS","oh, i dunno, i never look that far ahead. it keeps disappointment low.",3146.306,3152.817,6.51099999999997,14,129.012440485333,NA,"role_play","TRAVIS",1,0,0,0
 "726","Daring_Deeds",7,91,726,"first_half_rp","MARISHA","no expectations. i like it.",3152.817,3155.085,2.26800000000003,6,158.730158730157,NA,"role_play","MARISHA",1,0,0,0
@@ -736,7 +736,7 @@
 "735","Daring_Deeds",7,91,735,"first_half_rp","TALIESIN","there were words in there.",3179.977,3182.305,2.32799999999997,6,154.639175257734,NA,"role_play","TALIESIN",1,0,0,0
 "736","Daring_Deeds",7,91,736,"first_half_rp","LAURA","i actually understood it. how fucked-up is that?",3182.305,3185.794,3.48900000000003,10,171.969045571795,NA,"role_play","LAURA",1,0,0,0
 "737","Daring_Deeds",7,91,737,"first_half_rp","TRAVIS","you don't need to see all the way to the horizon, right? you just gotta see right in front of your own little feet. you'll get there.",3185.794,3191.633,5.83899999999994,30,308.271964377465,NA,"role_play","TRAVIS",1,0,0,0
-"738","Daring_Deeds",7,91,738,"first_half_rp","LIAM","yeah. you remember that time a sword killed you?",3191.633,3198.28,6.64700000000039,10,90.2662855423446,NA,"role_play","LIAM",1,0,0,0
+"738","Daring_Deeds",7,91,738,"first_half_rp","LIAM","yeah. you remember that time a sword killed you?",3191.633,3195.006,3.37300000000005,10,177.883190038539,NA,"role_play","LIAM",1,0,0,0
 "739","Daring_Deeds",7,91,739,"first_half_rp","TRAVIS","yep.",3198.28,3199.207,0.92699999999968,2,129.449838187747,NA,"role_play","TRAVIS",1,0,0,0
 "740","Daring_Deeds",7,91,740,"first_half_rp","LIAM","you do, yeah. doesn't always work out. sometimes it gets cocked up, yeah?",3199.207,3202.971,3.76400000000012,15,239.107332624859,NA,"role_play","LIAM",1,0,0,0
 "741","Daring_Deeds",7,91,741,"first_half_rp","TRAVIS","not yet.",3202.971,3204.906,1.93499999999995,3,93.0232558139561,NA,"role_play","TRAVIS",1,0,0,0
@@ -782,8 +782,8 @@
 "781","Daring_Deeds",7,91,781,"first_half_rp","LAURA","do i get a jolly hat out of it?",3307.604,3309.283,1.67900000000009,10,357.355568790928,NA,"role_play","LAURA",1,0,0,0
 "782","Daring_Deeds",7,91,782,"first_half_rp","TALIESIN","where does she learn this stuff? i've never",3309.283,3310.582,1.29899999999998,9,415.704387990769,NA,"role_play","TALIESIN",1,0,0,0
 "783","Daring_Deeds",7,91,783,"first_half_rp","MARISHA","i learned it from you, percy!",3310.582,3313.663,3.08100000000013,7,136.3193768257,NA,"role_play","MARISHA",1,0,0,0
-"784","Daring_Deeds",7,91,784,"first_half_rp","TALIESIN","oh my god.",3313.663,3317.266,3.60300000000007,4,66.6111573688581,NA,"role_play","TALIESIN",1,0,0,0
-"785","Daring_Deeds",7,91,785,"first_half_rp","TRAVIS","""i learned it from you!""",3317.266,3322.389,5.12300000000005,7,81.9832129611548,NA,"role_play","TRAVIS",1,0,0,0
+"784","Daring_Deeds",7,91,784,"first_half_rp","TALIESIN","oh my god.",3313.663,3314.574,0.911000000000058,4,263.446761800203,NA,"role_play","TALIESIN",1,0,0,0
+"785","Daring_Deeds",7,91,785,"first_half_rp","TRAVIS","""i learned it from you!""",3317.266,3318.518,1.25199999999995,7,335.463258785955,NA,"role_play","TRAVIS",1,0,0,0
 "786","Daring_Deeds",7,91,786,"first_half_rp","TRAVIS","no guilt.",3322.389,3323.378,0.989000000000033,3,182.002022244686,NA,"role_play","TRAVIS",1,0,0,0
 "787","Daring_Deeds",7,91,787,"first_half_rp","TALIESIN","part of the grey hunt and this happens not every season, but often on winter's crest festivals, and again it is an official title and does actually carry with it some responsibilities beyond that, but they're very, very you, they'll be fine is, and i can't give too much of it away because part of the ritual is also",3323.378,3340.991,17.6129999999998,63,214.614205416456,NA,"role_play","TALIESIN",1,0,0,0
 "788","Daring_Deeds",7,91,788,"first_half_rp","MARISHA","oh my god! tell us something!",3340.991,3344.231,3.24000000000024,7,129.62962962962,NA,"role_play","MARISHA",1,0,0,0
@@ -834,14 +834,14 @@
 "833","Daring_Deeds",7,91,833,"first_half_rp","TALIESIN","it will be a string on a bell. you're learning so well.",3509.943,3512.908,2.96499999999969,14,283.305227656016,NA,"role_play","TALIESIN",1,0,0,0
 "834","Daring_Deeds",7,91,834,"first_half_rp","MARISHA","yeah, just two cups on a string.",3512.908,3514.683,1.77500000000009,8,270.422535211254,NA,"role_play","MARISHA",1,0,0,0
 "835","Daring_Deeds",7,91,835,"first_half_rp","LAURA","can we go to bed?",3514.683,3515.766,1.08300000000008,6,332.409972299143,NA,"role_play","LAURA",1,0,0,0
-"836","Daring_Deeds",7,91,836,"first_half_rp","MARISHA","yeah. let's do that.",3515.766,3518.795,3.029,6,118.85110597557,NA,"role_play","MARISHA",1,0,0,0
+"836","Daring_Deeds",7,91,836,"first_half_rp","MARISHA","yeah. let's do that.",3515.766,3516.876,1.11000000000013,6,324.324324324287,NA,"role_play","MARISHA",1,0,0,0
 "837","Daring_Deeds",7,91,837,"first_half_rp","TALIESIN","are we all sleeping in this hut, or do we have separate huts? we're all sleeping in this hut, aren't we?",3518.795,3524.092,5.29700000000003,24,271.85199169341,NA,"role_play","TALIESIN",1,0,0,0
 "838","Daring_Deeds",7,91,838,"first_half_rp","LIAM","welcome to your yurt.",3524.092,3525.597,1.50500000000011,5,199.335548172743,NA,"role_play","LIAM",1,0,0,0
 "839","Daring_Deeds",7,91,839,"first_half_rp","TRAVIS","is it all water outside still? like, a little bit of water on the ground? no. we're not there anymore.",3525.597,3530.805,5.20799999999963,22,253.456221198175,NA,"role_play","TRAVIS",1,0,0,0
 "840","Daring_Deeds",7,91,840,"first_half_rp","LAURA","it's windy. you're up on a cliff.",3530.805,3532.172,1.36700000000019,10,438.91733723476,NA,"role_play","LAURA",1,0,0,0
 "841","Daring_Deeds",7,91,841,"first_half_rp","MATT","grog is very drunk at this point.",3532.172,3533.273,1.10100000000011,8,435.967302452271,NA,"role_play","MATT",0,0,0,1
 "842","Daring_Deeds",7,91,842,"first_half_rp","LIAM","so drunk.",3533.273,3534.462,1.18899999999985,3,151.387720773778,NA,"role_play","LIAM",1,0,0,0
-"843","Daring_Deeds",7,91,843,"first_half_rp","TRAVIS","there's so much water outsi",3534.462,3538.265,3.80299999999988,6,94.6621088614281,NA,"role_play","TRAVIS",1,0,0,0
+"843","Daring_Deeds",7,91,843,"first_half_rp","TRAVIS","there's so much water outsi",3534.462,3535.692,1.23000000000002,6,292.682926829264,NA,"role_play","TRAVIS",1,0,0,0
 "844","Daring_Deeds",7,91,844,"first_half_rp","MATT","no, you guys do have separate places to stay. people clear out in clusters, you have your own locations to sleep.",3538.265,3546.701,8.43600000000015,22,156.472261735417,NA,"role_play","MATT",0,0,0,1
 "845","Daring_Deeds",7,91,845,"first_half_rp","LIAM","why does it smell like mayo?",3546.701,3548.462,1.76099999999997,7,238.500851788761,NA,"role_play","LIAM",1,0,0,0
 "846","Daring_Deeds",7,91,846,"first_half_rp","LAURA","that's gross.",3548.462,3550.221,1.75900000000001,4,136.441159749857,NA,"role_play","LAURA",1,0,0,0
@@ -849,12 +849,12 @@
 "848","Daring_Deeds",7,91,848,"first_half_rp","LIAM","it is mayo! take that!",3551.492,3553.59,2.09799999999996,6,171.591992373693,NA,"role_play","LIAM",1,0,0,0
 "849","Daring_Deeds",7,91,849,"first_half_rp","LAURA","he's just been drinking mayo.",3553.59,3555.829,2.23900000000003,7,187.583742742293,NA,"role_play","LAURA",1,0,0,0
 "850","Daring_Deeds",7,91,850,"first_half_rp","TRAVIS","takes a strong constitution.",3555.829,3557.758,1.92899999999963,5,155.5209953344,NA,"role_play","TRAVIS",1,0,0,0
-"851","Daring_Deeds",7,91,851,"first_half_rp","LIAM","that is vile!",3557.758,3561.512,3.75400000000036,4,63.9318060735154,NA,"role_play","LIAM",1,0,0,0
+"851","Daring_Deeds",7,91,851,"first_half_rp","LIAM","that is vile!",3557.758,3558.715,0.957000000000335,4,250.783699059473,NA,"role_play","LIAM",1,0,0,0
 "852","Daring_Deeds",7,91,852,"first_half_rp","TALIESIN","that's probably not kept well.",3561.512,3562.814,1.30199999999968,7,322.58064516137,NA,"role_play","TALIESIN",1,0,0,0
 "853","Daring_Deeds",7,91,853,"first_half_rp","LAURA","that's so gross. all right.",3562.814,3565.494,2.68000000000029,7,156.716417910431,NA,"role_play","LAURA",1,0,0,0
 "854","Daring_Deeds",7,91,854,"first_half_rp","TALIESIN","goodnight, lovely people.",3565.494,3566.985,1.49099999999999,4,160.965794768613,NA,"role_play","TALIESIN",1,0,0,0
-"855","Daring_Deeds",7,91,855,"first_half_rp","MATT","you guys rest for the evening. the morning comes, with your mayo hangover.",3566.985,3574.037,7.05199999999968,14,119.115144639824,NA,"role_play","MATT",0,0,0,1
-"856","Daring_Deeds",7,91,856,"first_half_rp","TRAVIS","it's so pure, it never leaves a hangover.",3574.037,3577.54,3.50300000000016,10,171.281758492713,NA,"role_play","TRAVIS",1,0,0,0
+"855","Daring_Deeds",7,91,855,"first_half_rp","MATT","you guys rest for the evening. the morning comes, with your mayo hangover.",3566.985,3571.304,4.31899999999996,14,194.489465153973,NA,"role_play","MATT",0,0,0,1
+"856","Daring_Deeds",7,91,856,"first_half_rp","TRAVIS","it's so pure, it never leaves a hangover.",3574.037,3575.509,1.47200000000021,10,407.608695652116,NA,"role_play","TRAVIS",1,0,0,0
 "857","Daring_Deeds",7,91,857,"first_half_rp","MATT","as morning comes around, you all come to consciousness. the village of zephra is already come to life. you can see that the townspeople are up and about, they're handling their business. the guard's being tended to. you can see the windriders are already out, leaping from mountain peak to mountain peak, doing their perimeters in the vicinity. the children are up and being led to their various outdoor classes. the city is alive, and your business is your own.",3577.54,3613.05,35.5100000000002,83,140.242185299915,NA,"role_play","MATT",0,0,0,1
 "858","Daring_Deeds",7,91,858,"first_half_rp","MARISHA","i get information on that gardener and where to find him. or them. or she. or he. i don't know who they are.",3613.567,3622.763,9.19599999999991,25,163.11439756416,NA,"role_play","MARISHA",1,0,0,0
 "859","Daring_Deeds",7,91,859,"first_half_rp","MATT","right. it's easy enough to find, in this city in particular a tiefling sticks out like a sore thumb. you see a woman, probably in her it's hard to tell with a tiefling, demon don't crack. but she's a little older, she's in her 40s probably. dark purple skin, the horns curl backward and come to almost a singular point behind",3622.763,3647.243,24.48,66,161.764705882353,NA,"role_play","MATT",0,0,0,1
@@ -898,7 +898,7 @@
 "897","Daring_Deeds",7,91,897,"first_half_rp","LIAM","it's like klingon.",3857.002,3857.74,0.737999999999829,5,406.504065040745,NA,"role_play","LIAM",1,0,0,0
 "898","Daring_Deeds",7,91,898,"first_half_rp","LAURA","yeah, it does. it sounds like klingon.",3857.74,3858.766,1.02600000000029,8,467.836257309807,NA,"role_play","LAURA",1,0,0,0
 "899","Daring_Deeds",7,91,899,"first_half_rp","MARISHA","okay, cool.",3858.766,3860.957,2.1909999999998,3,82.1542674577892,NA,"role_play","MARISHA",1,0,0,0
-"900","Daring_Deeds",7,91,900,"first_half_rp","LAURA","emphasis on ""thok"".",3860.957,3863.406,2.44900000000007,4,97.9991833401361,NA,"role_play","LAURA",1,0,0,0
+"900","Daring_Deeds",7,91,900,"first_half_rp","LAURA","emphasis on ""thok"".",3860.957,3862.174,1.2170000000001,4,197.206244864405,NA,"role_play","LAURA",1,0,0,0
 "901","Daring_Deeds",7,91,901,"first_half_rp","MARISHA","kuthok. you're right.",3863.406,3865.377,1.971,5,152.20700152207,NA,"role_play","MARISHA",1,0,0,0
 "902","Daring_Deeds",7,91,902,"first_half_rp","MATT","""there's, goodbye is very similar. kuthrek.""",3865.377,3874.732,9.35500000000002,9,57.723142704436,NA,"role_play","MATT",0,0,0,1
 "903","Daring_Deeds",7,91,903,"first_half_rp","MARISHA","kuthrek.",3874.732,3876.111,1.37899999999991,2,87.0195794053722,NA,"role_play","MARISHA",1,0,0,0
@@ -935,10 +935,10 @@
 "934","Daring_Deeds",7,91,934,"first_half_rp","LAURA","yai equals yes.",3989.141,3991.071,1.92999999999984,4,124.352331606228,NA,"role_play","LAURA",1,0,0,0
 "935","Daring_Deeds",7,91,935,"first_half_rp","TRAVIS","ai.",3991.071,3992.031,0.960000000000036,2,124.999999999995,NA,"role_play","TRAVIS",1,0,0,0
 "936","Daring_Deeds",7,91,936,"first_half_rp","MARISHA","yai.",3992.031,3992.935,0.903999999999996,2,132.743362831859,NA,"role_play","MARISHA",1,0,0,0
-"937","Daring_Deeds",7,91,937,"first_half_rp","LAURA","nai. nern.",3992.935,3997.656,4.721,3,38.1275153569159,NA,"role_play","LAURA",1,0,0,0
+"937","Daring_Deeds",7,91,937,"first_half_rp","LAURA","nai. nern.",3992.935,3995.801,2.86599999999999,3,62.8053035589675,NA,"role_play","LAURA",1,0,0,0
 "938","Daring_Deeds",7,91,938,"first_half_rp","TRAVIS","she's not even waiting for it.",3997.656,3999.682,2.02599999999984,8,236.920039486692,NA,"role_play","TRAVIS",1,0,0,0
 "939","Daring_Deeds",7,91,939,"first_half_rp","LIAM","ermahgerd.",3999.682,4001.406,1.72400000000016,2,69.6055684454692,NA,"role_play","LIAM",1,0,0,0
-"940","Daring_Deeds",7,91,940,"first_half_rp","MATT","sure, that's it now, guys.",4001.406,4003.983,2.57700000000023,7,162.980209545969,NA,"role_play","MATT",0,0,0,1
+"940","Daring_Deeds",7,91,940,"first_half_rp","MATT","sure, that's it now, guys.",4001.406,4002.856,1.45000000000027,7,289.655172413739,NA,"role_play","MATT",0,0,0,1
 "941","Daring_Deeds",7,91,941,"first_half_rp","TALIESIN","no! no! damn it liam!",4003.983,4005.365,1.38199999999961,6,260.492040521058,NA,"role_play","TALIESIN",1,0,0,0
 "942","Daring_Deeds",7,91,942,"first_half_rp","MARISHA","fuck! shut up! shut up!",4005.365,4006.83,1.46500000000015,6,245.73378839588,NA,"role_play","MARISHA",1,0,0,0
 "943","Daring_Deeds",7,91,943,"first_half_rp","LAURA","no, not 'ermahgerd'!",4006.83,4007.939,1.10899999999992,4,216.411181244379,NA,"role_play","LAURA",1,0,0,0
@@ -951,10 +951,10 @@
 "950","Daring_Deeds",7,91,950,"first_half_rp","TALIESIN","ermahgerd. i hate you.",4014.304,4016.289,1.98500000000013,5,151.133501259436,NA,"role_play","TALIESIN",1,0,0,0
 "951","Daring_Deeds",7,91,951,"first_half_rp","LAURA","that's canon.",4016.289,4017.401,1.11199999999963,4,215.827338129569,NA,"role_play","LAURA",1,0,0,0
 "952","Daring_Deeds",7,91,952,"first_half_rp","TALIESIN","it's going in the book.",4017.401,4019.217,1.81600000000026,7,231.277533039615,NA,"role_play","TALIESIN",1,0,0,0
-"953","Daring_Deeds",7,91,953,"first_half_rp","LIAM","what's that, mr. disco? who do you hate?",4019.217,4026.462,7.24499999999989,10,82.8157349896493,NA,"role_play","LIAM",1,0,0,0
+"953","Daring_Deeds",7,91,953,"first_half_rp","LIAM","what's that, mr. disco? who do you hate?",4019.217,4022.494,3.27700000000004,10,183.094293561182,NA,"role_play","LIAM",1,0,0,0
 "954","Daring_Deeds",7,91,954,"first_half_rp","LAURA","thanks a lot, liam!",4026.462,4028.342,1.88000000000011,5,159.574468085097,NA,"role_play","LAURA",1,0,0,0
 "955","Daring_Deeds",7,91,955,"first_half_rp","TALIESIN","you and she of the so-called ""tempest"" can both",4028.342,4030.083,1.74099999999999,10,344.629523262496,NA,"role_play","TALIESIN",1,0,0,0
-"956","Daring_Deeds",7,91,956,"first_half_rp","LIAM","you're welcome.",4030.083,4032.491,2.4079999999999,4,99.6677740863828,NA,"role_play","LIAM",1,0,0,0
+"956","Daring_Deeds",7,91,956,"first_half_rp","LIAM","you're welcome.",4030.083,4031.211,1.1279999999997,4,212.765957446865,NA,"role_play","LIAM",1,0,0,0
 "957","Daring_Deeds",7,91,957,"first_half_rp","TRAVIS","brilliant. you're not going to ask her any questions? but she's a fuckin' felon on the run from the hells. you're just going to let her go",4032.491,4038.905,6.41400000000021,30,280.636108512619,NA,"role_play","TRAVIS",1,0,0,0
 "958","Daring_Deeds",7,91,958,"first_half_rp","MARISHA","she's not a felon on the run. i've known her since i was a child.",4038.905,4043.327,4.42200000000003,18,244.233378561735,NA,"role_play","MARISHA",1,0,0,0
 "959","Daring_Deeds",7,91,959,"first_half_rp","TRAVIS","no, you're a fool. you're blind.",4043.327,4044.554,1.22699999999986,9,440.097799511052,NA,"role_play","TRAVIS",1,0,0,0
@@ -981,7 +981,7 @@
 "980","Daring_Deeds",7,91,980,"first_half_rp","LIAM","well that's a bit of a complicated phrase for someone who barely knows how to say 'hi' and 'bye.' woman who's not here.",4095.498,4101.112,5.61400000000003,26,277.876736729603,NA,"role_play","LIAM",1,0,0,0
 "981","Daring_Deeds",7,91,981,"first_half_rp","LAURA","ermahgerd.",4101.112,4102.026,0.91399999999976,2,131.291028446424,NA,"role_play","LAURA",1,0,0,0
 "982","Daring_Deeds",7,91,982,"first_half_rp","MARISHA","thank you so much for us interrupting your morning. is there anything you'd like from me in return?",4102.026,4107.206,5.18000000000029,20,231.660231660219,NA,"role_play","MARISHA",1,0,0,0
-"983","Daring_Deeds",7,91,983,"first_half_rp","MATT","""just leave me to my gardening, if that's okay.""",4107.206,4112.743,5.53700000000026,12,130.034314610794,NA,"role_play","MATT",0,0,0,1
+"983","Daring_Deeds",7,91,983,"first_half_rp","MATT","""just leave me to my gardening, if that's okay.""",4107.206,4109.657,2.45100000000002,12,293.757649938798,NA,"role_play","MATT",0,0,0,1
 "984","Daring_Deeds",7,91,984,"first_half_rp","LIAM","yeah, we can be annoying sometimes. we understand.",4112.743,4115.926,3.18299999999999,9,169.651272384543,NA,"role_play","LIAM",1,0,0,0
 "985","Daring_Deeds",7,91,985,"first_half_rp","TRAVIS","she's got more people to bury.",4115.926,4118.083,2.15699999999924,8,222.531293463221,NA,"role_play","TRAVIS",1,0,0,0
 "986","Daring_Deeds",7,91,986,"first_half_rp","MARISHA","great to see you. see you again.",4118.083,4121.429,3.34600000000046,8,143.454871488325,NA,"role_play","MARISHA",1,0,0,0
@@ -1003,7 +1003,7 @@
 "1002","Daring_Deeds",7,91,1002,"first_half_rp","LAURA","what is it?",4158.136,4159.271,1.13499999999931,4,211.453744493521,NA,"role_play","LAURA",1,0,0,0
 "1003","Daring_Deeds",7,91,1003,"first_half_rp","LIAM","mordor.",4159.271,4162.948,3.67700000000059,2,32.6353005167204,NA,"role_play","LIAM",1,0,0,0
 "1004","Daring_Deeds",7,91,1004,"first_half_rp","MATT","yeah, you got to roll it.",4162.948,4164.692,1.74399999999969,7,240.825688073438,NA,"role_play","MATT",0,0,0,1
-"1005","Daring_Deeds",7,91,1005,"first_half_rp","MARISHA","rounded vowels.",4164.692,4172.653,7.96100000000024,3,22.6102248461242,NA,"role_play","MARISHA",1,0,0,0
+"1005","Daring_Deeds",7,91,1005,"first_half_rp","MARISHA","rounded vowels.",4164.692,4166.618,1.92600000000039,3,93.4579439252149,NA,"role_play","MARISHA",1,0,0,0
 "1006","Daring_Deeds",7,91,1006,"first_half_rp","MATT","we've all suffered through those pronunciations.",4172.724,4174.983,2.25900000000001,8,212.483399734394,NA,"role_play","MATT",0,0,0,1
 "1007","Daring_Deeds",7,91,1007,"first_half_rp","LIAM","inside baseball.",4175.035,4176.283,1.2480000000005,3,144.230769230711,NA,"role_play","LIAM",1,0,0,0
 "1008","Daring_Deeds",7,91,1008,"first_half_rp","TRAVIS","make it the last word in a four-sentence line.",4176.283,4178.297,2.01399999999921,11,327.70605759695,NA,"role_play","TRAVIS",1,0,0,0
@@ -1035,7 +1035,7 @@
 "1034","Daring_Deeds",7,91,1034,"first_half_rp","MATT","yai.",4242.64,4243.761,1.12100000000009,2,107.047279214978,NA,"role_play","MATT",0,0,0,1
 "1035","Daring_Deeds",7,91,1035,"first_half_rp","LAURA","it's like 'yay', only kind of weird.",4243.761,4247.894,4.13299999999981,9,130.655698040171,NA,"role_play","LAURA",1,0,0,0
 "1036","Daring_Deeds",7,91,1036,"first_half_rp","MATT","yai.",4247.894,4250.55,2.65599999999995,2,45.1807228915671,NA,"role_play","MATT",0,0,0,1
-"1037","Daring_Deeds",7,91,1037,"first_half_rp","MATT","so excited for this.",4250.55,4253.644,3.09400000000005,5,96.9618616677424,NA,"role_play","MATT",0,0,0,1
+"1037","Daring_Deeds",7,91,1037,"first_half_rp","MATT","so excited for this.",4250.55,4252.058,1.50799999999981,5,198.938992042465,NA,"role_play","MATT",0,0,0,1
 "1038","Daring_Deeds",7,91,1038,"first_half_rp","LIAM","i'm not.",4253.644,4254.621,0.976999999999862,4,245.649948822962,NA,"role_play","LIAM",1,0,0,0
 "1039","Daring_Deeds",7,91,1039,"first_half_rp","TALIESIN","hate you.",4254.621,4255.844,1.22299999999996,3,147.179067865909,NA,"role_play","TALIESIN",1,0,0,0
 "1040","Daring_Deeds",7,91,1040,"first_half_rp","MARISHA","no is ermahgerd.",4255.844,4258.228,2.38400000000001,4,100.671140939597,NA,"role_play","MARISHA",1,0,0,0
@@ -1043,7 +1043,7 @@
 "1042","Daring_Deeds",7,91,1042,"first_half_rp","MARISHA","it's impressive that no is the most complicated one. i know.",4262.466,4269.959,7.49299999999948,13,104.097157346864,NA,"role_play","MARISHA",1,0,0,0
 "1043","Daring_Deeds",7,91,1043,"first_half_rp","TALIESIN","so how do you say, 'do you speak common?'",4269.959,4273.714,3.75500000000011,10,159.786950732352,NA,"role_play","TALIESIN",1,0,0,0
 "1044","Daring_Deeds",7,91,1044,"first_half_rp","LAURA","i think probably, 'do you speak common?'",4273.714,4276.364,2.64999999999964,8,181.132075471723,NA,"role_play","LAURA",1,0,0,0
-"1045","Daring_Deeds",7,91,1045,"first_half_rp","TALIESIN","oh, well, that's fair.",4276.364,4279.681,3.31700000000001,6,108.531805848658,NA,"role_play","TALIESIN",1,0,0,0
+"1045","Daring_Deeds",7,91,1045,"first_half_rp","TALIESIN","oh, well, that's fair.",4276.364,4277.758,1.39400000000023,6,258.249641319899,NA,"role_play","TALIESIN",1,0,0,0
 "1046","Daring_Deeds",7,91,1046,"first_half_rp","TRAVIS","that's it? that's all you got?",4279.681,4280.994,1.3130000000001,9,411.271896420379,NA,"role_play","TRAVIS",1,0,0,0
 "1047","Daring_Deeds",7,91,1047,"first_half_rp","TALIESIN","it's remarkable.",4280.994,4282.067,1.07300000000032,4,223.671947809812,NA,"role_play","TALIESIN",1,0,0,0
 "1048","Daring_Deeds",7,91,1048,"first_half_rp","MARISHA","she didn't remember a whole lot. she's been living amongst us for quite a while. in fact, she never lived in the nine hells, because apparently that was maybe vaguely offensive?",4282.067,4290.924,8.85699999999997,34,230.326295585413,NA,"role_play","MARISHA",1,0,0,0
@@ -1067,7 +1067,7 @@
 "1066","Daring_Deeds",7,91,1066,"first_half_rp","LAURA","it's the nine fucking hells, nobody says please and thank you.",4325.183,4327.709,2.52599999999984,13,308.788598574841,NA,"role_play","LAURA",1,0,0,0
 "1067","Daring_Deeds",7,91,1067,"first_half_rp","MARISHA","yeah, they're not very polite.",4327.769,4329.157,1.38799999999992,7,302.593659942381,NA,"role_play","MARISHA",1,0,0,0
 "1068","Daring_Deeds",7,91,1068,"first_half_rp","TALIESIN","so 'yes' and 'no' get you through an awful lot.",4329.157,4330.325,1.16799999999967,11,565.068493150847,NA,"role_play","TALIESIN",1,0,0,0
-"1069","Daring_Deeds",7,91,1069,"first_half_rp","LIAM","if a horrible devil is bearing down on you to kill you, you just say 'ermahgerd, ermahgerd, ermahgerd, ermahgerd, ermahgerd, ermahgerd.'",4330.325,4337.108,6.78300000000036,22,194.604157452444,NA,"role_play","LIAM",1,0,0,0
+"1069","Daring_Deeds",7,91,1069,"first_half_rp","LIAM","if a horrible devil is bearing down on you to kill you, you just say 'ermahgerd, ermahgerd, ermahgerd, ermahgerd, ermahgerd, ermahgerd.'",4330.325,4334.837,4.51200000000063,22,292.553191489321,NA,"role_play","LIAM",1,0,0,0
 "1070","Daring_Deeds",7,91,1070,"first_half_rp","MARISHA","it's like the equivalent of the shia leboeuf 'nanananana!'",4337.108,4339.288,2.17999999999938,11,302.752293578068,NA,"role_play","MARISHA",1,0,0,0
 "1071","Daring_Deeds",7,91,1071,"first_half_rp","TRAVIS","nononono!",4339.288,4340.445,1.15700000000015,2,103.716508210877,NA,"role_play","TRAVIS",1,0,0,0
 "1072","Daring_Deeds",7,91,1072,"first_half_rp","MARISHA","nananana no.",4340.445,4342.382,1.9369999999999,3,92.9272070211716,NA,"role_play","MARISHA",1,0,0,0
@@ -1157,7 +1157,7 @@
 "1156","Daring_Deeds",7,91,1156,"break","MATT","back here in a few minutes, and we'll pick up where we left off. see you guys shortly.",4868.888,4873.051,4.16300000000047,20,288.253663223605,NA,NA,"MATT",0,0,0,1
 "1157","Daring_Deeds",7,91,1157,"break","TRAVIS","holy shit! [break]",4873.051,5853.836,980.785,4,0.244701947929465,NA,NA,"TRAVIS",1,0,0,0
 "1158","Daring_Deeds",7,91,1158,"break","MATT","welcome back. so, first, before it begins, our winner of the chatroom who's going to win the awesome dice box from wyrmwood is thaign, t-h-a-i-g-n.",5853.895,5864.61,10.7149999999992,32,179.188054129737,NA,NA,"MATT",0,0,0,1
-"1159","Daring_Deeds",7,91,1159,"break","TALIESIN","thaign.",5864.777,5866.783,2.00600000000031,2,59.8205383848361,NA,NA,"TALIESIN",1,0,0,0
+"1159","Daring_Deeds",7,91,1159,"break","TALIESIN","thaign.",5864.777,5865.5,0.722999999999956,2,165.97510373445,NA,NA,"TALIESIN",1,0,0,0
 "1160","Daring_Deeds",7,91,1160,"break","MATT","so congratulations, we'll get your information and get that sent to you, well done.",5866.783,5869.831,3.04799999999977,16,314.960629921283,NA,NA,"MATT",0,0,0,1
 "1161","Daring_Deeds",7,91,1161,"break","LAURA","fight!",5869.831,5870.946,1.11499999999978,2,107.623318385671,NA,NA,"LAURA",1,0,0,0
 "1162","Daring_Deeds",7,91,1162,"break","TRAVIS","the box is really sweet, we just saw it.",5870.946,5872.512,1.5659999999998,10,383.141762452155,NA,NA,"TRAVIS",1,0,0,0
@@ -1444,7 +1444,7 @@
 "1443","Daring_Deeds",7,91,1443,"second_half_rp","TALIESIN","in that case, i'm going to find a lemure and inquire sternly of directions.",7130.265,7138.465,8.19999999999982,16,117.07317073171,NA,"role_play","TALIESIN",1,0,0,0
 "1444","Daring_Deeds",7,91,1444,"second_half_rp","MATT","okay.",7138.465,7140.134,1.66899999999987,2,71.8993409227138,NA,"role_play","MATT",0,0,0,1
 "1445","Daring_Deeds",7,91,1445,"second_half_rp","MARISHA","sternly?",7140.134,7142.294,2.15999999999985,2,55.5555555555593,NA,"role_play","MARISHA",1,0,0,0
-"1446","Daring_Deeds",7,91,1446,"second_half_rp","MATT","as you're walking, you see there are three of them currently that are chained together with two of these weird black, jagged spiked collar and midsection bands that are jammed into their sides and they're all joined and the hooks and the chains are screwed into the side of this building. they do not appear to be currently attended at the moment. and, as you approach one is there like.",7142.294,7172.313,30.0190000000002,73,145.907591858489,NA,"role_play","MATT",0,0,0,1
+"1446","Daring_Deeds",7,91,1446,"second_half_rp","MATT","as you're walking, you see there are three of them currently that are chained together with two of these weird black, jagged spiked collar and midsection bands that are jammed into their sides and they're all joined and the hooks and the chains are screwed into the side of this building. they do not appear to be currently attended at the moment. and, as you approach one is there like .",7142.294,7172.313,30.0190000000002,73,145.907591858489,NA,"role_play","MATT",0,0,0,1
 "1447","Daring_Deeds",7,91,1447,"second_half_rp","TALIESIN","kuthok.",7172.313,7175.64,3.32700000000023,2,36.0685302073916,NA,"role_play","TALIESIN",1,0,0,0
 "1448","Daring_Deeds",7,91,1448,"second_half_rp","TALIESIN","marketplace.",7180.287,7182.039,1.7519999999995,2,68.4931506849511,NA,"role_play","TALIESIN",1,0,0,0
 "1449","Daring_Deeds",7,91,1449,"second_half_rp","TALIESIN","point.",7184.439,7186.337,1.89800000000014,2,63.224446786086,NA,"role_play","TALIESIN",1,0,0,0
@@ -1598,7 +1598,7 @@
 "1597","Daring_Deeds",7,91,1597,"second_half_rp","LAURA","i make eye contact with the woman as i say it.",8304.491,8306.938,2.44700000000012,12,294.237842255809,NA,"role_play","LAURA",1,0,0,0
 "1598","Daring_Deeds",7,91,1598,"second_half_rp","MATT","make a subtle deception check. they are intensely paranoid, it seems.",8306.938,8316.76,9.82200000000012,12,73.3048259010376,NA,"role_play","MATT",0,0,0,1
 "1599","Daring_Deeds",7,91,1599,"second_half_rp","LAURA","30 no, 20 21.",8316.76,8322.037,5.27700000000004,5,56.850483229107,NA,"role_play","LAURA",1,0,0,0
-"1600","Daring_Deeds",7,91,1600,"second_half_rp","MATT","she stands there, and keeps watching you. the guy who was pulling the cage stops, turns around and looks. you can see the chain swing and dangle for a second before coming to a stop as he glances back, his eyes iris-less. just dark pupils with white around them. and he just not a snarl, but a very intense stare, he doesn't seem to be put at ease, but he's definitely paying attention.",8322.037,8353.651,31.6139999999996,77,146.137787056369,NA,"role_play","MATT",0,0,0,1
+"1600","Daring_Deeds",7,91,1600,"second_half_rp","MATT","she stands there, and keeps watching you. the guy who was pulling the cage stops, turns around and looks. you can see the chain swing and dangle for a second before coming to a stop as he glances back, his eyes iris-less. just dark pupils with white around them. and he just not a snarl, but a very intense stare, he doesn't seem to be put at ease, but he's definitely paying attention.",8322.037,8352.386,30.3490000000002,77,152.22906850308,NA,"role_play","MATT",0,0,0,1
 "1601","Daring_Deeds",7,91,1601,"second_half_rp","LAURA","can i help you?",8353.651,8355.056,1.40500000000065,5,213.523131672498,NA,"role_play","LAURA",1,0,0,0
 "1602","Daring_Deeds",7,91,1602,"second_half_rp","MATT","as he silences his cell phone. ""i'm sorry, what?""",8355.056,8363.828,8.77199999999903,11,75.2393980848237,NA,"role_play","MATT",0,0,0,1
 "1603","Daring_Deeds",7,91,1603,"second_half_rp","LAURA","you were staring at me, darling.",8364.08,8367.45,3.3700000000008,7,124.629080118665,NA,"role_play","LAURA",1,0,0,0
@@ -1709,7 +1709,7 @@
 "1708","Daring_Deeds",7,91,1708,"second_half_rp","TALIESIN","i go stepping inside the tavern.",9223.341,9225.039,1.69800000000032,7,247.349823321508,NA,"role_play","TALIESIN",1,0,0,0
 "1709","Daring_Deeds",7,91,1709,"second_half_rp","MARISHA","i slip inside as well.",9225.039,9227.24,2.20099999999911,6,163.562017264946,NA,"role_play","MARISHA",1,0,0,0
 "1710","Daring_Deeds",7,91,1710,"second_half_rp","MATT","okay, as you guys, and taryon follows suit. ""ah, doty, do whatever he does."" he points to grog. doty steps next to you.",9227.24,9239.668,12.4279999999999,24,115.867396202125,NA,"role_play","MATT",0,0,0,1
-"1711","Daring_Deeds",7,91,1711,"second_half_rp","LIAM","what a setup.",9239.668,9248.172,8.50400000000081,4,28.2220131702701,NA,"role_play","LIAM",1,0,0,0
+"1711","Daring_Deeds",7,91,1711,"second_half_rp","LIAM","what a setup.",9239.668,9241.969,2.30099999999948,4,104.302477183857,NA,"role_play","LIAM",1,0,0,0
 "1712","Daring_Deeds",7,91,1712,"second_half_rp","MATT","as you guys enter, the low-burning, orangish-red glow of the interior shows you a slab slate floor. across you see tables that are carved from similar deep obsidian bedrock-type material. the edges of them almost hook upward, and within the inside, you can see a handful of these similar spined devils, that you've seen as part of that procession earlier with the pit fiend, are sitting and ravenously feasting on some nondescript purplish-red meat. you can see the tables, actually, are almost like troughs, and the center of it seems to be almost a funnel, where all the blood and gore that is",9256.781,9301.565,44.7839999999997,108,144.694533762059,NA,"role_play","MATT",0,0,0,1
 "1713","Daring_Deeds",7,91,1713,"second_half_rp","LAURA","ohh",9301.565,9303.101,1.53600000000006,2,78.124999999997,NA,"role_play","LAURA",1,0,0,0
 "1714","Daring_Deeds",7,91,1714,"second_half_rp","MATT","sent out from the viscera that slurps past their toothy maw, is gathered and then siphoned down below.",9303.101,9310.936,7.83499999999913,19,145.500957243156,NA,"role_play","MATT",0,0,0,1
@@ -1736,7 +1736,7 @@
 "1735","Daring_Deeds",7,91,1735,"second_half_rp","MARISHA","ermahgerd. ermahgerd?",9463.453,9467.183,3.73000000000138,3,48.2573726541376,NA,"role_play","MARISHA",1,0,0,0
 "1736","Daring_Deeds",7,91,1736,"second_half_rp","TALIESIN","ermahgod.",9467.183,9468.615,1.43199999999888,2,83.7988826816298,NA,"role_play","TALIESIN",1,0,0,0
 "1737","Daring_Deeds",7,91,1737,"second_half_rp","MARISHA","ermahgerd.",9468.615,9469.837,1.22199999999975,2,98.1996726677777,NA,"role_play","MARISHA",1,0,0,0
-"1738","Daring_Deeds",7,91,1738,"second_half_rp","MATT","as you say that, the devilish entity that was sitting at the table slowly turns its head over towards her",9469.837,9482.454,12.6170000000002,20,95.1097725291259,NA,"role_play","MATT",0,0,0,1
+"1738","Daring_Deeds",7,91,1738,"second_half_rp","MATT","as you say that, the devilish entity that was sitting at the table slowly turns its head over towards her",9469.837,9478.841,9.00400000000081,20,133.27410039981,NA,"role_play","MATT",0,0,0,1
 "1739","Daring_Deeds",7,91,1739,"second_half_rp","MATT","and has now taken an interest in this group that has entered",9482.454,9486.095,3.64099999999962,12,197.747871463904,NA,"role_play","MATT",0,0,0,1
 "1740","Daring_Deeds",7,91,1740,"second_half_rp","TRAVIS","slick!",9486.095,9486.956,0.861000000000786,2,139.372822299524,NA,"role_play","TRAVIS",1,0,0,0
 "1741","Daring_Deeds",7,91,1741,"second_half_rp","MATT","sipping his wine.",9486.956,9488.445,1.48899999999958,4,161.182001343229,NA,"role_play","MATT",0,0,0,1
@@ -1805,7 +1805,7 @@
 "1804","Daring_Deeds",7,91,1804,"second_half_rp","MATT","keyleth, you feel a sudden rush",9903.51,9906.274,2.76399999999921,6,130.246020260529,NA,"role_play","MATT",0,0,0,1
 "1805","Daring_Deeds",7,91,1805,"second_half_rp","TRAVIS","of course!",9906.274,9908.199,1.92500000000109,3,93.5064935064405,NA,"role_play","TRAVIS",1,0,0,0
 "1806","Daring_Deeds",7,91,1806,"second_half_rp","MATT","an unexpected rush of energy. your vision clarifies",9908.199,9912.042,3.84299999999894,8,124.902419984422,NA,"role_play","MATT",0,0,0,1
-"1807","Daring_Deeds",7,91,1807,"second_half_rp","LIAM","give it to keyleth, she'll try anything!",9912.042,9915.338,3.29600000000028,9,163.834951456297,NA,"role_play","LIAM",1,0,0,0
+"1807","Daring_Deeds",7,91,1807,"second_half_rp","LIAM","give it to keyleth, she'll try anything!",9912.042,9913.837,1.79500000000007,9,300.835654596088,NA,"role_play","LIAM",1,0,0,0
 "1808","Daring_Deeds",7,91,1808,"second_half_rp","LAURA","you ate a soul, keyleth?!",9915.338,9917.188,1.85000000000036,6,194.594594594556,NA,"role_play","LAURA",1,0,0,0
 "1809","Daring_Deeds",7,91,1809,"second_half_rp","TALIESIN","that had a name! that had a life, that had a mortgage.",9917.188,9921.062,3.8739999999998,13,201.342281879205,NA,"role_play","TALIESIN",1,0,0,0
 "1810","Daring_Deeds",7,91,1810,"second_half_rp","LAURA","oh my god!",9921.062,9923.779,2.71700000000055,4,88.3327199116493,NA,"role_play","LAURA",1,0,0,0
@@ -1900,7 +1900,7 @@
 "1899","Daring_Deeds",7,91,1899,"second_half_rp","TALIESIN","sustained.",10294.724,10295.948,1.22400000000016,2,98.0392156862617,NA,"role_play","TALIESIN",1,0,0,0
 "1900","Daring_Deeds",7,91,1900,"second_half_rp","MATT","sustained. i mean, as far you understand, and from what you experienced there, any sort of hunger pains that would have existed there seem to have been staved off, and there is a",10295.948,10308.68,12.732,33,155.513666352498,NA,"role_play","MATT",0,0,0,1
 "1901","Daring_Deeds",7,91,1901,"second_half_rp","TALIESIN","it's literally soylent.",10308.68,10310.995,2.31500000000051,5,129.589632829345,NA,"role_play","TALIESIN",1,0,0,0
-"1902","Daring_Deeds",7,91,1902,"second_half_rp","MARISHA","that's really messed up, because now i'm hungry.",10310.995,10315.244,4.2489999999998,11,155.330666039075,NA,"role_play","MARISHA",1,0,0,0
+"1902","Daring_Deeds",7,91,1902,"second_half_rp","MARISHA","that's really messed up, because now i'm hungry.",10310.995,10312.962,1.96699999999873,11,335.536349771441,NA,"role_play","MARISHA",1,0,0,0
 "1903","Daring_Deeds",7,91,1903,"second_half_rp","MARISHA","it's very hollow sustenance, i'm really hungry now.",10315.244,10318.246,3.00199999999859,11,219.853431046073,NA,"role_play","MARISHA",1,0,0,0
 "1904","Daring_Deeds",7,91,1904,"second_half_rp","LAURA","well, we're about to have a heroes' feast.",10318.246,10319.903,1.65700000000106,10,362.100181049858,NA,"role_play","LAURA",1,0,0,0
 "1905","Daring_Deeds",7,91,1905,"second_half_rp","MARISHA","oh boy.",10319.903,10321.265,1.36199999999917,3,132.158590308451,NA,"role_play","MARISHA",1,0,0,0
@@ -1939,7 +1939,7 @@
 "1938","Daring_Deeds",7,91,1938,"second_half_rp","MATT","it's my favourite board game.",10411.507,10413.07,1.5630000000001,7,268.714011516297,NA,"role_play","MATT",0,0,0,1
 "1939","Daring_Deeds",7,91,1939,"second_half_rp","MATT","don't. touch. doty!",10413.07,10416.346,3.27599999999984,5,91.5750915750961,NA,"role_play","MATT",0,0,0,1
 "1940","Daring_Deeds",7,91,1940,"second_half_rp","MATT","waiting for it.",10416.346,10418.332,1.98600000000079,4,120.845921450103,NA,"role_play","MATT",0,0,0,1
-"1941","Daring_Deeds",7,91,1941,"second_half_rp","LIAM","seems like a catholic school game.",10418.332,10424.303,5.97099999999955,7,70.3399765533465,NA,"role_play","LIAM",1,0,0,0
+"1941","Daring_Deeds",7,91,1941,"second_half_rp","LIAM","seems like a catholic school game.",10418.332,10421.622,3.28999999999905,7,127.659574468122,NA,"role_play","LIAM",1,0,0,0
 "1942","Daring_Deeds",7,91,1942,"second_half_rp","MATT","all right, so, what are you doing?",10424.303,10427.108,2.80500000000029,8,171.122994652389,NA,"role_play","MATT",0,0,0,1
 "1943","Daring_Deeds",7,91,1943,"second_half_rp","TRAVIS","oh my god.",10427.108,10428.45,1.34200000000055,4,178.837555886663,NA,"role_play","TRAVIS",1,0,0,0
 "1944","Daring_Deeds",7,91,1944,"second_half_rp","LAURA","oh no. we're going to scry on hotis.",10428.45,10432.006,3.55599999999868,10,168.728908886452,NA,"role_play","LAURA",1,0,0,0
@@ -2106,7 +2106,7 @@
 "2105","Daring_Deeds",7,91,2105,"second_half_rp","MATT","""of taryon darrington!""",11139.357,11140.819,1.46199999999953,5,205.198358413198,NA,"role_play","MATT",0,0,0,1
 "2106","Daring_Deeds",7,91,2106,"second_half_rp","MARISHA","of tary everybody, to taryon darrington!",11140.819,11145.114,4.29500000000007,7,97.7881257275886,NA,"role_play","MARISHA",1,0,0,0
 "2107","Daring_Deeds",7,91,2107,"second_half_rp","MATT","""to me!""",11145.114,11148.045,2.93100000000049,4,81.8833162742953,NA,"role_play","MATT",0,0,0,1
-"2108","Daring_Deeds",7,91,2108,"second_half_rp","MARISHA","and with that, i do inspiring leader, my newest feat since i'm a leader.",11148.045,11162.581,14.5360000000001,16,66.0429279031368,NA,"role_play","MARISHA",1,0,0,0
+"2108","Daring_Deeds",7,91,2108,"second_half_rp","MARISHA","and with that, i do inspiring leader, my newest feat since i'm a leader.",11148.045,11159.857,11.8119999999999,16,81.2732814087376,NA,"role_play","MARISHA",1,0,0,0
 "2109","Daring_Deeds",7,91,2109,"second_half_rp","TALIESIN","what voice is this?",11162.581,11164.486,1.90500000000065,5,157.480314960576,NA,"role_play","TALIESIN",1,0,0,0
 "2110","Daring_Deeds",7,91,2110,"second_half_rp","MARISHA","mine.",11164.486,11166.193,1.70699999999852,2,70.2987697715901,NA,"role_play","MARISHA",1,0,0,0
 "2111","Daring_Deeds",7,91,2111,"second_half_rp","TALIESIN","this is your ""leader"" voice.",11166.193,11168.825,2.63200000000143,6,136.778115501446,NA,"role_play","TALIESIN",1,0,0,0
@@ -2125,11 +2125,11 @@
 "2124","Daring_Deeds",7,91,2124,"second_half_rp","LIAM","because it's in the spellbook.",11218.502,11219.795,1.29299999999967,7,324.82598607897,NA,"role_play","LIAM",1,0,0,0
 "2125","Daring_Deeds",7,91,2125,"second_half_rp","LAURA","i don't feel inspired.",11219.795,11221.311,1.51599999999962,6,237.467018469716,NA,"role_play","LAURA",1,0,0,0
 "2126","Daring_Deeds",7,91,2126,"second_half_rp","MARISHA","well, because i would hope that with my, you know, tary's golden locks of flowing hair and with my very impressive cape that i got, you know, for touring the world. like a frequent flyer card.",11221.311,11237.1,15.7890000000007,38,144.404332129958,NA,"role_play","MARISHA",1,0,0,0
-"2127","Daring_Deeds",7,91,2127,"second_half_rp","MATT","we'll say for the purposes of this, taryon got 17 temporary hit points.",11237.1,11243.576,6.47599999999875,15,138.974675725783,NA,"role_play","MATT",0,0,0,1
+"2127","Daring_Deeds",7,91,2127,"second_half_rp","MATT","we'll say for the purposes of this, taryon got 17 temporary hit points.",11237.1,11242.262,5.16200000000026,15,174.351026733815,NA,"role_play","MATT",0,0,0,1
 "2128","Daring_Deeds",7,91,2128,"second_half_rp","MARISHA","what?! no! you know what, vex, i'm still, i'm still practicing.",11243.576,11249.865,6.28900000000067,14,133.566544760679,NA,"role_play","MARISHA",1,0,0,0
 "2129","Daring_Deeds",7,91,2129,"second_half_rp","LAURA","you know what? it's getting there. next time, share the compliments, make all of us feel cool.",11249.938,11255.989,6.05099999999948,19,188.398611799719,NA,"role_play","LAURA",1,0,0,0
-"2130","Daring_Deeds",7,91,2130,"second_half_rp","LIAM","and all this while, vax has been staring at taryon and imagining him with exactly half a beard.",11256.153,11265.168,9.01499999999942,19,126.455906821972,NA,"role_play","LIAM",1,0,0,0
-"2131","Daring_Deeds",7,91,2131,"second_half_rp","MATT","while taryon notices you staring intently and she's giving this inspiring speech about how amazing he is taryon looks over at you and goes, ""she's hitting on me.""",11265.168,11275.1,9.9320000000007,31,187.273459524755,NA,"role_play","MATT",0,0,0,1
+"2130","Daring_Deeds",7,91,2130,"second_half_rp","LIAM","and all this while, vax has been staring at taryon and imagining him with exactly half a beard.",11256.153,11261.584,5.43100000000049,19,209.906094641852,NA,"role_play","LIAM",1,0,0,0
+"2131","Daring_Deeds",7,91,2131,"second_half_rp","MATT","while taryon notices you staring intently and she's giving this inspiring speech about how amazing he is taryon looks over at you and goes, ""she's hitting on me.""",11265.168,11273.948,8.78000000000065,31,211.845102505679,NA,"role_play","MATT",0,0,0,1
 "2132","Daring_Deeds",7,91,2132,"second_half_rp","MARISHA","with his belt that is bejeweled and his very bedazzled pauldrons and his",11275.1,11280.585,5.48499999999876,13,142.206016408419,NA,"role_play","MARISHA",1,0,0,0
 "2133","Daring_Deeds",7,91,2133,"second_half_rp","LAURA","so over this part.",11280.585,11283.4,2.81500000000051,5,106.571936056819,NA,"role_play","LAURA",1,0,0,0
 "2134","Daring_Deeds",7,91,2134,"second_half_rp","MARISHA","very, very manicured cuticles. and i don't know what else to say for ten minutes about tary.",11283.4,11289.784,6.38400000000001,19,178.571428571428,NA,"role_play","MARISHA",1,0,0,0
@@ -2154,7 +2154,7 @@
 "2153","Daring_Deeds",7,91,2153,"second_half_rp","LAURA","i feel like we should just fucking try to do something.",11344.639,11346.831,2.19200000000092,12,328.467153284534,NA,"role_play","LAURA",1,0,0,0
 "2154","Daring_Deeds",7,91,2154,"second_half_rp","TRAVIS","yeah, so if we've got to find our way to some sort of prison, two options. get arrested. or ask people where people go who get arrested, which seems really fishy and stupid.",11346.831,11360.147,13.3160000000007,35,157.705016521469,NA,"role_play","TRAVIS",1,0,0,0
 "2155","Daring_Deeds",7,91,2155,"second_half_rp","MARISHA","it seemed like it was underground, almost spanning this entire city. we could possibly try and find a back entrance. i don't know.",11360.147,11370.633,10.485999999999,25,143.047873354964,NA,"role_play","MARISHA",1,0,0,0
-"2156","Daring_Deeds",7,91,2156,"second_half_rp","LIAM","we need to talk to somebody. just talk to somebody. we can walk around for another two hours and wait until somebody gets the heebie-jeebies from us and fucks us up. or we can talk to somebody. i'm going to talk to somebody.",11370.633,11384.802,14.1689999999999,46,194.791446114759,NA,"role_play","LIAM",1,0,0,0
+"2156","Daring_Deeds",7,91,2156,"second_half_rp","LIAM","we need to talk to somebody. just talk to somebody. we can walk around for another two hours and wait until somebody gets the heebie-jeebies from us and fucks us up. or we can talk to somebody. i'm going to talk to somebody.",11370.633,11383.141,12.5079999999998,46,220.658778381839,NA,"role_play","LIAM",1,0,0,0
 "2157","Daring_Deeds",7,91,2157,"second_half_rp","LAURA","well, there's the owner downstairs, the creepy guy.",11384.802,11386.56,1.75799999999981,10,341.296928327682,NA,"role_play","LAURA",1,0,0,0
 "2158","Daring_Deeds",7,91,2158,"second_half_rp","LIAM","i've already left the room.",11386.56,11387.543,0.983000000000175,7,427.263479145397,NA,"role_play","LIAM",1,0,0,0
 "2159","Daring_Deeds",7,91,2159,"second_half_rp","LAURA","oh, jesus.",11387.543,11388.72,1.17699999999968,3,152.931180968606,NA,"role_play","LAURA",1,0,0,0
@@ -2168,7 +2168,7 @@
 "2167","Daring_Deeds",7,91,2167,"second_half_rp","LIAM","i do a quick u-turn.",11399.477,11400.64,1.16299999999865,7,361.134995701194,NA,"role_play","LIAM",1,0,0,0
 "2168","Daring_Deeds",7,91,2168,"second_half_rp","TALIESIN","all right, we grab him, drag him back in.",11400.64,11402.882,2.24200000000019,10,267.618198037444,NA,"role_play","TALIESIN",1,0,0,0
 "2169","Daring_Deeds",7,91,2169,"second_half_rp","LAURA","oh god.",11402.882,11404,1.11800000000039,3,161.001788908709,NA,"role_play","LAURA",1,0,0,0
-"2170","Daring_Deeds",7,91,2170,"second_half_rp","MATT","at which, as tary goes, ""all right, doty. let him through,"" as you leave, doty kind of moves away from the door and lets you by. as he bends forward with kind of the taut gesture of bowing as you pass by, you see his entire back is glowing bright red.",11404,11419.442,15.4419999999991,52,202.046367050912,NA,"role_play","MATT",0,0,0,1
+"2170","Daring_Deeds",7,91,2170,"second_half_rp","MATT","at which, as tary goes, ""all right, doty. let him through,"" as you leave, doty kind of moves away from the door and lets you by. as he bends forward with kind of the taut gesture of bowing as you pass by, you see his entire back is glowing bright red.",11404,11417.92,13.9200000000001,52,224.137931034482,NA,"role_play","MATT",0,0,0,1
 "2171","Daring_Deeds",7,91,2171,"second_half_rp","LAURA","tary, can he heat up to the point that he doesn't work any more?",11419.442,11423.588,4.14600000000064,16,231.548480463061,NA,"role_play","LAURA",1,0,0,0
 "2172","Daring_Deeds",7,91,2172,"second_half_rp","MATT","""i hope not. probably not. i'm going to say not.""",11423.588,11429.928,6.34000000000015,13,123.02839116719,NA,"role_play","MATT",0,0,0,1
 "2173","Daring_Deeds",7,91,2173,"second_half_rp","LAURA","you made him, after all. you would know.",11429.928,11432.767,2.83899999999994,9,190.207819654812,NA,"role_play","LAURA",1,0,0,0
@@ -2247,7 +2247,7 @@
 "2246","Daring_Deeds",7,91,2246,"second_half_rp","LIAM","he just",11706.814,11709.039,2.22500000000036,2,53.9325842696541,NA,"role_play","LIAM",1,0,0,0
 "2247","Daring_Deeds",7,91,2247,"second_half_rp","TALIESIN","and we head down.",11709.039,11712.025,2.98599999999897,5,100.468854655092,NA,"role_play","TALIESIN",1,0,0,0
 "2248","Daring_Deeds",7,91,2248,"second_half_rp","LAURA","did he really? did you take soul?",11712.025,11714.256,2.23099999999977,8,215.150156880345,NA,"role_play","LAURA",1,0,0,0
-"2249","Daring_Deeds",7,91,2249,"second_half_rp","TRAVIS","he did! he's so causal, he was like,",11714.256,11719.181,4.92500000000109,10,121.827411167486,NA,"role_play","TRAVIS",1,0,0,0
+"2249","Daring_Deeds",7,91,2249,"second_half_rp","TRAVIS","he did! he's so causal, he was like,",11714.256,11718.009,3.75300000000061,10,159.872102318119,NA,"role_play","TRAVIS",1,0,0,0
 "2250","Daring_Deeds",7,91,2250,"second_half_rp","TALIESIN","let's do this. sucked it down like an oyster.",11719.181,11721.254,2.07300000000032,11,318.379160636709,NA,"role_play","TALIESIN",1,0,0,0
 "2251","Daring_Deeds",7,91,2251,"second_half_rp","MATT","and as the rush hits you, you take a step and pause for a moment, because the rush is strong and familiar. it's similar to the sensation and the rush you had when you took a life with the pepperbox when orthax was still holding sway.",11721.254,11739.765,18.5109999999986,48,155.583166765719,NA,"role_play","MATT",0,0,0,1
 "2252","Daring_Deeds",7,91,2252,"second_half_rp","TALIESIN","huh.",11739.765,11740.737,0.971999999999753,2,123.456790123488,NA,"role_play","TALIESIN",1,0,0,0
@@ -2284,7 +2284,7 @@
 "2283","Daring_Deeds",7,91,2283,"second_half_rp","TALIESIN","i would be curious, i would hate to be indebted to you at this point, but i would be very curious to try whatever it is that you consider to be your personal stash.",11918.186,11928.835,10.6489999999994,35,197.201615175144,NA,"role_play","TALIESIN",1,0,0,0
 "2284","Daring_Deeds",7,91,2284,"second_half_rp","MATT","""i would prefer you indebted to me.""",11928.835,11931.186,2.35100000000057,9,229.689493832356,NA,"role_play","MATT",0,0,0,1
 "2285","Daring_Deeds",7,91,2285,"second_half_rp","MARISHA","jesus.",11931.186,11933.308,2.12200000000121,2,56.5504241281488,NA,"role_play","MARISHA",1,0,0,0
-"2286","Daring_Deeds",7,91,2286,"second_half_rp","MATT","and he lifts a finger and the gentleman at the far edge of the bar stirs, "" oh, right."" and chris farleys his pants a bit.",11933.308,11948.592,15.2839999999997,26,102.067521591209,NA,"role_play","MATT",0,0,0,1
+"2286","Daring_Deeds",7,91,2286,"second_half_rp","MATT","and he lifts a finger and the gentleman at the far edge of the bar stirs, "" oh, right."" and chris farleys his pants a bit.",11933.308,11946.386,13.0779999999995,26,119.284294234597,NA,"role_play","MATT",0,0,0,1
 "2287","Daring_Deeds",7,91,2287,"second_half_rp","MATT","comes over with two similar goblets and places them on the table, and steps back to the corner. the gentleman takes the bottle and fills them both, kind of finishing the last bit he had in grog's chalice, and sets it to the side.",11948.592,11966.955,18.3629999999994,46,150.302238196378,NA,"role_play","MATT",0,0,0,1
 "2288","Daring_Deeds",7,91,2288,"second_half_rp","TALIESIN","what may i call you?",11966.955,11970.684,3.72899999999936,6,96.5406275140954,NA,"role_play","TALIESIN",1,0,0,0
 "2289","Daring_Deeds",7,91,2289,"second_half_rp","MATT","""you may call me ipkesh. what may i call you?""",11970.684,11977.281,6.59700000000157,12,109.140518417436,NA,"role_play","MATT",0,0,0,1
@@ -2292,7 +2292,7 @@
 "2291","Daring_Deeds",7,91,2291,"second_half_rp","MATT","""freddie?""",11980.981,11982.417,1.43599999999969,3,125.348189415068,NA,"role_play","MATT",0,0,0,1
 "2292","Daring_Deeds",7,91,2292,"second_half_rp","TRAVIS","greg.",11982.417,11984.048,1.63100000000122,2,73.5744941752974,NA,"role_play","TRAVIS",1,0,0,0
 "2293","Daring_Deeds",7,91,2293,"second_half_rp","MATT","""freddie and greg?"" god damn it!",11984.048,11993.367,9.31899999999951,8,51.5076724970518,NA,"role_play","MATT",0,0,0,1
-"2294","Daring_Deeds",7,91,2294,"second_half_rp","TALIESIN","broke the dm, ten points. boom!",11993.367,11996.406,3.03900000000067,7,138.203356367196,NA,"role_play","TALIESIN",1,0,0,0
+"2294","Daring_Deeds",7,91,2294,"second_half_rp","TALIESIN","broke the dm, ten points. boom!",11993.367,11994.78,1.41300000000047,7,297.239915074212,NA,"role_play","TALIESIN",1,0,0,0
 "2295","Daring_Deeds",7,91,2295,"second_half_rp","TALIESIN","fuck souls, that's a rush.",11996.406,12002.032,5.62599999999838,7,74.65339495203,NA,"role_play","TALIESIN",1,0,0,0
 "2296","Daring_Deeds",7,91,2296,"second_half_rp","LIAM","two points for gryffindor.",12002.032,12004.463,2.43100000000049,5,123.406005758922,NA,"role_play","LIAM",1,0,0,0
 "2297","Daring_Deeds",7,91,2297,"second_half_rp","MARISHA","oh man, buddy cop, go!",12004.463,12010.916,6.45299999999952,6,55.7880055788047,NA,"role_play","MARISHA",1,0,0,0
@@ -2365,7 +2365,7 @@
 "2364","Daring_Deeds",7,91,2364,"second_half_rp","TRAVIS","no, no, it's you and me down here.",12790.88,12792.513,1.63300000000163,10,367.42192284103,NA,"role_play","TRAVIS",1,0,0,0
 "2365","Daring_Deeds",7,91,2365,"second_half_rp","TALIESIN","no, we're going up.",12792.513,12794.134,1.62099999999919,6,222.085132634288,NA,"role_play","TALIESIN",1,0,0,0
 "2366","Daring_Deeds",7,91,2366,"second_half_rp","TRAVIS","if you want your glasses back, we decide here and now.",12794.134,12799.314,5.18000000000029,12,138.996138996131,NA,"role_play","TRAVIS",1,0,0,0
-"2367","Daring_Deeds",7,91,2367,"second_half_rp","TALIESIN","that's fair. let's head upstairs.",12799.314,12804.286,4.97199999999975,8,96.5406275140836,NA,"role_play","TALIESIN",1,0,0,0
+"2367","Daring_Deeds",7,91,2367,"second_half_rp","TALIESIN","that's fair. let's head upstairs.",12799.314,12801.82,2.5059999999994,8,191.540303272192,NA,"role_play","TALIESIN",1,0,0,0
 "2368","Daring_Deeds",7,91,2368,"second_half_rp","TRAVIS","damn it!",12804.286,12807.01,2.72400000000016,3,66.0792951541811,NA,"role_play","TRAVIS",1,0,0,0
 "2369","Daring_Deeds",7,91,2369,"second_half_rp","TALIESIN","we head up.",12807.01,12812.24,5.22999999999956,4,45.889101338436,NA,"role_play","TALIESIN",1,0,0,0
 "2370","Daring_Deeds",7,91,2370,"second_half_rp","LAURA","how'd it go?",12812.24,12814.31,2.06999999999971,5,144.927536231904,NA,"role_play","LAURA",1,0,0,0
@@ -2733,7 +2733,7 @@
 "2732","Daring_Deeds",7,91,2732,"second_half_rp","TRAVIS","do it.",14020.819,14021.594,0.774999999999636,3,232.258064516238,NA,"role_play","TRAVIS",1,0,0,0
 "2733","Daring_Deeds",7,91,2733,"second_half_rp","MARISHA","no one? all right, i'm going to go do a quick pass.",14021.594,14025.861,4.26700000000164,14,196.859620342085,NA,"role_play","MARISHA",1,0,0,0
 "2734","Daring_Deeds",7,91,2734,"second_half_rp","LIAM","oh, gosh. be careful.",14025.861,14027.837,1.97599999999875,5,151.821862348274,NA,"role_play","LIAM",1,0,0,0
-"2735","Daring_Deeds",7,91,2735,"second_half_rp","TRAVIS","have that backup character ready.",14027.907,14031.119,3.21200000000135,6,112.07970112075,NA,"role_play","TRAVIS",1,0,0,0
+"2735","Daring_Deeds",7,91,2735,"second_half_rp","TRAVIS","have that backup character ready.",14027.907,14029.56,1.65300000000025,6,217.785843920113,NA,"role_play","TRAVIS",1,0,0,0
 "2736","Daring_Deeds",7,91,2736,"second_half_rp","LAURA","she becomes leader of the ashari and dies as soon as she gets to hell.",14031.119,14034.727,3.60800000000017,16,266.075388026595,NA,"role_play","LAURA",1,0,0,0
 "2737","Daring_Deeds",7,91,2737,"second_half_rp","TALIESIN","one day.",14034.903,14035.625,0.721999999999753,3,249.307479224462,NA,"role_play","TALIESIN",1,0,0,0
 "2738","Daring_Deeds",7,91,2738,"second_half_rp","TRAVIS","go get it, keep going. momentum!",14035.625,14037.458,1.83300000000054,7,229.132569558034,NA,"role_play","TRAVIS",1,0,0,0
@@ -2806,7 +2806,7 @@
 "2805","Daring_Deeds",7,91,2805,"second_half_rp","MARISHA","of course.",14403.328,14406.585,3.25699999999961,3,55.2655818237709,NA,"role_play","MARISHA",1,0,0,0
 "2806","Daring_Deeds",7,91,2806,"second_half_rp","MATT","make a deception check.",14406.585,14409.487,2.90200000000004,5,103.376981392142,NA,"role_play","MATT",0,0,0,1
 "2807","Daring_Deeds",7,91,2807,"second_half_rp","LIAM","it's not really lying.",14409.487,14411.589,2.10200000000077,6,171.265461465208,NA,"role_play","LIAM",1,0,0,0
-"2808","Daring_Deeds",7,91,2808,"second_half_rp","MARISHA","it's not really a not great. six total.",14411.589,14427.824,16.2350000000006,10,36.9571912534634,NA,"role_play","MARISHA",1,0,0,0
+"2808","Daring_Deeds",7,91,2808,"second_half_rp","MARISHA","it's not really a not great. six total.",14411.589,14423.594,12.0049999999992,10,49.9791753436102,NA,"role_play","MARISHA",1,0,0,0
 "2809","Daring_Deeds",7,91,2809,"second_half_rp","MARISHA","it's not entirely wrong, though.",14427.824,14430.563,2.73899999999958,7,153.34063526837,NA,"role_play","MARISHA",1,0,0,0
 "2810","Daring_Deeds",7,91,2810,"second_half_rp","MATT","""hm."" you hear the chains intensify with the rattling and clanking. ""perhaps you should walk ""with us.""",14430.563,14450.608,20.0450000000001,19,56.8720379146917,NA,"role_play","MATT",0,0,0,1
 "2811","Daring_Deeds",7,91,2811,"second_half_rp","MARISHA","where are we going?",14450.608,14453.019,2.41100000000006,5,124.429697221067,NA,"role_play","MARISHA",1,0,0,0
@@ -2814,18 +2814,18 @@
 "2813","Daring_Deeds",7,91,2813,"second_half_rp","MARISHA","and if i decline?",14457.303,14465.739,8.43599999999969,5,35.5618776671421,NA,"role_play","MARISHA",1,0,0,0
 "2814","Daring_Deeds",7,91,2814,"second_half_rp","MATT","""then you will no longer be able to stop us.""",14465.739,14470.933,5.19400000000132,12,138.621486330346,NA,"role_play","MATT",0,0,0,1
 "2815","Daring_Deeds",7,91,2815,"second_half_rp","MARISHA","i'm sorry, i still didn't catch your name.",14470.933,14474.268,3.33499999999913,11,197.901049475314,NA,"role_play","MARISHA",1,0,0,0
-"2816","Daring_Deeds",7,91,2816,"second_half_rp","MATT","""you do not need our name."" and that's where we're going to leave tonight's episode.",14474.268,14484.01,9.74200000000019,20,123.177992198725,NA,"role_play","MATT",0,0,0,1
+"2816","Daring_Deeds",7,91,2816,"second_half_rp","MATT","""you do not need our name."" and that's where we're going to leave tonight's episode.",14474.268,14482.941,8.67300000000068,20,138.360428917319,NA,"role_play","MATT",0,0,0,1
 "2817","Daring_Deeds",7,91,2817,"epilog","MARISHA","oh, what?!",14484.01,14484.994,0.984000000000378,3,182.926829268222,NA,NA,"MARISHA",1,0,0,0
 "2818","Daring_Deeds",7,91,2818,"epilog","TALIESIN","yeah! i love hells, man.",14484.994,14487.141,2.14699999999903,6,167.675826735055,NA,NA,"TALIESIN",1,0,0,0
 "2819","Daring_Deeds",7,91,2819,"epilog","MATT","it's 11am, or 11pm, and that's a fun place to pick up next week.",14487.141,14492.248,5.10699999999997,17,199.725866457804,NA,NA,"MATT",0,0,0,1
 "2820","Daring_Deeds",7,91,2820,"epilog","LAURA","oh my gosh. oh no!",14492.248,14495.562,3.31400000000031,6,108.630054315017,NA,NA,"LAURA",1,0,0,0
 "2821","Daring_Deeds",7,91,2821,"epilog","TALIESIN","oh no.",14495.562,14498.613,3.05099999999948,3,58.9970501475028,NA,NA,"TALIESIN",1,0,0,0
-"2822","Daring_Deeds",7,91,2822,"epilog","TRAVIS","i could be many people, it could all f silence!",14498.668,14504.131,5.46299999999974,11,120.812740252614,NA,NA,"TRAVIS",1,0,0,0
+"2822","Daring_Deeds",7,91,2822,"epilog","TRAVIS","i could be many people, it could all f silence!",14498.668,14501.981,3.3130000000001,11,199.215212798062,NA,NA,"TRAVIS",1,0,0,0
 "2823","Daring_Deeds",7,91,2823,"epilog","TALIESIN","or that, okay.",14504.131,14506.358,2.22700000000077,4,107.768298158921,NA,NA,"TALIESIN",1,0,0,0
 "2824","Daring_Deeds",7,91,2824,"epilog","MARISHA","it's kind of a pejorative, you know. do we need to know like what kind of ""i""? is this this royal ""i""?",14506.358,14512.759,6.40099999999984,24,224.964849242312,NA,NA,"MARISHA",1,0,0,0
 "2825","Daring_Deeds",7,91,2825,"epilog","TRAVIS","it's royal ""we"".",14512.759,14514.502,1.74300000000039,5,172.11703958688,NA,NA,"TRAVIS",1,0,0,0
 "2826","Daring_Deeds",7,91,2826,"epilog","MARISHA","the royal ""we""?",14514.502,14515.732,1.22999999999956,4,195.121951219581,NA,NA,"MARISHA",1,0,0,0
-"2827","Daring_Deeds",7,91,2827,"epilog","MATT","shapechange, how you force me into bringing even more minis to the game every week.",14515.732,14522.807,7.07500000000073,16,135.689045936382,NA,NA,"MATT",0,0,0,1
+"2827","Daring_Deeds",7,91,2827,"epilog","MATT","shapechange, how you force me into bringing even more minis to the game every week.",14515.732,14521.131,5.39899999999943,16,177.810705686257,NA,NA,"MATT",0,0,0,1
 "2828","Daring_Deeds",7,91,2828,"epilog","MATT","just in case.",14522.807,14523.859,1.05199999999968,4,228.136882129347,NA,NA,"MATT",0,0,0,1
 "2829","Daring_Deeds",7,91,2829,"epilog","TRAVIS","multiple bags.",14523.859,14524.783,0.923999999999069,3,194.805194805391,NA,NA,"TRAVIS",1,0,0,0
 "2830","Daring_Deeds",7,91,2830,"epilog","TALIESIN","we can leave them here now.",14524.783,14525.817,1.03399999999965,7,406.189555125863,NA,NA,"TALIESIN",1,0,0,0

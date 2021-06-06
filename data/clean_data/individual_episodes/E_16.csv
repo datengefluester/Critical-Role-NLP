@@ -1,7 +1,7 @@
 "","arc","arc_no","episode","turn_number","segment","actor","text","start_turn","end_turn","time_in_sec","word_count","words_per_minute","encounter_count","rp_combat","actor_guest","vox_machina","guest","staff","matt"
 "1","Kraghammer",1,16,1,"prologue","MATT","hello, ladies and gentlemen, and welcome to this evening's episode of critical role, where a bunch of us nerdy voice actors sit around a table and play dungeons and dragons. if you are returning, welcome back. for those who it's their first time watching us live on the stream, welcome to the chaos. so, before i begin, a couple of quick notifications i want to give you guys. we had our first subscriber giveaway hit before the show started at 4,200. it was ll1973. turn the mic around. oh, now you can hear me. look at this! the magic of live. live communication. you have a wonderful view of this fantastic midsection. it's delightful. there we go. is that better?",0.666,39.971,39.305,125,190.815417885765,NA,"role_play","MATT",0,0,0,1
 "2","Kraghammer",1,16,2,"prologue","ZAC","yep.",39.971,40.979,1.008,2,119.047619047619,NA,"role_play","ZAC",0,0,1,0
-"3","Kraghammer",1,16,3,"prologue","MATT","velcome. so, welcome to critical role, for those who didn't hear me before. d&d, voice actors, you know the drill now. so our first giveaway already happened tonight for the subscriber count at 4,200 to ll1973. congratulations. you're going to be winning a signed player's handbook of dungeons and dragons fifth edition, as well as a signed photo of the critical role cast. our next one will be at 4,250, so, up to every fifty subscribers after that we will be giving away an additional player's handbook and photo signed by the cast. awesome times.",40.979,75.334,34.355,103,179.8864794062,NA,"role_play","MATT",0,0,0,1
+"3","Kraghammer",1,16,3,"prologue","MATT","velcome. so, welcome to critical role, for those who didn't hear me before. d&d, voice actors, you know the drill now. so our first giveaway already happened tonight for the subscriber count at 4,200 to ll1973. congratulations. you're going to be winning a signed player's handbook of dungeons and dragons fifth edition, as well as a signed photo of the critical role cast. our next one will be at 4,250, so, up to every fifty subscribers after that we will be giving away an additional player's handbook and photo signed by the cast. awesome times.",40.979,73.28,32.301,103,191.325345964521,NA,"role_play","MATT",0,0,0,1
 "4","Kraghammer",1,16,4,"prologue","MARISHA","awesome times?",75.334,76.388,1.054,3,170.7779886148,NA,"role_play","MARISHA",1,0,0,0
 "5","Kraghammer",1,16,5,"prologue","MATT","indeed, very awesome times.",76.388,77.441,1.053,5,284.900284900286,NA,"role_play","MATT",0,0,0,1
 "6","Kraghammer",1,16,6,"prologue","MARISHA","good times, good time together.",77.441,78.733,1.292,6,278.637770897832,NA,"role_play","MARISHA",1,0,0,0
@@ -137,7 +137,7 @@
 "136","Kraghammer",1,16,136,"first_half_rp","MATT","sam has joined us.",588.774,589.815,1.04100000000005,5,288.184438040331,NA,"role_play","MATT",0,0,0,1
 "137","Kraghammer",1,16,137,"first_half_rp","SAM","hi!",589.815,590.914,1.09899999999993,2,109.190172884447,NA,"role_play","SAM",1,0,0,0
 "138","Kraghammer",1,16,138,"first_half_rp","MATT","they found themselves over the ocean, suddenly attacked by a band of what seemed to be wyvernand griffin-riding bandits. the battle took place on the top of the skyship, some of the magic being taken out, a few lives lost, but the party managed to persevere, take a captive, and continue on their journey, the horn of orcus and its container kept safe. and that's where we pick up and begin.",590.914,616.105,25.191,74,176.253423841848,NA,"role_play","MATT",0,0,0,1
-"139","Kraghammer",1,16,139,"first_half_rp","SAM","can you say all of that again for me?",616.105,619.377,3.27199999999993,10,183.374083129588,NA,"role_play","SAM",1,0,0,0
+"139","Kraghammer",1,16,139,"first_half_rp","SAM","can you say all of that again for me?",616.105,617.929,1.82399999999996,10,328.947368421061,NA,"role_play","SAM",1,0,0,0
 "140","Kraghammer",1,16,140,"first_half_rp","TRAVIS","you don't listen, anyway.",619.377,620.868,1.4910000000001,6,241.448692152901,NA,"role_play","TRAVIS",1,0,0,0
 "141","Kraghammer",1,16,141,"first_half_rp","MATT","no.",620.868,622.125,1.25699999999995,2,95.4653937947533,NA,"role_play","MATT",0,0,0,1
 "142","Kraghammer",1,16,142,"first_half_rp","MARISHA","you don't listen, anyway.",622.125,623.938,1.81299999999999,6,198.565912851628,NA,"role_play","MARISHA",1,0,0,0
@@ -180,7 +180,7 @@
 "179","Kraghammer",1,16,179,"first_half_rp","TRAVIS","three. eight.",726.733,727.877,1.14400000000001,3,157.342657342657,NA,"role_play","TRAVIS",1,0,0,0
 "180","Kraghammer",1,16,180,"first_half_rp","MATT","38. the little bit of peach-fuzz stubble on the chin of your goliath face begins to slowly grow. it's coming out colorless. it's almost translucent with a hint of gray and white.",727.877,738.134,10.2570000000001,36,210.587891196255,NA,"role_play","MATT",0,0,0,1
 "181","Kraghammer",1,16,181,"first_half_rp","LAURA AND SAM","ew.",738.134,739.342,1.20799999999997,2,99.3377483443733,NA,"role_play","LAURA AND SAM",1,0,0,0
-"182","Kraghammer",1,16,182,"first_half_rp","TRAVIS","i'm a targaryen, baby.",739.442,742.177,2.73500000000001,6,131.62705667276,NA,"role_play","TRAVIS",1,0,0,0
+"182","Kraghammer",1,16,182,"first_half_rp","TRAVIS","i'm a targaryen, baby.",739.442,741.028,1.58600000000001,6,226.986128625471,NA,"role_play","TRAVIS",1,0,0,0
 "183","Kraghammer",1,16,183,"first_half_rp","LIAM","that's hot.",742.177,743.32,1.14300000000003,4,209.973753280835,NA,"role_play","LIAM",1,0,0,0
 "184","Kraghammer",1,16,184,"first_half_rp","LAURA","it's translucent, like",743.32,744.732,1.41199999999992,4,169.971671388112,NA,"role_play","LAURA",1,0,0,0
 "185","Kraghammer",1,16,185,"first_half_rp","MATT","a color is there. it's almost like fishing line is growing out of the bottom of his chin.",744.732,749.552,4.82000000000005,20,248.962655601657,NA,"role_play","MATT",0,0,0,1
@@ -210,7 +210,7 @@
 "209","Kraghammer",1,16,209,"first_half_rp","TRAVIS","it's really tight when you braid it like that. it pinches.",806.808,809.329,2.52099999999996,13,309.401031336776,NA,"role_play","TRAVIS",1,0,0,0
 "210","Kraghammer",1,16,210,"first_half_rp","MARISHA","you'll get used to it.",809.329,810.459,1.13,7,371.681415929205,NA,"role_play","MARISHA",1,0,0,0
 "211","Kraghammer",1,16,211,"first_half_rp","LAURA","maybe you can cast grasping vine on his chin and grow it out.",810.459,813.022,2.5630000000001,14,327.740928599285,NA,"role_play","LAURA",1,0,0,0
-"212","Kraghammer",1,16,212,"first_half_rp","MATT","what could possibly go wrong?",813.022,816.049,3.02699999999993,6,118.9296333003,NA,"role_play","MATT",0,0,0,1
+"212","Kraghammer",1,16,212,"first_half_rp","MATT","what could possibly go wrong?",813.022,814.769,1.74699999999996,6,206.067544361768,NA,"role_play","MATT",0,0,0,1
 "213","Kraghammer",1,16,213,"first_half_rp","TRAVIS","do it. could be great.",816.049,818.631,2.58199999999999,6,139.426800929512,NA,"role_play","TRAVIS",1,0,0,0
 "214","Kraghammer",1,16,214,"first_half_rp","ORION","i suggest against this.",818.631,820.237,1.60599999999999,5,186.799501867996,NA,"role_play","ORION",1,0,0,0
 "215","Kraghammer",1,16,215,"first_half_rp","TRAVIS","i thought you suggest violence.",820.237,821.635,1.39800000000002,6,257.510729613729,NA,"role_play","TRAVIS",1,0,0,0
@@ -233,10 +233,10 @@
 "232","Kraghammer",1,16,232,"first_half_rp","MATT","for this, go ahead and make a perception check with disadvantage.",889.222,892.576,3.35400000000004,12,214.669051878352,NA,"role_play","MATT",0,0,0,1
 "233","Kraghammer",1,16,233,"first_half_rp","TRAVIS","with disadvantage?!",892.576,893.94,1.36400000000003,3,131.964809384161,NA,"role_play","TRAVIS",1,0,0,0
 "234","Kraghammer",1,16,234,"first_half_rp","SAM","because you're asleep!",893.94,895.847,1.90699999999993,5,157.315154693242,NA,"role_play","SAM",1,0,0,0
-"235","Kraghammer",1,16,235,"first_half_rp","TRAVIS","one.",895.847,899.848,4.00099999999998,2,29.9925018745315,NA,"role_play","TRAVIS",1,0,0,0
+"235","Kraghammer",1,16,235,"first_half_rp","TRAVIS","one.",895.847,896.791,0.944000000000074,2,127.118644067787,NA,"role_play","TRAVIS",1,0,0,0
 "236","Kraghammer",1,16,236,"first_half_rp","ORION","get it out now.",899.848,901.077,1.22900000000004,5,244.100895036607,NA,"role_play","ORION",1,0,0,0
 "237","Kraghammer",1,16,237,"first_half_rp","MATT","you wake up the following morning and immediately run to the nearest reflective surface to check on yourself, and you have a glorious, dark brown, well-braided, mildly frayed, thick, coarse goatee braid. it goes about a good three to four inches from the bottom of your chin. and you are very proud.",901.077,915.928,14.851,54,218.167126792809,NA,"role_play","MATT",0,0,0,1
-"238","Kraghammer",1,16,238,"first_half_rp","TRAVIS","i knew it! i knew it! i am a special boy.",915.928,921.314,5.38599999999997,12,133.67991088006,NA,"role_play","TRAVIS",1,0,0,0
+"238","Kraghammer",1,16,238,"first_half_rp","TRAVIS","i knew it! i knew it! i am a special boy.",915.928,919.41,3.48199999999997,12,206.777713957497,NA,"role_play","TRAVIS",1,0,0,0
 "239","Kraghammer",1,16,239,"first_half_rp","TRAVIS","only this one strand is this color and everything else is white and translucent, whatever",921.314,928.544,7.23000000000002,15,124.48132780083,NA,"role_play","TRAVIS",1,0,0,0
 "240","Kraghammer",1,16,240,"first_half_rp","ORION","i think it looks good on you, grog.",928.544,929.701,1.15700000000004,9,466.72428694899,NA,"role_play","ORION",1,0,0,0
 "241","Kraghammer",1,16,241,"first_half_rp","TRAVIS","thank you! i wave my head and it whips around.",929.701,932.514,2.81299999999999,11,234.624955563456,NA,"role_play","TRAVIS",1,0,0,0
@@ -274,17 +274,17 @@
 "273","Kraghammer",1,16,273,"first_half_rp","MATT","okay. it's the strangest wall you've constructed, as up in the air on the ship that is mostly constructed out of iron and metal, there is little to no stone available of which you can sprout a wall of stone. however, there are weights set up on top, so what you create is less of a smooth wall of stone and more of a very thin, brittle shale wall that may function for the time being, but probably won't stand up for more than five to ten minutes.",1065.887,1090.897,25.01,92,220.711715313875,NA,"role_play","MATT",0,0,0,1
 "274","Kraghammer",1,16,274,"first_half_rp","ORION","i see. prestidigitation. some chalk.",1090.897,1093.453,2.55600000000004,6,140.845070422533,NA,"role_play","ORION",1,0,0,0
 "275","Kraghammer",1,16,275,"first_half_rp","MATT","all right.",1093.453,1095.427,1.97399999999993,3,91.1854103343496,NA,"role_play","MATT",0,0,0,1
-"276","Kraghammer",1,16,276,"first_half_rp","ORION","you see, scanlan, you've had this particular piece for over ten, let's say, matches or weeks. you have used it zero times. in over six battles, over the same course, using it zero times.",1095.427,1118.031,22.604,37,98.2127057158023,NA,"role_play","ORION",1,0,0,0
+"276","Kraghammer",1,16,276,"first_half_rp","ORION","you see, scanlan, you've had this particular piece for over ten, let's say, matches or weeks. you have used it zero times. in over six battles, over the same course, using it zero times.",1095.427,1116.586,21.1590000000001,37,104.919892244434,NA,"role_play","ORION",1,0,0,0
 "277","Kraghammer",1,16,277,"first_half_rp","ORION","i, being a sorcerer, have a special ability called sorcerer points, where i can do multiple spells in a single round.",1118.031,1124.104,6.07300000000009,22,217.355507986165,NA,"role_play","ORION",1,0,0,0
 "278","Kraghammer",1,16,278,"first_half_rp","SAM","yes.",1124.104,1125.174,1.06999999999994,2,112.149532710287,NA,"role_play","SAM",1,0,0,0
 "279","Kraghammer",1,16,279,"first_half_rp","ORION","which none of you can do. other than monks, of course.",1125.174,1127.5,2.32600000000002,12,309.544282029232,NA,"role_play","ORION",1,0,0,0
 "280","Kraghammer",1,16,280,"first_half_rp","LAURA","that's true. brag about it, tiberius. just keep bragging about it.",1127.5,1130.845,3.34500000000003,13,233.18385650224,NA,"role_play","LAURA",1,0,0,0
-"281","Kraghammer",1,16,281,"first_half_rp","ORION","when i can do multiple spells, like two, versus you, who can do one, that means that i can do one more spell than you can per round.",1130.845,1141.997,11.152,29,156.025824964131,NA,"role_play","ORION",1,0,0,0
+"281","Kraghammer",1,16,281,"first_half_rp","ORION","when i can do multiple spells, like two, versus you, who can do one, that means that i can do one more spell than you can per round.",1130.845,1140.775,9.93000000000006,29,175.226586102718,NA,"role_play","ORION",1,0,0,0
 "282","Kraghammer",1,16,282,"first_half_rp","SAM","all right.",1141.997,1142.972,0.974999999999909,3,184.615384615402,NA,"role_play","SAM",1,0,0,0
-"283","Kraghammer",1,16,283,"first_half_rp","ORION","and every round after that. one hundred percent.",1142.972,1148.2,5.22800000000007,9,103.28997704667,NA,"role_play","ORION",1,0,0,0
+"283","Kraghammer",1,16,283,"first_half_rp","ORION","and every round after that. one hundred percent.",1142.972,1145.855,2.88300000000004,9,187.304890738811,NA,"role_play","ORION",1,0,0,0
 "284","Kraghammer",1,16,284,"first_half_rp","SAM","this is amazing.",1148.2,1149.964,1.7639999999999,4,136.054421768715,NA,"role_play","SAM",1,0,0,0
 "285","Kraghammer",1,16,285,"first_half_rp","ORION","your utilization of the actual item has been equivalent to nothing. in the interest of the group and the use of items in general, it would be wise to switch it, because you have needed extra spells like invisibility",1149.964,1166.366,16.402,39,142.665528594074,NA,"role_play","ORION",1,0,0,0
-"286","Kraghammer",1,16,286,"first_half_rp","MATT","the shale wall cracks.",1166.366,1170.281,3.91499999999996,5,76.6283524904222,NA,"role_play","MATT",0,0,0,1
+"286","Kraghammer",1,16,286,"first_half_rp","MATT","the shale wall cracks.",1166.366,1168.827,2.46100000000001,5,121.901665989435,NA,"role_play","MATT",0,0,0,1
 "287","Kraghammer",1,16,287,"first_half_rp","ORION","several times.",1170.281,1171.944,1.66300000000001,3,108.238123872519,NA,"role_play","ORION",1,0,0,0
 "288","Kraghammer",1,16,288,"first_half_rp","MARISHA","i'm sorry.",1171.944,1173.283,1.33899999999994,4,179.238237490672,NA,"role_play","MARISHA",1,0,0,0
 "289","Kraghammer",1,16,289,"first_half_rp","ORION","where my item would be more useful in general to you.",1173.283,1175.872,2.58900000000017,12,278.099652375416,NA,"role_play","ORION",1,0,0,0
@@ -296,14 +296,14 @@
 "295","Kraghammer",1,16,295,"first_half_rp","LAURA","oh. everything makes sense now, tiberius.",1194.999,1200.569,5.56999999999994,7,75.403949730701,NA,"role_play","LAURA",1,0,0,0
 "296","Kraghammer",1,16,296,"first_half_rp","TRAVIS","so are you saying you want what he has back?",1200.569,1204.755,4.18600000000015,11,157.668418537978,NA,"role_play","TRAVIS",1,0,0,0
 "297","Kraghammer",1,16,297,"first_half_rp","SAM","i didn't recognize you, grog. is that you?",1204.907,1208.413,3.50600000000009,10,171.135196805472,NA,"role_play","SAM",1,0,0,0
-"298","Kraghammer",1,16,298,"first_half_rp","TRAVIS","it is i, brad pitt from legends of the fall.",1208.413,1212.817,4.404,11,149.863760217984,NA,"role_play","TRAVIS",1,0,0,0
+"298","Kraghammer",1,16,298,"first_half_rp","TRAVIS","it is i, brad pitt from legends of the fall.",1208.413,1210.856,2.44299999999998,11,270.159639787149,NA,"role_play","TRAVIS",1,0,0,0
 "299","Kraghammer",1,16,299,"first_half_rp","TRAVIS","my beard of glory.",1212.817,1214.339,1.52199999999993,5,197.109067017091,NA,"role_play","TRAVIS",1,0,0,0
 "300","Kraghammer",1,16,300,"first_half_rp","ORION","that is a movie.",1214.339,1216.536,2.19700000000012,5,136.549840691845,NA,"role_play","ORION",1,0,0,0
 "301","Kraghammer",1,16,301,"first_half_rp","TRAVIS","it's an old bard's tale.",1216.536,1218.89,2.35400000000004,8,203.908241291415,NA,"role_play","TRAVIS",1,0,0,0
 "302","Kraghammer",1,16,302,"first_half_rp","ORION","so, scanlan. what say you?",1218.89,1222.247,3.35699999999997,6,107.238605898124,NA,"role_play","ORION",1,0,0,0
 "303","Kraghammer",1,16,303,"first_half_rp","SAM","your mathematical skills have been quite impressive.",1222.247,1227.351,5.10400000000004,8,94.0438871473347,NA,"role_play","SAM",1,0,0,0
 "304","Kraghammer",1,16,304,"first_half_rp","ORION","i don't like to show them off.",1227.351,1230.073,2.72199999999998,9,198.383541513594,NA,"role_play","ORION",1,0,0,0
-"305","Kraghammer",1,16,305,"first_half_rp","SAM","no, no. for a man of such low wisdom, you are proving wiser than i ever imagined.",1230.073,1238.453,8.37999999999988,18,128.878281622914,NA,"role_play","SAM",1,0,0,0
+"305","Kraghammer",1,16,305,"first_half_rp","SAM","no, no. for a man of such low wisdom, you are proving wiser than i ever imagined.",1230.073,1236.487,6.41399999999999,18,168.381665107578,NA,"role_play","SAM",1,0,0,0
 "306","Kraghammer",1,16,306,"first_half_rp","SAM","i will gladly make this trade with you. you have convinced me.",1238.453,1244.748,6.29500000000007,13,123.907863383636,NA,"role_play","SAM",1,0,0,0
 "307","Kraghammer",1,16,307,"first_half_rp","LAURA","hey.",1244.748,1245.585,0.836999999999989,2,143.369175627242,NA,"role_play","LAURA",1,0,0,0
 "308","Kraghammer",1,16,308,"first_half_rp","MARISHA","aww.",1245.585,1246.381,0.796000000000049,2,150.753768844212,NA,"role_play","MARISHA",1,0,0,0
@@ -311,7 +311,7 @@
 "310","Kraghammer",1,16,310,"first_half_rp","SAM","yes. yes.",1247.51,1248.58,1.06999999999994,3,168.224299065431,NA,"role_play","SAM",1,0,0,0
 "311","Kraghammer",1,16,311,"first_half_rp","ASHLEY","hey.",1248.58,1249.288,0.708000000000084,2,169.491525423709,NA,"role_play","ASHLEY",1,0,0,0
 "312","Kraghammer",1,16,312,"first_half_rp","LAURA","that's wonderful.",1249.288,1250.109,0.820999999999913,4,292.326431181517,NA,"role_play","LAURA",1,0,0,0
-"313","Kraghammer",1,16,313,"first_half_rp","SAM","all right. hugs, hugs, hugs.",1250.109,1252.275,2.16600000000017,6,166.204986149572,NA,"role_play","SAM",1,0,0,0
+"313","Kraghammer",1,16,313,"first_half_rp","SAM","all right. hugs, hugs, hugs.",1250.109,1251.175,1.06600000000003,6,337.711069418377,NA,"role_play","SAM",1,0,0,0
 "314","Kraghammer",1,16,314,"first_half_rp","SAM","now, what does this thing do?",1253.787,1255.58,1.79299999999989,7,234.244283324052,NA,"role_play","SAM",1,0,0,0
 "315","Kraghammer",1,16,315,"first_half_rp","ORION","now you can store up to three level spells. three of them in there.",1255.58,1259.957,4.37700000000018,15,205.620287868395,NA,"role_play","ORION",1,0,0,0
 "316","Kraghammer",1,16,316,"first_half_rp","LAURA","oh, it's better than the pearl of power!",1259.957,1261.482,1.52499999999986,10,393.442622950855,NA,"role_play","LAURA",1,0,0,0
@@ -342,7 +342,7 @@
 "341","Kraghammer",1,16,341,"first_half_rp","ASHLEY","it is very cool-looking.",1314.79,1316.533,1.74299999999994,6,206.54044750431,NA,"role_play","ASHLEY",1,0,0,0
 "342","Kraghammer",1,16,342,"first_half_rp","SAM","thank you, pike.",1316.533,1318.402,1.86900000000014,4,128.410914927759,NA,"role_play","SAM",1,0,0,0
 "343","Kraghammer",1,16,343,"first_half_rp","TRAVIS","so casual, her god. ""it's cool. go for it.""",1318.402,1322.907,4.50499999999988,11,146.503884572701,NA,"role_play","TRAVIS",1,0,0,0
-"344","Kraghammer",1,16,344,"first_half_rp","MATT","sarenrae. the she-bro you never had.",1322.907,1330.074,7.16700000000014,8,66.9736291335273,NA,"role_play","MATT",0,0,0,1
+"344","Kraghammer",1,16,344,"first_half_rp","MATT","sarenrae. the she-bro you never had.",1322.907,1328.651,5.74400000000014,8,83.5654596100258,NA,"role_play","MATT",0,0,0,1
 "345","Kraghammer",1,16,345,"first_half_rp","SAM","sarenrae's my wingman.",1330.074,1331.763,1.68899999999985,5,177.61989342808,NA,"role_play","SAM",1,0,0,0
 "346","Kraghammer",1,16,346,"first_half_rp","ASHLEY","we cool, sarenrae.",1331.763,1334.05,2.28700000000003,4,104.940970703977,NA,"role_play","ASHLEY",1,0,0,0
 "347","Kraghammer",1,16,347,"first_half_rp","TRAVIS","i can't breathe.",1334.05,1335.248,1.19800000000009,5,250.417362270431,NA,"role_play","TRAVIS",1,0,0,0
@@ -487,7 +487,7 @@
 "486","Kraghammer",1,16,486,"first_half_rp","ORION","okay, cool. awesome.",1938.522,1939.543,1.02099999999996,4,235.063663075426,NA,"role_play","ORION",1,0,0,0
 "487","Kraghammer",1,16,487,"first_half_rp","MATT","yeah.",1939.543,1940.174,0.631000000000085,2,190.174326465901,NA,"role_play","MATT",0,0,0,1
 "488","Kraghammer",1,16,488,"first_half_rp","TRAVIS","tiberius, you ever been here?",1940.174,1941.267,1.09300000000007,6,329.36870997253,NA,"role_play","TRAVIS",1,0,0,0
-"489","Kraghammer",1,16,489,"first_half_rp","ORION","no.",1941.267,1943.013,1.74599999999987,2,68.728522336775,NA,"role_play","ORION",1,0,0,0
+"489","Kraghammer",1,16,489,"first_half_rp","ORION","no.",1941.267,1942.031,0.763999999999896,2,157.068062827246,NA,"role_play","ORION",1,0,0,0
 "490","Kraghammer",1,16,490,"first_half_rp","LAURA","is it cold in the city?",1943.013,1946.191,3.17800000000011,7,132.158590308365,NA,"role_play","LAURA",1,0,0,0
 "491","Kraghammer",1,16,491,"first_half_rp","MATT","it's pretty chilly as you come down. i mean, you wear furs naturally in cold environments, but this is the temperature's to the point where you may have to consider getting a little bit of warmer clothing if you travel too far outside of the city.",1946.191,1959.043,12.8519999999999,49,228.758169934643,NA,"role_play","MATT",0,0,0,1
 "492","Kraghammer",1,16,492,"first_half_rp","TRAVIS","how do goliaths do? not wearing much.",1959.043,1961.082,2.03900000000021,8,235.409514467852,NA,"role_play","TRAVIS",1,0,0,0
@@ -520,7 +520,7 @@
 "519","Kraghammer",1,16,519,"first_half_rp","TRAVIS","be aware, we only have two left.",2001.281,2002.56,1.279,8,375.293197810791,NA,"role_play","TRAVIS",1,0,0,0
 "520","Kraghammer",1,16,520,"first_half_rp","SAM","i'm going to gird my loins.",2002.56,2003.738,1.17800000000011,8,407.470288624749,NA,"role_play","SAM",1,0,0,0
 "521","Kraghammer",1,16,521,"first_half_rp","MATT","and you gird them well. you look like the tiniest turkish wrestler you've ever seen.",2003.738,2007.244,3.50599999999986,17,290.929834569322,NA,"role_play","MATT",0,0,0,1
-"522","Kraghammer",1,16,522,"first_half_rp","LAURA","oh.",2007.244,2009.3,2.05600000000004,2,58.3657587548627,NA,"role_play","LAURA",1,0,0,0
+"522","Kraghammer",1,16,522,"first_half_rp","LAURA","oh.",2007.244,2008.03,0.786000000000058,2,152.67175572518,NA,"role_play","LAURA",1,0,0,0
 "523","Kraghammer",1,16,523,"first_half_rp","MATT","it's kind of adorable.",2009.3,2010.452,1.15200000000004,6,312.499999999988,NA,"role_play","MATT",0,0,0,1
 "524","Kraghammer",1,16,524,"first_half_rp","SAM","also, i'm going to cast lightning bolt into the ioun stone.",2010.452,2013.313,2.8610000000001,13,272.631946871713,NA,"role_play","SAM",1,0,0,0
 "525","Kraghammer",1,16,525,"first_half_rp","ORION","yay.",2013.313,2014.452,1.1389999999999,2,105.355575065857,NA,"role_play","ORION",1,0,0,0
@@ -541,7 +541,7 @@
 "540","Kraghammer",1,16,540,"first_half_rp","SAM","i'm girded and i've got a shiny head.",2057.528,2059.376,1.84800000000041,11,357.142857142778,NA,"role_play","SAM",1,0,0,0
 "541","Kraghammer",1,16,541,"first_half_rp","MATT","eventually the ship comes to a stop. you feel a little bit of a lurching sensation as the ship suddenly halts its advancing. all the ropes get dropped off the sides. they start bringing what looks to be some sort of a haphazard crane also, in preparation for trinket to be lowered off the ship. you can see, there's a look of i can't describe it better than anxiousness to kima. she says, ""if you have any questions about the city, just speak up and i'll do my best.""",2059.376,2092.545,33.1689999999999,93,168.229370798035,NA,"role_play","MATT",0,0,0,1
 "542","Kraghammer",1,16,542,"first_half_rp","LAURA","where do we take the horn?",2092.545,2094.294,1.7489999999998,7,240.137221269325,NA,"role_play","LAURA",1,0,0,0
-"543","Kraghammer",1,16,543,"first_half_rp","SAM","that's a good question.",2094.294,2096.599,2.30500000000029,6,156.182212581325,NA,"role_play","SAM",1,0,0,0
+"543","Kraghammer",1,16,543,"first_half_rp","SAM","that's a good question.",2094.294,2095.442,1.14800000000014,6,313.588850174178,NA,"role_play","SAM",1,0,0,0
 "544","Kraghammer",1,16,544,"first_half_rp","MATT","""i believe"" and she looks over the edge of the ship. ""i believe our escorts will be happy to ""guide us.""",2096.599,2100.794,4.19499999999971,23,328.963051251513,NA,"role_play","MATT",0,0,0,1
 "545","Kraghammer",1,16,545,"first_half_rp","LAURA","our escorts?",2100.794,2101.633,0.838999999999942,3,214.541120381421,NA,"role_play","LAURA",1,0,0,0
 "546","Kraghammer",1,16,546,"first_half_rp","LIAM","i'd like to do an insight check before we hustle off.",2101.633,2103.824,2.19100000000026,13,356.001825650346,NA,"role_play","LIAM",1,0,0,0
@@ -576,11 +576,11 @@
 "575","Kraghammer",1,16,575,"first_half_rp","LAURA","hmm.",2248.814,2249.857,1.04300000000012,2,115.052732502384,NA,"role_play","LAURA",1,0,0,0
 "576","Kraghammer",1,16,576,"first_half_rp","ASHLEY","i'm pike.",2249.857,2250.736,0.878999999999905,4,273.037542662145,NA,"role_play","ASHLEY",1,0,0,0
 "577","Kraghammer",1,16,577,"first_half_rp","MARISHA","keyleth.",2250.736,2253.097,2.36100000000033,2,50.825921219815,NA,"role_play","MARISHA",1,0,0,0
-"578","Kraghammer",1,16,578,"first_half_rp","SAM","i'm ioun stone-bearer scanlan.",2253.097,2259.161,6.06399999999985,7,69.2612137203183,NA,"role_play","SAM",1,0,0,0
+"578","Kraghammer",1,16,578,"first_half_rp","SAM","i'm ioun stone-bearer scanlan.",2253.097,2256.862,3.76499999999987,7,111.553784860562,NA,"role_play","SAM",1,0,0,0
 "579","Kraghammer",1,16,579,"first_half_rp","MATT","he cocks his head curiously.",2259.161,2260.476,1.31500000000005,6,273.764258555122,NA,"role_play","MATT",0,0,0,1
 "580","Kraghammer",1,16,580,"first_half_rp","SAM","you can call me kingslayer. i also did that.",2260.476,2264.087,3.61099999999988,10,166.158958737198,NA,"role_play","SAM",1,0,0,0
 "581","Kraghammer",1,16,581,"first_half_rp","MATT","""very well."" percy introduces himself, as well.",2264.087,2268.527,4.44000000000005,9,121.62162162162,NA,"role_play","MATT",0,0,0,1
-"582","Kraghammer",1,16,582,"first_half_rp","TRAVIS","i have a beard.",2268.527,2272.027,3.5,5,85.7142857142857,NA,"role_play","TRAVIS",1,0,0,0
+"582","Kraghammer",1,16,582,"first_half_rp","TRAVIS","i have a beard.",2268.527,2270.279,1.75199999999995,5,171.232876712333,NA,"role_play","TRAVIS",1,0,0,0
 "583","Kraghammer",1,16,583,"first_half_rp","MATT","he gives you the most curious look of all, which is hard to follow off of scanlan over here. ""and i'm to understand these are the bearers of the artifact?"" kima gives a nod. ""yes, and i think ""we should be on our way quickly."" ""yes, yes, of course. please. these are our escorts. follow ""suit. we will bring you onward to the platinum sanctuary proper to dispose of this thing.""",2272.027,2295.596,23.569,73,185.837328694472,NA,"role_play","MATT",0,0,0,1
 "584","Kraghammer",1,16,584,"first_half_rp","SAM","how far is the platinum sanctuary?",2295.596,2299.27,3.67399999999998,7,114.316820903648,NA,"role_play","SAM",1,0,0,0
 "585","Kraghammer",1,16,585,"first_half_rp","MATT","""no more than a 25-minute walk.""",2299.27,2301.854,2.58399999999983,9,208.978328173388,NA,"role_play","MATT",0,0,0,1
@@ -640,7 +640,7 @@
 "639","Kraghammer",1,16,639,"first_half_rp","TRAVIS","or as liam calls it, sa-ren-rae.",2477.79,2478.882,1.0920000000001,9,494.50549450545,NA,"role_play","TRAVIS",1,0,0,0
 "640","Kraghammer",1,16,640,"first_half_rp","LAURA","the best one?",2478.882,2479.921,1.03899999999976,4,230.991337824885,NA,"role_play","LAURA",1,0,0,0
 "641","Kraghammer",1,16,641,"first_half_rp","ASHLEY","the best, the best one.",2479.921,2480.851,0.930000000000291,6,387.096774193427,NA,"role_play","ASHLEY",1,0,0,0
-"642","Kraghammer",1,16,642,"first_half_rp","LIAM","sa-ren-rae!",2480.851,2482.937,2.08599999999979,4,115.052732502409,NA,"role_play","LIAM",1,0,0,0
+"642","Kraghammer",1,16,642,"first_half_rp","LIAM","sa-ren-rae!",2480.851,2481.926,1.07499999999982,4,223.255813953526,NA,"role_play","LIAM",1,0,0,0
 "643","Kraghammer",1,16,643,"first_half_rp","ASHLEY","sarenrae!",2482.937,2483.851,0.914000000000215,2,131.291028446359,NA,"role_play","ASHLEY",1,0,0,0
 "644","Kraghammer",1,16,644,"first_half_rp","ORION","i'm going to take it you don't see very many dragonborn in these parts.",2483.851,2486.47,2.61899999999969,17,389.461626575075,NA,"role_play","ORION",1,0,0,0
 "645","Kraghammer",1,16,645,"first_half_rp","MATT","""no, and frankly you're making me a bit nervous.""",2486.47,2488.341,1.87100000000009,12,384.820951362888,NA,"role_play","MATT",0,0,0,1
@@ -743,7 +743,7 @@
 "742","Kraghammer",1,16,742,"first_half_rp","TRAVIS","right.",2922.693,2923.672,0.978999999999814,2,122.574055158348,NA,"role_play","TRAVIS",1,0,0,0
 "743","Kraghammer",1,16,743,"first_half_rp","MATT","but even larger. you continue up this staircase, and the stonework itself is a little lopsided and awkward, and with each step sometimes you have to kinda catch yourself, especially as the wind begins to pick up the higher up the mountain you go, and it takes about 15 to 20 minutes to ascend this staircase. your legs begin to grow a little sore, until eventually you reach the base of what you can only imagine is the platinum sanctuary. you see before you, built into the side of the rock of this mountain, a grand stone fortress that looks older than time in itself. you can see the elements have weathered to the point where even the solid points and how the stonework was meant to be an edge has been rounded and smoothed down. there are a series of silver markings across the outskirts of it, which tiberius, you recognize as draconic.",2923.672,2973.676,50.0039999999999,155,185.985121190305,NA,"role_play","MATT",0,0,0,1
 "744","Kraghammer",1,16,744,"first_half_rp","ORION","look, percy, it's draconic.",2973.676,2976.212,2.53600000000006,6,141.955835962142,NA,"role_play","ORION",1,0,0,0
-"745","Kraghammer",1,16,745,"first_half_rp","TALIESIN","oh, so it is.",2976.212,2979.976,3.76400000000012,5,79.7024442082864,NA,"role_play","TALIESIN",1,0,0,0
+"745","Kraghammer",1,16,745,"first_half_rp","TALIESIN","oh, so it is.",2976.212,2977.578,1.36599999999999,5,219.619326500734,NA,"role_play","TALIESIN",1,0,0,0
 "746","Kraghammer",1,16,746,"first_half_rp","MATT","certain words in draconic",2979.976,2982.738,2.76199999999972,4,86.8935553946505,NA,"role_play","MATT",0,0,0,1
 "747","Kraghammer",1,16,747,"first_half_rp","MARISHA","percy, you've been so quiet here lately.",2982.738,2984.637,1.89900000000034,9,284.360189573408,NA,"role_play","MARISHA",1,0,0,0
 "748","Kraghammer",1,16,748,"first_half_rp","TALIESIN","i don't want to talk about it.",2984.637,2986.054,1.41699999999992,9,381.086803105174,NA,"role_play","TALIESIN",1,0,0,0
@@ -884,7 +884,7 @@
 "883","Kraghammer",1,16,883,"first_half_rp","MARISHA","the classic.",3488.594,3489.432,0.837999999999738,3,214.797136038253,NA,"role_play","MARISHA",1,0,0,0
 "884","Kraghammer",1,16,884,"first_half_rp","ORION","the classic handcuff wrist twist.",3489.432,3490.536,1.10400000000027,6,326.08695652166,NA,"role_play","ORION",1,0,0,0
 "885","Kraghammer",1,16,885,"first_half_rp","MARISHA","ouch.",3490.536,3491.703,1.16699999999992,2,102.827763496151,NA,"role_play","MARISHA",1,0,0,0
-"886","Kraghammer",1,16,886,"first_half_rp","LIAM","hardass.",3491.703,3494.455,2.75199999999995,2,43.6046511627914,NA,"role_play","LIAM",1,0,0,0
+"886","Kraghammer",1,16,886,"first_half_rp","LIAM","hardass.",3491.703,3493.061,1.35800000000017,2,88.3652430044069,NA,"role_play","LIAM",1,0,0,0
 "887","Kraghammer",1,16,887,"first_half_rp","MARISHA","yeah, i'm with her.",3494.455,3496.777,2.32200000000012,6,155.038759689915,NA,"role_play","MARISHA",1,0,0,0
 "888","Kraghammer",1,16,888,"first_half_rp","MATT","they back off and bow deeply and escort themselves off, embarrassed.",3496.777,3500.488,3.71099999999979,12,194.017784963633,NA,"role_play","MATT",0,0,0,1
 "889","Kraghammer",1,16,889,"first_half_rp","MARISHA","did you guys see that?",3500.488,3501.58,1.0920000000001,6,329.6703296703,NA,"role_play","MARISHA",1,0,0,0
@@ -905,7 +905,7 @@
 "904","Kraghammer",1,16,904,"first_half_rp","TRAVIS","no, not yet.",3518.147,3519.233,1.08600000000024,4,220.994475138073,NA,"role_play","TRAVIS",1,0,0,0
 "905","Kraghammer",1,16,905,"first_half_rp","MATT","all right. scalebearer yonn continues to lead you through this main chamber. and this chamber, like i said, it's the temple. it's strange, because most temples you've seen to bahamut or many other deities are extravagant or are, you know, built with a modern-day sense of architecture. this is a very plain, simple stone fortress. it's hard to grasp what time it was built, but just the smell itself seems very ancient. there's a scent of dust and age, and functionality to its construct. but there's still a sense of power to it. especially you, pike, where you're sensitive to divine energy. this whole place is humming with it. even though it's not the kind you're used to connecting with. this is when they say this is a holy place, you can feel it.",3519.233,3563.701,44.4679999999998,145,195.646307457048,NA,"role_play","MATT",0,0,0,1
 "906","Kraghammer",1,16,906,"first_half_rp","LAURA","is everything okay, pike?",3563.701,3566.151,2.44999999999982,5,122.448979591846,NA,"role_play","LAURA",1,0,0,0
-"907","Kraghammer",1,16,907,"first_half_rp","ASHLEY","it's just there's a lot of holiness here.",3566.151,3573.696,7.54500000000007,11,87.4751491053669,NA,"role_play","ASHLEY",1,0,0,0
+"907","Kraghammer",1,16,907,"first_half_rp","ASHLEY","it's just there's a lot of holiness here.",3566.151,3571.974,5.82300000000032,11,113.343637300354,NA,"role_play","ASHLEY",1,0,0,0
 "908","Kraghammer",1,16,908,"first_half_rp","ORION","i would imagine.",3573.696,3574.794,1.09799999999996,4,218.579234972686,NA,"role_play","ORION",1,0,0,0
 "909","Kraghammer",1,16,909,"first_half_rp","MARISHA","oh.",3574.794,3575.709,0.914999999999964,2,131.147540983612,NA,"role_play","MARISHA",1,0,0,0
 "910","Kraghammer",1,16,910,"first_half_rp","SAM","on a scale from one to five, five being super holy",3575.709,3577.783,2.07400000000007,11,318.225650916094,NA,"role_play","SAM",1,0,0,0
@@ -1011,7 +1011,7 @@
 "1010","Kraghammer",1,16,1010,"first_half_rp","MATT","""it was one of the sieges and there was""",4224.675,4225.644,0.969000000000051,11,681.114551083556,NA,"role_play","MATT",0,0,0,1
 "1011","Kraghammer",1,16,1011,"first_half_rp","SAM","the battle where the thing was lost.",4225.644,4226.709,1.0649999999996,8,450.704225352282,NA,"role_play","SAM",1,0,0,0
 "1012","Kraghammer",1,16,1012,"first_half_rp","MATT","yes. there it is.",4226.709,4227.597,0.88799999999992,5,337.837837837868,NA,"role_play","MATT",0,0,0,1
-"1013","Kraghammer",1,16,1013,"first_half_rp","ORION","right.",4227.597,4229.387,1.78999999999996,2,67.0391061452528,NA,"role_play","ORION",1,0,0,0
+"1013","Kraghammer",1,16,1013,"first_half_rp","ORION","right.",4227.597,4228.347,0.75,2,160,NA,"role_play","ORION",1,0,0,0
 "1014","Kraghammer",1,16,1014,"first_half_rp","LIAM","vord. hi. question, please. we'll clear out your basement, that's not a problem. i'd like to understand how you plan to protect this horn, how you plan to keep it out of the hands of entities who would use it for ill",4229.387,4245.111,15.7240000000002,45,171.712032561687,NA,"role_play","LIAM",1,0,0,0
 "1015","Kraghammer",1,16,1015,"first_half_rp","LAURA","that big scary creature living out in the woods. sorry, brother.",4245.111,4249.115,4.00399999999991,12,179.820179820184,NA,"role_play","LAURA",1,0,0,0
 "1016","Kraghammer",1,16,1016,"first_half_rp","LIAM","then how that's fine.",4249.115,4250.741,1.6260000000002,6,221.402214022112,NA,"role_play","LIAM",1,0,0,0
@@ -1107,7 +1107,7 @@
 "1106","Kraghammer",1,16,1106,"first_half_rp","LAURA","yeah, i did.",4510.849,4511.581,0.731999999999971,4,327.868852459029,NA,"role_play","LAURA",1,0,0,0
 "1107","Kraghammer",1,16,1107,"first_half_rp","LIAM","three-zero?",4511.581,4512.339,0.757999999999811,3,237.467018469716,NA,"role_play","LIAM",1,0,0,0
 "1108","Kraghammer",1,16,1108,"first_half_rp","SAM","three-zero! i have a +13 for deception.",4512.339,4515.447,3.10800000000017,9,173.745173745164,NA,"role_play","SAM",1,0,0,0
-"1109","Kraghammer",1,16,1109,"first_half_rp","TRAVIS","really?",4515.499,4517.412,1.91300000000047,2,62.7286983794934,NA,"role_play","TRAVIS",1,0,0,0
+"1109","Kraghammer",1,16,1109,"first_half_rp","TRAVIS","really?",4515.499,4516.456,0.957000000000335,2,125.391849529737,NA,"role_play","TRAVIS",1,0,0,0
 "1110","Kraghammer",1,16,1110,"first_half_rp","TALIESIN","that explains so much.",4517.412,4518.514,1.10199999999986,5,272.232304900216,NA,"role_play","TALIESIN",1,0,0,0
 "1111","Kraghammer",1,16,1111,"first_half_rp","TRAVIS","we've got to get you deceiving more.",4518.514,4519.809,1.29500000000007,9,416.988416988394,NA,"role_play","TRAVIS",1,0,0,0
 "1112","Kraghammer",1,16,1112,"first_half_rp","MARISHA","we've got to get you deceiving more.",4519.809,4521.706,1.89699999999993,9,284.659989457047,NA,"role_play","MARISHA",1,0,0,0
@@ -1115,20 +1115,20 @@
 "1114","Kraghammer",1,16,1114,"first_half_rp","MARISHA","you should lie more. it's good.",4524.857,4526.826,1.96900000000005,8,243.778567800908,NA,"role_play","MARISHA",1,0,0,0
 "1115","Kraghammer",1,16,1115,"first_half_rp","TALIESIN","lie to me, pinocchio. lie to me.",4526.826,4528.707,1.88100000000031,8,255.183413078107,NA,"role_play","TALIESIN",1,0,0,0
 "1116","Kraghammer",1,16,1116,"first_half_rp","MATT","""three thousand gold, at your disposal, to bring about and to share in the prosperity of your ""people back home.""",4528.707,4535.264,6.55699999999979,22,201.311575415593,NA,"role_play","MATT",0,0,0,1
-"1117","Kraghammer",1,16,1117,"first_half_rp","SAM","amen.",4535.264,4537.648,2.38400000000001,2,50.3355704697983,NA,"role_play","SAM",1,0,0,0
+"1117","Kraghammer",1,16,1117,"first_half_rp","SAM","amen.",4535.264,4536.363,1.09900000000016,2,109.190172884424,NA,"role_play","SAM",1,0,0,0
 "1118","Kraghammer",1,16,1118,"first_half_rp","MATT","""once the artifact is delivered and sealed.""",4537.648,4539.795,2.14699999999993,9,251.513740102476,NA,"role_play","MATT",0,0,0,1
 "1119","Kraghammer",1,16,1119,"first_half_rp","SAM","from one holy man to another, i think we've struck a deal. let's go.",4539.795,4547.598,7.80299999999988,17,130.718954248368,NA,"role_play","SAM",1,0,0,0
 "1120","Kraghammer",1,16,1120,"first_half_rp","ORION","burt reynolds, you've done it again.",4547.598,4551.372,3.77400000000034,8,127.186009538939,NA,"role_play","ORION",1,0,0,0
-"1121","Kraghammer",1,16,1121,"first_half_rp","TRAVIS","amen.",4551.372,4554.791,3.41899999999987,2,35.097981866044,NA,"role_play","TRAVIS",1,0,0,0
+"1121","Kraghammer",1,16,1121,"first_half_rp","TRAVIS","amen.",4551.372,4552.651,1.27899999999954,2,93.823299452731,NA,"role_play","TRAVIS",1,0,0,0
 "1122","Kraghammer",1,16,1122,"first_half_rp","MATT","as you all turn, kima goes, ""i'll show you to the vault room.""",4554.791,4565.749,10.9579999999996,15,82.1317758715122,NA,"role_play","MATT",0,0,0,1
 "1123","Kraghammer",1,16,1123,"first_half_rp","LAURA","are you going to come with us, kima?",4565.749,4567.294,1.54500000000007,9,349.51456310678,NA,"role_play","LAURA",1,0,0,0
 "1124","Kraghammer",1,16,1124,"first_half_rp","MATT","""yes, i'm coming with you.""",4567.294,4568.406,1.11200000000008,8,431.654676258962,NA,"role_play","MATT",0,0,0,1
 "1125","Kraghammer",1,16,1125,"first_half_rp","LAURA","oh, good.",4568.406,4569.435,1.02900000000045,3,174.927113702547,NA,"role_play","LAURA",1,0,0,0
-"1126","Kraghammer",1,16,1126,"first_half_rp","MATT","she glances over at you. ""shall we, holy man?""",4569.435,4574.387,4.95199999999932,10,121.163166397432,NA,"role_play","MATT",0,0,0,1
+"1126","Kraghammer",1,16,1126,"first_half_rp","MATT","she glances over at you. ""shall we, holy man?""",4569.435,4572.257,2.82199999999921,10,212.615166548607,NA,"role_play","MATT",0,0,0,1
 "1127","Kraghammer",1,16,1127,"first_half_rp","SAM","why yes, my sister, lead the way.",4574.387,4576.605,2.21799999999985,8,216.411181244379,NA,"role_play","SAM",1,0,0,0
-"1128","Kraghammer",1,16,1128,"first_half_rp","MARISHA","sister.",4576.605,4579.615,3.01000000000022,2,39.8671096345486,NA,"role_play","MARISHA",1,0,0,0
+"1128","Kraghammer",1,16,1128,"first_half_rp","MARISHA","sister.",4576.605,4577.832,1.22700000000077,2,97.7995110023835,NA,"role_play","MARISHA",1,0,0,0
 "1129","Kraghammer",1,16,1129,"first_half_rp","MATT","as you guys are walking out of the chamber, the doors close behind, she turns to you and says, ""is that why you were blessed with such a temporarily swollen appendage before?""",4579.615,4589.562,9.94700000000012,33,199.054991454708,NA,"role_play","MATT",0,0,0,1
-"1130","Kraghammer",1,16,1130,"first_half_rp","SAM","i don't know how the lord works, it's mysterious.",4589.623,4596.506,6.88300000000072,12,104.605549905553,NA,"role_play","SAM",1,0,0,0
+"1130","Kraghammer",1,16,1130,"first_half_rp","SAM","i don't know how the lord works, it's mysterious.",4589.623,4592.067,2.44400000000041,12,294.599018003223,NA,"role_play","SAM",1,0,0,0
 "1131","Kraghammer",1,16,1131,"first_half_rp","MATT","""let us be on our way."" she kind of walks off, flustered and frustrated. you guys are led down two layers. this actual temple recedes further and further into the mountain, until you're led into what seems to almost be a storage basement. it's a very musty smell. it's old earth",4596.506,4615.61,19.1039999999994,55,172.738693467343,NA,"role_play","MATT",0,0,0,1
 "1132","Kraghammer",1,16,1132,"first_half_rp","ORION","it's dank down here.",4615.61,4618.925,3.31500000000051,6,108.597285067857,NA,"role_play","ORION",1,0,0,0
 "1133","Kraghammer",1,16,1133,"first_half_rp","MATT","yeah, it kind of has that moldy scent to it. there are five guards stationed in this storage vicinity, and as you approach, they all stand up. they're all still wearing ceremonial armor, two of which you can see are really well-armed, one with a greatsword and one with a longsword at the side. they look pretty prestigious to be assigned to a basement this terrible.",4618.925,4642.069,23.1440000000002,69,178.880055305909,NA,"role_play","MATT",0,0,0,1
@@ -1220,7 +1220,7 @@
 "1219","Kraghammer",1,16,1219,"first_half_rp","SAM","vorak, desona, come!",4989.859,4991.212,1.35300000000007,4,177.38359201773,NA,"role_play","SAM",1,0,0,0
 "1220","Kraghammer",1,16,1220,"first_half_rp","LAURA","i perception-checked the room. it didn't seem like there was anything.",4991.212,4993.58,2.36799999999948,14,354.729729729807,NA,"role_play","LAURA",1,0,0,0
 "1221","Kraghammer",1,16,1221,"first_half_rp","ORION","oh, are we good? okay.",4993.58,4994.745,1.16499999999996,6,309.01287553649,NA,"role_play","ORION",1,0,0,0
-"1222","Kraghammer",1,16,1222,"first_half_rp","LIAM","i'm running ten feet ahead of everybody. i rolled a big old one.",4994.745,5001.041,6.29600000000028,15,142.947903430743,NA,"role_play","LIAM",1,0,0,0
+"1222","Kraghammer",1,16,1222,"first_half_rp","LIAM","i'm running ten feet ahead of everybody. i rolled a big old one.",4994.745,4999.516,4.77099999999973,15,188.639698176494,NA,"role_play","LIAM",1,0,0,0
 "1223","Kraghammer",1,16,1223,"first_half_rp","SAM","he tripped.",5001.041,5002.111,1.06999999999971,3,168.224299065466,NA,"role_play","SAM",1,0,0,0
 "1224","Kraghammer",1,16,1224,"first_half_rp","MATT","okay.",5002.111,5003.41,1.29899999999998,2,92.3787528868376,NA,"role_play","MATT",0,0,0,1
 "1225","Kraghammer",1,16,1225,"first_half_rp","MARISHA","wow.",5003.41,5004.793,1.38299999999981,2,86.7678958785368,NA,"role_play","MARISHA",1,0,0,0
@@ -1352,10 +1352,10 @@
 "1351","Kraghammer",1,16,1351,"first_half_rp","ORION","yeah, 20!",5389.551,5390.653,1.10199999999986,3,163.339382940129,NA,"role_play","ORION",1,0,0,0
 "1352","Kraghammer",1,16,1352,"first_half_rp","ASHLEY","yeah, 20.",5390.653,5391.726,1.07299999999941,3,167.753960857501,NA,"role_play","ASHLEY",1,0,0,0
 "1353","Kraghammer",1,16,1353,"first_half_rp","MARISHA","yeah!",5391.726,5392.615,0.889000000000124,2,134.983127109093,NA,"role_play","MARISHA",1,0,0,0
-"1354","Kraghammer",1,16,1354,"first_half_rp","MATT","so. you barely manage to move out of the way before that circular portion of the ground skyrockets up like a pillar one very similar to the one that you created for your spell slams into the ceiling with a heavy thud, retracts, and continues again. in fact, looking around you, all of them in the room are now, at different levels, pistoning into the ceiling. this entire room is slowly rotating and there's just a series of pillars mashing into the ceiling.",5392.615,5420.779,28.1640000000007,85,181.082232637405,NA,"role_play","MATT",0,0,0,1
+"1354","Kraghammer",1,16,1354,"first_half_rp","MATT","so. you barely manage to move out of the way before that circular portion of the ground skyrockets up like a pillar one very similar to the one that you created for your spell slams into the ceiling with a heavy thud, retracts, and continues again. in fact, looking around you, all of them in the room are now, at different levels, pistoning into the ceiling. (repeated crashing rock noises) this entire room is slowly rotating and there's just a series of pillars mashing into the ceiling.",5392.615,5420.779,28.1640000000007,89,189.603749467401,NA,"role_play","MATT",0,0,0,1
 "1355","Kraghammer",1,16,1355,"first_half_rp","MARISHA","oh, it's like a mini-game.",5420.779,5422.627,1.84799999999996,8,259.740259740266,NA,"role_play","MARISHA",1,0,0,0
 "1356","Kraghammer",1,16,1356,"first_half_rp","MATT","you have to make an acrobatics check to try and get through this now because you have very little space to move.",5422.627,5426.298,3.67099999999937,23,375.919368019678,NA,"role_play","MATT",0,0,0,1
-"1357","Kraghammer",1,16,1357,"first_half_rp","LIAM","okay.",5426.298,5429.362,3.06400000000031,2,39.1644908616149,NA,"role_play","LIAM",1,0,0,0
+"1357","Kraghammer",1,16,1357,"first_half_rp","LIAM","okay.",5426.298,5427.71,1.41200000000026,2,84.9858356940352,NA,"role_play","LIAM",1,0,0,0
 "1358","Kraghammer",1,16,1358,"first_half_rp","LIAM","i'm going to use luck again.",5429.362,5431.321,1.95899999999983,8,245.022970903543,NA,"role_play","LIAM",1,0,0,0
 "1359","Kraghammer",1,16,1359,"first_half_rp","LIAM","that is 18.",5432.623,5435.574,2.95100000000002,4,81.3283632666887,NA,"role_play","LIAM",1,0,0,0
 "1360","Kraghammer",1,16,1360,"first_half_rp","MATT","18. you manage to make your way halfway across the room, dodging out of the way as these pillars are slamming and retracting. kind of use the pattern of when they're pulling down from the ceiling, but they're moving very fast. one of them manages to catch you underneath your ankle. go ahead and make a dexterity saving throw again.",5435.574,5454.536,18.9620000000004,63,199.346060542132,NA,"role_play","MATT",0,0,0,1
@@ -1446,7 +1446,7 @@
 "1445","Kraghammer",1,16,1445,"first_half_rp","MATT","and with that, you feel your focus, you wait, you breathe in, you breathe out, you breathe in, you breathe out in pattern with the slamming of the piston against the ceiling.",5700.361,5708.331,7.97000000000025,33,248.431618569628,NA,"role_play","MATT",0,0,0,1
 "1446","Kraghammer",1,16,1446,"first_half_rp","LAURA","oh, i'm so nervous.",5708.331,5709.565,1.23399999999947,6,291.734197731082,NA,"role_play","LAURA",1,0,0,0
 "1447","Kraghammer",1,16,1447,"first_half_rp","ASHLEY","get it, get it, get it, you're going to do it.",5709.565,5711.068,1.50300000000061,13,518.962075848092,NA,"role_play","ASHLEY",1,0,0,0
-"1448","Kraghammer",1,16,1448,"first_half_rp","MATT","you let out all your breath and you hold, hold, hold, waiting between heartbeats, and then, release. go ahead and make your attack roll.",5711.068,5717.899,6.83100000000013,25,219.587176108911,NA,"role_play","MATT",0,0,0,1
+"1448","Kraghammer",1,16,1448,"first_half_rp","MATT","you let out all your breath and you hold, hold, hold, waiting between heartbeats, and then , release. go ahead and make your attack roll.",5711.068,5717.899,6.83100000000013,25,219.587176108911,NA,"role_play","MATT",0,0,0,1
 "1449","Kraghammer",1,16,1449,"first_half_rp","LAURA","i'm going to roll the fancy one we got last week.",5717.899,5721.59,3.6909999999998,13,211.324844215671,NA,"role_play","LAURA",1,0,0,0
 "1450","Kraghammer",1,16,1450,"first_half_rp","LIAM","get it, girl. get it.",5721.59,5723.239,1.64899999999943,6,218.314129775697,NA,"role_play","LIAM",1,0,0,0
 "1451","Kraghammer",1,16,1451,"first_half_rp","LAURA","all right. oh, no. okay. i add my attack bonus?",5723.239,5728.108,4.8690000000006,11,135.551447935905,NA,"role_play","LAURA",1,0,0,0
@@ -1457,7 +1457,7 @@
 "1456","Kraghammer",1,16,1456,"first_half_rp","ORION","oh, shit.",5733.096,5735.389,2.29300000000057,3,78.4997819450305,NA,"role_play","ORION",1,0,0,0
 "1457","Kraghammer",1,16,1457,"first_half_rp","MARISHA","it's so quiet.",5735.389,5736.943,1.55400000000009,5,193.050193050182,NA,"role_play","MARISHA",1,0,0,0
 "1458","Kraghammer",1,16,1458,"first_half_rp","ORION","i know.",5736.943,5738.342,1.39899999999943,3,128.663330950731,NA,"role_play","ORION",1,0,0,0
-"1459","Kraghammer",1,16,1459,"first_half_rp","LAURA","oh, that's awesome! okay. 35.",5738.342,5745.531,7.18900000000031,7,58.4225900681572,NA,"role_play","LAURA",1,0,0,0
+"1459","Kraghammer",1,16,1459,"first_half_rp","LAURA","oh, that's awesome! okay. 35.",5738.342,5743.584,5.24200000000019,7,80.1220908050334,NA,"role_play","LAURA",1,0,0,0
 "1460","Kraghammer",1,16,1460,"first_half_rp","TRAVIS","good inspiration.",5745.531,5746.666,1.13500000000022,3,158.590308370014,NA,"role_play","TRAVIS",1,0,0,0
 "1461","Kraghammer",1,16,1461,"first_half_rp","MATT","as you release the arrow, you see the pillars slamming. the pillar comes down just as the arrow crests over it, past another pillar that just barely manages to miss it by a segment.",5746.666,5757.445,10.7789999999995,35,194.823267464523,NA,"role_play","MATT",0,0,0,1
 "1462","Kraghammer",1,16,1462,"first_half_rp","ORION","i cast telekinesis to swoop it up.",5757.445,5759.687,2.24200000000019,8,214.094558429955,NA,"role_play","ORION",1,0,0,0
@@ -1542,7 +1542,7 @@
 "1541","Kraghammer",1,16,1541,"break","MARISHA","taylor!",5966.646,5969.023,2.37700000000041,2,50.4838031131592,NA,NA,"MARISHA",1,0,0,0
 "1542","Kraghammer",1,16,1542,"break","MATT","well, first of all, on behalf of gamechanger, i just want to say what a blast it is to be with you guys. personally, i've never watched d&d before. you guys have made me a huge fan.",5969.023,5978.393,9.36999999999989,40,256.136606189971,NA,NA,"MATT",0,0,0,1
 "1543","Kraghammer",1,16,1543,"break","ORION","yes.",5978.393,5979.785,1.39199999999983,2,86.2068965517349,NA,NA,"ORION",1,0,0,0
-"1544","Kraghammer",1,16,1544,"break","MATT","and, yeah. so a little bit of backstory about gamechanger. about nine years ago, i was diagnosed terminal form of cancer. i was given about two weeks left to live, but thankfully it's been a long two weeks. i'm totally healthy now.",5979.785,5996.803,17.018,45,158.655541191679,NA,NA,"MATT",0,0,0,1
+"1544","Kraghammer",1,16,1544,"break","MATT","and, yeah. so a little bit of backstory about gamechanger. about nine years ago, i was diagnosed terminal form of cancer. i was given about two weeks left to live, but thankfully it's been a long two weeks. i'm totally healthy now.",5979.785,5994.061,14.2759999999998,45,189.12860745307,NA,NA,"MATT",0,0,0,1
 "1545","Kraghammer",1,16,1545,"break","MATT","thank you. but when i was sick, the most incredible thing that i saw was the impact that video games had on the people and on the children that were fighting cancer and other rare diseases. and witnessing the incredible good of the game community of video games. my dad and i resolved to make an organization that used and capitalized on that incredible good of the video games, of the gaming community, to help those suffering from rare diseases. and so one year later, gamechanger charity was born, and we started out just collecting games from the incredible gaming community, giving them back to kids suffering from rare diseases. and seven years later it evolved into what we have now. now we're sponsored with some incredible gaming organizations like square. a huge thanks to them for partnering with us for this awesome campaign. but yeah, today we go into hospitals and do things called gamechanger days where we go and we bring food for the staff, for the families, for the kids suffering from rare diseases. we bring them gaming packages so they can bond together. we provide college scholarships, and we really just try and provide hope and inspiration the same hope and inspiration that games really provided me when i was sick.",5996.803,6077.01,80.2070000000003,217,162.329971199521,NA,NA,"MATT",0,0,0,1
 "1546","Kraghammer",1,16,1546,"break","ORION","yeah. that's awesome. and we here at",6077.01,6080.411,3.40099999999984,8,141.134960305799,NA,NA,"ORION",1,0,0,0
 "1547","Kraghammer",1,16,1547,"break","MATT","oh, thank you. no, thank you guys.",6080.411,6082.698,2.28700000000026,8,209.881941407934,NA,NA,"MATT",0,0,0,1
@@ -1643,8 +1643,8 @@
 "1642","Kraghammer",1,16,1642,"second_half_rp","TRAVIS","burnt hair?",7180.777,7182.157,1.38000000000011,3,130.434782608685,NA,"role_play","TRAVIS",1,0,0,0
 "1643","Kraghammer",1,16,1643,"second_half_rp","MATT","it's similar. burnt hair with burnt plastic, if you can think of it it's awful.",7182.157,7186.793,4.63599999999951,18,232.959447799852,NA,"role_play","MATT",0,0,0,1
 "1644","Kraghammer",1,16,1644,"second_half_rp","LAURA","what's plastic?",7186.793,7188.85,2.0570000000007,4,116.674769081147,NA,"role_play","LAURA",1,0,0,0
-"1645","Kraghammer",1,16,1645,"second_half_rp","MATT","this is more for your own player knowledge, sensory knowledge.",7188.85,7196.077,7.22699999999986,11,91.3242009132438,NA,"role_play","MATT",0,0,0,1
-"1646","Kraghammer",1,16,1646,"second_half_rp","MATT","the sound of crackling of the nearby webbing that's slowly retracting and burning and melting is immediately joined by the sound of a low clicking.",7196.077,7208.731,12.6539999999995,27,128.022759601712,NA,"role_play","MATT",0,0,0,1
+"1645","Kraghammer",1,16,1645,"second_half_rp","MATT","this is more for your own player knowledge, sensory knowledge.",7188.85,7193.52,4.67000000000007,11,141.327623126336,NA,"role_play","MATT",0,0,0,1
+"1646","Kraghammer",1,16,1646,"second_half_rp","MATT","the sound of crackling of the nearby webbing that's slowly retracting and burning and melting is immediately joined by the sound of a low clicking.",7196.077,7205.907,9.82999999999993,27,164.801627670398,NA,"role_play","MATT",0,0,0,1
 "1647","Kraghammer",1,16,1647,"second_half_rp","LAURA","i stealth immediately.",7208.731,7210.921,2.19000000000051,4,109.589041095865,NA,"role_play","LAURA",1,0,0,0
 "1648","Kraghammer",1,16,1648,"second_half_rp","MARISHA","oh, that frickin' sound. do we i can try to cast pass without a trace on all of us, if we want to sneak through here.",7210.921,7218.031,7.10999999999967,27,227.848101265833,NA,"role_play","MARISHA",1,0,0,0
 "1649","Kraghammer",1,16,1649,"second_half_rp","LAURA","oh, yeah, that would be good!",7218.031,7219.168,1.13699999999972,7,369.393139841781,NA,"role_play","LAURA",1,0,0,0
@@ -1748,7 +1748,7 @@
 "1747","Kraghammer",1,16,1747,"combat","TRAVIS","wheatoning.",7500.952,7501.84,0.88799999999992,2,135.135135135147,1,"combat","TRAVIS",1,0,0,0
 "1748","Kraghammer",1,16,1748,"combat","SAM","wha-wha-wheaton.",7501.84,7503.419,1.57899999999972,4,151.994933502243,1,"combat","SAM",1,0,0,0
 "1749","Kraghammer",1,16,1749,"combat","MATT","all right, so. 25-20.",7503.419,7504.692,1.27300000000014,6,282.79654359777,1,"combat","MATT",0,0,0,1
-"1750","Kraghammer",1,16,1750,"combat","ASHLEY","natural 20.",7504.692,7507.342,2.64999999999964,3,67.9245283018961,1,"combat","ASHLEY",1,0,0,0
+"1750","Kraghammer",1,16,1750,"combat","ASHLEY","natural 20.",7504.692,7505.805,1.11300000000028,3,161.725067385404,1,"combat","ASHLEY",1,0,0,0
 "1751","Kraghammer",1,16,1751,"combat","ASHLEY","i don't think that ever happens when it's like damage or something.",7507.342,7509.354,2.01200000000063,15,447.316103379583,1,"combat","ASHLEY",1,0,0,0
 "1752","Kraghammer",1,16,1752,"combat","MATT","that's okay.",7509.354,7510.684,1.32999999999993,4,180.451127819559,1,"combat","MATT",0,0,0,1
 "1753","Kraghammer",1,16,1753,"combat","LAURA","23.",7510.684,7511.777,1.09299999999985,2,109.789569990866,1,"combat","LAURA",1,0,0,0
@@ -1786,7 +1786,7 @@
 "1785","Kraghammer",1,16,1785,"combat","MATT","16?",7566.524,7567.551,1.02700000000004,2,116.845180136314,1,"combat","MATT",0,0,0,1
 "1786","Kraghammer",1,16,1786,"combat","ORION","okay.",7567.551,7568.334,0.782999999999447,2,153.256704980951,1,"combat","ORION",1,0,0,0
 "1787","Kraghammer",1,16,1787,"combat","TRAVIS","get your head out of your ass.",7568.334,7569.676,1.34200000000055,8,357.675111773325,1,"combat","TRAVIS",1,0,0,0
-"1788","Kraghammer",1,16,1788,"combat","SAM","he's dr. evil.",7569.676,7572.552,2.87599999999929,5,104.311543810874,1,"combat","SAM",1,0,0,0
+"1788","Kraghammer",1,16,1788,"combat","SAM","he's dr. evil.",7569.676,7570.899,1.22299999999996,5,245.298446443181,1,"combat","SAM",1,0,0,0
 "1789","Kraghammer",1,16,1789,"combat","MATT","all right, vex.",7572.552,7573.153,0.601000000000568,4,399.334442595297,1,"combat","MATT",0,0,0,1
 "1790","Kraghammer",1,16,1790,"combat","LAURA","me?",7573.153,7574.021,0.867999999999483,2,138.24884792635,1,"combat","LAURA",1,0,0,0
 "1791","Kraghammer",1,16,1791,"combat","MATT","yes.",7574.021,7575.327,1.30600000000049,2,91.883614088786,1,"combat","MATT",0,0,0,1
@@ -1860,7 +1860,7 @@
 "1859","Kraghammer",1,16,1859,"combat","ASHLEY","and encase the spiders.",7731.225,7733.661,2.43599999999969,5,123.152709359621,1,"combat","ASHLEY",1,0,0,0
 "1860","Kraghammer",1,16,1860,"combat","MATT","okay.",7733.661,7735.414,1.7529999999997,2,68.4540787222022,1,"combat","MATT",0,0,0,1
 "1861","Kraghammer",1,16,1861,"combat","MARISHA","that's cool.",7735.414,7736.782,1.36800000000039,4,175.438596491178,1,"combat","MARISHA",1,0,0,0
-"1862","Kraghammer",1,16,1862,"combat","MATT","okay.",7736.782,7740.677,3.89499999999953,2,30.8087291399267,1,"combat","MATT",0,0,0,1
+"1862","Kraghammer",1,16,1862,"combat","MATT","okay.",7736.782,7738.664,1.88199999999961,2,63.7619553666446,1,"combat","MATT",0,0,0,1
 "1863","Kraghammer",1,16,1863,"combat","ASHLEY","like a thorny net.",7740.677,7742.069,1.39200000000073,5,215.517241379197,1,"combat","ASHLEY",1,0,0,0
 "1864","Kraghammer",1,16,1864,"combat","MATT","this would be considered a net, if we are considering a weapon that you are conjuring for this.",7742.069,7745.848,3.77899999999954,19,301.667107700486,1,"combat","MATT",0,0,0,1
 "1865","Kraghammer",1,16,1865,"combat","ASHLEY","i'm just making it look really pretty.",7745.848,7747.266,1.41799999999967,9,380.818053596705,1,"combat","ASHLEY",1,0,0,0
@@ -1883,7 +1883,7 @@
 "1882","Kraghammer",1,16,1882,"combat","ASHLEY","throw fire, a fireball at them.",7776.691,7777.947,1.25600000000031,7,334.394904458515,1,"combat","ASHLEY",1,0,0,0
 "1883","Kraghammer",1,16,1883,"combat","MATT","all right, go ahead and roll a d20 and then add five to it.",7777.947,7780.09,2.14300000000003,15,419.972001866537,1,"combat","MATT",0,0,0,1
 "1884","Kraghammer",1,16,1884,"combat","ASHLEY","okay. 12.",7780.09,7785.161,5.07099999999991,3,35.4959574048517,1,"combat","ASHLEY",1,0,0,0
-"1885","Kraghammer",1,16,1885,"combat","MATT","12? okay. these four in the immediate front, right there, as you bring back your mace in the air, you kind of hang onto the side with the leather strap around your wrist. you reach up and grab your holy symbol. as you release the holy symbol to hold your hand up, divine energy streaks out from your fingertips and forms into this kind of gold and silver net. as your arm is doing this kind of throwing animation in the air like that, the net shoots out from the front and spreads down onto the spiders and contracts around. you can see it catches them and they start scrambling inside. these front four are considered grappled.",7785.161,7826.527,41.366,118,171.155054875985,1,"combat","MATT",0,0,0,1
+"1885","Kraghammer",1,16,1885,"combat","MATT","12? okay. these four in the immediate front, right there, as you bring back your mace in the air, you kind of hang onto the side with the leather strap around your wrist. you reach up and grab your holy symbol. as you release the holy symbol to hold your hand up, divine energy streaks out from your fingertips and forms into this kind of gold and silver net. as your arm is doing this kind of throwing animation in the air like that, the net shoots out from the front and spreads down onto the spiders and contracts around. you can see it catches them and they start scrambling inside. these front four are considered grappled.",7785.161,7825.379,40.2179999999998,118,176.040578845294,1,"combat","MATT",0,0,0,1
 "1886","Kraghammer",1,16,1886,"combat","ASHLEY","all right, all right!",7826.527,7827.775,1.24799999999959,5,240.384615384694,1,"combat","ASHLEY",1,0,0,0
 "1887","Kraghammer",1,16,1887,"combat","MATT","the one in the back managed to avoid it.",7827.775,7829.19,1.41499999999996,10,424.028268551248,1,"combat","MATT",0,0,0,1
 "1888","Kraghammer",1,16,1888,"combat","ORION","cool.",7829.19,7829.901,0.71100000000024,2,168.77637130796,1,"combat","ORION",1,0,0,0
@@ -1947,7 +1947,7 @@
 "1946","Kraghammer",1,16,1946,"combat","MATT","so as you're off to the side hiding among the slowly burning webbing, you move around, huck both daggers. one strikes a spider right in the center of where its eyes are and it screeches for a second before it curls up, its legs kind of pulling into its torso. the other one begins to pull out of the net that pike set, and as it does you throw the secondary dagger. it strikes it in its abdomen, and the blade retracts and returns to your belt, and as it does, it leaves this streak of greenish liquid. and you have a better view of these spiders now. go ahead and make a nature check, both keyleth and vex.",7990.084,8026.259,36.1750000000002,121,200.691085003454,1,"combat","MATT",0,0,0,1
 "1947","Kraghammer",1,16,1947,"combat","MARISHA","dope.",8026.259,8027.436,1.17699999999968,2,101.954120645737,1,"combat","MARISHA",1,0,0,0
 "1948","Kraghammer",1,16,1948,"combat","ORION","by the way, i'm here, but i'm also there.",8027.436,8031.043,3.60699999999997,12,199.61186581647,1,"combat","ORION",1,0,0,0
-"1949","Kraghammer",1,16,1949,"combat","MARISHA","natural 20.",8031.043,8034.718,3.67500000000018,3,48.9795918367323,1,"combat","MARISHA",1,0,0,0
+"1949","Kraghammer",1,16,1949,"combat","MARISHA","natural 20.",8031.043,8032.925,1.88200000000052,3,95.6429330499206,1,"combat","MARISHA",1,0,0,0
 "1950","Kraghammer",1,16,1950,"combat","MATT","you're also there?",8034.718,8035.867,1.14900000000034,5,261.096605744048,1,"combat","MATT",0,0,0,1
 "1951","Kraghammer",1,16,1951,"combat","ORION","cloak of displacement.",8035.867,8036.751,0.884000000000015,4,271.493212669679,1,"combat","ORION",1,0,0,0
 "1952","Kraghammer",1,16,1952,"combat","LAURA","good, because i rolled an eight.",8036.751,8037.908,1.15700000000015,7,363.007778738068,1,"combat","LAURA",1,0,0,0
@@ -1996,10 +1996,10 @@
 "1995","Kraghammer",1,16,1995,"combat","TALIESIN","17 plus three fire damage.",8166.205,8167.297,1.09199999999964,6,329.670329670437,1,"combat","TALIESIN",1,0,0,0
 "1996","Kraghammer",1,16,1996,"combat","ASHLEY","that bonus is awesome.",8167.297,8168.241,0.944000000000415,5,317.796610169352,1,"combat","ASHLEY",1,0,0,0
 "1997","Kraghammer",1,16,1997,"combat","LAURA","he is so dead.",8168.241,8169.178,0.936999999999898,5,320.170757737495,1,"combat","LAURA",1,0,0,0
-"1998","Kraghammer",1,16,1998,"combat","MATT","that spider gets splattered. you see there's a burst of flame and a as its body is knocked in the air, torn asunder, and then consumed by the flame burst at the same time. you see what looks like a scattering of ash across the ground and the steps beneath it.",8169.178,8180.996,11.8180000000002,53,269.081062785577,1,"combat","MATT",0,0,0,1
+"1998","Kraghammer",1,16,1998,"combat","MATT","that spider gets splattered. you see there's a burst of flame and a (explosion noise) as its body is knocked in the air, torn asunder, and then consumed by the flame burst at the same time. you see what looks like a scattering of ash across the ground and the steps beneath it.",8169.178,8180.996,11.8180000000002,55,279.235065154844,1,"combat","MATT",0,0,0,1
 "1999","Kraghammer",1,16,1999,"combat","MARISHA","it looks like flash paper?",8180.996,8182.366,1.36999999999989,6,262.773722627758,1,"combat","MARISHA",1,0,0,0
 "2000","Kraghammer",1,16,2000,"combat","MATT","essentially, yeah.",8182.366,8183.126,0.760000000000218,3,236.84210526309,1,"combat","MATT",0,0,0,1
-"2001","Kraghammer",1,16,2001,"combat","TALIESIN","and i duck back behind grog.",8183.126,8185.805,2.67900000000009,7,156.774916013433,1,"combat","TALIESIN",1,0,0,0
+"2001","Kraghammer",1,16,2001,"combat","TALIESIN","and i duck back behind grog.",8183.126,8184.389,1.26299999999992,7,332.541567695983,1,"combat","TALIESIN",1,0,0,0
 "2002","Kraghammer",1,16,2002,"combat","TRAVIS","where are you going?",8185.805,8187.762,1.95699999999943,5,153.295861011798,1,"combat","TRAVIS",1,0,0,0
 "2003","Kraghammer",1,16,2003,"combat","MATT","all right. these two spiders that are currently caught in the net both vanish and the net falls flat.",8187.762,8198.132,10.3699999999999,20,115.718418514948,1,"combat","MATT",0,0,0,1
 "2004","Kraghammer",1,16,2004,"combat","LAURA","oh, bamf-ing spiders.",8198.132,8200.111,1.97900000000118,5,151.591712986266,1,"combat","LAURA",1,0,0,0
@@ -2012,7 +2012,7 @@
 "2011","Kraghammer",1,16,2011,"combat","TALIESIN","oh my god, that hits.",8216.195,8217.844,1.64899999999943,6,218.314129775697,1,"combat","TALIESIN",1,0,0,0
 "2012","Kraghammer",1,16,2012,"combat","MATT","all right. you both take 13 points of piercing damage",8217.844,8221.794,3.95000000000073,10,151.898734177187,1,"combat","MATT",0,0,0,1
 "2013","Kraghammer",1,16,2013,"combat","TALIESIN","ow!",8221.794,8222.778,0.984000000000378,2,121.951219512148,1,"combat","TALIESIN",1,0,0,0
-"2014","Kraghammer",1,16,2014,"combat","MATT","and i need you both to make a constitution saving throw.",8222.778,8226.992,4.21399999999994,12,170.859041290937,1,"combat","MATT",0,0,0,1
+"2014","Kraghammer",1,16,2014,"combat","MATT","and i need you both to make a constitution saving throw.",8222.778,8225.405,2.62700000000041,12,274.076893795161,1,"combat","MATT",0,0,0,1
 "2015","Kraghammer",1,16,2015,"combat","TALIESIN","oh, bugger.",8226.992,8230.59,3.59799999999996,3,50.0277932184553,1,"combat","TALIESIN",1,0,0,0
 "2016","Kraghammer",1,16,2016,"combat","MARISHA","that can't be good.",8230.59,8231.931,1.34100000000035,6,268.456375838856,1,"combat","MARISHA",1,0,0,0
 "2017","Kraghammer",1,16,2017,"combat","TALIESIN","13 points of piercing damage?",8231.931,8233.466,1.53499999999985,6,234.527687296439,1,"combat","TALIESIN",1,0,0,0
@@ -2055,7 +2055,7 @@
 "2054","Kraghammer",1,16,2054,"combat","MATT","okay.",8330.875,8332.104,1.22899999999936,2,97.6403580146969,1,"combat","MATT",0,0,0,1
 "2055","Kraghammer",1,16,2055,"combat","MARISHA","squishy spiders.",8332.104,8333.229,1.125,3,160,1,"combat","MARISHA",1,0,0,0
 "2056","Kraghammer",1,16,2056,"combat","ORION","yeah, these squishy spiders.",8333.229,8334.282,1.05299999999988,5,284.900284900316,1,"combat","ORION",1,0,0,0
-"2057","Kraghammer",1,16,2057,"combat","MATT","so as both the spiders are knocked off both percy and vex, you guys kind of rear back, ready to defend yourselves. suddenly the stairwell shakes for a second and pillars of stone go from underneath. similar to the trap room you encountered earlier.",8334.282,8348.922,14.6400000000012,45,184.426229508181,1,"combat","MATT",0,0,0,1
+"2057","Kraghammer",1,16,2057,"combat","MATT","so as both the spiders are knocked off both percy and vex, you guys kind of rear back, ready to defend yourselves. suddenly the stairwell shakes for a second and pillars of stone go (stone crushing noises) from underneath. similar to the trap room you encountered earlier.",8334.282,8348.922,14.6400000000012,48,196.721311475393,1,"combat","MATT",0,0,0,1
 "2058","Kraghammer",1,16,2058,"combat","ORION","that's it. 21.",8348.922,8357.948,9.02599999999984,5,33.237314424995,1,"combat","ORION",1,0,0,0
 "2059","Kraghammer",1,16,2059,"combat","MATT","21? and what's the dc on your spell?",8357.948,8360.392,2.44399999999951,10,245.499181669444,1,"combat","MATT",0,0,0,1
 "2060","Kraghammer",1,16,2060,"combat","ORION","17.",8360.392,8361.373,0.980999999999767,2,122.324159021436,1,"combat","ORION",1,0,0,0
@@ -2103,9 +2103,9 @@
 "2102","Kraghammer",1,16,2102,"second_half_rp","TRAVIS","i'm like a wal-mart over here. you could have asked me, but that's cool.",8479.299,8481.711,2.41199999999844,18,447.76119403014,NA,"role_play","TRAVIS",1,0,0,0
 "2103","Kraghammer",1,16,2103,"second_half_rp","MARISHA","your book helps.",8481.711,8483.278,1.56700000000092,4,153.15890236111,NA,"role_play","MARISHA",1,0,0,0
 "2104","Kraghammer",1,16,2104,"second_half_rp","SAM","i'm ready to make my attack turn.",8483.278,8484.722,1.44399999999951,9,373.961218836693,NA,"role_play","SAM",1,0,0,0
-"2105","Kraghammer",1,16,2105,"second_half_rp","MATT","all right. there is nothing there.",8484.722,8489.758,5.03600000000006,7,83.3995234312937,NA,"role_play","MATT",0,0,0,1
+"2105","Kraghammer",1,16,2105,"second_half_rp","MATT","all right. there is nothing there.",8484.722,8488.023,3.30099999999948,7,127.234171463213,NA,"role_play","MATT",0,0,0,1
 "2106","Kraghammer",1,16,2106,"second_half_rp","SAM","i sheath my sword.",8489.758,8492.076,2.3179999999993,5,129.421915444388,NA,"role_play","SAM",1,0,0,0
-"2107","Kraghammer",1,16,2107,"second_half_rp","MATT","there you go.",8492.076,8495.134,3.0580000000009,4,78.4826684107028,NA,"role_play","MATT",0,0,0,1
+"2107","Kraghammer",1,16,2107,"second_half_rp","MATT","there you go.",8492.076,8493.381,1.30500000000029,4,183.90804597697,NA,"role_play","MATT",0,0,0,1
 "2108","Kraghammer",1,16,2108,"second_half_rp","TALIESIN","a little help here, please? would be nice.",8495.134,8500.146,5.01200000000063,9,107.741420590569,NA,"role_play","TALIESIN",1,0,0,0
 "2109","Kraghammer",1,16,2109,"second_half_rp","ASHLEY","yes.",8500.146,8500.95,0.804000000000087,2,149.253731343267,NA,"role_play","ASHLEY",1,0,0,0
 "2110","Kraghammer",1,16,2110,"second_half_rp","LAURA","oh. oh, wait, i thought you weren't poisoned oh, you need healing because you are",8500.95,8502.782,1.83199999999852,16,524.017467249333,NA,"role_play","LAURA",1,0,0,0
@@ -2239,7 +2239,7 @@
 "2238","Kraghammer",1,16,2238,"second_half_rp","LAURA","no problem.",8865.688,8866.584,0.89600000000064,3,200.892857142714,NA,"role_play","LAURA",1,0,0,0
 "2239","Kraghammer",1,16,2239,"second_half_rp","MATT","grog, make a stealth check.",8866.584,8867.557,0.972999999999956,6,369.989722507725,NA,"role_play","MATT",0,0,0,1
 "2240","Kraghammer",1,16,2240,"second_half_rp","MARISHA","be very quiet.",8867.557,8868.968,1.41100000000006,4,170.092133238831,NA,"role_play","MARISHA",1,0,0,0
-"2241","Kraghammer",1,16,2241,"second_half_rp","TRAVIS","oh, shit. natural 20.",8868.968,8873.479,4.5109999999986,5,66.5041010862543,NA,"role_play","TRAVIS",1,0,0,0
+"2241","Kraghammer",1,16,2241,"second_half_rp","TRAVIS","oh, shit. natural 20.",8868.968,8871.455,2.48699999999917,5,120.627261761198,NA,"role_play","TRAVIS",1,0,0,0
 "2242","Kraghammer",1,16,2242,"second_half_rp","TALIESIN","spiderman.",8873.479,8875.74,2.26100000000042,2,53.0738611233868,NA,"role_play","TALIESIN",1,0,0,0
 "2243","Kraghammer",1,16,2243,"second_half_rp","LAURA","good thing you took that beard off because it had bells and shit in it.",8875.74,8878.124,2.38400000000001,16,402.684563758387,NA,"role_play","LAURA",1,0,0,0
 "2244","Kraghammer",1,16,2244,"second_half_rp","TRAVIS","oh, the beard is still there.",8878.124,8879.505,1.3809999999994,7,304.127443881377,NA,"role_play","TRAVIS",1,0,0,0
@@ -2276,14 +2276,14 @@
 "2275","Kraghammer",1,16,2275,"second_half_rp","SAM","all right, well, i'm going to follow suit and go to the other side and cast stinking cloud. no, over",8959.463,8964.476,5.01300000000083,21,251.346499102292,NA,"role_play","SAM",1,0,0,0
 "2276","Kraghammer",1,16,2276,"second_half_rp","MATT","over here?",8964.476,8965.761,1.28499999999985,3,140.077821011689,NA,"role_play","MATT",0,0,0,1
 "2277","Kraghammer",1,16,2277,"second_half_rp","SAM","over there, yeah.",8965.761,8967.207,1.44599999999991,4,165.97510373445,NA,"role_play","SAM",1,0,0,0
-"2278","Kraghammer",1,16,2278,"second_half_rp","TRAVIS","our side's the best!",8967.207,8970.526,3.31899999999951,6,108.466405543855,NA,"role_play","TRAVIS",1,0,0,0
+"2278","Kraghammer",1,16,2278,"second_half_rp","TRAVIS","our side's the best!",8967.207,8968.626,1.41899999999987,6,253.699788583533,NA,"role_play","TRAVIS",1,0,0,0
 "2279","Kraghammer",1,16,2279,"second_half_rp","MATT","go ahead and make another stealth check.",8970.526,8972.459,1.9330000000009,8,248.318675633614,NA,"role_play","MATT",0,0,0,1
 "2280","Kraghammer",1,16,2280,"second_half_rp","SAM","okay. 15. 17!",8972.459,8976.13,3.67099999999846,4,65.3772813947428,NA,"role_play","SAM",1,0,0,0
 "2281","Kraghammer",1,16,2281,"second_half_rp","MATT","17.",8976.13,8977.286,1.15600000000086,2,103.806228373625,NA,"role_play","MATT",0,0,0,1
 "2282","Kraghammer",1,16,2282,"second_half_rp","SAM","that's the best stealth i've ever done.",8977.286,8979.822,2.53600000000006,10,236.593059936903,NA,"role_play","SAM",1,0,0,0
 "2283","Kraghammer",1,16,2283,"second_half_rp","ASHLEY","well done.",8979.894,8980.634,0.739999999999782,3,243.243243243315,NA,"role_play","ASHLEY",1,0,0,0
 "2284","Kraghammer",1,16,2284,"second_half_rp","TRAVIS","yeah, buddy.",8980.634,8981.648,1.01399999999921,3,177.514792899546,NA,"role_play","TRAVIS",1,0,0,0
-"2285","Kraghammer",1,16,2285,"second_half_rp","MATT","you quietly come by and mutter under your breath your arcane ritual and all of a sudden. and what was the size of the cloud on that one?",8981.648,8986.775,5.12700000000041,29,339.37975424222,NA,"role_play","MATT",0,0,0,1
+"2285","Kraghammer",1,16,2285,"second_half_rp","MATT","you quietly come by and mutter under your breath your arcane ritual and all of a sudden . and what was the size of the cloud on that one?",8981.648,8986.775,5.12700000000041,29,339.37975424222,NA,"role_play","MATT",0,0,0,1
 "2286","Kraghammer",1,16,2286,"second_half_rp","SAM","30 feet, i think? i think it's 30 feet. hold on, hold on, hold on. 90 feet! oh, that's the range.",8986.775,8995.453,8.67799999999988,24,165.936851809175,NA,"role_play","SAM",1,0,0,0
 "2287","Kraghammer",1,16,2287,"second_half_rp","MATT","what's the radius?",8995.453,8996.517,1.06400000000031,5,281.954887217964,NA,"role_play","MATT",0,0,0,1
 "2288","Kraghammer",1,16,2288,"second_half_rp","SAM","it's a 20-foot radius.",8996.517,8997.725,1.20800000000054,7,347.682119205143,NA,"role_play","SAM",1,0,0,0
@@ -2368,7 +2368,7 @@
 "2367","Kraghammer",1,16,2367,"second_half_rp","ASHLEY","i don't?",9247.71,9248.646,0.936000000001513,4,256.410256409842,NA,"role_play","ASHLEY",1,0,0,0
 "2368","Kraghammer",1,16,2368,"second_half_rp","MATT","you do.",9248.646,9249.646,1,3,180,NA,"role_play","MATT",0,0,0,1
 "2369","Kraghammer",1,16,2369,"second_half_rp","ORION","17.",9249.646,9255.933,6.28700000000026,2,19.0870049308088,NA,"role_play","ORION",1,0,0,0
-"2370","Kraghammer",1,16,2370,"second_half_rp","ASHLEY","three.",9255.933,9265.265,9.33199999999852,2,12.8589798542669,NA,"role_play","ASHLEY",1,0,0,0
+"2370","Kraghammer",1,16,2370,"second_half_rp","ASHLEY","three.",9255.933,9262.327,6.39399999999841,2,18.7675946199609,NA,"role_play","ASHLEY",1,0,0,0
 "2371","Kraghammer",1,16,2371,"second_half_rp","SAM","clang, clang, clang.",9265.265,9267.335,2.06999999999971,4,115.942028985524,NA,"role_play","SAM",1,0,0,0
 "2372","Kraghammer",1,16,2372,"second_half_rp","MATT","so you step into the chamber, losing your footing for a moment on the smooth, kind of platinum-like ridges across the ground, and you kind of catch yourself, your plate hitting the ground with a loud sound, at which point the two scalebearers kind of look at you",9267.335,9283.673,16.3380000000016,49,179.948586118235,NA,"role_play","MATT",0,0,0,1
 "2373","Kraghammer",1,16,2373,"second_half_rp","ASHLEY","sorry! sorry!",9283.673,9285.491,1.8179999999993,3,99.0099009901371,NA,"role_play","ASHLEY",1,0,0,0
@@ -2423,7 +2423,7 @@
 "2422","Kraghammer",1,16,2422,"second_half_rp","MATT","and that blue energy reaches to the ceiling and illuminates it. and what you missed when you entered the room is you can see, recessed into the ceiling of this room, four large humanoid entities that are just currently held aloft, buried in the ceiling, of platinum armor.",9461.127,9475.774,14.646999999999,49,200.723697685546,NA,"role_play","MATT",0,0,0,1
 "2423","Kraghammer",1,16,2423,"second_half_rp","ORION","go.",9475.774,9476.868,1.09400000000096,2,109.689213893871,NA,"role_play","ORION",1,0,0,0
 "2424","Kraghammer",1,16,2424,"second_half_rp","TRAVIS","we've got to go. we've got to go.",9476.868,9478.048,1.18000000000029,11,559.322033898167,NA,"role_play","TRAVIS",1,0,0,0
-"2425","Kraghammer",1,16,2425,"second_half_rp","MATT","one of them suddenly flashes, dislodges, and, squashing the spider in the process.",9478.048,9485.752,7.70399999999972,14,109.034267912777,NA,"role_play","MATT",0,0,0,1
+"2425","Kraghammer",1,16,2425,"second_half_rp","MATT","one of them suddenly flashes, dislodges, and, squashing the spider in the process.",9478.048,9484.073,6.02499999999964,14,139.419087136938,NA,"role_play","MATT",0,0,0,1
 "2426","Kraghammer",1,16,2426,"second_half_rp","MARISHA","what is that?",9485.752,9486.867,1.11499999999978,4,215.246636771343,NA,"role_play","MARISHA",1,0,0,0
 "2427","Kraghammer",1,16,2427,"second_half_rp","MATT","just screeching sound, the spider slowly tries to curl in place, the giant platinum golem now slamming on top and squishing on top. you see as it slowly comes to stand, each hand holding these giant platinum cleavers. you suddenly hear a voice ringing through your heads collectively: ""get out.""",9486.867,9507.992,21.125,51,144.852071005917,NA,"role_play","MATT",0,0,0,1
 "2428","Kraghammer",1,16,2428,"second_half_rp","LAURA","we should get out!",9507.992,9509.328,1.33599999999933,5,224.550898203705,NA,"role_play","LAURA",1,0,0,0
@@ -2443,7 +2443,7 @@
 "2442","Kraghammer",1,16,2442,"second_half_rp","ORION","we all got above ten?",9540.618,9542.242,1.6239999999998,6,221.674876847318,NA,"role_play","ORION",1,0,0,0
 "2443","Kraghammer",1,16,2443,"second_half_rp","MATT","anyone? all right. you as well?",9542.242,9544.374,2.13199999999961,7,196.998123827428,NA,"role_play","MATT",0,0,0,1
 "2444","Kraghammer",1,16,2444,"second_half_rp","ASHLEY","14.",9544.374,9545.185,0.810999999999694,2,147.96547472262,NA,"role_play","ASHLEY",1,0,0,0
-"2445","Kraghammer",1,16,2445,"second_half_rp","MATT","awesome.",9545.185,9546.861,1.6760000000013,2,71.5990453460067,NA,"role_play","MATT",0,0,0,1
+"2445","Kraghammer",1,16,2445,"second_half_rp","MATT","awesome.",9545.185,9545.98,0.795000000000073,2,150.943396226401,NA,"role_play","MATT",0,0,0,1
 "2446","Kraghammer",1,16,2446,"second_half_rp","ORION","even pike!",9546.861,9547.893,1.03199999999924,3,174.418604651291,NA,"role_play","ORION",1,0,0,0
 "2447","Kraghammer",1,16,2447,"second_half_rp","MATT","you guys all come darting out of the room, except for kima, who rolls a one. so all of you guys come running out of the room",9547.893,9552.091,4.19800000000032,27,385.89804668887,NA,"role_play","MATT",0,0,0,1
 "2448","Kraghammer",1,16,2448,"second_half_rp","SAM","kima's dead.",9552.158,9553.09,0.932000000000698,4,257.510729613541,NA,"role_play","SAM",1,0,0,0
@@ -2533,8 +2533,8 @@
 "2532","Kraghammer",1,16,2532,"second_half_rp","MARISHA","bad car wash.",9829.348,9831.111,1.76300000000083,4,136.131593874014,NA,"role_play","MARISHA",1,0,0,0
 "2533","Kraghammer",1,16,2533,"second_half_rp","LAURA","oh, no, grog, your beard has been singed.",9831.111,9833.592,2.48099999999977,9,217.654171704978,NA,"role_play","LAURA",1,0,0,0
 "2534","Kraghammer",1,16,2534,"second_half_rp","ORION","oh!",9833.592,9834.313,0.720999999999549,2,166.435506241436,NA,"role_play","ORION",1,0,0,0
-"2535","Kraghammer",1,16,2535,"second_half_rp","TRAVIS","what?",9834.313,9837.59,3.27700000000004,2,36.6188587122363,NA,"role_play","TRAVIS",1,0,0,0
-"2536","Kraghammer",1,16,2536,"second_half_rp","MATT","you reach up instinctively, you feel it's as smooth as a baby goliath's face.",9837.59,9843.3,5.70999999999913,17,178.633975481639,NA,"role_play","MATT",0,0,0,1
+"2535","Kraghammer",1,16,2535,"second_half_rp","TRAVIS","what?",9834.313,9835.269,0.956000000000131,2,125.523012552284,NA,"role_play","TRAVIS",1,0,0,0
+"2536","Kraghammer",1,16,2536,"second_half_rp","MATT","you reach up instinctively, you feel it's as smooth as a baby goliath's face.",9837.59,9841.991,4.40099999999984,17,231.765507839136,NA,"role_play","MATT",0,0,0,1
 "2537","Kraghammer",1,16,2537,"second_half_rp","ORION","all that work!",9843.3,9846.133,2.83300000000054,4,84.7158489233866,NA,"role_play","ORION",1,0,0,0
 "2538","Kraghammer",1,16,2538,"second_half_rp","MATT","as you guys charge up the rest of the staircase",9846.133,9848.411,2.27800000000025,10,263.388937664589,NA,"role_play","MATT",0,0,0,1
 "2539","Kraghammer",1,16,2539,"second_half_rp","ORION","is grog behind us now, like the furthest away?",9848.411,9850.042,1.6309999999994,10,367.872470876897,NA,"role_play","ORION",1,0,0,0
@@ -2542,7 +2542,7 @@
 "2541","Kraghammer",1,16,2541,"second_half_rp","ORION","we're leaving! what are you doing?!",9865.503,9866.773,1.26999999999862,8,377.952755905923,NA,"role_play","ORION",1,0,0,0
 "2542","Kraghammer",1,16,2542,"second_half_rp","MARISHA","yeah, go home! go home! bad golem.",9866.773,9869.502,2.72900000000118,8,175.888603884131,NA,"role_play","MARISHA",1,0,0,0
 "2543","Kraghammer",1,16,2543,"second_half_rp","TALIESIN","i take a",9869.502,9870.488,0.985999999998967,3,182.555780933254,NA,"role_play","TALIESIN",1,0,0,0
-"2544","Kraghammer",1,16,2544,"second_half_rp","MATT","kima takes out her holy symbol and holds it aloft in front of her and says under her breath, at which point it begins to glow with this extremely vibrant glow. as it does, you see a symbol emblazoned on the front of the golem and it flashes with light as it stops and just kind of holds its place and waits. and kima looks at the symbol like ""i wasn't sure that was going to ""work."" she takes",9870.488,9893.512,23.0240000000013,80,208.47810979846,NA,"role_play","MATT",0,0,0,1
+"2544","Kraghammer",1,16,2544,"second_half_rp","MATT","kima takes out her holy symbol and holds it aloft in front of her and says under her breath , at which point it begins to glow with this extremely vibrant glow. as it does, you see a symbol emblazoned on the front of the golem and it flashes with light as it stops and just kind of holds its place and waits. and kima looks at the symbol like ""i wasn't sure that was going to ""work."" she takes",9870.488,9893.512,23.0240000000013,80,208.47810979846,NA,"role_play","MATT",0,0,0,1
 "2545","Kraghammer",1,16,2545,"second_half_rp","ORION","tell it to go kill the spider.",9893.512,9895.298,1.78600000000006,8,268.75699888017,NA,"role_play","ORION",1,0,0,0
 "2546","Kraghammer",1,16,2546,"second_half_rp","MATT","she takes the symbol and puts it back in the side of the stone door that originally was closed. the doors slowly seal shut once again. she pulls the symbol out and she falls to her knees, breathing heavily.",9895.298,9907.956,12.6579999999994,40,189.60341286144,NA,"role_play","MATT",0,0,0,1
 "2547","Kraghammer",1,16,2547,"second_half_rp","SAM","oh, kima.",9907.956,9909.352,1.39600000000064,3,128.93982808017,NA,"role_play","SAM",1,0,0,0
@@ -2586,7 +2586,7 @@
 "2585","Kraghammer",1,16,2585,"second_half_rp","MATT","""excuse me, i'm right here.""",9990.191,9991.871,1.67999999999847,8,285.714285714546,NA,"role_play","MATT",0,0,0,1
 "2586","Kraghammer",1,16,2586,"second_half_rp","ORION","it was a play on words. your name also means something that you do when you're tired.",9991.871,9995.081,3.21000000000095,19,355.140186915783,NA,"role_play","ORION",1,0,0,0
 "2587","Kraghammer",1,16,2587,"second_half_rp","MARISHA","yeah!",9995.081,9997.234,2.15300000000025,2,55.7361820715217,NA,"role_play","MARISHA",1,0,0,0
-"2588","Kraghammer",1,16,2588,"second_half_rp","MATT","""i don't like you.""",9997.234,10000.228,2.99399999999878,7,140.280561122302,NA,"role_play","MATT",0,0,0,1
+"2588","Kraghammer",1,16,2588,"second_half_rp","MATT","""i don't like you.""",9997.234,9999.016,1.78199999999924,7,235.690235690336,NA,"role_play","MATT",0,0,0,1
 "2589","Kraghammer",1,16,2589,"second_half_rp","MATT","he reaches out and puts a big old sack of coins in your hands.",10000.228,10002.127,1.89900000000125,15,473.933649288787,NA,"role_play","MATT",0,0,0,1
 "2590","Kraghammer",1,16,2590,"second_half_rp","LAURA","oh! i'll hold onto that.",10002.191,10005.206,3.01499999999942,7,139.303482587092,NA,"role_play","LAURA",1,0,0,0
 "2591","Kraghammer",1,16,2591,"second_half_rp","ORION","of course.",10005.206,10006.297,1.09100000000035,3,164.986251145685,NA,"role_play","ORION",1,0,0,0
@@ -2658,7 +2658,7 @@
 "2657","Kraghammer",1,16,2657,"second_half_rp","MATT","vox machina.",10524.219,10526.717,2.49800000000141,3,72.0576461168528,NA,"role_play","MATT",0,0,0,1
 "2658","Kraghammer",1,16,2658,"second_half_rp","ORION","you will be missed very much, pike.",10526.717,10529.872,3.15499999999884,8,152.139461172798,NA,"role_play","ORION",1,0,0,0
 "2659","Kraghammer",1,16,2659,"second_half_rp","ASHLEY","i'm going to miss you guys very much.",10529.872,10532.479,2.60699999999997,10,230.149597238207,NA,"role_play","ASHLEY",1,0,0,0
-"2660","Kraghammer",1,16,2660,"second_half_rp","MATT","and on that note, we have to close because people are in a rush. yeah, ashley will be leaving us for a time. she's going to new york for a few months to shoot a web a television series.",10532.479,10545.877,13.398000000001,41,183.609493954307,NA,"role_play","MATT",0,0,0,1
+"2660","Kraghammer",1,16,2660,"second_half_rp","MATT","and on that note, we have to close because people are in a rush. yeah, ashley will be leaving us for a time. she's going to new york for a few months to shoot a web a television series.",10532.479,10544.502,12.023000000001,41,204.607834982932,NA,"role_play","MATT",0,0,0,1
 "2661","Kraghammer",1,16,2661,"second_half_rp","SAM","a little web series.",10545.877,10547.439,1.5619999999999,5,192.061459667106,NA,"role_play","SAM",1,0,0,0
 "2662","Kraghammer",1,16,2662,"second_half_rp","MATT","a wonderful television series she has recurring. we're really happy and proud of her we're just a jumble of emotions under the circumstances.",10547.502,10556.186,8.68399999999929,26,179.640718562889,NA,"role_play","MATT",0,0,0,1
 "2663","Kraghammer",1,16,2663,"second_half_rp","ASHLEY","you guys have been so amazing and have made this experience even better for us, and thank you so much for going with us on our journey. it will keep going, but i will be back when i can.",10556.186,10567.543,11.357,40,211.323412873118,NA,"role_play","ASHLEY",1,0,0,0
@@ -2674,7 +2674,7 @@
 "2673","Kraghammer",1,16,2673,"second_half_rp","ASHLEY","personal journey.",10584.432,10585.701,1.26899999999841,3,141.843971631383,NA,"role_play","ASHLEY",1,0,0,0
 "2674","Kraghammer",1,16,2674,"second_half_rp","TRAVIS","you have a good time.",10585.701,10588.231,2.53000000000065,6,142.29249011854,NA,"role_play","TRAVIS",1,0,0,0
 "2675","Kraghammer",1,16,2675,"second_half_rp","ASHLEY","i will.",10588.231,10589.903,1.67200000000048,3,107.655502392314,NA,"role_play","ASHLEY",1,0,0,0
-"2676","Kraghammer",1,16,2676,"second_half_rp","SAM","pike, i, scanlan, will not physically wait for you, but emotionally",10589.903,10599.221,9.3179999999993,11,70.8306503541586,NA,"role_play","SAM",1,0,0,0
+"2676","Kraghammer",1,16,2676,"second_half_rp","SAM","pike, i, scanlan, will not physically wait for you, but emotionally",10589.903,10597.158,7.2549999999992,11,90.9717436250962,NA,"role_play","SAM",1,0,0,0
 "2677","Kraghammer",1,16,2677,"second_half_rp","SAM","emotionally i will wait for you, and i will not stray emotionally. i will always be there for you emotionally.",10599.221,10608.463,9.24200000000019,21,136.334126812375,NA,"role_play","SAM",1,0,0,0
 "2678","Kraghammer",1,16,2678,"second_half_rp","ASHLEY","okay, scanlan.",10608.463,10609.466,1.00300000000061,3,179.461615154427,NA,"role_play","ASHLEY",1,0,0,0
 "2679","Kraghammer",1,16,2679,"second_half_rp","SAM","but physically, i mean, come on, it's going to be months.",10609.466,10611.866,2.39999999999964,13,325.000000000049,NA,"role_play","SAM",1,0,0,0

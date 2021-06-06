@@ -1,0 +1,8 @@
+Actor,Sam,Taliesin,Marisha,Liam,Laura,Ashley,Travis
+Sam,0,,,,,,
+Taliesin,1,0,,,,,
+Marisha,2,1,0,,,,
+Liam,3,2,1,0,,,
+Laura,4,3,2,1,0,,
+Ashley,5,4,3,2,1,0,
+Travis,6,5,4,3,2,1,0

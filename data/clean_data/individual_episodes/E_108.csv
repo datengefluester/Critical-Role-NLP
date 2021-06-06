@@ -1,5 +1,5 @@
 "","arc","arc_no","episode","turn_number","segment","actor","text","start_turn","end_turn","time_in_sec","word_count","words_per_minute","encounter_count","rp_combat","actor_guest","vox_machina","guest","staff","matt"
-"1","End",8,108,1,"prologue","MATT","hello and welcome to tonight's episode of critical role, where a bunch of us nerdy-ass voice actors sit around and play dungeons and dragons. my name is matthew mercer, the dungeon master and the person unable to find a barber who understands ""leave it long.""",0,15.435,15.435,48,186.588921282799,NA,"role_play","MATT",0,0,0,1
+"1","End",8,108,1,"prologue","MATT","hello and welcome to tonight's episode of critical role, where a bunch of us nerdy-ass voice actors sit around and play dungeons and dragons. my name is matthew mercer, the dungeon master and the person unable to find a barber who understands ""leave it long.""",0,11.73,11.73,48,245.524296675192,NA,"role_play","MATT",0,0,0,1
 "2","End",8,108,2,"prologue","MATT","but that's okay; it'll grow.",15.435,18.679,3.244,8,147.965474722565,NA,"role_play","MATT",0,0,0,1
 "3","End",8,108,3,"prologue","TRAVIS","time jump, backwards.",18.679,20.847,2.168,4,110.70110701107,NA,"role_play","TRAVIS",1,0,0,0
 "4","End",8,108,4,"prologue","LIAM","you look handsome in any hair.",20.847,23.277,2.43,7,172.83950617284,NA,"role_play","LIAM",1,0,0,0
@@ -15,7 +15,7 @@
 "14","End",8,108,14,"prologue","LAURA","hi!",95.326,96.242,0.916000000000011,2,131.004366812225,NA,"role_play","LAURA",1,0,0,0
 "15","End",8,108,15,"prologue","MARISHA","oh man.",96.242,97.261,1.01899999999999,3,176.643768400394,NA,"role_play","MARISHA",1,0,0,0
 "16","End",8,108,16,"prologue","LAURA","we have something to show you guys. you just wait. hey guys, why don't you roll that footage?",97.261,106.815,9.554,20,125.601842160352,NA,"role_play","LAURA",1,0,0,0
-"17","End",8,108,17,"prologue","MATT","""hello, tal'doreians, and we have an exciting new product that we want to share with ""you today on gilmore's glorious qvc. what you see here is a beautiful major arcana tarot deck ""featuring some of the most prominent figures of who's-who in picturesque tal'dorei. ""painted by the brilliant lady ioana muresan, printed on the finest cardstock parchment with ""glittering gold foil, imported from the mines of kraghammer. this is truly a showstopper for any ""high society soiree. you're not just telling their fortunes, you're bedazzling their future. ""now, today we're offering this beautiful purple and gold deluxe edition as well as that's it, ""actually. i wouldn't offer any other than the finest edition at my store. the going market ""retail price is four platinum or 40 gold pieces or 400 silver pieces or 4,000 copper pieces, but ""today we are giving you the special gilmore's glorious qvc value of sherri, no, we're still ""filming those. please, you're getting them all smudgy!""",106.815,169.134,62.319,177,170.413517546816,NA,"role_play","MATT",0,0,0,1
+"17","End",8,108,17,"prologue","MATT","""hello, tal'doreians, and we have an exciting new product that we want to share with ""you today on gilmore's glorious qvc. what you see here is a beautiful major arcana tarot deck ""featuring some of the most prominent figures of who's-who in picturesque tal'dorei. ""painted by the brilliant lady ioana muresan, printed on the finest cardstock parchment with ""glittering gold foil, imported from the mines of kraghammer. this is truly a showstopper for any ""high society soiree. you're not just telling their fortunes, you're bedazzling their future. ""now, today we're offering this beautiful purple and gold deluxe edition as well as that's it, ""actually. i wouldn't offer any other than the finest edition at my store. the going market ""retail price is four platinum or 40 gold pieces or 400 silver pieces or 4,000 copper pieces, but ""today we are giving you the special gilmore's glorious qvc value of sherri, no, we're still ""filming those. please, you're getting them all smudgy!""",106.815,167.774,60.959,177,174.215456290293,NA,"role_play","MATT",0,0,0,1
 "18","End",8,108,18,"prologue","MATT","""the special gilmore's glorious qvc value of 24 gold pieces and 99 copper. that's right! just ""two and a half platinum pieces! but that offer only lasts until the disclosed amount of seconds ""runs out on the timer in the corner. scry now or come down and visit me, gilmore, at gilmore's glorious ""goods in the abdar's promenade district of emon.""",169.134,189.143,20.009,67,200.909590684192,NA,"role_play","MATT",0,0,0,1
 "19","End",8,108,19,"prologue","LAURA","oh, these tarot cards? hold on, let me open it up, since you didn't see enough of it in that amazing commercial.",189.143,201.939,12.796,24,112.535167239762,NA,"role_play","LAURA",1,0,0,0
 "20","End",8,108,20,"prologue","TRAVIS","oh my god, they're so shiny.",201.939,206.514,4.57500000000002,8,104.918032786885,NA,"role_play","TRAVIS",1,0,0,0
@@ -200,7 +200,7 @@
 "199","End",8,108,199,"combat","MATT","okay. so the second one you watch as one of its armored shoulder plates dents inward from the impact, and there's a small pierced hole in the center where it seems to have blasted through its armor.",1512.208,1524.899,12.6909999999998,39,184.382633362228,1,"combat","MATT",0,0,0,1
 "200","End",8,108,200,"combat","TALIESIN","and last shot. i'm going to try and push him ten feet back.",1524.899,1531.026,6.12700000000018,15,146.890811163697,1,"combat","TALIESIN",1,0,0,0
 "201","End",8,108,201,"combat","MATT","okay.",1531.026,1532.311,1.28499999999985,2,93.3852140077927,1,"combat","MATT",0,0,0,1
-"202","End",8,108,202,"combat","TALIESIN","natural 20.",1532.311,1537.047,4.7360000000001,3,38.0067567567559,1,"combat","TALIESIN",1,0,0,0
+"202","End",8,108,202,"combat","TALIESIN","natural 20.",1532.311,1534.286,1.97500000000014,3,91.1392405063228,1,"combat","TALIESIN",1,0,0,0
 "203","End",8,108,203,"combat","TALIESIN","should have done damage. there's no damage on a push shot.",1537.047,1539.782,2.7349999999999,13,285.191956124325,1,"combat","TALIESIN",1,0,0,0
 "204","End",8,108,204,"combat","MATT","yeah.",1539.782,1541.286,1.50400000000013,2,79.7872340425461,1,"combat","MATT",0,0,0,1
 "205","End",8,108,205,"combat","LIAM","but he got pushed.",1541.286,1542.745,1.45899999999983,5,205.620287868427,1,"combat","LIAM",1,0,0,0
@@ -217,7 +217,7 @@
 "216","End",8,108,216,"combat","MATT","so i'm making this a grapple check, so roll either acrobatics or athletics.",1596.41,1604.963,8.55299999999988,15,105.226236408279,1,"combat","MATT",0,0,0,1
 "217","End",8,108,217,"combat","TRAVIS","whichever one's better. acrobatics.",1604.963,1612.435,7.47199999999998,6,48.1798715203427,1,"combat","TRAVIS",1,0,0,0
 "218","End",8,108,218,"combat","LAURA","25?",1612.435,1614.758,2.32300000000009,2,51.6573396470061,1,"combat","LAURA",1,0,0,0
-"219","End",8,108,219,"combat","MATT","no. 34.",1614.758,1619.773,5.01499999999987,3,35.8923230309082,1,"combat","MATT",0,0,0,1
+"219","End",8,108,219,"combat","MATT","no. 34.",1614.758,1617.489,2.73099999999999,3,65.9099231050898,1,"combat","MATT",0,0,0,1
 "220","End",8,108,220,"combat","MATT","i rolled really high. so as it leaps in the air and grabs you, it drags you off the broom and then basically slam-dunks you into the coals. straight over, prone into the coals, landing at the side of them right there. the broom goes clattering off to the side. it's still chained to you from the apparatus that you placed, and it scatters across the stonework a couple of feet from you.",1619.773,1648.328,28.5550000000001,76,159.691822798109,1,"combat","MATT",0,0,0,1
 "221","End",8,108,221,"combat","TRAVIS","i thought it was just going to slam you into the ground!",1648.328,1650.615,2.28700000000003,13,341.058154787927,1,"combat","TRAVIS",1,0,0,0
 "222","End",8,108,222,"combat","TALIESIN","oh, it's going to hurt!",1650.615,1652.072,1.45699999999988,7,288.263555250539,1,"combat","TALIESIN",1,0,0,0
@@ -467,7 +467,7 @@
 "466","End",8,108,466,"combat","TALIESIN","i'm going to spend a point of dead-eye to that last one that's on the ground, and i think that cancels out the disadvantage. yeah, let's just shoot him. yeah, that's a 27.",3079.578,3100.714,21.136,39,110.711582134747,1,"combat","TALIESIN",1,0,0,0
 "467","End",8,108,467,"combat","MATT","27 hits.",3100.714,3102.045,1.33100000000013,3,135.236664162271,1,"combat","MATT",0,0,0,1
 "468","End",8,108,468,"combat","TALIESIN","that's ten points of damage, two points of necrotic, two points of psychic. and do the same. that's 32.",3102.045,3120.409,18.364,22,71.8797647571334,1,"combat","TALIESIN",1,0,0,0
-"469","End",8,108,469,"combat","MATT","that hits.",3120.409,3126.904,6.49499999999989,3,27.7136258660513,1,"combat","MATT",0,0,0,1
+"469","End",8,108,469,"combat","MATT","that hits.",3120.409,3123.671,3.26199999999972,3,55.1808706315192,1,"combat","MATT",0,0,0,1
 "470","End",8,108,470,"combat","TALIESIN","what a senseless waste of human life.",3126.904,3130.09,3.18600000000015,8,150.659133709974,1,"combat","TALIESIN",1,0,0,0
 "471","End",8,108,471,"combat","LAURA AND LIAM","the tarot cards!",3130.09,3132.592,2.50199999999995,4,95.9232613908891,1,"combat","LAURA AND LIAM",1,0,0,0
 "472","End",8,108,472,"combat","TALIESIN","tarot cards are fine!",3132.592,3133.98,1.38799999999992,5,216.138328530272,1,"combat","TALIESIN",1,0,0,0
@@ -484,9 +484,9 @@
 "483","End",8,108,483,"combat","TALIESIN","and for my third shot. that's 30 points.",3157.889,3163.806,5.91699999999992,10,101.402737873924,1,"combat","TALIESIN",1,0,0,0
 "484","End",8,108,484,"combat","MATT","that hits, yeah.",3163.806,3165.303,1.49699999999984,4,160.320641282582,1,"combat","MATT",0,0,0,1
 "485","End",8,108,485,"combat","TALIESIN","that's 17 points of normal damage, four points of necrotic, one point of psychic.",3165.303,3170.126,4.82300000000032,16,199.046236782073,1,"combat","TALIESIN",1,0,0,0
-"486","End",8,108,486,"combat","MATT","okay. so after grog rushed up and slammed in this one's chest, he pulls back and actually pulls the armored chest plate that retains the furnace in the inside off. it's still wedged on the axe. and as it pulls open you see the flame begin to spark and billow out of the chest. how do you want to do this?",3170.126,3190.722,20.596,64,186.443969702855,1,"combat","MATT",0,0,0,1
+"486","End",8,108,486,"combat","MATT","okay. so after grog rushed up and slammed in this one's chest, he pulls back and actually pulls the armored chest plate that retains the furnace in the inside off. it's still wedged on the axe. and as it pulls open you see the flame begin to spark and billow out of the chest. how do you want to do this?",3170.126,3189.357,19.2309999999998,64,199.677603868756,1,"combat","MATT",0,0,0,1
 "487","End",8,108,487,"combat","TRAVIS","you are frenzied raging right now.",3190.722,3192.636,1.91399999999976,7,219.435736677143,1,"combat","TRAVIS",1,0,0,0
-"488","End",8,108,488,"combat","TALIESIN","i want to pour a cup of coffee",3192.636,3196.743,4.10699999999997,8,116.873630387145,1,"combat","TALIESIN",1,0,0,0
+"488","End",8,108,488,"combat","TALIESIN","i want to pour a cup of coffee",3192.636,3193.974,1.33800000000019,8,358.744394618782,1,"combat","TALIESIN",1,0,0,0
 "489","End",8,108,489,"combat","MARISHA","morning traffic percy's like.",3196.743,3201.931,5.1880000000001,6,69.3909020817257,1,"combat","MARISHA",1,0,0,0
 "490","End",8,108,490,"combat","TALIESIN","i'm going to sit. i've already got him, second time i'm going to find very carefully every little crack, and i'm going to get him in there. i'm going to listen to them bang around on the interior. i'm going to rattle them around.",3201.931,3211.16,9.22899999999981,51,331.563549680362,1,"combat","TALIESIN",1,0,0,0
 "491","End",8,108,491,"combat","MATT","you hear the ricochet on the inside, as it does, the flicker burns really bright, you can feel it almost burns into your beard but you pull away real fast, almost like looking out of the trap in ghostbusters. so you turn away. the flames burn upward and then immediately go dark afterward, it falls and collapses to the ground there, unmoving.",3211.16,3230.493,19.3330000000001,63,195.520612424351,1,"combat","MATT",0,0,0,1
@@ -494,7 +494,7 @@
 "493","End",8,108,493,"first_half_rp","MARISHA","ugh, no!",3232.102,3238.481,6.37900000000036,3,28.2175889637858,NA,"role_play","MARISHA",1,0,0,0
 "494","End",8,108,494,"first_half_rp","TALIESIN","it's going to be fine.",3238.481,3240.444,1.96299999999974,7,213.958227203289,NA,"role_play","TALIESIN",1,0,0,0
 "495","End",8,108,495,"first_half_rp","LAURA","the worst. it's seriously under the box though, on the wires.",3240.444,3245.232,4.78800000000001,13,162.907268170426,NA,"role_play","LAURA",1,0,0,0
-"496","End",8,108,496,"first_half_rp","LIAM","but coffee and wyrmwood are the two best things, so you're mixing the two best things.",3245.232,3252.886,7.654,18,141.102691403188,NA,"role_play","LIAM",1,0,0,0
+"496","End",8,108,496,"first_half_rp","LIAM","but coffee and wyrmwood are the two best things, so you're mixing the two best things.",3245.232,3250.724,5.49200000000019,18,196.649672250539,NA,"role_play","LIAM",1,0,0,0
 "497","End",8,108,497,"first_half_rp","LAURA","it's everywhere!",3252.886,3254.442,1.55600000000004,4,154.241645244212,NA,"role_play","LAURA",1,0,0,0
 "498","End",8,108,498,"first_half_rp","TALIESIN","holy cow. i have a coffee problem.",3254.442,3256.785,2.34299999999985,8,204.865556978246,NA,"role_play","TALIESIN",1,0,0,0
 "499","End",8,108,499,"first_half_rp","MATT","the coffee-pocalypse has come to critical role this night.",3256.785,3261.213,4.42800000000034,11,149.051490514894,NA,"role_play","MATT",0,0,0,1
@@ -759,7 +759,7 @@
 "758","End",8,108,758,"first_half_rp","TRAVIS","yeah. see if he reacts to you.",4916.353,4919.855,3.5019999999995,8,137.064534551704,NA,"role_play","TRAVIS",1,0,0,0
 "759","End",8,108,759,"first_half_rp","LAURA","dart up to him and go and then dart back.",4919.855,4924.335,4.48000000000047,11,147.321428571413,NA,"role_play","LAURA",1,0,0,0
 "760","End",8,108,760,"first_half_rp","MARISHA","hang on. we might want to be careful about getting too high. there's a lot of smoke in there; we don't want to suffocate.",4924.335,4929.268,4.93299999999999,27,328.40056760592,NA,"role_play","MARISHA",1,0,0,0
-"761","End",8,108,761,"first_half_rp","SAM","that's the only time marisha has ever said those words.",4929.268,4940.616,11.348,12,63.4473034896019,NA,"role_play","SAM",1,0,0,0
+"761","End",8,108,761,"first_half_rp","SAM","that's the only time marisha has ever said those words.",4929.268,4931.448,2.18000000000029,12,330.275229357754,NA,"role_play","SAM",1,0,0,0
 "762","End",8,108,762,"first_half_rp","MARISHA","we're live on the fucking internet, sam riegel!",4940.616,4944.283,3.66700000000037,10,163.621488955533,NA,"role_play","MARISHA",1,0,0,0
 "763","End",8,108,763,"first_half_rp","SAM","hope your mom's watching.",4944.283,4947.526,3.24299999999948,6,111.00832562444,NA,"role_play","SAM",1,0,0,0
 "764","End",8,108,764,"first_half_rp","LIAM","thanks for watching everybody, that's the end of tonight's show. oh my gosh.",4947.526,4952.341,4.81500000000051,16,199.376947040477,NA,"role_play","LIAM",1,0,0,0
@@ -795,7 +795,7 @@
 "794","End",8,108,794,"first_half_rp","LAURA","maybe it's better.",5132.894,5133.934,1.03999999999996,5,288.461538461549,NA,"role_play","LAURA",1,0,0,0
 "795","End",8,108,795,"first_half_rp","TALIESIN","it's a crazy plan, but it just might work.",5133.934,5135.94,2.0059999999994,11,329.012961116748,NA,"role_play","TALIESIN",1,0,0,0
 "796","End",8,108,796,"first_half_rp","LAURA","you can speak celestial, too, right? you don't just read it.",5135.94,5138.333,2.39300000000003,13,325.95068951107,NA,"role_play","LAURA",1,0,0,0
-"797","End",8,108,797,"first_half_rp","TALIESIN","gefülten. yes, i speak celestial.",5138.333,5143.938,5.60500000000047,6,64.2283675289866,NA,"role_play","TALIESIN",1,0,0,0
+"797","End",8,108,797,"first_half_rp","TALIESIN","gefülten. yes, i speak celestial.",5138.333,5142.805,4.47200000000066,6,80.5008944543709,NA,"role_play","TALIESIN",1,0,0,0
 "798","End",8,108,798,"first_half_rp","TRAVIS","oh man, swedish chef over here.",5143.938,5145.891,1.95299999999952,7,215.053763440913,NA,"role_play","TRAVIS",1,0,0,0
 "799","End",8,108,799,"first_half_rp","MATT","so we now have, as exandria canon, that celestial sounds like swedish.",5145.891,5153.866,7.97500000000036,13,97.8056426332244,NA,"role_play","MATT",0,0,0,1
 "800","End",8,108,800,"first_half_rp","TALIESIN","you can bury that as deep as you want.",5153.866,5156.577,2.71100000000024,10,221.320545923994,NA,"role_play","TALIESIN",1,0,0,0
@@ -1026,7 +1026,7 @@
 "1025","End",8,108,1025,"combat","TALIESIN","oh. six?",8056.328,8058.634,2.30599999999959,3,78.0572419774642,2,"combat","TALIESIN",1,0,0,0
 "1026","End",8,108,1026,"combat","LAURA","we are fucked!",8058.634,8062.03,3.39599999999973,4,70.6713780918784,2,"combat","LAURA",1,0,0,0
 "1027","End",8,108,1027,"combat","MATT","top of the round. as the large forge guardian stands with its giant rune blade before it, percival. you're up first. what are you doing?",8062.03,8078.072,16.0420000000004,27,100.984914599175,2,"combat","MATT",0,0,0,1
-"1028","End",8,108,1028,"combat","LAURA","make peace!",8078.072,8083.373,5.30099999999948,3,33.9558573854023,2,"combat","LAURA",1,0,0,0
+"1028","End",8,108,1028,"combat","LAURA","make peace!",8078.072,8080.089,2.01699999999983,3,89.2414476946037,2,"combat","LAURA",1,0,0,0
 "1029","End",8,108,1029,"combat","TRAVIS","when the dm smirks like that.",8083.373,8085.475,2.10200000000077,7,199.809705042743,2,"combat","TRAVIS",1,0,0,0
 "1030","End",8,108,1030,"combat","TALIESIN","i'm going to bake a pie and deliver it okay, i'm going to run back towards that red crystal.",8085.475,8093.76,8.28499999999985,22,159.324079662043,2,"combat","TALIESIN",1,0,0,0
 "1031","End",8,108,1031,"combat","MATT","this one?",8093.76,8095.197,1.4369999999999,3,125.260960334038,2,"combat","MATT",0,0,0,1
@@ -1054,7 +1054,7 @@
 "1053","End",8,108,1053,"combat","MARISHA","it immediately catches your butt on fire because we're surrounded by methane gas. you take four damage.",8219.914,8226.323,6.40899999999965,19,177.87486347325,2,"combat","MARISHA",1,0,0,0
 "1054","End",8,108,1054,"combat","LAURA","and you're on fire.",8226.323,8228.109,1.78600000000006,6,201.567749160128,2,"combat","LAURA",1,0,0,0
 "1055","End",8,108,1055,"combat","MARISHA","and you're on fire, yeah.",8228.109,8230.285,2.17599999999948,7,193.014705882399,2,"combat","MARISHA",1,0,0,0
-"1056","End",8,108,1056,"combat","TALIESIN","this is really intimidating. the crystals are glowing, and it makes me unhappy. is your crystal red, too?",8230.285,8239.522,9.23700000000099,19,123.416693731718,2,"combat","TALIESIN",1,0,0,0
+"1056","End",8,108,1056,"combat","TALIESIN","this is really intimidating. the crystals are glowing, and it makes me unhappy. is your crystal red, too?",8230.285,8237.841,7.55600000000049,19,150.873478030694,2,"combat","TALIESIN",1,0,0,0
 "1057","End",8,108,1057,"combat","TALIESIN","no! not cool.",8239.522,8241.139,1.61699999999837,4,148.423005566012,2,"combat","TALIESIN",1,0,0,0
 "1058","End",8,108,1058,"combat","LAURA","he can walk! he can move!",8241.139,8242.287,1.14800000000105,7,365.853658536251,2,"combat","LAURA",1,0,0,0
 "1059","End",8,108,1059,"combat","MATT","steps, leaps",8242.287,8243.865,1.57799999999952,2,76.045627376449,2,"combat","MATT",0,0,0,1
@@ -1182,7 +1182,7 @@
 "1181","End",8,108,1181,"combat","MARISHA","wait.",8936.935,8937.82,0.885000000000218,2,135.59322033895,2,"combat","MARISHA",1,0,0,0
 "1182","End",8,108,1182,"combat","LIAM","wait.",8937.82,8938.836,1.01599999999962,2,118.110236220516,2,"combat","LIAM",1,0,0,0
 "1183","End",8,108,1183,"combat","MATT","that is a 19.",8938.836,8941.674,2.83800000000156,5,105.708245243071,2,"combat","MATT",0,0,0,1
-"1184","End",8,108,1184,"combat","LIAM AND MATT","no.",8941.674,8944.781,3.10699999999997,2,38.6224654007084,2,"combat","LIAM AND MATT",1,0,0,0
+"1184","End",8,108,1184,"combat","LIAM AND MATT","no.",8941.674,8942.848,1.17399999999907,2,102.214650766691,2,"combat","LIAM AND MATT",1,0,0,0
 "1185","End",8,108,1185,"combat","TRAVIS","well done!",8944.781,8946.298,1.51699999999983,3,118.655240606474,2,"combat","TRAVIS",1,0,0,0
 "1186","End",8,108,1186,"combat","MATT","so as the blade arcs overhead towards you, you barely duck out of the way. it slams on the ground, sending shards of stone and metal up in the air around you. you feel it rain over your shoulder and the back of your head as you slowly pull away from it. all righty, now it is the elemental's turn.",8946.298,8964.68,18.3819999999996,62,202.371885540207,2,"combat","MATT",0,0,0,1
 "1187","End",8,108,1187,"combat","MARISHA","okay, it's going to move over to him. and he's bigger than large, so he's going to do a multiattack. he's going to do two slam attacks. plus seven to hit. one's a natural one; the other's a natural 18. so one hits. 2d8 plus four bludgeoning damage.",8964.68,8994.059,29.378999999999,55,112.325130195041,2,"combat","MARISHA",1,0,0,0
@@ -1261,7 +1261,7 @@
 "1260","End",8,108,1260,"combat","TALIESIN","roll with advantage? athletics?",9336.02,9339.109,3.08899999999994,5,97.1188086759487,2,"combat","TALIESIN",1,0,0,0
 "1261","End",8,108,1261,"combat","MATT","athletics.",9339.109,9340.121,1.01199999999881,2,118.577075098954,2,"combat","MATT",0,0,0,1
 "1262","End",8,108,1262,"combat","MARISHA","please don't fucking fall in lava.",9340.121,9342.302,2.18100000000049,8,220.082530949056,2,"combat","MARISHA",1,0,0,0
-"1263","End",8,108,1263,"combat","TALIESIN","natural 20.",9342.302,9346.031,3.72900000000118,3,48.2703137570242,2,"combat","TALIESIN",1,0,0,0
+"1263","End",8,108,1263,"combat","TALIESIN","natural 20.",9342.302,9343.587,1.28499999999985,3,140.077821011689,2,"combat","TALIESIN",1,0,0,0
 "1264","End",8,108,1264,"combat","MATT","percival runs, swings across, and i'll move this a bit.",9346.031,9349.112,3.08099999999831,12,233.690360272767,2,"combat","MATT",0,0,0,1
 "1265","End",8,108,1265,"combat","LIAM","oh, the golem is dead.",9349.112,9351.181,2.06900000000132,6,173.997100048221,2,"combat","LIAM",1,0,0,0
 "1266","End",8,108,1266,"combat","MATT","percival barely makes it across. if you let go of the chain, you'll land. if you hold onto it you'll dangle and swing in the center.",9351.181,9362.597,11.4159999999993,29,152.417659425378,2,"combat","MATT",0,0,0,1
@@ -1272,7 +1272,7 @@
 "1271","End",8,108,1271,"combat","TALIESIN","yeah, i'm going to take a moment to look at it. i've got an action, still.",9372.668,9375.499,2.83100000000013,19,402.684563758371,2,"combat","TALIESIN",1,0,0,0
 "1272","End",8,108,1272,"combat","MATT","do you want to do that, then?",9375.499,9377.137,1.63800000000083,8,293.040293040145,2,"combat","MATT",0,0,0,1
 "1273","End",8,108,1273,"combat","TALIESIN","yeah, i'll use my action to admire the hammer.",9377.137,9381.035,3.89799999999923,11,169.317598768633,2,"combat","TALIESIN",1,0,0,0
-"1274","End",8,108,1274,"combat","MATT","okay. make a arcana check. as you're clutching the hammer now, it's dangling down, and you're holding onto it. and the heat is burning from underneath you, and you can see the.",9381.035,9392.016,10.9809999999998,36,196.703396776254,2,"combat","MATT",0,0,0,1
+"1274","End",8,108,1274,"combat","MATT","okay. make a arcana check. as you're clutching the hammer now, it's dangling down, and you're holding onto it. and the heat is burning from underneath you, and you can see the .",9381.035,9392.016,10.9809999999998,36,196.703396776254,2,"combat","MATT",0,0,0,1
 "1275","End",8,108,1275,"combat","TALIESIN","no. i have an arcana of seven.",9392.016,9394.236,2.22000000000116,8,216.216216216103,2,"combat","TALIESIN",1,0,0,0
 "1276","End",8,108,1276,"combat","MATT","seven. you're distracted by everything going on around you and the heat in your face. you can see it above you, the black and gold scrolling on it. it looks beautiful, but you can't make out any more details than that, unfortunately.",9394.236,9407.212,12.9759999999987,45,208.076448828627,2,"combat","MATT",0,0,0,1
 "1277","End",8,108,1277,"combat","TALIESIN","god fucking damn it. okay, i'm hopping off, then.",9407.212,9410.004,2.79200000000128,11,236.389684813645,2,"combat","TALIESIN",1,0,0,0
@@ -1284,7 +1284,7 @@
 "1283","End",8,108,1283,"combat","MATT","you did it? good job.",9429.341,9430.581,1.23999999999978,6,290.322580645212,2,"combat","MATT",0,0,0,1
 "1284","End",8,108,1284,"combat","LAURA","it shut him up for a little bit.",9430.581,9432.053,1.47199999999975,9,366.847826087018,2,"combat","LAURA",1,0,0,0
 "1285","End",8,108,1285,"combat","LIAM","can't get the golem, but you can get the cricket.",9432.053,9434.364,2.31099999999969,12,311.553440069275,2,"combat","LIAM",1,0,0,0
-"1286","End",8,108,1286,"combat","MATT","well done. all right, at the end of percival's turn, it's going to use its third and final legendary action to to try and get that hit on you. natural 20.",9434.364,9446.565,12.2010000000009,34,167.199409884423,2,"combat","MATT",0,0,0,1
+"1286","End",8,108,1286,"combat","MATT","well done. all right, at the end of percival's turn, it's going to use its third and final legendary action to to try and get that hit on you. natural 20.",9434.364,9444.791,10.4269999999997,34,195.645919248112,2,"combat","MATT",0,0,0,1
 "1287","End",8,108,1287,"combat","TRAVIS","oh my god, really?",9446.565,9448.194,1.628999999999,5,184.162062615215,2,"combat","TRAVIS",1,0,0,0
 "1288","End",8,108,1288,"combat","LIAM","making up for the last time. fine, give it to me.",9448.194,9450.36,2.16600000000108,12,332.409972299004,2,"combat","LIAM",1,0,0,0
 "1289","End",8,108,1289,"combat","LAURA","no, can you uncanny dodge?",9450.36,9452.185,1.82499999999891,6,197.260273972721,2,"combat","LAURA",1,0,0,0
@@ -1379,7 +1379,7 @@
 "1378","End",8,108,1378,"combat","LAURA","yeah, that's the thing, he was holding.",9887.973,9890.075,2.10200000000077,9,256.898192197812,2,"combat","LAURA",1,0,0,0
 "1379","End",8,108,1379,"combat","TRAVIS","should i try and smith?",9890.075,9893.435,3.35999999999876,6,107.142857142897,2,"combat","TRAVIS",1,0,0,0
 "1380","End",8,108,1380,"combat","TALIESIN","here's the question. i should know this: how quickly can these things be made?",9893.435,9899.993,6.5580000000009,16,146.386093321114,2,"combat","TALIESIN",1,0,0,0
-"1381","End",8,108,1381,"combat","MATT","well, to be honest, the process of each trammel is going to be a 15-minute process. you can't hyper-smith in the middle of battle.",9899.993,9913.193,13.1999999999989,28,127.272727272738,2,"combat","MATT",0,0,0,1
+"1381","End",8,108,1381,"combat","MATT","well, to be honest, the process of each trammel is going to be a 15-minute process. you can't hyper-smith in the middle of battle.",9899.993,9910.244,10.2510000000002,28,163.886450102426,2,"combat","MATT",0,0,0,1
 "1382","End",8,108,1382,"combat","LAURA","well. okay. do i have any more movement left?",9913.193,9920.137,6.94400000000132,10,86.4055299539006,2,"combat","LAURA",1,0,0,0
 "1383","End",8,108,1383,"combat","MATT","that's 15 minutes if it's a straight multiple people helping circumstance.",9920.137,9924.382,4.24499999999898,14,197.879858657291,2,"combat","MATT",0,0,0,1
 "1384","End",8,108,1384,"combat","LAURA","do i have any more movement left?",9924.382,9926.601,2.21900000000096,8,216.313654799366,2,"combat","LAURA",1,0,0,0
@@ -1444,16 +1444,16 @@
 "1443","End",8,108,1443,"combat","SAM","19.",10210.687,10212.186,1.4989999999998,2,80.0533689126193,2,"combat","SAM",1,0,0,0
 "1444","End",8,108,1444,"combat","TALIESIN","plus a d4.",10212.186,10213.434,1.24799999999959,4,192.307692307755,2,"combat","TALIESIN",1,0,0,0
 "1445","End",8,108,1445,"combat","SAM","plus three, so that's 22.",10213.434,10216.104,2.67000000000007,7,157.303370786513,2,"combat","SAM",1,0,0,0
-"1446","End",8,108,1446,"combat","MATT","22. it rolled a 19.",10216.104,10219.986,3.88200000000143,6,92.7357032457156,2,"combat","MATT",0,0,0,1
+"1446","End",8,108,1446,"combat","MATT","22. it rolled a 19.",10216.104,10218.067,1.96299999999974,6,183.392766174248,2,"combat","MATT",0,0,0,1
 "1447","End",8,108,1447,"combat","MATT","it is grappling the blade. what that means is, for the purposes of this, all of its attacks are at disadvantage until it can break free from bigby holding the blade.",10219.986,10228.168,8.18199999999888,32,234.661451967766,2,"combat","MATT",0,0,0,1
 "1448","End",8,108,1448,"combat","LIAM","bigby's hand!",10228.168,10229.924,1.75600000000122,4,136.674259680998,2,"combat","LIAM",1,0,0,0
 "1449","End",8,108,1449,"combat","MATT","that's your turn, unless you want to use a bonus action for something.",10229.924,10233.371,3.4469999999983,15,261.096605744254,2,"combat","MATT",0,0,0,1
 "1450","End",8,108,1450,"combat","SAM","i will use a bonus action to level two healing word myself.",10233.371,10237.349,3.97800000000097,13,196.078431372501,2,"combat","SAM",1,0,0,0
 "1451","End",8,108,1451,"combat","MATT","go for it.",10237.349,10238.524,1.17499999999927,4,204.255319149063,2,"combat","MATT",0,0,0,1
-"1452","End",8,108,1452,"combat","SAM","i will sing, i'm freaked out by the shape of me! i'm burned up and nobody can see. so you know what i'll do to thee? give some health to my body.",10238.524,10256.563,18.0390000000007,36,119.740562115412,2,"combat","SAM",1,0,0,0
+"1452","End",8,108,1452,"combat","SAM","i will sing, i'm freaked out by the shape of me! i'm burned up and nobody can see. so you know what i'll do to thee? give some health to my body.",10238.524,10252.515,13.991,36,154.384961761132,2,"combat","SAM",1,0,0,0
 "1453","End",8,108,1453,"combat","MATT","damn it, sam. take your 2d4 plus six. finishing that out, it is the elemental's turn.",10256.563,10267.392,10.8289999999997,18,99.7322005725393,2,"combat","MATT",0,0,0,1
 "1454","End",8,108,1454,"combat","MARISHA","he is slowly steaming away, right, because it's so hot?",10267.392,10274.414,7.02200000000084,12,102.534890344619,2,"combat","MARISHA",1,0,0,0
-"1455","End",8,108,1455,"combat","MATT","you're not going to rules-lawyer me out of the elemental.",10274.414,10281.136,6.72199999999975,13,116.036893781617,2,"combat","MATT",0,0,0,1
+"1455","End",8,108,1455,"combat","MATT","you're not going to rules-lawyer me out of the elemental.",10274.414,10278.008,3.59399999999914,13,217.028380634442,2,"combat","MATT",0,0,0,1
 "1456","End",8,108,1456,"combat","MATT","it makes a slam attack against both vex and grog. vex, that's a 15 plus seven, 22. and grog, that's a 17 plus seven, 24. what's the bludgeoning damage from the elemental?",10281.136,10294.419,13.2829999999994,36,162.61386734925,2,"combat","MATT",0,0,0,1
 "1457","End",8,108,1457,"combat","MARISHA","it's 2d8 plus four.",10294.419,10299.59,5.17100000000028,6,69.6190292013113,2,"combat","MARISHA",1,0,0,0
 "1458","End",8,108,1458,"combat","MATT","vex, you take 15 points of bludgeoning damage. grog, you take 11 points of bludgeoning damage, reduced to five.",10299.59,10313.034,13.4439999999995,20,89.2591490627822,2,"combat","MATT",0,0,0,1
@@ -1529,7 +1529,7 @@
 "1528","End",8,108,1528,"combat","MATT","that hits. roll damage.",10764.987,10766.812,1.82500000000073,5,164.38356164377,2,"combat","MATT",0,0,0,1
 "1529","End",8,108,1529,"combat","TRAVIS","nice. fuck. 27.",10766.812,10772.396,5.58400000000074,4,42.979942693404,2,"combat","TRAVIS",1,0,0,0
 "1530","End",8,108,1530,"combat","MATT","27 points of damage.",10772.396,10773.932,1.53600000000006,5,195.312499999993,2,"combat","MATT",0,0,0,1
-"1531","End",8,108,1531,"combat","TRAVIS","that was a shit roll. i rolled a one. oh! i reroll ones! sorry. reroll ones. thanks. 12! that's way better!",10773.932,10783.822,9.88999999999942,23,139.534883720938,2,"combat","TRAVIS",1,0,0,0
+"1531","End",8,108,1531,"combat","TRAVIS","that was a shit roll. i rolled a one. oh! i reroll ones! sorry. reroll ones. thanks. 12! that's way better!",10773.932,10782.462,8.52999999999884,23,161.781946072707,2,"combat","TRAVIS",1,0,0,0
 "1532","End",8,108,1532,"combat","MATT","that's an extra 11 damage on it.",10783.822,10784.982,1.15999999999985,9,465.517241379369,2,"combat","MATT",0,0,0,1
 "1533","End",8,108,1533,"combat","TRAVIS","28, 38.",10784.982,10786.182,1.20000000000073,3,149.999999999909,2,"combat","TRAVIS",1,0,0,0
 "1534","End",8,108,1534,"combat","MATT","38 damage. there you go. so as you resist the effect, you come back with a third strike, slamming it into the back, and you can watch some of the armor in the back cracks. you can see bits of glowing orange in places. it's still looking fine, but it's taking hits. it isn't impervious.",10786.182,10804.451,18.2689999999984,59,193.770868684674,2,"combat","MATT",0,0,0,1
@@ -1545,7 +1545,7 @@
 "1544","End",8,108,1544,"combat","TALIESIN","that's one shot. this is my last advantage shot. i'm going to take another advantage shot on him. here we go.",10880.122,10896.816,16.6940000000013,24,86.2585360009516,2,"combat","TALIESIN",1,0,0,0
 "1545","End",8,108,1545,"combat","TRAVIS","come on, dude.",10896.816,10898.804,1.98799999999937,4,120.724346076497,2,"combat","TRAVIS",1,0,0,0
 "1546","End",8,108,1546,"combat","TALIESIN","that's 24 on the advantage shot.",10898.804,10905.95,7.14600000000064,8,67.1704450041921,2,"combat","TALIESIN",1,0,0,0
-"1547","End",8,108,1547,"combat","MATT","24 just hits.",10905.95,10909.168,3.21799999999894,4,74.5804847731756,2,"combat","MATT",0,0,0,1
+"1547","End",8,108,1547,"combat","MATT","24 just hits.",10905.95,10907.397,1.44700000000012,4,165.860400829289,2,"combat","MATT",0,0,0,1
 "1548","End",8,108,1548,"combat","TRAVIS","that's what it is. 24.",10909.168,10910.484,1.31600000000071,7,319.14893617004,2,"combat","TRAVIS",1,0,0,0
 "1549","End",8,108,1549,"combat","TALIESIN","here we go. 15 points of damage plus three points of psychic damage. i should start taking track of this. shooting again, no advantage. 20.",10910.484,10936.547,26.0630000000001,26,59.854966811188,2,"combat","TALIESIN",1,0,0,0
 "1550","End",8,108,1550,"combat","MATT","20 does not hit.",10936.547,10938.265,1.71799999999894,5,174.621653085091,2,"combat","MATT",0,0,0,1
@@ -1694,7 +1694,7 @@
 "1693","End",8,108,1693,"combat","MATT","it's not a check, it's a saving throw.",11551.319,11552.677,1.35800000000017,11,486.008836524238,2,"combat","MATT",0,0,0,1
 "1694","End",8,108,1694,"combat","SAM","okay, then it can max out at 20.",11552.677,11555.832,3.15500000000065,9,171.156893819299,2,"combat","SAM",1,0,0,0
 "1695","End",8,108,1695,"combat","MATT","well, 20 is the max. that's what you're trying to hit. the dc is 20.",11555.832,11558.719,2.88699999999881,18,374.090751645461,2,"combat","MATT",0,0,0,1
-"1696","End",8,108,1696,"combat","SAM","oh! okay, well then i will roll my d4 and see if i can hit it. i only rolled a three, not a four.",11558.719,11566.343,7.62400000000162,25,196.747114375614,2,"combat","SAM",1,0,0,0
+"1696","End",8,108,1696,"combat","SAM","oh! okay, well then i will roll my d4 and see if i can hit it. i only rolled a three, not a four.",11558.719,11564.676,5.95700000000033,25,251.804599630672,2,"combat","SAM",1,0,0,0
 "1697","End",8,108,1697,"combat","MATT","bigby fades. no longer holding the weapon, the hand fades and the blade is now no longer held back. the creature's looking pretty hurt, but it's still hanging in there.",11566.343,11577.044,10.7009999999991,33,185.029436501277,2,"combat","MATT",0,0,0,1
 "1698","End",8,108,1698,"combat","TRAVIS","all i see is wicked davy jones wanting to chop us to pieces.",11577.044,11582.888,5.84400000000096,14,143.737166324412,2,"combat","TRAVIS",1,0,0,0
 "1699","End",8,108,1699,"combat","MATT","end of his turn, vex, you're up.",11582.888,11584.647,1.75900000000001,9,306.992609437178,2,"combat","MATT",0,0,0,1
@@ -1705,7 +1705,7 @@
 "1704","End",8,108,1704,"combat","MARISHA","i thought you said, ""can i shoot at his genitals?""",11594.989,11597.194,2.20499999999993,11,299.319727891166,2,"combat","MARISHA",1,0,0,0
 "1705","End",8,108,1705,"combat","LIAM","is grog close enough for flanking for her?",11597.194,11605.889,8.69499999999971,9,62.1046578493408,2,"combat","LIAM",1,0,0,0
 "1706","End",8,108,1706,"combat","LAURA","21 won't hit him, right? okay, so i'm going to try it again. goddamn it. no, it's at disadvantage. neither of them hit.",11605.889,11624.006,18.1170000000002,27,89.4187779433672,2,"combat","LAURA",1,0,0,0
-"1707","End",8,108,1707,"combat","MATT","both arrows go wide, disappearing into the smoke of the room. you still hear the machine,, behind you.",11624.006,11631.529,7.52300000000105,19,151.535291771878,2,"combat","MATT",0,0,0,1
+"1707","End",8,108,1707,"combat","MATT","both arrows go wide, disappearing into the smoke of the room. you still hear the machine, , behind you.",11624.006,11631.529,7.52300000000105,19,151.535291771878,2,"combat","MATT",0,0,0,1
 "1708","End",8,108,1708,"combat","LAURA","okay. let's see if this is nope, it's an action because i'm a genius. i'm going to back up. i don't know if that'll do anything. i'm going to disengage and i'm going to back up on my broom.",11631.529,11649.282,17.7529999999988,48,162.226102630552,2,"combat","LAURA",1,0,0,0
 "1709","End",8,108,1709,"combat","MATT","okay, make a perception check with disadvantage.",11649.282,11651.401,2.1190000000006,8,226.521944313292,2,"combat","MATT",0,0,0,1
 "1710","End",8,108,1710,"combat","LAURA","great. i'm rolling so good tonight. shush. 17.",11651.401,11659.453,8.05199999999968,10,74.5156482861431,2,"combat","LAURA",1,0,0,0
@@ -1926,7 +1926,7 @@
 "1925","End",8,108,1925,"combat","TRAVIS","17 plus ten is 27 for the first one. oh, nope. i'm sorry! that was a one, so i'm going to re-roll it. five, 21, 31 for the first one. second one. three, 29, and my fucking necrotic dice. two, four more.",12906.105,12932.508,26.4030000000002,46,104.53357573003,2,"combat","TRAVIS",1,0,0,0
 "1926","End",8,108,1926,"combat","MATT","all right, that ends your turn, grog?",12932.508,12937.39,4.88199999999961,8,98.3203605079964,2,"combat","MATT",0,0,0,1
 "1927","End",8,108,1927,"combat","TRAVIS","that does. actually, can i move? i'm going to stay in melee, but i want to come over here in case he decides to golf-swing me into the fucking lava river.",12937.39,12949.24,11.8500000000004,34,172.151898734172,2,"combat","TRAVIS",1,0,0,0
-"1928","End",8,108,1928,"combat","MATT","sure. it's going to use its second legendary action to attack you, as soon as you move around, it's going to sweep low and attempt to try and cleave you in half. with the advantage against you, natural 20.",12949.24,12961.568,12.3279999999995,42,204.412719013635,2,"combat","MATT",0,0,0,1
+"1928","End",8,108,1928,"combat","MATT","sure. it's going to use its second legendary action to attack you, as soon as you move around, it's going to sweep low and attempt to try and cleave you in half. with the advantage against you, natural 20.",12949.24,12959.452,10.2119999999995,42,246.768507638084,2,"combat","MATT",0,0,0,1
 "1929","End",8,108,1929,"combat","TALIESIN","knock it off!",12961.568,12962.701,1.13299999999981,4,211.827007943548,2,"combat","TALIESIN",1,0,0,0
 "1930","End",8,108,1930,"combat","MATT","that reckless attack, man. he gets advantage on all his attacks against him.",12962.701,12965.051,2.35000000000036,14,357.446808510583,2,"combat","MATT",0,0,0,1
 "1931","End",8,108,1931,"combat","TRAVIS","that's the reason i roll so high most of the time.",12965.051,12968.821,3.77000000000044,13,206.896551724114,2,"combat","TRAVIS",1,0,0,0
@@ -1958,7 +1958,7 @@
 "1957","End",8,108,1957,"combat","MARISHA","no, not for this. only elemental damage. so five, six, seven, plus another seven, so 14.",13097.375,13105.946,8.57099999999991,17,119.005950297516,2,"combat","MARISHA",1,0,0,0
 "1958","End",8,108,1958,"combat","MATT","14, okay, and then now 10d8 radiant damage.",13105.946,13109.209,3.26300000000083,9,165.491878639247,2,"combat","MATT",0,0,0,1
 "1959","End",8,108,1959,"combat","MARISHA","now 10d8 radiant damage. i may just roll these twice, okay, so the first one. okay, ten plus seven, so 17, plus another seven is 24 radiant, and then 19 damage. radiant damage.",13109.209,13140.578,31.3689999999988,34,65.0323567853639,2,"combat","MARISHA",1,0,0,0
-"1960","End",8,108,1960,"combat","MATT","how do you want to do this?",13140.578,13144.81,4.23199999999997,8,113.421550094519,2,"combat","MATT",0,0,0,1
+"1960","End",8,108,1960,"combat","MATT","how do you want to do this?",13140.578,13141.746,1.16799999999967,8,410.958904109707,2,"combat","MATT",0,0,0,1
 "1961","End",8,108,1961,"combat","MATT","as you rush across the room, rushing towards it, and strike out towards it, what do you want to do?",13144.81,13151.53,6.72000000000116,21,187.499999999968,2,"combat","MATT",0,0,0,1
 "1962","End",8,108,1962,"combat","MARISHA","okay. as i look around, see all my friends, blind and running around insane, i'm going to go and fly across the field, and come down with a big radiant strike, and try and invoke in the back of my head, hallelujah! and.",13151.53,13177.544,26.0139999999992,45,103.79026677943,2,"combat","MARISHA",1,0,0,0
 "1963","End",8,108,1963,"combat","MATT","as you arc down with your weapon, the holy, divine energy spraying off of the strike, the arc slams into the center of the guardian's chest, and you watch as the armor expands and explodes. you see this core in the center that previously has been guarded by its stone form, and there on the inside you see this beating red gem that goes cold. as it does, the guardian drops the blade and walks to the other side of the chamber, pieces of its armor falling off to the ground. you see cracked parts of its outer form breaking off in small chunks of shale, and it makes its way to the opposite side, walking around, carefully, each of you. it takes and places its blade up on this stand on the wall, turns around, and goes completely inert.",13177.544,13245.803,68.259,142,124.818705225684,2,"combat","MATT",0,0,0,1
@@ -2266,7 +2266,7 @@
 "2265","End",8,108,2265,"second_half_rp","SAM","sure. yeah, i'll inspire him again.",15038.343,15040.906,2.5630000000001,8,187.280530628163,NA,"role_play","SAM",1,0,0,0
 "2266","End",8,108,2266,"second_half_rp","LAURA","he needs as much as you can give him, scanlan.",15040.906,15043.794,2.88799999999901,11,228.531855955757,NA,"role_play","LAURA",1,0,0,0
 "2267","End",8,108,2267,"second_half_rp","SAM","i will give him every inch of myself.",15043.794,15048.076,4.28199999999924,9,126.109294722115,NA,"role_play","SAM",1,0,0,0
-"2268","End",8,108,2268,"second_half_rp","LAURA","so one?",15048.076,15052.617,4.54100000000108,3,39.6388460691384,NA,"role_play","LAURA",1,0,0,0
+"2268","End",8,108,2268,"second_half_rp","LAURA","so one?",15048.076,15049.962,1.88600000000042,3,95.4400848356096,NA,"role_play","LAURA",1,0,0,0
 "2269","End",8,108,2269,"second_half_rp","SAM","one by one by one, yeah.",15052.617,15055.629,3.01200000000063,7,139.442231075668,NA,"role_play","SAM",1,0,0,0
 "2270","End",8,108,2270,"second_half_rp","TRAVIS","my god. that's better. okay. that's a 24. should i use the inspiration?",15055.629,15068.06,12.4309999999987,16,77.2262891159281,NA,"role_play","TRAVIS",1,0,0,0
 "2271","End",8,108,2271,"second_half_rp","SAM","yes, you should.",15068.06,15069.915,1.85500000000138,4,129.380053908259,NA,"role_play","SAM",1,0,0,0
@@ -2364,7 +2364,7 @@
 "2363","End",8,108,2363,"second_half_rp","TALIESIN","i think we have to do it now, right?",15622.874,15625.446,2.57200000000012,10,233.281493001545,NA,"role_play","TALIESIN",1,0,0,0
 "2364","End",8,108,2364,"second_half_rp","MATT","the trance is there. it's up to you.",15625.446,15627.415,1.96900000000096,10,304.723209750994,NA,"role_play","MATT",0,0,0,1
 "2365","End",8,108,2365,"second_half_rp","TALIESIN","give me one more inspiration if you can, and we'll see where we go.",15627.415,15633.14,5.72499999999854,16,167.685589519693,NA,"role_play","TALIESIN",1,0,0,0
-"2366","End",8,108,2366,"second_half_rp","SAM","i will sing one more song to inspire you. i'll sing: here's a little song i wrote! it's filled with inspiration note for note. don't fuck up! or i'll kill you!",15633.14,15656.288,23.148000000001,37,95.9046137895239,NA,"role_play","SAM",1,0,0,0
+"2366","End",8,108,2366,"second_half_rp","SAM","i will sing one more song to inspire you. i'll sing: here's a little song i wrote! it's filled with inspiration note for note. don't fuck up! or i'll kill you!",15633.14,15651.142,18.0020000000004,37,123.319631152091,NA,"role_play","SAM",1,0,0,0
 "2367","End",8,108,2367,"second_half_rp","MATT","all righty.",15656.288,15657.396,1.10800000000017,3,162.454873646184,NA,"role_play","MATT",0,0,0,1
 "2368","End",8,108,2368,"second_half_rp","TALIESIN","i don't feel good.",15657.396,15658.68,1.28399999999965,6,280.373831775777,NA,"role_play","TALIESIN",1,0,0,0
 "2369","End",8,108,2369,"second_half_rp","TRAVIS","one at a time.",15658.68,15663.31,4.6299999999992,5,64.794816414698,NA,"role_play","TRAVIS",1,0,0,0
@@ -2374,12 +2374,12 @@
 "2373","End",8,108,2373,"second_half_rp","MATT","you managed to complete the scrolling on the trammel. the trammel is still noticeably fragile, but it seems functional. the enchantment will be channeled. so second trammel's done. final check on the third and final trammel.",15670.167,15685.658,15.491,38,147.18223484604,NA,"role_play","MATT",0,0,0,1
 "2374","End",8,108,2374,"second_half_rp","TRAVIS","come on. jesus.",15685.658,15686.745,1.08700000000135,4,220.791168352991,NA,"role_play","TRAVIS",1,0,0,0
 "2375","End",8,108,2375,"second_half_rp","MARISHA","this is so stressful.",15686.745,15691.557,4.8119999999999,5,62.3441396508741,NA,"role_play","MARISHA",1,0,0,0
-"2376","End",8,108,2376,"second_half_rp","TALIESIN","that's not bad. yeah! so that's 34!",15691.557,15709.161,17.6039999999994,10,34.08316291752,NA,"role_play","TALIESIN",1,0,0,0
+"2376","End",8,108,2376,"second_half_rp","TALIESIN","that's not bad. yeah! so that's 34!",15691.557,15705.539,13.982,10,42.9123158346446,NA,"role_play","TALIESIN",1,0,0,0
 "2377","End",8,108,2377,"second_half_rp","TALIESIN","rolled a 12 on the inspiration dice.",15709.161,15711.563,2.40200000000004,8,199.833472106574,NA,"role_play","TALIESIN",1,0,0,0
 "2378","End",8,108,2378,"second_half_rp","MATT","with that, the feverish pace of the scrolling as you work across the final trammel, grog, it's almost to the point where he'll move the chisel to a place, you'll hammer, move back and he's going too fast and he has to go back. and while he's not even looking at you, the chisel will clang multiple times across the side of it, telling you to fucking hit the back of it with the hammer. you take it and slam it, move along, eventually coming across each side of the spiraling trammel to completion. at that point, the hammer still in your grasp, you back away. percival, you take it and the heated edge of it is burning into your hand a little bit and you walk over and drop it into the trough water. turn around, drop it next to the third and final piece.",15711.563,15754.919,43.3559999999998,152,210.351508441739,NA,"role_play","MATT",0,0,0,1
-"2379","End",8,108,2379,"second_half_rp","TALIESIN","and i faint.",15754.919,15758.333,3.41400000000067,4,70.2987697715152,NA,"role_play","TALIESIN",1,0,0,0
+"2379","End",8,108,2379,"second_half_rp","TALIESIN","and i faint.",15754.919,15756.15,1.23099999999977,4,194.96344435422,NA,"role_play","TALIESIN",1,0,0,0
 "2380","End",8,108,2380,"second_half_rp","MATT","and as percival hits he passes out onto the stairs, half-leaning onto the stairs. you catch him. grog, you look at your feet where percival left the last piece and you reach down and pick up the three trammels. they're about that long, each of them, and they're these heavy spikes that come to a gradual spiraling twist at the tip. they're covered in intricate, beautiful scrolling of some sort of arcane language that you are unfamiliar with, and you don't think you've been so proud to be part of crafting anything like this before.",15758.333,15790.489,32.155999999999,102,190.32217937555,NA,"role_play","MATT",0,0,0,1
-"2381","End",8,108,2381,"second_half_rp","TRAVIS","these are obviously too dangerous for this world, and i walk over to the lava.",15790.489,15797.158,6.66899999999987,16,143.949617633831,NA,"role_play","TRAVIS",1,0,0,0
+"2381","End",8,108,2381,"second_half_rp","TRAVIS","these are obviously too dangerous for this world, and i walk over to the lava.",15790.489,15793.814,3.32500000000073,16,288.721804511215,NA,"role_play","TRAVIS",1,0,0,0
 "2382","End",8,108,2382,"second_half_rp","TRAVIS","kidding!",15797.158,15799.645,2.48700000000099,2,48.250904704444,NA,"role_play","TRAVIS",1,0,0,0
 "2383","End",8,108,2383,"second_half_rp","LAURA","this is a step up from fine leather boots, grog.",15799.645,15804.97,5.32499999999891,11,123.943661971856,NA,"role_play","LAURA",1,0,0,0
 "2384","End",8,108,2384,"second_half_rp","TRAVIS","yeah, it's true.",15804.97,15806.254,1.28400000000147,5,233.644859812817,NA,"role_play","TRAVIS",1,0,0,0

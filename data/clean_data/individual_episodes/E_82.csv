@@ -1,10 +1,10 @@
 "","arc","arc_no","episode","turn_number","segment","actor","text","start_turn","end_turn","time_in_sec","word_count","words_per_minute","encounter_count","rp_combat","actor_guest","vox_machina","guest","staff","matt"
-"1","Fall_Conclave",6,82,1,"prologue","MATT","tonight's episode of critical role, where a bunch of us nerdy-ass voice actors sit around and play dungeons and dragons. we are down one sam, unfortunately, tonight, so scanlan will be jaeger-piloted by keyleth and percy over there, and pike is still in new york, but in trade, we do have rothfuss joining us this week via skype.",0,24.097,24.097,62,154.376063410383,NA,"role_play","MATT",0,0,0,1
+"1","Fall_Conclave",6,82,1,"prologue","MATT","tonight's episode of critical role, where a bunch of us nerdy-ass voice actors sit around and play dungeons and dragons. we are down one sam, unfortunately, tonight, so scanlan will be jaeger-piloted by keyleth and percy over there, and pike is still in new york, but in trade, we do have rothfuss joining us this week via skype.",0,22.642,22.642,62,164.296440243795,NA,"role_play","MATT",0,0,0,1
 "2","Fall_Conclave",6,82,2,"prologue","MATT","to continue the journey of kerrek along with these crazy kids. so thank you for joining us, patrick.",24.097,30.562,6.465,19,176.334106728538,NA,"role_play","MATT",0,0,0,1
 "3","Fall_Conclave",6,82,3,"prologue","LIAM","look at his beautiful office and all his beautiful owlbears.",30.562,33.645,3.083,11,214.077197534869,NA,"role_play","LIAM",1,0,0,0
 "4","Fall_Conclave",6,82,4,"prologue","MARISHA","so many owlbears!",33.645,35.103,1.458,4,164.609053497943,NA,"role_play","MARISHA",1,0,0,0
 "5","Fall_Conclave",6,82,5,"prologue","MATT","it's beautiful. cool, so before we get into the game tonight, let's go ahead and do our announcements. first and foremost, we are starting with our first official sponsorship of the year with the return of lootcrate. thank you so much for being amazing supporters of the show and we're excited to get started. liam, you wanted to talk about this one?",35.103,57.55,22.447,66,176.415556644541,NA,"role_play","MATT",0,0,0,1
-"6","Fall_Conclave",6,82,6,"prologue","LIAM","oh my gosh, sam is not here and i got asked to do something ten minutes ago. this is gonna be so good. in sam and lootcrate's honor, i have written a limerick. i think you'll all approve. and then i'll tell you a little bit about lootcrate, but first, some irish poetry. sam's style is not what you'd call quaint, let's be honest, my man is no saint, but lootcrate is happy, his pitch plans are snappy, singing songs about fisting and taint.",57.55,85.913,28.363,91,192.504319007157,NA,"role_play","LIAM",1,0,0,0
+"6","Fall_Conclave",6,82,6,"prologue","LIAM","oh my gosh, sam is not here and i got asked to do something ten minutes ago. this is gonna be so good. in sam and lootcrate's honor, i have written a limerick. i think you'll all approve. and then i'll tell you a little bit about lootcrate, but first, some irish poetry. sam's style is not what you'd call quaint, let's be honest, my man is no saint, but lootcrate is happy, his pitch plans are snappy, singing songs about fisting and taint.",57.55,83.007,25.457,91,214.479318065758,NA,"role_play","LIAM",1,0,0,0
 "7","Fall_Conclave",6,82,7,"prologue","LIAM","okay! so lootcrate, the january theme is not 'taint' or 'fisting', it's 'origins'. the brands are superman, marvel, tmnt, nintendo, i know everyone here's familiar. the cutoff you have to order now, the cutoff is 9pm tonight.",85.913,103.244,17.331,40,138.480180024234,NA,"role_play","LIAM",1,0,0,0
 "8","Fall_Conclave",6,82,8,"prologue","MATT","9pm tonight.",103.244,104.553,1.309,3,137.509549274255,NA,"role_play","MATT",0,0,0,1
 "9","Fall_Conclave",6,82,9,"prologue","LIAM","so you gotta go get got, and you want to go to lootcrate.com/criticalrole. not critrole, but lootcrate.com/criticalrole. and the promo code is 'criticalrole', one word, for 10% off your first month.",104.553,118.647,14.094,36,153.256704980843,NA,"role_play","LIAM",1,0,0,0
@@ -17,8 +17,8 @@
 "16","Fall_Conclave",6,82,16,"prologue","MATT","there are some inclusives. so anyway. i also wanted to give a shout-out to blue mics, blue microphones, they have been fantastic and sent us a bunch of new equipment here to start upgrading the audio quality of our fantastic show here and us personally, as voice actors, i myself have used blues for quite a long time for home auditions and i'm hoping that the one that now sits before me will give you a little bit of a better boost from my usual audio. so thank you guys so much, blue mics, for helping support us here. if you're interested at all in checking out their awesome audio equipment, you can go to them at bluemic.com. that's b-l-u-e-m-i-c.com. thank you guys.",135.416,174.252,38.836,136,210.114326913173,NA,"role_play","MATT",0,0,0,1
 "17","Fall_Conclave",6,82,17,"prologue","TALIESIN","i cannot say enough good stuff.",174.252,176.569,2.31699999999998,7,181.268882175228,NA,"role_play","TALIESIN",1,0,0,0
 "18","Fall_Conclave",6,82,18,"prologue","MATT","laura, you wanted to talk about stuff?",176.569,181.022,4.453,8,107.792499438581,NA,"role_play","MATT",0,0,0,1
-"19","Fall_Conclave",6,82,19,"prologue","LAURA","oh my gosh. okay, okay, okay, i'll stop rolling for a second, because we have these new things in the store, and they're socks.",181.022,190.622,9.60000000000002,27,168.75,NA,"role_play","LAURA",1,0,0,0
-"20","Fall_Conclave",6,82,20,"prologue","LAURA","i know, i know, i put 'em in front of everybody. they don't smell yet, 'cause nobody's worn them. they should be in the store right now. they say 'how do you want to do this?' and they've got the logo on it, and if they do well, then maybe we'll think about releasing some sox machina in all the different characters. i know, it's exciting, it's fun. and also, the dice are still in the works, those should be coming up soon, hopefully by this month, maybe next month, but they will be back in the store. we have pins, we have bracelets, limited stock of those are back in the store, too, so. that's so exciting. and all the other things that i've been announcing every week because, you know, we're just so on top of it, no big deal.",190.622,235.129,44.507,152,204.91158694138,NA,"role_play","LAURA",1,0,0,0
+"19","Fall_Conclave",6,82,19,"prologue","LAURA","oh my gosh. okay, okay, okay, i'll stop rolling for a second, because we have these new things in the store, and they're socks.",181.022,188.568,7.54600000000002,27,214.683275907765,NA,"role_play","LAURA",1,0,0,0
+"20","Fall_Conclave",6,82,20,"prologue","LAURA","i know, i know, i put 'em in front of everybody. they don't smell yet, 'cause nobody's worn them. they should be in the store right now. they say 'how do you want to do this?' and they've got the logo on it, and if they do well, then maybe we'll think about releasing some sox machina in all the different characters. i know, it's exciting, it's fun. and also, the dice are still in the works, those should be coming up soon, hopefully by this month, maybe next month, but they will be back in the store. we have pins, we have bracelets, limited stock of those are back in the store, too, so. that's so exciting. and all the other things that i've been announcing every week because, you know, we're just so on top of it, no big deal.",190.622,231.379,40.757,152,223.765242780381,NA,"role_play","LAURA",1,0,0,0
 "21","Fall_Conclave",6,82,21,"prologue","TRAVIS","can we keep these?",235.129,236.292,1.16300000000001,5,257.953568357693,NA,"role_play","TRAVIS",1,0,0,0
 "22","Fall_Conclave",6,82,22,"prologue","LAURA","yeah, no, these are for us.",236.292,237.583,1.291,7,325.329202168862,NA,"role_play","LAURA",1,0,0,0
 "23","Fall_Conclave",6,82,23,"prologue","TRAVIS","yay! these will stink in a week.",237.583,239.395,1.81200000000001,8,264.900662251654,NA,"role_play","TRAVIS",1,0,0,0
@@ -35,8 +35,8 @@
 "34","Fall_Conclave",6,82,34,"prologue","MATT","dress warm, just in case. anything else anyone wishes to discuss or mention? patrick, anything you wanna mention?",295.337,305.682,10.345,19,110.198163363944,NA,"role_play","MATT",0,0,0,1
 "35","Fall_Conclave",6,82,35,"prologue","PATRICK","you guys are coming to my state? you're gonna be in wisconsin? when's that?",305.682,309.822,4.13999999999999,17,246.376811594204,NA,"role_play","GUESTS",0,1,0,0
 "36","Fall_Conclave",6,82,36,"prologue","MATT","that is february 17-19.",309.822,312.451,2.62900000000002,6,136.9341955116,NA,"role_play","MATT",0,0,0,1
-"37","Fall_Conclave",6,82,37,"prologue","TRAVIS","but we're not gonna see you.",312.451,315.875,3.42399999999998,8,140.186915887851,NA,"role_play","TRAVIS",1,0,0,0
-"38","Fall_Conclave",6,82,38,"prologue","PATRICK","you act like you have a choice.",315.875,320.496,4.62099999999998,8,103.873620428479,NA,"role_play","GUESTS",0,1,0,0
+"37","Fall_Conclave",6,82,37,"prologue","TRAVIS","but we're not gonna see you.",312.451,313.889,1.43799999999999,8,333.796940194718,NA,"role_play","TRAVIS",1,0,0,0
+"38","Fall_Conclave",6,82,38,"prologue","PATRICK","you act like you have a choice.",315.875,318.387,2.512,8,191.082802547771,NA,"role_play","GUESTS",0,1,0,0
 "39","Fall_Conclave",6,82,39,"prologue","MATT","so yeah. come see us!",320.496,323.051,2.55500000000001,6,140.900195694716,NA,"role_play","MATT",0,0,0,1
 "40","Fall_Conclave",6,82,40,"prologue","PATRICK","i'll see, i'll check my calendar to see, that'll be a short trip if you're just down in milwaukee.",323.051,329.426,6.375,24,225.882352941176,NA,"role_play","GUESTS",0,1,0,0
 "41","Fall_Conclave",6,82,41,"prologue","LAURA","oh my gosh, patrick dinner.",329.426,331.153,1.72700000000003,6,208.453966415746,NA,"role_play","LAURA",1,0,0,0
@@ -103,7 +103,7 @@
 "102","Fall_Conclave",6,82,102,"first_half_rp","TRAVIS","i'm so happy right now.",847.033,849.02,1.98699999999997,7,211.373930548569,NA,"role_play","TRAVIS",1,0,0,0
 "103","Fall_Conclave",6,82,103,"first_half_rp","MATT","yes, that as well. i forgot that on the card.",849.02,851.396,2.37599999999998,11,277.777777777781,NA,"role_play","MATT",0,0,0,1
 "104","Fall_Conclave",6,82,104,"first_half_rp","LAURA","kerrek, are you secretly a dwarf?",851.396,854.597,3.20100000000002,7,131.208997188378,NA,"role_play","LAURA",1,0,0,0
-"105","Fall_Conclave",6,82,105,"first_half_rp","PATRICK","i... no, though the similarity is notable.",854.597,863.24,8.64300000000003,8,55.5362721277332,NA,"role_play","GUESTS",0,1,0,0
+"105","Fall_Conclave",6,82,105,"first_half_rp","PATRICK","i... no, though the similarity is notable.",854.597,860.238,5.64100000000008,8,85.0912958695255,NA,"role_play","GUESTS",0,1,0,0
 "106","Fall_Conclave",6,82,106,"first_half_rp","LIAM","i noticed you haven't actually given me the boots back, and i just wanted to remind you",863.24,868.047,4.80700000000002,18,224.672352818805,NA,"role_play","LIAM",1,0,0,0
 "107","Fall_Conclave",6,82,107,"first_half_rp","LAURA","oh my god, let me find the fucking piece of paper. jeez.",868.047,872.497,4.44999999999993,13,175.280898876407,NA,"role_play","LAURA",1,0,0,0
 "108","Fall_Conclave",6,82,108,"first_half_rp","LIAM","it's very important. i'm also going oh, you go.",872.497,874.862,2.36500000000001,12,304.43974630021,NA,"role_play","LIAM",1,0,0,0
@@ -124,7 +124,7 @@
 "123","Fall_Conclave",6,82,123,"first_half_rp","LAURA","but we're going stealthy, probably, before",946.027,949.228,3.20099999999991,7,131.208997188382,NA,"role_play","LAURA",1,0,0,0
 "124","Fall_Conclave",6,82,124,"first_half_rp","MATT","it's up to you. the process of a giant, armored gnome to change out her boots is gonna be it's not like a quick, it's not pressing the 'x' button in your inventory.",949.228,960.455,11.2270000000001,37,197.7375968647,NA,"role_play","MATT",0,0,0,1
 "125","Fall_Conclave",6,82,125,"first_half_rp","LIAM","it's like changing from one pair of ski boots into another pair of ski boots.",960.455,963.028,2.57299999999998,17,396.424407306649,NA,"role_play","LIAM",1,0,0,0
-"126","Fall_Conclave",6,82,126,"first_half_rp","MATT","essentially, yeah.",963.028,966.32,3.29200000000003,3,54.6780072904005,NA,"role_play","MATT",0,0,0,1
+"126","Fall_Conclave",6,82,126,"first_half_rp","MATT","essentially, yeah.",963.028,964.618,1.59000000000003,3,113.207547169809,NA,"role_play","MATT",0,0,0,1
 "127","Fall_Conclave",6,82,127,"first_half_rp","MATT","so be mindful of that.",966.32,967.598,1.27799999999991,6,281.690140845091,NA,"role_play","MATT",0,0,0,1
 "128","Fall_Conclave",6,82,128,"first_half_rp","LIAM","all right. minor thing, i'm going to attune the deathwalker's ward to necrotic.",967.598,971.41,3.81200000000001,16,251.836306400839,NA,"role_play","LIAM",1,0,0,0
 "129","Fall_Conclave",6,82,129,"first_half_rp","MATT","to necrotic. okay.",971.597,973.01,1.41300000000001,4,169.851380042462,NA,"role_play","MATT",0,0,0,1
@@ -180,7 +180,7 @@
 "179","Fall_Conclave",6,82,179,"first_half_rp","LAURA","what the fuck?",1186.573,1188.219,1.64599999999996,4,145.808019441073,NA,"role_play","LAURA",1,0,0,0
 "180","Fall_Conclave",6,82,180,"first_half_rp","LIAM","what did you do?",1188.219,1189.895,1.67599999999993,5,178.997613365162,NA,"role_play","LIAM",1,0,0,0
 "181","Fall_Conclave",6,82,181,"first_half_rp","MARISHA","grog?",1189.895,1191.571,1.67599999999993,2,71.599045346065,NA,"role_play","MARISHA",1,0,0,0
-"182","Fall_Conclave",6,82,182,"first_half_rp","TRAVIS","ow.",1191.571,1195.906,4.33500000000004,2,27.6816608996537,NA,"role_play","TRAVIS",1,0,0,0
+"182","Fall_Conclave",6,82,182,"first_half_rp","TRAVIS","ow.",1191.571,1193.946,2.375,2,50.5263157894737,NA,"role_play","TRAVIS",1,0,0,0
 "183","Fall_Conclave",6,82,183,"first_half_rp","LAURA","oh no, did it turn you really, really, really stupid?",1195.906,1198.581,2.67499999999995,11,246.728971962621,NA,"role_play","LAURA",1,0,0,0
 "184","Fall_Conclave",6,82,184,"first_half_rp","TRAVIS","that really hurt, and it's still hurting.",1198.581,1201.629,3.048,9,177.165354330709,NA,"role_play","TRAVIS",1,0,0,0
 "185","Fall_Conclave",6,82,185,"first_half_rp","MARISHA","grog, how many fingers am i holding up?",1201.629,1203.852,2.22300000000018,9,242.914979757065,NA,"role_play","MARISHA",1,0,0,0
@@ -189,7 +189,7 @@
 "188","Fall_Conclave",6,82,188,"first_half_rp","LIAM","that magic sword bit me. that really hurt.",1207.058,1212.001,4.94299999999998,9,109.245397531864,NA,"role_play","LIAM",1,0,0,0
 "189","Fall_Conclave",6,82,189,"first_half_rp","TRAVIS","what happened?",1212.001,1215.545,3.5440000000001,3,50.7900677200889,NA,"role_play","TRAVIS",1,0,0,0
 "190","Fall_Conclave",6,82,190,"first_half_rp","LAURA","is it just because it's only meant for you?",1215.545,1220.869,5.32399999999984,11,123.966942148764,NA,"role_play","LAURA",1,0,0,0
-"191","Fall_Conclave",6,82,191,"first_half_rp","LIAM","kerrek, do you still want it?",1220.869,1224.27,3.40100000000007,7,123.493090267566,NA,"role_play","LIAM",1,0,0,0
+"191","Fall_Conclave",6,82,191,"first_half_rp","LIAM","kerrek, do you still want it?",1220.869,1222.442,1.57300000000009,7,267.00572155116,NA,"role_play","LIAM",1,0,0,0
 "192","Fall_Conclave",6,82,192,"first_half_rp","PATRICK","do i have any idea, like, was this thing rejecting me or pissed that grog was abandoning it?",1224.27,1234.873,10.6030000000001,19,107.516740545128,NA,"role_play","GUESTS",0,1,0,0
 "193","Fall_Conclave",6,82,193,"first_half_rp","MATT","you get the sense, just 'cause you've seen a few things like this, that this was actually an inherent curse within the blade, and it just took a moment to dig itself into grog.",1234.873,1244.165,9.29199999999992,36,232.458028411539,NA,"role_play","MATT",0,0,0,1
 "194","Fall_Conclave",6,82,194,"first_half_rp","TRAVIS","oh no.",1244.165,1245.952,1.78700000000003,3,100.727476217122,NA,"role_play","TRAVIS",1,0,0,0
@@ -198,7 +198,7 @@
 "197","Fall_Conclave",6,82,197,"first_half_rp","MARISHA","this is the deck of many things?",1255.557,1257.377,1.81999999999994,8,263.736263736273,NA,"role_play","MARISHA",1,0,0,0
 "198","Fall_Conclave",6,82,198,"first_half_rp","MATT","this was me completely either misreading or mishearing it last time, as the internet let me know that was the card drawn, i want to make sure that we stick to what was drawn.",1257.377,1264.935,7.55799999999999,35,277.851283408309,NA,"role_play","MATT",0,0,0,1
 "199","Fall_Conclave",6,82,199,"first_half_rp","TRAVIS","i don't have a problem with that, i do have a problem with the headache. can we maybe bargain to get the headache removed? 'cause i'm really",1264.935,1269.473,4.53800000000001,29,383.428823270162,NA,"role_play","TRAVIS",1,0,0,0
-"200","Fall_Conclave",6,82,200,"first_half_rp","TALIESIN","i have tylenol, but it requires attunement.",1269.473,1274.787,5.31400000000008,8,90.327436958975,NA,"role_play","TALIESIN",1,0,0,0
+"200","Fall_Conclave",6,82,200,"first_half_rp","TALIESIN","i have tylenol, but it requires attunement.",1269.473,1271.936,2.46299999999997,8,194.884287454327,NA,"role_play","TALIESIN",1,0,0,0
 "201","Fall_Conclave",6,82,201,"first_half_rp","TRAVIS","i need bc powder.",1274.787,1276.807,2.01999999999998,5,148.51485148515,NA,"role_play","TRAVIS",1,0,0,0
 "202","Fall_Conclave",6,82,202,"first_half_rp","MATT","i think grog has a way to get rid of headaches.",1276.807,1278.753,1.94599999999991,12,369.989722507725,NA,"role_play","MATT",0,0,0,1
 "203","Fall_Conclave",6,82,203,"first_half_rp","LIAM","can i also say, no one's gonna ever try to get away with anything here, because we know we're being watched people are watching like hawks. everything's going to be seen.",1278.753,1288.051,9.298,35,225.855022585502,NA,"role_play","LIAM",1,0,0,0
@@ -244,7 +244,7 @@
 "243","Fall_Conclave",6,82,243,"first_half_rp","TRAVIS","thank you, though, keyleth, that's very sweet.",1451.588,1457.326,5.73800000000006,9,94.1094457999294,NA,"role_play","TRAVIS",1,0,0,0
 "244","Fall_Conclave",6,82,244,"first_half_rp","MARISHA","you're welcome. it's a little bit of a girly ring, so i understand. well, you're full on attunements, right? you're full up?",1457.326,1467.858,10.5319999999999,27,153.81693885302,NA,"role_play","MARISHA",1,0,0,0
 "245","Fall_Conclave",6,82,245,"first_half_rp","LAURA","pike's gonna try to do greater restoration on grog.",1467.858,1470.806,2.94800000000009,11,223.880597014918,NA,"role_play","LAURA",1,0,0,0
-"246","Fall_Conclave",6,82,246,"first_half_rp","MATT","okay. so as you guys are finishing this conversation, grog and keyleth, pike walks up and holds her gauntlet out, her giant, awesome, monster-ogre gauntlet. as it begins to suddenly emit this bright white vibrant glow, she touches the front of your forehead, beckoning you to bend down to try and get rid of the headache. you watch as the healing energy surges through your body from head to toe, and as it passes through you, the light fades, the spell is spent that's a 5th-level spell she used and the headache remains.",1470.806,1507.254,36.4479999999999,97,159.679543459175,NA,"role_play","MATT",0,0,0,1
+"246","Fall_Conclave",6,82,246,"first_half_rp","MATT","okay. so as you guys are finishing this conversation, grog and keyleth, pike walks up and holds her gauntlet out, her giant, awesome, monster-ogre gauntlet. as it begins to suddenly emit this bright white vibrant glow, she touches the front of your forehead, beckoning you to bend down to try and get rid of the headache. you watch as the healing energy surges through your body from head to toe, and as it passes through you, the light fades, the spell is spent that's a 5th-level spell she used and the headache remains.",1470.806,1505.674,34.8679999999999,97,166.915223127223,NA,"role_play","MATT",0,0,0,1
 "247","Fall_Conclave",6,82,247,"first_half_rp","TRAVIS","did it do anything for my gas?",1507.254,1509.188,1.9340000000002,8,248.190279214039,NA,"role_play","TRAVIS",1,0,0,0
 "248","Fall_Conclave",6,82,248,"first_half_rp","MATT","there is no divine magic that can do anything about that either, grog.",1509.188,1513.628,4.43999999999983,14,189.189189189197,NA,"role_play","MATT",0,0,0,1
 "249","Fall_Conclave",6,82,249,"first_half_rp","TRAVIS","son of a bitch.",1513.628,1514.627,0.999000000000024,5,300.300300300293,NA,"role_play","TRAVIS",1,0,0,0
@@ -253,7 +253,7 @@
 "252","Fall_Conclave",6,82,252,"first_half_rp","TRAVIS","i don't know where it would have gone.",1528.803,1532.045,3.24199999999996,10,185.070943861816,NA,"role_play","TRAVIS",1,0,0,0
 "253","Fall_Conclave",6,82,253,"first_half_rp","TALIESIN","do we have anything else equipped that we can",1532.045,1534.748,2.70299999999997,9,199.778024417316,NA,"role_play","TALIESIN",1,0,0,0
 "254","Fall_Conclave",6,82,254,"first_half_rp","LAURA","i didn't say it the last time, but trinket's out of the necklace, and he healed overnight, 'cause he's low too.",1534.748,1542.743,7.99499999999989,25,187.617260787995,NA,"role_play","LAURA",1,0,0,0
-"255","Fall_Conclave",6,82,255,"first_half_rp","PATRICK","actually, you know, kerrek is kind of standing around, buffing a little bit of the rust out of his off-the-rack chainmail. he's trying not to look like that kid who showed up at the rich kids' party.",1542.743,1568.88,26.1370000000002,41,94.1194475264944,NA,"role_play","GUESTS",0,1,0,0
+"255","Fall_Conclave",6,82,255,"first_half_rp","PATRICK","actually, you know, kerrek is kind of standing around, buffing a little bit of the rust out of his off-the-rack chainmail. he's trying not to look like that kid who showed up at the rich kids' party.",1542.743,1566.176,23.433,41,104.980156189989,NA,"role_play","GUESTS",0,1,0,0
 "256","Fall_Conclave",6,82,256,"first_half_rp","PATRICK","out of character, i will say, if anyone has anything that they're not using in terms of",1568.88,1576.983,8.10299999999984,18,133.28396890041,NA,"role_play","GUESTS",0,1,0,0
 "257","Fall_Conclave",6,82,257,"first_half_rp","TRAVIS","yeah, no, we do!",1576.983,1578.337,1.35400000000004,5,221.565731166906,NA,"role_play","TRAVIS",1,0,0,0
 "258","Fall_Conclave",6,82,258,"first_half_rp","PATRICK","i'm reasonably geared up, i'll be able to go in and hit.",1578.337,1580.933,2.596,15,346.68721109399,NA,"role_play","GUESTS",0,1,0,0
@@ -279,7 +279,7 @@
 "278","Fall_Conclave",6,82,278,"first_half_rp","LIAM","if anyone has anything better to give him, we could do that.",1674.021,1676.726,2.70500000000015,13,288.354898336398,NA,"role_play","LIAM",1,0,0,0
 "279","Fall_Conclave",6,82,279,"first_half_rp","LAURA","no, that's really good. that's a badass ring.",1676.726,1679.468,2.74199999999996,11,240.700218818384,NA,"role_play","LAURA",1,0,0,0
 "280","Fall_Conclave",6,82,280,"first_half_rp","LIAM","hey, siri, remind me to ask patrick rothfuss for my ring of invisibility back once the dragon is dead. we're good.",1679.468,1692.315,12.847,23,107.418074258582,NA,"role_play","LIAM",1,0,0,0
-"281","Fall_Conclave",6,82,281,"first_half_rp","MATT","all right, there you go. thank you, siri.",1692.315,1697.83,5.51499999999987,9,97.9147778785154,NA,"role_play","MATT",0,0,0,1
+"281","Fall_Conclave",6,82,281,"first_half_rp","MATT","all right, there you go. thank you, siri.",1692.315,1694.679,2.36400000000003,9,228.426395939083,NA,"role_play","MATT",0,0,0,1
 "282","Fall_Conclave",6,82,282,"first_half_rp","TRAVIS","assisting d&d games since 2000-something.",1697.91,1700.083,2.173,8,220.892774965485,NA,"role_play","TRAVIS",1,0,0,0
 "283","Fall_Conclave",6,82,283,"first_half_rp","MATT","all right. so. what else do you guys want to prepare, if anything, as you wake up, come to consciousness",1700.083,1703.942,3.85899999999992,20,310.961388960877,NA,"role_play","MATT",0,0,0,1
 "284","Fall_Conclave",6,82,284,"first_half_rp","LAURA","we should have a heroes' feast.",1703.942,1705.751,1.80899999999997,7,232.172470978445,NA,"role_play","LAURA",1,0,0,0
@@ -361,7 +361,7 @@
 "360","Fall_Conclave",6,82,360,"first_half_rp","MATT","all right. as you guys are preparing, kima and allura catch up to you guys. they've gathered their materials and they're prepped for battle. kima's fully armored.",2038.377,2049.13,10.7530000000002,31,172.974983725469,NA,"role_play","MATT",0,0,0,1
 "361","Fall_Conclave",6,82,361,"first_half_rp","MARISHA","does she look badass? in her full sorceress armor?",2049.13,2052.702,3.57200000000012,10,167.973124300106,NA,"role_play","MARISHA",1,0,0,0
 "362","Fall_Conclave",6,82,362,"first_half_rp","MATT","oh, allura?",2052.702,2054.032,1.32999999999993,3,135.338345864669,NA,"role_play","MATT",0,0,0,1
-"363","Fall_Conclave",6,82,363,"first_half_rp","MARISHA","paint a picture. what's she look like?",2054.032,2058.378,4.346,9,124.252185918086,NA,"role_play","MARISHA",1,0,0,0
+"363","Fall_Conclave",6,82,363,"first_half_rp","MARISHA","paint a picture. what's she look like?",2054.032,2056.706,2.67399999999998,9,201.944652206434,NA,"role_play","MARISHA",1,0,0,0
 "364","Fall_Conclave",6,82,364,"first_half_rp","MARISHA","she's an upper-middle-class girl.",2058.379,2062.168,3.78900000000021,8,126.682501979407,NA,"role_play","MARISHA",1,0,0,0
 "365","Fall_Conclave",6,82,365,"first_half_rp","MATT","she's wearing one of her many ceremonial robes that she does for presentory tal'dorei council work, but you see she has a hood up over her head, her hair braids are tied together behind her neck so they don't get in the way. you notice that there is some really nice jewelry that's adorning the side of her neck. the staff she carries with her usually is relatively simple, but you see now that there are a number of runes carved in a spiral along the sides of it. you can see a number of rings that she previously wasn't wearing that are on, and her face is hardened, and you see that she where normally she has this air of keeping the room almost a teacher or parental-type presence in the area, there's an intensity and darkness to her face that you haven't really seen before. not since at least the attack on the city happened.",2062.168,2115.229,53.0609999999997,166,187.708486458982,NA,"role_play","MATT",0,0,0,1
 "366","Fall_Conclave",6,82,366,"first_half_rp","LIAM","work!",2115.229,2116.708,1.47900000000027,2,81.1359026369021,NA,"role_play","LIAM",1,0,0,0
@@ -406,7 +406,7 @@
 "405","Fall_Conclave",6,82,405,"first_half_rp","TALIESIN","i quietly sneak up and give it a good kiss.",2349.291,2351.496,2.20499999999993,11,299.319727891166,NA,"role_play","TALIESIN",1,0,0,0
 "406","Fall_Conclave",6,82,406,"first_half_rp","MARISHA","aw. i see it, and i'm like. you know, i know him. i can put in a good word.",2351.496,2358.89,7.39399999999978,21,170.408439275093,NA,"role_play","MARISHA",1,0,0,0
 "407","Fall_Conclave",6,82,407,"first_half_rp","TALIESIN","really? we talk all the time, he never mentions you.",2358.89,2362.122,3.23199999999997,11,204.207920792081,NA,"role_play","TALIESIN",1,0,0,0
-"408","Fall_Conclave",6,82,408,"first_half_rp","MARISHA","what? what? i'm gonna let that go.",2362.122,2372.233,10.1110000000003,9,53.4071802986829,NA,"role_play","MARISHA",1,0,0,0
+"408","Fall_Conclave",6,82,408,"first_half_rp","MARISHA","what? what? i'm gonna let that go.",2362.122,2369.743,7.62100000000009,9,70.8568429339973,NA,"role_play","MARISHA",1,0,0,0
 "409","Fall_Conclave",6,82,409,"first_half_rp","MARISHA","that could be a discussion. i don't wanna do that right now. we'll talk later. are we ready?",2372.233,2378.594,6.36099999999988,21,198.082062568782,NA,"role_play","MARISHA",1,0,0,0
 "410","Fall_Conclave",6,82,410,"first_half_rp","MATT","all right, so what are you focusing on for the receiving end of this?",2378.594,2383.674,5.07999999999993,15,177.165354330711,NA,"role_play","MATT",0,0,0,1
 "411","Fall_Conclave",6,82,411,"first_half_rp","MARISHA","i'm assuming i found a tree that was close to her cavern that's big enough?",2383.674,2389.07,5.39600000000019,18,200.148257968859,NA,"role_play","MARISHA",1,0,0,0
@@ -418,7 +418,7 @@
 "417","Fall_Conclave",6,82,417,"first_half_rp","TRAVIS","sing me a song. sing me a song right now.",2438.833,2441.031,2.19799999999987,11,300.272975432229,NA,"role_play","TRAVIS",1,0,0,0
 "418","Fall_Conclave",6,82,418,"first_half_rp","TALIESIN","i'm not singing.",2441.031,2442.136,1.10500000000002,5,271.493212669679,NA,"role_play","TALIESIN",1,0,0,0
 "419","Fall_Conclave",6,82,419,"first_half_rp","MARISHA","i try to stealthily sniff scanlan. does he smell like",2442.136,2447.044,4.9079999999999,10,122.249388753059,NA,"role_play","MARISHA",1,0,0,0
-"420","Fall_Conclave",6,82,420,"first_half_rp","MATT","well, first roll a stealth check.",2447.044,2450.815,3.77100000000019,7,111.376292760535,NA,"role_play","MATT",0,0,0,1
+"420","Fall_Conclave",6,82,420,"first_half_rp","MATT","well, first roll a stealth check.",2447.044,2449.027,1.98300000000017,7,211.800302571842,NA,"role_play","MATT",0,0,0,1
 "421","Fall_Conclave",6,82,421,"first_half_rp","TRAVIS","don't ever say the word.",2450.815,2452.752,1.9369999999999,7,216.830149716067,NA,"role_play","TRAVIS",1,0,0,0
 "422","Fall_Conclave",6,82,422,"first_half_rp","MARISHA","okay. 14.",2452.752,2455.071,2.31899999999996,3,77.6196636481255,NA,"role_play","MARISHA",1,0,0,0
 "423","Fall_Conclave",6,82,423,"first_half_rp","MATT","14. the not-stealthy-at-all keyleth slowly approaches you. you see her. you make eye contact. and yet she still slowly crawls up and begins taking a big whiff on your shoulder.",2455.071,2466.098,11.027,34,185.000453432483,NA,"role_play","MATT",0,0,0,1
@@ -447,7 +447,7 @@
 "446","Fall_Conclave",6,82,446,"first_half_rp","LAURA","okay.",2631.6,2632.595,0.994999999999891,2,120.60301507539,NA,"role_play","LAURA",1,0,0,0
 "447","Fall_Conclave",6,82,447,"first_half_rp","TALIESIN","it can keep.",2632.595,2634.048,1.45299999999997,4,165.175498967656,NA,"role_play","TALIESIN",1,0,0,0
 "448","Fall_Conclave",6,82,448,"first_half_rp","MATT","it takes a wish spell to get rid of that, unfortunately.",2634.048,2638.234,4.18600000000015,12,172.00191113234,NA,"role_play","MATT",0,0,0,1
-"449","Fall_Conclave",6,82,449,"first_half_rp","LIAM","he's been in every brothel in tal'dorei, it's to be expected.",2638.234,2642.677,4.44300000000021,15,202.565833896007,NA,"role_play","LIAM",1,0,0,0
+"449","Fall_Conclave",6,82,449,"first_half_rp","LIAM","he's been in every brothel in tal'dorei, it's to be expected.",2638.234,2640.735,2.5010000000002,15,359.85605757694,NA,"role_play","LIAM",1,0,0,0
 "450","Fall_Conclave",6,82,450,"first_half_rp","TRAVIS","not ashamed.",2642.677,2643.937,1.25999999999976,3,142.85714285717,NA,"role_play","TRAVIS",1,0,0,0
 "451","Fall_Conclave",6,82,451,"first_half_rp","LAURA","he and scanlan both.",2643.937,2647.938,4.0010000000002,5,74.9812546863246,NA,"role_play","LAURA",1,0,0,0
 "452","Fall_Conclave",6,82,452,"first_half_rp","MARISHA","did he find anything out? did you find anything out?",2647.938,2651.037,3.09899999999971,11,212.9719264279,NA,"role_play","MARISHA",1,0,0,0
@@ -482,10 +482,10 @@
 "481","Fall_Conclave",6,82,481,"first_half_rp","PATRICK","where did that plus ten come from?",2719.655,2723.598,3.94299999999976,8,121.734719756538,NA,"role_play","GUESTS",0,1,0,0
 "482","Fall_Conclave",6,82,482,"first_half_rp","LAURA","from pass without a trace!",2723.598,2725.121,1.52300000000014,6,236.375574523944,NA,"role_play","LAURA",1,0,0,0
 "483","Fall_Conclave",6,82,483,"first_half_rp","MATT","a spell that she had cast on all of you.",2725.121,2727.363,2.24199999999973,11,294.380017841248,NA,"role_play","MATT",0,0,0,1
-"484","Fall_Conclave",6,82,484,"first_half_rp","PATRICK","then i am at 24.",2727.363,2730.866,3.50300000000016,6,102.769055095628,NA,"role_play","GUESTS",0,1,0,0
+"484","Fall_Conclave",6,82,484,"first_half_rp","PATRICK","then i am at 24.",2727.363,2729.251,1.88800000000037,6,190.677966101657,NA,"role_play","GUESTS",0,1,0,0
 "485","Fall_Conclave",6,82,485,"first_half_rp","LAURA","38.",2730.866,2732.861,1.99499999999989,2,60.1503759398529,NA,"role_play","LAURA",1,0,0,0
 "486","Fall_Conclave",6,82,486,"first_half_rp","MARISHA","37!",2732.861,2734.822,1.96100000000024,2,61.1932687404311,NA,"role_play","MARISHA",1,0,0,0
-"487","Fall_Conclave",6,82,487,"first_half_rp","MATT","as you guys fan out in this",2734.822,2741.7,6.8779999999997,7,61.0642628671152,NA,"role_play","MATT",0,0,0,1
+"487","Fall_Conclave",6,82,487,"first_half_rp","MATT","as you guys fan out in this",2734.822,2739.669,4.84699999999975,7,86.6515370332208,NA,"role_play","MATT",0,0,0,1
 "488","Fall_Conclave",6,82,488,"first_half_rp","TALIESIN","now boarding: star tours.",2741.7,2743.475,1.77500000000009,5,169.014084507034,NA,"role_play","TALIESIN",1,0,0,0
 "489","Fall_Conclave",6,82,489,"first_half_rp","MARISHA","thanks for that, microsoft outlook.",2743.475,2746.376,2.90100000000029,6,124.095139607019,NA,"role_play","MARISHA",1,0,0,0
 "490","Fall_Conclave",6,82,490,"first_half_rp","MATT","as you begin to weave your way through these trees as quietly as you possibly can, keyleth, you step behind and run your fingers along some of these withered grey and black fronds and branches. all these trees look like they had the life force pulled from them, almost like a very, very rapid starvation, or thirst took them, but what's interesting is a lot of these trees are near-petrified and have been this way for a very long time.",2746.376,2778.535,32.1589999999997,83,154.855561429151,NA,"role_play","MATT",0,0,0,1
@@ -513,7 +513,7 @@
 "512","Fall_Conclave",6,82,512,"first_half_rp","LAURA","it is dragon-related. natural 20.",2879.162,2881.21,2.04800000000023,7,205.078124999977,NA,"role_play","LAURA",1,0,0,0
 "513","Fall_Conclave",6,82,513,"first_half_rp","MATT","all righty. there are no dragon tracks.",2881.21,2884.162,2.95199999999977,8,162.601626016273,NA,"role_play","MATT",0,0,0,1
 "514","Fall_Conclave",6,82,514,"first_half_rp","LAURA","motherfucker.",2884.162,2885.325,1.16300000000001,2,103.181427343077,NA,"role_play","LAURA",1,0,0,0
-"515","Fall_Conclave",6,82,515,"first_half_rp","TALIESIN","she licks a tree. ""no dragon has been here.""",2885.325,2892.832,7.50700000000006,10,79.9254029572392,NA,"role_play","TALIESIN",1,0,0,0
+"515","Fall_Conclave",6,82,515,"first_half_rp","TALIESIN","she licks a tree. ""no dragon has been here.""",2885.325,2889.744,4.41900000000032,10,135.777325186684,NA,"role_play","TALIESIN",1,0,0,0
 "516","Fall_Conclave",6,82,516,"first_half_rp","LAURA","i bet there's other tracks, though, that i totally missed 'cause i was looking for dragons.",2892.832,2895.81,2.97800000000007,18,362.659503022155,NA,"role_play","LAURA",1,0,0,0
 "517","Fall_Conclave",6,82,517,"first_half_rp","MATT","yes.",2895.81,2897.072,1.26200000000017,2,95.0871632329507,NA,"role_play","MATT",0,0,0,1
 "518","Fall_Conclave",6,82,518,"first_half_rp","LAURA","can i look for anything other than dragons? there won't be an advantage.",2897.072,2901.114,4.04199999999992,15,222.662048490851,NA,"role_play","LAURA",1,0,0,0
@@ -698,7 +698,7 @@
 "697","Fall_Conclave",6,82,697,"first_half_rp","LIAM","so this is happening.",3939.177,3941.175,1.99800000000005,5,150.150150150147,NA,"role_play","LIAM",1,0,0,0
 "698","Fall_Conclave",6,82,698,"first_half_rp","MARISHA","does anyone need to do anything else before we go in?",3941.175,3945.729,4.55399999999963,12,158.102766798432,NA,"role_play","MARISHA",1,0,0,0
 "699","Fall_Conclave",6,82,699,"first_half_rp","LAURA","i have to go take a poo.",3945.729,3947.486,1.75700000000006,8,273.192942515642,NA,"role_play","LAURA",1,0,0,0
-"700","Fall_Conclave",6,82,700,"first_half_rp","MARISHA","i have to pee, too. i have to pee so bad.",3947.486,3951.436,3.95000000000027,12,182.278481012646,NA,"role_play","MARISHA",1,0,0,0
+"700","Fall_Conclave",6,82,700,"first_half_rp","MARISHA","i have to pee, too. i have to pee so bad.",3947.486,3949.476,1.99000000000024,12,361.809045226088,NA,"role_play","MARISHA",1,0,0,0
 "701","Fall_Conclave",6,82,701,"first_half_rp","MATT","was that in character?",3951.436,3953.17,1.73399999999992,5,173.010380622845,NA,"role_play","MATT",0,0,0,1
 "702","Fall_Conclave",6,82,702,"first_half_rp","MARISHA","it's both?",3953.17,3954.587,1.41699999999992,4,169.371912491189,NA,"role_play","MARISHA",1,0,0,0
 "703","Fall_Conclave",6,82,703,"first_half_rp","LAURA","i'm so nervous.",3954.587,3956.513,1.92599999999993,5,155.763239875395,NA,"role_play","LAURA",1,0,0,0
@@ -757,8 +757,8 @@
 "756","Fall_Conclave",6,82,756,"first_half_rp","TRAVIS","six.",4181.696,4184.866,3.17000000000007,2,37.8548895899045,NA,"role_play","TRAVIS",1,0,0,0
 "757","Fall_Conclave",6,82,757,"first_half_rp","TALIESIN","yes!",4184.866,4186.737,1.87100000000009,2,64.136825227148,NA,"role_play","TALIESIN",1,0,0,0
 "758","Fall_Conclave",6,82,758,"first_half_rp","MATT","the trade is complete. she hands you your deck of cards, she takes her parapet of wound closure.",4186.737,4195.338,8.60099999999966,19,132.54272758982,NA,"role_play","MATT",0,0,0,1
-"759","Fall_Conclave",6,82,759,"first_half_rp","LAURA","oh my god, i'm in so much trouble!",4195.338,4199.914,4.57600000000002,10,131.11888111888,NA,"role_play","LAURA",1,0,0,0
-"760","Fall_Conclave",6,82,760,"first_half_rp","PATRICK","i like to think that there's a live kitten in this pouch.",4199.914,4205.611,5.69700000000012,14,147.446024223272,NA,"role_play","GUESTS",0,1,0,0
+"759","Fall_Conclave",6,82,759,"first_half_rp","LAURA","oh my god, i'm in so much trouble!",4195.338,4197.694,2.35600000000068,10,254.668930390419,NA,"role_play","LAURA",1,0,0,0
+"760","Fall_Conclave",6,82,760,"first_half_rp","PATRICK","i like to think that there's a live kitten in this pouch.",4199.914,4203.116,3.20200000000023,14,262.336039974997,NA,"role_play","GUESTS",0,1,0,0
 "761","Fall_Conclave",6,82,761,"first_half_rp","MATT","if you pull the right card, yeah.",4205.611,4208.176,2.56500000000051,8,187.134502923939,NA,"role_play","MATT",0,0,0,1
 "762","Fall_Conclave",6,82,762,"first_half_rp","LIAM","well, you saved the party, but your marriage is in jeopardy.",4208.176,4210.621,2.44499999999971,12,294.478527607397,NA,"role_play","LIAM",1,0,0,0
 "763","Fall_Conclave",6,82,763,"first_half_rp","LAURA","i know. he's so mad at me! he's so mad. it's really good that he's sitting over at the other table right now.",4210.621,4218.068,7.44700000000012,28,225.594199006308,NA,"role_play","LAURA",1,0,0,0
@@ -774,7 +774,7 @@
 "773","Fall_Conclave",6,82,773,"first_half_rp","LAURA","oh, they're yours.",4258.797,4260.578,1.78100000000086,5,168.444693992058,NA,"role_play","LAURA",1,0,0,0
 "774","Fall_Conclave",6,82,774,"first_half_rp","TRAVIS","okay. are you sure? you're not gonna try and steal that shit, too?",4260.578,4264.195,3.61699999999928,15,248.824993088244,NA,"role_play","TRAVIS",1,0,0,0
 "775","Fall_Conclave",6,82,775,"first_half_rp","LAURA","no, i promise.",4264.195,4265.858,1.66300000000047,4,144.317498496652,NA,"role_play","LAURA",1,0,0,0
-"776","Fall_Conclave",6,82,776,"first_half_rp","TRAVIS","cool. let's go kill a dragon. and i jauntily and cheerily walk back to the group.",4265.858,4273.977,8.11899999999969,18,133.021308042868,NA,"role_play","TRAVIS",1,0,0,0
+"776","Fall_Conclave",6,82,776,"first_half_rp","TRAVIS","cool. let's go kill a dragon. and i jauntily and cheerily walk back to the group.",4265.858,4271.293,5.43499999999949,18,198.712051517958,NA,"role_play","TRAVIS",1,0,0,0
 "777","Fall_Conclave",6,82,777,"first_half_rp","LIAM","he looks happy. what was that about?",4273.977,4276.304,2.32700000000023,8,206.2741727546,NA,"role_play","LIAM",1,0,0,0
 "778","Fall_Conclave",6,82,778,"first_half_rp","LAURA","oh, i just gave him back his cards, is all.",4276.304,4280.64,4.33600000000024,11,152.214022140213,NA,"role_play","LAURA",1,0,0,0
 "779","Fall_Conclave",6,82,779,"first_half_rp","TRAVIS","so happy to be reunited.",4280.64,4284.817,4.17699999999968,6,86.1862580799683,NA,"role_play","TRAVIS",1,0,0,0
@@ -822,7 +822,7 @@
 "821","Fall_Conclave",6,82,821,"first_half_rp","TRAVIS","we don't have to spend anything. i'll just beat the shit out of it.",4534.678,4537.083,2.40499999999975,17,424.116424116469,NA,"role_play","TRAVIS",1,0,0,0
 "822","Fall_Conclave",6,82,822,"first_half_rp","TALIESIN","you're our last resort at this point.",4537.083,4538.758,1.67500000000018,9,322.388059701458,NA,"role_play","TALIESIN",1,0,0,0
 "823","Fall_Conclave",6,82,823,"first_half_rp","LAURA","but you do have siege gauntlets, though.",4538.758,4540.688,1.93000000000029,8,248.704663212398,NA,"role_play","LAURA",1,0,0,0
-"824","Fall_Conclave",6,82,824,"first_half_rp","TRAVIS","i do, yeah. i actually have those, like, no one's taken them from me.",4540.688,4548.353,7.66499999999996,16,125.244618395304,NA,"role_play","TRAVIS",1,0,0,0
+"824","Fall_Conclave",6,82,824,"first_half_rp","TRAVIS","i do, yeah. i actually have those, like, no one's taken them from me.",4540.688,4545.559,4.87100000000009,16,197.08478751796,NA,"role_play","TRAVIS",1,0,0,0
 "825","Fall_Conclave",6,82,825,"first_half_rp","LIAM","why do you say that right now? how is that relevant to the conversation at hand?",4548.353,4551.234,2.88100000000031,17,354.043734814262,NA,"role_play","LIAM",1,0,0,0
 "826","Fall_Conclave",6,82,826,"first_half_rp","TRAVIS","i just mean, like, they're mine, you know. they work for me, they speak to me. yeah.",4551.234,4558.903,7.66899999999987,19,148.650410744559,NA,"role_play","TRAVIS",1,0,0,0
 "827","Fall_Conclave",6,82,827,"first_half_rp","LIAM","i've always said as much.",4558.903,4560.903,2,7,210,NA,"role_play","LIAM",1,0,0,0
@@ -840,10 +840,10 @@
 "839","Fall_Conclave",6,82,839,"first_half_rp","MATT","all right.",4587.578,4588.988,1.40999999999985,3,127.659574468098,NA,"role_play","MATT",0,0,0,1
 "840","Fall_Conclave",6,82,840,"first_half_rp","MARISHA","you know how, like, a blade of grass can break a block of concrete?",4588.988,4599.111,10.1229999999996,15,88.9064506569235,NA,"role_play","MARISHA",1,0,0,0
 "841","Fall_Conclave",6,82,841,"first_half_rp","LAURA","what?",4599.111,4600.889,1.77800000000025,2,67.4915635545463,NA,"role_play","LAURA",1,0,0,0
-"842","Fall_Conclave",6,82,842,"first_half_rp","MARISHA","i'm doing some monk shit, all right?",4600.889,4605.145,4.25600000000031,9,126.879699248111,NA,"role_play","MARISHA",1,0,0,0
+"842","Fall_Conclave",6,82,842,"first_half_rp","MARISHA","i'm doing some monk shit, all right?",4600.889,4603.088,2.19899999999961,9,245.566166439334,NA,"role_play","MARISHA",1,0,0,0
 "843","Fall_Conclave",6,82,843,"first_half_rp","MARISHA","okay. go with me. okay. you know how plants can break stone when they grow through? if i do a druidcraft cantrip and try and grow some plants through this hole, will it maybe help crack open a bigger hole?",4605.173,4628.991,23.8180000000002,41,103.283231169703,NA,"role_play","MARISHA",1,0,0,0
 "844","Fall_Conclave",6,82,844,"first_half_rp","TRAVIS","can you fast-forward 1000 years?",4628.991,4631.131,2.14000000000033,7,196.261682242961,NA,"role_play","TRAVIS",1,0,0,0
-"845","Fall_Conclave",6,82,845,"first_half_rp","MARISHA","no, creeper. no creeper. okay. i shimmy back out and i say, no, apparently that takes like 1000 years.",4632.685,4644.087,11.402,20,105.244693913348,NA,"role_play","MARISHA",1,0,0,0
+"845","Fall_Conclave",6,82,845,"first_half_rp","MARISHA","no, creeper. no creeper. okay. i shimmy back out and i say, no, apparently that takes like 1000 years.",4632.685,4642.179,9.49399999999969,20,126.395618285237,NA,"role_play","MARISHA",1,0,0,0
 "846","Fall_Conclave",6,82,846,"first_half_rp","LAURA","grog. you wanna go punch some shit?",4644.087,4648.017,3.92999999999938,8,122.137404580172,NA,"role_play","LAURA",1,0,0,0
 "847","Fall_Conclave",6,82,847,"first_half_rp","PATRICK","hold on for one second. i know you can move this stone, if it allows you to only move certain parts of it, could you use the stone you can shape to effectively carve out a chunk that could be pulled out? like a very thin, narrow, like just move as much as a finger's-width around and then we could pull that out instead of just pushing it all the way like clay?",4648.017,4683.743,35.7260000000006,76,127.638134691819,NA,"role_play","GUESTS",0,1,0,0
 "848","Fall_Conclave",6,82,848,"first_half_rp","MATT","i mean, it could be, but one spell's already been spent.",4683.743,4686.758,3.01499999999942,13,258.706467661741,NA,"role_play","MATT",0,0,0,1
@@ -992,7 +992,7 @@
 "991","Fall_Conclave",6,82,991,"first_half_rp","LIAM","i have a bad will you take care of my sister? you have that one thing that you do, i don't know what it's called, but if she falls down, she gets back up again. do you know what i'm talking about?",5462.702,5478.74,16.0379999999996,46,172.091283202399,NA,"role_play","LIAM",1,0,0,0
 "992","Fall_Conclave",6,82,992,"first_half_rp","LAURA","is that the death ward? it's a thing. i talk to sarenrae and then she protects them for a little bit of time.",5478.74,5486.85,8.11000000000058,25,184.956843403193,NA,"role_play","LAURA",1,0,0,0
 "993","Fall_Conclave",6,82,993,"first_half_rp","LIAM","could you do that to my sister now?",5486.85,5489.733,2.88299999999981,9,187.304890738826,NA,"role_play","LIAM",1,0,0,0
-"994","Fall_Conclave",6,82,994,"first_half_rp","LAURA","feels a little selfish, but sure.",5489.733,5494.101,4.36799999999948,7,96.1538461538575,NA,"role_play","LAURA",1,0,0,0
+"994","Fall_Conclave",6,82,994,"first_half_rp","LAURA","feels a little selfish, but sure.",5489.733,5492.191,2.45799999999963,7,170.870626525656,NA,"role_play","LAURA",1,0,0,0
 "995","Fall_Conclave",6,82,995,"first_half_rp","LIAM","i thought of it.",5494.101,5498.709,4.60800000000017,5,65.1041666666642,NA,"role_play","LIAM",1,0,0,0
 "996","Fall_Conclave",6,82,996,"first_half_rp","LAURA","i mean, if you want me to do it.",5498.709,5502.955,4.24600000000009,10,141.309467734335,NA,"role_play","LAURA",1,0,0,0
 "997","Fall_Conclave",6,82,997,"first_half_rp","LIAM","i do, i do.",5502.955,5504.869,1.91399999999976,5,156.739811912245,NA,"role_play","LIAM",1,0,0,0
@@ -1002,7 +1002,7 @@
 "1001","Fall_Conclave",6,82,1001,"first_half_rp","MARISHA","it's kind of like buying starbucks with the company amex.",5528.664,5534.541,5.87700000000041,12,122.511485451753,NA,"role_play","MARISHA",1,0,0,0
 "1002","Fall_Conclave",6,82,1002,"first_half_rp","LAURA","feels a little weird, not gonna lie.",5534.541,5538.009,3.46799999999985,8,138.408304498276,NA,"role_play","LAURA",1,0,0,0
 "1003","Fall_Conclave",6,82,1003,"first_half_rp","LIAM","it's just strategy, man. game strategy. well, it's done, and my sister is a little safer than she was before, and y'all can go fuck yourselves.",5538.009,5548.883,10.8739999999998,30,165.532462755199,NA,"role_play","LIAM",1,0,0,0
-"1004","Fall_Conclave",6,82,1004,"first_half_rp","MARISHA","so easy when you have the pin code.",5548.883,5555.155,6.27199999999993,9,86.0969387755111,NA,"role_play","MARISHA",1,0,0,0
+"1004","Fall_Conclave",6,82,1004,"first_half_rp","MARISHA","so easy when you have the pin code.",5548.883,5552.339,3.45600000000013,9,156.249999999994,NA,"role_play","MARISHA",1,0,0,0
 "1005","Fall_Conclave",6,82,1005,"first_half_rp","LIAM","this one and this one on me.",5555.155,5559.1,3.94500000000062,8,121.673003802262,NA,"role_play","LIAM",1,0,0,0
 "1006","Fall_Conclave",6,82,1006,"first_half_rp","LAURA","yeah, it's totally cool.",5559.1,5563.376,4.27599999999984,6,84.1908325537918,NA,"role_play","LAURA",1,0,0,0
 "1007","Fall_Conclave",6,82,1007,"first_half_rp","LIAM","out of character, matt pooped out this new feature to dying, and she's on her last fucking string, man. no regrets, move forward.",5563.376,5574.9,11.5239999999994,25,130.163137799382,NA,"role_play","LIAM",1,0,0,0
@@ -1025,10 +1025,10 @@
 "1024","Fall_Conclave",6,82,1024,"first_half_rp","LIAM","i'm always holding two, and one of them is, i pull out the flametongue dagger, and i wave a fly away",5656.855,5664.464,7.60900000000038,22,173.4787751347,NA,"role_play","LIAM",1,0,0,0
 "1025","Fall_Conclave",6,82,1025,"first_half_rp","LAURA","this gnat, this fucking gnat.",5664.464,5665.856,1.39199999999983,6,258.620689655205,NA,"role_play","LAURA",1,0,0,0
 "1026","Fall_Conclave",6,82,1026,"first_half_rp","LIAM","and i hold it so that kerrek can see, and i say, we might die, so try it one more time with me. irish wristwatch. just once more, before we die.",5665.856,5677.601,11.7449999999999,32,163.473818646234,NA,"role_play","LIAM",1,0,0,0
-"1027","Fall_Conclave",6,82,1027,"first_half_rp","PATRICK","i dreamed about this last night.",5677.601,5684.977,7.3760000000002,7,56.9414316702804,NA,"role_play","GUESTS",0,1,0,0
+"1027","Fall_Conclave",6,82,1027,"first_half_rp","PATRICK","i dreamed about this last night.",5677.601,5681.1,3.49900000000071,7,120.034295512979,NA,"role_play","GUESTS",0,1,0,0
 "1028","Fall_Conclave",6,82,1028,"first_half_rp","TALIESIN","it's a tough one.",5684.977,5687.097,2.11999999999989,6,169.811320754726,NA,"role_play","TALIESIN",1,0,0,0
-"1029","Fall_Conclave",6,82,1029,"first_half_rp","PATRICK","irish wr",5687.097,5692.779,5.6820000000007,2,21.1193241816236,NA,"role_play","GUESTS",0,1,0,0
-"1030","Fall_Conclave",6,82,1030,"first_half_rp","PATRICK","irish wristwatch.",5692.779,5695.866,3.08699999999953,3,58.3090379008834,NA,"role_play","GUESTS",0,1,0,0
+"1029","Fall_Conclave",6,82,1029,"first_half_rp","PATRICK","irish wr",5687.097,5690.471,3.3739999999998,2,35.5660936573821,NA,"role_play","GUESTS",0,1,0,0
+"1030","Fall_Conclave",6,82,1030,"first_half_rp","PATRICK","irish wristwatch.",5692.779,5694.073,1.29399999999987,3,139.103554868638,NA,"role_play","GUESTS",0,1,0,0
 "1031","Fall_Conclave",6,82,1031,"first_half_rp","MATT","there you go. well done.",5695.866,5697.647,1.78099999999995,6,202.133632790573,NA,"role_play","MATT",0,0,0,1
 "1032","Fall_Conclave",6,82,1032,"first_half_rp","LIAM","i feel so much closer to you now. let's fucking do this.",5697.647,5700.419,2.77199999999993,14,303.03030303031,NA,"role_play","LIAM",1,0,0,0
 "1033","Fall_Conclave",6,82,1033,"first_half_rp","MATT","the dagger, which emits flame on it, is the equivalent of a candle. he can see about 15 feet beyond you, and that's it.",5700.419,5708.49,8.07099999999991,26,193.28459918226,NA,"role_play","MATT",0,0,0,1
@@ -1042,10 +1042,10 @@
 "1041","Fall_Conclave",6,82,1041,"first_half_rp","TALIESIN","okay.",5733.524,5734.624,1.09999999999945,2,109.090909090963,NA,"role_play","TALIESIN",1,0,0,0
 "1042","Fall_Conclave",6,82,1042,"first_half_rp","MARISHA","and i link arms.",5734.624,5735.948,1.32400000000052,5,226.586102718944,NA,"role_play","MARISHA",1,0,0,0
 "1043","Fall_Conclave",6,82,1043,"first_half_rp","TRAVIS","oh, jeez. hey, kerr, you wanna cuddle?",5735.948,5737.817,1.86899999999969,8,256.821829855581,NA,"role_play","TRAVIS",1,0,0,0
-"1044","Fall_Conclave",6,82,1044,"first_half_rp","PATRICK","actually, yes.",5737.817,5742.297,4.47999999999956,3,40.1785714285753,NA,"role_play","GUESTS",0,1,0,0
+"1044","Fall_Conclave",6,82,1044,"first_half_rp","PATRICK","actually, yes.",5737.817,5739.844,2.02700000000004,3,88.801184015785,NA,"role_play","GUESTS",0,1,0,0
 "1045","Fall_Conclave",6,82,1045,"first_half_rp","TRAVIS","hey, vax. put that light out.",5742.297,5744.366,2.06900000000041,7,202.996616723014,NA,"role_play","TRAVIS",1,0,0,0
 "1046","Fall_Conclave",6,82,1046,"first_half_rp","MATT","all right, so kerrek, there's a moment of quiet and stillness in the darkness, as you feel the ground beneath you shift ever-so-slightly. heavy footfalls approaching you as suddenly a large, muscled, somewhat sweaty arm just curls around the outside of your shoulders and pulls you close to grog's torso.",5744.366,5765.964,21.598,55,152.791925178258,NA,"role_play","MATT",0,0,0,1
-"1047","Fall_Conclave",6,82,1047,"first_half_rp","PATRICK","it is one of the most comforting things i have ever experienced.",5765.964,5772.919,6.95499999999993,13,112.149532710282,NA,"role_play","GUESTS",0,1,0,0
+"1047","Fall_Conclave",6,82,1047,"first_half_rp","PATRICK","it is one of the most comforting things i have ever experienced.",5765.964,5770.159,4.19499999999971,13,185.935637663898,NA,"role_play","GUESTS",0,1,0,0
 "1048","Fall_Conclave",6,82,1048,"first_half_rp","TRAVIS","i love it. i love it!",5772.919,5777.086,4.16700000000037,7,100.791936645059,NA,"role_play","TRAVIS",1,0,0,0
 "1049","Fall_Conclave",6,82,1049,"first_half_rp","LIAM","we're about to die.",5777.086,5781.113,4.02700000000004,6,89.3965731313623,NA,"role_play","LIAM",1,0,0,0
 "1050","Fall_Conclave",6,82,1050,"first_half_rp","LAURA","no, no, no.",5781.113,5783.589,2.47599999999966,4,96.9305331179455,NA,"role_play","LAURA",1,0,0,0
@@ -1092,7 +1092,7 @@
 "1091","Fall_Conclave",6,82,1091,"first_half_rp","LIAM","i don't.",6027.751,6029.061,1.30999999999949,4,183.2061068703,NA,"role_play","LIAM",1,0,0,0
 "1092","Fall_Conclave",6,82,1092,"first_half_rp","MATT","okay, continue walking?",6029.061,6030.553,1.49200000000019,4,160.857908847165,NA,"role_play","MATT",0,0,0,1
 "1093","Fall_Conclave",6,82,1093,"first_half_rp","LIAM","mm-hm. looking for traps.",6030.553,6032.227,1.67399999999998,6,215.053763440863,NA,"role_play","LIAM",1,0,0,0
-"1094","Fall_Conclave",6,82,1094,"first_half_rp","MATT","okay. as you continue, keeping an eye out in front of you, the next shelf you come across looks to have some sort of a mummified racoon-type creature that is propped up.",6032.227,6047.951,15.7240000000002,34,129.737980157719,NA,"role_play","MATT",0,0,0,1
+"1094","Fall_Conclave",6,82,1094,"first_half_rp","MATT","okay. as you continue, keeping an eye out in front of you, the next shelf you come across looks to have some sort of a mummified racoon-type creature that is propped up.",6032.227,6044.048,11.8209999999999,34,172.574232298453,NA,"role_play","MATT",0,0,0,1
 "1095","Fall_Conclave",6,82,1095,"first_half_rp","MATT","not taxidermied, by any means. it just looks like it dried out in a sort of standing position, or at least is leaning against the wall of the platform.",6047.951,6056.412,8.46100000000024,30,212.740810778862,NA,"role_play","MATT",0,0,0,1
 "1096","Fall_Conclave",6,82,1096,"first_half_rp","MARISHA","oh, like some weird pompeii shit? like he died that way?",6056.412,6060.024,3.61200000000008,12,199.335548172753,NA,"role_play","MARISHA",1,0,0,0
 "1097","Fall_Conclave",6,82,1097,"first_half_rp","MATT","kind of. literally just shriveled.",6060.024,6061.928,1.90399999999954,6,189.075630252146,NA,"role_play","MATT",0,0,0,1
@@ -1126,7 +1126,7 @@
 "1125","Fall_Conclave",6,82,1125,"first_half_rp","PATRICK","so long as it's not behind total cover.",6271.355,6273.434,2.07900000000063,10,288.600288600201,NA,"role_play","GUESTS",0,1,0,0
 "1126","Fall_Conclave",6,82,1126,"first_half_rp","MATT","got you. okay. then you sense there is something. you know it's from one of the wall areas, but you cannot see, and your one single bit of light source is ahead of you in the tunnel. but you do sense, at one point as you're walking, it is to the left of you.",6273.434,6292.485,19.0509999999995,57,179.518135530948,NA,"role_play","MATT",0,0,0,1
 "1127","Fall_Conclave",6,82,1127,"first_half_rp","PATRICK","okay. i say, there is an unclean thing here.",6292.485,6300.099,7.61400000000049,10,78.8022064617759,NA,"role_play","GUESTS",0,1,0,0
-"1128","Fall_Conclave",6,82,1128,"first_half_rp","TRAVIS","well, fuck, i'm sorry, it's just not a priority for me, all right?",6300.099,6307.382,7.28299999999945,16,131.813812989163,NA,"role_play","TRAVIS",1,0,0,0
+"1128","Fall_Conclave",6,82,1128,"first_half_rp","TRAVIS","well, fuck, i'm sorry, it's just not a priority for me, all right?",6300.099,6303.589,3.48999999999978,16,275.07163323784,NA,"role_play","TRAVIS",1,0,0,0
 "1129","Fall_Conclave",6,82,1129,"first_half_rp","TRAVIS","i mean, i put my arm down off his shoulder, i'll grant him at least that.",6307.382,6310.616,3.23400000000038,18,333.951762523152,NA,"role_play","TRAVIS",1,0,0,0
 "1130","Fall_Conclave",6,82,1130,"first_half_rp","PATRICK","it's not you, grog, there's some undead thing here, and i say, it's off to the left. to my left.",6310.806,6320.757,9.95100000000002,24,144.709074464878,NA,"role_play","GUESTS",0,1,0,0
 "1131","Fall_Conclave",6,82,1131,"first_half_rp","TALIESIN","the left hand of the tunnel.",6320.757,6323.305,2.54800000000068,7,164.835164835121,NA,"role_play","TALIESIN",1,0,0,0
@@ -1269,7 +1269,7 @@
 "1268","Fall_Conclave",6,82,1268,"first_half_rp","LIAM","while she's doing that, i'm just going to quietly extend my wings now.",7111.708,7115.041,3.33300000000054,16,288.028802880241,NA,"role_play","LIAM",1,0,0,0
 "1269","Fall_Conclave",6,82,1269,"first_half_rp","MATT","your wings.",7115.041,7117.83,2.78899999999976,3,64.5392613840142,NA,"role_play","MATT",0,0,0,1
 "1270","Fall_Conclave",6,82,1270,"first_half_rp","LAURA","oh yeah, i get out a lockpick and scrape it to see if i can",7117.83,7121.133,3.30299999999988,15,272.479564032707,NA,"role_play","LAURA",1,0,0,0
-"1271","Fall_Conclave",6,82,1271,"first_half_rp","PATRICK","holy shit!",7121.133,7124.972,3.83899999999994,3,46.8872102109932,NA,"role_play","GUESTS",0,1,0,0
+"1271","Fall_Conclave",6,82,1271,"first_half_rp","PATRICK","holy shit!",7121.133,7122.746,1.61300000000028,3,111.593304401716,NA,"role_play","GUESTS",0,1,0,0
 "1272","Fall_Conclave",6,82,1272,"first_half_rp","LIAM","they're pretty cool, aren't they.",7124.972,7126.821,1.84900000000016,8,259.599783666824,NA,"role_play","LIAM",1,0,0,0
 "1273","Fall_Conclave",6,82,1273,"first_half_rp","LAURA","they take up a lot of room, though, so.",7126.821,7128.624,1.80299999999988,10,332.778702163083,NA,"role_play","LAURA",1,0,0,0
 "1274","Fall_Conclave",6,82,1274,"first_half_rp","LIAM","no, they don't. they go out and they slam back into my back.",7128.624,7131.675,3.05100000000039,15,294.985250737426,NA,"role_play","LIAM",1,0,0,0
@@ -1311,7 +1311,7 @@
 "1310","Fall_Conclave",6,82,1310,"first_half_rp","TRAVIS","is there still tinder under the",7281.845,7284.304,2.45899999999983,6,146.400976006517,NA,"role_play","TRAVIS",1,0,0,0
 "1311","Fall_Conclave",6,82,1311,"first_half_rp","MATT","yeah, there's the iron brazier and there's a lot of dried inside there, yeah.",7284.304,7291.041,6.73700000000008,17,151.402701499182,NA,"role_play","MATT",0,0,0,1
 "1312","Fall_Conclave",6,82,1312,"first_half_rp","TALIESIN","well, we do have samples of blood, in theory, in the bag of holding.",7291.041,7295.185,4.14400000000023,15,217.181467181455,NA,"role_play","TALIESIN",1,0,0,0
-"1313","Fall_Conclave",6,82,1313,"first_half_rp","LAURA","we've got dragon blood. i'm gonna get out a vial of dragon blood.",7295.185,7301.604,6.41899999999987,16,149.556005608353,NA,"role_play","LAURA",1,0,0,0
+"1313","Fall_Conclave",6,82,1313,"first_half_rp","LAURA","we've got dragon blood. i'm gonna get out a vial of dragon blood.",7295.185,7299.959,4.77399999999943,16,201.089233347322,NA,"role_play","LAURA",1,0,0,0
 "1314","Fall_Conclave",6,82,1314,"first_half_rp","LIAM","oh, jeez.",7301.604,7303.042,1.4380000000001,3,125.173852573009,NA,"role_play","LIAM",1,0,0,0
 "1315","Fall_Conclave",6,82,1315,"first_half_rp","TALIESIN","you've caused a feedback loop.",7303.042,7304.292,1.25,7,336,NA,"role_play","TALIESIN",1,0,0,0
 "1316","Fall_Conclave",6,82,1316,"first_half_rp","LIAM","she's coming!",7304.292,7305.624,1.33199999999943,4,180.180180180258,NA,"role_play","LIAM",1,0,0,0
@@ -1333,7 +1333,7 @@
 "1332","Fall_Conclave",6,82,1332,"first_half_rp","TALIESIN","i'm holding onto the wing.",7366.672,7368.459,1.78700000000026,7,235.030777839921,NA,"role_play","TALIESIN",1,0,0,0
 "1333","Fall_Conclave",6,82,1333,"first_half_rp","LIAM","i push back slowly with my wings. just get 15, 20 behind me. i'm gonna bring it to you. i'm gonna try to take this fucking book off, okay? if i'm going to go down, i don't want you to go down as well, all right?",7368.459,7383.351,14.8919999999998,51,205.479452054797,NA,"role_play","LIAM",1,0,0,0
 "1334","Fall_Conclave",6,82,1334,"first_half_rp","TRAVIS","are you about to die right now?",7383.351,7385.488,2.13700000000063,8,224.613944782339,NA,"role_play","TRAVIS",1,0,0,0
-"1335","Fall_Conclave",6,82,1335,"first_half_rp","MARISHA","don't, ve vax.",7385.488,7392.097,6.60899999999947,5,45.3926463912883,NA,"role_play","MARISHA",1,0,0,0
+"1335","Fall_Conclave",6,82,1335,"first_half_rp","MARISHA","don't, ve vax.",7385.488,7387.831,2.34299999999985,5,128.040973111404,NA,"role_play","MARISHA",1,0,0,0
 "1336","Fall_Conclave",6,82,1336,"first_half_rp","MARISHA","i love you! i know your name on my good days.",7392.097,7397.552,5.45499999999993,12,131.989000916592,NA,"role_play","MARISHA",1,0,0,0
 "1337","Fall_Conclave",6,82,1337,"first_half_rp","TRAVIS","grab it, grab it, grab it.",7397.552,7400.25,2.69800000000032,7,155.670867309099,NA,"role_play","TRAVIS",1,0,0,0
 "1338","Fall_Conclave",6,82,1338,"first_half_rp","LIAM","i get back about ten feet and i take my wing and i scootch it",7400.25,7409.439,9.18900000000031,15,97.9431929480869,NA,"role_play","LIAM",1,0,0,0
@@ -1384,7 +1384,7 @@
 "1383","Fall_Conclave",6,82,1383,"first_half_rp","TRAVIS","maybe if you put something in the pot and set it on fire, by that light, you'll",7657.222,7662.682,5.46000000000004,18,197.802197802196,NA,"role_play","TRAVIS",1,0,0,0
 "1384","Fall_Conclave",6,82,1384,"first_half_rp","MARISHA","scanlan goes up and looks at it.",7662.682,7664.564,1.88200000000052,8,255.047821466455,NA,"role_play","MARISHA",1,0,0,0
 "1385","Fall_Conclave",6,82,1385,"first_half_rp","TALIESIN","begrudgingly.",7664.564,7666.564,2,2,60,NA,"role_play","TALIESIN",1,0,0,0
-"1386","Fall_Conclave",6,82,1386,"first_half_rp","MATT","scanlan glances over. ""it's fine to me. i don't know what your problem was. ""no, i have no idea what's on the pages, i'm just messing with you.""",7666.564,7679.469,12.9049999999997,33,153.428903525768,NA,"role_play","MATT",0,0,0,1
+"1386","Fall_Conclave",6,82,1386,"first_half_rp","MATT","scanlan glances over. ""it's fine to me. i don't know what your problem was. ""no, i have no idea what's on the pages, i'm just messing with you.""",7666.564,7678.129,11.5649999999996,33,171.20622568094,NA,"role_play","MATT",0,0,0,1
 "1387","Fall_Conclave",6,82,1387,"first_half_rp","MATT","""sorry, guys!""",7679.469,7680.698,1.22900000000027,4,195.280716029249,NA,"role_play","MATT",0,0,0,1
 "1388","Fall_Conclave",6,82,1388,"first_half_rp","MARISHA","i thought we figured something out.",7680.698,7682.278,1.57999999999993,7,265.822784810139,NA,"role_play","MARISHA",1,0,0,0
 "1389","Fall_Conclave",6,82,1389,"first_half_rp","LAURA","that's actually a really good idea, grog. maybe we should light the brazier.",7682.278,7684.726,2.44799999999941,15,367.647058823618,NA,"role_play","LAURA",1,0,0,0
@@ -1420,7 +1420,7 @@
 "1419","Fall_Conclave",6,82,1419,"first_half_rp","MARISHA","that was awesome.",7836.708,7838.051,1.34300000000076,4,178.704393149564,NA,"role_play","MARISHA",1,0,0,0
 "1420","Fall_Conclave",6,82,1420,"first_half_rp","LAURA","if raishan didn't hear us before, she potentially heard us now.",7838.051,7841.613,3.5619999999999,13,218.978102189787,NA,"role_play","LAURA",1,0,0,0
 "1421","Fall_Conclave",6,82,1421,"first_half_rp","TALIESIN","at least now we don't have to try and stealth anymore.",7841.613,7844.576,2.96299999999974,13,263.246709416156,NA,"role_play","TALIESIN",1,0,0,0
-"1422","Fall_Conclave",6,82,1422,"first_half_rp","MARISHA","is the door open? i'm sorry if i'm speaking loudly!",7844.576,7852.12,7.54399999999987,13,103.393425238602,NA,"role_play","MARISHA",1,0,0,0
+"1422","Fall_Conclave",6,82,1422,"first_half_rp","MARISHA","is the door open? i'm sorry if i'm speaking loudly!",7844.576,7849.725,5.14900000000034,13,151.48572538356,NA,"role_play","MARISHA",1,0,0,0
 "1423","Fall_Conclave",6,82,1423,"first_half_rp","MATT","the door is not open.",7852.12,7856.431,4.31099999999969,6,83.5073068893587,NA,"role_play","MATT",0,0,0,1
 "1424","Fall_Conclave",6,82,1424,"first_half_rp","MARISHA","the door is not open?",7856.431,7858.229,1.79800000000068,6,200.22246941038,NA,"role_play","MARISHA",1,0,0,0
 "1425","Fall_Conclave",6,82,1425,"first_half_rp","LAURA","we need blood.",7858.229,7859.639,1.40999999999985,4,170.212765957464,NA,"role_play","LAURA",1,0,0,0
@@ -1433,7 +1433,7 @@
 "1432","Fall_Conclave",6,82,1432,"first_half_rp","LAURA","oh, that dick book.",7879.283,7881.057,1.77399999999943,5,169.109357384496,NA,"role_play","LAURA",1,0,0,0
 "1433","Fall_Conclave",6,82,1433,"first_half_rp","TRAVIS","no fucking way.",7881.057,7882.902,1.84500000000025,4,130.08130081299,NA,"role_play","TRAVIS",1,0,0,0
 "1434","Fall_Conclave",6,82,1434,"first_half_rp","MATT","""it was well-played, and curse be on the one who thought that up.""",7882.902,7892.816,9.91399999999976,16,96.8327617510615,NA,"role_play","MATT",0,0,0,1
-"1435","Fall_Conclave",6,82,1435,"first_half_rp","LAURA","i know who that is.",7892.816,7899.783,6.96700000000055,6,51.6721687957473,NA,"role_play","LAURA",1,0,0,0
+"1435","Fall_Conclave",6,82,1435,"first_half_rp","LAURA","i know who that is.",7892.816,7896.71,3.89400000000023,6,92.449922958392,NA,"role_play","LAURA",1,0,0,0
 "1436","Fall_Conclave",6,82,1436,"first_half_rp","TALIESIN","do i recognize the smell of whatever they used to ignite that, or was it more mystical in nature?",7899.783,7905.667,5.88400000000001,20,203.942895989123,NA,"role_play","TALIESIN",1,0,0,0
 "1437","Fall_Conclave",6,82,1437,"first_half_rp","MATT","it was a sort of mixture of extremely flammable liquids. it was not black powder.",7905.667,7914.396,8.72899999999936,16,109.978233474633,NA,"role_play","MATT",0,0,0,1
 "1438","Fall_Conclave",6,82,1438,"first_half_rp","TALIESIN","okay, i was just curious. all right. well. let's try and pour some of the dragon blood into the bowl and see if that does it.",7914.396,7922.937,8.54100000000017,28,196.698278890056,NA,"role_play","TALIESIN",1,0,0,0
@@ -1478,7 +1478,7 @@
 "1477","Fall_Conclave",6,82,1477,"first_half_rp","LAURA","no, no, no, not that. she casts the other thing. shouldn't she? it's undead. holy aura on all of us.",8122.077,8131.409,9.33199999999943,23,147.878268324055,NA,"role_play","LAURA",1,0,0,0
 "1478","Fall_Conclave",6,82,1478,"first_half_rp","MATT","okay. what does that do?",8131.409,8133.406,1.9970000000003,6,180.270405608386,NA,"role_play","MATT",0,0,0,1
 "1479","Fall_Conclave",6,82,1479,"first_half_rp","LAURA","i wrote it all down. hold on, hold on. it is within a 30-foot radius where everybody is. it sheds a five-foot radius of light on everyone. everybody gets advantage on saving throws. enemies who are attacking have disadvantage on everyone. fiends and undead who do melee attacks have to make a constitution save or be blinded.",8133.406,8156.968,23.5619999999999,60,152.788388082506,NA,"role_play","LAURA",1,0,0,0
-"1480","Fall_Conclave",6,82,1480,"first_half_rp","MATT","okay. all right, so yeah, that's on yourself, and it creates a 30-foot radius around you. as you guys all see these sources of light hovering towards you, the cackling getting louder and louder from a source just out of view, pike grabs her holy symbol and slams her hand down onto the stonework in the center by where the pillar is. as it hits, there's a sound as the vibrations or impact shift through the ground, and you feel the ground itself grow warm with radiant energy as a giant circle of ancient radiant runes begin to connect and intersect, and within that circle you all kind of rush in, and as you do, you feel the warmth of that protection come over you. as you all gather, with your weapons at the ready, you see now the sources of light, as roughly four floating flame-wreathed skulls come rocketing in, two from each side of the hallway, cackling along the way. and we're gonna take a break.",8156.968,8221.352,64.3840000000009,174,162.152087475147,NA,"role_play","MATT",0,0,0,1
+"1480","Fall_Conclave",6,82,1480,"first_half_rp","MATT","okay. all right, so yeah, that's on yourself, and it creates a 30-foot radius around you. as you guys all see these sources of light hovering towards you, the cackling getting louder and louder from a source just out of view, pike grabs her holy symbol and slams her hand down onto the stonework in the center by where the pillar is. as it hits, there's a sound as the vibrations or impact shift through the ground, and you feel the ground itself grow warm with radiant energy as a giant circle of ancient radiant runes begin to connect and intersect, and within that circle you all kind of rush in, and as you do, you feel the warmth of that protection come over you. as you all gather, with your weapons at the ready, you see now the sources of light, as roughly four floating flame-wreathed skulls come rocketing in, two from each side of the hallway, cackling along the way. and we're gonna take a break.",8156.968,8219.207,62.2390000000005,174,167.740484262278,NA,"role_play","MATT",0,0,0,1
 "1481","Fall_Conclave",6,82,1481,"break","TRAVIS","flaming skulls?",8221.352,8224.031,2.67900000000009,3,67.1892497200426,NA,NA,"TRAVIS",1,0,0,0
 "1482","Fall_Conclave",6,82,1482,"break","MATT","flaming skulls.",8224.031,8225.568,1.53699999999844,3,117.111255693027,NA,NA,"MATT",0,0,0,1
 "1483","Fall_Conclave",6,82,1483,"break","MARISHA","flame-wreathed skulls.",8225.568,8226.85,1.28200000000106,4,187.207488299377,NA,NA,"MARISHA",1,0,0,0
@@ -1581,7 +1581,7 @@
 "1580","Fall_Conclave",6,82,1580,"combat","MARISHA","can i? then i do that.",9559.323,9562.11,2.78700000000026,7,150.699677072106,1,"combat","MARISHA",1,0,0,0
 "1581","Fall_Conclave",6,82,1581,"combat","MATT","all righty. and they that is a 16.",9562.11,9567.825,5.71500000000015,9,94.4881889763755,1,"combat","MATT",0,0,0,1
 "1582","Fall_Conclave",6,82,1582,"combat","MARISHA","fail.",9567.825,9569.174,1.34900000000016,2,88.9547813194854,1,"combat","MARISHA",1,0,0,0
-"1583","Fall_Conclave",6,82,1583,"combat","MATT","and a 13. so no, they fail 'em both.",9569.174,9573.36,4.18599999999969,10,143.334925943632,1,"combat","MATT",0,0,0,1
+"1583","Fall_Conclave",6,82,1583,"combat","MATT","and a 13. so no, they fail 'em both.",9569.174,9571.376,2.20199999999932,10,272.479564032782,1,"combat","MATT",0,0,0,1
 "1584","Fall_Conclave",6,82,1584,"combat","MARISHA","oh, that's good. above average. six plus seven is 13 points of damage.",9573.36,9581.614,8.253999999999,15,109.03804216139,1,"combat","MARISHA",1,0,0,0
 "1585","Fall_Conclave",6,82,1585,"combat","MATT","13 points of damage to both of them.",9581.614,9583.49,1.8760000000002,9,287.846481876301,1,"combat","MATT",0,0,0,1
 "1586","Fall_Conclave",6,82,1586,"combat","MARISHA","you know, just a little bit of radiant damage.",9583.49,9586.409,2.91899999999987,10,205.549845837625,1,"combat","MARISHA",1,0,0,0
@@ -1680,7 +1680,7 @@
 "1679","Fall_Conclave",6,82,1679,"combat","LAURA","oh, thank god. okay. that's good, that's good. and then trinket only got one, so he's in my necklace. already.",9990.2,10003.146,12.9459999999999,24,111.231268345436,1,"combat","LAURA",1,0,0,0
 "1680","Fall_Conclave",6,82,1680,"combat","LIAM","luckily, luckily.",10003.146,10004.467,1.32099999999991,3,136.260408781235,1,"combat","LIAM",1,0,0,0
 "1681","Fall_Conclave",6,82,1681,"combat","MATT","you can bring him out and heal him in a minute, if you want to. that brings allura, through her barrier and extra hit points, that brings her to okay, there we go. and kima also failed two, so she took... all righty.",10004.467,10027.434,22.9669999999987,44,114.947533417518,1,"combat","MATT",0,0,0,1
-"1682","Fall_Conclave",6,82,1682,"combat","PATRICK","if i'm still hugging grog, can i use him as partial cover?",10027.434,10033.391,5.95700000000033,14,141.010575793177,1,"combat","GUESTS",0,1,0,0
+"1682","Fall_Conclave",6,82,1682,"combat","PATRICK","if i'm still hugging grog, can i use him as partial cover?",10027.434,10031.355,3.92100000000028,14,214.231063504193,1,"combat","GUESTS",0,1,0,0
 "1683","Fall_Conclave",6,82,1683,"combat","MATT","going forward, you can, yes. from the curling flames of the arcane blasts, unfortunately, not that much cover from that. however, they all then go ahead and scoot back towards the wall. the holy radius itself is starting to affect them, so this one is starting to back up in this direction, and these two are going to go ahead and this one's going to curl around the fallen stonework and land there. that is going to end their turn.",10033.391,10060.63,27.2389999999996,82,180.623370902018,1,"combat","MATT",0,0,0,1
 "1684","Fall_Conclave",6,82,1684,"combat","TRAVIS","we're in a fucking kill box.",10060.63,10062.176,1.54600000000028,8,310.478654592441,1,"combat","TRAVIS",1,0,0,0
 "1685","Fall_Conclave",6,82,1685,"combat","TALIESIN","it's a box of kill.",10062.176,10064.599,2.42300000000068,7,173.33883615348,1,"combat","TALIESIN",1,0,0,0
@@ -1762,7 +1762,7 @@
 "1761","Fall_Conclave",6,82,1761,"combat","MATT","okay, got it.",10429.344,10430.946,1.60200000000077,4,149.812734082325,1,"combat","MATT",0,0,0,1
 "1762","Fall_Conclave",6,82,1762,"combat","LAURA","and then, fuck me, i hunter's mark him.",10430.946,10437.049,6.10300000000097,10,98.3123054235465,1,"combat","LAURA",1,0,0,0
 "1763","Fall_Conclave",6,82,1763,"combat","MATT","okay. he has been hunter's marked.",10437.049,10442.45,5.40099999999984,8,88.8724310312931,1,"combat","MATT",0,0,0,1
-"1764","Fall_Conclave",6,82,1764,"combat","LAURA","i attack him again. natural 20!",10442.45,10453.069,10.6189999999988,7,39.5517468688246,1,"combat","LAURA",1,0,0,0
+"1764","Fall_Conclave",6,82,1764,"combat","LAURA","i attack him again. natural 20!",10442.45,10450.48,8.02999999999884,7,52.3038605230462,1,"combat","LAURA",1,0,0,0
 "1765","Fall_Conclave",6,82,1765,"combat","MATT","well, there you go.",10453.069,10454.325,1.25600000000122,5,238.853503184481,1,"combat","MATT",0,0,0,1
 "1766","Fall_Conclave",6,82,1766,"combat","TALIESIN","i was gonna say, somehow a skull is giving you shade, and now he's not.",10454.325,10458.386,4.06099999999969,17,251.169662644688,1,"combat","TALIESIN",1,0,0,0
 "1767","Fall_Conclave",6,82,1767,"combat","LAURA","20 plus eight lightning damage plus eight hunter's mark. 'cause you double all your dice, right?",10458.386,10473.449,15.0630000000001,18,71.698864767974,1,"combat","LAURA",1,0,0,0
@@ -1797,7 +1797,7 @@
 "1796","Fall_Conclave",6,82,1796,"combat","MARISHA","it's still alive? kill it!",10625.559,10628.478,2.91899999999987,7,143.884892086337,1,"combat","MARISHA",1,0,0,0
 "1797","Fall_Conclave",6,82,1797,"combat","TRAVIS","i don't have a third attack.",10628.478,10630.557,2.07900000000154,8,230.88023088006,1,"combat","TRAVIS",1,0,0,0
 "1798","Fall_Conclave",6,82,1798,"combat","MATT","yeah, he's not frenzied.",10630.557,10631.924,1.36700000000019,6,263.350402340856,1,"combat","MATT",0,0,0,1
-"1799","Fall_Conclave",6,82,1799,"combat","TRAVIS","with a bonus action, can i attempt to use my boots of feral leaping and leap...",10631.924,10642.936,11.0119999999988,17,92.6262259353533,1,"combat","TRAVIS",1,0,0,0
+"1799","Fall_Conclave",6,82,1799,"combat","TRAVIS","with a bonus action, can i attempt to use my boots of feral leaping and leap...",10631.924,10639.021,7.09699999999975,17,143.722699732286,1,"combat","TRAVIS",1,0,0,0
 "1800","Fall_Conclave",6,82,1800,"combat","TRAVIS","to the wall towards you.",10642.936,10646.461,3.52499999999964,6,102.127659574479,1,"combat","TRAVIS",1,0,0,0
 "1801","Fall_Conclave",6,82,1801,"combat","TALIESIN","he senses the all-powerful deity to the outside of it and just leaps towards matt's face.",10646.461,10650.988,4.52700000000004,19,251.822398939693,1,"combat","TALIESIN",1,0,0,0
 "1802","Fall_Conclave",6,82,1802,"combat","TRAVIS","damn you, watcher of all things!",10650.988,10654.508,3.52000000000044,7,119.318181818167,1,"combat","TRAVIS",1,0,0,0
@@ -1824,7 +1824,7 @@
 "1823","Fall_Conclave",6,82,1823,"combat","MATT","it had one hit point left! so as the four missiles slam into the side of the skull, the final one hits, and its jaw gets blown off as the rest of the skull just turns to ash against the stonework and slowly rests across the side, the combat coming to an end in that moment.",10783.404,10801.6,18.1959999999999,57,187.953396350847,1,"combat","MATT",0,0,0,1
 "1824","Fall_Conclave",6,82,1824,"second_half_rp","LAURA","good times, guys!",10801.6,10803.216,1.61599999999999,4,148.51485148515,NA,"role_play","LAURA",1,0,0,0
 "1825","Fall_Conclave",6,82,1825,"second_half_rp","TALIESIN","every week. every week for two years. we've been playing this game for two years.",10803.216,10807.325,4.10900000000038,17,248.235580433173,NA,"role_play","TALIESIN",1,0,0,0
-"1826","Fall_Conclave",6,82,1826,"second_half_rp","LIAM","it's gonna be amazing when we're level one again, we'll go, i hit it for three points!",10807.325,10813.969,6.64399999999841,21,189.644792293844,NA,"role_play","LIAM",1,0,0,0
+"1826","Fall_Conclave",6,82,1826,"second_half_rp","LIAM","it's gonna be amazing when we're level one again, we'll go, i hit it for three points!",10807.325,10810.914,3.58899999999994,21,351.072722206748,NA,"role_play","LIAM",1,0,0,0
 "1827","Fall_Conclave",6,82,1827,"second_half_rp","TRAVIS","we came from that way, right?",10813.969,10817.69,3.72100000000137,7,112.87288363339,NA,"role_play","TRAVIS",1,0,0,0
 "1828","Fall_Conclave",6,82,1828,"second_half_rp","MATT","you came from this way, yes.",10817.69,10818.889,1.1989999999987,7,350.291909925316,NA,"role_play","MATT",0,0,0,1
 "1829","Fall_Conclave",6,82,1829,"second_half_rp","TRAVIS","can i run that way?",10818.889,10820.115,1.22600000000057,6,293.637846655655,NA,"role_play","TRAVIS",1,0,0,0
@@ -1997,7 +1997,7 @@
 "1996","Fall_Conclave",6,82,1996,"second_half_rp","MATT","actually, no, it says specifically as part of the metamagic ability that it has a maximum of 24 hours. so if it already has a 24 hour duration, you cannot.",11465.081,11476.612,11.530999999999,31,161.304310120558,NA,"role_play","MATT",0,0,0,1
 "1997","Fall_Conclave",6,82,1997,"second_half_rp","LAURA","just kidding.",11476.612,11478.323,1.71100000000115,3,105.20163646983,NA,"role_play","LAURA",1,0,0,0
 "1998","Fall_Conclave",6,82,1998,"second_half_rp","MARISHA","so only if it's below 24 hours.",11478.323,11480.879,2.55600000000049,9,211.267605633762,NA,"role_play","MARISHA",1,0,0,0
-"1999","Fall_Conclave",6,82,1999,"second_half_rp","TALIESIN","the large print giveth and the small print taketh away.",11480.879,11488.092,7.21299999999974,11,91.5014557049805,NA,"role_play","TALIESIN",1,0,0,0
+"1999","Fall_Conclave",6,82,1999,"second_half_rp","TALIESIN","the large print giveth and the small print taketh away.",11480.879,11484.205,3.32599999999911,11,198.436560433005,NA,"role_play","TALIESIN",1,0,0,0
 "2000","Fall_Conclave",6,82,2000,"second_half_rp","MATT","that's a beautiful quote.",11488.092,11489.552,1.45999999999913,6,246.575342465901,NA,"role_play","MATT",0,0,0,1
 "2001","Fall_Conclave",6,82,2001,"second_half_rp","TALIESIN","tom waits, everybody. tom waits, bless him.",11489.552,11492.497,2.94499999999971,8,162.988115449931,NA,"role_play","TALIESIN",1,0,0,0
 "2002","Fall_Conclave",6,82,2002,"second_half_rp","LIAM","what's percy building in there?",11492.497,11495.378,2.88100000000122,7,145.782714335238,NA,"role_play","LIAM",1,0,0,0
@@ -2164,7 +2164,7 @@
 "2163","Fall_Conclave",6,82,2163,"second_half_rp","MATT","it's a bit of a strain with the weight of his armor and getting up in his years, versus your tiny half-elf frame, but you do manage to bring him down without issue.",12249.458,12262.089,12.6309999999994,36,171.007837859243,NA,"role_play","MATT",0,0,0,1
 "2164","Fall_Conclave",6,82,2164,"second_half_rp","LIAM","the raven queen sends her regards.",12262.089,12264.36,2.27100000000064,7,184.940554821612,NA,"role_play","LIAM",1,0,0,0
 "2165","Fall_Conclave",6,82,2165,"second_half_rp","LAURA","grog.",12264.36,12266.605,2.24499999999898,2,53.4521158129418,NA,"role_play","LAURA",1,0,0,0
-"2166","Fall_Conclave",6,82,2166,"second_half_rp","PATRICK","i'm getting to hug all the boys in this adventure.",12266.605,12270.534,3.92900000000009,12,183.252736065152,NA,"role_play","GUESTS",0,1,0,0
+"2166","Fall_Conclave",6,82,2166,"second_half_rp","PATRICK","i'm getting to hug all the boys in this adventure.",12266.605,12268.619,2.01400000000103,12,357.497517378168,NA,"role_play","GUESTS",0,1,0,0
 "2167","Fall_Conclave",6,82,2167,"second_half_rp","PATRICK","this is kerrek's best day ever.",12270.534,12272.346,1.8119999999999,8,264.900662251671,NA,"role_play","GUESTS",0,1,0,0
 "2168","Fall_Conclave",6,82,2168,"second_half_rp","TALIESIN","somebody's got a coupon for a back massage. welcome to vox machina. you seem tense.",12272.346,12281.398,9.05199999999968,17,112.682280159085,NA,"role_play","TALIESIN",1,0,0,0
 "2169","Fall_Conclave",6,82,2169,"second_half_rp","MARISHA","that's what we pay you in.",12281.398,12283.086,1.6880000000001,8,284.360189573443,NA,"role_play","MARISHA",1,0,0,0
@@ -2187,7 +2187,7 @@
 "2186","Fall_Conclave",6,82,2186,"second_half_rp","LIAM","i'm not. seems clear. we're good. i am badass.",12376.867,12381.79,4.92300000000068,12,146.252285191936,NA,"role_play","LIAM",1,0,0,0
 "2187","Fall_Conclave",6,82,2187,"second_half_rp","MATT","so, as you guys have reached the bottom of this cylindrical chamber, you follow suit, one by one, which by the way, just so i know going forward, what's the marching order right now?",12381.79,12391.941,10.1509999999998,36,212.786917545073,NA,"role_play","MATT",0,0,0,1
 "2188","Fall_Conclave",6,82,2188,"second_half_rp","LIAM","vax in the front.",12391.941,12394.798,2.85699999999997,5,105.005250262514,NA,"role_play","LIAM",1,0,0,0
-"2189","Fall_Conclave",6,82,2189,"second_half_rp","PATRICK","i'm by grog.",12394.798,12399.225,4.42699999999968,5,67.7659814773033,NA,"role_play","GUESTS",0,1,0,0
+"2189","Fall_Conclave",6,82,2189,"second_half_rp","PATRICK","i'm by grog.",12394.798,12396.963,2.16499999999905,5,138.568129330315,NA,"role_play","GUESTS",0,1,0,0
 "2190","Fall_Conclave",6,82,2190,"second_half_rp","TRAVIS","yeah, baby!",12399.225,12400.54,1.31500000000051,3,136.882129277514,NA,"role_play","TRAVIS",1,0,0,0
 "2191","Fall_Conclave",6,82,2191,"second_half_rp","MATT","grog, where are you at?",12400.54,12402.186,1.64599999999882,6,218.71202916176,NA,"role_play","MATT",0,0,0,1
 "2192","Fall_Conclave",6,82,2192,"second_half_rp","TRAVIS","i'll be behind the twins.",12402.186,12403.511,1.32500000000073,7,316.981132075298,NA,"role_play","TRAVIS",1,0,0,0
@@ -2371,7 +2371,7 @@
 "2370","Fall_Conclave",6,82,2370,"second_half_rp","MATT","the opposite side? maybe.",13409.926,13411.662,1.73600000000079,5,172.811059907756,NA,"role_play","MATT",0,0,0,1
 "2371","Fall_Conclave",6,82,2371,"second_half_rp","MARISHA","i've got a 60-foot range to this spell, plus 30 feet from the grasping vine, right? or is it 30 and 30? i thought you were still grabbing onto the",13411.662,13422.093,10.4310000000005,32,184.066724187509,NA,"role_play","MARISHA",1,0,0,0
 "2372","Fall_Conclave",6,82,2372,"second_half_rp","LAURA","i'm tethered to the broom.",13422.093,13423.792,1.6989999999987,7,247.204237787122,NA,"role_play","LAURA",1,0,0,0
-"2373","Fall_Conclave",6,82,2373,"second_half_rp","MARISHA","to the broom, and pike's still grabbing onto the broom, yeah? i'm going for the broom. come on, man!",13423.792,13437.692,13.8999999999996,22,94.9640287769809,NA,"role_play","MARISHA",1,0,0,0
+"2373","Fall_Conclave",6,82,2373,"second_half_rp","MARISHA","to the broom, and pike's still grabbing onto the broom, yeah? i'm going for the broom. come on, man!",13423.792,13434.537,10.7450000000008,22,122.847836202876,NA,"role_play","MARISHA",1,0,0,0
 "2374","Fall_Conclave",6,82,2374,"second_half_rp","MATT","look, i'm trying to work out you guys do a lot of things really fast. i'm trying, i'm working with you, so please bear with me on this.",13437.692,13447.75,10.0580000000009,32,190.892821634503,NA,"role_play","MATT",0,0,0,1
 "2375","Fall_Conclave",6,82,2375,"second_half_rp","MARISHA","grasping vine! what? what?",13447.75,13451.54,3.79000000000087,5,79.1556728232008,NA,"role_play","MARISHA",1,0,0,0
 "2376","Fall_Conclave",6,82,2376,"second_half_rp","LIAM","you're like a loan officer.",13451.54,13453.192,1.65199999999822,7,254.237288135866,NA,"role_play","LIAM",1,0,0,0
@@ -2481,9 +2481,9 @@
 "2480","Fall_Conclave",6,82,2480,"second_half_rp","MATT","one of these clusters starts making its way upwards towards where the carpet is.",14150.352,14155.278,4.92599999999948,15,182.704019488448,NA,"role_play","MATT",0,0,0,1
 "2481","Fall_Conclave",6,82,2481,"second_half_rp","PATRICK","if i'm steering the carpet, can i dodge away from this? because even if i turn it, they will have velocity.",14155.278,14166.043,10.7649999999994,23,128.193218764522,NA,"role_play","GUESTS",0,1,0,0
 "2482","Fall_Conclave",6,82,2482,"second_half_rp","MATT","correct. you have not driven a magic carpet before. i would ask you to go ahead and, let's see, for this? make an intelligence check.",14166.043,14177.592,11.5490000000009,27,140.271885011679,NA,"role_play","MATT",0,0,0,1
-"2483","Fall_Conclave",6,82,2483,"second_half_rp","PATRICK","jesus is my copilot.",14177.592,14180.416,2.8239999999987,5,106.232294617612,NA,"role_play","GUESTS",0,1,0,0
+"2483","Fall_Conclave",6,82,2483,"second_half_rp","PATRICK","jesus is my copilot.",14177.592,14179.014,1.42199999999866,5,210.97046413522,NA,"role_play","GUESTS",0,1,0,0
 "2484","Fall_Conclave",6,82,2484,"second_half_rp","MATT","go ahead and make an intelligence check, just a straight d20 plus your intelligence modifier.",14180.416,14183.663,3.24700000000121,16,295.657530027608,NA,"role_play","MATT",0,0,0,1
-"2485","Fall_Conclave",6,82,2485,"second_half_rp","PATRICK","the first fucking character i make where i lowball intelligence.",14183.663,14191.893,8.22999999999956,11,80.1944106925923,NA,"role_play","GUESTS",0,1,0,0
+"2485","Fall_Conclave",6,82,2485,"second_half_rp","PATRICK","the first fucking character i make where i lowball intelligence.",14183.663,14189.936,6.27299999999923,11,105.212816834064,NA,"role_play","GUESTS",0,1,0,0
 "2486","Fall_Conclave",6,82,2486,"second_half_rp","PATRICK","oh. that is a just straight?",14191.893,14199.895,8.00200000000041,7,52.4868782804272,NA,"role_play","GUESTS",0,1,0,0
 "2487","Fall_Conclave",6,82,2487,"second_half_rp","MATT","well, plus your modifier, whatever that is.",14199.895,14202.139,2.24399999999878,8,213.903743315625,NA,"role_play","MATT",0,0,0,1
 "2488","Fall_Conclave",6,82,2488,"second_half_rp","PATRICK","wait, my proficiency modifier?",14202.139,14204.562,2.42300000000068,5,123.813454395343,NA,"role_play","GUESTS",0,1,0,0
@@ -2573,7 +2573,7 @@
 "2572","Fall_Conclave",6,82,2572,"second_half_rp","MATT","""yeah, you're right, let's go."" you watch as scanlan and grog turn around and start walking back from where you guys came.",14733.529,14739.247,5.71799999999894,26,272.822665267627,NA,"role_play","MATT",0,0,0,1
 "2573","Fall_Conclave",6,82,2573,"second_half_rp","LIAM","hand around kerrek's neck, pulling him in. thank you. thank you. fucking thank you.",14739.247,14747.458,8.21100000000115,16,116.916331750075,NA,"role_play","LIAM",1,0,0,0
 "2574","Fall_Conclave",6,82,2574,"second_half_rp","PATRICK","that... that... so this is pretty much just a tuesday for you guys, right?",14747.458,14756.667,9.20899999999892,15,97.7304810511571,NA,"role_play","GUESTS",0,1,0,0
-"2575","Fall_Conclave",6,82,2575,"second_half_rp","TALIESIN","it's more of a thursday.",14756.667,14763.634,6.96700000000055,7,60.2841969283718,NA,"role_play","TALIESIN",1,0,0,0
+"2575","Fall_Conclave",6,82,2575,"second_half_rp","TALIESIN","it's more of a thursday.",14756.667,14758.576,1.90899999999965,7,220.010476689406,NA,"role_play","TALIESIN",1,0,0,0
 "2576","Fall_Conclave",6,82,2576,"second_half_rp","LAURA","i give kerr a big hug. thank you. saved the day.",14763.634,14770.352,6.71800000000076,12,107.174754391176,NA,"role_play","LAURA",1,0,0,0
 "2577","Fall_Conclave",6,82,2577,"second_half_rp","MATT","a giant impact, as behind you, another sphere of these corpses slams into the bridge, causing it to snap and go limp against the upper portion of the ravine.",14770.352,14780.952,10.5999999999985,30,169.81132075474,NA,"role_play","MATT",0,0,0,1
 "2578","Fall_Conclave",6,82,2578,"second_half_rp","TALIESIN","well, okay, how are we going to get the last there's still a rope.",14780.952,14783.547,2.59500000000116,16,369.942196531626,NA,"role_play","TALIESIN",1,0,0,0
@@ -2647,12 +2647,12 @@
 "2646","Fall_Conclave",6,82,2646,"second_half_rp","LIAM","she made it one way, she's gotta go back the other way.",15084.032,15087.487,3.45499999999993,14,243.125904486257,NA,"role_play","LIAM",1,0,0,0
 "2647","Fall_Conclave",6,82,2647,"second_half_rp","MATT","keyleth high-fives her from across the ravine.",15087.487,15090.894,3.40700000000106,9,158.497211623079,NA,"role_play","MATT",0,0,0,1
 "2648","Fall_Conclave",6,82,2648,"second_half_rp","MARISHA","high-five, woo!",15090.894,15093.415,2.52100000000064,4,95.2003173343669,NA,"role_play","MARISHA",1,0,0,0
-"2649","Fall_Conclave",6,82,2649,"second_half_rp","LIAM","wait a minute. are you saying this story only exists in our imagination?",15093.415,15099.653,6.23799999999937,14,134.658544405272,NA,"role_play","LIAM",1,0,0,0
+"2649","Fall_Conclave",6,82,2649,"second_half_rp","LIAM","wait a minute. are you saying this story only exists in our imagination?",15093.415,15097.771,4.35599999999977,14,192.837465564749,NA,"role_play","LIAM",1,0,0,0
 "2650","Fall_Conclave",6,82,2650,"second_half_rp","LAURA","hey, grog. do you trust me?",15099.653,15101.9,2.24699999999939,7,186.915887850518,NA,"role_play","LAURA",1,0,0,0
 "2651","Fall_Conclave",6,82,2651,"second_half_rp","TRAVIS","no.",15101.9,15103.258,1.35800000000017,2,88.3652430044069,NA,"role_play","TRAVIS",1,0,0,0
 "2652","Fall_Conclave",6,82,2652,"second_half_rp","LAURA","do you wanna get in this necklace?",15103.258,15105.14,1.88199999999961,8,255.047821466578,NA,"role_play","LAURA",1,0,0,0
 "2653","Fall_Conclave",6,82,2653,"second_half_rp","TRAVIS","sure.",15105.14,15106.027,0.887000000000626,2,135.287485907458,NA,"role_play","TRAVIS",1,0,0,0
-"2654","Fall_Conclave",6,82,2654,"second_half_rp","TALIESIN","he knows! modify memory.",15106.027,15109.366,3.33899999999994,5,89.847259658582,NA,"role_play","TALIESIN",1,0,0,0
+"2654","Fall_Conclave",6,82,2654,"second_half_rp","TALIESIN","he knows! modify memory.",15106.027,15107.802,1.77499999999964,5,169.014084507077,NA,"role_play","TALIESIN",1,0,0,0
 "2655","Fall_Conclave",6,82,2655,"second_half_rp","TALIESIN","back in the matrix.",15109.366,15110.749,1.38299999999981,5,216.919739696342,NA,"role_play","TALIESIN",1,0,0,0
 "2656","Fall_Conclave",6,82,2656,"second_half_rp","LAURA","and then scanlan.",15110.749,15112.555,1.80600000000049,4,132.890365448469,NA,"role_play","LAURA",1,0,0,0
 "2657","Fall_Conclave",6,82,2657,"second_half_rp","MATT","so grog, a familiar sensation. once you're back in that chamber i described to you once before.",15112.555,15118.043,5.48799999999937,19,207.72594752189,NA,"role_play","MATT",0,0,0,1
@@ -2676,7 +2676,7 @@
 "2675","Fall_Conclave",6,82,2675,"second_half_rp","MARISHA","now i give her a high-five.",15240.84,15242.887,2.04700000000048,8,234.489496824566,NA,"role_play","MARISHA",1,0,0,0
 "2676","Fall_Conclave",6,82,2676,"second_half_rp","LAURA","i untie scanlan and pop grog out.",15242.887,15248.457,5.56999999999971,8,86.1759425493761,NA,"role_play","LAURA",1,0,0,0
 "2677","Fall_Conclave",6,82,2677,"second_half_rp","MATT","grog, you're released. trinket comes up to you and starts licking the side of your face.",15248.457,15255.153,6.69599999999991,18,161.290322580647,NA,"role_play","MATT",0,0,0,1
-"2678","Fall_Conclave",6,82,2678,"second_half_rp","TRAVIS","that really seemed very easy. i don't see what the big deal was.",15255.153,15264.047,8.89400000000023,15,101.191814706541,NA,"role_play","TRAVIS",1,0,0,0
+"2678","Fall_Conclave",6,82,2678,"second_half_rp","TRAVIS","that really seemed very easy. i don't see what the big deal was.",15255.153,15261.054,5.90099999999984,15,152.516522623288,NA,"role_play","TRAVIS",1,0,0,0
 "2679","Fall_Conclave",6,82,2679,"second_half_rp","TALIESIN","you want to try again? i know that you're considering it reasonably.",15264.047,15269.227,5.18000000000029,14,162.162162162153,NA,"role_play","TALIESIN",1,0,0,0
 "2680","Fall_Conclave",6,82,2680,"second_half_rp","MARISHA","don't put these ideas in his head.",15269.227,15271.916,2.68899999999849,9,200.818148010526,NA,"role_play","MARISHA",1,0,0,0
 "2681","Fall_Conclave",6,82,2681,"second_half_rp","MATT","so, what are you guys doing?",15271.916,15273.487,1.57099999999991,7,267.345639719938,NA,"role_play","MATT",0,0,0,1
@@ -2770,7 +2770,7 @@
 "2769","Fall_Conclave",6,82,2769,"second_half_rp","TALIESIN","i might run down to grog. do you have a spare jar or jug that i can borrow?",15787.467,15796.865,9.39799999999923,19,121.302404766982,NA,"role_play","TALIESIN",1,0,0,0
 "2770","Fall_Conclave",6,82,2770,"second_half_rp","TRAVIS","i do. what do you want for it?",15796.865,15798.546,1.68100000000049,9,321.237358714956,NA,"role_play","TRAVIS",1,0,0,0
 "2771","Fall_Conclave",6,82,2771,"second_half_rp","TALIESIN","i just want to borrow it for like five minutes, and i'll give it back.",15798.546,15801.157,2.61099999999897,17,390.654921486175,NA,"role_play","TALIESIN",1,0,0,0
-"2772","Fall_Conclave",6,82,2772,"second_half_rp","TRAVIS","what you got for trade?",15801.157,15805.158,4.0010000000002,6,89.9775056235895,NA,"role_play","TRAVIS",1,0,0,0
+"2772","Fall_Conclave",6,82,2772,"second_half_rp","TRAVIS","what you got for trade?",15801.157,15802.578,1.42100000000028,6,253.342716396854,NA,"role_play","TRAVIS",1,0,0,0
 "2773","Fall_Conclave",6,82,2773,"second_half_rp","TALIESIN","i have nothing",15805.158,15812.359,7.20100000000093,3,24.9965282599607,NA,"role_play","TALIESIN",1,0,0,0
 "2774","Fall_Conclave",6,82,2774,"second_half_rp","TRAVIS","is that an ascot you're wearing?",15812.359,15814.136,1.77700000000004,8,270.118176702301,NA,"role_play","TRAVIS",1,0,0,0
 "2775","Fall_Conclave",6,82,2775,"second_half_rp","TALIESIN","yes, it is.",15814.136,15815.685,1.54899999999907,4,154.938670109841,NA,"role_play","TALIESIN",1,0,0,0
@@ -2782,7 +2782,7 @@
 "2781","Fall_Conclave",6,82,2781,"second_half_rp","MARISHA","i can teach you later, grog.",15823.953,15825.671,1.71800000000076,7,244.470314318868,NA,"role_play","MARISHA",1,0,0,0
 "2782","Fall_Conclave",6,82,2782,"second_half_rp","TALIESIN","oh, that alone. that's adorable. i tie a little dickie's first day of school christmas bow. and i take my little pin and i pin it on him.",15825.671,15845.639,19.9679999999989,31,93.1490384615434,NA,"role_play","TALIESIN",1,0,0,0
 "2783","Fall_Conclave",6,82,2783,"second_half_rp","TRAVIS","here's your jug.",15845.639,15846.859,1.22000000000116,5,245.901639344028,NA,"role_play","TRAVIS",1,0,0,0
-"2784","Fall_Conclave",6,82,2784,"second_half_rp","TALIESIN","thank you.",15846.859,15850.418,3.55899999999929,3,50.576004495655,NA,"role_play","TALIESIN",1,0,0,0
+"2784","Fall_Conclave",6,82,2784,"second_half_rp","TALIESIN","thank you.",15846.859,15847.981,1.12199999999939,3,160.427807486718,NA,"role_play","TALIESIN",1,0,0,0
 "2785","Fall_Conclave",6,82,2785,"second_half_rp","TALIESIN","and i go walking back up. i have a theory that maybe if we cover the green gem, that might do a thing, so if we start to cross and everything goes weird, i'm going to cover the green gem.",15850.418,15862.551,12.1329999999998,42,207.698013681698,NA,"role_play","TALIESIN",1,0,0,0
 "2786","Fall_Conclave",6,82,2786,"second_half_rp","LIAM","hey, for science.",15862.551,15863.579,1.02800000000025,4,233.463035019399,NA,"role_play","LIAM",1,0,0,0
 "2787","Fall_Conclave",6,82,2787,"second_half_rp","TALIESIN","for science. but let's try and leave this room without doing anything, maybe.",15863.579,15867.379,3.80000000000109,15,236.84210526309,NA,"role_play","TALIESIN",1,0,0,0
@@ -2883,24 +2883,24 @@
 "2882","Fall_Conclave",6,82,2882,"second_half_rp","MARISHA","she rolled good.",16329.61,16331.591,1.98099999999977,4,121.150933871796,NA,"role_play","MARISHA",1,0,0,0
 "2883","Fall_Conclave",6,82,2883,"second_half_rp","MATT","she takes a moment, kind of steps forward and looks at it. ""let me see one of your jugs.""",16331.591,16340.985,9.39400000000023,20,127.741111347666,NA,"role_play","MATT",0,0,0,1
 "2884","Fall_Conclave",6,82,2884,"second_half_rp","TRAVIS","yeah, okay. what do you want for it?",16340.985,16343.361,2.3760000000002,9,227.272727272708,NA,"role_play","TRAVIS",1,0,0,0
-"2885","Fall_Conclave",6,82,2885,"second_half_rp","TALIESIN","i hand her my jug.",16343.361,16346.865,3.503999999999,6,102.739726027427,NA,"role_play","TALIESIN",1,0,0,0
+"2885","Fall_Conclave",6,82,2885,"second_half_rp","TALIESIN","i hand her my jug.",16343.361,16344.636,1.27499999999964,6,282.352941176551,NA,"role_play","TALIESIN",1,0,0,0
 "2886","Fall_Conclave",6,82,2886,"second_half_rp","MATT","she takes it, sets the jug right in the stream, and releases it, and the jug sucks up and essentially covers the gem, and the water just kinda spills across the sides.",16346.865,16367.623,20.7579999999998,33,95.3849118412187,NA,"role_play","MATT",0,0,0,1
 "2887","Fall_Conclave",6,82,2887,"second_half_rp","MARISHA","and then what?",16367.623,16369.267,1.64400000000023,4,145.985401459833,NA,"role_play","MARISHA",1,0,0,0
 "2888","Fall_Conclave",6,82,2888,"second_half_rp","MATT","""huh. my theory was wrong.""",16369.267,16374.378,5.11100000000079,7,82.175699471715,NA,"role_play","MATT",0,0,0,1
 "2889","Fall_Conclave",6,82,2889,"second_half_rp","MARISHA","what? hang on, what was your theory? maybe we can do process of elimination.",16374.378,16381.076,6.6979999999985,15,134.368468199493,NA,"role_play","MARISHA",1,0,0,0
-"2890","Fall_Conclave",6,82,2890,"second_half_rp","MATT","""well, i was trying to"" and you hear in the distance, behind where you guys came from.",16381.076,16386.218,5.14200000000164,19,221.703617269474,NA,"role_play","MATT",0,0,0,1
+"2890","Fall_Conclave",6,82,2890,"second_half_rp","MATT","""well, i was trying to"" and you hear in the distance, behind where you guys came from .",16381.076,16386.218,5.14200000000164,19,221.703617269474,NA,"role_play","MATT",0,0,0,1
 "2891","Fall_Conclave",6,82,2891,"second_half_rp","TALIESIN","i'm moving right now.",16386.218,16388.142,1.92399999999907,6,187.110187110278,NA,"role_play","TALIESIN",1,0,0,0
 "2892","Fall_Conclave",6,82,2892,"second_half_rp","MATT","what sounds like many, many, many things falling, cracking, impacting.",16388.142,16396.845,8.70300000000134,11,75.8359186487302,NA,"role_play","MATT",0,0,0,1
 "2893","Fall_Conclave",6,82,2893,"second_half_rp","MARISHA","hey, allura, good theory. let's run. let's run.",16396.845,16400.101,3.25599999999758,11,202.702702702853,NA,"role_play","MARISHA",1,0,0,0
 "2894","Fall_Conclave",6,82,2894,"second_half_rp","TRAVIS","we are running towards vax and vex.",16400.101,16401.848,1.74700000000303,8,274.756725815208,NA,"role_play","TRAVIS",1,0,0,0
 "2895","Fall_Conclave",6,82,2895,"second_half_rp","PATRICK","it just reversed the gravity in the ravine.",16401.848,16406.771,4.92299999999886,9,109.689213893992,NA,"role_play","GUESTS",0,1,0,0
 "2896","Fall_Conclave",6,82,2896,"second_half_rp","MATT","which, as kerrek says this and you all look back, you watch as hundreds and hundreds and hundreds and hundreds of bodies are now tumbling back down into the ravine below from where they came.",16406.772,16419.871,13.0989999999983,36,164.898083823213,NA,"role_play","MATT",0,0,0,1
-"2897","Fall_Conclave",6,82,2897,"second_half_rp","LIAM","turn down for what!",16419.871,16425.979,6.10800000000017,5,49.1159135559907,NA,"role_play","LIAM",1,0,0,0
+"2897","Fall_Conclave",6,82,2897,"second_half_rp","LIAM","turn down for what!",16419.871,16422.034,2.16300000000047,5,138.69625520108,NA,"role_play","LIAM",1,0,0,0
 "2898","Fall_Conclave",6,82,2898,"second_half_rp","TRAVIS","that was so white. that was amazing.",16425.979,16430.107,4.12800000000061,8,116.279069767425,NA,"role_play","TRAVIS",1,0,0,0
 "2899","Fall_Conclave",6,82,2899,"second_half_rp","TALIESIN","we can make it whiter.",16430.107,16431.687,1.58000000000175,6,227.848101265571,NA,"role_play","TALIESIN",1,0,0,0
 "2900","Fall_Conclave",6,82,2900,"second_half_rp","TRAVIS","so white.",16431.687,16433.009,1.32199999999648,3,136.157337367988,NA,"role_play","TRAVIS",1,0,0,0
 "2901","Fall_Conclave",6,82,2901,"second_half_rp","MATT","don't make this any whiter, please.",16433.009,16434.706,1.69700000000012,8,282.85209192691,NA,"role_play","MATT",0,0,0,1
-"2902","Fall_Conclave",6,82,2902,"second_half_rp","LIAM","guilty.",16434.706,16437.65,2.94400000000314,2,40.7608695651739,NA,"role_play","LIAM",1,0,0,0
+"2902","Fall_Conclave",6,82,2902,"second_half_rp","LIAM","guilty.",16434.706,16435.894,1.18800000000192,2,101.010101009938,NA,"role_play","LIAM",1,0,0,0
 "2903","Fall_Conclave",6,82,2903,"second_half_rp","TRAVIS","piano riff!",16437.65,16447.117,9.46699999999691,3,19.0134150206041,NA,"role_play","TRAVIS",1,0,0,0
 "2904","Fall_Conclave",6,82,2904,"second_half_rp","TALIESIN","i may play dungeons and dragons on the internet, but now i'm embarrassed.",16447.117,16451.182,4.06500000000233,15,221.402214022013,NA,"role_play","TALIESIN",1,0,0,0
 "2905","Fall_Conclave",6,82,2905,"second_half_rp","MATT","the water's still going up, and it's still careening and falling through the cracks. it's not a very strong stream, it's just this like a small faucet turned on, it's all just trickling upwards, appearing, but that gem being currently blocked seems to have had an effect on the room behind.",16451.183,16470.952,19.7690000000002,57,172.99812838282,NA,"role_play","MATT",0,0,0,1
@@ -2935,7 +2935,7 @@
 "2934","Fall_Conclave",6,82,2934,"epilog","MARISHA","and, as always, don't forget to tune in for talks machina on tuesday night with brian foster. i'm sure he's going to have at least two of us.",16717.519,16732.32,14.8009999999995,32,129.72096479968,NA,NA,"MARISHA",1,0,0,0
 "2935","Fall_Conclave",6,82,2935,"epilog","MATT","that will be announced as the week progresses.",16732.32,16739.568,7.24799999999959,9,74.5033112582823,NA,NA,"MATT",0,0,0,1
 "2936","Fall_Conclave",6,82,2936,"epilog","MARISHA","throughout the week, i'm sure, he will announce two of us.",16739.568,16744.169,4.60100000000239,13,169.528363399173,NA,NA,"MARISHA",1,0,0,0
-"2937","Fall_Conclave",6,82,2937,"epilog","MATT","also, as a heads-up, guys, once again, big thank you to loot crate for being our fantastic sponsor starting in the new year. they were awesome enough to let us tonight be the first to announce their february theme, as their previous theme ended. the theme is 'build' for this one, and the brands that are included in that include power rangers, batman, lego, tetris, things that involve building, construct, that type of a feel, so more information will be coming out with that, but 'build' is the next theme. check out lootcrate.com for the full reveal of everything they're gonna have in there, and don't forget to use the promo code 'criticalrole', one word, for the discount when you sign up.",16744.169,16783.554,39.3849999999984,127,193.474673098903,NA,NA,"MATT",0,0,0,1
+"2937","Fall_Conclave",6,82,2937,"epilog","MATT","also, as a heads-up, guys, once again, big thank you to loot crate for being our fantastic sponsor starting in the new year. they were awesome enough to let us tonight be the first to announce their february theme, as their previous theme ended. the theme is 'build' for this one, and the brands that are included in that include power rangers, batman, lego, tetris, things that involve building, construct, that type of a feel, so more information will be coming out with that, but 'build' is the next theme. check out lootcrate.com for the full reveal of everything they're gonna have in there, and don't forget to use the promo code 'criticalrole', one word, for the discount when you sign up.",16744.169,16781.799,37.6299999999974,127,202.498006909395,NA,NA,"MATT",0,0,0,1
 "2938","Fall_Conclave",6,82,2938,"epilog","MARISHA","i hope they got those tetris stickers again that they had a year ago, those tetris stickers were dope.",16783.554,16788.231,4.67699999999968,20,256.57472738937,NA,NA,"MARISHA",1,0,0,0
 "2939","Fall_Conclave",6,82,2939,"epilog","MATT","we'll see what they got. thank you guys so much, rest well, you guys as well. we'll see you next week, and is it thursday yet? have a good night!",16788.231,16796.088,7.85699999999997,33,252.00458190149,NA,NA,"MATT",0,0,0,1
 "2940","Fall_Conclave",6,82,2940,NA,"TRAVIS","nice one! [no audio] [end of transcript] na na na",NA,NA,NA,10,NA,NA,"role_play","TRAVIS",1,0,0,0

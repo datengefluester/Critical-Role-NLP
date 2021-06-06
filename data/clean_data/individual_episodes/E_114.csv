@@ -106,12 +106,12 @@
 "105","End",8,114,105,"first_half_rp","SAM","oh man, he looks so cool.",1257.399,1260.075,2.67600000000016,7,156.950672645731,NA,"role_play","SAM",1,0,0,0
 "106","End",8,114,106,"first_half_rp","LAURA","did you do this, matthew? you made this, didn't you? you painted it?",1260.075,1265.994,5.91899999999987,15,152.052711606694,NA,"role_play","LAURA",1,0,0,0
 "107","End",8,114,107,"first_half_rp","MATT","well, i had friends help me, because i've been planning a wedding.",1265.994,1269.408,3.41399999999999,14,246.045694200352,NA,"role_play","MATT",0,0,0,1
-"108","End",8,114,108,"first_half_rp","LIAM","before he started, that was optimus prime.",1269.408,1273.541,4.13300000000004,8,116.138398257923,NA,"role_play","LIAM",1,0,0,0
+"108","End",8,114,108,"first_half_rp","LIAM","before he started, that was optimus prime.",1269.408,1271.919,2.51100000000019,8,191.158900836305,NA,"role_play","LIAM",1,0,0,0
 "109","End",8,114,109,"first_half_rp","MATT","that was actually converted from my critter gift a while back.",1273.541,1277.053,3.51200000000017,12,205.01138952163,NA,"role_play","MATT",0,0,0,1
 "110","End",8,114,110,"first_half_rp","LAURA","really?",1277.053,1278.09,1.03699999999981,2,115.718418514968,NA,"role_play","LAURA",1,0,0,0
 "111","End",8,114,111,"first_half_rp","MATT","yeah. so even the community helped. so to give you some perspective in size to his newly ascended avatar form, all of his power focused into a single, physical entity, that is the vecna produced since the ritual of seeding.",1278.09,1292.179,14.0890000000002,41,174.604301227906,NA,"role_play","MATT",0,0,0,1
 "112","End",8,114,112,"first_half_rp","TRAVIS","shit.",1292.179,1293.921,1.74199999999996,2,68.8863375430555,NA,"role_play","TRAVIS",1,0,0,0
-"113","End",8,114,113,"combat","MATT","i would like you all to roll initiative.",1294.007,1298.599,4.59199999999987,9,117.595818815334,1,"combat","MATT",0,0,0,1
+"113","End",8,114,113,"combat","MATT","i would like you all to roll initiative.",1294.007,1295.682,1.67499999999995,9,322.388059701501,1,"combat","MATT",0,0,0,1
 "114","End",8,114,114,"combat","ASHLEY","holy crap.",1298.599,1300.274,1.67499999999995,3,107.462686567167,1,"combat","ASHLEY",1,0,0,0
 "115","End",8,114,115,"combat","TRAVIS","let's do this. here we go.",1300.274,1302.034,1.76000000000022,8,272.727272727239,1,"combat","TRAVIS",1,0,0,0
 "116","End",8,114,116,"combat","SAM","can i inspire myself for this roll?",1302.034,1303.842,1.80799999999999,8,265.486725663718,1,"combat","SAM",1,0,0,0
@@ -134,7 +134,7 @@
 "133","End",8,114,133,"combat","MATT","ten to five?",1359.76,1361.372,1.61200000000008,4,148.883374689819,1,"combat","MATT",0,0,0,1
 "134","End",8,114,134,"combat","SAM","eight.",1361.372,1362.699,1.327,2,90.4295403165035,1,"combat","SAM",1,0,0,0
 "135","End",8,114,135,"combat","LAURA","ashley, what did you roll?",1362.699,1364.902,2.20299999999997,6,163.413527008626,1,"combat","LAURA",1,0,0,0
-"136","End",8,114,136,"combat","ASHLEY","two!",1364.902,1368.774,3.87199999999984,2,30.9917355371913,1,"combat","ASHLEY",1,0,0,0
+"136","End",8,114,136,"combat","ASHLEY","two!",1364.902,1366.248,1.346,2,89.1530460624069,1,"combat","ASHLEY",1,0,0,0
 "137","End",8,114,137,"combat","LIAM","it's like a chime.",1368.774,1370.435,1.66100000000006,6,216.73690547862,1,"combat","LIAM",1,0,0,0
 "138","End",8,114,138,"combat","ASHLEY","off to a good start.",1370.435,1372.429,1.99400000000014,6,180.541624874611,1,"combat","ASHLEY",1,0,0,0
 "139","End",8,114,139,"combat","SAM","unless i can inspire myself.",1372.429,1374.066,1.63699999999994,6,219.914477703123,1,"combat","SAM",1,0,0,0
@@ -275,7 +275,7 @@
 "274","End",8,114,274,"combat","MATT","no, he's immune to prone.",1849.692,1852.153,2.46100000000001,7,170.662332385208,1,"combat","MATT",0,0,0,1
 "275","End",8,114,275,"combat","LAURA","of course he is.",1852.153,1853.46,1.30700000000002,5,229.533282325934,1,"combat","LAURA",1,0,0,0
 "276","End",8,114,276,"combat","TRAVIS","he's immune to prone?",1853.46,1855.726,2.26600000000008,6,158.870255957629,1,"combat","TRAVIS",1,0,0,0
-"277","End",8,114,277,"combat","SAM","how does he make love?",1855.726,1861.613,5.88699999999994,6,61.1516901647704,1,"combat","SAM",1,0,0,0
+"277","End",8,114,277,"combat","SAM","how does he make love?",1855.726,1857.456,1.72999999999979,6,208.092485549158,1,"combat","SAM",1,0,0,0
 "278","End",8,114,278,"combat","TRAVIS","you went there, that fast.",1861.613,1863.536,1.923,6,187.207488299532,1,"combat","TRAVIS",1,0,0,0
 "279","End",8,114,279,"combat","LIAM","he's so happy though, now that his hand is back. let me tell you.",1863.536,1866.001,2.46499999999992,16,389.452332657214,1,"combat","LIAM",1,0,0,0
 "280","End",8,114,280,"combat","LAURA","it's only up against a wall, for vecna.",1866.001,1871.701,5.70000000000005,10,105.263157894736,1,"combat","LAURA",1,0,0,0
@@ -302,7 +302,7 @@
 "301","End",8,114,301,"combat","SAM","okay, 16.",1957.518,1958.924,1.40599999999995,3,128.022759601712,1,"combat","SAM",1,0,0,0
 "302","End",8,114,302,"combat","MARISHA","yeah, the whip is down.",1958.924,1960.277,1.35300000000007,6,266.075388026595,1,"combat","MARISHA",1,0,0,0
 "303","End",8,114,303,"combat","TALIESIN","you should've sent the guy in the hallway in first, maybe.",1960.277,1966.018,5.74099999999999,13,135.864831910817,1,"combat","TALIESIN",1,0,0,0
-"304","End",8,114,304,"combat","MARISHA","i love that from his perspective, you were like, ""if the whip hits the floor, come after us.""",1966.018,1973.46,7.44200000000001,19,153.184627788229,1,"combat","MARISHA",1,0,0,0
+"304","End",8,114,304,"combat","MARISHA","i love that from his perspective, you were like, ""if the whip hits the floor, come after us.""",1966.018,1970.817,4.79899999999998,19,237.549489476975,1,"combat","MARISHA",1,0,0,0
 "305","End",8,114,305,"combat","MATT","also, did you roll 4d6 damage?",1973.46,1976.225,2.76499999999987,7,151.898734177222,1,"combat","MATT",0,0,0,1
 "306","End",8,114,306,"combat","LAURA","yes i did.",1976.225,1977.645,1.42000000000007,4,169.014084507034,1,"combat","LAURA",1,0,0,0
 "307","End",8,114,307,"combat","MATT","how much was it?",1977.645,1978.533,0.88799999999992,5,337.837837837868,1,"combat","MATT",0,0,0,1
@@ -625,7 +625,7 @@
 "624","End",8,114,624,"combat","MATT","okay, go ahead and roll. oh, at 8th-level, it means that it nullifies the spell. he was dispelling at 6th-level.",3563.49,3572.901,9.41100000000006,23,146.636914249282,1,"combat","MATT",0,0,0,1
 "625","End",8,114,625,"combat","LAURA","yay!",3572.901,3574.216,1.31500000000005,2,91.2547528517072,1,"combat","LAURA",1,0,0,0
 "626","End",8,114,626,"combat","LIAM","fuck you, vecna!",3574.216,3575.676,1.46000000000004,4,164.383561643832,1,"combat","LIAM",1,0,0,0
-"627","End",8,114,627,"combat","SAM","scanlan will say: ooh! look what you made me do. you made me screw up you. you made me screw up you and now you have to do brand new.",3575.676,3595.835,20.1590000000001,31,92.2664814722948,1,"combat","SAM",1,0,0,0
+"627","End",8,114,627,"combat","SAM","scanlan will say: ooh! look what you made me do. you made me screw up you. you made me screw up you and now you have to do brand new.",3575.676,3589.647,13.971,31,133.132918187674,1,"combat","SAM",1,0,0,0
 "628","End",8,114,628,"combat","MATT","you watch the undying king in his magnificent, horrible form lean forward, going, ""what? ugh."" prepares for whatever he has coming up next.",3595.835,3610.285,14.4499999999998,24,99.6539792387556,1,"combat","MATT",0,0,0,1
 "629","End",8,114,629,"combat","SAM","i'm sure it's going to be not good.",3610.285,3612.218,1.93299999999999,11,341.43817899638,1,"combat","SAM",1,0,0,0
 "630","End",8,114,630,"combat","MATT","that's the end of that. keyleth, you're up.",3612.218,3615.216,2.99800000000005,11,220.14676450967,1,"combat","MATT",0,0,0,1
@@ -663,7 +663,7 @@
 "662","End",8,114,662,"combat","MARISHA","i really hope i didn't kill another kid.",3786.254,3789.624,3.36999999999989,10,178.041543026712,1,"combat","MARISHA",1,0,0,0
 "663","End",8,114,663,"combat","LAURA","hope you didn't kill our sister.",3789.624,3792.085,2.46100000000024,8,195.042665583077,1,"combat","LAURA",1,0,0,0
 "664","End",8,114,664,"combat","TRAVIS","people never change, keyleth.",3792.085,3798.377,6.29199999999992,5,47.6795931341392,1,"combat","TRAVIS",1,0,0,0
-"665","End",8,114,665,"combat","MARISHA","fuck you.",3798.377,3803.884,5.50700000000006,3,32.6856727800977,1,"combat","MARISHA",1,0,0,0
+"665","End",8,114,665,"combat","MARISHA","fuck you.",3798.377,3800.088,1.71100000000024,3,105.201636469886,1,"combat","MARISHA",1,0,0,0
 "666","End",8,114,666,"combat","LIAM","she's off the side, yeah?",3803.884,3805.97,2.08599999999979,7,201.342281879215,1,"combat","LIAM",1,0,0,0
 "667","End",8,114,667,"combat","MATT","she's plummeting through this crack. straight down.",3805.97,3808.655,2.6850000000004,9,201.117318435724,1,"combat","MATT",0,0,0,1
 "668","End",8,114,668,"combat","TRAVIS","hey man, at least you hit him.",3808.655,3812.901,4.24599999999964,8,113.04757418748,1,"combat","TRAVIS",1,0,0,0
@@ -738,7 +738,7 @@
 "737","End",8,114,737,"combat","MATT","that hits.",4236.463,4237.515,1.05200000000059,3,171.102661596862,1,"combat","MATT",0,0,0,1
 "738","End",8,114,738,"combat","MARISHA","just on the cusp.",4237.515,4239.302,1.78699999999935,5,167.8791270286,1,"combat","MARISHA",1,0,0,0
 "739","End",8,114,739,"combat","TALIESIN","just on the cusp. so that's my 1d10 plus my 1d6 plus my other 1d6. is that right? yeah. that's 15, 22 points of damage plus five points of psychic damage and two points of necrotic damage.",4239.302,4261.652,22.3500000000004,40,107.382550335569,1,"combat","TALIESIN",1,0,0,0
-"740","End",8,114,740,"combat","SAM","how do you want to do this?",4261.652,4268.792,7.14000000000033,8,67.2268907562994,1,"combat","SAM",1,0,0,0
+"740","End",8,114,740,"combat","SAM","how do you want to do this?",4261.652,4266.745,5.09299999999985,8,94.2470056940928,1,"combat","SAM",1,0,0,0
 "741","End",8,114,741,"combat","MATT","that is a 22. so this final shot hits him and he barely feels an impact and grins down at you as a baneful gaze curling across the floor. he's now aware of your presence.",4268.792,4286.276,17.4839999999995,37,126.973232669873,1,"combat","MATT",0,0,0,1
 "742","End",8,114,742,"combat","LAURA","did he take a concentration?",4286.276,4288.678,2.40200000000004,6,149.875104079931,1,"combat","LAURA",1,0,0,0
 "743","End",8,114,743,"combat","MATT","he did. he succeeded.",4288.678,4290.185,1.50700000000052,5,199.071001990642,1,"combat","MATT",0,0,0,1
@@ -752,7 +752,7 @@
 "751","End",8,114,751,"combat","TRAVIS","eight.",4341.858,4343.063,1.20499999999993,2,99.5850622406699,1,"combat","TRAVIS",1,0,0,0
 "752","End",8,114,752,"combat","SAM","okay.",4343.063,4344.28,1.21699999999964,2,98.6031224322392,1,"combat","SAM",1,0,0,0
 "753","End",8,114,753,"combat","TRAVIS","sorry.",4344.28,4345.906,1.6260000000002,2,73.8007380073708,1,"combat","TRAVIS",1,0,0,0
-"754","End",8,114,754,"combat","LAURA","you're just repeating everything matt says.",4345.906,4352.636,6.73000000000047,8,71.3224368499207,1,"combat","LAURA",1,0,0,0
+"754","End",8,114,754,"combat","LAURA","you're just repeating everything matt says.",4345.906,4348.737,2.83100000000013,8,169.551395266682,1,"combat","LAURA",1,0,0,0
 "755","End",8,114,755,"combat","SAM","i don't know. i have no good options. nothing. of course i can save myself, but i'm trying to do more than just save myself.",4352.636,4360.346,7.70999999999913,28,217.89883268485,1,"combat","SAM",1,0,0,0
 "756","End",8,114,756,"combat","TRAVIS","so noble.",4360.346,4361.599,1.25300000000061,3,143.65522745404,1,"combat","TRAVIS",1,0,0,0
 "757","End",8,114,757,"combat","MARISHA","you have to save yourself so you can help us!",4361.599,4365.538,3.9389999999994,11,167.555217060193,1,"combat","MARISHA",1,0,0,0
@@ -788,7 +788,7 @@
 "787","End",8,114,787,"combat","MATT","you could try. bigby's hand is pulled back currently, being controlled by the other scanlan. you could try and leap into it.",4549.835,4556.027,6.19200000000001,24,232.558139534883,1,"combat","MATT",0,0,0,1
 "788","End",8,114,788,"combat","SAM","would i go out of melee range of this guy? would he get an attack of opportunity?",4556.027,4561.326,5.29899999999998,18,203.812040007549,1,"combat","SAM",1,0,0,0
 "789","End",8,114,789,"combat","MATT","no. because both you and bigby's hand are technically right up against him.",4561.326,4563.992,2.66600000000017,15,337.584396099004,1,"combat","MATT",0,0,0,1
-"790","End",8,114,790,"combat","SAM","okay. i'll grab that thumb instead.",4563.992,4567.96,3.96799999999985,8,120.967741935489,1,"combat","SAM",1,0,0,0
+"790","End",8,114,790,"combat","SAM","okay. i'll grab that thumb instead.",4563.992,4566.574,2.58199999999943,8,185.902401239391,1,"combat","SAM",1,0,0,0
 "791","End",8,114,791,"combat","MATT","so you're still holding on to him or sam; i'm going to see if i can hold onto both.",4567.96,4574.229,6.26900000000023,22,210.559897910345,1,"combat","MATT",0,0,0,1
 "792","End",8,114,792,"combat","MATT","you reach out and you grab onto the edge of the other bigby's hand.",4574.229,4578.073,3.84400000000005,16,249.739854318415,1,"combat","MATT",0,0,0,1
 "793","End",8,114,793,"combat","SAM","yeah, i'm good.",4578.073,4579.393,1.31999999999971,5,227.272727272777,1,"combat","SAM",1,0,0,0
@@ -862,7 +862,7 @@
 "861","End",8,114,861,"combat","MATT","vecna, looking at the field around. you can hear now, the distant blasts and impacts of the battle below in vasselheim. you see this giant looming shadow as one of the large mountain-sized arms of the titan swings in the air and causes this brief eclipse over and then slams down into the center of the city. you see dust, rock, and probably a dozen bodies flung in the air from the impact as they drift out of sight below.",4878.805,4914.362,35.5569999999998,82,138.369378743989,1,"combat","MATT",0,0,0,1
 "862","End",8,114,862,"combat","SAM","they're okay. they're okay.",4914.362,4917.299,2.9369999999999,7,143.003064351384,1,"combat","SAM",1,0,0,0
 "863","End",8,114,863,"combat","TRAVIS","yeah, they got bounce houses. it's just out. there was a festival going on.",4917.299,4920.218,2.91899999999987,16,328.8797533402,1,"combat","TRAVIS",1,0,0,0
-"864","End",8,114,864,"combat","SAM","it was the yearly bounce house festival.",4920.253,4924.182,3.92900000000009,8,122.168490710102,1,"combat","SAM",1,0,0,0
+"864","End",8,114,864,"combat","SAM","it was the yearly bounce house festival.",4920.253,4922.408,2.15500000000065,8,222.737819025454,1,"combat","SAM",1,0,0,0
 "865","End",8,114,865,"combat","TRAVIS","it's all good.",4924.182,4925.496,1.31400000000031,5,228.310502283052,1,"combat","TRAVIS",1,0,0,0
 "866","End",8,114,866,"combat","MARISHA","that's so horrible.",4925.496,4926.926,1.43000000000029,5,209.790209790167,1,"combat","MARISHA",1,0,0,0
 "867","End",8,114,867,"combat","MATT","glancing at this, he starts chuckling to himself as the small gnome is crawling across the body and reaching out to the hand. ""i do wish most of these creatures would find their way straight ""to me. it's so much easier.""",4926.926,4942.276,15.3499999999995,43,168.078175895771,1,"combat","MATT",0,0,0,1
@@ -898,7 +898,7 @@
 "897","End",8,114,897,"combat","MARISHA","intelligence save. if he fails the",5047.001,5057.652,10.6509999999998,6,33.7996432259887,1,"combat","MARISHA",1,0,0,0
 "898","End",8,114,898,"combat","MATT","i need you to roll your spellcasting ability. so roll and add your charisma bonus.",5057.652,5062.979,5.32700000000023,16,180.214004129897,1,"combat","MATT",0,0,0,1
 "899","End",8,114,899,"combat","SAM","22.",5062.979,5064.51,1.53099999999995,2,78.3801436969327,1,"combat","SAM",1,0,0,0
-"900","End",8,114,900,"combat","MATT","22. that'll be enough.",5064.51,5068.344,3.83399999999983,6,93.8967136150276,1,"combat","MATT",0,0,0,1
+"900","End",8,114,900,"combat","MATT","22. that'll be enough.",5064.51,5066.082,1.57200000000012,6,229.007633587769,1,"combat","MATT",0,0,0,1
 "901","End",8,114,901,"combat","TRAVIS","oh my god!",5068.344,5070.34,1.99600000000009,4,120.240480961918,1,"combat","TRAVIS",1,0,0,0
 "902","End",8,114,902,"combat","MARISHA","i am not a vegetable.",5070.34,5074.257,3.91699999999946,6,91.9070717385881,1,"combat","MARISHA",1,0,0,0
 "903","End",8,114,903,"combat","TALIESIN","no. you aren't.",5074.257,5076.929,2.67200000000048,5,112.275449101776,1,"combat","TALIESIN",1,0,0,0
@@ -913,7 +913,7 @@
 "912","End",8,114,912,"combat","MATT","he's glaring at you. and with that, ""come for a ride with me,"" and begins to rise up even higher into the air.",5116.412,5126.787,10.375,25,144.578313253012,1,"combat","MATT",0,0,0,1
 "913","End",8,114,913,"combat","SAM","can i hold onto bigby? i wish to let him leave while i hold onto bigby.",5126.787,5134.835,8.04799999999977,17,126.739562624258,1,"combat","SAM",1,0,0,0
 "914","End",8,114,914,"combat","MATT","okay.",5134.835,5137.975,3.14000000000033,2,38.2165605095502,1,"combat","MATT",0,0,0,1
-"915","End",8,114,915,"combat","SAM","and get my attack of opportunity.",5137.975,5145.211,7.23599999999988,7,58.0431177446113,1,"combat","SAM",1,0,0,0
+"915","End",8,114,915,"combat","SAM","and get my attack of opportunity.",5137.975,5141.772,3.79699999999957,7,110.613642349236,1,"combat","SAM",1,0,0,0
 "916","End",8,114,916,"combat","MARISHA","war caster. come on.",5145.211,5149.334,4.12299999999959,5,72.7625515401479,1,"combat","MARISHA",1,0,0,0
 "917","End",8,114,917,"combat","MATT","go for it.",5149.334,5150.802,1.46799999999985,4,163.487738419636,1,"combat","MATT",0,0,0,1
 "918","End",8,114,918,"combat","ASHLEY","come on.",5150.802,5151.916,1.11400000000049,3,161.579892280001,1,"combat","ASHLEY",1,0,0,0
@@ -937,7 +937,7 @@
 "936","End",8,114,936,"combat","MATT","it's an action to do it.",5216.204,5223.043,6.83899999999994,8,70.1856996636941,1,"combat","MATT",0,0,0,1
 "937","End",8,114,937,"combat","SAM","this is only a reaction?",5223.043,5224.551,1.50800000000072,6,238.726790450814,1,"combat","SAM",1,0,0,0
 "938","End",8,114,938,"combat","MATT","correct.",5224.551,5225.415,0.863999999999578,2,138.888888888957,1,"combat","MATT",0,0,0,1
-"939","End",8,114,939,"combat","SAM","so a single attack. then i will use my war caster ability to cast bigby's hand at level six and i will say, you leave when burt reynolds says you can motherfucking leave.",5225.415,5243.655,18.2399999999998,35,115.13157894737,1,"combat","SAM",1,0,0,0
+"939","End",8,114,939,"combat","SAM","so a single attack. then i will use my war caster ability to cast bigby's hand at level six and i will say, you leave when burt reynolds says you can motherfucking leave.",5225.415,5238.097,12.6819999999998,35,165.589023813281,1,"combat","SAM",1,0,0,0
 "940","End",8,114,940,"combat","MATT","since i don't have a second bigby's hand, i'll go ahead and put this as scanlan two's bigby hand with you and where do you want to place this one?",5243.655,5251.015,7.36000000000058,35,285.326086956499,1,"combat","MATT",0,0,0,1
 "941","End",8,114,941,"combat","SAM","right on his fucking head.",5251.015,5253.533,2.51800000000003,6,142.970611596504,1,"combat","SAM",1,0,0,0
 "942","End",8,114,942,"combat","MATT","there you go. there is the bigby's hand.",5253.533,5258.274,4.74099999999999,10,126.555578991774,1,"combat","MATT",0,0,0,1
@@ -966,7 +966,7 @@
 "965","End",8,114,965,"combat","TRAVIS","okay. pike! scanlan! okay, okay, okay. this happened before, right? i should be smart. i'm going to take out the cask of ale and pour a little ale into a tankard and i'm going to use the amulet of the drunkard to heal 2d4 plus two.",5349.868,5377.05,27.1819999999998,49,108.159811640057,1,"combat","TRAVIS",1,0,0,0
 "966","End",8,114,966,"combat","SAM","that's smart.",5377.05,5378.595,1.54500000000007,4,155.339805825235,1,"combat","SAM",1,0,0,0
 "967","End",8,114,967,"combat","TRAVIS","i have two actions.",5378.595,5380.119,1.52399999999943,5,196.850393700861,1,"combat","TRAVIS",1,0,0,0
-"968","End",8,114,968,"combat","SAM","and then spend the rest of my turn eating mayonnaise.",5380.119,5383.54,3.42100000000028,11,192.926045016062,1,"combat","SAM",1,0,0,0
+"968","End",8,114,968,"combat","SAM","and then spend the rest of my turn eating mayonnaise.",5380.119,5382.108,1.98900000000049,11,331.825037707309,1,"combat","SAM",1,0,0,0
 "969","End",8,114,969,"combat","TRAVIS","three. seven so i heal nine points. and then with my second action, my second hasted action, i'm going to use my second wind to heal 1d10 plus my fighter level. ten! plus three is 13. so i heal 13 more points.",5383.54,5402.119,18.5789999999997,44,142.095914742453,1,"combat","TRAVIS",1,0,0,0
 "970","End",8,114,970,"combat","MATT","there you go.",5402.119,5403.443,1.32400000000052,4,181.268882175155,1,"combat","MATT",0,0,0,1
 "971","End",8,114,971,"combat","TRAVIS","and that will end. and i will sit the rest of the ale and wait for something. keeping my mind on a small leather pouch in my bag.",5403.443,5414.866,11.4229999999998,29,152.324258075815,1,"combat","TRAVIS",1,0,0,0
@@ -1394,7 +1394,7 @@
 "1393","End",8,114,1393,"combat","ASHLEY","a natural 20.",7115.264,7116.866,1.60199999999986,4,149.81273408241,1,"combat","ASHLEY",1,0,0,0
 "1394","End",8,114,1394,"combat","TRAVIS","did you really?!",7116.866,7118.903,2.03700000000026,4,117.820324005876,1,"combat","TRAVIS",1,0,0,0
 "1395","End",8,114,1395,"combat","TALIESIN","you got one!",7118.903,7120.768,1.86499999999978,4,128.686327077763,1,"combat","TALIESIN",1,0,0,0
-"1396","End",8,114,1396,"combat","ASHLEY","i fucking did.",7120.768,7125.962,5.19400000000041,4,46.2071621101234,1,"combat","ASHLEY",1,0,0,0
+"1396","End",8,114,1396,"combat","ASHLEY","i fucking did.",7120.768,7122.797,2.02899999999954,4,118.284869393817,1,"combat","ASHLEY",1,0,0,0
 "1397","End",8,114,1397,"combat","LAURA","does that double the dice?",7125.962,7127.684,1.72199999999975,6,209.059233449507,1,"combat","LAURA",1,0,0,0
 "1398","End",8,114,1398,"combat","LIAM","yes.",7127.684,7128.765,1.08100000000013,2,111.008325624408,1,"combat","LIAM",1,0,0,0
 "1399","End",8,114,1399,"combat","MATT","it doubles damage, yeah. it's one of the few ways you can crit with spell damage, is if it's a ranged spell attack. so go ahead and roll your damage.",7128.765,7135.117,6.35199999999986,33,311.712846347614,1,"combat","MATT",0,0,0,1
@@ -1515,7 +1515,7 @@
 "1514","End",8,114,1514,"combat","MATT","scanlan is unconscious on the ground.",7653.849,7657.857,4.00799999999981,7,104.790419161682,1,"combat","MATT",0,0,0,1
 "1515","End",8,114,1515,"combat","LAURA","oh, you don't restore all your hit points with polymorph.",7657.857,7660.218,2.36099999999988,12,304.955527318949,1,"combat","LAURA",1,0,0,0
 "1516","End",8,114,1516,"combat","MARISHA","no, it carries over.",7660.218,7661.728,1.51000000000022,5,198.675496688713,1,"combat","MARISHA",1,0,0,0
-"1517","End",8,114,1517,"combat","MATT","but you do have death ward.",7661.728,7666.315,4.58699999999953,7,91.5631131458563,1,"combat","MATT",0,0,0,1
+"1517","End",8,114,1517,"combat","MATT","but you do have death ward.",7661.728,7663.888,2.15999999999985,7,194.444444444458,1,"combat","MATT",0,0,0,1
 "1518","End",8,114,1518,"combat","MATT","the moment you hit zero hit points, you come back to consciousness. you're still prone, but you're at one hit point.",7666.315,7672.908,6.59300000000076,24,218.413468830553,1,"combat","MATT",0,0,0,1
 "1519","End",8,114,1519,"combat","SAM","oh god.",7672.908,7675.108,2.19999999999982,3,81.8181818181886,1,"combat","SAM",1,0,0,0
 "1520","End",8,114,1520,"combat","MATT","all righty, so grog took that. keyleth, you've marked that down, as well? the damage from that one? all right, percival, since it's a 9th-level spell, you gain nine charges.",7675.108,7687.043,11.9349999999995,34,170.92584834521,1,"combat","MATT",0,0,0,1
@@ -1527,7 +1527,7 @@
 "1526","End",8,114,1526,"break","SAM","what? no!",7724.604,7725.855,1.25099999999929,3,143.884892086412,1,NA,"SAM",1,0,0,0
 "1527","End",8,114,1527,"break","LAURA","we're starting up at grog's turn.",7725.855,7727.731,1.8760000000002,9,287.846481876301,1,NA,"LAURA",1,0,0,0
 "1528","End",8,114,1528,"break","MATT","we're starting up at grog's turn. we'll be right back here. guys, we'll see you back here in just a minute. we'll make it quick, because we've got to rush in. fast. hold tight, and we'll see where the rest of this battle will go. see you guys in a minute. [break]",7727.731,8788.399,1060.668,60,3.39408749957574,1,NA,"MATT",0,0,0,1
-"1529","End",8,114,1529,"break","MATT","and welcome back everybody. before we get back into the fray, the winner in the chat tonight of the wyrmwood giveaway was twoorthreegodzillas.",8788.399,8800.796,12.3970000000008,24,116.157134790667,1,NA,"MATT",0,0,0,1
+"1529","End",8,114,1529,"break","MATT","and welcome back everybody. before we get back into the fray, the winner in the chat tonight of the wyrmwood giveaway was twoorthreegodzillas.",8788.399,8798.279,9.88000000000102,24,145.748987854236,1,NA,"MATT",0,0,0,1
 "1530","End",8,114,1530,"break","MATT","congratulations, twoorthreegodzillas. enjoy dividing it amongst yourselves. hope it's a good time for you, small box for a big creature, well done. so bringing it back in, last we left off, vecna had just sent down another blast of arcane meteors pulled from beyond the realm slamming into the ground and sundering many of you, sending scanlan into a point of near death where he popped back thanks to an aptly cast death ward in preparation for this combat. vecna's round has ended with him shifting over to the opposite side of the battlefield. grog, you're up.",8800.796,8835.138,34.3420000000006,101,176.460310989456,1,NA,"MATT",0,0,0,1
 "1531","End",8,114,1531,"combat","TRAVIS","from where i was released by the eagle when scanlan changed back, i'm 20 feet off the deck. how far, if i was hereish",8835.138,8844.095,8.95699999999852,25,167.466785754187,1,"combat","TRAVIS",1,0,0,0
 "1532","End",8,114,1532,"combat","MATT","if you were here and had gone straight up then fell back down, which technically would have dealt nine points of bludgeoning damage, reduced to four because you're ever raging. you've landed on the ground.",8844.095,8861.186,17.0910000000003,38,133.403545725818,1,"combat","MATT",0,0,0,1
@@ -1713,9 +1713,9 @@
 "1712","End",8,114,1712,"combat","MATT","oh, sorry, it should've been an extra d6 on that. so add three to that, because there's 2d6 every additional spell level.",9769.505,9778.501,8.996000000001,25,166.740773677171,1,"combat","MATT",0,0,0,1
 "1713","End",8,114,1713,"combat","LIAM","that's fair.",9778.501,9780.124,1.62299999999959,4,147.874306839224,1,"combat","LIAM",1,0,0,0
 "1714","End",8,114,1714,"combat","TALIESIN","he's out of legendaries.",9780.124,9782.512,2.38800000000083,6,150.753768844169,1,"combat","TALIESIN",1,0,0,0
-"1715","End",8,114,1715,"combat","MATT","that brings us to the 20 initiative count. j'mon, desperately trying, does not have the spellcasting prowess of other dragons you've encountered and begins to thrust their body side to side against the forcecage, unable to escape, roaring angrily within the confines of the spell, as it clusters in the entirety of this majestic dragon's form into this small box held aloft in this space to the side of the ruined tower. at this point in time, you see as the spiraling cyclone around you is whirling, and you hear screeches in the distance, and you watch as flying creatures, four of them, begin to emerge from the sides of it. you see from the back two heavily wounded gloomstalkers giving chase to two wyverns that are damaged in their own right. flying in, on the back there are two soldiers coming in. as the darkness begins to fade past, you can see the red skin and dark horns, the white hair of zahra, riding on the side of this wyvern, and behind her, kashaw, riding in as well.",9782.512,9861.297,78.7849999999999,183,139.366630703814,1,"combat","MATT",0,0,0,1
+"1715","End",8,114,1715,"combat","MATT","that brings us to the 20 initiative count. j'mon, desperately trying, does not have the spellcasting prowess of other dragons you've encountered and begins to thrust their body side to side against the forcecage, unable to escape, roaring angrily within the confines of the spell, as it clusters in the entirety of this majestic dragon's form into this small box held aloft in this space to the side of the ruined tower. at this point in time, you see as the spiraling cyclone around you is whirling, and you hear screeches in the distance, and you watch as flying creatures, four of them, begin to emerge from the sides of it. you see from the back two heavily wounded gloomstalkers giving chase to two wyverns that are damaged in their own right. flying in, on the back there are two soldiers coming in. as the darkness begins to fade past, you can see the red skin and dark horns, the white hair of zahra, riding on the side of this wyvern, and behind her, kashaw, riding in as well.",9782.512,9852.333,69.8209999999999,183,157.259277294797,1,"combat","MATT",0,0,0,1
 "1716","End",8,114,1716,"combat","MATT","holy shit! oh my god! what the hell!",9861.297,9871.396,10.0990000000002,9,53.47064065749,1,"combat","MATT",0,0,0,1
-"1717","End",8,114,1717,"combat","LIAM","ah! this guy!",9871.396,9893.81,22.4139999999989,4,10.7075934683685,1,"combat","LIAM",1,0,0,0
+"1717","End",8,114,1717,"combat","LIAM","ah! this guy!",9871.396,9873.014,1.61799999999857,4,148.331273176892,1,"combat","LIAM",1,0,0,0
 "1718","End",8,114,1718,"combat","SAM","we saw you die!",9893.81,9896.32,2.51000000000022,5,119.521912350587,1,"combat","SAM",1,0,0,0
 "1719","End",8,114,1719,"combat","WILL","never believe it.",9896.32,9898.902,2.58200000000033,4,92.9512006196626,1,"combat","GUESTS",0,1,0,0
 "1720","End",8,114,1720,"combat","MATT","you do see, as they swarm in, the two other gloomstalkers close behind. both of them appear, at first glance, they themselves are scratched. you see bloodied in the faces. they've been through an onslaught to even break through to the top of the tower. as you see them ride into the brief but crackling light from the surrounding magical aura of the tower, you have seemingly a cavalry at hand. so what would you guys like to do?",9898.902,9927.355,28.4529999999995,81,170.807999156507,1,"combat","MATT",0,0,0,1
@@ -1921,7 +1921,7 @@
 "1920","End",8,114,1920,"combat","TALIESIN","he has disadvantage because he's currently under hex.",11073.466,11075.945,2.47899999999936,10,242.033077854036,1,"combat","TALIESIN",1,0,0,0
 "1921","End",8,114,1921,"combat","MATT","that's true. so 17. natural 17, plus ten. so 27.",11075.945,11081.264,5.31899999999951,12,135.363790186138,1,"combat","MATT",0,0,0,1
 "1922","End",8,114,1922,"combat","MARISHA","that's not good.",11081.264,11083.079,1.81500000000051,5,165.289256198301,1,"combat","MARISHA",1,0,0,0
-"1923","End",8,114,1923,"combat","MATT","seven plus ten, that's 17. it's a 9th-level spell. he needed to roll a 19 or higher, so he fails",11083.079,11094.816,11.737000000001,23,117.576893584381,1,"combat","MATT",0,0,0,1
+"1923","End",8,114,1923,"combat","MATT","seven plus ten, that's 17. it's a 9th-level spell. he needed to roll a 19 or higher, so he fails",11083.079,11092.067,8.98799999999937,23,153.538050734323,1,"combat","MATT",0,0,0,1
 "1924","End",8,114,1924,"combat","MARY","hex wins again!",11094.816,11096.397,1.58100000000013,4,151.802656546477,1,"combat","GUESTS",0,1,0,0
 "1925","End",8,114,1925,"combat","MATT","well that was your hex was gone?",11096.397,11099.104,2.70699999999852,8,177.318064277896,1,"combat","MATT",0,0,0,1
 "1926","End",8,114,1926,"combat","TALIESIN","no, it was your hex.",11099.104,11100.253,1.14900000000125,6,313.315926892609,1,"combat","TALIESIN",1,0,0,0
@@ -1937,7 +1937,7 @@
 "1936","End",8,114,1936,"combat","SAM","all right, pike, divvy it up.",11128.174,11130.796,2.62199999999939,7,160.183066361593,1,"combat","SAM",1,0,0,0
 "1937","End",8,114,1937,"combat","ASHLEY","okay, so. zahra and kashaw, i love you both",11130.796,11135.725,4.92900000000009,9,109.555690809493,1,"combat","ASHLEY",1,0,0,0
 "1938","End",8,114,1938,"combat","MARY","we don't need any, darling. we're fine.",11135.725,11137.16,1.43499999999949,10,418.118466899103,1,"combat","GUESTS",0,1,0,0
-"1939","End",8,114,1939,"combat","ASHLEY","okay. but i'm going to give all of us get 100 apiece.",11137.16,11143.757,6.59699999999975,14,127.330604820378,1,"combat","ASHLEY",1,0,0,0
+"1939","End",8,114,1939,"combat","ASHLEY","okay. but i'm going to give all of us get 100 apiece.",11137.16,11140.512,3.35200000000077,14,250.59665871116,1,"combat","ASHLEY",1,0,0,0
 "1940","End",8,114,1940,"combat","WILL","good for you guys.",11143.757,11145.096,1.33899999999994,5,224.047796863341,1,"combat","GUESTS",0,1,0,0
 "1941","End",8,114,1941,"combat","ASHLEY","you get a hundred, and you get a hundred!",11145.096,11147.162,2.06600000000071,10,290.416263310645,1,"combat","ASHLEY",1,0,0,0
 "1942","End",8,114,1942,"combat","LAURA","wait, pike, i don't need that much! i only need like 20.",11147.162,11152.05,4.88799999999901,14,171.849427168611,1,"combat","LAURA",1,0,0,0
@@ -2028,7 +2028,7 @@
 "2027","End",8,114,2027,"combat","WILL","we can't even speak, can we?",11509.145,11513.897,4.75200000000041,8,101.010101010092,1,"combat","GUESTS",0,1,0,0
 "2028","End",8,114,2028,"combat","MATT","no. you both quietly fall off the wyvern as you plummet in silence past the edge, plummeting down the side of the tower.",11513.897,11522.09,8.1929999999993,24,175.759794946921,1,"combat","MATT",0,0,0,1
 "2029","End",8,114,2029,"combat","LAURA","you guys got major damage, though!",11522.09,11524.907,2.8169999999991,7,149.094781682689,1,"combat","LAURA",1,0,0,0
-"2030","End",8,114,2030,"combat","MARY","at least the baby will be safe!",11524.907,11531.557,6.65000000000146,8,72.1804511278037,1,"combat","GUESTS",0,1,0,0
+"2030","End",8,114,2030,"combat","MARY","at least the baby will be safe!",11524.907,11528.797,3.89000000000124,8,123.393316195334,1,"combat","GUESTS",0,1,0,0
 "2031","End",8,114,2031,"combat","TALIESIN","no! no!",11531.557,11533.319,1.76199999999881,3,102.156640181681,1,"combat","TALIESIN",1,0,0,0
 "2032","End",8,114,2032,"combat","SAM","what baby?!",11533.319,11534.856,1.53700000000026,3,117.111255692888,1,"combat","SAM",1,0,0,0
 "2033","End",8,114,2033,"combat","MARY","avenge us!",11534.856,11548.063,13.2070000000003,3,13.629136064208,1,"combat","GUESTS",0,1,0,0
@@ -2270,7 +2270,7 @@
 "2269","End",8,114,2269,"combat","SAM","i'm at three.",12622.807,12626.299,3.49200000000019,5,85.9106529209575,1,"combat","SAM",1,0,0,0
 "2270","End",8,114,2270,"combat","MATT","at this point in time, you glance over and see a fist grab the rock side of one of these platforms",12626.299,12637.444,11.1449999999986,21,113.055181695842,1,"combat","MATT",0,0,0,1
 "2271","End",8,114,2271,"combat","SAM","no, it doesn't!",12637.444,12638.923,1.47900000000118,5,202.83975659213,1,"combat","SAM",1,0,0,0
-"2272","End",8,114,2272,"combat","MATT","you watch as a second gauntleted fist hits the side, and climbing up over the edge of one of these platforms you see immediately the red-scaled face and horned body of a heavily-wounded but still-living arkhan making his way up onto the platform.",12638.923,12665.061,26.137999999999,47,107.888897390776,1,"combat","MATT",0,0,0,1
+"2272","End",8,114,2272,"combat","MATT","you watch as a second gauntleted fist hits the side, and climbing up over the edge of one of these platforms you see immediately the red-scaled face and horned body of a heavily-wounded but still-living arkhan making his way up onto the platform.",12638.923,12657.433,18.5100000000002,47,152.350081037275,1,"combat","MATT",0,0,0,1
 "2273","End",8,114,2273,"combat","TALIESIN","oh, let's go! this is on. it's fucking on.",12665.061,12666.519,1.45800000000054,12,493.827160493645,1,"combat","TALIESIN",1,0,0,0
 "2274","End",8,114,2274,"combat","MARISHA","you're not going to kill another of our friends in front of us, are you?",12666.519,12668.49,1.97099999999955,17,517.503805175156,1,"combat","MARISHA",1,0,0,0
 "2275","End",8,114,2275,"combat","LIAM","vox machina, this. is. your life!",12668.49,12670.914,2.42400000000089,7,173.26732673261,1,"combat","LIAM",1,0,0,0
@@ -2357,7 +2357,7 @@
 "2356","End",8,114,2356,"combat","SAM","he's immune to grapple.",13038.422,13039.665,1.24300000000039,6,289.621882542145,1,"combat","SAM",1,0,0,0
 "2357","End",8,114,2357,"combat","MATT","no, he's not immune to grapple. but it does not stop his movement because of his size. but you're attached to him. so currently, at the moment, you are locked into vecna's current little i'll put you there.",13039.665,13056.512,16.8469999999998,43,153.142992817715,1,"combat","MATT",0,0,0,1
 "2358","End",8,114,2358,"combat","LAURA","just hanging out.",13056.512,13058.368,1.85599999999977,4,129.310344827602,1,"combat","LAURA",1,0,0,0
-"2359","End",8,114,2359,"combat","TRAVIS","and instead of a d10, i'll hit him with a one-handed versatile d8. reckless. natural 20.",13058.368,13070.053,11.6849999999995,19,97.5609756097603,1,"combat","TRAVIS",1,0,0,0
+"2359","End",8,114,2359,"combat","TRAVIS","and instead of a d10, i'll hit him with a one-handed versatile d8. reckless. natural 20.",13058.368,13066.897,8.52900000000045,19,133.661625043961,1,"combat","TRAVIS",1,0,0,0
 "2360","End",8,114,2360,"combat","SAM","is that a",13070.053,13072.453,2.39999999999964,3,75.0000000000114,1,"combat","SAM",1,0,0,0
 "2361","End",8,114,2361,"combat","LIAM AND TRAVIS","natural 20.",13072.453,13073.822,1.3690000000006,3,131.48283418548,1,"combat","LIAM AND TRAVIS",1,0,0,0
 "2362","End",8,114,2362,"combat","SAM","that's a crit! that's a critical roll?",13073.822,13077.346,3.52399999999943,10,170.26106696938,1,"combat","SAM",1,0,0,0
@@ -2411,7 +2411,7 @@
 "2410","End",8,114,2410,"combat","SAM","this guy's getting hurt!",13402.062,13404.081,2.01900000000023,6,178.306092124794,1,"combat","SAM",1,0,0,0
 "2411","End",8,114,2411,"combat","TALIESIN","yeah, but he keeps healing",13404.081,13405.65,1.56899999999951,5,191.204588910194,1,"combat","TALIESIN",1,0,0,0
 "2412","End",8,114,2412,"combat","MARISHA AND TALIESIN","trammel time.",13405.65,13408.366,2.71600000000035,3,66.2739322533052,1,"combat","MARISHA AND TALIESIN",1,0,0,0
-"2413","End",8,114,2413,"combat","ASHLEY","is he looking rough?",13408.366,13412.197,3.83100000000013,5,78.308535630381,1,"combat","ASHLEY",1,0,0,0
+"2413","End",8,114,2413,"combat","ASHLEY","is he looking rough?",13408.366,13409.891,1.52499999999964,5,196.721311475457,1,"combat","ASHLEY",1,0,0,0
 "2414","End",8,114,2414,"combat","MATT","other than those openings on his body, doesn't look too bad. but he looks pretty rough to begin with, because he's a lich. it's hard to tell.",13412.197,13420.836,8.63899999999921,31,215.30269707144,1,"combat","MATT",0,0,0,1
 "2415","End",8,114,2415,"combat","LAURA","ten damage. radiant damage.",13420.836,13423.069,2.23300000000017,5,134.348410210469,1,"combat","LAURA",1,0,0,0
 "2416","End",8,114,2416,"combat","LIAM AND MARISHA","stop. trammel time!",13423.069,13424.785,1.71600000000035,4,139.860139860111,1,"combat","LIAM AND MARISHA",1,0,0,0
@@ -2813,7 +2813,7 @@
 "2812","End",8,114,2812,"combat","LIAM","we are picking his scabs.",15454.134,15458.228,4.09399999999914,6,87.9335613092515,1,"combat","LIAM",1,0,0,0
 "2813","End",8,114,2813,"combat","SAM","when grog attacked with the trammel, it was a strength check?",15458.228,15464.806,6.57800000000134,12,109.455761629652,1,"combat","SAM",1,0,0,0
 "2814","End",8,114,2814,"combat","MATT","yes.",15464.806,15466.724,1.91799999999967,2,62.5651720542341,1,"combat","MATT",0,0,0,1
-"2815","End",8,114,2815,"combat","JOE","37 points of damage. strike number two. natural 20!",15466.724,15479.234,12.5100000000002,10,47.9616306954428,1,"combat","GUESTS",0,1,0,0
+"2815","End",8,114,2815,"combat","JOE","37 points of damage. strike number two. natural 20!",15466.724,15476.777,10.0529999999999,10,59.683676514474,1,"combat","GUESTS",0,1,0,0
 "2816","End",8,114,2816,"combat","TRAVIS","fuck yeah!",15479.234,15480.793,1.55899999999929,3,115.458627325261,1,"combat","TRAVIS",1,0,0,0
 "2817","End",8,114,2817,"combat","JOE","fuck yes. i've wanted to crit with this axe so bad. great. on a crit, i roll an extra 2d8 that are necrotic, but whatever. we can use anything we can get. i will pump another 1st-level smite into that one, so it's going to be 5d8 plus 2d8 necrotic.",15480.793,15505.908,25.1149999999998,54,129.006569779018,1,"combat","GUESTS",0,1,0,0
 "2818","End",8,114,2818,"combat","LIAM","i'd like to point out that we have two barbarians and two paladins up here right now.",15505.908,15513.575,7.66700000000128,19,148.689187426609,1,"combat","LIAM",1,0,0,0
@@ -2872,7 +2872,7 @@
 "2871","End",8,114,2871,"combat","MARISHA","oh my god. i turn, and grabbing vax's die, i look over my shoulder at him.",15785.112,15791.218,6.10600000000159,18,176.875204716626,1,"combat","MARISHA",1,0,0,0
 "2872","End",8,114,2872,"combat","TALIESIN","this got weird.",15791.218,15795.483,4.26499999999942,4,56.2719812426806,1,"combat","TALIESIN",1,0,0,0
 "2873","End",8,114,2873,"combat","MARISHA","oh my god. i hate this so much.",15795.483,15798.264,2.78099999999904,9,194.17475728162,1,"combat","MARISHA",1,0,0,0
-"2874","End",8,114,2874,"combat","SAM","it's a critical roll.",15798.264,15801.989,3.72500000000036,6,96.644295302004,1,"combat","SAM",1,0,0,0
+"2874","End",8,114,2874,"combat","SAM","it's a critical roll.",15798.264,15800.122,1.85800000000017,6,193.756727664137,1,"combat","SAM",1,0,0,0
 "2875","End",8,114,2875,"combat","LAURA","oh no.",15801.989,15803.367,1.37800000000061,3,130.624092888186,1,"combat","LAURA",1,0,0,0
 "2876","End",8,114,2876,"combat","MATT","what was it?",15803.367,15804.353,0.985999999998967,4,243.407707911006,1,"combat","MATT",0,0,0,1
 "2877","End",8,114,2877,"combat","MARISHA","a three, so ten.",15804.353,15806.592,2.2390000000014,5,133.988387672985,1,"combat","MARISHA",1,0,0,0
@@ -2961,8 +2961,8 @@
 "2960","End",8,114,2960,"combat","MATT","all right. end of the round, vecna gets his legendary actions back. grog, haste fades from you. as the spell fades, you feel your muscles lock up, and your entire body is currently stunned for the next round. that's what happens when the haste spell ends. so as you're clutching, your muscles lock up, and you're still holding onto the trammel, but your entire body is locked up as exhaustion takes over, and you're basically having to hold yourself there in place.",16236.812,16267.074,30.2620000000006,87,172.493556275193,1,"combat","MATT",0,0,0,1
 "2961","End",8,114,2961,"combat","JOE","hold your action. pick something good and hold it.",16267.074,16272.189,5.11499999999978,10,117.302052785929,1,"combat","GUESTS",0,1,0,0
 "2962","End",8,114,2962,"combat","MATT","vecna is going to cast, with his last 7th-level spell, a 7th-level banishment spell. i would like both pike and grog to make charisma saving throws, please.",16272.189,16292.208,20.0190000000002,30,89.9145811479084,1,"combat","MATT",0,0,0,1
-"2963","End",8,114,2963,"combat","SAM","oh, but i counterspelled it at 8th-level. ooh!",16292.208,16303.258,11.0499999999993,10,54.2986425339402,1,"combat","SAM",1,0,0,0
-"2964","End",8,114,2964,"combat","SAM","that's why i got closer, motherfucker!",16303.258,16310.589,7.33100000000013,8,65.475378529531,1,"combat","SAM",1,0,0,0
+"2963","End",8,114,2963,"combat","SAM","oh, but i counterspelled it at 8th-level. ooh!",16292.208,16295.875,3.66699999999946,10,163.621488955574,1,"combat","SAM",1,0,0,0
+"2964","End",8,114,2964,"combat","SAM","that's why i got closer, motherfucker!",16303.258,16305.257,1.9989999999998,8,240.120060030039,1,"combat","SAM",1,0,0,0
 "2965","End",8,114,2965,"combat","TRAVIS","oh shit.",16310.589,16314.881,4.29199999999946,3,41.9384902143575,1,"combat","TRAVIS",1,0,0,0
 "2966","End",8,114,2966,"combat","LIAM","oh shit. now i am the master.",16314.881,16327.492,12.6110000000008,8,38.0620093569083,1,"combat","LIAM",1,0,0,0
 "2967","End",8,114,2967,"combat","MATT","oh, well done. so as the banishment spell fizzles in place",16327.492,16332.706,5.21399999999994,11,126.582278481014,1,"combat","MATT",0,0,0,1
@@ -3012,7 +3012,7 @@
 "3011","End",8,114,3011,"combat","LAURA","oh, that's it? not lesser?",16542.122,16544.085,1.96299999999974,7,213.958227203289,1,"combat","LAURA",1,0,0,0
 "3012","End",8,114,3012,"combat","MATT","i don't think lesser gets rid of stun, unfortunately.",16544.085,16546.537,2.45200000000114,11,269.168026101017,1,"combat","MATT",0,0,0,1
 "3013","End",8,114,3013,"combat","LAURA","fuck me. okay. all righty. i'm going to fly up to scanlan, and i'm going to cast cure wounds at 4th-level. that's 4d8 plus my wisdom. oh, that's good! 14, 21, 27. 27 plus three. 30 points healed!",16546.537,16590.204,43.6670000000013,44,60.4575537591298,1,"combat","LAURA",1,0,0,0
-"3014","End",8,114,3014,"combat","SAM","may i do a cantrip on her? minor illusion, just to turn her skin green.",16590.204,16604.41,14.2059999999983,16,67.5770801070051,1,"combat","SAM",1,0,0,0
+"3014","End",8,114,3014,"combat","SAM","may i do a cantrip on her? minor illusion, just to turn her skin green.",16590.204,16600.428,10.2239999999983,16,93.8967136150387,1,"combat","SAM",1,0,0,0
 "3015","End",8,114,3015,"combat","MATT","i'll allow it.",16604.41,16606.179,1.76900000000023,5,169.587337478779,1,"combat","MATT",0,0,0,1
 "3016","End",8,114,3016,"combat","TRAVIS","i'm flying high, defying gravity!",16606.179,16613.821,7.64199999999983,7,54.9594347029586,1,"combat","TRAVIS",1,0,0,0
 "3017","End",8,114,3017,"combat","SAM","exalted. exalted form.",16613.821,16615.487,1.66600000000108,4,144.057623049127,1,"combat","SAM",1,0,0,0
@@ -3035,7 +3035,7 @@
 "3034","End",8,114,3034,"combat","SAM","hands shoved in each other's crotches.",16666.999,16670.375,3.3760000000002,8,142.180094786721,1,"combat","SAM",1,0,0,0
 "3035","End",8,114,3035,"combat","LIAM","getting each other ready.",16670.375,16673.119,2.74399999999878,5,109.329446064189,1,"combat","LIAM",1,0,0,0
 "3036","End",8,114,3036,"combat","JOE","just lubing up. glistening.",16673.119,16676.365,3.24600000000282,5,92.4214417744113,1,"combat","GUESTS",0,1,0,0
-"3037","End",8,114,3037,"combat","TRAVIS","shit. body-glide.",16676.365,16685.731,9.36599999999817,4,25.624599615636,1,"combat","TRAVIS",1,0,0,0
+"3037","End",8,114,3037,"combat","TRAVIS","shit. body-glide.",16676.365,16679.383,3.01800000000003,4,79.5228628230609,1,"combat","TRAVIS",1,0,0,0
 "3038","End",8,114,3038,"combat","MATT","all right, scanlan. i would like you to here it is. i'd like you to make a wisdom saving throw, please.",16685.731,16704.266,18.5349999999999,23,74.453736174805,1,"combat","MATT",0,0,0,1
 "3039","End",8,114,3039,"combat","SAM","not great. 15.",16704.266,16709.85,5.58399999999892,4,42.979942693418,1,"combat","SAM",1,0,0,0
 "3040","End",8,114,3040,"combat","MATT","15.",16709.85,16711.381,1.53100000000268,2,78.380143696793,1,"combat","MATT",0,0,0,1
@@ -3060,7 +3060,7 @@
 "3059","End",8,114,3059,"combat","SAM","wow, that's terrible. foxes can totally talk and cast spells, though, right?",16759.288,16768.868,9.57999999999811,14,87.6826722338378,1,"combat","SAM",1,0,0,0
 "3060","End",8,114,3060,"combat","MATT","no.",16768.868,16770.007,1.13900000000285,2,105.355575065583,1,"combat","MATT",0,0,0,1
 "3061","End",8,114,3061,"combat","TALIESIN","so is this a concentration spell?",16770.007,16771.985,1.97799999999916,7,212.335692618897,1,"combat","TALIESIN",1,0,0,0
-"3062","End",8,114,3062,"combat","SAM","wow, that's shitty. that's a shitty low-level spell use, matt mercer.",16771.985,16780.17,8.18499999999767,15,109.957238851589,1,"combat","SAM",1,0,0,0
+"3062","End",8,114,3062,"combat","SAM","wow, that's shitty. that's a shitty low-level spell use, matt mercer.",16771.985,16778.362,6.37700000000041,15,141.132193821537,1,"combat","SAM",1,0,0,0
 "3063","End",8,114,3063,"combat","JOE","and that's a spell, correct?",16780.17,16781.938,1.76800000000003,7,237.556561085969,1,"combat","GUESTS",0,1,0,0
 "3064","End",8,114,3064,"combat","MATT","that's the end of that. all right.",16781.938,16786.347,4.40900000000329,9,122.47675209789,1,"combat","MATT",0,0,0,1
 "3065","End",8,114,3065,"combat","TALIESIN","and that's not a concentration spell.",16786.347,16789.547,3.19999999999709,8,150.000000000136,1,"combat","TALIESIN",1,0,0,0
@@ -3068,7 +3068,7 @@
 "3067","End",8,114,3067,"combat","MATT","that was the end of vex's turn, vax, you're up. polymorph: an unwilling creature must make a wisdom saving throw to avoid the effect.",16795.933,16807.424,11.4909999999982,27,140.979897310961,1,"combat","MATT",0,0,0,1
 "3068","End",8,114,3068,"combat","SAM","why do i have written down constitution? well, i'm wrong.",16807.424,16811.996,4.57200000000012,12,157.480314960626,1,"combat","SAM",1,0,0,0
 "3069","End",8,114,3069,"combat","MATT","okay. i'll double-check. wisdom saving throw. so anyway. what are you doing?",16811.996,16820.373,8.37700000000041,15,107.437029962989,1,"combat","MATT",0,0,0,1
-"3070","End",8,114,3070,"combat","LIAM","do i in my knowledge in having watched this crazy motherfucker with polymorph know if striking him and taking away his little bit of life, he poofs back, right? okay, so bonus action to disengage from vecnards, and i'm going to fly at that fox, and i am going to strike him with the flame tongue dagger.",16820.373,16850.66,30.2870000000003,59,116.881830488327,1,"combat","LIAM",1,0,0,0
+"3070","End",8,114,3070,"combat","LIAM","do i in my knowledge in having watched this crazy motherfucker with polymorph know if striking him and taking away his little bit of life, he poofs back, right? okay, so bonus action to disengage from vecnards, and i'm going to fly at that fox, and i am going to strike him with the flame tongue dagger.",16820.373,16844.403,24.0299999999988,59,147.315855181031,1,"combat","LIAM",1,0,0,0
 "3071","End",8,114,3071,"combat","LIAM","raven queen sends her regards, fox!",16850.66,16852.866,2.20600000000195,7,190.389845874718,1,"combat","LIAM",1,0,0,0
 "3072","End",8,114,3072,"combat","MARISHA","did john have a dead pool on when it was going to fall?",16852.866,16855.493,2.62699999999677,14,319.756376094798,1,"combat","MARISHA",1,0,0,0
 "3073","End",8,114,3073,"combat","TALIESIN","i would have gone with the tower.",16855.493,16858.639,3.14600000000064,8,152.574698029212,1,"combat","TALIESIN",1,0,0,0
@@ -3146,7 +3146,7 @@
 "3145","End",8,114,3145,"combat","JOE","i can't do much more than what i did before, but that's 25. get a one. roll a one!",17172.754,17178.566,5.81199999999808,22,227.116311080598,1,"combat","GUESTS",0,1,0,0
 "3146","End",8,114,3146,"combat","MATT","that's a two. two and a three!",17178.566,17184.644,6.07800000000134,9,88.8450148074829,1,"combat","MATT",0,0,0,1
 "3147","End",8,114,3147,"combat","SAM","two and a three?",17184.644,17185.761,1.11699999999837,5,268.576544315522,1,"combat","SAM",1,0,0,0
-"3148","End",8,114,3148,"combat","MATT","yeah.",17185.761,17193.974,8.21299999999974,2,14.6109825885795,1,"combat","MATT",0,0,0,1
+"3148","End",8,114,3148,"combat","MATT","yeah.",17185.761,17186.665,0.90400000000227,2,132.743362831525,1,"combat","MATT",0,0,0,1
 "3149","End",8,114,3149,"combat","MATT","damn it. okay, then.",17193.974,17196.187,2.21300000000338,5,135.562584726409,1,"combat","MATT",0,0,0,1
 "3150","End",8,114,3150,"combat","LIAM","back in the game!",17196.187,17198.404,2.21699999999691,5,135.317997293828,1,"combat","LIAM",1,0,0,0
 "3151","End",8,114,3151,"combat","MATT","okay. arkhan, end of your turn?",17198.404,17204.616,6.21200000000317,7,67.6110753380209,1,"combat","MATT",0,0,0,1
@@ -3165,7 +3165,7 @@
 "3164","End",8,114,3164,"combat","TALIESIN","shut the fuck up.",17248.302,17250.018,1.71600000000035,5,174.825174825139,1,"combat","TALIESIN",1,0,0,0
 "3165","End",8,114,3165,"combat","TRAVIS","shut your beautiful mouth!",17250.018,17251.778,1.7599999999984,5,170.4545454547,1,"combat","TRAVIS",1,0,0,0
 "3166","End",8,114,3166,"combat","MARISHA","you've got the fucking book!",17251.778,17253.7,1.9220000000023,7,218.522372528355,1,"combat","MARISHA",1,0,0,0
-"3167","End",8,114,3167,"combat","TRAVIS","god. i'm rubbing my thigh, but there's nothing wrong with it!",17253.7,17265.159,11.4589999999989,14,73.3048259010454,1,"combat","TRAVIS",1,0,0,0
+"3167","End",8,114,3167,"combat","TRAVIS","god. i'm rubbing my thigh, but there's nothing wrong with it!",17253.7,17261.404,7.7039999999979,14,109.034267912802,1,"combat","TRAVIS",1,0,0,0
 "3168","End",8,114,3168,"combat","SAM","i can't get any superglue to come out of this shit. i've been biting on it. i've been doing all kinds of shit to it. we need a knife.",17265.159,17272.755,7.59600000000137,33,260.663507108958,1,"combat","SAM",1,0,0,0
 "3169","End",8,114,3169,"combat","MATT","well, no wonder it's not coming out.",17272.755,17275.147,2.39199999999983,9,225.752508361221,1,"combat","MATT",0,0,0,1
 "3170","End",8,114,3170,"combat","JOE","i've got more work for you to do. put the shield back on.",17275.147,17279.539,4.39199999999983,15,204.918032786893,1,"combat","GUESTS",0,1,0,0
@@ -3205,8 +3205,8 @@
 "3204","End",8,114,3204,"combat","TRAVIS","yeah, he's got one legendary resistance left. he's been saving it.",17419.648,17425.811,6.16300000000047,14,136.297257828969,1,"combat","TRAVIS",1,0,0,0
 "3205","End",8,114,3205,"combat","SAM","i'll inspire pike, yeah.",17425.811,17428.476,2.66499999999724,6,135.084427767495,1,"combat","SAM",1,0,0,0
 "3206","End",8,114,3206,"combat","MATT","all right. so pike, take your inspiration die. what do you say to pike?",17428.476,17432.94,4.46399999999994,15,201.612903225809,1,"combat","MATT",0,0,0,1
-"3207","End",8,114,3207,"combat","SAM","i will sing to her: she's a good girl.",17432.94,17441.043,8.10300000000279,11,81.4513143279986,1,"combat","SAM",1,0,0,0
-"3208","End",8,114,3208,"combat","SAM","that's it.",17441.043,17444.276,3.23300000000017,4,74.234457160528,1,"combat","SAM",1,0,0,0
+"3207","End",8,114,3207,"combat","SAM","i will sing to her: she's a good girl.",17432.94,17438.707,5.76699999999983,11,114.444251777357,1,"combat","SAM",1,0,0,0
+"3208","End",8,114,3208,"combat","SAM","that's it.",17441.043,17442.767,1.72399999999834,4,139.211136891085,1,"combat","SAM",1,0,0,0
 "3209","End",8,114,3209,"combat","SAM","loves her scanlan.",17444.276,17446.568,2.29199999999764,4,104.712041884924,1,"combat","SAM",1,0,0,0
 "3210","End",8,114,3210,"combat","MATT","all righty. pike, it's your turn.",17446.568,17450.349,3.78099999999904,8,126.950542184639,1,"combat","MATT",0,0,0,1
 "3211","End",8,114,3211,"combat","JOE","loves chicken.",17450.349,17452.282,1.9330000000009,3,93.1195033626053,1,"combat","GUESTS",0,1,0,0
@@ -3236,7 +3236,7 @@
 "3235","End",8,114,3235,"combat","LIAM","i love that we are working on miniatures at the table.",17609.723,17614.596,4.87299999999959,12,147.752924276639,1,"combat","LIAM",1,0,0,0
 "3236","End",8,114,3236,"combat","JOE","it's helping us with our nerves.",17614.596,17617.089,2.49299999999857,8,192.539109506729,1,"combat","GUESTS",0,1,0,0
 "3237","End",8,114,3237,"combat","LIAM","oh, it's very calming, working on minis.",17617.089,17621.713,4.6239999999998,9,116.78200692042,1,"combat","LIAM",1,0,0,0
-"3238","End",8,114,3238,"combat","JOE","you got some watercolors back there, matt?",17621.713,17627.56,5.84700000000157,8,82.093381221117,1,"combat","GUESTS",0,1,0,0
+"3238","End",8,114,3238,"combat","JOE","you got some watercolors back there, matt?",17621.713,17625.549,3.83599999999933,8,125.130344108468,1,"combat","GUESTS",0,1,0,0
 "3239","End",8,114,3239,"combat","MATT","strangely, no.",17627.56,17630.046,2.48599999999715,3,72.4054706356422,1,"combat","MATT",0,0,0,1
 "3240","End",8,114,3240,"combat","LIAM","on his utility belt.",17630.046,17631.939,1.89300000000003,5,158.47860538827,1,"combat","LIAM",1,0,0,0
 "3241","End",8,114,3241,"combat","JOE","we got tape. we got glue. we got everything.",17631.939,17636.379,4.44000000000233,10,135.135135135064,1,"combat","GUESTS",0,1,0,0
@@ -3351,7 +3351,7 @@
 "3350","End",8,114,3350,"combat","MATT","it's an athletics check, so roll athletics.",18245.142,18249.354,4.21199999999953,9,128.205128205142,1,"combat","MATT",0,0,0,1
 "3351","End",8,114,3351,"combat","LIAM","that is a 22.",18249.354,18260.597,11.2430000000022,5,26.6832695899618,1,"combat","LIAM",1,0,0,0
 "3352","End",8,114,3352,"combat","MATT","19 plus five, 24. grapple fails.",18260.597,18263.812,3.21500000000015,7,130.637636080865,1,"combat","MATT",0,0,0,1
-"3353","End",8,114,3353,"combat","LIAM","all right. that was my",18263.812,18271.11,7.29799999999886,5,41.1071526445665,1,"combat","LIAM",1,0,0,0
+"3353","End",8,114,3353,"combat","LIAM","all right. that was my",18263.812,18266.021,2.20899999999892,5,135.808057944838,1,"combat","LIAM",1,0,0,0
 "3354","End",8,114,3354,"combat","ASHLEY","i was getting a tissue, and i dropped a fork.",18271.11,18275.762,4.65199999999822,11,141.874462596787,1,"combat","ASHLEY",1,0,0,0
 "3355","End",8,114,3355,"combat","LIAM","that was my hasted action. i'm going to stay here and fucking hug vecna's face.",18275.762,18289.041,13.2790000000023,18,81.3314255591396,1,"combat","LIAM",1,0,0,0
 "3356","End",8,114,3356,"combat","MATT","all right. that brings us to the 20. the buildings shift back once more across the ground. these begin to rotate and spread outward this way. that one merely stays where it is. at this point in time, arkhan?",18289.041,18315.559,26.518,40,90.5045629383814,1,"combat","MATT",0,0,0,1
@@ -3450,7 +3450,7 @@
 "3449","End",8,114,3449,"combat","SAM","i'll cast counterspell.",18760.425,18762.374,1.94900000000052,5,153.925089789594,1,"combat","SAM",1,0,0,0
 "3450","End",8,114,3450,"combat","MATT","at what level?",18762.374,18764.342,1.96800000000076,4,121.951219512148,1,"combat","MATT",0,0,0,1
 "3451","End",8,114,3451,"combat","SAM","three.",18764.342,18765.71,1.36799999999857,2,87.7192982457055,1,"combat","SAM",1,0,0,0
-"3452","End",8,114,3452,"combat","MATT","okay. go ahead and roll.",18765.71,18771.173,5.46299999999974,6,65.8978583196078,1,"combat","MATT",0,0,0,1
+"3452","End",8,114,3452,"combat","MATT","okay. go ahead and roll.",18765.71,18767.961,2.2510000000002,6,159.928920479772,1,"combat","MATT",0,0,0,1
 "3453","End",8,114,3453,"combat","TALIESIN","what!",18771.173,18773.54,2.36700000000201,2,50.6970849175742,1,"combat","TALIESIN",1,0,0,0
 "3454","End",8,114,3454,"combat","MARISHA","for no reason.",18773.54,18780.369,6.8289999999979,4,35.1442378093533,1,"combat","MARISHA",1,0,0,0
 "3455","End",8,114,3455,"combat","JOE","scanlan has had the craziest last hour ever!",18780.369,18785.271,4.90200000000186,9,110.159118727008,1,"combat","GUESTS",0,1,0,0
@@ -3477,7 +3477,7 @@
 "3476","End",8,114,3476,"combat","MATT","all right. make a charisma saving throw, please.",18886.372,18893.18,6.8080000000009,9,79.3184488836558,1,"combat","MATT",0,0,0,1
 "3477","End",8,114,3477,"combat","MARISHA","come on, charisma.",18893.18,18895.189,2.0089999999982,4,119.462419114094,1,"combat","MARISHA",1,0,0,0
 "3478","End",8,114,3478,"combat","LIAM","burt reynolds, do it.",18895.189,18898.364,3.17500000000291,5,94.4881889762913,1,"combat","LIAM",1,0,0,0
-"3479","End",8,114,3479,"combat","SAM","30. i'm charisma as fuck!",18898.364,18910.169,11.8050000000003,7,35.5781448538746,1,"combat","SAM",1,0,0,0
+"3479","End",8,114,3479,"combat","SAM","30. i'm charisma as fuck!",18898.364,18907.05,8.68599999999788,7,48.3536725765718,1,"combat","SAM",1,0,0,0
 "3480","End",8,114,3480,"combat","JOE","this is craziness!",18910.169,18912.76,2.59099999999671,4,92.6283288306849,1,"combat","GUESTS",0,1,0,0
 "3481","End",8,114,3481,"combat","SAM","first roll two. second roll 18.",18912.76,18915.952,3.19200000000274,7,131.578947368308,1,"combat","SAM",1,0,0,0
 "3482","End",8,114,3482,"combat","JOE","we got to go to vegas after this is done!",18915.952,18921.023,5.07099999999991,11,130.15184381779,1,"combat","GUESTS",0,1,0,0
@@ -3522,7 +3522,7 @@
 "3521","End",8,114,3521,"combat","TRAVIS","on saving throws? if i damage you",19159.549,19162.657,3.10800000000017,7,135.135135135128,1,"combat","TRAVIS",1,0,0,0
 "3522","End",8,114,3522,"combat","MATT","oh. any time with mage slayer? oh, that's right!",19162.657,19164.937,2.28000000000247,11,289.473684210212,1,"combat","MATT",0,0,0,1
 "3523","End",8,114,3523,"combat","TRAVIS","when you damage a creature that's yep.",19164.937,19168.882,3.94499999999971,9,136.882129277577,1,"combat","TRAVIS",1,0,0,0
-"3524","End",8,114,3524,"combat","MATT","18 to a natural one.",19168.882,19172.944,4.06199999999808,6,88.6262924668071,1,"combat","MATT",0,0,0,1
+"3524","End",8,114,3524,"combat","MATT","18 to a natural one.",19168.882,19170.303,1.42099999999846,6,253.342716397179,1,"combat","MATT",0,0,0,1
 "3525","End",8,114,3525,"combat","MATT","man, that's crazy.",19172.944,19176.923,3.97899999999936,5,75.3958280975241,1,"combat","MATT",0,0,0,1
 "3526","End",8,114,3526,"combat","SAM","you made this world, matt.",19176.923,19180.359,3.43600000000151,6,104.772991850943,1,"combat","SAM",1,0,0,0
 "3527","End",8,114,3527,"combat","MATT","yeah, i know. and with that, scanlan appears back in place.",19180.359,19189.093,8.73400000000038,12,82.4364552324214,1,"combat","MATT",0,0,0,1
@@ -3586,14 +3586,14 @@
 "3585","End",8,114,3585,"combat","MATT","let me take a quick picture of this.",19528.083,19531.298,3.21500000000015,9,167.962674961112,1,"combat","MATT",0,0,0,1
 "3586","End",8,114,3586,"combat","MARISHA","what does that mean? it's always good or bad. [music]",19531.298,19550.768,19.4700000000012,12,36.9799691833568,1,"combat","MARISHA",1,0,0,0
 "3587","End",8,114,3587,"combat","TALIESIN","should be texting that fast.",19550.768,19560.642,9.8739999999998,6,36.4593882924861,1,"combat","TALIESIN",1,0,0,0
-"3588","End",8,114,3588,"combat","MATT","as you read from the book, page after page, the words come out, something you don't seem to understand in your mind, but the form understands, and as it does, the runes glow. you look up as the trammels begin to glow. one, two. you hear this sucking sound. how do you guys want to do this?",19560.642,19594.612,33.9700000000012,59,104.20959670297,1,"combat","MATT",0,0,0,1
+"3588","End",8,114,3588,"combat","MATT","as you read from the book, page after page, the words come out, something you don't seem to understand in your mind, but the form understands, and as it does, the runes glow. you look up as the trammels begin to glow. one, two. you hear this sucking sound. how do you guys want to do this?",19560.642,19589.102,28.4599999999991,59,124.385101897404,1,"combat","MATT",0,0,0,1
 "3589","End",8,114,3589,"combat","LAURA","oh my god.",19594.612,19599.265,4.65299999999843,4,51.5796260477286,1,"combat","LAURA",1,0,0,0
 "3590","End",8,114,3590,"combat","MATT","describe your support of this. you guys are holding vecna back. how do you prepare for this, as he's currently being held by these trammels in place?",19599.265,19608.904,9.63899999999921,29,180.516651104901,1,"combat","MATT",0,0,0,1
 "3591","End",8,114,3591,"combat","LAURA","i grab percy up on the broom so we can fly up.",19608.904,19610.906,2.00200000000041,13,389.61038961031,1,"combat","LAURA",1,0,0,0
 "3592","End",8,114,3592,"combat","TRAVIS","i take out the immovable rod out of the bag of holding, and i put the heel of my hand against the trammel as it starts to push, just to help it.",19610.906,19620.406,9.5,33,208.421052631579,1,"combat","TRAVIS",1,0,0,0
 "3593","End",8,114,3593,"combat","LIAM","i grab scanlan like a football for old times' sake and i come up behind keyleth and i kiss her on the cheek and stare forward.",19620.406,19630.93,10.5240000000013,27,153.933865450381,1,"combat","LIAM",1,0,0,0
 "3594","End",8,114,3594,"combat","MARISHA","we all spoon each other as a winged spooning circle while holding scanlan while holding the book.",19630.93,19635.587,4.65699999999924,18,231.908954262438,1,"combat","MARISHA",1,0,0,0
-"3595","End",8,114,3595,"combat","SAM","bigby's hand is gently tickling my taint.",19635.587,19640.994,5.40699999999924,9,99.8705381912476,1,"combat","SAM",1,0,0,0
+"3595","End",8,114,3595,"combat","SAM","bigby's hand is gently tickling my taint.",19635.587,19638.401,2.81400000000212,9,191.897654584077,1,"combat","SAM",1,0,0,0
 "3596","End",8,114,3596,"combat","TRAVIS","i make sure pike's with me over here.",19640.994,19643.62,2.6260000000002,10,228.484386900211,1,"combat","TRAVIS",1,0,0,0
 "3597","End",8,114,3597,"combat","ASHLEY","yeah. i fly up next to grog, and if he has a free hand, i hold the other hand.",19643.62,19648.2,4.58000000000175,20,262.008733624354,1,"combat","ASHLEY",1,0,0,0
 "3598","End",8,114,3598,"combat","TRAVIS","yeah. i hold hands with pike.",19648.2,19650.5,2.29999999999927,7,182.608695652232,1,"combat","TRAVIS",1,0,0,0
@@ -3645,7 +3645,7 @@
 "3644","End",8,114,3644,"epilog","MATT","but what a way to finish a final boss, man.",20102.537,20106.218,3.68100000000049,11,179.299103504458,NA,NA,"MATT",0,0,0,1
 "3645","End",8,114,3645,"epilog","LIAM","i didn't use two of my luck. i saved them!",20106.218,20111.349,5.13099999999758,12,140.323523679661,NA,NA,"LIAM",1,0,0,0
 "3646","End",8,114,3646,"epilog","TRAVIS","after all this time, you finally saved them.",20111.349,20116.402,5.05299999999988,9,106.867207599448,NA,NA,"TRAVIS",1,0,0,0
-"3647","End",8,114,3647,"epilog","MATT","as a note, he had ten hit points left.",20116.402,20122.218,5.81600000000253,10,103.163686382348,NA,NA,"MATT",0,0,0,1
+"3647","End",8,114,3647,"epilog","MATT","as a note, he had ten hit points left.",20116.402,20119.671,3.26900000000023,10,183.54236769653,NA,NA,"MATT",0,0,0,1
 "3648","End",8,114,3648,"epilog","TALIESIN","okay, that could have gone real bad.",20122.218,20125.277,3.05899999999747,8,156.914024191042,NA,NA,"TALIESIN",1,0,0,0
 "3649","End",8,114,3649,"epilog","LIAM","real bad.",20125.277,20126.854,1.57700000000114,3,114.140773620717,NA,NA,"LIAM",1,0,0,0
 "3650","End",8,114,3650,"epilog","MATT","and his ability discorporation. when vecna drops to zero hit points, his avatar form is destroyed but his essence travels back to his phylactery demiplane just beyond the prime material, and he is unable to take physical form for a time.",20126.854,20137.844,10.9900000000016,42,229.299363057291,NA,NA,"MATT",0,0,0,1
@@ -3659,12 +3659,12 @@
 "3658","End",8,114,3658,"epilog","TALIESIN","yeah, nope.",20154.504,20156.12,1.61599999999817,3,111.386138613988,NA,NA,"TALIESIN",1,0,0,0
 "3659","End",8,114,3659,"epilog","SAM","everyone was clutch. pike.",20156.12,20161.705,5.58500000000276,5,53.7153088629994,NA,NA,"SAM",1,0,0,0
 "3660","End",8,114,3660,"epilog","MARISHA","yeah, everyone.",20161.705,20163.302,1.59699999999793,3,112.711333750929,NA,NA,"MARISHA",1,0,0,0
-"3661","End",8,114,3661,"epilog","SAM","keyleth for the win. the most wisdom she's ever had.",20163.302,20172.184,8.88200000000143,12,81.0628236883455,NA,NA,"SAM",1,0,0,0
+"3661","End",8,114,3661,"epilog","SAM","keyleth for the win. the most wisdom she's ever had.",20163.302,20169.45,6.14800000000105,12,117.111255692888,NA,NA,"SAM",1,0,0,0
 "3662","End",8,114,3662,"epilog","MARISHA","in another form. can read all languages.",20172.184,20176.616,4.4320000000007,8,108.303249097456,NA,NA,"MARISHA",1,0,0,0
 "3663","End",8,114,3663,"epilog","LIAM","sam. you were trying to save a wish for me?",20176.616,20181.125,4.5089999999982,11,146.373918829067,NA,NA,"LIAM",1,0,0,0
 "3664","End",8,114,3664,"epilog","ASHLEY","matt!",20181.125,20183.177,2.05199999999968,2,58.4795321637518,NA,NA,"ASHLEY",1,0,0,0
 "3665","End",8,114,3665,"epilog","TRAVIS","yeah, the gnarliest map of all time.",20183.177,20185.872,2.69499999999971,8,178.107606679054,NA,NA,"TRAVIS",1,0,0,0
-"3666","End",8,114,3666,"epilog","MATT","i'm glad that worked out.",20185.872,20192.904,7.03199999999924,7,59.7269624573443,NA,NA,"MATT",0,0,0,1
+"3666","End",8,114,3666,"epilog","MATT","i'm glad that worked out.",20185.872,20188.149,2.27700000000186,7,184.453227931338,NA,NA,"MATT",0,0,0,1
 "3667","End",8,114,3667,"epilog","MATT","all right. it's late.",20192.904,20197.561,4.65700000000288,6,77.3029847540857,NA,NA,"MATT",0,0,0,1
 "3668","End",8,114,3668,"epilog","TALIESIN","it's so late.",20197.561,20198.781,1.21999999999753,5,245.901639344761,NA,NA,"TALIESIN",1,0,0,0
 "3669","End",8,114,3669,"epilog","LAURA","i love you guys.",20198.781,20201.728,2.94700000000012,5,101.798439090597,NA,NA,"LAURA",1,0,0,0
@@ -3680,7 +3680,7 @@
 "3679","End",8,114,3679,"epilog","LIAM","we're so glad you were here from the start of the game, ash!",20221.983,20224.752,2.76900000000023,15,325.027085590439,NA,NA,"LIAM",1,0,0,0
 "3680","End",8,114,3680,"epilog","MATT","it's 3:30, 4:30.",20224.752,20228.714,3.96199999999953,7,106.007067137822,NA,NA,"MATT",0,0,0,1
 "3681","End",8,114,3681,"epilog","LAURA","what time is your call in the morning?",20228.714,20230.732,2.01800000000003,9,267.591674925665,NA,NA,"LAURA",1,0,0,0
-"3682","End",8,114,3682,"epilog","ASHLEY","i don't have to work tomorrow.",20230.732,20234.281,3.54899999999907,8,135.249366018632,NA,NA,"ASHLEY",1,0,0,0
+"3682","End",8,114,3682,"epilog","ASHLEY","i don't have to work tomorrow.",20230.732,20232.164,1.4320000000007,8,335.195530726093,NA,NA,"ASHLEY",1,0,0,0
 "3683","End",8,114,3683,"epilog","MATT","thank you blindspot for releasing her early enough to come play with us tonight.",20234.281,20237.805,3.52400000000125,15,255.391600453939,NA,NA,"MATT",0,0,0,1
 "3684","End",8,114,3684,"epilog","TALIESIN","thank you, blindspot. oh my god.",20237.805,20239.435,1.63000000000102,7,257.668711656281,NA,NA,"TALIESIN",1,0,0,0
 "3685","End",8,114,3685,"epilog","MATT","thank you guys for watching. we'll pick this up next week. until then, rest well, we love you, and is it thursday yet?",20239.435,20245.061,5.6260000000002,25,266.619267685735,NA,NA,"MATT",0,0,0,1

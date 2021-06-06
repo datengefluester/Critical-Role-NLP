@@ -1,5 +1,5 @@
 "","arc","arc_no","episode","turn_number","segment","actor","text","start_turn","end_turn","time_in_sec","word_count","words_per_minute","encounter_count","rp_combat","actor_guest","vox_machina","guest","staff","matt"
-"1","End",8,113,1,"prologue","MATT","hello, and welcome to tonight's episode of critical role, where a bunch of us nerdy-ass voice actors sit around and play dungeons and dragons. first and foremost, we are super excited that we actually have in the flesh here with us tonight the wonderful ashley johnson!",0,17.302,17.302,49,169.922552306092,NA,"role_play","MATT",0,0,0,1
+"1","End",8,113,1,"prologue","MATT","hello, and welcome to tonight's episode of critical role, where a bunch of us nerdy-ass voice actors sit around and play dungeons and dragons. first and foremost, we are super excited that we actually have in the flesh here with us tonight the wonderful ashley johnson!",0,14.344,14.344,49,204.963747908533,NA,"role_play","MATT",0,0,0,1
 "2","End",8,113,2,"prologue","ASHLEY","so glad.",17.302,18.709,1.407,3,127.931769722814,NA,"role_play","ASHLEY",1,0,0,0
 "3","End",8,113,3,"prologue","MATT","we missed you so much.",18.709,20.158,1.449,6,248.447204968944,NA,"role_play","MATT",0,0,0,1
 "4","End",8,113,4,"prologue","ASHLEY","i missed you. everybody.",20.158,22.509,2.351,5,127.60527435134,NA,"role_play","ASHLEY",1,0,0,0
@@ -8,7 +8,7 @@
 "7","End",8,113,7,"prologue","ASHLEY","i'd be okay with it.",25.722,28.849,3.127,7,134.31403901503,NA,"role_play","ASHLEY",1,0,0,0
 "8","End",8,113,8,"prologue","LIAM","you'll eat your rice and play dungeons and dragons.",28.849,30.492,1.643,11,401.704199634814,NA,"role_play","LIAM",1,0,0,0
 "9","End",8,113,9,"prologue","MATT","i'm glad you could join us here for this. all right, so next up i believe, laura, we have some new merch? apparently, which i forgot about until you showed me before the show.",30.492,43.368,12.876,36,167.753960857409,NA,"role_play","MATT",0,0,0,1
-"10","End",8,113,10,"prologue","LAURA","i was just showing this off before the stream. we have this amazing matthew mercer shirt.",43.368,53.89,10.522,17,96.9397452955712,NA,"role_play","LAURA",1,0,0,0
+"10","End",8,113,10,"prologue","LAURA","i was just showing this off before the stream. we have this amazing matthew mercer shirt.",43.368,50.704,7.336,17,139.040348964013,NA,"role_play","LAURA",1,0,0,0
 "11","End",8,113,11,"prologue","LAURA","it's kind of wrinkly because i was sitting on it but...",53.89,56.289,2.399,13,325.135473113797,NA,"role_play","LAURA",1,0,0,0
 "12","End",8,113,12,"prologue","MATT","i have a shirt.",56.289,61.702,5.413,5,55.422131904674,NA,"role_play","MATT",0,0,0,1
 "13","End",8,113,13,"prologue","LAURA","so hey, that's in the store. that's in the store right now.",61.702,65.007,3.30500000000001,15,272.314674735249,NA,"role_play","LAURA",1,0,0,0
@@ -589,7 +589,7 @@
 "588","End",8,113,588,"first_half_rp","LIAM","goodnight, brother.",2821.732,2823.127,1.39499999999998,3,129.032258064518,NA,"role_play","LIAM",1,0,0,0
 "589","End",8,113,589,"first_half_rp","TALIESIN","goodnight, brother.",2823.127,2824.796,1.66899999999987,3,107.849011384071,NA,"role_play","TALIESIN",1,0,0,0
 "590","End",8,113,590,"first_half_rp","TRAVIS","and we sleep.",2824.796,2826.489,1.69300000000021,4,141.760189013568,NA,"role_play","TRAVIS",1,0,0,0
-"591","End",8,113,591,"first_half_rp","MATT","all right. you all find yourselves resting, uncomfortable at first, but the knowledge and the exhaustion hitting you, eventually it takes you. the dreams lead seamlessly, one to the next. memories of your meeting, of your story, of your experiences, bleeding between your fears, your victories, and the people whose lives you've touched and who've touched your lives. of wilhand. the fall of kevdak. to the respect of your father, and the vengeance of your mother. to climbing the destiny of the aramente. to rebuilding the memory of one's family. and to spooning a second version of yourself.",2826.489,2895.391,68.902,102,88.8218048822965,NA,"role_play","MATT",0,0,0,1
+"591","End",8,113,591,"first_half_rp","MATT","all right. you all find yourselves resting, uncomfortable at first, but the knowledge and the exhaustion hitting you, eventually it takes you. the dreams lead seamlessly, one to the next. memories of your meeting, of your story, of your experiences, bleeding between your fears, your victories, and the people whose lives you've touched and who've touched your lives. of wilhand. the fall of kevdak. to the respect of your father, and the vengeance of your mother. to climbing the destiny of the aramente. to rebuilding the memory of one's family. and to spooning a second version of yourself.",2826.489,2883.544,57.0549999999998,102,107.264919814215,NA,"role_play","MATT",0,0,0,1
 "592","End",8,113,592,"first_half_rp","LIAM","oh, my darling, i hunger for your touch",2895.391,2901.212,5.82099999999991,8,82.4600584092093,NA,"role_play","LIAM",1,0,0,0
 "593","End",8,113,593,"first_half_rp","MATT","and knowing that you've taken your faith from a place of being forgotten to a newly built symbol of hope. these thoughts all mingle, as the dark of rest takes you. and as you all awake, in the center of this strange, mystical meadow, peeking through the hints of purple and orange that signify the sky that breaks through the canopy of this forest, the pools of nala that once brought you here long ago. you all awake, the beds gone, the tents gone. you're all lying amongst this field in a circle, around each other. as you come to consciousness, you all sit up, take a breath, feel the warmth and the knowledge of what has to be done wash over you, the shadow between two distant trees reveals the orange mane of artagan once more, as he steps forth, his high green collar disappearing into his long sleeves, and a cloak that billows past his shoulders and loops into his back, as he almost glides effortlessly through the grass. ""i take it you all ""slept well?""",2901.212,2992.788,91.576,181,118.590023586966,NA,"role_play","MATT",0,0,0,1
 "594","End",8,113,594,"first_half_rp","TRAVIS","yeah.",2992.788,2995.141,2.35300000000007,2,50.9987250318728,NA,"role_play","TRAVIS",1,0,0,0
@@ -641,9 +641,9 @@
 "640","End",8,113,640,"combat","LAURA","i thought they could be trapped under the wall or something.",3220.483,3222.498,2.01499999999987,12,357.320099255606,1,"combat","LAURA",1,0,0,0
 "641","End",8,113,641,"combat","TALIESIN","no, it was fair. i'm not in the mood for that. and resolves i got plenty of.",3222.498,3226.259,3.76099999999997,19,303.110874767352,1,"combat","TALIESIN",1,0,0,0
 "642","End",8,113,642,"combat","MATT","it crumples over onto you. you manage to pull away. as you turn around, you can see, right around the edge of the part of the building that's collapsed and fallen, a gloomstalker, covered in dust, shaking its head as it attempts to stand once more. it looks like it's been slammed to the ground, or crashed into this wall. and you can see it's on the ground,, shaking its head and trying to get back up, its wings trying to unfurl. as it rights its head, you see a leaping blur of black armor and red scales climb to the back of the beast, grasping the side of its shoulders as it spins back and forth, trying to shake it. you see this humanoid figure, trying to take something and throw it around its throat and its head, however, it's just not able to grasp it around, and gets thrown off the side and to the back. you watch as the gloomstalker bucks off the assailant and begins to try and get its wings up once more, as the figure leaps up again and shoulder slams it into the wall a second time. you get a better look at it now. you can see now, standing at a pretty decent height, about a seven-foot dragonborn of red scale and black, hooked armor, bladed and angry. you see a burning fury in its eyes. joe, if you want to come to the table, please.",3226.259,3299.96,73.701,250,203.525053934139,1,"combat","MATT",0,0,0,1
-"643","End",8,113,643,"combat","MATT","ooh!",3299.96,3309.999,10.0389999999998,2,11.9533818109376,1,"combat","MATT",0,0,0,1
+"643","End",8,113,643,"combat","MATT","ooh!",3299.96,3301.444,1.48399999999992,2,80.8625336927265,1,"combat","MATT",0,0,0,1
 "644","End",8,113,644,"combat","LIAM","welcome to the table!",3309.999,3313.576,3.57700000000023,5,83.8691641039925,1,"combat","LIAM",1,0,0,0
-"645","End",8,113,645,"combat","SAM","what's this?",3313.576,3322.311,8.73500000000013,4,27.475672581568,1,"combat","SAM",1,0,0,0
+"645","End",8,113,645,"combat","SAM","what's this?",3313.576,3315.925,2.34900000000016,4,102.171136653888,1,"combat","SAM",1,0,0,0
 "646","End",8,113,646,"combat","JOE","yes!",3322.311,3323.658,1.34699999999975,2,89.0868596882124,1,"combat","GUESTS",0,1,0,0
 "647","End",8,113,647,"combat","TRAVIS","brothers in arms! yeah!",3323.658,3325.263,1.60500000000002,5,186.915887850465,1,"combat","TRAVIS",1,0,0,0
 "648","End",8,113,648,"combat","TALIESIN","i like that it's kitty-corner right now.",3325.263,3327.12,1.85699999999997,10,323.101777059779,1,"combat","TALIESIN",1,0,0,0
@@ -803,7 +803,7 @@
 "802","End",8,113,802,"combat","LAURA","oh, shit. are you going to let him do that to your girl?",3904.25,3906.908,2.6579999999999,14,316.027088036129,1,"combat","LAURA",1,0,0,0
 "803","End",8,113,803,"combat","MATT","it's at this moment you hear two heavy impacts from nearby rooftops.",3906.908,3910.599,3.69100000000026,14,227.580601463002,1,"combat","MATT",0,0,0,1
 "804","End",8,113,804,"combat","TRAVIS","okay. maybe not the best reunion time.",3910.599,3915.803,5.20399999999972,8,92.2367409684907,1,"combat","TRAVIS",1,0,0,0
-"805","End",8,113,805,"combat","MATT","as you all stay as silent as possible, waiting, one of them takes off. and you can see it arc barely over the opening, but seems to be doing a wide sweep, out of visual range. the other one appears to be stalking from rooftop to rooftop, not far from you. it leaps and lands on top of the small part of the roof that's above you guys. it holds. a few rocks tumble around you as you're quietly in that space, hoping. its head peeks over the edge and looks straight down, right into all of you.",3915.803,3970.922,55.1190000000001,101,109.943939476405,1,"combat","MATT",0,0,0,1
+"805","End",8,113,805,"combat","MATT","as you all stay as silent as possible, waiting, one of them takes off. and you can see it arc barely over the opening, but seems to be doing a wide sweep, out of visual range. the other one appears to be stalking from rooftop to rooftop, not far from you. (sniffing and croaking) it leaps and lands on top of the small part of the roof that's above you guys. it holds. a few rocks tumble around you as you're quietly in that space, hoping. its head peeks over the edge and looks straight down, right into all of you.",3915.803,3970.922,55.1190000000001,104,113.209601045011,1,"combat","MATT",0,0,0,1
 "806","End",8,113,806,"combat","LAURA","oh, god darn it.",3970.922,3972.958,2.03600000000006,5,147.347740667972,1,"combat","LAURA",1,0,0,0
 "807","End",8,113,807,"combat","MATT","what are you doing?",3972.958,3974.628,1.67000000000007,5,179.640718562866,1,"combat","MATT",0,0,0,1
 "808","End",8,113,808,"combat","LAURA","i shoot an arrow into its eyeball.",3974.628,3977.556,2.92799999999988,8,163.934426229515,1,"combat","LAURA",1,0,0,0
@@ -1244,13 +1244,13 @@
 "1243","End",8,113,1243,"first_half_rp","SAM","are they hovering?",6058.542,6059.789,1.24699999999939,4,192.461908580688,NA,"role_play","SAM",1,0,0,0
 "1244","End",8,113,1244,"first_half_rp","MATT","they've landed on a tower right across from the building where you guys are.",6059.789,6062.432,2.64300000000003,16,363.223609534616,NA,"role_play","MATT",0,0,0,1
 "1245","End",8,113,1245,"first_half_rp","LAURA","how far away is that?",6062.432,6063.674,1.24200000000019,6,289.855072463724,NA,"role_play","LAURA",1,0,0,0
-"1246","End",8,113,1246,"first_half_rp","MATT","let me show you.",6063.674,6068.405,4.73099999999977,5,63.411540900447,NA,"role_play","MATT",0,0,0,1
+"1246","End",8,113,1246,"first_half_rp","MATT","let me show you.",6063.674,6065.347,1.67299999999977,5,179.318589360455,NA,"role_play","MATT",0,0,0,1
 "1247","End",8,113,1247,"first_half_rp","TRAVIS","oh this is it! oh no!",6068.405,6070.464,2.0590000000002,7,203.982515784342,NA,"role_play","TRAVIS",1,0,0,0
 "1248","End",8,113,1248,"first_half_rp","LAURA","oh my god.",6073.074,6076.509,3.4350000000004,4,69.8689956331796,NA,"role_play","LAURA",1,0,0,0
 "1249","End",8,113,1249,"first_half_rp","MARISHA","so wait, is it vorugal? is it thordak?",6076.509,6080.305,3.79600000000028,9,142.255005268694,NA,"role_play","MARISHA",1,0,0,0
 "1250","End",8,113,1250,"first_half_rp","LIAM","no it's <i>his</i> mount.",6080.305,6082.042,1.73700000000008,8,276.338514680471,NA,"role_play","LIAM",1,0,0,0
 "1251","End",8,113,1251,"first_half_rp","MARISHA","it's your old mount?",6082.042,6083.797,1.7549999999992,6,205.128205128299,NA,"role_play","MARISHA",1,0,0,0
-"1252","End",8,113,1252,"first_half_rp","JOE","i rode in on a white dragon named obakala.",6083.797,6090.07,6.27300000000014,10,95.6480153036803,NA,"role_play","GUESTS",0,1,0,0
+"1252","End",8,113,1252,"first_half_rp","JOE","i rode in on a white dragon named obakala.",6083.797,6087.522,3.72500000000036,10,161.07382550334,NA,"role_play","GUESTS",0,1,0,0
 "1253","End",8,113,1253,"first_half_rp","TALIESIN","what? no!",6090.07,6093.161,3.09100000000035,3,58.2335813652474,NA,"role_play","TALIESIN",1,0,0,0
 "1254","End",8,113,1254,"first_half_rp","MATT","ooh.",6093.161,6096.883,3.72199999999975,2,32.2407307899,NA,"role_play","MATT",0,0,0,1
 "1255","End",8,113,1255,"first_half_rp","LAURA","and they're on this?",6096.883,6098.46,1.57700000000023,6,228.281547241565,NA,"role_play","LAURA",1,0,0,0
@@ -1344,7 +1344,7 @@
 "1343","End",8,113,1343,"first_half_rp","JOE","so then, it they had a 20. i had a 27.",6365.489,6371.183,5.69400000000041,12,126.448893572172,NA,"role_play","GUESTS",0,1,0,0
 "1344","End",8,113,1344,"first_half_rp","MATT","all right. you both succeeded on the save so you take half damage which is only 26 points of necrotic damage.",6371.183,6378.265,7.08200000000033,22,186.388025981352,NA,"role_play","MATT",0,0,0,1
 "1345","End",8,113,1345,"first_half_rp","TALIESIN","that's solid.",6378.265,6379.489,1.22399999999925,4,196.078431372669,NA,"role_play","TALIESIN",1,0,0,0
-"1346","End",8,113,1346,"first_half_rp","MATT","sorry, piercing damage, not necrotic. so as the bone shards go slamming into each of you, that completes the dragon's turn. now everybody please roll initiative.",6379.489,6389.944,10.4550000000008,28,160.688665710174,NA,"role_play","MATT",0,0,0,1
+"1346","End",8,113,1346,"first_half_rp","MATT","sorry, piercing damage, not necrotic. so as the bone shards go slamming into each of you, that completes the dragon's turn. now everybody please roll initiative.",6379.489,6388.741,9.25200000000041,28,181.582360570679,NA,"role_play","MATT",0,0,0,1
 "1347","End",8,113,1347,"combat","TRAVIS","okay. come on, come get some!",6389.944,6391.4,1.45599999999922,7,288.461538461693,2,"combat","TRAVIS",1,0,0,0
 "1348","End",8,113,1348,"combat","LAURA","oh god, oh god, oh god.",6391.4,6392.833,1.43299999999999,7,293.091416608515,2,"combat","LAURA",1,0,0,0
 "1349","End",8,113,1349,"combat","JOE","you said 60, matt?",6392.833,6396.633,3.80000000000018,5,78.9473684210488,2,"combat","GUESTS",0,1,0,0
@@ -1591,7 +1591,7 @@
 "1590","End",8,113,1590,"combat","MATT","that ends your turn, percival. arkhan, you're up.",7361.404,7367.119,5.71499999999924,10,104.986876640434,2,"combat","MATT",0,0,0,1
 "1591","End",8,113,1591,"combat","JOE","i would like to rage.",7367.119,7369.099,1.98000000000047,6,181.818181818138,2,"combat","GUESTS",0,1,0,0
 "1592","End",8,113,1592,"combat","TRAVIS","did you rage?",7369.099,7371.658,2.5590000000002,4,93.7866354044477,2,"combat","TRAVIS",1,0,0,0
-"1593","End",8,113,1593,"combat","JOE","yes!",7371.658,7377.026,5.36799999999948,2,22.3546944858442,2,"combat","GUESTS",0,1,0,0
+"1593","End",8,113,1593,"combat","JOE","yes!",7371.658,7373.042,1.38400000000001,2,86.7052023121378,2,"combat","GUESTS",0,1,0,0
 "1594","End",8,113,1594,"combat","LIAM","sorry audio team.",7377.026,7379.154,2.12800000000061,4,112.781954887186,2,"combat","LIAM",1,0,0,0
 "1595","End",8,113,1595,"combat","SAM","the testosterone in his group just went from a half to one.",7379.154,7383.274,4.11999999999989,13,189.32038834952,2,"combat","SAM",1,0,0,0
 "1596","End",8,113,1596,"combat","MATT","did you say you went into a frenzied rage earlier?",7383.274,7385.328,2.05400000000009,11,321.324245374865,2,"combat","MATT",0,0,0,1
@@ -1606,7 +1606,7 @@
 "1605","End",8,113,1605,"combat","JOE","now it's me.",7445.685,7447.127,1.44200000000001,5,208.044382801663,2,"combat","GUESTS",0,1,0,0
 "1606","End",8,113,1606,"combat","LAURA","that's an awesome is that your wyrmwood box?",7447.127,7449.167,2.03999999999996,10,294.117647058829,2,"combat","LAURA",1,0,0,0
 "1607","End",8,113,1607,"combat","JOE","this is mine, yes. they do those specials. those one of a kinds that you can buy.",7449.167,7455.817,6.64999999999964,18,162.406015037603,2,"combat","GUESTS",0,1,0,0
-"1608","End",8,113,1608,"combat","LAURA","oh, oh well.",7455.817,7460.605,4.78799999999956,4,50.1253132832127,2,"combat","LAURA",1,0,0,0
+"1608","End",8,113,1608,"combat","LAURA","oh, oh well.",7455.817,7457.246,1.42900000000009,4,167.949615115455,2,"combat","LAURA",1,0,0,0
 "1609","End",8,113,1609,"combat","TALIESIN","next campaign.",7460.605,7462.169,1.56400000000031,3,115.089514066474,2,"combat","TALIESIN",1,0,0,0
 "1610","End",8,113,1610,"combat","ASHLEY","i have an idea.",7462.169,7463.934,1.76500000000033,5,169.97167138807,2,"combat","ASHLEY",1,0,0,0
 "1611","End",8,113,1611,"combat","JOE","so i get advantage on my attacks because i'm raging. this is the first time i've ever raged.",7463.934,7471.861,7.92699999999968,21,158.950422606289,2,"combat","GUESTS",0,1,0,0
@@ -1635,7 +1635,7 @@
 "1634","End",8,113,1634,"combat","TRAVIS","dump it, dude.",7538.408,7539.542,1.13400000000001,4,211.640211640209,2,"combat","TRAVIS",1,0,0,0
 "1635","End",8,113,1635,"combat","LIAM","unload.",7539.542,7540.752,1.21000000000004,2,99.1735537190053,2,"combat","LIAM",1,0,0,0
 "1636","End",8,113,1636,"combat","JOE","so that's seven.",7540.752,7542.402,1.64999999999964,5,181.818181818222,2,"combat","GUESTS",0,1,0,0
-"1637","End",8,113,1637,"combat","SAM","math!",7542.402,7562.409,20.0069999999996,2,5.99790073474296,2,"combat","SAM",1,0,0,0
+"1637","End",8,113,1637,"combat","SAM","math!",7542.402,7558.328,15.9260000000004,2,7.53484867512226,2,"combat","SAM",1,0,0,0
 "1638","End",8,113,1638,"combat","JOE","it's going to be 49.",7562.409,7569.874,7.46500000000015,7,56.2625586068308,2,"combat","GUESTS",0,1,0,0
 "1639","End",8,113,1639,"combat","MATT","49 points of damage on the first hit. so as you rush up and the gloomstalker is scratching towards it, you rush with a giant arc. you watch as fane-eater's blade springs forth these darkened spray of colors, red, green, black. every chromatic dragon's power thrust into the blade as you slam it into the undead dragon. watching bones splinter and break from the blast of dark energy.",7569.874,7594.078,24.2040000000006,72,178.482895389187,2,"combat","MATT",0,0,0,1
 "1640","End",8,113,1640,"combat","JOE","love it. second attack.",7594.078,7595.963,1.88499999999931,5,159.151193634011,2,"combat","GUESTS",0,1,0,0
@@ -1668,7 +1668,7 @@
 "1667","End",8,113,1667,"combat","MATT","you can reduce an enemy's saving throw.",7751.543,7753.766,2.22299999999996,9,242.91497975709,2,"combat","MATT",0,0,0,1
 "1668","End",8,113,1668,"combat","SAM","got it.",7753.766,7755.049,1.28300000000036,3,140.29618082615,2,"combat","SAM",1,0,0,0
 "1669","End",8,113,1669,"combat","MATT","through mythcarver.",7755.049,7757.024,1.97500000000036,3,91.1392405063123,2,"combat","MATT",0,0,0,1
-"1670","End",8,113,1670,"combat","JOE","straight up roll. here we go. natural 20!",7757.024,7765.84,8.8159999999998,9,61.2522686025422,2,"combat","GUESTS",0,1,0,0
+"1670","End",8,113,1670,"combat","JOE","straight up roll. here we go. natural 20!",7757.024,7763.957,6.93299999999999,9,77.8883600173086,2,"combat","GUESTS",0,1,0,0
 "1671","End",8,113,1671,"combat","MATT","oh shit.",7765.84,7771.818,5.97800000000007,3,30.1104048176644,2,"combat","MATT",0,0,0,1
 "1672","End",8,113,1672,"combat","TRAVIS","in the clutch.",7771.818,7773.805,1.98700000000008,4,120.785103170604,2,"combat","TRAVIS",1,0,0,0
 "1673","End",8,113,1673,"combat","JOE","i stare him right in the eyes. what would have happened?",7773.805,7781.821,8.01599999999962,12,89.8203592814414,2,"combat","GUESTS",0,1,0,0
@@ -1820,7 +1820,7 @@
 "1819","End",8,113,1819,"combat","TRAVIS","that hits.",8432.86,8434.022,1.16200000000026,3,154.905335628192,2,"combat","TRAVIS",1,0,0,0
 "1820","End",8,113,1820,"combat","MATT","that is 14 points of damage, reduced to seven, and i need you to make a wisdom saving throw, please.",8434.022,8449.291,15.2689999999984,21,82.5201388434168,2,"combat","MATT",0,0,0,1
 "1821","End",8,113,1821,"combat","TALIESIN","with advantage.",8449.291,8450.468,1.1770000000015,3,152.931180968369,2,"combat","TALIESIN",1,0,0,0
-"1822","End",8,113,1822,"combat","TRAVIS","with advantage. oh, wait. that's a d10. natural 20.",8450.468,8464.423,13.9549999999999,11,47.2948763883915,2,"combat","TRAVIS",1,0,0,0
+"1822","End",8,113,1822,"combat","TRAVIS","with advantage. oh, wait. that's a d10. natural 20.",8450.468,8460.727,10.259,11,64.3337557266789,2,"combat","TRAVIS",1,0,0,0
 "1823","End",8,113,1823,"combat","TRAVIS","first one was a three.",8464.423,8466.656,2.23300000000017,6,161.218092252562,2,"combat","TRAVIS",1,0,0,0
 "1824","End",8,113,1824,"combat","MATT","as the blade sinks across you, you resist the impact, but you feel this cold sensation across the wound that begins to spill across your body. you angrily, in your rage, flex against it and manage to withstand and shrug off the effect. that ends that. next up is keyleth and scanlan two.",8466.656,8484.545,17.8889999999992,54,181.116887472757,2,"combat","MATT",0,0,0,1
 "1825","End",8,113,1825,"combat","SAM","hey.",8484.545,8487.649,3.10399999999936,2,38.659793814441,2,"combat","SAM",1,0,0,0
@@ -1852,7 +1852,7 @@
 "1851","End",8,113,1851,"combat","SAM","is bigby's hand a magic attack or a physical attack? it's a melee spell attack.",8647.359,8651.256,3.89699999999903,18,277.136258660577,2,"combat","SAM",1,0,0,0
 "1852","End",8,113,1852,"combat","MATT","it's a melee spell, so you get advantage on the attack roll, yeah.",8651.256,8653.66,2.40400000000045,15,374.376039933374,2,"combat","MATT",0,0,0,1
 "1853","End",8,113,1853,"combat","SAM","okay, then i'll change my plans and i'll do that. scanlan two will cast bigby's hand at level-6 and pound her really hard. shit.",8653.66,8670.469,16.8089999999993,29,103.515973585584,2,"combat","SAM",1,0,0,0
-"1854","End",8,113,1854,"combat","JOE","is that a philip seymour hoffman happiness reference?",8670.469,8679.353,8.88400000000001,9,60.7834308869877,2,"combat","GUESTS",0,1,0,0
+"1854","End",8,113,1854,"combat","JOE","is that a philip seymour hoffman happiness reference?",8670.469,8676.315,5.84600000000137,9,92.3708518645011,2,"combat","GUESTS",0,1,0,0
 "1855","End",8,113,1855,"combat","SAM","is that 6d8? or 8d8? bigby's hand; i always forget.",8679.353,8690.314,10.9610000000011,12,65.6874372776138,2,"combat","SAM",1,0,0,0
 "1856","End",8,113,1856,"combat","MATT","it's 5th-level, and you've cast it at 6th, correct? so it's an additional 2d8 to the punch.",8690.314,8700.073,9.75900000000001,22,135.259760221334,2,"combat","MATT",0,0,0,1
 "1857","End",8,113,1857,"combat","SAM","and it starts at 4d8? oh, so it's only 6d8.",8700.073,8703.326,3.25299999999879,12,221.334153089538,2,"combat","SAM",1,0,0,0
@@ -1869,7 +1869,7 @@
 "1868","End",8,113,1868,"combat","MATT","all right.",8742.225,8744.915,2.69000000000051,3,66.9144981412513,2,"combat","MATT",0,0,0,1
 "1869","End",8,113,1869,"combat","SAM","29, and then i guess, as his bonus action, he'll inspire vax, who's not even here.",8744.915,8757.96,13.0449999999983,19,87.3898045228174,2,"combat","SAM",1,0,0,0
 "1870","End",8,113,1870,"combat","MATT","sing to the space where he was.",8757.96,8761.343,3.38300000000163,8,141.88590008861,2,"combat","MATT",0,0,0,1
-"1871","End",8,113,1871,"combat","SAM","scanlan two only knows the songs of scanlan, so he will sing, weirdly hollowly: when i get that feeling, i want clarota healing.",8761.343,8777.591,16.2479999999996,24,88.6262924667674,2,"combat","SAM",1,0,0,0
+"1871","End",8,113,1871,"combat","SAM","scanlan two only knows the songs of scanlan, so he will sing, weirdly hollowly: when i get that feeling, i want clarota healing.",8761.343,8775.406,14.0630000000001,24,102.39635924056,2,"combat","SAM",1,0,0,0
 "1872","End",8,113,1872,"combat","SAM","he only knows the songs that he already knows!",8777.591,8779.899,2.30799999999908,10,259.965337955043,2,"combat","SAM",1,0,0,0
 "1873","End",8,113,1873,"combat","TRAVIS","i told you, it's the jam.",8779.899,8782.259,2.36000000000058,8,203.389830508424,2,"combat","TRAVIS",1,0,0,0
 "1874","End",8,113,1874,"combat","MATT","all right, so when he gets back, give him the d12.",8782.259,8785.352,3.09300000000076,12,232.783705140583,2,"combat","MATT",0,0,0,1
@@ -1892,7 +1892,7 @@
 "1891","End",8,113,1891,"combat","MATT","okay. as you pull the blade up, the voice goes, ""yes. her. she's part of the web. her. her!"" and you give into the fury. go ahead and make your attacks.",8915.456,8928.352,12.8960000000006,33,153.535980148876,2,"combat","MATT",0,0,0,1
 "1892","End",8,113,1892,"combat","TRAVIS","are they with advantage because she's prone?",8928.352,8930.681,2.32899999999972,9,231.859167024502,2,"combat","TRAVIS",1,0,0,0
 "1893","End",8,113,1893,"combat","MATT","correct. well, she's restrained.",8930.681,8932.23,1.54899999999907,6,232.408005164762,2,"combat","MATT",0,0,0,1
-"1894","End",8,113,1894,"combat","TRAVIS","so not reckless. natural 20.",8932.23,8941.278,9.04800000000068,6,39.7877984084851,2,"combat","TRAVIS",1,0,0,0
+"1894","End",8,113,1894,"combat","TRAVIS","so not reckless. natural 20.",8932.23,8937.616,5.38600000000042,6,66.8399554400245,2,"combat","TRAVIS",1,0,0,0
 "1895","End",8,113,1895,"combat","SAM","she's going to die.",8941.278,8942.959,1.68100000000049,6,214.158239143304,2,"combat","SAM",1,0,0,0
 "1896","End",8,113,1896,"combat","LIAM","butcher that motherfucker!",8942.959,8945.758,2.79899999999907,4,85.7449088960628,2,"combat","LIAM",1,0,0,0
 "1897","End",8,113,1897,"combat","TRAVIS","should i roll the second attack?",8945.758,8948.036,2.27800000000025,7,184.372256365213,2,"combat","TRAVIS",1,0,0,0
@@ -2005,7 +2005,7 @@
 "2004","End",8,113,2004,"combat","LAURA","47 for sharpshooter!",9327.518,9328.941,1.42300000000068,4,168.657765284529,2,"combat","LAURA",1,0,0,0
 "2005","End",8,113,2005,"combat","TRAVIS","hunter's mark?",9328.941,9330.045,1.10399999999936,4,217.391304347952,2,"combat","TRAVIS",1,0,0,0
 "2006","End",8,113,2006,"combat","LAURA","47, i didn't hunter's mark it.",9330.045,9331.521,1.47600000000057,9,365.853658536445,2,"combat","LAURA",1,0,0,0
-"2007","End",8,113,2007,"combat","MATT","47 points of damage with the sharpshooter. how do you want to do this?",9331.521,9338.171,6.64999999999964,15,135.338345864669,2,"combat","MATT",0,0,0,1
+"2007","End",8,113,2007,"combat","MATT","47 points of damage with the sharpshooter. how do you want to do this?",9331.521,9334.618,3.09699999999975,15,290.603810138867,2,"combat","MATT",0,0,0,1
 "2008","End",8,113,2008,"combat","MARISHA","get it girl! get it girl!",9338.171,9340.345,2.17399999999907,7,193.19227230919,2,"combat","MARISHA",1,0,0,0
 "2009","End",8,113,2009,"combat","MATT","she was reaching out for that dimension door.",9340.345,9344.822,4.47700000000077,9,120.616484252827,2,"combat","MATT",0,0,0,1
 "2010","End",8,113,2010,"combat","LAURA","oh fuck!",9344.822,9347.615,2.79299999999967,3,64.4468313641323,2,"combat","LAURA",1,0,0,0
@@ -2032,7 +2032,7 @@
 "2031","End",8,113,2031,"combat","TRAVIS","were her hands her own hands?",9456.57,9458.765,2.19499999999971,7,191.343963553556,2,"combat","TRAVIS",1,0,0,0
 "2032","End",8,113,2032,"combat","MATT","they seemed to be.",9458.765,9460.875,2.11000000000058,5,142.180094786691,2,"combat","MATT",0,0,0,1
 "2033","End",8,113,2033,"combat","LAURA","i'm going to run down the stairs to the lower level. yeah, i'm in there.",9460.875,9474.304,13.4290000000001,18,80.4229652245136,2,"combat","LAURA",1,0,0,0
-"2034","End",8,113,2034,"combat","MATT","okay. all right, first things first. as soon as delilah's body goes lifeless, keyleth, you feel this sudden shift beneath your feet, as the bone structure that maintains the body of the skeletal dragon collapses entirely.",9474.304,9499.407,25.1029999999992,38,90.8257977134238,2,"combat","MATT",0,0,0,1
+"2034","End",8,113,2034,"combat","MATT","okay. all right, first things first. as soon as delilah's body goes lifeless, keyleth, you feel this sudden shift beneath your feet, as the bone structure that maintains the body of the skeletal dragon collapses entirely.",9474.304,9496.485,22.1810000000005,38,102.790676705286,2,"combat","MATT",0,0,0,1
 "2035","End",8,113,2035,"combat","LAURA","two with one!",9499.407,9501.2,1.79300000000148,4,133.853876185054,2,"combat","LAURA",1,0,0,0
 "2036","End",8,113,2036,"combat","TALIESIN","i was going to feel really guilty about killing that thing.",9501.2,9509.468,8.26800000000003,12,87.0827285921623,2,"combat","TALIESIN",1,0,0,0
 "2037","End",8,113,2037,"combat","MATT","you suffer 11 points of bludgeoning damage.",9509.468,9517.1,7.63199999999961,8,62.8930817610095,2,"combat","MATT",0,0,0,1
@@ -2162,7 +2162,7 @@
 "2161","End",8,113,2161,"combat","MARISHA","no!",10069.474,10070.66,1.18599999999969,2,101.180438448593,2,"combat","MARISHA",1,0,0,0
 "2162","End",8,113,2162,"combat","MATT","you watch as he glances around and his body into a bat.",10070.66,10074.565,3.90500000000065,13,199.743918053744,2,"combat","MATT",0,0,0,1
 "2163","End",8,113,2163,"combat","SAM","scanlan two's going to cast counterspell.",10074.565,10077.32,2.7549999999992,8,174.228675136167,2,"combat","SAM",1,0,0,0
-"2164","End",8,113,2164,"combat","MATT","it's not a spell.",10077.32,10080.317,2.99699999999939,6,120.120120120145,2,"combat","MATT",0,0,0,1
+"2164","End",8,113,2164,"combat","MATT","it's not a spell.",10077.32,10078.858,1.53800000000047,6,234.070221066249,2,"combat","MATT",0,0,0,1
 "2165","End",8,113,2165,"combat","MATT","scanlan two goes to counter it, but there's no spell to counter.",10080.317,10084.294,3.97700000000077,14,211.214483278812,2,"combat","MATT",0,0,0,1
 "2166","End",8,113,2166,"combat","MARISHA","vampire bullshit!",10084.294,10086.001,1.70700000000033,3,105.448154657273,2,"combat","MARISHA",1,0,0,0
 "2167","End",8,113,2167,"combat","MATT","turns into a bat.",10086.001,10088.112,2.11099999999897,5,142.112742776005,2,"combat","MATT",0,0,0,1
@@ -2369,7 +2369,7 @@
 "2368","End",8,113,2368,"combat","SAM","they're easily killed.",10882.666,10884.158,1.49200000000019,5,201.072386058956,2,"combat","SAM",1,0,0,0
 "2369","End",8,113,2369,"combat","MATT","they're pretty easily killed given the circumstances you guys have, the chase now",10884.158,10886.65,2.49200000000019,14,337.078651685368,2,"combat","MATT",0,0,0,1
 "2370","End",8,113,2370,"combat","SAM","well, do you want to kill them, or save them for riding on?",10886.65,10891.29,4.64000000000124,14,181.034482758572,2,"combat","SAM",1,0,0,0
-"2371","End",8,113,2371,"combat","JOE","bah! i think i'm",10891.29,10894.663,3.37299999999959,5,88.9415950192814,2,"combat","GUESTS",0,1,0,0
+"2371","End",8,113,2371,"combat","JOE","bah! i think i'm",10891.29,10892.712,1.42199999999866,5,210.97046413522,2,"combat","GUESTS",0,1,0,0
 "2372","End",8,113,2372,"combat","JOE","40 minus three is 37, this one's got 37 hit points of damage.",10894.663,10902.895,8.23199999999997,15,109.32944606414,2,"combat","GUESTS",0,1,0,0
 "2373","End",8,113,2373,"combat","LAURA","just try to get sylas.",10902.895,10906.872,3.97699999999895,6,90.5204928338182,2,"combat","LAURA",1,0,0,0
 "2374","End",8,113,2374,"combat","JOE","do what you feel, scanlan.",10906.872,10908.637,1.76500000000124,6,203.966005665579,2,"combat","GUESTS",0,1,0,0
@@ -2422,7 +2422,7 @@
 "2421","End",8,113,2421,"combat","TALIESIN","much better!",11059.794,11061.859,2.06500000000051,3,87.1670702178962,2,"combat","TALIESIN",1,0,0,0
 "2422","End",8,113,2422,"combat","JOE","holy freaking half-elf!",11061.859,11063.449,1.59000000000015,5,188.679245283002,2,"combat","GUESTS",0,1,0,0
 "2423","End",8,113,2423,"combat","LAURA","20.",11063.449,11068.666,5.21699999999873,2,23.0017251293903,2,"combat","LAURA",1,0,0,0
-"2424","End",8,113,2424,"combat","MATT","20 just hits.",11068.666,11073.246,4.57999999999993,4,52.4017467248917,2,"combat","MATT",0,0,0,1
+"2424","End",8,113,2424,"combat","MATT","20 just hits.",11068.666,11070.009,1.34300000000076,4,178.704393149564,2,"combat","MATT",0,0,0,1
 "2425","End",8,113,2425,"combat","MARISHA","get him down!",11073.246,11076.825,3.57900000000154,4,67.0578373847154,2,"combat","MARISHA",1,0,0,0
 "2426","End",8,113,2426,"combat","LAURA","oh my god. okay, so 12, that's 18 plus 4d8.",11076.825,11091.06,14.2349999999988,12,50.5795574288769,2,"combat","LAURA",1,0,0,0
 "2427","End",8,113,2427,"combat","LIAM","sharpshooter doesn't double the distance?",11091.06,11092.93,1.8700000000008,7,224.598930481187,2,"combat","LIAM",1,0,0,0
@@ -2432,7 +2432,7 @@
 "2431","End",8,113,2431,"combat","LAURA","43.",11104.471,11106.175,1.70399999999972,2,70.422535211279,2,"combat","LAURA",1,0,0,0
 "2432","End",8,113,2432,"combat","MATT","43 points of damage.",11106.175,11108.442,2.26699999999983,5,132.333480370544,2,"combat","MATT",0,0,0,1
 "2433","End",8,113,2433,"combat","LAURA","and he has to make a strength save of dc 17 or be restrained.",11108.442,11113.174,4.73200000000179,15,190.19442096358,2,"combat","LAURA",1,0,0,0
-"2434","End",8,113,2434,"combat","MATT","that is a nine plus five, that is a 14.",11113.174,11119.021,5.84699999999975,11,112.878399179071,2,"combat","MATT",0,0,0,1
+"2434","End",8,113,2434,"combat","MATT","that is a nine plus five, that is a 14.",11113.174,11117.439,4.26499999999942,11,154.747948417372,2,"combat","MATT",0,0,0,1
 "2435","End",8,113,2435,"combat","MATT","as the arrow hits the bat, you watch as the arrow bursts into a sudden swarming of bramble vines. they wrap around him and the bat.",11119.021,11129.787,10.7659999999996,27,150.47371354264,2,"combat","MATT",0,0,0,1
 "2436","End",8,113,2436,"combat","LAURA","and does he take bludgeoning damage from hitting the ground?",11129.787,11132.969,3.18199999999888,11,207.416719044699,2,"combat","LAURA",1,0,0,0
 "2437","End",8,113,2437,"combat","MATT","he does take a little bit. he's about 80 feet up from there, because he's going at an angle, so he takes 8d6 bludgeoning damage.",11132.969,11141.201,8.23199999999997,28,204.081632653062,2,"combat","MATT",0,0,0,1
@@ -2485,7 +2485,7 @@
 "2484","End",8,113,2484,"combat","MATT","it's finishing vex's.",11301.427,11303.51,2.08300000000054,6,172.827652424343,2,"combat","MATT",0,0,0,1
 "2485","End",8,113,2485,"combat","LAURA","no, it's percy's turn.",11303.51,11305.114,1.60399999999936,7,261.84538653377,2,"combat","LAURA",1,0,0,0
 "2486","End",8,113,2486,"combat","MATT","okay, so percy. your turn.",11305.114,11306.875,1.76100000000042,6,204.429301533171,2,"combat","MATT",0,0,0,1
-"2487","End",8,113,2487,"combat","LAURA","you could technically try to sh oh yeah, mist form.",11306.875,11312.618,5.74300000000039,11,114.922514365306,2,"combat","LAURA",1,0,0,0
+"2487","End",8,113,2487,"combat","LAURA","you could technically try to sh oh yeah, mist form.",11306.875,11308.93,2.05500000000029,11,321.167883211633,2,"combat","LAURA",1,0,0,0
 "2488","End",8,113,2488,"combat","JOE","was that a jenga?",11312.618,11314.999,2.3809999999994,5,125.997480050431,2,"combat","GUESTS",0,1,0,0
 "2489","End",8,113,2489,"combat","TALIESIN","wait. i have a weird thing i'm going to try and do no, the thing i need to do, i need to get within 30 feet.",11314.999,11329.104,14.1049999999996,28,119.106699751865,2,"combat","TALIESIN",1,0,0,0
 "2490","End",8,113,2490,"combat","LAURA","well, you can get within 60 feet of me so just move toward",11329.104,11332.56,3.45600000000013,13,225.694444444436,2,"combat","LAURA",1,0,0,0
@@ -2511,7 +2511,7 @@
 "2510","End",8,113,2510,"first_half_rp","MARISHA","is what? inert?",11536.534,11538.059,1.52499999999964,4,157.377049180365,NA,"role_play","MARISHA",1,0,0,0
 "2511","End",8,113,2511,"first_half_rp","TALIESIN","it was the controller. so we have it.",11538.059,11541.752,3.69300000000112,9,146.222583265593,NA,"role_play","TALIESIN",1,0,0,0
 "2512","End",8,113,2512,"first_half_rp","LAURA","we book it towards the tower. right?",11541.752,11543.888,2.13600000000042,8,224.719101123551,NA,"role_play","LAURA",1,0,0,0
-"2513","End",8,113,2513,"first_half_rp","MATT","you guys begin bolting your way towards entropis with its large funnel-like cloud encircling the top of its spire. and we're going to take a break.",11543.888,11557.448,13.5599999999995,29,128.318584070801,NA,"role_play","MATT",0,0,0,1
+"2513","End",8,113,2513,"first_half_rp","MATT","you guys begin bolting your way towards entropis with its large funnel-like cloud encircling the top of its spire. and we're going to take a break.",11543.888,11552.228,8.33999999999833,29,208.633093525222,NA,"role_play","MATT",0,0,0,1
 "2514","End",8,113,2514,"break","TRAVIS","y'all, we recruited dead delilah!",11557.448,11559.754,2.30600000000049,7,182.133564614011,NA,NA,"TRAVIS",1,0,0,0
 "2515","End",8,113,2515,"break","JOE","i want to find this dude!",11559.754,11562.368,2.61399999999958,7,160.673297628182,NA,NA,"GUESTS",0,1,0,0
 "2516","End",8,113,2516,"break","MARISHA","what a dick!",11562.368,11570.528,8.15999999999985,4,29.4117647058829,NA,NA,"MARISHA",1,0,0,0
@@ -2576,8 +2576,8 @@
 "2575","End",8,113,2575,"second_half_rp","LAURA","now it looks like she's pregnant!",13245.283,13247.352,2.06900000000132,8,231.996133397628,NA,"role_play","LAURA",1,0,0,0
 "2576","End",8,113,2576,"second_half_rp","SAM","i need a house. can i take her branches and make one?",13247.352,13252.422,5.06999999999971,13,153.846153846163,NA,"role_play","SAM",1,0,0,0
 "2577","End",8,113,2577,"second_half_rp","MATT","a house?",13252.422,13254.514,2.09199999999873,3,86.0420650096123,NA,"role_play","MATT",0,0,0,1
-"2578","End",8,113,2578,"second_half_rp","SAM","oh, it's the giving tree.",13254.514,13258.931,4.41700000000128,7,95.087163232936,NA,"role_play","SAM",1,0,0,0
-"2579","End",8,113,2579,"second_half_rp","LAURA","that's terrible.",13258.931,13261.052,2.12099999999919,4,113.154172560157,NA,"role_play","LAURA",1,0,0,0
+"2578","End",8,113,2578,"second_half_rp","SAM","oh, it's the giving tree.",13254.514,13257.259,2.7450000000008,7,153.00546448083,NA,"role_play","SAM",1,0,0,0
+"2579","End",8,113,2579,"second_half_rp","LAURA","that's terrible.",13258.931,13259.764,0.832999999998719,4,288.115246098882,NA,"role_play","LAURA",1,0,0,0
 "2580","End",8,113,2580,"second_half_rp","LAURA","oh! what was that?",13261.052,13262.183,1.13100000000122,5,265.251989389634,NA,"role_play","LAURA",1,0,0,0
 "2581","End",8,113,2581,"second_half_rp","MATT","you have this rot behemoth at the entryway. what are you guys doing?",13262.183,13267.204,5.02099999999882,14,167.297351125313,NA,"role_play","MATT",0,0,0,1
 "2582","End",8,113,2582,"second_half_rp","LIAM","well, our options are somehow flying up or going in the front door.",13267.204,13270.319,3.11499999999978,14,269.662921348333,NA,"role_play","LIAM",1,0,0,0
@@ -2727,7 +2727,7 @@
 "2726","End",8,113,2726,"second_half_rp","MATT","it's okay. i lost count. even with their saves, four undead survive. as the shock wave emanates out from you, you watch as about two dozen of these various skeletons and zombies, many of which are grasping at you, turn to ash. one of them, you see it reaching out toward you, you get a glimpse of it. you can see, this one's a fresher corpse, one of the zombies. it has dirty blonde hair, a torn chin with stubble, and for a brief minute you can see it has this gash in its stomach, a partially eaten arm. for a brief minute, as it reaches out for you before the wave hits, you're like, ""aldor?"" turns to ash.",13976.065,14018.665,42.6000000000004,123,173.239436619717,NA,"role_play","MATT",0,0,0,1
 "2727","End",8,113,2727,"second_half_rp","MARISHA","aldor?",14018.665,14020.558,1.89300000000003,2,63.3914421553081,NA,"role_play","MARISHA",1,0,0,0
 "2728","End",8,113,2728,"second_half_rp","MATT","a member of the slayer's take. once the prized love of",14020.558,14023.412,2.85399999999936,12,252.277505255838,NA,"role_play","MATT",0,0,0,1
-"2729","End",8,113,2729,"second_half_rp","SAM","felicia day!",14023.412,14026.204,2.79199999999946,3,64.4699140401271,NA,"role_play","SAM",1,0,0,0
+"2729","End",8,113,2729,"second_half_rp","SAM","felicia day!",14023.412,14025.01,1.59799999999996,3,112.640801001255,NA,"role_play","SAM",1,0,0,0
 "2730","End",8,113,2730,"second_half_rp","LAURA","no!",14026.204,14027.109,0.905000000000655,2,132.596685082777,NA,"role_play","LAURA",1,0,0,0
 "2731","End",8,113,2731,"second_half_rp","MARISHA","no, aldor!",14027.109,14028.541,1.43199999999888,3,125.698324022445,NA,"role_play","MARISHA",1,0,0,0
 "2732","End",8,113,2732,"second_half_rp","SAM","oh, no!",14028.541,14029.46,0.918999999999869,3,195.865070729081,NA,"role_play","SAM",1,0,0,0
@@ -3041,7 +3041,7 @@
 "3040","End",8,113,3040,"second_half_rp","ASHLEY","you'll just have to live. you wait and find out.",15148.334,15151.759,3.42499999999927,12,210.218978102234,NA,"role_play","ASHLEY",1,0,0,0
 "3041","End",8,113,3041,"second_half_rp","SAM","well, what does it mean? what could it mean?!",15151.759,15153.996,2.23699999999917,10,268.216361198133,NA,"role_play","SAM",1,0,0,0
 "3042","End",8,113,3042,"second_half_rp","ASHLEY","just live! you'll see!",15153.996,15156.48,2.48400000000038,6,144.927536231862,NA,"role_play","ASHLEY",1,0,0,0
-"3043","End",8,113,3043,"second_half_rp","SAM","just then, the real scanlan comes back from peeing. he's like, what'd i miss, guys?",15156.48,15171.168,14.6880000000001,18,73.5294117647054,NA,"role_play","SAM",1,0,0,0
+"3043","End",8,113,3043,"second_half_rp","SAM","just then, the real scanlan comes back from peeing. he's like, what'd i miss, guys?",15156.48,15158.952,2.47199999999975,18,436.893203883539,NA,"role_play","SAM",1,0,0,0
 "3044","End",8,113,3044,"second_half_rp","MATT","ascending the stairs, you climb and climb, the spiral continuing upward. both of the stairs spiral upward, so which direction did you take? the right, or the left?",15171.168,15181.542,10.3739999999998,29,167.727009832276,NA,"role_play","MATT",0,0,0,1
 "3045","End",8,113,3045,"second_half_rp","LAURA","the right. no, wait! which hand does vecna chop off?",15181.542,15185.982,4.44000000000051,11,148.648648648632,NA,"role_play","LAURA",1,0,0,0
 "3046","End",8,113,3046,"second_half_rp","MATT","the left.",15185.982,15187.214,1.23199999999997,3,146.1038961039,NA,"role_play","MATT",0,0,0,1
@@ -3226,7 +3226,7 @@
 "3225","End",8,113,3225,"second_half_rp","SAM","i can't see anything! everything's silver! oh god, i'm blind! i'm just kidding. i can see fine.",16100.759,16106.944,6.18499999999949,22,213.419563460001,NA,"role_play","SAM",1,0,0,0
 "3226","End",8,113,3226,"second_half_rp","TALIESIN","i charge diplomacy up.",16106.944,16109.867,2.92300000000068,5,102.634279849446,NA,"role_play","TALIESIN",1,0,0,0
 "3227","End",8,113,3227,"second_half_rp","ASHLEY","and i will invoke the blessing of the everlight.",16109.867,16111.512,1.64500000000044,10,364.741641337289,NA,"role_play","ASHLEY",1,0,0,0
-"3228","End",8,113,3228,"second_half_rp","MATT","and with that, you watch as this bright light emerges from the back of pike's shoulders as a familiar, but much more vibrant and strong set of divine golden wings, not made of energy, but visibly beautiful gold feathered wings expand from her back. your feet lift off the ground and. as the voice of sarenrae whispers into her ear, ""i'm with you.""",16111.512,16140.315,28.8029999999999,66,137.485678575149,NA,"role_play","MATT",0,0,0,1
+"3228","End",8,113,3228,"second_half_rp","MATT","and with that, you watch as this bright light emerges from the back of pike's shoulders as a familiar, but much more vibrant and strong set of divine golden wings, not made of energy, but visibly beautiful gold feathered wings expand from her back. your feet lift off the ground and . as the voice of sarenrae whispers into her ear, ""i'm with you.""",16111.512,16140.315,28.8029999999999,66,137.485678575149,NA,"role_play","MATT",0,0,0,1
 "3229","End",8,113,3229,"second_half_rp","ASHLEY","okay! thank you!",16140.315,16144.552,4.23699999999917,4,56.6438517819323,NA,"role_play","ASHLEY",1,0,0,0
 "3230","End",8,113,3230,"second_half_rp","LAURA","i bamf trinket out.",16144.552,16146.521,1.96900000000096,5,152.361604875497,NA,"role_play","LAURA",1,0,0,0
 "3231","End",8,113,3231,"second_half_rp","LAURA","if you want to polymorph him?",16148.615,16150.458,1.84300000000076,7,227.889310906038,NA,"role_play","LAURA",1,0,0,0
@@ -3494,7 +3494,7 @@
 "3493","End",8,113,3493,"second_half_rp","MATT","you go straight for him?",17447.615,17450.4,2.78499999999985,6,129.263913824064,NA,"role_play","MATT",0,0,0,1
 "3494","End",8,113,3494,"second_half_rp","JOE","with the death knight? straight for him.",17450.4,17452.309,1.90899999999965,8,251.440544787893,NA,"role_play","GUESTS",0,1,0,0
 "3495","End",8,113,3495,"second_half_rp","MATT","gilmore reaches out to you and casts haste on you.",17452.309,17457.25,4.94099999999889,11,133.57619915,NA,"role_play","MATT",0,0,0,1
-"3496","End",8,113,3496,"second_half_rp","TRAVIS","haste?!",17457.25,17460.614,3.3640000000014,2,35.6718192627676,NA,"role_play","TRAVIS",1,0,0,0
+"3496","End",8,113,3496,"second_half_rp","TRAVIS","haste?!",17457.25,17458.366,1.1160000000018,2,107.526881720256,NA,"role_play","TRAVIS",1,0,0,0
 "3497","End",8,113,3497,"second_half_rp","MATT","""but it lasts a minute. hurry!""",17460.614,17462.318,1.7039999999979,8,281.690140845417,NA,"role_play","MATT",0,0,0,1
 "3498","End",8,113,3498,"second_half_rp","MARISHA","i hate to say this but arkhan do you have him?",17462.318,17466.51,4.1919999999991,12,171.755725190877,NA,"role_play","MARISHA",1,0,0,0
 "3499","End",8,113,3499,"second_half_rp","JOE","get upstairs! i'll hold him off!",17466.51,17468.519,2.00900000000183,8,238.924838227756,NA,"role_play","GUESTS",0,1,0,0
@@ -3502,19 +3502,19 @@
 "3501","End",8,113,3501,"second_half_rp","LIAM","bless. shaun! it was an honor knowing you.",17469.836,17478.517,8.68100000000049,9,62.2048151134627,NA,"role_play","LIAM",1,0,0,0
 "3502","End",8,113,3502,"second_half_rp","MATT","""it will be an honor knowing you all still."" grabbing on to both of the girls and with a flash of light, the three of them vanish. the death knight has turned to reach out and goes to cast something. arkhan rushes up and slams the axe across his arm, knocking it aside. you can see now, behind them, other cultists and other things begin to head up the stairs. but they're currently being choked at this point where the death knight's being held at the stairway where arkhan is stepping there.",17478.517,17503.971,25.4540000000015,96,226.290563369201,NA,"role_play","MATT",0,0,0,1
 "3503","End",8,113,3503,"second_half_rp","JOE","zombies are grabbing for his arms.",17503.971,17508.361,4.38999999999942,7,95.6719817767781,NA,"role_play","GUESTS",0,1,0,0
-"3504","End",8,113,3504,"second_half_rp","MATT","as arkhan holds off, you guys head up towards the top of the tower. that's where we're going to pick up next week.",17508.361,17518.482,10.1209999999992,26,154.134966900516,NA,"role_play","MATT",0,0,0,1
+"3504","End",8,113,3504,"second_half_rp","MATT","as arkhan holds off, you guys head up towards the top of the tower. that's where we're going to pick up next week.",17508.361,17514.1,5.73899999999776,26,271.824359644643,NA,"role_play","MATT",0,0,0,1
 "3505","End",8,113,3505,"epilog","TRAVIS","what did you do?! you kevin spacey from seven mother fucker! what did you do?",17518.482,17523.468,4.98600000000079,16,192.539109506588,NA,NA,"TRAVIS",1,0,0,0
 "3506","End",8,113,3506,"epilog","MATT","when you revealed to a god how close and dangerous you were last game, there were going to be repercussions.",17523.468,17535.193,11.7249999999985,21,107.462686567178,NA,NA,"MATT",0,0,0,1
 "3507","End",8,113,3507,"epilog","TRAVIS","oh my god!",17535.193,17537.699,2.50600000000122,4,95.7701516360267,NA,NA,"TRAVIS",1,0,0,0
 "3508","End",8,113,3508,"epilog","MATT","and he knows how to get to you. he knows your secrets.",17537.699,17541.763,4.06399999999849,13,191.929133858339,NA,NA,"MATT",0,0,0,1
 "3509","End",8,113,3509,"epilog","LIAM","this is a great game!",17541.763,17545.76,3.99699999999939,6,90.067550663011,NA,NA,"LIAM",1,0,0,0
-"3510","End",8,113,3510,"epilog","JOE","this is the most fun i've ever had!",17545.76,17554.089,8.32900000000154,10,72.0374594789157,NA,NA,"GUESTS",0,1,0,0
+"3510","End",8,113,3510,"epilog","JOE","this is the most fun i've ever had!",17545.76,17550.773,5.01300000000265,10,119.688809096286,NA,NA,"GUESTS",0,1,0,0
 "3511","End",8,113,3511,"epilog","MATT","i love you guys. we'll pick this up next week for what will most likely be the final battle.",17554.089,17564.447,10.3580000000002,21,121.645105232668,NA,NA,"MATT",0,0,0,1
 "3512","End",8,113,3512,"epilog","SAM","ashley, can you pipe in?",17564.447,17566.079,1.63200000000143,6,220.588235293925,NA,NA,"SAM",1,0,0,0
 "3513","End",8,113,3513,"epilog","ASHLEY","i don't know yet. i don't know the schedule.",17566.079,17567.909,1.82999999999811,12,393.442622951226,NA,NA,"ASHLEY",1,0,0,0
 "3514","End",8,113,3514,"epilog","MATT","if any of you are watching are from blindspot, find a way to not have her work thursday evening, please. that went a little longer than we anticipated, but we're at the end of the campaign.",17567.909,17586.475,18.5659999999989,38,122.805127652706,NA,NA,"MATT",0,0,0,1
-"3515","End",8,113,3515,"epilog","LIAM","joe manganiello!",17586.475,17593.328,6.85300000000279,3,26.2658689624875,NA,NA,"LIAM",1,0,0,0
-"3516","End",8,113,3516,"epilog","JOE","jocks. we're here. get used to it.",17593.328,17606.658,13.3299999999981,9,40.5101275318887,NA,NA,"GUESTS",0,1,0,0
+"3515","End",8,113,3515,"epilog","LIAM","joe manganiello!",17586.475,17590.075,3.60000000000218,3,49.9999999999697,NA,NA,"LIAM",1,0,0,0
+"3516","End",8,113,3516,"epilog","JOE","jocks. we're here. get used to it.",17593.328,17603.752,10.4239999999991,9,51.8035303146631,NA,NA,"GUESTS",0,1,0,0
 "3517","End",8,113,3517,"epilog","JOE","thank you so much for having me.",17606.658,17613.266,6.60800000000017,8,72.6392251815961,NA,NA,"GUESTS",0,1,0,0
 "3518","End",8,113,3518,"epilog","MATT","of course! thanks for coming.",17613.266,17615.385,2.11899999999878,6,169.891458235114,NA,NA,"MATT",0,0,0,1
 "3519","End",8,113,3519,"epilog","TALIESIN","i've been looking forward to this.",17615.385,17618,2.6150000000016,8,183.556405353616,NA,NA,"TALIESIN",1,0,0,0
@@ -3535,6 +3535,6 @@
 "3534","End",8,113,3534,"epilog","TALIESIN","you are a monster.",17703.287,17706.593,3.30600000000049,5,90.7441016333803,NA,NA,"TALIESIN",1,0,0,0
 "3535","End",8,113,3535,"epilog","MATT","vecna is a monster, guys.",17706.593,17708.777,2.18399999999747,6,164.835164835356,NA,NA,"MATT",0,0,0,1
 "3536","End",8,113,3536,"epilog","TALIESIN","i'm so proud.",17708.777,17710.577,1.80000000000291,5,166.666666666397,NA,NA,"TALIESIN",1,0,0,0
-"3537","End",8,113,3537,"epilog","JOE","my undead brother i'm dragging around with me! this is fucking so fucked up!",17710.577,17719.204,8.62700000000041,16,111.278544105709,NA,NA,"GUESTS",0,1,0,0
+"3537","End",8,113,3537,"epilog","JOE","my undead brother i'm dragging around with me! this is fucking so fucked up!",17710.577,17716.249,5.67199999999866,16,169.252468265202,NA,NA,"GUESTS",0,1,0,0
 "3538","End",8,113,3538,"epilog","MATT","well, thank you guys, hope you had a good time. we'll see you guys next week. have a wonderful night, and is it thursday yet? bye!",17719.204,17729.545,10.3409999999967,28,162.460110240841,NA,NA,"MATT",0,0,0,1
 "3539","End",8,113,3539,"epilog","MARISHA","congrats to our t-shirt winners! [music]",17729.545,18141.514,411.969000000001,8,1.16513621170525,NA,NA,"MARISHA",1,0,0,0

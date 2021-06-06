@@ -1,5 +1,5 @@
 "","arc","arc_no","episode","turn_number","segment","actor","text","start_turn","end_turn","time_in_sec","word_count","words_per_minute","encounter_count","rp_combat","actor_guest","vox_machina","guest","staff","matt"
-"1","End",8,118,1,NA,"TALIESIN","finish it! finish it, i dare you!",1.322,13.358,12.036,8,39.8803589232303,NA,"role_play","TALIESIN",1,0,0,0
+"1","End",8,118,1,NA,"TALIESIN","finish it! finish it, i dare you!",1.322,6.578,5.256,8,91.324200913242,NA,"role_play","TALIESIN",1,0,0,0
 "2","End",8,118,2,NA,"TALIESIN","good evening, everybody. welcome to terrible decisions in my life. welcome to critical role. we are doing vampire: the masquerade. sort of. well, we're going to talk about it. we're doing kind of a homebrew thing. it's going to be fun. it's going to be weird. it's going to be dark and really inappropriate and i'm so sorry. if any of you are a little squeamish, it's going to get a little weird, and i'm so sorry. i was a big fan of this game 25 years ago. this game and the world of darkness, werewolf: the apocalypse, mage: the ascension, changeling: the dreaming, and all of these games were a big part of all of our lives and they really affected us and changed us. it was an introduction to roleplaying for a lot of people who may not have been comfortable with dungeons and dragons of something obviously much more serious, because look at us. we're so much more serious right now. the build that we're going to be running is kind of a mix of, as i'm checking my notes, the new v5 alpha. it's also a little bit of onyx, it's a bit of my old homebrew that i found bits and pieces of while cleaning my room, all mushed together. if you're interested in this game, there's a brand-new version in alpha right now that you can play around with. there's also the old school stuff that onyx has put out which is the size of a small library. you can go in and find books on every city and every type of creature you could want. there's weird, angry 80s versions of everybody. i want to do a special thanks to jason carl, white wolf, onyx path, and don and katherine, if you're watching, for running really good games, and sasha and juliet for running very good games. sasha's not watching; she's at marching band. you've got marching to do.",13.358,137.371,124.013,349,168.853265383468,NA,"role_play","TALIESIN",1,0,0,0
 "3","End",8,118,3,NA,"SAM","this music, taliesin.",137.371,139.558,2.18699999999998,4,109.739368998629,NA,"role_play","SAM",1,0,0,0
 "4","End",8,118,4,NA,"TALIESIN","this is syrinscape. i hit a random button in their creepy asylum set. it's rocking. we have some announcements that, in theory, i was supposed to have, but i don't. i know some of them off the top of my head.",139.558,153.342,13.784,44,191.526407428903,NA,"role_play","TALIESIN",1,0,0,0
@@ -17,7 +17,7 @@
 "16","End",8,118,16,NA,"MATT AND TRAVIS","store it!",224.542,225.2,0.657999999999987,3,273.556231003045,NA,"role_play","MATT AND TRAVIS",1,0,0,0
 "17","End",8,118,17,NA,"SAM","hoard it!",225.2,225.922,0.722000000000008,3,249.307479224374,NA,"role_play","SAM",1,0,0,0
 "18","End",8,118,18,NA,"MATT AND TRAVIS","hoard it!",225.922,226.68,0.75800000000001,3,237.467018469654,NA,"role_play","MATT AND TRAVIS",1,0,0,0
-"19","End",8,118,19,NA,"SAM","store those gigs of smut! baby got backblaze!",226.68,231.75,5.06999999999999,9,106.508875739645,NA,"role_play","SAM",1,0,0,0
+"19","End",8,118,19,NA,"SAM","store those gigs of smut! baby got backblaze!",226.68,229.187,2.50700000000001,9,215.396888711607,NA,"role_play","SAM",1,0,0,0
 "20","End",8,118,20,NA,"TRAVIS","yeah! backblaze rap!",231.75,235.612,3.86199999999999,4,62.1439668565511,NA,"role_play","TRAVIS",1,0,0,0
 "21","End",8,118,21,NA,"SAM","backblaze! check it out.",235.612,237.562,1.95000000000002,5,153.846153846153,NA,"role_play","SAM",1,0,0,0
 "22","End",8,118,22,NA,"TALIESIN","wow, it's only uphill from here. that's good.",237.562,240.031,2.46899999999999,11,267.314702308628,NA,"role_play","TALIESIN",1,0,0,0
@@ -80,7 +80,7 @@
 "79","End",8,118,79,NA,"LAURA","i've got so many d10s in my tray right now.",482.217,484.234,2.017,12,356.965790778384,NA,"role_play","LAURA",1,0,0,0
 "80","End",8,118,80,NA,"TALIESIN","i'll explain the red dice. we're going to take this through, and it's going to be really weird. i am so sorry for everything that's about to happen. i'm going to try to maintain my cool.",484.234,495.341,11.107,42,226.883947060412,NA,"role_play","TALIESIN",1,0,0,0
 "81","End",8,118,81,NA,"MARISHA","let's do this shit!",495.341,497.15,1.80899999999997,6,199.004975124382,NA,"role_play","MARISHA",1,0,0,0
-"82","End",8,118,82,NA,"TALIESIN","ladies and gentlemen, boys and girls, hopefully people who are not too young to be scarred for life: prepare for critical role: goth vampire edition. [dramatic music]",497.15,607.599,110.449,28,15.2106402049815,NA,"role_play","TALIESIN",1,0,0,0
+"82","End",8,118,82,NA,"TALIESIN","ladies and gentlemen, boys and girls, hopefully people who are not too young to be scarred for life: prepare for critical role: goth vampire edition. [dramatic music]",497.15,598.378,101.228,28,16.596198680207,NA,"role_play","TALIESIN",1,0,0,0
 "83","End",8,118,83,NA,"MATT","i legitimately can say i understand.",607.599,611.656,4.0569999999999,7,103.524771999017,NA,"role_play","MATT",0,0,0,1
 "84","End",8,118,84,NA,"TALIESIN","it's not going to save you.",611.656,613.666,2.0100000000001,8,238.805970149241,NA,"role_play","TALIESIN",1,0,0,0
 "85","End",8,118,85,NA,"MATT","i know.",613.666,614.835,1.16899999999998,3,153.97775876818,NA,"role_play","MATT",0,0,0,1
@@ -92,7 +92,7 @@
 "91","End",8,118,91,NA,"LIAM","each of us alone?",692.922,694.818,1.89599999999996,5,158.227848101269,NA,"role_play","LIAM",1,0,0,0
 "92","End",8,118,92,NA,"TALIESIN","each of you alone.",694.818,696.135,1.31700000000001,5,227.790432801821,NA,"role_play","TALIESIN",1,0,0,0
 "93","End",8,118,93,NA,"LAURA","put my hand up and feel.",696.135,699.554,3.41899999999998,7,122.84293653115,NA,"role_play","LAURA",1,0,0,0
-"94","End",8,118,94,NA,"TALIESIN","yes, you are in a coffin.",699.554,704.162,4.60800000000006,7,91.1458333333321,NA,"role_play","TALIESIN",1,0,0,0
+"94","End",8,118,94,NA,"TALIESIN","yes, you are in a coffin.",699.554,700.924,1.37,7,306.569343065692,NA,"role_play","TALIESIN",1,0,0,0
 "95","End",8,118,95,NA,"MARISHA","oh god!",704.162,705.446,1.28399999999999,3,140.186915887851,NA,"role_play","MARISHA",1,0,0,0
 "96","End",8,118,96,NA,"SAM","i'm going to start shouting. hello! can anyone hear me?",705.446,709.164,3.71799999999996,12,193.652501344811,NA,"role_play","SAM",1,0,0,0
 "97","End",8,118,97,NA,"TALIESIN","you're a voice actor. you call that shouting?",709.164,711.081,1.91700000000003,10,312.989045383407,NA,"role_play","TALIESIN",1,0,0,0
@@ -595,7 +595,7 @@
 "594","End",8,118,594,NA,"TALIESIN","i mean, yes, as long as you're not pointing in the game, because then you're pointing at the front, but if you're pointing at the table, then yeah, that's the door.",2487.701,2493.515,5.81399999999985,36,371.517027863787,NA,"role_play","TALIESIN",1,0,0,0
 "595","End",8,118,595,NA,"LAURA","right.",2493.515,2494.479,0.963999999999942,2,124.481327800837,NA,"role_play","LAURA",1,0,0,0
 "596","End",8,118,596,NA,"LIAM","no, she's laura, she's not laura. she's laura, not laura.",2494.479,2496.428,1.94900000000007,14,430.990251410965,NA,"role_play","LIAM",1,0,0,0
-"597","End",8,118,597,NA,"TALIESIN","i'm trying to find my points.",2496.428,2502.629,6.20100000000002,8,77.4068698596998,NA,"role_play","TALIESIN",1,0,0,0
+"597","End",8,118,597,NA,"TALIESIN","i'm trying to find my points.",2496.428,2499.232,2.80400000000009,8,171.184022824531,NA,"role_play","TALIESIN",1,0,0,0
 "598","End",8,118,598,NA,"LAURA","""where are you,"" did you hear that?! creepy! ugh!",2502.629,2505.383,2.75399999999991,11,239.651416122013,NA,"role_play","LAURA",1,0,0,0
 "599","End",8,118,599,NA,"TALIESIN","yeah, there's some weird sounds coming from everywhere, but there's a big, bloody sign written on the main door to the twitch stage.",2505.383,2514.064,8.68100000000004,26,179.702799216679,NA,"role_play","TALIESIN",1,0,0,0
 "600","End",8,118,600,NA,"MARISHA","does it say, ""things are getting creepy?""",2514.064,2516.571,2.50700000000006,8,191.46390107698,NA,"role_play","MARISHA",1,0,0,0
@@ -746,7 +746,7 @@
 "745","End",8,118,745,NA,"MARISHA","why the fuck didn't i get an email?!",3118.573,3120.957,2.38400000000001,10,251.677852348992,NA,"role_play","MARISHA",1,0,0,0
 "746","End",8,118,746,NA,"LAURA","you were in a coffin, dude, you might have gotten an email.",3120.957,3123.442,2.48500000000013,13,313.883299798777,NA,"role_play","LAURA",1,0,0,0
 "747","End",8,118,747,NA,"LIAM","is this a geek and sundry thing or an ldn thing?",3123.442,3126.625,3.18299999999999,12,226.201696512724,NA,"role_play","LIAM",1,0,0,0
-"748","End",8,118,748,NA,"TALIESIN","this is most assuredly an ldn thing.",3126.625,3135.056,8.43100000000004,8,56.9327481911989,NA,"role_play","TALIESIN",1,0,0,0
+"748","End",8,118,748,NA,"TALIESIN","this is most assuredly an ldn thing.",3126.625,3131.534,4.90900000000011,8,97.7795885108962,NA,"role_play","TALIESIN",1,0,0,0
 "749","End",8,118,749,NA,"TALIESIN","""well, ask me no more questions, and i'll tell you no more lies!""",3135.056,3141.524,6.46799999999985,16,148.423005565866,NA,"role_play","TALIESIN",1,0,0,0
 "750","End",8,118,750,NA,"TRAVIS","can i make my way out of the bullpen, back towards the server room?",3141.524,3146.453,4.92900000000009,15,182.592818015821,NA,"role_play","TRAVIS",1,0,0,0
 "751","End",8,118,751,NA,"TALIESIN","yeah.",3146.453,3148.158,1.70499999999993,2,70.3812316715572,NA,"role_play","TALIESIN",1,0,0,0
@@ -871,7 +871,7 @@
 "870","End",8,118,870,NA,"MARISHA","stanima? i've got to think about it now. just straight stanima?",3739.578,3750.943,11.3650000000002,13,68.631764188296,NA,"role_play","MARISHA",1,0,0,0
 "871","End",8,118,871,NA,"TALIESIN","feels good to be on the other end of this, doesn't it?",3750.943,3752.809,1.86599999999999,14,450.160771704184,NA,"role_play","TALIESIN",1,0,0,0
 "872","End",8,118,872,NA,"MATT","yeah. but i feel for you.",3752.809,3754.005,1.19599999999991,7,351.170568561899,NA,"role_play","MATT",0,0,0,1
-"873","End",8,118,873,NA,"TALIESIN","fuck off. yes.",3754.005,3757.836,3.83099999999968,4,62.6468285043123,NA,"role_play","TALIESIN",1,0,0,0
+"873","End",8,118,873,NA,"TALIESIN","fuck off. yes.",3754.005,3755.664,1.65900000000011,4,144.665461121148,NA,"role_play","TALIESIN",1,0,0,0
 "874","End",8,118,874,NA,"LIAM","smell the siggle.",3757.836,3759.457,1.62100000000009,4,148.056755089442,NA,"role_play","LIAM",1,0,0,0
 "875","End",8,118,875,NA,"MARISHA","two successes.",3759.457,3760.972,1.51500000000033,3,118.811881188093,NA,"role_play","MARISHA",1,0,0,0
 "876","End",8,118,876,NA,"TALIESIN","yeah, you're fine. nothing weird. you do notice that the tea they're pouring is red. and it smells pretty good.",3760.972,3771.948,10.9759999999997,23,125.728862973765,NA,"role_play","TALIESIN",1,0,0,0
@@ -925,7 +925,7 @@
 "924","End",8,118,924,NA,"TALIESIN","slowly, the two halves of you separate at the head.",4040.449,4043.772,3.32299999999987,11,198.615708696969,NA,"role_play","TALIESIN",1,0,0,0
 "925","End",8,118,925,NA,"SAM","i pull him back!",4043.772,4046.338,2.56600000000026,5,116.913484021812,NA,"role_play","SAM",1,0,0,0
 "926","End",8,118,926,NA,"LAURA","i'm going to squish his halves together and hold him together!",4046.338,4050.55,4.21199999999999,13,185.185185185186,NA,"role_play","LAURA",1,0,0,0
-"927","End",8,118,927,NA,"TALIESIN","and matt mercer drops into a pile of ash.",4050.55,4059.398,8.84799999999996,10,67.8119349005428,NA,"role_play","TALIESIN",1,0,0,0
+"927","End",8,118,927,NA,"TALIESIN","and matt mercer drops into a pile of ash.",4050.55,4052.837,2.28699999999981,10,262.35242675997,NA,"role_play","TALIESIN",1,0,0,0
 "928","End",8,118,928,NA,"MARISHA","we always knew you'd be the first to go in the apocalypse.",4059.398,4061.79,2.39199999999983,14,351.170568561899,NA,"role_play","MARISHA",1,0,0,0
 "929","End",8,118,929,NA,"LAURA","you're dead already?",4061.79,4063.268,1.47800000000007,5,202.976995940451,NA,"role_play","LAURA",1,0,0,0
 "930","End",8,118,930,NA,"TRAVIS","he's literally a pile of ash? clothes, anything, just ash?",4063.268,4065.666,2.39800000000014,12,300.250208507072,NA,"role_play","TRAVIS",1,0,0,0
@@ -990,7 +990,7 @@
 "989","End",8,118,989,NA,"LIAM","so one success.",4296.051,4297.376,1.32499999999982,4,181.132075471723,NA,"role_play","LIAM",1,0,0,0
 "990","End",8,118,990,NA,"TALIESIN","the stuff starts sticking to you in a way that you don't like, and it burns a little bit. you probably want to wipe your hands off. and while you were wiping her off, it was starting to go straight through the skin like there was nothing under there other than mushrooms.",4297.376,4311.229,13.8530000000001,54,233.884357178949,NA,"role_play","TALIESIN",1,0,0,0
 "991","End",8,118,991,NA,"MARISHA","it's just something i ate. mushrooms have never sat well with me.",4311.229,4315.964,4.73499999999967,14,177.402323125672,NA,"role_play","MARISHA",1,0,0,0
-"992","End",8,118,992,NA,"TALIESIN","and that's the last thing marisha ever said.",4315.964,4321.38,5.41600000000017,10,110.782865583453,NA,"role_play","TALIESIN",1,0,0,0
+"992","End",8,118,992,NA,"TALIESIN","and that's the last thing marisha ever said.",4315.964,4318.298,2.33399999999983,10,257.069408740378,NA,"role_play","TALIESIN",1,0,0,0
 "993","End",8,118,993,NA,"LIAM","no!",4321.38,4322.794,1.41399999999976,2,84.8656294200993,NA,"role_play","LIAM",1,0,0,0
 "994","End",8,118,994,NA,"LAURA","we come barging in: you guys!",4322.794,4327.676,4.88200000000052,7,86.0303154444809,NA,"role_play","LAURA",1,0,0,0
 "995","End",8,118,995,NA,"SAM","marisha, i'm so sorry! he's gone!",4327.676,4329.92,2.24399999999969,9,240.64171122998,NA,"role_play","SAM",1,0,0,0
@@ -998,10 +998,10 @@
 "997","End",8,118,997,NA,"LIAM","she's a mushroom.",4332.242,4334.121,1.87899999999991,5,159.659393294314,NA,"role_play","LIAM",1,0,0,0
 "998","End",8,118,998,NA,"TRAVIS","what do you mean?",4334.121,4335.205,1.08399999999983,5,276.752767527718,NA,"role_play","TRAVIS",1,0,0,0
 "999","End",8,118,999,NA,"LIAM","she's a mushroom, look! and i push into her shoulder.",4335.205,4338.972,3.76699999999983,12,191.13352800638,NA,"role_play","LIAM",1,0,0,0
-"1000","End",8,118,1000,NA,"TALIESIN","she leans right over and you've got powder on your hand.",4338.972,4345.244,6.27199999999993,13,124.36224489796,NA,"role_play","TALIESIN",1,0,0,0
+"1000","End",8,118,1000,NA,"TALIESIN","she leans right over and you've got powder on your hand.",4338.972,4342.077,3.10500000000047,13,251.207729468561,NA,"role_play","TALIESIN",1,0,0,0
 "1001","End",8,118,1001,NA,"TRAVIS","oh fuck! what happened? we took care of the guy we were with. what'd you do?",4345.244,4353.682,8.4380000000001,18,127.992415264279,NA,"role_play","TRAVIS",1,0,0,0
 "1002","End",8,118,1002,NA,"LIAM","where's matt?",4353.682,4354.926,1.2440000000006,4,192.926045015985,NA,"role_play","LIAM",1,0,0,0
-"1003","End",8,118,1003,NA,"LAURA","he's in the power rangers helmet!",4354.926,4360.202,5.27599999999984,8,90.9780136467048,NA,"role_play","LAURA",1,0,0,0
+"1003","End",8,118,1003,NA,"LAURA","he's in the power rangers helmet!",4354.926,4356.807,1.8809999999994,8,255.183413078231,NA,"role_play","LAURA",1,0,0,0
 "1004","End",8,118,1004,NA,"TALIESIN","suddenly, christian bursts into the room. he is covered in blood and says, ""can you ""keep it down?""",4360.202,4369.797,9.59499999999935,19,118.811881188127,NA,"role_play","TALIESIN",1,0,0,0
 "1005","End",8,118,1005,NA,"TRAVIS","does he smell good?",4369.797,4371.104,1.3070000000007,5,229.533282325815,NA,"role_play","TRAVIS",1,0,0,0
 "1006","End",8,118,1006,NA,"TALIESIN","he does. ""you guys are making a lot of noise, and people are trying to work. god!"" and he goes back out.",4371.104,4379.603,8.4989999999998,23,162.372043769859,NA,"role_play","TALIESIN",1,0,0,0
@@ -1113,7 +1113,7 @@
 "1112","End",8,118,1112,NA,"SAM","power? i don't have power; i'm going to try to convince him with the power of my words.",4787.54,4792.613,5.07300000000032,21,248.373743347116,NA,"role_play","SAM",1,0,0,0
 "1113","End",8,118,1113,NA,"LAURA","you're not scanlan, you're a vampire.",4792.613,4797.805,5.19200000000001,9,104.006163328197,NA,"role_play","LAURA",1,0,0,0
 "1114","End",8,118,1114,NA,"TRAVIS","you don't know that. we're all a bit of our characters.",4797.805,4800.7,2.89499999999953,14,290.155440414555,NA,"role_play","TRAVIS",1,0,0,0
-"1115","End",8,118,1115,NA,"SAM","going to say: you need to come with us right now. you cannot resist. the power of christ compels you.",4800.7,4811.31,10.6100000000006,21,118.755890669174,NA,"role_play","SAM",1,0,0,0
+"1115","End",8,118,1115,NA,"SAM","going to say: you need to come with us right now. you cannot resist. the power of christ compels you.",4800.7,4809.064,8.36400000000049,21,150.645624103291,NA,"role_play","SAM",1,0,0,0
 "1116","End",8,118,1116,NA,"TRAVIS","he burns. bursts into flame. oh god, he rolled something.",4811.31,4819.718,8.40799999999945,11,78.4966698382544,NA,"role_play","TRAVIS",1,0,0,0
 "1117","End",8,118,1117,NA,"SAM","i watched true blood.",4819.718,4821.132,1.41399999999976,5,212.164073550248,NA,"role_play","SAM",1,0,0,0
 "1118","End",8,118,1118,NA,"TALIESIN","something feels weird, but it doesn't quite work right. you don't know what you felt, but you felt a little vibration.",4821.132,4833.158,12.0260000000007,24,119.740562115409,NA,"role_play","TALIESIN",1,0,0,0
@@ -1871,7 +1871,7 @@
 "1870","End",8,118,1870,NA,"LAURA","oh shit.",9328.257,9330.367,2.11000000000058,3,85.3080568720144,NA,"role_play","LAURA",1,0,0,0
 "1871","End",8,118,1871,NA,"SAM","he knows things.",9330.367,9331.771,1.40400000000045,4,170.940170940116,NA,"role_play","SAM",1,0,0,0
 "1872","End",8,118,1872,NA,"TALIESIN","""i'm running a game here. i got to be on top of it. if you're not on top of it, that's how you lose!""",9331.771,9339.463,7.6919999999991,29,226.209048361961,NA,"role_play","TALIESIN",1,0,0,0
-"1873","End",8,118,1873,NA,"LAURA","i turned into a vampire, you're some weird electric thing! that's fun.",9339.463,9346.918,7.45499999999993,15,120.72434607646,NA,"role_play","LAURA",1,0,0,0
+"1873","End",8,118,1873,NA,"LAURA","i turned into a vampire, you're some weird electric thing! that's fun.",9339.463,9343.24,3.77700000000004,15,238.284352660839,NA,"role_play","LAURA",1,0,0,0
 "1874","End",8,118,1874,NA,"TALIESIN","""it's just crazy, the sorts of people you work with here, isn't it?""",9346.982,9350.823,3.84100000000035,17,265.555844832051,NA,"role_play","TALIESIN",1,0,0,0
 "1875","End",8,118,1875,NA,"LAURA","i know.",9350.823,9352.124,1.30099999999948,3,138.355111452784,NA,"role_play","LAURA",1,0,0,0
 "1876","End",8,118,1876,NA,"TALIESIN","""yeah. he'll be very happy if you take a card. you can yell for people, by the way. there's no ""problem. this is a game for everybody.""",9352.124,9360.589,8.46500000000015,31,219.728292971054,NA,"role_play","TALIESIN",1,0,0,0
@@ -1912,7 +1912,7 @@
 "1911","End",8,118,1911,NA,"LAURA","how do i solve the hmm.",9475.167,9482.38,7.21299999999974,7,58.2281990849876,NA,"role_play","LAURA",1,0,0,0
 "1912","End",8,118,1912,NA,"TALIESIN","""that's too broad.""",9482.38,9484.388,2.00800000000163,6,179.282868525751,NA,"role_play","TALIESIN",1,0,0,0
 "1913","End",8,118,1913,NA,"LAURA","what coincides with the picture of the head on the puzzle?",9484.388,9492.664,8.27599999999984,12,86.998550024168,NA,"role_play","LAURA",1,0,0,0
-"1914","End",8,118,1914,NA,"TALIESIN","well, let me find out on my sheet.",9492.664,9499.292,6.62799999999879,9,81.4725407362852,NA,"role_play","TALIESIN",1,0,0,0
+"1914","End",8,118,1914,NA,"TALIESIN","well, let me find out on my sheet.",9492.664,9496.864,4.19999999999891,9,128.571428571462,NA,"role_play","TALIESIN",1,0,0,0
 "1915","End",8,118,1915,NA,"TALIESIN","i made too many notes.",9499.292,9502.276,2.98400000000038,6,120.643431635373,NA,"role_play","TALIESIN",1,0,0,0
 "1916","End",8,118,1916,NA,"LAURA","am i still bleeding from my fingertips creepily? all things considered though, this isn't as bad as the spider or the shattering body.",9502.276,9510.241,7.96500000000015,25,188.323917137473,NA,"role_play","LAURA",1,0,0,0
 "1917","End",8,118,1917,NA,"LIAM","or a horse.",9510.241,9513.336,3.09499999999935,4,77.5444264943621,NA,"role_play","LIAM",1,0,0,0
@@ -2081,7 +2081,7 @@
 "2080","End",8,118,2080,NA,"TRAVIS","now, before we leave, i would like to see a card drawn.",10027.648,10030.779,3.13100000000122,13,249.121686362087,NA,"role_play","TRAVIS",1,0,0,0
 "2081","End",8,118,2081,NA,"LAURA","oh, okay. max can pull one, then.",10030.779,10033.571,2.79199999999946,8,171.919770773672,NA,"role_play","LAURA",1,0,0,0
 "2082","End",8,118,2082,NA,"TRAVIS","yeah, max, pull a card.",10033.571,10036.672,3.10100000000057,6,116.091583360185,NA,"role_play","TRAVIS",1,0,0,0
-"2083","End",8,118,2083,NA,"TALIESIN","this is my best max face. i don't know how well it's coming out.",10036.672,10046.611,9.93900000000031,17,102.626018714153,NA,"role_play","TALIESIN",1,0,0,0
+"2083","End",8,118,2083,NA,"TALIESIN","this is my best max face. i don't know how well it's coming out.",10036.672,10043.861,7.18900000000031,17,141.883433022668,NA,"role_play","TALIESIN",1,0,0,0
 "2084","End",8,118,2084,NA,"TALIESIN","max jolts and has a weird clarity to him for the first time in it seems like his eyes unpuffen and he just looks like a normal moisture comes back to his face and he looks slightly healthier and he's got a moment of, ""we've got to get out of here before that thing upstairs ""comes down.""",10046.611,10081.835,35.2239999999983,60,102.203043379519,NA,"role_play","TALIESIN",1,0,0,0
 "2085","End",8,118,2085,NA,"TRAVIS","what's upstairs, max?",10081.835,10083.399,1.56400000000031,5,191.815856777456,NA,"role_play","TRAVIS",1,0,0,0
 "2086","End",8,118,2086,NA,"TALIESIN","""it's this creature. it's just teeth and claws and i'm not going to say wolf, but there's ""something up there that's big and""",10083.399,10096.438,13.0390000000007,30,138.047396272713,NA,"role_play","TALIESIN",1,0,0,0
@@ -2255,7 +2255,7 @@
 "2254","End",8,118,2254,NA,"TRAVIS","damn it, max.",10657.04,10658.092,1.05199999999968,4,228.136882129347,NA,"role_play","TRAVIS",1,0,0,0
 "2255","End",8,118,2255,NA,"LIAM","you think we're at burning man right now, don't you?",10658.092,10660.196,2.10399999999936,13,370.722433460189,NA,"role_play","LIAM",1,0,0,0
 "2256","End",8,118,2256,NA,"LAURA","i'm going to pull my dagger out of him, i guess.",10660.196,10665.827,5.6309999999994,13,138.518913159311,NA,"role_play","LAURA",1,0,0,0
-"2257","End",8,118,2257,NA,"TALIESIN","it pops out, there's a little electric flash, a few spiders crawl out.",10665.827,10672.692,6.86499999999978,15,131.099781500368,NA,"role_play","TALIESIN",1,0,0,0
+"2257","End",8,118,2257,NA,"TALIESIN","it pops out, there's a little electric flash, a few spiders crawl out.",10665.827,10670.523,4.69599999999991,15,191.652470187397,NA,"role_play","TALIESIN",1,0,0,0
 "2258","End",8,118,2258,NA,"TALIESIN","""don't mind that; it's mostly flair.""",10672.692,10675.132,2.44000000000051,10,245.901639344211,NA,"role_play","TALIESIN",1,0,0,0
 "2259","End",8,118,2259,NA,"TRAVIS","so aside from upstairs, we know pretty much everything.",10675.132,10680.542,5.40999999999985,10,110.905730129393,NA,"role_play","TRAVIS",1,0,0,0
 "2260","End",8,118,2260,NA,"TALIESIN","""you guys have everything you need, let's be serious here. if you really want to know ""another clue, i'd tell you that you've got a cross, you've got the head. you need something ""cerebral, something grand, and you need something of faith.""",10680.542,10701.007,20.4650000000001,48,140.728072318592,NA,"role_play","TALIESIN",1,0,0,0
@@ -2452,7 +2452,7 @@
 "2451","End",8,118,2451,NA,"LAURA","wait. hello? is anybody up here?",11414.692,11423.476,8.78400000000147,7,47.8142076502652,NA,"role_play","LAURA",1,0,0,0
 "2452","End",8,118,2452,NA,"TALIESIN","they peek out around the desk. it's a guy and a girl.",11423.476,11429.059,5.58299999999872,14,150.456743686225,NA,"role_play","TALIESIN",1,0,0,0
 "2453","End",8,118,2453,NA,"SAM","do we recognize them?",11429.059,11432.025,2.96600000000035,5,101.146325016846,NA,"role_play","SAM",1,0,0,0
-"2454","End",8,118,2454,NA,"TALIESIN","i've been waiting for this joke all night. it's the smart girls office. you have no idea who these people are.",11432.025,11439.81,7.78499999999985,24,184.971098265899,NA,"role_play","TALIESIN",1,0,0,0
+"2454","End",8,118,2454,NA,"TALIESIN","i've been waiting for this joke all night. it's the smart girls office. you have no idea who these people are.",11432.025,11437.265,5.23999999999978,24,274.809160305355,NA,"role_play","TALIESIN",1,0,0,0
 "2455","End",8,118,2455,NA,"TALIESIN","i feel so bad.",11439.81,11442.161,2.35100000000057,5,127.605274351309,NA,"role_play","TALIESIN",1,0,0,0
 "2456","End",8,118,2456,NA,"LAURA","hi. i don't know what's going on. i woke up. there's scary things everywhere. can we hide in here with you?",11442.161,11454.671,12.5100000000002,25,119.904076738607,NA,"role_play","LAURA",1,0,0,0
 "2457","End",8,118,2457,NA,"TALIESIN","make a",11454.671,11457.593,2.92200000000048,2,41.0677618069748,NA,"role_play","TALIESIN",1,0,0,0
@@ -2487,7 +2487,7 @@
 "2486","End",8,118,2486,NA,"SAM","are you writing something or developing something?",11545.731,11548.52,2.78900000000067,8,172.104697023982,NA,"role_play","SAM",1,0,0,0
 "2487","End",8,118,2487,NA,"TALIESIN","""it's really complicated to explain, but we do a lot of stuff""",11548.52,11551.946,3.42599999999948,15,262.697022767115,NA,"role_play","TALIESIN",1,0,0,0
 "2488","End",8,118,2488,NA,"LAURA","and then i bite her.",11551.946,11553.267,1.32099999999991,6,272.520817562471,NA,"role_play","LAURA",1,0,0,0
-"2489","End",8,118,2489,NA,"TALIESIN","okay, thank you.",11553.267,11556.786,3.51900000000023,4,68.2011935208821,NA,"role_play","TALIESIN",1,0,0,0
+"2489","End",8,118,2489,NA,"TALIESIN","okay, thank you.",11553.267,11554.419,1.15200000000004,4,208.333333333325,NA,"role_play","TALIESIN",1,0,0,0
 "2490","End",8,118,2490,NA,"TALIESIN","bless you.",11556.786,11557.765,0.97899999999936,3,183.861082737607,NA,"role_play","TALIESIN",1,0,0,0
 "2491","End",8,118,2491,NA,"TRAVIS","small talk, and then business.",11557.765,11559.579,1.81400000000031,6,198.456449834586,NA,"role_play","TRAVIS",1,0,0,0
 "2492","End",8,118,2492,NA,"TALIESIN","give me dex plus two for this one.",11559.579,11565.634,6.05500000000029,9,89.182493806767,NA,"role_play","TALIESIN",1,0,0,0
@@ -2508,7 +2508,7 @@
 "2507","End",8,118,2507,NA,"TALIESIN","yeah. give me all of your hunger die.",11609.773,11613.314,3.54100000000108,9,152.499293984704,NA,"role_play","TALIESIN",1,0,0,0
 "2508","End",8,118,2508,NA,"LAURA","oh god, i killed someone?",11613.314,11616.448,3.13400000000001,6,114.869176770899,NA,"role_play","LAURA",1,0,0,0
 "2509","End",8,118,2509,NA,"TALIESIN","you killed someone who worked for amy poehler, and i want you to think about that.",11616.448,11622.114,5.66599999999926,17,180.021178962254,NA,"role_play","TALIESIN",1,0,0,0
-"2510","End",8,118,2510,NA,"LIAM","i bet that smarts.",11622.114,11625.772,3.65800000000127,5,82.0120284308081,NA,"role_play","LIAM",1,0,0,0
+"2510","End",8,118,2510,NA,"LIAM","i bet that smarts.",11622.114,11623.639,1.52499999999964,5,196.721311475457,NA,"role_play","LIAM",1,0,0,0
 "2511","End",8,118,2511,NA,"LAURA","take a hunger dice.",11625.772,11627.417,1.64499999999862,5,182.370820668846,NA,"role_play","LAURA",1,0,0,0
 "2512","End",8,118,2512,NA,"SAM","i rolled three successes for my garrotte.",11627.417,11632.224,4.8070000000007,8,99.8543790305659,NA,"role_play","SAM",1,0,0,0
 "2513","End",8,118,2513,NA,"TRAVIS","for your strangulation?",11632.224,11634.839,2.61499999999978,4,91.7782026768719,NA,"role_play","TRAVIS",1,0,0,0
@@ -2535,7 +2535,7 @@
 "2534","End",8,118,2534,NA,"LIAM","shit, shit! two fails. one success, two fails. one's a red.",11703.441,11709.455,6.01399999999921,13,129.697372796824,NA,"role_play","LIAM",1,0,0,0
 "2535","End",8,118,2535,NA,"TALIESIN","one red fail, and? yeah, you go for it, but you somehow slip and you don't quite get it together to get a good grab.",11709.455,11723.649,14.1939999999995,27,114.132732140345,NA,"role_play","TALIESIN",1,0,0,0
 "2536","End",8,118,2536,NA,"LIAM","i feel so crazed!",11723.649,11726.098,2.44900000000052,5,122.498979175147,NA,"role_play","LIAM",1,0,0,0
-"2537","End",8,118,2537,NA,"TALIESIN","suddenly you start hearing a growling coming from the other end of the building.",11726.098,11733.193,7.09499999999935,15,126.849894291766,NA,"role_play","TALIESIN",1,0,0,0
+"2537","End",8,118,2537,NA,"TALIESIN","suddenly you start hearing a growling coming from the other end of the building.",11726.098,11730.684,4.58599999999933,15,196.249454862654,NA,"role_play","TALIESIN",1,0,0,0
 "2538","End",8,118,2538,NA,"TRAVIS","from the where? other end?",11733.193,11734.59,1.39700000000084,6,257.695060844511,NA,"role_play","TRAVIS",1,0,0,0
 "2539","End",8,118,2539,NA,"LAURA","from where?",11734.59,11736.144,1.55400000000009,3,115.830115830109,NA,"role_play","LAURA",1,0,0,0
 "2540","End",8,118,2540,NA,"TRAVIS","the front of the building?",11736.144,11737.396,1.25200000000041,6,287.539936102143,NA,"role_play","TRAVIS",1,0,0,0
@@ -2766,7 +2766,7 @@
 "2765","End",8,118,2765,NA,"SAM","you had to pay for this?",13005.777,13007.818,2.04099999999926,7,205.781479666905,NA,"role_play","SAM",1,0,0,0
 "2766","End",8,118,2766,NA,"TALIESIN","""this was expensive, and i mean, there are rules about what you can do, and i have done ""some things to make this happen that are a little questionable.""",13007.818,13017.583,9.76500000000124,31,190.476190476166,NA,"role_play","TALIESIN",1,0,0,0
 "2767","End",8,118,2767,NA,"SAM","a little? well, you know, you could have asked us to come play! hey, wait! wait! you're a dungeon master! you could lead the game, right?",13017.583,13036.315,18.732,28,89.6860986547087,NA,"role_play","SAM",1,0,0,0
-"2768","End",8,118,2768,NA,"TALIESIN","""this is nothing personal, sam. i just really wanted to play with matt.""",13036.315,13053.389,17.0739999999987,15,52.7117254304831,NA,"role_play","TALIESIN",1,0,0,0
+"2768","End",8,118,2768,NA,"TALIESIN","""this is nothing personal, sam. i just really wanted to play with matt.""",13036.315,13043.081,6.76599999999962,15,133.018031333144,NA,"role_play","TALIESIN",1,0,0,0
 "2769","End",8,118,2769,NA,"TRAVIS","dunked on by gary gygax! posterized! the burn is real! sunbeam!",13053.389,13062.93,9.54100000000108,12,75.4637878628989,NA,"role_play","TRAVIS",1,0,0,0
 "2770","End",8,118,2770,NA,"TALIESIN","he clicks a button on a remote. ""well, regardless, it was really nice to meet you. i have ""something i'd love for you to sign. well, you've got about 60 seconds, so i figure we might as well ""get this done before everything goes.""",13062.93,13083.853,20.9229999999989,47,134.779907279078,NA,"role_play","TALIESIN",1,0,0,0
 "2771","End",8,118,2771,NA,"TRAVIS","what happens in 60 seconds?",13083.853,13085.417,1.56400000000031,6,230.179028132947,NA,"role_play","TRAVIS",1,0,0,0

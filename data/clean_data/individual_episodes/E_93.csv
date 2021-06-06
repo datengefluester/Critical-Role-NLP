@@ -1,12 +1,12 @@
 "","arc","arc_no","episode","turn_number","segment","actor","text","start_turn","end_turn","time_in_sec","word_count","words_per_minute","encounter_count","rp_combat","actor_guest","vox_machina","guest","staff","matt"
-"1","Daring_Deeds",7,93,1,"prologue","MATT","where a bunch of us nerdy-ass voice actors sit around and play dungeons and dragons.",2.347,8.233,5.886,17,173.29255861366,NA,"role_play","MATT",0,0,0,1
+"1","Daring_Deeds",7,93,1,"prologue","MATT","where a bunch of us nerdy-ass voice actors sit around and play dungeons and dragons.",2.347,6.207,3.86,17,264.248704663212,NA,"role_play","MATT",0,0,0,1
 "2","Daring_Deeds",7,93,2,"prologue","MATT","why's everyone laughing? so yes! we're going to hop in here, but before we do, we have some quick announcements to get through. first and foremost, we have a survey that we put up a couple of weeks ago. it ends april 18th. if you happen to have an opportunity, please go ahead and put in your information, let us know where you're from, how much of the show you've watched, what kind of future things from critical role you'd like to see. it's us getting a feel for the size and spread of the community and it's very helpful and awesome. so you can check that out at geekandsundry.com/crsurvey. you'll probably see the link in chat as well, please do that if you haven't yet, that'd be awesome! you have until april 18th. as far as merch goes, we're still out of stock on dice, i believe?",8.233,50.028,41.795,162,232.56370379232,NA,"role_play","MATT",0,0,0,1
 "3","Daring_Deeds",7,93,3,"prologue","LAURA","no!",50.028,50.89,0.862000000000002,2,139.211136890951,NA,"role_play","LAURA",1,0,0,0
 "4","Daring_Deeds",7,93,4,"prologue","MATT","no?",50.89,51.751,0.860999999999997,2,139.372822299652,NA,"role_play","MATT",0,0,0,1
 "5","Daring_Deeds",7,93,5,"prologue","LAURA","there's officially 30 sets left, according to",51.751,53.957,2.206,8,217.588395285584,NA,"role_play","LAURA",1,0,0,0
 "6","Daring_Deeds",7,93,6,"prologue","SAM","30 sets?",53.957,55.237,1.28,3,140.625,NA,"role_play","SAM",1,0,0,0
 "7","Daring_Deeds",7,93,7,"prologue","LAURA","30 sets.",55.237,56.242,1.005,3,179.104477611941,NA,"role_play","LAURA",1,0,0,0
-"8","Daring_Deeds",7,93,8,"prologue","LIAM","sorry, they're gone.",56.242,58.63,2.38800000000001,5,125.628140703517,NA,"role_play","LIAM",1,0,0,0
+"8","Daring_Deeds",7,93,8,"prologue","LIAM","sorry, they're gone.",56.242,57.39,1.148,5,261.324041811846,NA,"role_play","LIAM",1,0,0,0
 "9","Daring_Deeds",7,93,9,"prologue","LAURA","there are 30 sets left in the store, we will be ordering more. so there will be more, but i don't know when that's, you know, going to come in. so 30 sets for the time being.",58.63,65.768,7.138,40,336.228635472121,NA,"role_play","LAURA",1,0,0,0
 "10","Daring_Deeds",7,93,10,"prologue","MATT","fantastic. thank you laura. yes. taliesin! wednesday club coming up, right?",65.768,74.699,8.931,12,80.6180718844475,NA,"role_play","MATT",0,0,0,1
 "11","Daring_Deeds",7,93,11,"prologue","TALIESIN","there is a wednesday club. we're doing comics 101, it's going to be our intro to how to read comics! the notion is like the show that you would show your grandmother, or your friend who's never apparently seen a written word next to a picture before. they do exist! i'm sadly not going to be there, but amy and matt are going to throw together something really, really awesome, and i'm going to be helping out from the sidelines, throwing them stuff, because i'm going to be out of town. but yay.",74.699,99.144,24.445,100,245.44896706893,NA,"role_play","TALIESIN",1,0,0,0
@@ -25,7 +25,7 @@
 "24","Daring_Deeds",7,93,24,"prologue","MATT","maybe? he's supposed to be. i think he might be a little late. i'll check in.",148.979,151.299,2.31999999999999,19,491.379310344829,NA,"role_play","MATT",0,0,0,1
 "25","Daring_Deeds",7,93,25,"prologue","MARISHA","i think he's going to be on. i think. pretty sure.",151.299,153.935,2.636,13,295.902883156298,NA,"role_play","MARISHA",1,0,0,0
 "26","Daring_Deeds",7,93,26,"prologue","MATT","mystery! abound! marisha! new signal boost, went up this week?",153.935,159.892,5.95699999999999,11,110.794023837502,NA,"role_play","MATT",0,0,0,1
-"27","Daring_Deeds",7,93,27,"prologue","MARISHA","yes! it's... me!",159.892,163.66,3.768,5,79.6178343949044,NA,"role_play","MARISHA",1,0,0,0
+"27","Daring_Deeds",7,93,27,"prologue","MARISHA","yes! it's... me!",159.892,161.708,1.816,5,165.198237885462,NA,"role_play","MARISHA",1,0,0,0
 "28","Daring_Deeds",7,93,28,"prologue","MATT","full circle!",163.66,164.705,1.04500000000002,3,172.248803827749,NA,"role_play","MATT",0,0,0,1
 "29","Daring_Deeds",7,93,29,"prologue","MARISHA","again! i'm back! go watch actually, we're going to be playing it over the course of the break. so that we have a break.",164.705,173.149,8.44399999999999,27,191.852202747513,NA,"role_play","MARISHA",1,0,0,0
 "30","Daring_Deeds",7,93,30,"prologue","MATT","you should watch it.",173.149,174.274,1.125,5,266.666666666667,NA,"role_play","MATT",0,0,0,1
@@ -59,9 +59,9 @@
 "58","Daring_Deeds",7,93,58,"prologue","LIAM","hey look, this is a book that she made, and it's so good! and she signed it for me and i'm reading it to my kids and they love it!",293.826,299.598,5.77199999999999,33,343.035343035344,NA,"role_play","LIAM",1,0,0,0
 "59","Daring_Deeds",7,93,59,"prologue","NOELLE","there's a bear in it.",299.598,300.608,1.00999999999999,7,415.84158415842,NA,"role_play","GUESTS",0,1,0,0
 "60","Daring_Deeds",7,93,60,"prologue","LAURA","there is a bear in it!",300.608,302.017,1.40899999999999,7,298.08374733854,NA,"role_play","LAURA",1,0,0,0
-"61","Daring_Deeds",7,93,61,"prologue","NOELLE","more than that in it, too, let me tell you. just getting started. lots of different animals.",302.017,312.994,10.977,18,98.3875375785731,NA,"role_play","GUESTS",0,1,0,0
+"61","Daring_Deeds",7,93,61,"prologue","NOELLE","more than that in it, too, let me tell you. just getting started. lots of different animals.",302.017,309.71,7.69299999999998,18,140.387365137138,NA,"role_play","GUESTS",0,1,0,0
 "62","Daring_Deeds",7,93,62,"prologue","MATT","which, by the way, thank you again, noelle, for coming and playing this again this week.",312.994,317.213,4.21899999999999,17,241.763451054753,NA,"role_play","MATT",0,0,0,1
-"63","Daring_Deeds",7,93,63,"prologue","NOELLE","yeah, hey, is anyone tied to a table and needs help right now? because apparently i'm available now. i'm here to help.",317.213,327.351,10.138,25,147.958177155258,NA,"role_play","GUESTS",0,1,0,0
+"63","Daring_Deeds",7,93,63,"prologue","NOELLE","yeah, hey, is anyone tied to a table and needs help right now? because apparently i'm available now. i'm here to help.",317.213,325.823,8.60999999999996,25,174.216027874565,NA,"role_play","GUESTS",0,1,0,0
 "64","Daring_Deeds",7,93,64,"prologue","MATT","and, on that note, let's go ahead and dive in to tonight's episode of critical role. [dramatic music]",327.351,425.697,98.346,21,12.8119089744372,NA,"role_play","MATT",0,0,0,1
 "65","Daring_Deeds",7,93,65,"prologue","MATT","and welcome back. just so you guys know, we know there is a bit of an audio-sync issue that's happening right now. it's apparently not on our end; our systems are syncing just fine. it might be a twitch-side thing. hopefully they're working on it right now and seeing if we can figure out how to get that fixed. in the meantime, my apologies. we will continue playing, and at the very least the upload will be synced. so keep an ear out. thank you for your patience. technical! all righty, so. catching us up from last week. vox machina goes to hell. in tying up loose ends and dealing with lingering business, you've decided to travel to the nine hells of baator, specifically the second layer of dis, to where the iron city of dis, under the rule of dispater, to seek out the place where hotis, the rakshasa, which is now in a chain of perpetually hunting members of your team. you decided it was best to end it there, as the only way to kill the entity is to destroy it on its own home plane. so you gathered yourselves, you transported via keyleth onto the second layer of hell, you wandered incognito as various demonic-adjacent entities. you've avoided a modicum of interest or other issues, you've made friends and signed a contract for aid with a cambion owner of some sort of tavern in the vicinity, you met with a silly shop owner, you ate soul crystals, little soul stones, and you've agreed to, for safe passage into the subterranean prison of mentiri, which apparently houses hotis as he's reforming, you've come to discover, you will go and assassinate a pit fiend named utugash, who is the superior of the individual you signed the contract with. and upon his destruction, and without leaking any information that could tie this individual to the assassination, be granted passage safely and unspoiled into the prison to seek out your quarry, slay it, and return home safely. as you snuck into the home of this pit fiend, you quickly discovered a dwarvish female had endured quite some torture and was found chained to a table. you released her, and she introduced herself as tova. actually, i don't believe you ever introduced yourself. you didn't give a name? did you?",425.917,579.898,153.981,404,157.422019599821,NA,"role_play","MATT",0,0,0,1
 "66","Daring_Deeds",7,93,66,"first_half_rp","NOELLE","it's in there somewhere.",579.898,580.95,1.05200000000002,6,342.20532319391,NA,"role_play","GUESTS",0,1,0,0
@@ -135,12 +135,12 @@
 "134","Daring_Deeds",7,93,134,"combat","LAURA","oh god, that is so scary! i don't know, now that i'm saying it, if that's the way to go.",887.281,893.89,6.60900000000004,24,217.884702678165,1,"combat","LAURA",1,0,0,0
 "135","Daring_Deeds",7,93,135,"combat","TRAVIS","go with your instincts.",894.066,896.444,2.37799999999993,5,126.156433978137,1,"combat","TRAVIS",1,0,0,0
 "136","Daring_Deeds",7,93,136,"combat","LAURA","here's my question.",896.444,898.711,2.26700000000005,5,132.333480370531,1,"combat","LAURA",1,0,0,0
-"137","Daring_Deeds",7,93,137,"combat","SAM","we have a backup bear.",898.711,902.979,4.26800000000003,6,84.3486410496714,1,"combat","SAM",1,0,0,0
+"137","Daring_Deeds",7,93,137,"combat","SAM","we have a backup bear.",898.711,900.324,1.61299999999994,6,223.18660880348,1,"combat","SAM",1,0,0,0
 "138","Daring_Deeds",7,93,138,"combat","LAURA","while he's figuring out his shit, if trinket falls and i don't see him, does he still come into raven's slumber if it's within 100 feet? or do i have to have visual?",902.979,914.78,11.8009999999999,38,193.203965765614,1,"combat","LAURA",1,0,0,0
 "139","Daring_Deeds",7,93,139,"combat","MATT","you don't know.",914.78,916.261,1.48099999999999,5,202.565833896017,1,"combat","MATT",0,0,0,1
 "140","Daring_Deeds",7,93,140,"combat","LAURA","matthew mercer!",916.261,918.651,2.38999999999999,3,75.3138075313812,1,"combat","LAURA",1,0,0,0
 "141","Daring_Deeds",7,93,141,"combat","TRAVIS","you know, there is really one way to find out.",918.651,921.879,3.22800000000007,11,204.460966542747,1,"combat","TRAVIS",1,0,0,0
-"142","Daring_Deeds",7,93,142,"combat","MATT","no, as long as the enchantment's in the radius, it's fine.",921.879,933.792,11.913,14,70.5112062452782,1,"combat","MATT",0,0,0,1
+"142","Daring_Deeds",7,93,142,"combat","MATT","no, as long as the enchantment's in the radius, it's fine.",921.879,926.469,4.59000000000003,14,183.006535947711,1,"combat","MATT",0,0,0,1
 "143","Daring_Deeds",7,93,143,"combat","LAURA","then he's going to do that so that you have a better attack on him.",933.792,937.708,3.91599999999994,17,260.469867211444,1,"combat","LAURA",1,0,0,0
 "144","Daring_Deeds",7,93,144,"combat","LIAM","well, i'm going first, so i've got the goods already.",937.708,940.421,2.71300000000008,13,287.504607445624,1,"combat","LIAM",1,0,0,0
 "145","Daring_Deeds",7,93,145,"combat","LAURA","motherfuck. whatever.",940.421,941.727,1.30599999999993,3,137.825421133239,1,"combat","LAURA",1,0,0,0
@@ -178,12 +178,12 @@
 "177","Daring_Deeds",7,93,177,"combat","SAM","it's rather stuffy in here, so we should open a window. i'll run up to right in front of vex and slap a window on the wall.",1162.388,1175.534,13.1460000000002,30,136.923779096301,1,"combat","SAM",1,0,0,0
 "178","Daring_Deeds",7,93,178,"combat","MATT","okay!",1175.534,1177.663,2.12899999999991,2,56.3644903710687,1,"combat","MATT",0,0,0,1
 "179","Daring_Deeds",7,93,179,"combat","NOELLE","did you run out of doors?",1177.663,1179.772,2.10899999999992,7,199.146514935996,1,"combat","GUESTS",0,1,0,0
-"180","Daring_Deeds",7,93,180,"combat","SAM","i've run out of doors.",1179.772,1183.671,3.89900000000011,7,107.719928186711,1,"combat","SAM",1,0,0,0
+"180","Daring_Deeds",7,93,180,"combat","SAM","i've run out of doors.",1179.772,1181.56,1.78800000000001,7,234.899328859059,1,"combat","SAM",1,0,0,0
 "181","Daring_Deeds",7,93,181,"combat","SAM","i came with one. but i have two windows!",1183.671,1187.923,4.25199999999995,10,141.110065851366,1,"combat","SAM",1,0,0,0
 "182","Daring_Deeds",7,93,182,"combat","MATT","so for the purposes of this, this is now a window here.",1187.923,1193.394,5.471,13,142.569914092488,1,"combat","MATT",0,0,0,1
 "183","Daring_Deeds",7,93,183,"combat","MARISHA","does it have nice roman-style shade and then little baskets?",1193.394,1199.792,6.39799999999991,12,112.535167239764,1,"combat","MARISHA",1,0,0,0
 "184","Daring_Deeds",7,93,184,"combat","MATT","yeah, no. it's beautifully carved. yeah, it was like some italian architects designed this beautiful",1199.792,1206.533,6.74099999999999,16,142.412105028928,1,"combat","MATT",0,0,0,1
-"185","Daring_Deeds",7,93,185,"combat","SAM","it's a casement window, so i have to go",1206.533,1212,5.4670000000001,10,109.749405524051,1,"combat","SAM",1,0,0,0
+"185","Daring_Deeds",7,93,185,"combat","SAM","it's a casement window, so i have to go",1206.533,1209.322,2.78899999999999,10,215.13087128003,1,"combat","SAM",1,0,0,0
 "186","Daring_Deeds",7,93,186,"combat","MATT","perfect. so, to taryon. use your action to rush forward, you rip off the patch, slam the patch on the side, and you watch as the stone suddenly crumbles to dust in that space. window is now open in the side of that wall. as soon as that happens",1212,1226.528,14.528,49,202.367841409691,1,"combat","MATT",0,0,0,1
 "187","Daring_Deeds",7,93,187,"combat","LAURA","i attack.",1226.528,1227.401,0.873000000000047,3,206.185567010298,1,"combat","LAURA",1,0,0,0
 "188","Daring_Deeds",7,93,188,"combat","MATT","vex, go make your attack.",1227.401,1228.569,1.16799999999989,6,308.21917808222,1,"combat","MATT",0,0,0,1
@@ -273,9 +273,9 @@
 "272","Daring_Deeds",7,93,272,"combat","LAURA","based on my lack of trinket attack fullness.",1550.218,1551.934,1.71599999999989,9,314.685314685334,1,"combat","LAURA",1,0,0,0
 "273","Daring_Deeds",7,93,273,"combat","MARISHA","32 total? and yeah, am i able to like barrel roll, like through the window?",1551.934,1561.005,9.07100000000014,16,105.831771579758,1,"combat","MARISHA",1,0,0,0
 "274","Daring_Deeds",7,93,274,"combat","MATT","you get up partway through the window, and that's the extent of where you go.",1561.063,1564.8,3.73699999999985,17,272.946213540284,1,"combat","MATT",0,0,0,1
-"275","Daring_Deeds",7,93,275,"combat","MARISHA","hang on! wait!",1564.8,1573.489,8.68900000000008,4,27.6211301645756,1,"combat","MARISHA",1,0,0,0
+"275","Daring_Deeds",7,93,275,"combat","MARISHA","hang on! wait!",1564.8,1568.944,4.14400000000001,4,57.9150579150578,1,"combat","MARISHA",1,0,0,0
 "276","Daring_Deeds",7,93,276,"combat","LAURA","i'd like to think one of your antlers caught, and you're like,.",1573.489,1576.932,3.44299999999998,15,261.399941911125,1,"combat","LAURA",1,0,0,0
-"277","Daring_Deeds",7,93,277,"combat","MARISHA","not like this!",1576.932,1580.933,4.00099999999998,4,59.9850037490631,1,"combat","MARISHA",1,0,0,0
+"277","Daring_Deeds",7,93,277,"combat","MARISHA","not like this!",1576.932,1578.517,1.58500000000004,4,151.419558359618,1,"combat","MARISHA",1,0,0,0
 "278","Daring_Deeds",7,93,278,"combat","MATT","all righty. tova. grog.",1580.933,1583.452,2.51900000000001,5,119.094878920206,1,"combat","MATT",0,0,0,1
 "279","Daring_Deeds",7,93,279,"combat","NOELLE","oh boy!",1583.452,1584.673,1.221,3,147.420147420147,1,"combat","GUESTS",0,1,0,0
 "280","Daring_Deeds",7,93,280,"combat","TRAVIS","bears first.",1584.673,1587.778,3.10500000000002,3,57.9710144927533,1,"combat","TRAVIS",1,0,0,0
@@ -297,7 +297,7 @@
 "296","Daring_Deeds",7,93,296,"combat","SAM","oh! it's okay.",1669.417,1671.581,2.16399999999999,5,138.632162661738,1,"combat","SAM",1,0,0,0
 "297","Daring_Deeds",7,93,297,"combat","NOELLE","sorry!",1671.581,1672.634,1.05300000000011,2,113.960113960102,1,"combat","GUESTS",0,1,0,0
 "298","Daring_Deeds",7,93,298,"combat","MARISHA","it's fine, i needed a tan! i was getting a little pasty.",1672.634,1675.056,2.42200000000003,14,346.820809248551,1,"combat","MARISHA",1,0,0,0
-"299","Daring_Deeds",7,93,299,"combat","MATT","take three points of fire damage.",1675.134,1677.712,2.57799999999997,7,162.916989914664,1,"combat","MATT",0,0,0,1
+"299","Daring_Deeds",7,93,299,"combat","MATT","take three points of fire damage.",1675.134,1676.717,1.58300000000008,7,265.319014529361,1,"combat","MATT",0,0,0,1
 "300","Daring_Deeds",7,93,300,"combat","NOELLE","god! i would feel worse if your shopping trip hadn't gotten me so much more tortured yesterday than it should have. i don't feel that bad. i'm going to be honest.",1677.712,1689.014,11.3019999999999,35,185.807821624493,1,"combat","GUESTS",0,1,0,0
 "301","Daring_Deeds",7,93,301,"combat","MARISHA","you legit shouldn't.",1689.014,1691.061,2.04700000000003,5,146.555935515387,1,"combat","MARISHA",1,0,0,0
 "302","Daring_Deeds",7,93,302,"combat","NOELLE","so now i'm in, is there any way i could get on the other side of him from trinket?",1691.061,1694.489,3.42800000000011,21,367.561260210023,1,"combat","GUESTS",0,1,0,0
@@ -329,7 +329,7 @@
 "328","Daring_Deeds",7,93,328,"combat","NOELLE","oh. right. i thought that it was my other one, so that's fine. that's great. i took one point of damage.",1795.479,1800.473,4.99399999999991,24,288.346015218267,1,"combat","GUESTS",0,1,0,0
 "329","Daring_Deeds",7,93,329,"combat","MATT","there you go. so you take one point of damage, and, as far as the mutual suffering all right, there you go. so. you watch as you rush up to it, you slash it twice with your claws, and as you pick up your sword, you put one hand up, and as you close your fist, you watch as blood pools in the center of your palm and drips out the corners of your fingers. as it does, you watch the veins on the outside of utugash's stomach pulse for a second, and his chuckle goes, like he got a tummy ache. all right, that ends your turn.",1800.473,1833.792,33.319,110,198.085176625949,1,"combat","MATT",0,0,0,1
 "330","Daring_Deeds",7,93,330,"combat","NOELLE","told you i was going to going to be extra.",1833.792,1835.484,1.69200000000001,11,390.070921985814,1,"combat","GUESTS",0,1,0,0
-"331","Daring_Deeds",7,93,331,"combat","LIAM","the bear musk over here is palpable.",1835.484,1839.374,3.8900000000001,8,123.39331619537,1,"combat","LIAM",1,0,0,0
+"331","Daring_Deeds",7,93,331,"combat","LIAM","the bear musk over here is palpable.",1835.484,1837.427,1.94299999999998,8,247.040658775092,1,"combat","LIAM",1,0,0,0
 "332","Daring_Deeds",7,93,332,"combat","MATT","so that finishes tova turn. grog.",1839.374,1842.28,2.90599999999995,7,144.528561596699,1,"combat","MATT",0,0,0,1
 "333","Daring_Deeds",7,93,333,"combat","TRAVIS","ah! i want to get in on the melee party. may i run up to his opposite side?",1842.28,1847.975,5.69499999999994,19,200.175592625112,1,"combat","TRAVIS",1,0,0,0
 "334","Daring_Deeds",7,93,334,"combat","MATT","certainly.",1847.975,1850.15,2.17500000000018,2,55.1724137930988,1,"combat","MATT",0,0,0,1
@@ -384,7 +384,7 @@
 "383","Daring_Deeds",7,93,383,"combat","TALIESIN","cool. i'm going to turn and take my last two shots at orthax. i've got a plan.",2058.41,2063.191,4.78099999999995,20,250.993516000839,1,"combat","TALIESIN",1,0,0,0
 "384","Daring_Deeds",7,93,384,"combat","MATT","utugash.",2063.191,2064.296,1.10500000000002,2,108.597285067872,1,"combat","MATT",0,0,0,1
 "385","Daring_Deeds",7,93,385,"combat","TALIESIN","i've got an orthax plan, never mind. i've just given the game away!",2064.296,2066.834,2.53800000000001,16,378.250591016547,1,"combat","TALIESIN",1,0,0,0
-"386","Daring_Deeds",7,93,386,"combat","NOELLE","yelling out the wrong name in bed, eh?",2066.834,2071.962,5.12800000000016,9,105.304212168484,1,"combat","GUESTS",0,1,0,0
+"386","Daring_Deeds",7,93,386,"combat","NOELLE","yelling out the wrong name in bed, eh?",2066.834,2068.971,2.13700000000017,9,252.690687880186,1,"combat","GUESTS",0,1,0,0
 "387","Daring_Deeds",7,93,387,"combat","MARISHA","are you having ptsd flashbacks, percival? are you okay?",2071.962,2076.095,4.13299999999981,10,145.172997822412,1,"combat","MARISHA",1,0,0,0
 "388","Daring_Deeds",7,93,388,"combat","TALIESIN","oh man! i'm too tired. i'm going to mess up my plan! this is so bad.",2076.095,2078.996,2.90100000000029,19,392.967942088895,1,"combat","TALIESIN",1,0,0,0
 "389","Daring_Deeds",7,93,389,"combat","LIAM","i'm totally into you, utugash.",2078.996,2081.993,2.99699999999984,7,140.140140140147,1,"combat","LIAM",1,0,0,0
@@ -396,11 +396,11 @@
 "395","Daring_Deeds",7,93,395,"combat","MATT","8d6 lightning.",2127.537,2130.568,3.0310000000004,3,59.3863411415295,1,"combat","MATT",0,0,0,1
 "396","Daring_Deeds",7,93,396,"combat","SAM","oh, shnikes!",2130.568,2132.88,2.3119999999999,3,77.8546712802802,1,"combat","SAM",1,0,0,0
 "397","Daring_Deeds",7,93,397,"combat","MATT","cabal's ruin, man. vestiges at your disposal!",2132.88,2136.355,3.47499999999991,9,155.395683453241,1,"combat","MATT",0,0,0,1
-"398","Daring_Deeds",7,93,398,"combat","TALIESIN","five, six. yeah, i'll take a seven and an eight, i'll give these back to you. 23 points, does that seem right?",2136.355,2156.752,20.3969999999999,25,73.5402265038979,1,"combat","TALIESIN",1,0,0,0
+"398","Daring_Deeds",7,93,398,"combat","TALIESIN","five, six. yeah, i'll take a seven and an eight, i'll give these back to you. (continues counting) 23 points, does that seem right?",2136.355,2156.752,20.3969999999999,27,79.4234446242097,1,"combat","TALIESIN",1,0,0,0
 "399","Daring_Deeds",7,93,399,"combat","MATT","23 points, okay.",2156.752,2161.022,4.26999999999998,4,56.2060889929745,1,"combat","MATT",0,0,0,1
 "400","Daring_Deeds",7,93,400,"combat","TALIESIN","23 points of lightning damage. and also he has to do a strength check or drop the axe.",2161.022,2168.646,7.62400000000025,19,149.527806925494,1,"combat","TALIESIN",1,0,0,0
 "401","Daring_Deeds",7,93,401,"combat","MATT","it's a 29.",2168.646,2169.927,1.28099999999995,5,234.192037470735,1,"combat","MATT",0,0,0,1
-"402","Daring_Deeds",7,93,402,"combat","TALIESIN","he makes that strength check!",2169.927,2173.867,3.94000000000005,6,91.3705583756333,1,"combat","TALIESIN",1,0,0,0
+"402","Daring_Deeds",7,93,402,"combat","TALIESIN","he makes that strength check!",2169.927,2171.401,1.47399999999971,6,244.233378561786,1,"combat","TALIESIN",1,0,0,0
 "403","Daring_Deeds",7,93,403,"combat","MATT","he had a natural 19.",2173.867,2175.922,2.05499999999984,6,175.182481751839,1,"combat","MATT",0,0,0,1
 "404","Daring_Deeds",7,93,404,"combat","TALIESIN","and, just for fun, i'll take one more shot.",2175.922,2178.781,2.85899999999992,11,230.849947534109,1,"combat","TALIESIN",1,0,0,0
 "405","Daring_Deeds",7,93,405,"combat","MATT","go for it.",2178.781,2180.223,1.44200000000001,4,166.435506241331,1,"combat","MATT",0,0,0,1
@@ -442,7 +442,7 @@
 "441","Daring_Deeds",7,93,441,"combat","MATT","why not? your bear form, you speak bear",2355.687,2358.203,2.51600000000008,8,190.77901430842,1,"combat","MATT",0,0,0,1
 "442","Daring_Deeds",7,93,442,"combat","LAURA","yes! ah, i love this!",2358.203,2361.236,3.0329999999999,6,118.694362017808,1,"combat","LAURA",1,0,0,0
 "443","Daring_Deeds",7,93,443,"combat","LIAM","everybody buckle up.",2361.236,2363.547,2.31100000000015,4,103.851146689738,1,"combat","LIAM",1,0,0,0
-"444","Daring_Deeds",7,93,444,"combat","MATT","""there's something here!""",2363.547,2367.783,4.23599999999988,6,84.9858356940535,1,"combat","MATT",0,0,0,1
+"444","Daring_Deeds",7,93,444,"combat","MATT","""there's something here!""",2363.547,2365.954,2.40700000000015,6,149.563772330693,1,"combat","MATT",0,0,0,1
 "445","Daring_Deeds",7,93,445,"combat","MATT","""two! small.""",2367.783,2370.632,2.84900000000016,4,84.2400842400795,1,"combat","MATT",0,0,0,1
 "446","Daring_Deeds",7,93,446,"combat","NOELLE","there's two! small!",2370.632,2374.635,4.00300000000016,5,74.9437921558802,1,"combat","GUESTS",0,1,0,0
 "447","Daring_Deeds",7,93,447,"combat","TRAVIS","why do you sound like a bear?",2374.635,2377.359,2.72399999999971,8,176.211453744512,1,"combat","TRAVIS",1,0,0,0
@@ -611,7 +611,7 @@
 "610","Daring_Deeds",7,93,610,"combat","MATT","halved because of?",3241.831,3243.944,2.11299999999983,4,113.582584003795,1,"combat","MATT",0,0,0,1
 "611","Daring_Deeds",7,93,611,"combat","SAM","my helm of brilliance.",3243.944,3245.764,1.82000000000016,5,164.83516483515,1,"combat","SAM",1,0,0,0
 "612","Daring_Deeds",7,93,612,"combat","MATT","that's true. there you go. so 15 points of fire damage to you, taryon. as you rush through, you're like, ""hah!"" the fire was enough, and you sit there and look right up on this massive, like, swollen devilish entity with giant red leathery wings, lower jaw with hooked tusks that stick out the bottom, gleaming yellow piercing eyes, giant horns that curl up from the brow, a giant axe in one hand and the other hand just points at you and goes, ""hi."" in the center of your head.",3245.764,3276.428,30.6639999999998,93,181.972345421342,1,"combat","MATT",0,0,0,1
-"613","Daring_Deeds",7,93,613,"combat","SAM","i'm just going to say, ""hi. it's a little warm in here. here, cool off."" and i'll throw acid on him.",3276.428,3285.453,9.02500000000009,25,166.204986149583,1,"combat","SAM",1,0,0,0
+"613","Daring_Deeds",7,93,613,"combat","SAM","i'm just going to say, ""hi. it's a little warm in here. here, cool off."" and i'll throw acid on him.",3276.428,3282.766,6.33800000000019,25,236.667718523186,1,"combat","SAM",1,0,0,0
 "614","Daring_Deeds",7,93,614,"combat","MATT","all right, go ahead and make the attack.",3285.453,3289.298,3.8449999999998,9,140.442132639799,1,"combat","MATT",0,0,0,1
 "615","Daring_Deeds",7,93,615,"combat","SAM","i don't know what i'm rolling. 14. this is to hit? it's magic? i don't know, how does this work?",3289.298,3298.044,8.74600000000009,25,171.506974616966,1,"combat","SAM",1,0,0,0
 "616","Daring_Deeds",7,93,616,"combat","MATT","well, no hold on.",3298.044,3299.883,1.83899999999994,5,163.132137031,1,"combat","MATT",0,0,0,1
@@ -650,21 +650,21 @@
 "649","Daring_Deeds",7,93,649,"combat","MATT","no.",3421.292,3422.382,1.09000000000015,2,110.091743119251,1,"combat","MATT",0,0,0,1
 "650","Daring_Deeds",7,93,650,"combat","SAM","yeah, so 13.",3422.382,3424.519,2.13699999999972,4,112.306972391218,1,"combat","SAM",1,0,0,0
 "651","Daring_Deeds",7,93,651,"combat","MATT","13 points of damage against the pit fiend as you stab it and you can cast sanctuary on yourself as your bonus.",3424.519,3430.532,6.01300000000037,23,229.502744054534,1,"combat","MATT",0,0,0,1
-"652","Daring_Deeds",7,93,652,"combat","SAM","i will, and as i do that i also say, doty remember how i said back up grog? me! back up me!",3430.532,3440.099,9.56700000000001,23,144.245845092505,1,"combat","SAM",1,0,0,0
+"652","Daring_Deeds",7,93,652,"combat","SAM","i will, and as i do that i also say, doty remember how i said back up grog? me! back up me!",3430.532,3438.232,7.69999999999982,23,179.220779220783,1,"combat","SAM",1,0,0,0
 "653","Daring_Deeds",7,93,653,"combat","MATT","as doty charges forward and rushes in. i need doty to make a dexterity saving throw.",3440.099,3448.998,8.89899999999989,17,114.619620182044,1,"combat","MATT",0,0,0,1
 "654","Daring_Deeds",7,93,654,"combat","SAM","oh no. 16 plus what's his dexterity? zero, so 16.",3448.998,3454.997,5.9989999999998,12,120.020003333893,1,"combat","SAM",1,0,0,0
 "655","Daring_Deeds",7,93,655,"combat","MATT","doty takes 30 points of fire damage.",3454.997,3458.378,3.38100000000031,8,141.969831410812,1,"combat","MATT",0,0,0,1
 "656","Daring_Deeds",7,93,656,"combat","SAM","he's unconscious.",3458.378,3460.654,2.27599999999984,4,105.448154657301,1,"combat","SAM",1,0,0,0
 "657","Daring_Deeds",7,93,657,"combat","MARISHA","already?",3460.654,3462.371,1.7170000000001,2,69.88934187536,1,"combat","MARISHA",1,0,0,0
 "658","Daring_Deeds",7,93,658,"combat","SAM","i don't know when the last time we rested was but i have down that he only has 30 hit points left. did he take damage at some point?",3462.371,3470.426,8.05499999999984,31,230.912476722537,1,"combat","SAM",1,0,0,0
-"659","Daring_Deeds",7,93,659,"combat","MATT","well because he hurt himself going through the metal outside. so doty comes rushing in and goes and just collapses on the ground next to you, superheated.",3470.426,3487.404,16.9780000000001,28,98.9515844033451,1,"combat","MATT",0,0,0,1
+"659","Daring_Deeds",7,93,659,"combat","MATT","well because he hurt himself going through the metal outside. so doty comes rushing in and goes and just collapses on the ground next to you, superheated.",3470.426,3485.95,15.5239999999999,28,108.2195310487,1,"combat","MATT",0,0,0,1
 "660","Daring_Deeds",7,93,660,"combat","SAM","oh no! is he going to melt?",3487.404,3489.364,1.96000000000004,8,244.897959183669,1,"combat","SAM",1,0,0,0
 "661","Daring_Deeds",7,93,661,"combat","MATT","you don't think so.",3489.364,3490.643,1.279,6,281.469898358093,1,"combat","MATT",0,0,0,1
 "662","Daring_Deeds",7,93,662,"combat","SAM","he's in the fire, right?",3490.643,3491.874,1.23099999999977,7,341.186027619886,1,"combat","SAM",1,0,0,0
 "663","Daring_Deeds",7,93,663,"combat","MATT","he's in the fire, yeah.",3491.874,3493.156,1.28200000000015,7,327.613104524142,1,"combat","MATT",0,0,0,1
 "664","Daring_Deeds",7,93,664,"combat","SAM","oh god. is he making some sort of window that someone else could walk over?",3493.156,3498.319,5.16300000000001,16,185.938407902382,1,"combat","SAM",1,0,0,0
 "665","Daring_Deeds",7,93,665,"combat","MATT","no, the flames curl around, sorry. all right, so that ends taryon's turn.",3498.319,3506.45,8.13099999999986,15,110.687492313371,1,"combat","MATT",0,0,0,1
-"666","Daring_Deeds",7,93,666,"combat","SAM","good, i'm glad i used that last little thing.",3506.45,3511.678,5.22800000000007,11,126.243305279264,1,"combat","SAM",1,0,0,0
+"666","Daring_Deeds",7,93,666,"combat","SAM","good, i'm glad i used that last little thing.",3506.45,3508.754,2.30400000000009,11,286.458333333323,1,"combat","SAM",1,0,0,0
 "667","Daring_Deeds",7,93,667,"combat","SAM","killed my best friend.",3511.678,3513.707,2.029,5,147.856086742238,1,"combat","SAM",1,0,0,0
 "668","Daring_Deeds",7,93,668,"combat","LAURA","tary, it's your only friend!",3513.707,3516.082,2.375,7,176.842105263158,1,"combat","LAURA",1,0,0,0
 "669","Daring_Deeds",7,93,669,"combat","MATT","at the end of the turn, the pit fiend sticks a hand out of the flames and does this motion. make a perception check again, grog.",3516.082,3525.335,9.25300000000016,27,175.078352966602,1,"combat","MATT",0,0,0,1
@@ -693,7 +693,7 @@
 "692","Daring_Deeds",7,93,692,"combat","TRAVIS","how do you know it's not molten steel? kidding.",3646.681,3651.193,4.51200000000017,11,146.276595744675,1,"combat","TRAVIS",1,0,0,0
 "693","Daring_Deeds",7,93,693,"combat","MATT","one way to find out. that brings us to keyleth.",3651.193,3659.592,8.39899999999989,11,78.5807834265995,1,"combat","MATT",0,0,0,1
 "694","Daring_Deeds",7,93,694,"combat","MARISHA","oh, jeez! okay. i roll over.",3659.592,3665.96,6.36799999999994,7,65.9547738693474,1,"combat","MARISHA",1,0,0,0
-"695","Daring_Deeds",7,93,695,"combat","MATT","you stand up and see trinket currently trapped in the cage next to you just whining.",3666.016,3670.768,4.75199999999995,17,214.646464646467,1,"combat","MATT",0,0,0,1
+"695","Daring_Deeds",7,93,695,"combat","MATT","you stand up and see trinket currently trapped in the cage next to you just whining .",3666.016,3670.768,4.75199999999995,17,214.646464646467,1,"combat","MATT",0,0,0,1
 "696","Daring_Deeds",7,93,696,"combat","MARISHA","it's okay, buddy! just hang on. tsunami coming though, look out! i'm going to do a tidal wave and go. do you have the laser pointer? what are these red pools of things?",3670.768,3696.157,25.3890000000001,36,85.0762141084718,1,"combat","MARISHA",1,0,0,0
 "697","Daring_Deeds",7,93,697,"combat","LAURA","that's molten blood, he said.",3696.157,3698.104,1.94699999999966,7,215.716486902965,1,"combat","LAURA",1,0,0,0
 "698","Daring_Deeds",7,93,698,"combat","MARISHA","it's molten blood?",3698.104,3700.064,1.96000000000004,5,153.061224489793,1,"combat","MARISHA",1,0,0,0
@@ -721,7 +721,7 @@
 "720","Daring_Deeds",7,93,720,"combat","MATT","it's going to hit either taryon, or it's going to have to hit tova and doty.",3795.468,3799.975,4.50700000000006,19,252.93987131129,1,"combat","MATT",0,0,0,1
 "721","Daring_Deeds",7,93,721,"combat","NOELLE","do what you've got to do.",3799.975,3806.378,6.40300000000025,8,74.9648602217681,1,"combat","GUESTS",0,1,0,0
 "722","Daring_Deeds",7,93,722,"combat","MARISHA","tova.",3806.378,3808.217,1.83899999999994,2,65.2528548124001,1,"combat","MARISHA",1,0,0,0
-"723","Daring_Deeds",7,93,723,"combat","NOELLE","sorry i pushed you out a window.",3808.217,3815.983,7.76600000000008,8,61.8078805047638,1,"combat","GUESTS",0,1,0,0
+"723","Daring_Deeds",7,93,723,"combat","NOELLE","sorry i pushed you out a window.",3808.217,3813.78,5.5630000000001,8,86.2843789322292,1,"combat","GUESTS",0,1,0,0
 "724","Daring_Deeds",7,93,724,"combat","MATT","i need tova to make a dexterity saving throw.",3815.983,3817.662,1.67899999999963,10,357.355568791025,1,"combat","MATT",0,0,0,1
 "725","Daring_Deeds",7,93,725,"combat","MARISHA","only because i think she's more dextrous than him.",3817.662,3821.84,4.17800000000034,11,157.970320727608,1,"combat","MARISHA",1,0,0,0
 "726","Daring_Deeds",7,93,726,"combat","NOELLE","that is 11.",3821.84,3825.243,3.40299999999979,4,70.5260064648882,1,"combat","GUESTS",0,1,0,0
@@ -740,7 +740,7 @@
 "739","Daring_Deeds",7,93,739,"combat","MARISHA","and then the water spreads across the ground in all directions, and extinguishes unprotected flames in an area within 30 feet of it?",3872.584,3879.007,6.42300000000023,24,224.194301728156,1,"combat","MARISHA",1,0,0,0
 "740","Daring_Deeds",7,93,740,"combat","MATT","correct!",3879.007,3880.751,1.74400000000014,2,68.8073394495357,1,"combat","MATT",0,0,0,1
 "741","Daring_Deeds",7,93,741,"combat","MARISHA","that's all i cared about, mainly?",3880.751,3883.666,2.91499999999996,8,164.665523156091,1,"combat","MARISHA",1,0,0,0
-"742","Daring_Deeds",7,93,742,"combat","MATT","so, the water, and the wall of fire in that one section. unfortunately, the enchantment continues to produce flames once the spell disseminates the water. the nature of the spell is it perpetually conjures fire. so, there is a brief moment where it causes a gap, and the flames pick up once more. he is knocked prone, he took damage.",3883.666,3904.936,21.27,61,172.073342736248,1,"combat","MATT",0,0,0,1
+"742","Daring_Deeds",7,93,742,"combat","MATT","so, the water, and the wall of fire in that one section (sputtering, fire roaring back to life). unfortunately, the enchantment continues to produce flames once the spell disseminates the water. the nature of the spell is it perpetually conjures fire. so, there is a brief moment where it causes a gap, and the flames pick up once more. he is knocked prone, he took damage.",3883.666,3904.936,21.27,67,188.998589562765,1,"combat","MATT",0,0,0,1
 "743","Daring_Deeds",7,93,743,"combat","MARISHA","okay. i tried. sorry, guys.",3904.936,3910.066,5.12999999999965,6,70.175438596496,1,"combat","MARISHA",1,0,0,0
 "744","Daring_Deeds",7,93,744,"combat","MATT","are you going to move, or are you going to stay where you are, keyleth?",3910.066,3913.217,3.15100000000029,16,304.665185655319,1,"combat","MATT",0,0,0,1
 "745","Daring_Deeds",7,93,745,"combat","MARISHA","i'm going to back up as can i crawl? do i have enough movement to crawl back through the window?",3913.217,3919.932,6.71499999999969,22,196.57483246464,1,"combat","MARISHA",1,0,0,0
@@ -767,7 +767,7 @@
 "766","Daring_Deeds",7,93,766,"combat","MATT","with what type of",3999.689,4001.927,2.23800000000028,4,107.23860589811,1,"combat","MATT",0,0,0,1
 "767","Daring_Deeds",7,93,767,"combat","NOELLE","with frozen. does that help me with fire at all? can i bat the flames away with my icy paws?",4002.167,4009.242,7.07500000000027,21,178.091872791513,1,"combat","GUESTS",0,1,0,0
 "768","Daring_Deeds",7,93,768,"combat","MATT","your hands feel more comfortable.",4009.242,4010.514,1.27199999999993,6,283.018867924543,1,"combat","MATT",0,0,0,1
-"769","Daring_Deeds",7,93,769,"combat","NOELLE","okay.",4010.514,4013.44,2.92599999999993,2,41.0116199589893,1,"combat","GUESTS",0,1,0,0
+"769","Daring_Deeds",7,93,769,"combat","NOELLE","okay.",4010.514,4011.652,1.13799999999992,2,105.448154657301,1,"combat","GUESTS",0,1,0,0
 "770","Daring_Deeds",7,93,770,"combat","MATT","where once was these giant bear claws, you watch as mystic ice gathers around them, turning into longer razors that extend from your regular claws.",4013.499,4024.388,10.8890000000001,26,143.263844246486,1,"combat","MATT",0,0,0,1
 "771","Daring_Deeds",7,93,771,"combat","NOELLE","all right; i'm going to come to this guy, and",4024.388,4027.932,3.54399999999987,11,186.230248307005,1,"combat","GUESTS",0,1,0,0
 "772","Daring_Deeds",7,93,772,"combat","LAURA","eat it, utugash!",4027.932,4029.804,1.8720000000003,4,128.205128205108,1,"combat","LAURA",1,0,0,0
@@ -995,7 +995,7 @@
 "994","Daring_Deeds",7,93,994,"combat","TRAVIS","what would doty do?",5245.331,5247.703,2.3720000000003,5,126.475548060692,1,"combat","TRAVIS",1,0,0,0
 "995","Daring_Deeds",7,93,995,"combat","SAM","that's fair.",5247.703,5249.437,1.73399999999947,4,138.408304498312,1,"combat","SAM",1,0,0,0
 "996","Daring_Deeds",7,93,996,"combat","LAURA","fall over and be unconscious, is what doty would do.",5249.437,5252.897,3.46000000000004,11,190.751445086703,1,"combat","LAURA",1,0,0,0
-"997","Daring_Deeds",7,93,997,"combat","SAM","i will spend the rest of my turn moving back to where doty was, picking up his book, putting it in my bag of holding so it doesn't burn up. then crawl into a ball and cast sanctuary on myself.",5252.897,5276.509,23.6120000000001,42,106.725393867525,1,"combat","SAM",1,0,0,0
+"997","Daring_Deeds",7,93,997,"combat","SAM","i will spend the rest of my turn moving back to where doty was, picking up his book, putting it in my bag of holding so it doesn't burn up. then crawl into a ball and cast sanctuary on myself.",5252.897,5272.326,19.4290000000001,42,129.703021256883,1,"combat","SAM",1,0,0,0
 "998","Daring_Deeds",7,93,998,"combat","MATT","that ends taryon's turn.",5276.509,5281.512,5.0029999999997,6,71.9568259044616,1,"combat","MATT",0,0,0,1
 "999","Daring_Deeds",7,93,999,"combat","SAM","if i don't look, he'll go away!",5281.512,5286.686,5.17399999999998,10,115.964437572478,1,"combat","SAM",1,0,0,0
 "1000","Daring_Deeds",7,93,1000,"combat","MATT","that brings us to keyleth's turn.",5286.686,5292.606,5.92000000000007,8,81.0810810810801,1,"combat","MATT",0,0,0,1
@@ -1023,7 +1023,7 @@
 "1022","Daring_Deeds",7,93,1022,"combat","MATT","tary is currently inside the wall of fire, curled in a ball. all you see is a giant column of flame in the center of the room. and half of doty being slowly heated up.",5408.313,5416.633,8.31999999999971,36,259.615384615394,1,"combat","MATT",0,0,0,1
 "1023","Daring_Deeds",7,93,1023,"combat","MARISHA","do i see anyone else, and does anyone else look rough?",5416.633,5420.689,4.05600000000049,12,177.514792899387,1,"combat","MARISHA",1,0,0,0
 "1024","Daring_Deeds",7,93,1024,"combat","MATT","you see grog with a giant cage on his upper body, wrapping around his torso.",5420.689,5426.005,5.3159999999998,16,180.586907449217,1,"combat","MATT",0,0,0,1
-"1025","Daring_Deeds",7,93,1025,"combat","TRAVIS","just spinning in place.",5426.005,5431.575,5.56999999999971,5,53.8599640933601,1,"combat","TRAVIS",1,0,0,0
+"1025","Daring_Deeds",7,93,1025,"combat","TRAVIS","just spinning in place.",5426.005,5429.883,3.8779999999997,5,77.359463641058,1,"combat","TRAVIS",1,0,0,0
 "1026","Daring_Deeds",7,93,1026,"combat","NOELLE","i'm down to 39 hit points.",5431.575,5433.346,1.77099999999973,8,271.033314511617,1,"combat","GUESTS",0,1,0,0
 "1027","Daring_Deeds",7,93,1027,"combat","MARISHA","do i see tova?",5433.346,5434.404,1.0580000000009,5,283.553875236053,1,"combat","MARISHA",1,0,0,0
 "1028","Daring_Deeds",7,93,1028,"combat","MATT","you do see tova, yeah.",5434.404,5435.386,0.981999999999971,6,366.598778004084,1,"combat","MATT",0,0,0,1
@@ -1068,7 +1068,7 @@
 "1067","Daring_Deeds",7,93,1067,"combat","MATT","you still have your movement and your bonus if you wanted to do",5637.71,5640.413,2.70299999999952,13,288.568257491727,1,"combat","MATT",0,0,0,1
 "1068","Daring_Deeds",7,93,1068,"combat","SAM","do you have healing potions?",5640.413,5643.062,2.64900000000034,6,135.900339750832,1,"combat","SAM",1,0,0,0
 "1069","Daring_Deeds",7,93,1069,"combat","MATT","you still have your blood maladict if you wanted to use any of it.",5643.062,5645.847,2.78499999999985,15,323.159784560161,1,"combat","MATT",0,0,0,1
-"1070","Daring_Deeds",7,93,1070,"combat","NOELLE","all my stuff is probably in that prison that percy was in. i don't have any pockets.",5645.847,5652.851,7.00399999999991,19,162.764134780128,1,"combat","GUESTS",0,1,0,0
+"1070","Daring_Deeds",7,93,1070,"combat","NOELLE","all my stuff is probably in that prison that percy was in. i don't have any pockets.",5645.847,5651.059,5.21200000000044,19,218.726016884095,1,"combat","GUESTS",0,1,0,0
 "1071","Daring_Deeds",7,93,1071,"combat","SAM","oh yeah.",5652.851,5654.382,1.53099999999995,3,117.570215545399,1,"combat","SAM",1,0,0,0
 "1072","Daring_Deeds",7,93,1072,"combat","NOELLE","yeah, i was sort of unprepared for this. i was really excited for this fight.",5654.382,5660.05,5.66800000000057,16,169.371912491161,1,"combat","GUESTS",0,1,0,0
 "1073","Daring_Deeds",7,93,1073,"combat","MARISHA","tiny pockets, this is a problem of women's fashion, to be fair.",5660.05,5664.056,4.0059999999994,14,209.685471792343,1,"combat","MARISHA",1,0,0,0
@@ -1137,7 +1137,7 @@
 "1136","Daring_Deeds",7,93,1136,"combat","NOELLE","all right, i'm just going to oh! six. that is six for me.",5860.565,5865.064,4.49900000000071,15,200.044454323152,1,"combat","GUESTS",0,1,0,0
 "1137","Daring_Deeds",7,93,1137,"combat","MATT","all righty.",5865.064,5865.945,0.880999999999403,3,204.313280363362,1,"combat","MATT",0,0,0,1
 "1138","Daring_Deeds",7,93,1138,"combat","NOELLE","and then i'm going to throw my bear arms wide and just like",5865.945,5869.722,3.77700000000004,14,222.398729150117,1,"combat","GUESTS",0,1,0,0
-"1139","Daring_Deeds",7,93,1139,"combat","MATT","come at me, bro?",5869.722,5873.729,4.00700000000052,5,74.8689792862394,1,"combat","MATT",0,0,0,1
+"1139","Daring_Deeds",7,93,1139,"combat","MATT","come at me, bro?",5869.722,5871.958,2.23599999999988,5,134.168157423979,1,"combat","MATT",0,0,0,1
 "1140","Daring_Deeds",7,93,1140,"combat","NOELLE","'sup, asshole?",5873.729,5875.362,1.63299999999981,4,146.968769136576,1,"combat","GUESTS",0,1,0,0
 "1141","Daring_Deeds",7,93,1141,"combat","MATT","perfect. all righty. percival, you're up.",5875.362,5881.628,6.26599999999962,8,76.6038940312846,1,"combat","MATT",0,0,0,1
 "1142","Daring_Deeds",7,93,1142,"combat","TALIESIN","all right, i'm going to reload. because boy, i'm out.",5881.628,5885.907,4.27900000000045,13,182.285580743145,1,"combat","TALIESIN",1,0,0,0
@@ -1162,7 +1162,7 @@
 "1161","Daring_Deeds",7,93,1161,"combat","TALIESIN","oh! all right. and then i'm going to take another shot. i'm going to make this a sharpshooter, just to end this. yeah, that'll do. that's 14, 20. 25?",6011.852,6022.667,10.8150000000005,34,188.6269070735,1,"combat","TALIESIN",1,0,0,0
 "1162","Daring_Deeds",7,93,1162,"combat","MATT","yep. go ahead and roll damage.",6022.667,6024.746,2.07899999999972,7,202.020202020229,1,"combat","MATT",0,0,0,1
 "1163","Daring_Deeds",7,93,1163,"combat","TALIESIN","i didn't know i had advantage, that's lovely. that's 18, 19, 20, 21. 25 points of damage and four points of psychic damage.",6024.746,6035.081,10.335,27,156.748911465892,1,"combat","TALIESIN",1,0,0,0
-"1164","Daring_Deeds",7,93,1164,"combat","MATT","so, after the cage goes flying over his head and clangs behind it, it spins around as it hears the impact, and turns back in the direction of tova. even though its eyes are currently held shut from the blinding light of the sunbeam, it rears back with its hooked pull arm and is about to rush towards the torso of tova, knowing and being able to sense where she is. right as it rears back, two shots, the second one knocking its head limply across the back of its shoulders, and it tumbles to the ground, unmoving.",6035.081,6064.467,29.3859999999995,99,202.137072075141,1,"combat","MATT",0,0,0,1
+"1164","Daring_Deeds",7,93,1164,"combat","MATT","so, after the cage goes flying over his head and clangs behind it, it spins around as it hears the impact, and turns back in the direction of tova. even though its eyes are currently held shut from the blinding light of the sunbeam, it rears back with its hooked pull arm and is about to rush towards the torso of tova, knowing and being able to sense where she is. right as it rears back , two shots, the second one knocking its head limply across the back of its shoulders, and it tumbles to the ground, unmoving.",6035.081,6064.467,29.3859999999995,99,202.137072075141,1,"combat","MATT",0,0,0,1
 "1165","Daring_Deeds",7,93,1165,"combat","MARISHA","you get another grit back!",6064.467,6066.628,2.16100000000006,6,166.589541878755,1,"combat","MARISHA",1,0,0,0
 "1166","Daring_Deeds",7,93,1166,"combat","TALIESIN","i get another grit back.",6066.628,6067.946,1.31800000000021,6,273.141122913462,1,"combat","TALIESIN",1,0,0,0
 "1167","Daring_Deeds",7,93,1167,"combat","TRAVIS","get another grit back.",6067.946,6069.638,1.69200000000001,5,177.304964539006,1,"combat","TRAVIS",1,0,0,0
@@ -1328,7 +1328,7 @@
 "1327","Daring_Deeds",7,93,1327,"combat","MATT","okay. cool. that brings us to taryon. i need you to roll a death saving throw.",6783.769,6787.138,3.36899999999969,17,302.760463045442,1,"combat","MATT",0,0,0,1
 "1328","Daring_Deeds",7,93,1328,"combat","SAM","oh, sure. yeah. can i feel lucky?",6787.138,6791.28,4.14199999999983,8,115.886045388706,1,"combat","SAM",1,0,0,0
 "1329","Daring_Deeds",7,93,1329,"combat","MATT","you can, technically.",6791.28,6792.786,1.50600000000031,4,159.362549800764,1,"combat","MATT",0,0,0,1
-"1330","Daring_Deeds",7,93,1330,"combat","SAM","oh, that's worse.",6792.786,6797.06,4.27400000000034,5,70.191857744496,1,"combat","SAM",1,0,0,0
+"1330","Daring_Deeds",7,93,1330,"combat","SAM","oh, that's worse.",6792.786,6795.046,2.26000000000022,5,132.743362831846,1,"combat","SAM",1,0,0,0
 "1331","Daring_Deeds",7,93,1331,"combat","MATT","so that's one failed death saving throw on tary.",6797.06,6798.944,1.88400000000001,11,350.318471337577,1,"combat","MATT",0,0,0,1
 "1332","Daring_Deeds",7,93,1332,"combat","NOELLE","tary.",6798.944,6800.771,1.82699999999932,2,65.6814449918144,1,"combat","GUESTS",0,1,0,0
 "1333","Daring_Deeds",7,93,1333,"combat","LAURA","i just have a quick question.",6800.771,6802.511,1.74000000000069,7,241.379310344732,1,"combat","LAURA",1,0,0,0
@@ -1354,7 +1354,7 @@
 "1353","Daring_Deeds",7,93,1353,"combat","TRAVIS","are you super strong?",6922.961,6924.521,1.55999999999949,5,192.307692307755,1,"combat","TRAVIS",1,0,0,0
 "1354","Daring_Deeds",7,93,1354,"combat","MARISHA","i am. is this plus 11 just to my attacks?",6924.521,6928.18,3.65900000000056,11,180.377152227357,1,"combat","MARISHA",1,0,0,0
 "1355","Daring_Deeds",7,93,1355,"combat","MATT","everyone else gets pushed out of the way. so yes.",6928.18,6932.005,3.82499999999982,11,172.549019607851,1,"combat","MATT",0,0,0,1
-"1356","Daring_Deeds",7,93,1356,"combat","MARISHA","natural 20!",6932.005,6937.113,5.10800000000017,3,35.2388410336715,1,"combat","MARISHA",1,0,0,0
+"1356","Daring_Deeds",7,93,1356,"combat","MARISHA","natural 20!",6932.005,6933.365,1.35999999999967,3,132.352941176502,1,"combat","MARISHA",1,0,0,0
 "1357","Daring_Deeds",7,93,1357,"combat","MARISHA","thanks, gil!",6937.113,6938.408,1.29500000000007,3,138.996138996131,1,"combat","MARISHA",1,0,0,0
 "1358","Daring_Deeds",7,93,1358,"combat","LAURA","that made up for all the rest of the times he fucked us during this game.",6938.408,6943.045,4.63699999999972,17,219.969808065573,1,"combat","LAURA",1,0,0,0
 "1359","Daring_Deeds",7,93,1359,"combat","MATT","so, tova and the imps get pushed aside as keyleth's form suddenly encompasses most of the corner of the room. natural 20. you grab utugash by the throat. grab the torso, lift him up, slam him onto the ground. go ahead and roll just the basic damage for the fire elemental's attack. it doesn't knock him prone, but this is the flavor for the attack.",6943.045,6968.929,25.884,69,159.944367176634,1,"combat","MATT",0,0,0,1
@@ -1365,7 +1365,7 @@
 "1364","Daring_Deeds",7,93,1364,"combat","MARISHA","and it gives me a greatsword melee attack.",6977.015,6980.255,3.23999999999978,9,166.666666666678,1,"combat","MARISHA",1,0,0,0
 "1365","Daring_Deeds",7,93,1365,"combat","MATT","yeah, just roll the damage for the greatsword. the attack is the flavor of the strike.",6980.255,6985.37,5.11499999999978,17,199.413489736079,1,"combat","MATT",0,0,0,1
 "1366","Daring_Deeds",7,93,1366,"combat","MARISHA","that is 6d6. that is one, two, three, four. i need one more.",6985.37,6990.768,5.39800000000014,14,155.613190070392,1,"combat","MARISHA",1,0,0,0
-"1367","Daring_Deeds",7,93,1367,"combat","LIAM","i'm on this guy's chest, by the way, and he goes down, and it's landing on the ground, i love what you do!",6990.768,7001.444,10.6760000000004,27,151.742225552636,1,"combat","LIAM",1,0,0,0
+"1367","Daring_Deeds",7,93,1367,"combat","LIAM","i'm on this guy's chest, by the way, and he goes down, and it's landing on the ground, i love what you do!",6990.768,6999.941,9.17299999999977,27,176.605254551405,1,"combat","LIAM",1,0,0,0
 "1368","Daring_Deeds",7,93,1368,"combat","LIAM","and i want to somersault away.",7001.444,7003.491,2.04699999999957,7,205.178309721587,1,"combat","LIAM",1,0,0,0
 "1369","Daring_Deeds",7,93,1369,"combat","MARISHA","ten, 16, 24 damage.",7003.491,7011.462,7.97100000000046,5,37.636432066238,1,"combat","MARISHA",1,0,0,0
 "1370","Daring_Deeds",7,93,1370,"combat","MATT","how much did you roll?",7011.533,7013.444,1.91100000000006,6,188.383045525897,1,"combat","MATT",0,0,0,1
@@ -1377,10 +1377,10 @@
 "1376","Daring_Deeds",7,93,1376,"combat","MARISHA","plus seven, yeah!",7023.245,7024.769,1.52400000000034,4,157.480314960595,1,"combat","MARISHA",1,0,0,0
 "1377","Daring_Deeds",7,93,1377,"combat","MATT","yeah. so that is 55 points of damage.",7024.769,7029.106,4.33699999999953,9,124.51002997465,1,"combat","MATT",0,0,0,1
 "1378","Daring_Deeds",7,93,1378,"combat","LAURA","just say it. i want to hear you say it.",7032.488,7034.49,2.0019999999995,11,329.670329670412,1,"combat","LAURA",1,0,0,0
-"1379","Daring_Deeds",7,93,1379,"combat","MATT","well, it's not there yet.",7034.49,7038.684,4.19400000000041,7,100.143061516442,1,"combat","MATT",0,0,0,1
+"1379","Daring_Deeds",7,93,1379,"combat","MATT","well, it's not there yet.",7034.49,7037.067,2.57700000000023,7,162.980209545969,1,"combat","MATT",0,0,0,1
 "1380","Daring_Deeds",7,93,1380,"combat","MATT","technically your action was to cast the spell, and you wouldn't have the ability to attack in the same round. but i'm letting you do it, because why not. because it's fun.",7038.684,7047.924,9.23999999999978,36,233.766233766239,1,"combat","MATT",0,0,0,1
 "1381","Daring_Deeds",7,93,1381,"combat","MARISHA","well, i didn't move.",7047.924,7049.526,1.60199999999986,6,224.719101123615,1,"combat","MARISHA",1,0,0,0
-"1382","Daring_Deeds",7,93,1382,"combat","MATT","it's fine.",7049.526,7052.805,3.27900000000045,4,73.1930466605572,1,"combat","MATT",0,0,0,1
+"1382","Daring_Deeds",7,93,1382,"combat","MATT","it's fine.",7049.526,7051.227,1.70100000000002,4,141.093474426806,1,"combat","MATT",0,0,0,1
 "1383","Daring_Deeds",7,93,1383,"combat","MATT","and we'll say you can't move, this turn. but it was fun. it was cool, why not? all right. that ends your turn, keyleth?",7052.805,7060.839,8.03399999999965,27,201.643017177006,1,"combat","MATT",0,0,0,1
 "1384","Daring_Deeds",7,93,1384,"combat","MARISHA","yeah.",7060.839,7062.02,1.18100000000049,2,101.608806096486,1,"combat","MARISHA",1,0,0,0
 "1385","Daring_Deeds",7,93,1385,"combat","MATT","tova. grog.",7062.02,7065.077,3.05699999999979,3,58.8812561334682,1,"combat","MATT",0,0,0,1
@@ -1403,7 +1403,7 @@
 "1402","Daring_Deeds",7,93,1402,"combat","NOELLE","a seven. seven for the 2d8. and then, what did i say, 13 and 11 the first time?",7134.848,7138.857,4.00900000000001,19,284.360189573459,1,"combat","GUESTS",0,1,0,0
 "1403","Daring_Deeds",7,93,1403,"combat","MATT","yes. so, it's 13 and 11 for the actual weapon damage, for the claws. and then now, what did you roll for the first?",7138.857,7145.671,6.81400000000031,26,228.940416788954,1,"combat","MATT",0,0,0,1
 "1404","Daring_Deeds",7,93,1404,"combat","NOELLE","seven, together.",7145.671,7146.864,1.1929999999993,3,150.880134115763,1,"combat","GUESTS",0,1,0,0
-"1405","Daring_Deeds",7,93,1405,"combat","MATT","seven together. so that's 14? how do you want to do this?",7146.864,7154.341,7.47700000000077,14,112.344523204482,1,"combat","MATT",0,0,0,1
+"1405","Daring_Deeds",7,93,1405,"combat","MATT","seven together. so that's 14? how do you want to do this?",7146.864,7152.009,5.14500000000044,14,163.265306122435,1,"combat","MATT",0,0,0,1
 "1406","Daring_Deeds",7,93,1406,"combat","MATT","two guests in a row! all right, so how do you want to do that? as you watch, the fire giant, clutching it by the throat and slamming it onto the ground, utugash is in this sort of wrestling ring encounter in the center of the room.",7154.341,7166.831,12.4899999999998,48,230.584467574063,1,"combat","MATT",0,0,0,1
 "1407","Daring_Deeds",7,93,1407,"combat","NOELLE","just going to fucking body slam him with my bear body and going to hit him with both my claws. going to tear his fucking throat out.",7166.831,7179.207,12.3760000000002,28,135.746606334839,1,"combat","GUESTS",0,1,0,0
 "1408","Daring_Deeds",7,93,1408,"combat","TRAVIS","yeah! yeah!",7179.207,7180.319,1.11200000000008,3,161.870503597111,1,"combat","TRAVIS",1,0,0,0
@@ -1452,7 +1452,7 @@
 "1451","Daring_Deeds",7,93,1451,"first_half_rp","TALIESIN","if i have a moment, i'm going to look in all those doors really quickly.",7379.043,7381.808,2.76500000000033,17,368.896925858907,NA,"role_play","TALIESIN",1,0,0,0
 "1452","Daring_Deeds",7,93,1452,"first_half_rp","LAURA","i'm going to run over to percy and give him a kiss and say, nice shooting, stud, and i'm going to help him look.",7381.808,7386.435,4.62700000000041,27,350.118867516719,NA,"role_play","LAURA",1,0,0,0
 "1453","Daring_Deeds",7,93,1453,"first_half_rp","TALIESIN","okay, then i'm going to wait one second, not to look in those doors. but that happens. and then yeah.",7386.435,7391.832,5.39699999999993,22,244.580322401337,NA,"role_play","TALIESIN",1,0,0,0
-"1454","Daring_Deeds",7,93,1454,"first_half_rp","SAM","in fear, i stand up and throw my lance at the fire giant.",7391.832,7397.861,6.02899999999954,14,139.326588157251,NA,"role_play","SAM",1,0,0,0
+"1454","Daring_Deeds",7,93,1454,"first_half_rp","SAM","in fear, i stand up and throw my lance at the fire giant.",7391.832,7395.503,3.67099999999937,14,228.820484881543,NA,"role_play","SAM",1,0,0,0
 "1455","Daring_Deeds",7,93,1455,"first_half_rp","MATT","roll an attack!",7397.861,7399.81,1.94900000000052,4,123.140071831675,NA,"role_play","MATT",0,0,0,1
 "1456","Daring_Deeds",7,93,1456,"first_half_rp","MARISHA","that's fantastic!",7399.81,7401.435,1.625,4,147.692307692308,NA,"role_play","MARISHA",1,0,0,0
 "1457","Daring_Deeds",7,93,1457,"first_half_rp","SAM","that's a 14.",7401.435,7404.084,2.64899999999943,5,113.250283125732,NA,"role_play","SAM",1,0,0,0
@@ -1473,7 +1473,7 @@
 "1472","Daring_Deeds",7,93,1472,"first_half_rp","MATT","you also find your equipment. you find your maul and your armor.",7454.665,7458.631,3.96600000000035,13,196.671709530996,NA,"role_play","MATT",0,0,0,1
 "1473","Daring_Deeds",7,93,1473,"first_half_rp","LAURA","12,300, you said?",7458.631,7460.744,2.11299999999937,5,141.978230004775,NA,"role_play","LAURA",1,0,0,0
 "1474","Daring_Deeds",7,93,1474,"first_half_rp","MATT","12,300 gold. so you have that at your disposal now.",7460.744,7465.463,4.71900000000005,12,152.574698029242,NA,"role_play","MATT",0,0,0,1
-"1475","Daring_Deeds",7,93,1475,"first_half_rp","NOELLE","i go over, and i'm really happy to put my armor back on over my cool bear bikini that i have on.",7465.463,7475.634,10.1710000000003,24,141.578999115127,NA,"role_play","GUESTS",0,1,0,0
+"1475","Daring_Deeds",7,93,1475,"first_half_rp","NOELLE","i go over, and i'm really happy to put my armor back on over my cool bear bikini that i have on.",7465.463,7474.634,9.17100000000028,24,157.016683022566,NA,"role_play","GUESTS",0,1,0,0
 "1476","Daring_Deeds",7,93,1476,"first_half_rp","MARISHA AND MATT AND TALIESIN","your bear-kini.",7475.634,7476.944,1.3100000000004,4,183.206106870173,NA,"role_play","MARISHA AND MATT AND TALIESIN",1,0,0,0
 "1477","Daring_Deeds",7,93,1477,"first_half_rp","MATT","as you're putting your armor on, you open the far door on this end, and as you do, suddenly bursting through is a lemure. comes towards you with its horrible, fleshy mound just reaching out in your direction.",7476.944,7490.037,13.0929999999998,40,183.304055602232,NA,"role_play","MATT",0,0,0,1
 "1478","Daring_Deeds",7,93,1478,"first_half_rp","TALIESIN","i threaten it down, and say, run. and owe orthax your freedom. run!",7490.037,7501.411,11.3739999999998,14,73.8526463864968,NA,"role_play","TALIESIN",1,0,0,0
@@ -1493,13 +1493,13 @@
 "1492","Daring_Deeds",7,93,1492,"first_half_rp","NOELLE","this is a great confrontation!",7552.907,7555.452,2.54500000000007,6,141.453831041253,NA,"role_play","GUESTS",0,1,0,0
 "1493","Daring_Deeds",7,93,1493,"first_half_rp","LAURA","21.",7555.691,7556.724,1.03300000000036,2,116.166505324258,NA,"role_play","LAURA",1,0,0,0
 "1494","Daring_Deeds",7,93,1494,"first_half_rp","MATT","that hits, go ahead and roll damage.",7556.724,7558.366,1.64199999999983,8,292.326431181517,NA,"role_play","MATT",0,0,0,1
-"1495","Daring_Deeds",7,93,1495,"first_half_rp","LIAM","this is weird.",7558.366,7561.249,2.88299999999981,4,83.2466181061449,NA,"role_play","LIAM",1,0,0,0
+"1495","Daring_Deeds",7,93,1495,"first_half_rp","LIAM","this is weird.",7558.366,7559.384,1.01800000000003,4,235.756385068756,NA,"role_play","LIAM",1,0,0,0
 "1496","Daring_Deeds",7,93,1496,"first_half_rp","LIAM","good weird, but it's weird.",7561.249,7564.234,2.98500000000058,7,140.703517587912,NA,"role_play","LIAM",1,0,0,0
 "1497","Daring_Deeds",7,93,1497,"first_half_rp","LAURA","18.",7564.234,7569.336,5.10199999999986,2,23.5201881615059,NA,"role_play","LAURA",1,0,0,0
 "1498","Daring_Deeds",7,93,1498,"first_half_rp","MATT","the arrow through its head, and it just immediately falls to the ground.",7569.336,7574.058,4.72199999999975,14,177.890724269387,NA,"role_play","MATT",0,0,0,1
 "1499","Daring_Deeds",7,93,1499,"first_half_rp","TALIESIN","i feel like i'm losing it.",7574.058,7575.819,1.76100000000042,8,272.572402044228,NA,"role_play","TALIESIN",1,0,0,0
 "1500","Daring_Deeds",7,93,1500,"first_half_rp","LAURA","he should've listened. you were very clear, dear.",7575.819,7580.789,4.96999999999935,10,120.724346076475,NA,"role_play","LAURA",1,0,0,0
-"1501","Daring_Deeds",7,93,1501,"first_half_rp","TALIESIN","what's in the other room?",7580.789,7585.936,5.14699999999993,7,81.6009325820877,NA,"role_play","TALIESIN",1,0,0,0
+"1501","Daring_Deeds",7,93,1501,"first_half_rp","TALIESIN","what's in the other room?",7580.789,7583.254,2.46500000000015,7,170.385395537515,NA,"role_play","TALIESIN",1,0,0,0
 "1502","Daring_Deeds",7,93,1502,"first_half_rp","MATT","the rest of the chambers here, you find most of it is a collection of rotting meats. you find various sulfurous chemicals, some that you can't really, by scent and texture, identify.",7585.936,7605.215,19.2790000000005,34,105.81461694071,NA,"role_play","MATT",0,0,0,1
 "1503","Daring_Deeds",7,93,1503,"first_half_rp","TALIESIN","if there's anything interesting?",7605.215,7607.39,2.17500000000018,6,165.517241379297,NA,"role_play","TALIESIN",1,0,0,0
 "1504","Daring_Deeds",7,93,1504,"first_half_rp","MATT","okay, we'll say that you have a handful of chemicals that you may be able to look into later. five vials, specifically.",7607.39,7613.849,6.45899999999983,24,222.944728286118,NA,"role_play","MATT",0,0,0,1
@@ -1547,7 +1547,7 @@
 "1546","Daring_Deeds",7,93,1546,"first_half_rp","LAURA","wait, they're in the prison?",7821.239,7823.253,2.01400000000012,7,208.540218470692,NA,"role_play","LAURA",1,0,0,0
 "1547","Daring_Deeds",7,93,1547,"first_half_rp","NOELLE","yeah.",7823.253,7824.311,1.05799999999999,2,113.421550094519,NA,"role_play","GUESTS",0,1,0,0
 "1548","Daring_Deeds",7,93,1548,"first_half_rp","MARISHA","i shapechange back to keyleth for a second. do you know which section of the prison they're in?",7824.311,7832.737,8.42600000000039,20,142.41633040588,NA,"role_play","MARISHA",1,0,0,0
-"1549","Daring_Deeds",7,93,1549,"first_half_rp","NOELLE","i guess the same one i was in, yeah? i know roughly. i was in the prison too. utugash, he bought me. he was going to, i guess corrupt my soul, or whatever, but good luck with that, dude!",7832.737,7854.396,21.6589999999997,40,110.808439909508,NA,"role_play","GUESTS",0,1,0,0
+"1549","Daring_Deeds",7,93,1549,"first_half_rp","NOELLE","i guess the same one i was in, yeah? i know roughly. i was in the prison too. utugash, he bought me. he was going to, i guess corrupt my soul, or whatever, but good luck with that, dude!",7832.737,7852.454,19.7169999999996,40,121.722371557541,NA,"role_play","GUESTS",0,1,0,0
 "1550","Daring_Deeds",7,93,1550,"first_half_rp","LAURA","wait, does the bastion of flesh sound familiar?",7854.396,7857.438,3.04200000000037,9,177.514792899387,NA,"role_play","LAURA",1,0,0,0
 "1551","Daring_Deeds",7,93,1551,"first_half_rp","NOELLE","does it?",7857.438,7858.916,1.47800000000007,3,121.786197564271,NA,"role_play","GUESTS",0,1,0,0
 "1552","Daring_Deeds",7,93,1552,"first_half_rp","MATT","you haven't heard the term. you weren't given a lot of information. most of your presence once you were captured was just being dragged through hallways, tortured, chained up and then eventually purchased and brought here to be perpetually tortured by utugash until these guys found you.",7858.916,7872.384,13.4679999999998,50,222.750222750225,NA,"role_play","MATT",0,0,0,1
@@ -1589,7 +1589,7 @@
 "1588","Daring_Deeds",7,93,1588,"first_half_rp","LAURA","what are you fucking doing?",8019.872,8023.265,3.39300000000003,6,106.100795755967,NA,"role_play","LAURA",1,0,0,0
 "1589","Daring_Deeds",7,93,1589,"first_half_rp","TRAVIS","what?",8023.265,8024.612,1.34699999999975,2,89.0868596882124,NA,"role_play","TRAVIS",1,0,0,0
 "1590","Daring_Deeds",7,93,1590,"first_half_rp","MATT","you suffer 21 points of psychic damage.",8024.612,8028.276,3.66399999999976,8,131.004366812236,NA,"role_play","MATT",0,0,0,1
-"1591","Daring_Deeds",7,93,1591,"first_half_rp","TRAVIS","i'm too smart again!",8028.276,8034.486,6.21000000000004,6,57.9710144927533,NA,"role_play","TRAVIS",1,0,0,0
+"1591","Daring_Deeds",7,93,1591,"first_half_rp","TRAVIS","i'm too smart again!",8028.276,8032.163,3.88699999999972,6,92.6164136866546,NA,"role_play","TRAVIS",1,0,0,0
 "1592","Daring_Deeds",7,93,1592,"first_half_rp","LIAM","i fly in alongside. you know, all you have to do is ask. will you hold still and give me ten seconds? and i'll check the rest of the room, just in case.",8034.486,8039.951,5.46500000000015,35,384.263494967968,NA,"role_play","LIAM",1,0,0,0
 "1593","Daring_Deeds",7,93,1593,"first_half_rp","TALIESIN","ew.",8039.951,8041.72,1.76900000000023,2,67.8349349915117,NA,"role_play","TALIESIN",1,0,0,0
 "1594","Daring_Deeds",7,93,1594,"first_half_rp","LAURA","ew, what is that?",8041.72,8043.458,1.73799999999937,5,172.612197928716,NA,"role_play","LAURA",1,0,0,0
@@ -1698,7 +1698,7 @@
 "1697","Daring_Deeds",7,93,1697,"break","LAURA","31.",9818.482,9820.154,1.67200000000048,2,71.7703349282091,NA,NA,"LAURA",1,0,0,0
 "1698","Daring_Deeds",7,93,1698,"break","MATT","okay. vex, as this is happening and you watch percival recoil from the impact, you glance with a bit of a sneer towards the crowd and you watch amongst all these various toothy, hissing devils, you see one familiar red-skinned man with long-ish dark hair, horns curled up, and as his eyes meet yours, he gives you a smile. and steps back with the crowd as it closes around him.",9820.154,9852.545,32.3909999999996,73,135.22274705937,NA,NA,"MATT",0,0,0,1
 "1699","Daring_Deeds",7,93,1699,"break","LAURA","i breathe a little easier.",9852.545,9856.176,3.6309999999994,6,99.1462407050562,NA,NA,"LAURA",1,0,0,0
-"1700","Daring_Deeds",7,93,1700,"break","MATT","bits of filth are being chucked. grog, one not quite sure what form of refuse this is, but it smears and drips down the side of your face, and gets stuck in your beard.",9856.176,9871.007,14.8310000000001,35,141.595307126963,NA,NA,"MATT",0,0,0,1
+"1700","Daring_Deeds",7,93,1700,"break","MATT","bits of filth are being chucked. grog, one not quite sure what form of refuse this is, but it smears and drips down the side of your face, and gets stuck in your beard.",9856.176,9869.793,13.6170000000002,35,154.218990967171,NA,NA,"MATT",0,0,0,1
 "1701","Daring_Deeds",7,93,1701,"break","LAURA","gross.",9871.007,9871.989,0.981999999999971,2,122.199592668028,NA,NA,"LAURA",1,0,0,0
 "1702","Daring_Deeds",7,93,1702,"break","MATT","make a dexterity check.",9871.989,9873.033,1.04399999999987,5,287.356321839117,NA,NA,"MATT",0,0,0,1
 "1703","Daring_Deeds",7,93,1703,"break","TRAVIS","okay. 17.",9873.033,9875.588,2.55500000000029,3,70.4500978473501,NA,NA,"TRAVIS",1,0,0,0
@@ -1725,7 +1725,7 @@
 "1724","Daring_Deeds",7,93,1724,"second_half_rp","MATT","the chains all begin to slacken as you enter and the arms reach out almost in a graceful invitation. you hear his horrible voice slither out from the mask of black metal that covers everything but his deep, red, burning, beady eyes. ""good. string them up."" as the devil entourage that has pulled you through this prison brings you into the cell one by one, they take your manacles and latch them onto a thick, heavy, metal chain. as they pull, it pulls your arms up over your body and your leg manacles are attached to similar rings on the ground. one by one, you are all placed within this chamber, chained up, helpless.",10331.831,10382.458,50.6270000000004,115,136.290911963971,NA,"role_play","MATT",0,0,0,1
 "1725","Daring_Deeds",7,93,1725,"second_half_rp","SAM","this is the worst.",10382.458,10387.315,4.85699999999997,5,61.7665225447811,NA,"role_play","SAM",1,0,0,0
 "1726","Daring_Deeds",7,93,1726,"second_half_rp","MATT","all the rest of the devils that brought you in here exit the cell and leave through the hallway, leaving the chain devil to do his duty. he approaches the bars as he closes the entranceway to the cell, so he's on the other side of the cell from all of you. you're just strung up in there and he's pressed up against the bars from the other side, his hands clutching as he stares across you, his eyes slowly scanning. as he moves his hands down the bars, the chains go limp and unfurl around parts of his arms and begin to snake and slither across the ground, a dozen of them or so slowly creeping like tendrils of living entities towards all of you as he says, ""you seem ""weary. let's loosen your load."" as the chains begin to snake their way up each of your bodies, grog, you feel one come up your torso and under the gauntlets and begin to loosen the gauntlets on your arm underneath. vex, you feel as one curls up, spirals around your leg and finds its way under your armor, and eventually finds the buckles in the back and begins to undo them. all of you find the chains are all beginning to move",10387.315,10467.067,79.7519999999986,217,163.256093891065,NA,"role_play","MATT",0,0,0,1
-"1727","Daring_Deeds",7,93,1727,"second_half_rp","LAURA","i saw this movie!",10467.067,10470.285,3.21800000000076,5,93.2256059664169,NA,"role_play","LAURA",1,0,0,0
+"1727","Daring_Deeds",7,93,1727,"second_half_rp","LAURA","i saw this movie!",10467.067,10468.41,1.34300000000076,5,223.380491436955,NA,"role_play","LAURA",1,0,0,0
 "1728","Daring_Deeds",7,93,1728,"second_half_rp","MATT","beginning to infiltrate and remove the various bits of equipment you all came into this area on. a voice rings out from across the chamber in the darkness. it goes, ""krix! you are needed by ""overseer shushot for prisoner enumeration and status!"" at which point, the chains stop and the chain devil releases his fingers, tense against the bars. the chains begin to slack and pull back from your bodies and retract back into the chamber. you now see behind him, stepping in, a small green devil with long, knifelike ears, a series of long spines across his body, similar, though a thicker version, of the merchant that you saw earlier on your journey here, this one carrying the same sash that the bone devils that originally arrived had adorned on their chest. it does actually carry a satchel on one side. as the jailer pulls the chains back to his body, he snarls and turns back to this barbed devil, who winces and recoils as soon as the chain devil turns, already taking a submissive stance after making his announcement in the chamber. the chain devil, ""i do despise such droll work."" turns back to all the rest of you, ""i will return, ""lovelies."" the chains retract back into his body and he walks out of the chamber past the barbed devil, shoulder-checking it on the way through, slips to the side. as it leaves, you're all still there, chained up. the green devil waits, rubbing its shoulder. comes forward, sheepishly, looking at all of you in silence, breathing heavily, rubbing its chin. takes its satchel, and you can see it has this hefty satchel on the side that's filled with a series of side pockets and small openings, and it begins to pry them open and it begins to produce each one of your weapons, and is pulling them out quickly and throwing them into a pile on the outside of the bars. pulls out your packs. the various things that were taken from you have all been put within this satchel and is quickly throwing them into a pile on the other side of the bars from all of you. throws them all onto the ground. finishes in this big mass. ""there. unspoiled. unharmed. now, to guide you."" and the creature walks up to the bars, and clutches the sides staring at you. ""you seek hotis, yes?""",10470.285,10644.597,174.312,404,139.060994079582,NA,"role_play","MATT",0,0,0,1
 "1729","Daring_Deeds",7,93,1729,"second_half_rp","LIAM","yes.",10644.597,10646.794,2.19700000000012,2,54.6199362767381,NA,"role_play","LIAM",1,0,0,0
 "1730","Daring_Deeds",7,93,1730,"second_half_rp","MATT","""he is under the ceiling of iskath, though iskath is not in mentiri this day. you must leave ""this room, turn right, left, straight, straight, left, straight, then right. the iron door with the ""fanged grin bears the mark. there lies your quarry. now! my debt is paid! goodbye."" and the devil turns around and begins to run out of the chamber.",10646.794,10677.851,31.0570000000007,64,123.643623015742,NA,"role_play","MATT",0,0,0,1
@@ -1759,7 +1759,7 @@
 "1758","Daring_Deeds",7,93,1758,"second_half_rp","LAURA","trinket! get us out of here! hey, okay, here's the thing. can you go over and get anything out from between those two bars, on the outside of the room?",10754.465,10767.29,12.8250000000007,32,149.707602339173,NA,"role_play","LAURA",1,0,0,0
 "1759","Daring_Deeds",7,93,1759,"second_half_rp","MATT","trinket goes over to the edge of the bars and leans into them and is marking a claw across the ground and it's about a good foot away from the equipment and you can see that smoke begin to rise",10767.29,10778.063,10.7729999999992,41,228.348649401297,NA,"role_play","MATT",0,0,0,1
 "1760","Daring_Deeds",7,93,1760,"second_half_rp","LAURA","did you get that?!",10778.063,10779.379,1.31600000000071,5,227.963525835743,NA,"role_play","LAURA",1,0,0,0
-"1761","Daring_Deeds",7,93,1761,"second_half_rp","LIAM","yes! dead for a ducat, it's dead!",10779.379,10787.613,8.23399999999856,9,65.58173427254,NA,"role_play","LIAM",1,0,0,0
+"1761","Daring_Deeds",7,93,1761,"second_half_rp","LIAM","yes! dead for a ducat, it's dead!",10779.379,10784.034,4.65499999999884,9,116.004296455453,NA,"role_play","LIAM",1,0,0,0
 "1762","Daring_Deeds",7,93,1762,"second_half_rp","MATT","five experience to sam riegel.",10787.613,10788.814,1.20100000000093,6,299.750208159634,NA,"role_play","MATT",0,0,0,1
 "1763","Daring_Deeds",7,93,1763,"second_half_rp","TRAVIS","five experience.",10788.814,10792.003,3.18900000000031,3,56.4440263405402,NA,"role_play","TRAVIS",1,0,0,0
 "1764","Daring_Deeds",7,93,1764,"second_half_rp","MATT","you can see that the fur is beginning to send off smoke smoke and burn against the bars as he's leaning against them.",10792.003,10800.522,8.51900000000023,25,176.077004343228,NA,"role_play","MATT",0,0,0,1
@@ -1770,7 +1770,7 @@
 "1769","Daring_Deeds",7,93,1769,"second_half_rp","LAURA","i want to pull my leg at the same time and see if i can help him out at all.",10834.882,10837.982,3.10000000000036,21,406.451612903178,NA,"role_play","LAURA",1,0,0,0
 "1770","Daring_Deeds",7,93,1770,"second_half_rp","MATT","make a strength check as well.",10837.982,10840.138,2.15600000000086,7,194.805194805117,NA,"role_play","MATT",0,0,0,1
 "1771","Daring_Deeds",7,93,1771,"second_half_rp","LAURA","should've had him do this to grog. okay. i suck at strength checks. okay. 15.",10840.138,10848.993,8.85499999999956,17,115.189158667425,NA,"role_play","LAURA",1,0,0,0
-"1772","Daring_Deeds",7,93,1772,"second_half_rp","MATT","15? okay. between both trinket and you pulling, you do manage to get one of the chains to, and you get one ankle free.",10848.993,10859.535,10.5419999999995,25,142.287990893576,NA,"role_play","MATT",0,0,0,1
+"1772","Daring_Deeds",7,93,1772,"second_half_rp","MATT","15? okay. between both trinket and you pulling, you do manage to get one of the chains to , and you get one ankle free.",10848.993,10859.535,10.5419999999995,25,142.287990893576,NA,"role_play","MATT",0,0,0,1
 "1773","Daring_Deeds",7,93,1773,"second_half_rp","LAURA","great, i have an ankle free. hey, guys! guess what? my ankle's free.",10859.535,10862.391,2.85599999999977,15,315.126050420194,NA,"role_play","LAURA",1,0,0,0
 "1774","Daring_Deeds",7,93,1774,"second_half_rp","NOELLE","lucky.",10862.391,10863.566,1.17500000000109,2,102.127659574373,NA,"role_play","GUESTS",0,1,0,0
 "1775","Daring_Deeds",7,93,1775,"second_half_rp","LAURA","i am really flexible. this does nothing.",10863.566,10866.111,2.54500000000007,8,188.605108055004,NA,"role_play","LAURA",1,0,0,0
@@ -1882,7 +1882,7 @@
 "1881","Daring_Deeds",7,93,1881,"second_half_rp","LAURA","but quiet.",11144.758,11145.57,0.811999999999898,3,221.674876847318,NA,"role_play","LAURA",1,0,0,0
 "1882","Daring_Deeds",7,93,1882,"second_half_rp","TRAVIS","hame",11145.57,11146.666,1.09599999999955,2,109.489051094936,NA,"role_play","TRAVIS",1,0,0,0
 "1883","Daring_Deeds",7,93,1883,"second_half_rp","LAURA","try to do it quietly. just quiet. just quiet.",11146.666,11150.211,3.54500000000007,10,169.252468265159,NA,"role_play","LAURA",1,0,0,0
-"1884","Daring_Deeds",7,93,1884,"second_half_rp","TRAVIS","what do you mean, quiet? i can't hold it, it's so powerful, oh!",11150.211,11154.179,3.96800000000076,16,241.935483870922,NA,"role_play","TRAVIS",1,0,0,0
+"1884","Daring_Deeds",7,93,1884,"second_half_rp","TRAVIS","what do you mean, quiet? i can't hold it, it's so powerful, oh!",11150.211,11152.45,2.2390000000014,16,428.762840553551,NA,"role_play","TRAVIS",1,0,0,0
 "1885","Daring_Deeds",7,93,1885,"second_half_rp","MATT","go ahead and roll an attack.",11154.179,11158.601,4.42200000000048,7,94.9796472184429,NA,"role_play","MATT",0,0,0,1
 "1886","Daring_Deeds",7,93,1886,"second_half_rp","LAURA","motherfucking door.",11158.601,11160.48,1.878999999999,3,95.7956359766345,NA,"role_play","LAURA",1,0,0,0
 "1887","Daring_Deeds",7,93,1887,"second_half_rp","MARISHA","fucking doors! it's always doors!",11160.48,11161.962,1.48199999999997,7,283.400809716605,NA,"role_play","MARISHA",1,0,0,0
@@ -1969,7 +1969,7 @@
 "1968","Daring_Deeds",7,93,1968,"second_half_rp","MARISHA","all right. so we're starting as bats. bats?",11344.306,11345.882,1.57599999999911,10,380.710659898692,NA,"role_play","MARISHA",1,0,0,0
 "1969","Daring_Deeds",7,93,1969,"second_half_rp","LAURA","sure.",11345.882,11346.764,0.881999999999607,2,136.054421768768,NA,"role_play","LAURA",1,0,0,0
 "1970","Daring_Deeds",7,93,1970,"second_half_rp","TRAVIS","what do our bats sound like?",11346.764,11348.259,1.4950000000008,7,280.936454849348,NA,"role_play","TRAVIS",1,0,0,0
-"1971","Daring_Deeds",7,93,1971,"second_half_rp","LIAM","""where is harvey dent?""",11348.259,11351.421,3.16200000000026,6,113.851992409858,NA,"role_play","LIAM",1,0,0,0
+"1971","Daring_Deeds",7,93,1971,"second_half_rp","LIAM","""where is harvey dent?""",11348.259,11349.633,1.3739999999998,6,262.008733624493,NA,"role_play","LIAM",1,0,0,0
 "1972","Daring_Deeds",7,93,1972,"second_half_rp","MATT","okay. this is concentration, so this will get rid of your shapechange.",11351.421,11354.322,2.90099999999984,13,268.872802481918,NA,"role_play","MATT",0,0,0,1
 "1973","Daring_Deeds",7,93,1973,"second_half_rp","MARISHA","correct. so as long as we're cool with me losing my ninth-level shapechange. i can't escort us as an erinyes anymore.",11354.322,11364.129,9.8070000000007,25,152.951973080442,NA,"role_play","MARISHA",1,0,0,0
 "1974","Daring_Deeds",7,93,1974,"second_half_rp","SAM","i think we should just walk, but if you want to do this, you can.",11364.129,11367.006,2.87699999999859,16,333.680917622687,NA,"role_play","SAM",1,0,0,0
@@ -2085,7 +2085,7 @@
 "2084","Daring_Deeds",7,93,2084,"second_half_rp","LAURA","keep going straight!",11682.213,11683.525,1.3119999999999,4,182.926829268307,NA,"role_play","LAURA",1,0,0,0
 "2085","Daring_Deeds",7,93,2085,"second_half_rp","LIAM","i start battering into the door.",11683.525,11690.804,7.27900000000045,7,57.7002335485608,NA,"role_play","LIAM",1,0,0,0
 "2086","Daring_Deeds",7,93,2086,"second_half_rp","LAURA","can we batter into it, or can we just fly straight through?",11690.804,11692.776,1.97199999999975,13,395.537525355019,NA,"role_play","LAURA",1,0,0,0
-"2087","Daring_Deeds",7,93,2087,"second_half_rp","MATT","vax just passes straight through. it's an illusory wall.",11692.776,11697.016,4.23999999999978,11,155.660377358499,NA,"role_play","MATT",0,0,0,1
+"2087","Daring_Deeds",7,93,2087,"second_half_rp","MATT","vax just passes straight through. it's an illusory wall.",11692.776,11695.042,2.26599999999962,11,291.262135922379,NA,"role_play","MATT",0,0,0,1
 "2088","Daring_Deeds",7,93,2088,"second_half_rp","MATT","as you guys into this next chamber",11697.016,11699.247,2.23099999999977,7,188.256387270302,NA,"role_play","MATT",0,0,0,1
 "2089","Daring_Deeds",7,93,2089,"second_half_rp","LIAM","everybody's doing something different.",11699.247,11700.814,1.56700000000092,6,229.738353541665,NA,"role_play","LIAM",1,0,0,0
 "2090","Daring_Deeds",7,93,2090,"second_half_rp","MATT","yeah.",11700.814,11701.468,0.654000000000451,2,183.486238531984,NA,"role_play","MATT",0,0,0,1
@@ -2139,7 +2139,7 @@
 "2138","Daring_Deeds",7,93,2138,"combat","LAURA","oh.",11882.849,11883.767,0.917999999999665,2,130.718954248414,2,"combat","LAURA",1,0,0,0
 "2139","Daring_Deeds",7,93,2139,"combat","MARISHA","those bats were jus i made no promises other than bats.",11883.767,11886.567,2.79999999999927,12,257.142857142924,2,"combat","MARISHA",1,0,0,0
 "2140","Daring_Deeds",7,93,2140,"combat","TRAVIS","one hit point?",11886.567,11887.736,1.16900000000169,4,205.303678357274,2,"combat","TRAVIS",1,0,0,0
-"2141","Daring_Deeds",7,93,2141,"combat","MATT","one hit point, each of you. the other one is going to swing. same roll! two sixes in a row.",11887.736,11893.363,5.62699999999859,21,223.920383863571,2,"combat","MATT",0,0,0,1
+"2141","Daring_Deeds",7,93,2141,"combat","MATT","one hit point, each of you. the other one is going to swing. same roll! two sixes in a row.",11887.736,11892.236,4.5,21,280,2,"combat","MATT",0,0,0,1
 "2142","Daring_Deeds",7,93,2142,"combat","MATT","eight. eight. that is aw, man.",11893.363,11894.85,1.48700000000099,7,282.4478816407,2,"combat","MATT",0,0,0,1
 "2143","Daring_Deeds",7,93,2143,"combat","TRAVIS","'aw, man!'",11894.85,11898.213,3.36299999999937,4,71.3648528100044,2,"combat","TRAVIS",1,0,0,0
 "2144","Daring_Deeds",7,93,2144,"combat","LIAM","matt turned 12! matt turned 12!",11898.213,11900.494,2.28100000000086,7,184.1297676457,2,"combat","LIAM",1,0,0,0
@@ -2164,7 +2164,7 @@
 "2163","Daring_Deeds",7,93,2163,"combat","MATT","they're both going to fire tail spines at you. their tail curves up behind and swings. and they fire these spines forward.",11952.941,11959.686,6.74499999999898,24,213.491475166822,2,"combat","MATT",0,0,0,1
 "2164","Daring_Deeds",7,93,2164,"combat","LAURA","fly zig zag! fly zig zag!",11959.686,11960.721,1.03499999999985,7,405.797101449332,2,"combat","LAURA",1,0,0,0
 "2165","Daring_Deeds",7,93,2165,"combat","SAM","serpentine.",11960.721,11961.714,0.993000000000393,2,120.845921450103,2,"combat","SAM",1,0,0,0
-"2166","Daring_Deeds",7,93,2166,"combat","MATT","there's three of them so one of them's going to be at grog, one's going to be at vax and one's going to be at percy. against grog, that is a two plus four. these guys can't hit anything. six. just zooms past you. one towards vax. that's cocked. natural 20.",11961.714,11980.595,18.8809999999994,58,184.31227159579,2,"combat","MATT",0,0,0,1
+"2166","Daring_Deeds",7,93,2166,"combat","MATT","there's three of them so one of them's going to be at grog, one's going to be at vax and one's going to be at percy. against grog, that is a two plus four. these guys can't hit anything. six. just zooms past you. one towards vax. that's cocked. natural 20.",11961.714,11979.245,17.5310000000009,58,198.505504534814,2,"combat","MATT",0,0,0,1
 "2167","Daring_Deeds",7,93,2167,"combat","MATT","and against you, percy. that is a 19 plus two, so both of you guys get hit.",11980.595,11984.427,3.83200000000033,18,281.837160751541,2,"combat","MATT",0,0,0,1
 "2168","Daring_Deeds",7,93,2168,"combat","LAURA","fuck.",11984.427,11985.414,0.98700000000099,2,121.58054711234,2,"combat","LAURA",1,0,0,0
 "2169","Daring_Deeds",7,93,2169,"combat","MATT","even basic damage, both of your bat forms and you both fall about ten feet.",11985.414,11989.849,4.43499999999949,16,216.459977452111,2,"combat","MATT",0,0,0,1
@@ -2357,7 +2357,7 @@
 "2356","Daring_Deeds",7,93,2356,"combat","MATT","five, ten, 30, and you also with a double move get to there. okay. next up is tova.",12637.641,12648.173,10.5320000000011,19,108.241549563225,2,"combat","MATT",0,0,0,1
 "2357","Daring_Deeds",7,93,2357,"combat","NOELLE","oh, i'll just keep going with the rest.",12648.173,12651.368,3.19499999999971,10,187.793427230064,2,"combat","GUESTS",0,1,0,0
 "2358","Daring_Deeds",7,93,2358,"combat","MATT","you just keep going? all right, so you catch up with these guys here way off the map. all righty. grog.",12651.368,12656.676,5.30799999999908,22,248.681235870427,2,"combat","MATT",0,0,0,1
-"2359","Daring_Deeds",7,93,2359,"combat","TRAVIS","i'm going to burn my ""ashton"" as a ""darsh.""",12656.676,12660.919,4.24300000000039,11,155.550318171091,2,"combat","TRAVIS",1,0,0,0
+"2359","Daring_Deeds",7,93,2359,"combat","TRAVIS","i'm going to burn my ""ashton"" as a ""darsh.""",12656.676,12659.18,2.50400000000081,11,263.578274760298,2,"combat","TRAVIS",1,0,0,0
 "2360","Daring_Deeds",7,93,2360,"combat","MATT","all righty. with that, the spine devils are going to move forward.",12660.919,12669.795,8.8760000000002,13,87.8774222622783,2,"combat","MATT",0,0,0,1
 "2361","Daring_Deeds",7,93,2361,"combat","LAURA","who is that? is that keyleth?",12669.795,12675.278,5.48300000000017,7,76.6004012401945,2,"combat","LAURA",1,0,0,0
 "2362","Daring_Deeds",7,93,2362,"combat","MATT","that is percy.",12675.278,12677.612,2.33399999999892,4,102.827763496191,2,"combat","MATT",0,0,0,1
@@ -2395,7 +2395,7 @@
 "2394","Daring_Deeds",7,93,2394,"combat","MARISHA","i mean, i'm about to go down. i make it!",12821.034,12825.443,4.40899999999965,12,163.302336130655,2,"combat","MARISHA",1,0,0,0
 "2395","Daring_Deeds",7,93,2395,"combat","MATT","all right. that is 12 points of slashing damage.",12825.443,12830.843,5.40000000000146,10,111.111111111081,2,"combat","MATT",0,0,0,1
 "2396","Daring_Deeds",7,93,2396,"combat","MARISHA","i'm down. everyone's about to hit the ground.",12830.843,12834.231,3.38799999999901,11,194.805194805252,2,"combat","MARISHA",1,0,0,0
-"2397","Daring_Deeds",7,93,2397,"combat","MATT","keyleth falls unconscious. and the tail strikes you, auto crit. you lose two death saving throws.",12834.463,12843.912,9.44900000000052,17,107.947930997983,2,"combat","MATT",0,0,0,1
+"2397","Daring_Deeds",7,93,2397,"combat","MATT","keyleth falls unconscious. and the tail strikes you, auto crit. you lose two death saving throws.",12834.463,12841.244,6.78100000000086,17,150.420291992312,2,"combat","MATT",0,0,0,1
 "2398","Daring_Deeds",7,93,2398,"combat","TALIESIN","we're all human now.",12843.912,12845.211,1.29899999999907,6,277.136258660707,2,"combat","TALIESIN",1,0,0,0
 "2399","Daring_Deeds",7,93,2399,"combat","MARISHA","and you're all human.",12845.211,12846.254,1.04300000000148,6,345.1581975067,2,"combat","MARISHA",1,0,0,0
 "2400","Daring_Deeds",7,93,2400,"combat","MATT","all of you drop form. so four would be vex.",12846.254,12855.119,8.86499999999978,11,74.4500846023707,2,"combat","MATT",0,0,0,1
@@ -2498,7 +2498,7 @@
 "2497","Daring_Deeds",7,93,2497,"combat","SAM","17.",13198.575,13200.307,1.73199999999997,2,69.2840646651282,2,"combat","SAM",1,0,0,0
 "2498","Daring_Deeds",7,93,2498,"combat","MATT","so yeah. go ahead and roll damage.",13200.307,13202.011,1.70399999999972,8,281.690140845116,2,"combat","MATT",0,0,0,1
 "2499","Daring_Deeds",7,93,2499,"combat","TALIESIN","yay.",13202.011,13203.322,1.31099999999969,2,91.5331807780534,2,"combat","TALIESIN",1,0,0,0
-"2500","Daring_Deeds",7,93,2500,"combat","SAM","okay. give me some sixes. and one more. boom. oh, lots.",13203.322,13217.778,14.4560000000001,12,49.8063087991141,2,"combat","SAM",1,0,0,0
+"2500","Daring_Deeds",7,93,2500,"combat","SAM","okay. give me some sixes. and one more. boom. oh, lots.",13203.322,13213.64,10.3179999999993,12,69.7809653033581,2,"combat","SAM",1,0,0,0
 "2501","Daring_Deeds",7,93,2501,"combat","LAURA","how did this happen? how did we get here?",13217.778,13220.884,3.10599999999977,10,193.174500965887,2,"combat","LAURA",1,0,0,0
 "2502","Daring_Deeds",7,93,2502,"combat","SAM","25.",13220.884,13223.236,2.35200000000077,2,51.0204081632486,2,"combat","SAM",1,0,0,0
 "2503","Daring_Deeds",7,93,2503,"combat","MATT","25 points of acid damage to the bone devil.",13223.236,13225.904,2.66799999999967,10,224.887556221917,2,"combat","MATT",0,0,0,1
@@ -2509,7 +2509,7 @@
 "2508","Daring_Deeds",7,93,2508,"combat","MATT","oh shit!",13246.348,13248.193,1.84499999999935,3,97.5609756097907,2,"combat","MATT",0,0,0,1
 "2509","Daring_Deeds",7,93,2509,"combat","TALIESIN","nice!",13248.193,13249.357,1.16400000000067,2,103.092783505095,2,"combat","TALIESIN",1,0,0,0
 "2510","Daring_Deeds",7,93,2510,"combat","LAURA","that's the first time you've helped another person, right?",13249.357,13252.104,2.74699999999939,12,262.104113578508,2,"combat","LAURA",1,0,0,0
-"2511","Daring_Deeds",7,93,2511,"combat","SAM","in my life.",13252.104,13257.412,5.3080000000009,4,45.214770158244,2,"combat","SAM",1,0,0,0
+"2511","Daring_Deeds",7,93,2511,"combat","SAM","in my life.",13252.104,13253.375,1.27100000000064,4,188.827694728465,2,"combat","SAM",1,0,0,0
 "2512","Daring_Deeds",7,93,2512,"combat","MATT","oh, taryon. all right, percy, you're up.",13257.412,13261.444,4.03199999999924,9,133.928571428597,2,"combat","MATT",0,0,0,1
 "2513","Daring_Deeds",7,93,2513,"combat","TALIESIN","fuck sound at this point, i suppose. i'm going to run and just get them into view.",13261.444,13267.683,6.2390000000014,19,182.721589998356,2,"combat","TALIESIN",1,0,0,0
 "2514","Daring_Deeds",7,93,2514,"combat","MATT","yep, you got them.",13267.683,13269.131,1.4479999999985,5,207.182320442203,2,"combat","MATT",0,0,0,1
@@ -2584,9 +2584,9 @@
 "2583","Daring_Deeds",7,93,2583,"combat","NOELLE","i do not.",13530.863,13532.24,1.37700000000041,4,174.29193899777,2,"combat","GUESTS",0,1,0,0
 "2584","Daring_Deeds",7,93,2584,"combat","TALIESIN","need to heal?",13532.24,13535.226,2.98600000000079,4,80.3750837240244,2,"combat","TALIESIN",1,0,0,0
 "2585","Daring_Deeds",7,93,2585,"combat","NOELLE","that would help.",13535.226,13538.537,3.31099999999969,4,72.4856538810094,2,"combat","GUESTS",0,1,0,0
-"2586","Daring_Deeds",7,93,2586,"combat","TALIESIN","do you have anything to heal with?",13538.537,13541.57,3.03299999999945,8,158.259149357101,2,"combat","TALIESIN",1,0,0,0
+"2586","Daring_Deeds",7,93,2586,"combat","TALIESIN","do you have anything to heal with?",13538.537,13540.343,1.80600000000049,8,265.780730896937,2,"combat","TALIESIN",1,0,0,0
 "2587","Daring_Deeds",7,93,2587,"combat","NOELLE","don't think so.",13541.57,13542.543,0.972999999999956,5,308.324768756437,2,"combat","GUESTS",0,1,0,0
-"2588","Daring_Deeds",7,93,2588,"combat","TRAVIS","you hungry? yeah. you have any food?",13542.543,13546.861,4.31800000000112,8,111.162575266298,2,"combat","TRAVIS",1,0,0,0
+"2588","Daring_Deeds",7,93,2588,"combat","TRAVIS","you hungry? yeah. you have any food?",13542.543,13544.612,2.06899999999951,8,231.996133397832,2,"combat","TRAVIS",1,0,0,0
 "2589","Daring_Deeds",7,93,2589,"combat","NOELLE","who's closest to me, here?",13546.861,13551.715,4.85399999999936,7,86.5265760197889,2,"combat","GUESTS",0,1,0,0
 "2590","Daring_Deeds",7,93,2590,"combat","MATT","currently, it's vax, the half-elf rogue guy.",13551.715,13557.084,5.3690000000006,10,111.752654125523,2,"combat","MATT",0,0,0,1
 "2591","Daring_Deeds",7,93,2591,"combat","NOELLE","can i save my action?",13557.084,13560.069,2.98499999999876,6,120.603015075427,2,"combat","GUESTS",0,1,0,0
@@ -2649,7 +2649,7 @@
 "2648","Daring_Deeds",7,93,2648,"combat","MATT","yeah, that hits.",13747.445,13749.131,1.68599999999969,4,142.348754448424,2,"combat","MATT",0,0,0,1
 "2649","Daring_Deeds",7,93,2649,"combat","TRAVIS","yeah. 24.",13749.131,13752.667,3.53600000000006,3,50.9049773755648,2,"combat","TRAVIS",1,0,0,0
 "2650","Daring_Deeds",7,93,2650,"combat","MATT","24 points of damage. as it flies over you through the air, you arc in the direction with your hammer, and as you do, it breaks its entire ribcage inward. you hear the shattering of bones, and it gives out this wheeze as you follow through and slam it back down where it was standing.",13752.667,13774.147,21.4800000000014,56,156.424581005577,2,"combat","MATT",0,0,0,1
-"2651","Daring_Deeds",7,93,2651,"combat","TRAVIS","sweet!",13774.147,13778.723,4.57599999999911,2,26.2237762237813,2,"combat","TRAVIS",1,0,0,0
+"2651","Daring_Deeds",7,93,2651,"combat","TRAVIS","sweet!",13774.147,13776.55,2.40299999999843,2,49.9375780274983,2,"combat","TRAVIS",1,0,0,0
 "2652","Daring_Deeds",7,93,2652,"combat","LAURA","keyleth, can you do a wall of stone?",13778.723,13780.674,1.95100000000093,9,276.781137877879,2,"combat","LAURA",1,0,0,0
 "2653","Daring_Deeds",7,93,2653,"combat","MARISHA","yeah, into the corridor.",13780.674,13783.176,2.50199999999859,5,119.904076738677,2,"combat","MARISHA",1,0,0,0
 "2654","Daring_Deeds",7,93,2654,"combat","LAURA","yeah, block it!",13783.176,13785.586,2.40999999999985,4,99.5850622406699,2,"combat","LAURA",1,0,0,0
@@ -2667,7 +2667,7 @@
 "2666","Daring_Deeds",7,93,2666,"combat","MATT","the chain devil spoke common.",13821.738,13822.633,0.895000000000437,6,402.234636871312,2,"combat","MATT",0,0,0,1
 "2667","Daring_Deeds",7,93,2667,"combat","SAM","okay. did he work in the prison?",13822.633,13823.633,1,8,480,2,"combat","SAM",1,0,0,0
 "2668","Daring_Deeds",7,93,2668,"combat","MATT","the chain devil did.",13823.633,13824.675,1.04199999999946,5,287.907869481915,2,"combat","MATT",0,0,0,1
-"2669","Daring_Deeds",7,93,2669,"combat","SAM","great, chain devil. so i'm going to make a programmed illusion. upon anyone approaching, a chain devil will appear over the dead bodies that we just killed and say, ""there were five of them. ""they went that way!"" and point down the hallway that we just came out of. ""go, get them now! make ""them pay!""",13824.675,13846.64,21.9650000000001,58,158.4338720692,2,"combat","SAM",1,0,0,0
+"2669","Daring_Deeds",7,93,2669,"combat","SAM","great, chain devil. so i'm going to make a programmed illusion. upon anyone approaching, a chain devil will appear over the dead bodies that we just killed and say, ""there were five of them. ""they went that way!"" and point down the hallway that we just came out of. ""go, get them now! make ""them pay!""",13824.675,13843.452,18.777,58,185.333120306758,2,"combat","SAM",1,0,0,0
 "2670","Daring_Deeds",7,93,2670,"combat","MATT","all righty. as you pull the scroll out, and you watch the scroll burst into flame as you finish the incantation, you watch as out of the blood pool, rising, this chain devil, looking real, material, steps up and walks over to the bodies and sits there looking over them, waiting for someone to trigger.",13846.64,13864.496,17.8559999999998,56,188.172043010755,2,"combat","MATT",0,0,0,1
 "2671","Daring_Deeds",7,93,2671,"second_half_rp","LAURA","okay, we should put dust of tracelessness down. dust of tracelessness on the ground!",13864.496,13867.816,3.32000000000153,15,271.084337349273,NA,"role_play","LAURA",1,0,0,0
 "2672","Daring_Deeds",7,93,2672,"second_half_rp","MATT","okay, you start flower girling your way.",13867.816,13869.972,2.15599999999904,8,222.634508348893,NA,"role_play","MATT",0,0,0,1
@@ -2679,7 +2679,7 @@
 "2678","Daring_Deeds",7,93,2678,"second_half_rp","MATT","you guys make your way down to the end of this chamber, and you see three different doors that are all closed off, to the front, to the right, and the left.",13904.83,13913.361,8.53100000000086,33,232.094713398171,NA,"role_play","MATT",0,0,0,1
 "2679","Daring_Deeds",7,93,2679,"second_half_rp","LIAM","fanged smiles.",13913.361,13914.501,1.13999999999942,3,157.894736842186,NA,"role_play","LIAM",1,0,0,0
 "2680","Daring_Deeds",7,93,2680,"second_half_rp","LAURA","fanged smile.",13914.501,13916.223,1.72199999999975,3,104.529616724754,NA,"role_play","LAURA",1,0,0,0
-"2681","Daring_Deeds",7,93,2681,"second_half_rp","MATT","as you're making your investigation check, you hear what sounds like the writhing of chains and the pulling of heavy metal grinding. as you begin to look and inspect the doors real fast, you glance up, and the entire ceiling is a sea of rolling chains, all gathering, and then from the ceiling bursts down in the center of the chamber",13916.223,13942.412,26.1890000000003,62,142.044369773567,NA,"role_play","MATT",0,0,0,1
+"2681","Daring_Deeds",7,93,2681,"second_half_rp","MATT","as you're making your investigation check, you hear what sounds like the writhing of chains and the pulling of heavy metal grinding. as you begin to look and inspect the doors real fast, you glance up, and the entire ceiling is a sea of rolling chains, all gathering, and then from the ceiling bursts down in the center of the chamber",13916.223,13939.34,23.1170000000002,62,160.920534671453,NA,"role_play","MATT",0,0,0,1
 "2682","Daring_Deeds",7,93,2682,"combat","MATT","a chain golem slams into the center, its glowing red eyes from underneath. all right. as you guys have all scattered amongst these chambers you ran down, vax just rushed up and began to inspect these here. what are you guys doing?",13942.412,13957.353,14.9409999999989,43,172.679204872511,3,"combat","MATT",0,0,0,1
 "2683","Daring_Deeds",7,93,2683,"combat","MARISHA","wait, is this it? is this where we're supposed to be?",13957.353,13962.785,5.4320000000007,13,143.593519882161,3,"combat","MARISHA",1,0,0,0
 "2684","Daring_Deeds",7,93,2684,"combat","TALIESIN","we've got to find out which room he's in.",13962.785,13964.845,2.05999999999949,12,349.514563106883,3,"combat","TALIESIN",1,0,0,0
@@ -2761,7 +2761,7 @@
 "2760","Daring_Deeds",7,93,2760,"combat","MARISHA","yep.",14350.439,14351.526,1.08699999999953,2,110.39558417668,3,"combat","MARISHA",1,0,0,0
 "2761","Daring_Deeds",7,93,2761,"combat","MATT","keyleth, you take 21 points of bludgeoning damage.",14351.526,14356.103,4.57699999999932,9,117.981210399843,3,"combat","MATT",0,0,0,1
 "2762","Daring_Deeds",7,93,2762,"combat","SAM","is sanctuary still working on her?",14356.103,14358.327,2.22400000000016,7,188.848920863296,3,"combat","SAM",1,0,0,0
-"2763","Daring_Deeds",7,93,2763,"combat","MATT","actually, sanctuary is on. has to make a wisdom saving throw before it can do that. which it fails! you take no damage.",14358.327,14368.861,10.5340000000015,24,136.700208847522,3,"combat","MATT",0,0,0,1
+"2763","Daring_Deeds",7,93,2763,"combat","MATT","actually, sanctuary is on. has to make a wisdom saving throw before it can do that. which it fails! you take no damage.",14358.327,14366.659,8.33200000000033,24,172.827652424381,3,"combat","MATT",0,0,0,1
 "2764","Daring_Deeds",7,93,2764,"combat","MATT","it rolled a two and had a zero wisdom modifier.",14368.861,14371.631,2.76999999999862,11,238.267148014559,3,"combat","MATT",0,0,0,1
 "2765","Daring_Deeds",7,93,2765,"combat","MARISHA","oh, that's good, that's great.",14371.631,14374.667,3.03600000000006,8,158.102766798416,3,"combat","MARISHA",1,0,0,0
 "2766","Daring_Deeds",7,93,2766,"combat","MATT","so as it goes to strike you, the second fist appears and then seems to dwindle and fall to the ground, and it forms again in the spot where it was. you watch as multiple arms are now forming and coming out of it at different places. it's going to back up. as it does so, its eyes shift. these two red, beady points of light that form its eyes kind of shift to the back of its head, and now you see they're almost moving around, and it's keeping a visual range of everything in the room.",14374.667,14402.318,27.6509999999998,102,221.33015080829,3,"combat","MATT",0,0,0,1
@@ -2904,7 +2904,7 @@
 "2903","Daring_Deeds",7,93,2903,"combat","LAURA","a million.",14883.915,14885.15,1.23499999999876,3,145.748987854397,3,"combat","LAURA",1,0,0,0
 "2904","Daring_Deeds",7,93,2904,"combat","TALIESIN","million.",14885.15,14886.409,1.25900000000001,2,95.3137410643357,3,"combat","TALIESIN",1,0,0,0
 "2905","Daring_Deeds",7,93,2905,"combat","TRAVIS","22.",14886.409,14888.041,1.63199999999961,2,73.5294117647236,3,"combat","TRAVIS",1,0,0,0
-"2906","Daring_Deeds",7,93,2906,"combat","MATT","it just spattered across the ground. what was once shifting is now a fine red cream as the true form of hotis, partially returned, is now scattered across the steaming pavement of the depths of the mentiri prison. the devil is no more. you are free from the curse.",14888.041,14914.355,26.3140000000003,50,114.007752527171,3,"combat","MATT",0,0,0,1
+"2906","Daring_Deeds",7,93,2906,"combat","MATT","it just spattered across the ground. what was once shifting is now a fine red cream as the true form of hotis, partially returned, is now scattered across the steaming pavement of the depths of the mentiri prison. the devil is no more. you are free from the curse.",14888.041,14912.799,24.7580000000016,50,121.172954196615,3,"combat","MATT",0,0,0,1
 "2907","Daring_Deeds",7,93,2907,"combat","MATT","now just to get out of here, because you hear the voices in the distance now getting",14914.355,14916.655,2.30000000000109,17,443.478260869355,3,"combat","MATT",0,0,0,1
 "2908","Daring_Deeds",7,93,2908,"combat","LAURA","now we just have to plane shift.",14916.655,14918.225,1.56999999999971,8,305.73248407649,3,"combat","LAURA",1,0,0,0
 "2909","Daring_Deeds",7,93,2909,"combat","NOELLE","what is happening?",14918.225,14919.468,1.24300000000039,4,193.081255028097,3,"combat","GUESTS",0,1,0,0
@@ -2936,7 +2936,7 @@
 "2935","Daring_Deeds",7,93,2935,"combat","NOELLE","how long does that last?",15023.349,15025.071,1.72199999999975,6,209.059233449507,3,"combat","GUESTS",0,1,0,0
 "2936","Daring_Deeds",7,93,2936,"combat","SAM","a minute.",15025.071,15027.381,2.30999999999949,3,77.9220779220951,3,"combat","SAM",1,0,0,0
 "2937","Daring_Deeds",7,93,2937,"combat","NOELLE","thanks.",15027.381,15028.359,0.978000000000975,2,122.699386502945,3,"combat","GUESTS",0,1,0,0
-"2938","Daring_Deeds",7,93,2938,"combat","SAM","just one minute.",15028.359,15031.42,3.06099999999969,4,78.4057497549899,3,"combat","SAM",1,0,0,0
+"2938","Daring_Deeds",7,93,2938,"combat","SAM","just one minute.",15028.359,15029.543,1.18399999999929,4,202.702702702825,3,"combat","SAM",1,0,0,0
 "2939","Daring_Deeds",7,93,2939,"combat","TRAVIS","run real fast.",15031.42,15032.599,1.17900000000009,4,203.562340966906,3,"combat","TRAVIS",1,0,0,0
 "2940","Daring_Deeds",7,93,2940,"combat","LAURA","and the minute you take damage, you become visible again?",15032.599,15034.331,1.73199999999997,11,381.062355658205,3,"combat","LAURA",1,0,0,0
 "2941","Daring_Deeds",7,93,2941,"combat","MATT","invisibility lasts an hour.",15034.331,15038.105,3.77399999999943,5,79.4912559618561,3,"combat","MATT",0,0,0,1
@@ -3087,7 +3087,7 @@
 "3086","Daring_Deeds",7,93,3086,"combat","LIAM","the ring's a loaner!",15578.863,15580.443,1.57999999999993,6,227.848101265833,3,"combat","LIAM",1,0,0,0
 "3087","Daring_Deeds",7,93,3087,"combat","NOELLE","we've still got to get that beer.",15580.443,15581.975,1.53200000000106,9,352.480417754325,3,"combat","GUESTS",0,1,0,0
 "3088","Daring_Deeds",7,93,3088,"combat","SAM","greystone keep! get my robot!",15581.975,15585.597,3.62199999999939,6,99.3926007730703,3,"combat","SAM",1,0,0,0
-"3089","Daring_Deeds",7,93,3089,"combat","MATT","you can see the chain golem swelling as the chains are feeding it. it's growing larger in the chambers, its red eyes getting brighter and brighter. as you all clasp hands together, the light flashes a bright whitish-green. there's a high-pitched whine just as you hear devils rushing in from across the hallway. silence. and that's where we'll pick up next week.",15585.597,15610.222,24.625,69,168.121827411168,3,"combat","MATT",0,0,0,1
+"3089","Daring_Deeds",7,93,3089,"combat","MATT","you can see the chain golem swelling as the chains are feeding it. it's growing larger in the chambers, its red eyes getting brighter and brighter. as you all clasp hands together, the light flashes a bright whitish-green. there's a high-pitched whine just as you hear devils rushing in from across the hallway. silence. and that's where we'll pick up next week.",15585.597,15607.165,21.5680000000011,69,191.951038575658,3,"combat","MATT",0,0,0,1
 "3090","Daring_Deeds",7,93,3090,"second_half_rp","LAURA","holy shit.",15610.222,15615.104,4.88199999999961,3,36.8701351904987,NA,"role_play","LAURA",1,0,0,0
 "3091","Daring_Deeds",7,93,3091,"second_half_rp","LIAM","you've got to live, tova. you've got to live!",15615.104,15617.305,2.20100000000093,12,327.124034529621,NA,"role_play","LIAM",1,0,0,0
 "3092","Daring_Deeds",7,93,3092,"second_half_rp","NOELLE","i'll do my best.",15617.305,15619.581,2.27599999999984,6,158.172231985951,NA,"role_play","GUESTS",0,1,0,0
@@ -3099,7 +3099,7 @@
 "3098","Daring_Deeds",7,93,3098,"second_half_rp","NOELLE","i'm in a much better position than i was to start with.",15633.284,15638.612,5.32799999999952,14,157.657657657672,NA,"role_play","GUESTS",0,1,0,0
 "3099","Daring_Deeds",7,93,3099,"second_half_rp","LAURA","holy crap.",15638.612,15640.809,2.19700000000012,3,81.9299044151072,NA,"role_play","LAURA",1,0,0,0
 "3100","Daring_Deeds",7,93,3100,"second_half_rp","MATT","let's just hope tova doesn't come across another pit fiend, because they can see through invisibility.",15640.809,15646.294,5.48500000000058,19,207.839562443004,NA,"role_play","MATT",0,0,0,1
-"3101","Daring_Deeds",7,93,3101,"second_half_rp","SAM","five minutes later, tova was killed.",15646.294,15650.711,4.41699999999946,7,95.0871632329751,NA,"role_play","SAM",1,0,0,0
+"3101","Daring_Deeds",7,93,3101,"second_half_rp","SAM","five minutes later, tova was killed.",15646.294,15648.283,1.98899999999958,7,211.161387632021,NA,"role_play","SAM",1,0,0,0
 "3102","Daring_Deeds",7,93,3102,"second_half_rp","MATT","there are devils that can see through invisibility.",15650.711,15652.737,2.02599999999984,9,266.535044422528,NA,"role_play","MATT",0,0,0,1
 "3103","Daring_Deeds",7,93,3103,"second_half_rp","NOELLE","i'm sure it will be fine.",15652.737,15654.976,2.2390000000014,8,214.381420276776,NA,"role_play","GUESTS",0,1,0,0
 "3104","Daring_Deeds",7,93,3104,"second_half_rp","MATT","i'm sure you'll be fine. it'll be great.",15654.976,15657.364,2.38799999999901,12,301.507537688567,NA,"role_play","MATT",0,0,0,1
@@ -3114,7 +3114,7 @@
 "3113","Daring_Deeds",7,93,3113,"second_half_rp","MATT","noelle, thank you so much for playing with us.",15677.297,15678.618,1.32099999999991,10,454.201362604118,NA,"role_play","MATT",0,0,0,1
 "3114","Daring_Deeds",7,93,3114,"second_half_rp","NOELLE","this was fucking awesome.",15678.618,15681.674,3.05600000000049,5,98.1675392669998,NA,"role_play","GUESTS",0,1,0,0
 "3115","Daring_Deeds",7,93,3115,"second_half_rp","MATT","such a blast. good sticking to the guns and staying behind. i was like, i don't know what she's going to do about this. thinking you were going to find a way to find them.",15681.674,15691.878,10.2039999999997,38,223.441787534306,NA,"role_play","MATT",0,0,0,1
-"3116","Daring_Deeds",7,93,3116,"second_half_rp","NOELLE","yeah, and then i just keep showing up every week. you can't get rid of me.",15691.878,15696.823,4.94499999999971,18,218.402426693643,NA,"role_play","GUESTS",0,1,0,0
+"3116","Daring_Deeds",7,93,3116,"second_half_rp","NOELLE","yeah, and then i just keep showing up every week. you can't get rid of me.",15691.878,15694.422,2.54399999999987,18,424.528301886814,NA,"role_play","GUESTS",0,1,0,0
 "3117","Daring_Deeds",7,93,3117,"second_half_rp","MATT","it's happened before. our story ended up keeping rothfuss here for three or four weeks in a row. it was supposed to be just a one-night thing.",15696.823,15703.368,6.54500000000007,30,275.019098548507,NA,"role_play","MATT",0,0,0,1
 "3118","Daring_Deeds",7,93,3118,"second_half_rp","NOELLE","i had a mission.",15703.368,15704.86,1.49200000000019,5,201.072386058956,NA,"role_play","GUESTS",0,1,0,0
 "3119","Daring_Deeds",7,93,3119,"second_half_rp","MATT","he got a killing blow on a boss, too. we've had two guests get killing blows on a boss.",15704.86,15708.504,3.64400000000023,21,345.773874862766,NA,"role_play","MATT",0,0,0,1

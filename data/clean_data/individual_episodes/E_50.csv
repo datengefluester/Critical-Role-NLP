@@ -1,6 +1,6 @@
 "","arc","arc_no","episode","turn_number","segment","actor","text","start_turn","end_turn","time_in_sec","word_count","words_per_minute","encounter_count","rp_combat","actor_guest","vox_machina","guest","staff","matt"
 "1","Attack_Conclave",4,50,1,"prologue","MATT","hello everyone, and welcome to tonight's episode of critical role, where a bunch of us nerdy-ass voice actors sit around and play dungeons and dragons, roll dice, and stuff. tonight is a special episode; it's a special 50th episode. we've made 50 of these! to kick off the evening's festivities before the game, we want to show our first big present to you guys, something we've been working on for about a little over a month. we hope you guys enjoy it. let's go ahead and have a look at the new full intro for critical role. [dramatic music]",0,122.772,122.772,107,52.2920535627016,NA,"role_play","MATT",0,0,0,1
-"2","Attack_Conclave",4,50,2,"prologue","MATT","and welcome back, guys!",122.772,129.698,6.926,5,43.3150447588796,NA,"role_play","MATT",0,0,0,1
+"2","Attack_Conclave",4,50,2,"prologue","MATT","and welcome back, guys!",122.772,124.386,1.61399999999999,5,185.873605947957,NA,"role_play","MATT",0,0,0,1
 "3","Attack_Conclave",4,50,3,"prologue","MATT","that was fun! we've been silently working on that for a long time.",129.698,139.068,9.37,15,96.051227321238,NA,"role_play","MATT",0,0,0,1
 "4","Attack_Conclave",4,50,4,"prologue","MARISHA","it was so hard to keep secret.",139.068,142.097,3.029,8,158.468141300759,NA,"role_play","MARISHA",1,0,0,0
 "5","Attack_Conclave",4,50,5,"prologue","MATT","i know. every edit that came in was awesome. yeah, we all went together in simi valley for a day and shot, and did wonderful photos, which we actually have wallpaper going up tonight!",142.097,153.972,11.875,35,176.842105263158,NA,"role_play","MATT",0,0,0,1
@@ -49,18 +49,18 @@
 "48","Attack_Conclave",4,50,48,"prologue","LAURA","we're all wearing our shirts",449.388,451.97,2.58200000000005,6,139.426800929509,NA,"role_play","LAURA",1,0,0,0
 "49","Attack_Conclave",4,50,49,"prologue","MARISHA","you're appropriate for scanlan.",451.97,453.808,1.83799999999997,6,195.865070729057,NA,"role_play","MARISHA",1,0,0,0
 "50","Attack_Conclave",4,50,50,"prologue","SAM","you all look like shit!",453.808,456.012,2.20400000000001,6,163.339382940108,NA,"role_play","SAM",1,0,0,0
-"51","Attack_Conclave",4,50,51,"prologue","LIAM","sam, can i show you my snake?",456.012,462.747,6.73500000000001,8,71.2694877505566,NA,"role_play","LIAM",1,0,0,0
+"51","Attack_Conclave",4,50,51,"prologue","LIAM","sam, can i show you my snake?",456.012,458.942,2.93000000000001,8,163.822525597269,NA,"role_play","LIAM",1,0,0,0
 "52","Attack_Conclave",4,50,52,"prologue","TRAVIS","bigger than i thought it'd be!",462.747,464.431,1.68399999999997,8,285.035629453687,NA,"role_play","TRAVIS",1,0,0,0
 "53","Attack_Conclave",4,50,53,"prologue","MATT","strangely, he lost it for a few sessions.",464.431,469.749,5.31800000000004,9,101.54193305754,NA,"role_play","MATT",0,0,0,1
 "54","Attack_Conclave",4,50,54,"prologue","LIAM","this too shall pass.",469.749,473.073,3.32399999999996,5,90.2527075812286,NA,"role_play","LIAM",1,0,0,0
-"55","Attack_Conclave",4,50,55,"prologue","MATT","all right, so: 50th episode, guys!",473.073,479.848,6.77500000000003,7,61.9926199261989,NA,"role_play","MATT",0,0,0,1
+"55","Attack_Conclave",4,50,55,"prologue","MATT","all right, so: 50th episode, guys!",473.073,477.702,4.62900000000002,7,90.732339598185,NA,"role_play","MATT",0,0,0,1
 "56","Attack_Conclave",4,50,56,"prologue","MATT","can't believe we made it this far! and more to come. 50 more! hopefully.",479.848,484.78,4.93199999999996,16,194.647201946474,NA,"role_play","MATT",0,0,0,1
 "57","Attack_Conclave",4,50,57,"prologue","LIAM","hey look! ashley's here!",484.78,487.81,3.03000000000003,6,118.811881188118,NA,"role_play","LIAM",1,0,0,0
 "58","Attack_Conclave",4,50,58,"prologue","ASHLEY","hey! i just landed. not landed in a plane, but just drove in.",487.81,494.123,6.31299999999999,14,133.058767622367,NA,"role_play","ASHLEY",1,0,0,0
 "59","Attack_Conclave",4,50,59,"prologue","MATT","drove all across the country, from new york.",494.123,496.39,2.267,9,238.200264666961,NA,"role_play","MATT",0,0,0,1
 "60","Attack_Conclave",4,50,60,"prologue","ASHLEY","from, yes. drove in from new york.",496.39,498.932,2.54200000000003,8,188.827694728558,NA,"role_play","ASHLEY",1,0,0,0
 "61","Attack_Conclave",4,50,61,"prologue","LAURA","so what does that mean, ashley?",498.932,500.564,1.63200000000001,7,257.35294117647,NA,"role_play","LAURA",1,0,0,0
-"62","Attack_Conclave",4,50,62,"prologue","ASHLEY","i'm here for a little while.",500.564,506.162,5.59799999999996,8,85.744908896035,NA,"role_play","ASHLEY",1,0,0,0
+"62","Attack_Conclave",4,50,62,"prologue","ASHLEY","i'm here for a little while.",500.564,502.756,2.19199999999995,8,218.978102189786,NA,"role_play","ASHLEY",1,0,0,0
 "63","Attack_Conclave",4,50,63,"prologue","MARISHA","she's back!",506.162,507.279,1.11700000000002,4,214.8612354521,NA,"role_play","MARISHA",1,0,0,0
 "64","Attack_Conclave",4,50,64,"prologue","ASHLEY","i'm back for a little bit.",507.279,508.754,1.47500000000002,8,325.423728813554,NA,"role_play","ASHLEY",1,0,0,0
 "65","Attack_Conclave",4,50,65,"prologue","TRAVIS","yay, pike!",508.754,510.086,1.33199999999999,3,135.135135135136,NA,"role_play","TRAVIS",1,0,0,0
@@ -87,7 +87,7 @@
 "86","Attack_Conclave",4,50,86,"prologue","TALIESIN","at work or on the go.",568.123,571.34,3.21699999999998,7,130.556419023936,NA,"role_play","TALIESIN",1,0,0,0
 "87","Attack_Conclave",4,50,87,"prologue","LIAM","keep this going all night long.",571.34,573.085,1.745,7,240.687679083094,NA,"role_play","LIAM",1,0,0,0
 "88","Attack_Conclave",4,50,88,"prologue","MATT","two hours.",573.085,574.384,1.29899999999998,3,138.568129330256,NA,"role_play","MATT",0,0,0,1
-"89","Attack_Conclave",4,50,89,"prologue","SAM","it's this content that you've demanded.",574.384,580.2,5.81600000000003,9,92.8473177441536,NA,"role_play","SAM",1,0,0,0
+"89","Attack_Conclave",4,50,89,"prologue","SAM","it's this content that you've demanded.",574.384,576.511,2.12699999999995,9,253.878702397749,NA,"role_play","SAM",1,0,0,0
 "90","Attack_Conclave",4,50,90,"prologue","MATT","so yeah, these are up on the store, or should be, and will be up for pre-order for the next two weeks. if you want one, get one! because they're cool. i like them.",580.2,588.418,8.21799999999996,37,270.138719883185,NA,"role_play","MATT",0,0,0,1
 "91","Attack_Conclave",4,50,91,"prologue","TRAVIS","yeah, we all have one.",588.418,590.259,1.84100000000001,6,195.545898967951,NA,"role_play","TRAVIS",1,0,0,0
 "92","Attack_Conclave",4,50,92,"prologue","MATT","indeed. all right, next up, critmas is tonight. so we got that coming up after the show.",590.259,602.992,12.7329999999999,18,84.8189743186998,NA,"role_play","MATT",0,0,0,1
@@ -141,7 +141,7 @@
 "140","Attack_Conclave",4,50,140,"prologue","LIAM","so, check it out. wyrmwood gaming, they got a kickstarter, they got a website. they're our good buddies.",863.803,871.757,7.95399999999995,20,150.867488056325,NA,"role_play","LIAM",1,0,0,0
 "141","Attack_Conclave",4,50,141,"prologue","MATT","all right. so, anything else anyone wants to talk about or mention?",871.757,875.757,4,13,195,NA,"role_play","MATT",0,0,0,1
 "142","Attack_Conclave",4,50,142,"prologue","MARISHA","i mean.",875.757,877.142,1.3850000000001,3,129.963898916958,NA,"role_play","MARISHA",1,0,0,0
-"143","Attack_Conclave",4,50,143,"prologue","MATT","because if not, i think we may have to watch that intro again.",877.142,882.241,5.09899999999993,14,164.738183957641,NA,"role_play","MATT",0,0,0,1
+"143","Attack_Conclave",4,50,143,"prologue","MATT","because if not, i think we may have to watch that intro again.",877.142,880.526,3.3839999999999,14,248.226950354617,NA,"role_play","MATT",0,0,0,1
 "144","Attack_Conclave",4,50,144,"prologue","TRAVIS","yeah, yeah, do it again! do that shit again, please!",882.241,883.877,1.63599999999997,11,403.422982885094,NA,"role_play","TRAVIS",1,0,0,0
 "145","Attack_Conclave",4,50,145,"prologue","MATT","let's watch that intro again. [dramatic music]",883.877,974.484,90.6070000000001,9,5.95980443012129,NA,"role_play","MATT",0,0,0,1
 "146","Attack_Conclave",4,50,146,"prologue","MATT","and welcome back. i remember writing the script for that and going, ""we're going to have to cut all this."" and then we didn't. i'm so happy how it turned out.",974.628,984.287,9.65899999999999,35,217.413810953515,NA,"role_play","MATT",0,0,0,1
@@ -153,7 +153,7 @@
 "152","Attack_Conclave",4,50,152,"first_half_rp","MARISHA","i heard a few things that seemed very desireable.",1172.75,1176.281,3.53099999999995,10,169.923534409518,NA,"role_play","MARISHA",1,0,0,0
 "153","Attack_Conclave",4,50,153,"first_half_rp","LIAM","how is pike?",1176.281,1180.672,4.39100000000008,4,54.657253473012,NA,"role_play","LIAM",1,0,0,0
 "154","Attack_Conclave",4,50,154,"first_half_rp","SAM","yeah, pike, are you alive?",1180.672,1183.124,2.452,6,146.818923327896,NA,"role_play","SAM",1,0,0,0
-"155","Attack_Conclave",4,50,155,"first_half_rp","ASHLEY","i yes.",1183.124,1187.941,4.81700000000001,3,37.3676562175627,NA,"role_play","ASHLEY",1,0,0,0
+"155","Attack_Conclave",4,50,155,"first_half_rp","ASHLEY","i yes.",1183.124,1184.791,1.66699999999992,3,107.978404319142,NA,"role_play","ASHLEY",1,0,0,0
 "156","Attack_Conclave",4,50,156,"first_half_rp","LAURA","he healed us all up before we left, right?",1187.941,1190.427,2.48599999999988,10,241.351568785209,NA,"role_play","LAURA",1,0,0,0
 "157","Attack_Conclave",4,50,157,"first_half_rp","ASHLEY","he healed us. yes, i'm fine! i'm fine.",1190.427,1192.893,2.46600000000012,11,267.639902676386,NA,"role_play","ASHLEY",1,0,0,0
 "158","Attack_Conclave",4,50,158,"first_half_rp","MATT","well, not completely, you guys healed from a couple of spells that were cast at the time, but you haven't had a rest.",1192.893,1198.421,5.52800000000002,25,271.345875542691,NA,"role_play","MATT",0,0,0,1
@@ -178,7 +178,7 @@
 "177","Attack_Conclave",4,50,177,"first_half_rp","TRAVIS","yeah, but you're my best buddy!",1308.632,1310.502,1.86999999999989,8,256.684491978625,NA,"role_play","TRAVIS",1,0,0,0
 "178","Attack_Conclave",4,50,178,"first_half_rp","ASHLEY","oh, grog.",1310.502,1312.873,2.37100000000009,3,75.9173344580316,NA,"role_play","ASHLEY",1,0,0,0
 "179","Attack_Conclave",4,50,179,"first_half_rp","TRAVIS","do you want one of my healing potions, are you sure you're all right?",1312.873,1315.527,2.654,16,361.718161266014,NA,"role_play","TRAVIS",1,0,0,0
-"180","Attack_Conclave",4,50,180,"first_half_rp","ASHLEY","i'm going to be okay, i'm going to be okay. i think if we just i'm excited to see you guys.",1315.527,1327.18,11.653,25,128.722217454732,NA,"role_play","ASHLEY",1,0,0,0
+"180","Attack_Conclave",4,50,180,"first_half_rp","ASHLEY","i'm going to be okay, i'm going to be okay. i think if we just i'm excited to see you guys.",1315.527,1324.379,8.85199999999986,25,169.453230908272,NA,"role_play","ASHLEY",1,0,0,0
 "181","Attack_Conclave",4,50,181,"first_half_rp","ASHLEY","i'm going to be okay, i'm going to be okay.",1327.18,1329.389,2.20899999999983,13,353.100950656432,NA,"role_play","ASHLEY",1,0,0,0
 "182","Attack_Conclave",4,50,182,"first_half_rp","TRAVIS","yeah!",1329.389,1330.726,1.33700000000022,2,89.7531787583998,NA,"role_play","TRAVIS",1,0,0,0
 "183","Attack_Conclave",4,50,183,"first_half_rp","ASHLEY","are we taking a rest? i don't know how many",1330.726,1333.027,2.30099999999993,11,286.83181225555,NA,"role_play","ASHLEY",1,0,0,0
@@ -456,7 +456,7 @@
 "455","Attack_Conclave",4,50,455,"first_half_rp","LAURA","what?",2641.669,2642.742,1.07300000000032,2,111.835973904906,NA,"role_play","LAURA",1,0,0,0
 "456","Attack_Conclave",4,50,456,"first_half_rp","TALIESIN","i love a whisper.",2642.742,2644.468,1.72599999999966,5,173.812282734681,NA,"role_play","TALIESIN",1,0,0,0
 "457","Attack_Conclave",4,50,457,"first_half_rp","LIAM","i don't.",2644.468,2645.511,1.04300000000012,4,230.105465004767,NA,"role_play","LIAM",1,0,0,0
-"458","Attack_Conclave",4,50,458,"first_half_rp","LAURA","how come he's getting a whisper and you're not getting a whisper? hey, you guys check out those ""how do you want to do this"" hoodies",2645.511,2653.671,8.15999999999985,28,205.88235294118,NA,"role_play","LAURA",1,0,0,0
+"458","Attack_Conclave",4,50,458,"first_half_rp","LAURA","how come he's getting a whisper and you're not getting a whisper? hey, you guys check out those ""how do you want to do this"" hoodies",2645.511,2651.947,6.43600000000015,28,261.031696706023,NA,"role_play","LAURA",1,0,0,0
 "459","Attack_Conclave",4,50,459,"first_half_rp","TALIESIN","i want to do this with great pain and sadness.",2653.671,2654.963,1.29200000000037,11,510.835913312547,NA,"role_play","TALIESIN",1,0,0,0
 "460","Attack_Conclave",4,50,460,"first_half_rp","ASHLEY","this is so stressful!",2654.963,2656.65,1.6869999999999,5,177.830468286911,NA,"role_play","ASHLEY",1,0,0,0
 "461","Attack_Conclave",4,50,461,"first_half_rp","LAURA","oh my god, you came back and grog <i>died!</i>",2656.65,2660.658,4.00799999999981,12,179.640718562883,NA,"role_play","LAURA",1,0,0,0
@@ -713,7 +713,7 @@
 "712","Attack_Conclave",4,50,712,"first_half_rp","MARISHA","pike, be careful.",3610.659,3613.656,2.99699999999984,4,80.0800800800843,NA,"role_play","MARISHA",1,0,0,0
 "713","Attack_Conclave",4,50,713,"first_half_rp","SAM","i'm going to inspire her again. i'm going to sing a very romantic ballad.",3613.656,3622.529,8.87300000000005,17,114.955482925729,NA,"role_play","SAM",1,0,0,0
 "714","Attack_Conclave",4,50,714,"first_half_rp","ASHLEY","bring it.",3622.529,3623.618,1.08899999999994,3,165.289256198356,NA,"role_play","ASHLEY",1,0,0,0
-"715","Attack_Conclave",4,50,715,"first_half_rp","SAM","oh my little pretty one, my little pretty one, pike the gnome-a, oh you make my nipples hum, my nipples hum, oh you make my nipples hum, pike the gnome-a.",3623.618,3641.438,17.8200000000002,33,111.11111111111,NA,"role_play","SAM",1,0,0,0
+"715","Attack_Conclave",4,50,715,"first_half_rp","SAM","oh my little pretty one, my little pretty one, pike the gnome-a, oh you make my nipples hum, my nipples hum, oh you make my nipples hum, pike the gnome-a.",3623.618,3638.217,14.5990000000002,33,135.625727789573,NA,"role_play","SAM",1,0,0,0
 "716","Attack_Conclave",4,50,716,"first_half_rp","MATT","take your d10 inspiration.",3641.438,3644.169,2.73099999999977,5,109.849871841826,NA,"role_play","MATT",0,0,0,1
 "717","Attack_Conclave",4,50,717,"first_half_rp","LIAM","all sad and tragic and with gravitas.",3644.169,3647.128,2.95900000000029,8,162.216965190927,NA,"role_play","LIAM",1,0,0,0
 "718","Attack_Conclave",4,50,718,"first_half_rp","ASHLEY","a d10?",3647.128,3648.475,1.34699999999975,3,133.630289532319,NA,"role_play","ASHLEY",1,0,0,0
@@ -799,7 +799,7 @@
 "798","Attack_Conclave",4,50,798,"first_half_rp","ASHLEY","all right, i'll take boots of levitation. and you get these so you're super strong again.",4028.105,4030.657,2.55200000000013,19,446.70846394982,NA,"role_play","ASHLEY",1,0,0,0
 "799","Attack_Conclave",4,50,799,"first_half_rp","TRAVIS","i'll take my gauntlets of ogre power back, strength back up to 19.",4030.657,4035.234,4.57699999999977,15,196.635350666385,NA,"role_play","TRAVIS",1,0,0,0
 "800","Attack_Conclave",4,50,800,"first_half_rp","LIAM","it was good times, though, pike in those gauntlets. that was pretty cool.",4035.234,4039.477,4.24299999999994,14,197.973132217773,NA,"role_play","LIAM",1,0,0,0
-"801","Attack_Conclave",4,50,801,"first_half_rp","ASHLEY","hey, i felt real cool punching that chicken that one time.",4039.477,4048.09,8.61300000000028,12,83.5945663531843,NA,"role_play","ASHLEY",1,0,0,0
+"801","Attack_Conclave",4,50,801,"first_half_rp","ASHLEY","hey, i felt real cool punching that chicken that one time.",4039.477,4042.855,3.37800000000016,12,213.143872113667,NA,"role_play","ASHLEY",1,0,0,0
 "802","Attack_Conclave",4,50,802,"first_half_rp","ASHLEY","one day i'll be strong.",4048.09,4050.525,2.43499999999995,7,172.484599589326,NA,"role_play","ASHLEY",1,0,0,0
 "803","Attack_Conclave",4,50,803,"first_half_rp","SAM","well, i think you just cured grog, saved his life, and got rid of a soul-eating sword, so you're pretty strong.",4050.525,4058.567,8.04199999999992,24,179.05993533947,NA,"role_play","SAM",1,0,0,0
 "804","Attack_Conclave",4,50,804,"first_half_rp","ASHLEY","what did you say?",4058.567,4060.213,1.64600000000019,5,182.260024301316,NA,"role_play","ASHLEY",1,0,0,0
@@ -879,7 +879,7 @@
 "878","Attack_Conclave",4,50,878,"first_half_rp","ASHLEY","that's a scroll.",4354.128,4355.46,1.33200000000033,5,225.225225225169,NA,"role_play","ASHLEY",1,0,0,0
 "879","Attack_Conclave",4,50,879,"first_half_rp","MATT","just so you know what it had done.",4355.46,4358.61,3.14999999999964,9,171.428571428591,NA,"role_play","MATT",0,0,0,1
 "880","Attack_Conclave",4,50,880,"first_half_rp","LAURA","what it had done to you?",4358.61,4362.415,3.80500000000029,7,110.381077529558,NA,"role_play","LAURA",1,0,0,0
-"881","Attack_Conclave",4,50,881,"first_half_rp","TRAVIS","oh, fuck you!",4362.415,4369.002,6.58700000000044,4,36.435403066644,NA,"role_play","TRAVIS",1,0,0,0
+"881","Attack_Conclave",4,50,881,"first_half_rp","TRAVIS","oh, fuck you!",4362.415,4365.054,2.63900000000012,4,90.943539219397,NA,"role_play","TRAVIS",1,0,0,0
 "882","Attack_Conclave",4,50,882,"first_half_rp","TRAVIS","okay.",4369.002,4373.52,4.51800000000003,2,26.5604249667993,NA,"role_play","TRAVIS",1,0,0,0
 "883","Attack_Conclave",4,50,883,"first_half_rp","LAURA","can i see, can we see it?",4373.52,4374.905,1.38499999999931,8,346.570397112086,NA,"role_play","LAURA",1,0,0,0
 "884","Attack_Conclave",4,50,884,"first_half_rp","TRAVIS","no.",4374.905,4375.728,0.82300000000032,2,145.808019441013,NA,"role_play","TRAVIS",1,0,0,0
@@ -890,10 +890,10 @@
 "889","Attack_Conclave",4,50,889,"first_half_rp","MATT","yeah, you pull it out, take it, swing it around, dust it off a bit.",4390.907,4393.731,2.82399999999961,16,339.94334277625,NA,"role_play","MATT",0,0,0,1
 "890","Attack_Conclave",4,50,890,"first_half_rp","TRAVIS","can i get it to light?",4393.731,4395.52,1.78900000000067,7,234.768026830544,NA,"role_play","TRAVIS",1,0,0,0
 "891","Attack_Conclave",4,50,891,"first_half_rp","MATT","bursts into flames, and for a second that warmth near your face is like an old friend coming to roost for a bit.",4395.52,4403.601,8.08099999999922,24,178.195767850531,NA,"role_play","MATT",0,0,0,1
-"892","Attack_Conclave",4,50,892,"first_half_rp","TRAVIS","can you hear me?",4403.601,4409.319,5.71800000000076,5,52.4658971668346,NA,"role_play","TRAVIS",1,0,0,0
-"893","Attack_Conclave",4,50,893,"first_half_rp","TRAVIS","the silent type. i like it.",4414.81,4419.85,5.03999999999996,7,83.3333333333339,NA,"role_play","TRAVIS",1,0,0,0
+"892","Attack_Conclave",4,50,892,"first_half_rp","TRAVIS","can you hear me?",4403.601,4405.882,2.28099999999995,5,131.521262604124,NA,"role_play","TRAVIS",1,0,0,0
+"893","Attack_Conclave",4,50,893,"first_half_rp","TRAVIS","the silent type. i like it.",4414.81,4416.609,1.79899999999998,7,233.463035019458,NA,"role_play","TRAVIS",1,0,0,0
 "894","Attack_Conclave",4,50,894,"first_half_rp","MATT","all right. you guys all have your evening's rest. though it is an early evening, you manage to comfortably, after a number of harrowing experiences, recoup, recover, wake up to a grand chickenful breakfast.",4419.85,4437.019,17.1689999999999,36,125.808142582563,NA,"role_play","MATT",0,0,0,1
-"895","Attack_Conclave",4,50,895,"first_half_rp","MARISHA","yeah.",4437.019,4439.53,2.51099999999951,2,47.7897252090893,NA,"role_play","MARISHA",1,0,0,0
+"895","Attack_Conclave",4,50,895,"first_half_rp","MARISHA","yeah.",4437.019,4438.139,1.11999999999989,2,107.142857142868,NA,"role_play","MARISHA",1,0,0,0
 "896","Attack_Conclave",4,50,896,"first_half_rp","SAM","chicken and eggs, everyone!",4439.53,4440.839,1.3090000000002,5,229.182582123724,NA,"role_play","SAM",1,0,0,0
 "897","Attack_Conclave",4,50,897,"first_half_rp","LAURA","yay!",4440.839,4441.641,0.80199999999968,2,149.625935162154,NA,"role_play","LAURA",1,0,0,0
 "898","Attack_Conclave",4,50,898,"first_half_rp","ASHLEY","chicken and waffles, perhaps?",4441.641,4442.734,1.09300000000076,5,274.473924976937,NA,"role_play","ASHLEY",1,0,0,0
@@ -923,7 +923,7 @@
 "922","Attack_Conclave",4,50,922,"first_half_rp","LIAM","have fun, doofus!",4516.679,4518.818,2.13900000000012,4,112.201963534355,NA,"role_play","LIAM",1,0,0,0
 "923","Attack_Conclave",4,50,923,"first_half_rp","LAURA","shh! yes, i'm leading.",4518.818,4521.937,3.11899999999969,6,115.421609490233,NA,"role_play","LAURA",1,0,0,0
 "924","Attack_Conclave",4,50,924,"first_half_rp","TRAVIS","this is a lot to leave off, that's a lot.",4521.937,4523.753,1.8159999999998,12,396.475770925153,NA,"role_play","TRAVIS",1,0,0,0
-"925","Attack_Conclave",4,50,925,"first_half_rp","MATT","well, you know.",4523.753,4526.43,2.67700000000059,4,89.6525961897449,NA,"role_play","MATT",0,0,0,1
+"925","Attack_Conclave",4,50,925,"first_half_rp","MATT","well, you know.",4523.753,4525.07,1.31700000000001,4,182.232346241457,NA,"role_play","MATT",0,0,0,1
 "926","Attack_Conclave",4,50,926,"first_half_rp","TRAVIS","to not have. that's a big fucking difference.",4526.43,4528.563,2.13299999999981,10,281.293952180053,NA,"role_play","TRAVIS",1,0,0,0
 "927","Attack_Conclave",4,50,927,"first_half_rp","LAURA","would you have kept it if you had known all those other things? or would you have wanted to use more of it?",4528.563,4533.766,5.20299999999952,24,276.76340572749,NA,"role_play","LAURA",1,0,0,0
 "928","Attack_Conclave",4,50,928,"first_half_rp","TRAVIS","you don't know.",4533.766,4534.99,1.22400000000016,5,245.098039215654,NA,"role_play","TRAVIS",1,0,0,0
@@ -935,7 +935,7 @@
 "934","Attack_Conclave",4,50,934,"first_half_rp","MARISHA","negative. it's like a wizard thing.",4552.284,4557.573,5.28900000000067,8,90.7543959160407,NA,"role_play","MARISHA",1,0,0,0
 "935","Attack_Conclave",4,50,935,"first_half_rp","TRAVIS","i didn't even know people could do that.",4557.573,4559.154,1.58100000000013,10,379.506641366192,NA,"role_play","TRAVIS",1,0,0,0
 "936","Attack_Conclave",4,50,936,"first_half_rp","MATT","allura or gilmore could probably do that for you.",4559.154,4561.013,1.85899999999947,10,322.754168908107,NA,"role_play","MATT",0,0,0,1
-"937","Attack_Conclave",4,50,937,"first_half_rp","LAURA","don't act like you know for sure.",4561.013,4565.014,4.0010000000002,9,134.966258435384,NA,"role_play","LAURA",1,0,0,0
+"937","Attack_Conclave",4,50,937,"first_half_rp","LAURA","don't act like you know for sure.",4561.013,4562.741,1.72800000000007,9,312.499999999988,NA,"role_play","LAURA",1,0,0,0
 "938","Attack_Conclave",4,50,938,"first_half_rp","LIAM","i know about gilmore.",4565.014,4567.142,2.1279999999997,5,140.977443609042,NA,"role_play","LIAM",1,0,0,0
 "939","Attack_Conclave",4,50,939,"first_half_rp","ASHLEY","such a twinsies.",4567.142,4568.695,1.55299999999988,4,154.53960077271,NA,"role_play","ASHLEY",1,0,0,0
 "940","Attack_Conclave",4,50,940,"first_half_rp","MATT","aw, so good. all right, so. you guys start heading northward, you're leading then, vex? make a survival check. technically in the forest, since you're moving through.",4568.695,4578.45,9.75500000000011,30,184.520758585339,NA,"role_play","MATT",0,0,0,1
@@ -961,8 +961,8 @@
 "960","Attack_Conclave",4,50,960,"first_half_rp","LAURA","let's go to westruun!",4639.333,4642.687,3.35400000000027,6,107.334525939168,NA,"role_play","LAURA",1,0,0,0
 "961","Attack_Conclave",4,50,961,"first_half_rp","TALIESIN","westruun it is!",4642.687,4644.205,1.51800000000003,4,158.102766798416,NA,"role_play","TALIESIN",1,0,0,0
 "962","Attack_Conclave",4,50,962,"first_half_rp","LIAM","sore spot.",4644.205,4645.589,1.38400000000001,3,130.057803468207,NA,"role_play","LIAM",1,0,0,0
-"963","Attack_Conclave",4,50,963,"first_half_rp","MATT","continuing pushing forward, i'd like you all to make a stealth check.",4645.589,4650.213,4.6239999999998,14,181.660899653987,NA,"role_play","MATT",0,0,0,1
-"964","Attack_Conclave",4,50,964,"first_half_rp","LAURA","oh, shit.",4650.213,4653.856,3.64300000000003,3,49.4098270656049,NA,"role_play","LAURA",1,0,0,0
+"963","Attack_Conclave",4,50,963,"first_half_rp","MATT","continuing pushing forward, i'd like you all to make a stealth check.",4645.589,4648.66,3.07099999999991,14,273.526538586787,NA,"role_play","MATT",0,0,0,1
+"964","Attack_Conclave",4,50,964,"first_half_rp","LAURA","oh, shit.",4650.213,4651.415,1.20200000000023,3,149.75041597335,NA,"role_play","LAURA",1,0,0,0
 "965","Attack_Conclave",4,50,965,"first_half_rp","SAM","someone just failed it. pike!",4653.856,4656.936,3.07999999999993,6,116.88311688312,NA,"role_play","SAM",1,0,0,0
 "966","Attack_Conclave",4,50,966,"first_half_rp","MATT","with disadvantage, pike.",4656.936,4662.202,5.26600000000053,4,45.5753892897789,NA,"role_play","MATT",0,0,0,1
 "967","Attack_Conclave",4,50,967,"first_half_rp","ASHLEY","disadvantage? okay.",4662.202,4663.721,1.51899999999932,3,118.499012508282,NA,"role_play","ASHLEY",1,0,0,0
@@ -985,7 +985,7 @@
 "984","Attack_Conclave",4,50,984,"first_half_rp","MATT","okay. first off, pike, i need you to go ahead and make a constitution saving throw.",4733.377,4738.217,4.83999999999924,17,210.743801652926,NA,"role_play","MATT",0,0,0,1
 "985","Attack_Conclave",4,50,985,"first_half_rp","LAURA","aw, because you saw it.",4738.217,4739.85,1.63300000000072,6,220.45315370474,NA,"role_play","LAURA",1,0,0,0
 "986","Attack_Conclave",4,50,986,"first_half_rp","MATT","you glanced over and saw it before you realized.",4739.85,4741.773,1.92299999999977,10,312.012480499257,NA,"role_play","MATT",0,0,0,1
-"987","Attack_Conclave",4,50,987,"first_half_rp","ASHLEY","i don't think i did, though.",4741.773,4745.393,3.61999999999989,8,132.596685082877,NA,"role_play","ASHLEY",1,0,0,0
+"987","Attack_Conclave",4,50,987,"first_half_rp","ASHLEY","i don't think i did, though.",4741.773,4743.202,1.42900000000009,8,335.89923023091,NA,"role_play","ASHLEY",1,0,0,0
 "988","Attack_Conclave",4,50,988,"first_half_rp","ASHLEY","oh! i got 19.",4745.393,4749.535,4.14199999999983,5,72.4287783679412,NA,"role_play","ASHLEY",1,0,0,0
 "989","Attack_Conclave",4,50,989,"first_half_rp","MATT","19, okay. just the instinctual glance at it, you're like, oh crap, and you feel the impact of its gaze. however, you're a fairly hardy gnome and you resist the creeping stone-based enchantment. as you begin to run forward, percy pushes behind you as grog rushes forward, both of you guys recognizing that sound and averting your gaze, pick up pike and you all begin charging forward. as you do, you can hear the hiss behind you gathered by a second one. and the sounds of many feet charging through the snow quickly. i would like you guys all to go ahead and, we'll say for the sake of this, just roll dexterity checks. or no, athletics. this would be your run speed on this one, sorry.",4749.535,4792.672,43.1369999999997,132,183.601084915503,NA,"role_play","MATT",0,0,0,1
 "990","Attack_Conclave",4,50,990,"first_half_rp","LAURA","what if i'm on the broom, though?",4792.672,4794.498,1.82600000000002,9,295.728368017521,NA,"role_play","LAURA",1,0,0,0
@@ -998,7 +998,7 @@
 "997","Attack_Conclave",4,50,997,"first_half_rp","SAM","11.",4806.209,4807.158,0.949000000000524,2,126.448893572111,NA,"role_play","SAM",1,0,0,0
 "998","Attack_Conclave",4,50,998,"first_half_rp","MATT","okay. you guys all manage to maintain a fairly decent pace; these creatures are fairly quick and as they begin to catch up, you begin to use your guidance as a person who knows the forest fairly well to begin ducking in and out of areas, using snowbanks at your disposal. at one point, grog, you see a partially broken old dying tree that you just go ahead and grab and throw behind you. make a strength check?",4807.158,4832.835,25.6769999999997,79,184.601004790282,NA,"role_play","MATT",0,0,0,1
 "999","Attack_Conclave",4,50,999,"first_half_rp","TRAVIS","21.",4832.835,4837.81,4.97500000000036,2,24.1206030150736,NA,"role_play","TRAVIS",1,0,0,0
-"1000","Attack_Conclave",4,50,1000,"first_half_rp","MATT","21. with one hand you grab it and, boom, the actual trunk, old and long-rotted, snaps and falls behind you with a large impact. you believe from the sound of it, it at least hit or halted one of them for a short time, it's just a sound. and as you guys continue pushing forward towards the northern side of this forest, the sound of the hissing begins to slowly subside as you dodge back and forth, zigzagging across this pathway. eventually you guys, over about an additional hour and a half of pushing forward, you hear, and have not heard any following hissing sound for a while, and eventually see before you the outside of the frostweald forest finally approaching. with that, you guys push through the last elements of this frozen forest, back into the fields heading northward towards westruun proper. with that, we're going to take a quick break.",4837.81,4891.837,54.027,156,173.246709978344,NA,"role_play","MATT",0,0,0,1
+"1000","Attack_Conclave",4,50,1000,"first_half_rp","MATT","21. with one hand you grab it and, boom, the actual trunk, old and long-rotted, snaps and falls behind you with a large impact. you believe from the sound of it, it at least hit or halted one of them for a short time, it's just a sound. and as you guys continue pushing forward towards the northern side of this forest, the sound of the hissing begins to slowly subside as you dodge back and forth, zigzagging across this pathway. eventually you guys, over about an additional hour and a half of pushing forward, you hear, and have not heard any following hissing sound for a while, and eventually see before you the outside of the frostweald forest finally approaching. with that, you guys push through the last elements of this frozen forest, back into the fields heading northward towards westruun proper. with that, we're going to take a quick break.",4837.81,4889.948,52.1379999999999,156,179.523572058767,NA,"role_play","MATT",0,0,0,1
 "1001","Attack_Conclave",4,50,1001,"break","MATT","so yeah, we're going to go ahead and take a little trip here to the restroom, we'll see you guys here in a few minutes to continue the next length of this journey.",4891.837,4898.637,6.79999999999927,36,317.647058823563,NA,NA,"MATT",0,0,0,1
 "1002","Attack_Conclave",4,50,1002,"break","TRAVIS","we get to play that shit again, right?",4898.637,4900.31,1.67300000000068,9,322.773460848643,NA,NA,"TRAVIS",1,0,0,0
 "1003","Attack_Conclave",4,50,1003,"break","LIAM","why did it get so scary? [break]",4900.31,5748.045,847.735,8,0.566214677935912,NA,NA,"LIAM",1,0,0,0
@@ -1013,9 +1013,9 @@
 "1012","Attack_Conclave",4,50,1012,"second_half_rp","MATT","you guys stop by the foramere basin, where you originally saw the encampment of some of the survivors of the westruun incursion by the chroma conclave. as you approach, some of the guards immediately come up, crossbows up, when they notice who it was before previously, they lower their weapons and one of the guards comes forward, approaches you, saying, ""good to see that you've ""returned. we've managed to also acquire our recently captured individuals, most at least have ""come back safely, it's appreciated. if you wish to talk to cornelius, well, he should be up and ""about. i'll take you."" leads you guys into the camp. as you find your way in, folks around you tend to stop again and watch you quietly as you pass, a few with smiles, and you see a few people wave and say, thank you. and you do see a couple of individuals that you did help escape from the orc encampment, they themselves are still on the mend, a lot of them were fairly brutalized when they were there, but the same child that you found in the tent just runs up and gives a big ol' hug to vex and holds you for a second, then lets go and runs back off to her mother. you're led back to the tent where cornelius originally met with you guys, but cornelius is outside of the tent right now, just in the process of cutting firewood that's going to be used for the firepits later on.",5807.747,5891.825,84.0779999999995,260,185.541996717335,NA,"role_play","MATT",0,0,0,1
 "1013","Attack_Conclave",4,50,1013,"second_half_rp","LAURA","where'd he find the wood? i thought there were no trees around.",5891.825,5895.212,3.38700000000063,14,248.007085916695,NA,"role_play","LAURA",1,0,0,0
 "1014","Attack_Conclave",4,50,1014,"second_half_rp","MATT","you imagine that they don't go to other nearby wooded areas and cut them down?",5895.212,5899.469,4.25699999999961,17,239.605355884448,NA,"role_play","MATT",0,0,0,1
-"1015","Attack_Conclave",4,50,1015,"second_half_rp","TRAVIS","yeah, poke the dm.",5899.469,5904.168,4.69899999999961,5,63.8433709299903,NA,"role_play","TRAVIS",1,0,0,0
+"1015","Attack_Conclave",4,50,1015,"second_half_rp","TRAVIS","yeah, poke the dm.",5899.469,5902.413,2.94399999999951,5,101.902173913061,NA,"role_play","TRAVIS",1,0,0,0
 "1016","Attack_Conclave",4,50,1016,"second_half_rp","LIAM","oh dear.",5904.168,5905.431,1.26299999999992,3,142.51781472685,NA,"role_play","LIAM",1,0,0,0
-"1017","Attack_Conclave",4,50,1017,"second_half_rp","MATT","and that's what happens.",5905.431,5910.607,5.17600000000039,6,69.551777434307,NA,"role_play","MATT",0,0,0,1
+"1017","Attack_Conclave",4,50,1017,"second_half_rp","MATT","and that's what happens.",5905.431,5908.697,3.26600000000053,6,110.226576852401,NA,"role_play","MATT",0,0,0,1
 "1018","Attack_Conclave",4,50,1018,"second_half_rp","MATT","you think that was an accident.",5910.607,5914.336,3.72900000000027,7,112.630732099751,NA,"role_play","MATT",0,0,0,1
 "1019","Attack_Conclave",4,50,1019,"second_half_rp","TALIESIN","when you're in 50 episodes, this is the first one.",5914.336,5917.708,3.37199999999939,12,213.523131672637,NA,"role_play","TALIESIN",1,0,0,0
 "1020","Attack_Conclave",4,50,1020,"second_half_rp","MARISHA","this is the first one. it's like that scene in the second matrix.",5917.708,5920.767,3.0590000000002,15,294.213795357941,NA,"role_play","MARISHA",1,0,0,0
@@ -1416,7 +1416,7 @@
 "1415","Attack_Conclave",4,50,1415,"second_half_rp","MARISHA","not enough to where i can't, you know, sleep, but just, you know.",7952.881,7955.414,2.53299999999945,15,355.309909198656,NA,"role_play","MARISHA",1,0,0,0
 "1416","Attack_Conclave",4,50,1416,"second_half_rp","TALIESIN","i'm going to lend her my resist lightning ring so that she can study it and hopefully come up with a resist energy potion.",7955.414,7962.506,7.09200000000055,26,219.966159052436,NA,"role_play","TALIESIN",1,0,0,0
 "1417","Attack_Conclave",4,50,1417,"second_half_rp","MATT","okay. i'll say, what level is that?",7962.506,7966.655,4.14899999999943,9,130.151843817805,NA,"role_play","MATT",0,0,0,1
-"1418","Attack_Conclave",4,50,1418,"second_half_rp","MARISHA","protection from energy is a 3rd-level spell.",7966.655,7972.631,5.97600000000057,9,90.361445783124,NA,"role_play","MARISHA",1,0,0,0
+"1418","Attack_Conclave",4,50,1418,"second_half_rp","MARISHA","protection from energy is a 3rd-level spell.",7966.655,7969.556,2.90099999999984,9,186.142709410558,NA,"role_play","MARISHA",1,0,0,0
 "1419","Attack_Conclave",4,50,1419,"second_half_rp","MATT","i don't know what that was.",7972.631,7974.415,1.78399999999965,8,269.058295964178,NA,"role_play","MATT",0,0,0,1
 "1420","Attack_Conclave",4,50,1420,"second_half_rp","TALIESIN","matt mercer, white courtesy phone. matt mercer, white courtesy phone.",7974.415,7977.572,3.15700000000015,11,209.059233449467,NA,"role_play","TALIESIN",1,0,0,0
 "1421","Attack_Conclave",4,50,1421,"second_half_rp","MATT","now reaching housewares, spell scrolls.",7977.572,7980.182,2.60999999999967,6,137.931034482776,NA,"role_play","MATT",0,0,0,1
@@ -1464,18 +1464,18 @@
 "1463","Attack_Conclave",4,50,1463,"second_half_rp","ASHLEY","bye, scanlan.",8122.698,8126.077,3.37899999999991,3,53.2701982835173,NA,"role_play","ASHLEY",1,0,0,0
 "1464","Attack_Conclave",4,50,1464,"second_half_rp","SAM","bye.",8126.077,8127.191,1.11399999999958,2,107.719928186755,NA,"role_play","SAM",1,0,0,0
 "1465","Attack_Conclave",4,50,1465,"second_half_rp","LIAM","secrets.",8127.191,8128.918,1.72699999999986,2,69.4846554719222,NA,"role_play","LIAM",1,0,0,0
-"1466","Attack_Conclave",4,50,1466,"second_half_rp","ASHLEY","i close the door, i open it, and i read it.",8128.918,8134.877,5.95900000000074,12,120.825641886207,NA,"role_play","ASHLEY",1,0,0,0
+"1466","Attack_Conclave",4,50,1466,"second_half_rp","ASHLEY","i close the door, i open it, and i read it.",8128.918,8130.603,1.6850000000004,12,427.299703263993,NA,"role_play","ASHLEY",1,0,0,0
 "1467","Attack_Conclave",4,50,1467,"second_half_rp","TALIESIN","i'm so proud of you. i'm so proud of you!",8134.877,8138.223,3.34599999999955,13,233.114166168591,NA,"role_play","TALIESIN",1,0,0,0
 "1468","Attack_Conclave",4,50,1468,"second_half_rp","TRAVIS","nobody look, nobody look. don't you look! don't you look. don't you look.",8138.223,8144.067,5.84400000000005,17,174.53798767967,NA,"role_play","TRAVIS",1,0,0,0
 "1469","Attack_Conclave",4,50,1469,"second_half_rp","LAURA","she's full-on reading it!",8144.067,8151.633,7.5659999999998,7,55.5114988104693,NA,"role_play","LAURA",1,0,0,0
-"1470","Attack_Conclave",4,50,1470,"second_half_rp","SAM","you know what? i love her anyway.",8151.633,8157.743,6.11000000000058,8,78.5597381341987,NA,"role_play","SAM",1,0,0,0
+"1470","Attack_Conclave",4,50,1470,"second_half_rp","SAM","you know what? i love her anyway.",8151.633,8153.521,1.88799999999992,8,254.237288135604,NA,"role_play","SAM",1,0,0,0
 "1471","Attack_Conclave",4,50,1471,"second_half_rp","ASHLEY","this is a bit of tome, so i think i should wait to read this, but a part of me oh.",8157.743,8165.064,7.32099999999991,22,180.303237262671,NA,"role_play","ASHLEY",1,0,0,0
 "1472","Attack_Conclave",4,50,1472,"second_half_rp","MATT","okay.",8165.064,8167.206,2.14199999999983,2,56.02240896359,NA,"role_play","MATT",0,0,0,1
 "1473","Attack_Conclave",4,50,1473,"second_half_rp","TALIESIN","you clever fucker. good god.",8167.206,8169.035,1.82899999999972,6,196.828868234037,NA,"role_play","TALIESIN",1,0,0,0
 "1474","Attack_Conclave",4,50,1474,"second_half_rp","ASHLEY","oh, man.",8169.035,8175.303,6.26800000000003,3,28.7172941927248,NA,"role_play","ASHLEY",1,0,0,0
 "1475","Attack_Conclave",4,50,1475,"second_half_rp","LAURA","oh, i want to know what it says so fucking bad!",8175.303,8179.657,4.35400000000027,12,165.365181442342,NA,"role_play","LAURA",1,0,0,0
 "1476","Attack_Conclave",4,50,1476,"second_half_rp","TRAVIS","we got to wait for her to finish, because the night is young.",8179.657,8182.491,2.83399999999983,14,296.40084685958,NA,"role_play","TRAVIS",1,0,0,0
-"1477","Attack_Conclave",4,50,1477,"second_half_rp","SAM","it's all dick pics.",8182.491,8186.131,3.64000000000033,6,98.90109890109,NA,"role_play","SAM",1,0,0,0
+"1477","Attack_Conclave",4,50,1477,"second_half_rp","SAM","it's all dick pics.",8182.491,8184.074,1.58299999999963,6,227.416298168089,NA,"role_play","SAM",1,0,0,0
 "1478","Attack_Conclave",4,50,1478,"second_half_rp","LAURA","the cube. over and over and over again.",8186.131,8188.757,2.62599999999929,9,205.635948210261,NA,"role_play","LAURA",1,0,0,0
 "1479","Attack_Conclave",4,50,1479,"second_half_rp","MATT","in the meantime, while you're reading that, you guys are doing what?",8188.757,8191.528,2.77100000000064,14,303.139660772214,NA,"role_play","MATT",0,0,0,1
 "1480","Attack_Conclave",4,50,1480,"second_half_rp","TALIESIN","we were strategizing. we were just, we're figuring out some strategy for how to make this work.",8191.528,8195.545,4.01699999999983,19,283.793876026898,NA,"role_play","TALIESIN",1,0,0,0
@@ -1484,7 +1484,7 @@
 "1483","Attack_Conclave",4,50,1483,"second_half_rp","TALIESIN","by candlelight.",8198.605,8200.495,1.89000000000124,3,95.2380952380329,NA,"role_play","TALIESIN",1,0,0,0
 "1484","Attack_Conclave",4,50,1484,"second_half_rp","MATT","as the evening progresses, you guys rest, preparing yourselves for the next day. you guys",8200.495,8208.361,7.86599999999999,15,114.41647597254,NA,"role_play","MATT",0,0,0,1
 "1485","Attack_Conclave",4,50,1485,"second_half_rp","LAURA","we're still outside.",8208.361,8209.397,1.03600000000006,5,289.575289575273,NA,"role_play","LAURA",1,0,0,0
-"1486","Attack_Conclave",4,50,1486,"second_half_rp","MATT","you guys are woken up right as the sun begins to rise by the distant sound of.",8209.397,8222.187,12.7899999999991,18,84.4409695074339,NA,"role_play","MATT",0,0,0,1
+"1486","Attack_Conclave",4,50,1486,"second_half_rp","MATT","you guys are woken up right as the sun begins to rise by the distant sound of .",8209.397,8222.187,12.7899999999991,18,84.4409695074339,NA,"role_play","MATT",0,0,0,1
 "1487","Attack_Conclave",4,50,1487,"second_half_rp","TRAVIS","oh, fuck.",8222.187,8223.501,1.31400000000031,3,136.986301369831,NA,"role_play","TRAVIS",1,0,0,0
 "1488","Attack_Conclave",4,50,1488,"second_half_rp","MATT","you shake vax awake and you guys look up from the grass and you can see, coming down from the very very top of gatshadow, you see the wings unfurled and with each swoosh down, the gargantuan black dragon streaks down, dive bombs just past the bramblewood, and scoots over the entire city of westruun, making its presence known. as it just roars out, circling over the city twice, three times, as you see lights going on in the city. as it goes over three times, seemingly content that it's made its presence known and asserted its vocal dominance over the vicinity by instilling some early-morning fear in the denizens of this town, the dragon then lands a little bit northwest of the city itself. it's hard to make out exactly what's happening at this distance, but you see it, at its size, circle around an area, scrape into the dirt a bit, take a moment, makes a couple of grumbled. takes one of its claws and scoops up a large cart that has apparently a few sacks inside of it. and its wings. it begins taking up in the air again and you can see now there are three goliaths that are walking away from the point. as the dragon turns and scoops one up in its other claw. and the two others turn around and watch it as it takes off towards the top of the mountain, unable to do anything.",8223.501,8336.061,112.559999999999,248,132.196162046909,NA,"role_play","MATT",0,0,0,1
 "1489","Attack_Conclave",4,50,1489,"second_half_rp","LAURA","that's one less fuck we have to worry about.",8336.061,8341.106,5.04500000000007,11,130.822596630325,NA,"role_play","LAURA",1,0,0,0
@@ -1533,7 +1533,7 @@
 "1532","Attack_Conclave",4,50,1532,"second_half_rp","TALIESIN","he'll play candy crush.",8536.2,8537.388,1.1880000000001,6,303.030303030277,NA,"role_play","TALIESIN",1,0,0,0
 "1533","Attack_Conclave",4,50,1533,"second_half_rp","LAURA","something to recover a little bit of time.",8537.388,8539.177,1.78899999999885,9,301.844605925292,NA,"role_play","LAURA",1,0,0,0
 "1534","Attack_Conclave",4,50,1534,"second_half_rp","SAM","want me to guard the door?",8539.177,8540.74,1.5630000000001,7,268.714011516297,NA,"role_play","SAM",1,0,0,0
-"1535","Attack_Conclave",4,50,1535,"second_half_rp","TRAVIS","i don't think i need it this time.",8540.74,8544.131,3.39099999999962,10,176.938956060179,NA,"role_play","TRAVIS",1,0,0,0
+"1535","Attack_Conclave",4,50,1535,"second_half_rp","TRAVIS","i don't think i need it this time.",8540.74,8542.411,1.67100000000028,10,359.066427288989,NA,"role_play","TRAVIS",1,0,0,0
 "1536","Attack_Conclave",4,50,1536,"second_half_rp","LAURA","i'll be right back.",8544.131,8549.016,4.88500000000022,6,73.6949846468749,NA,"role_play","LAURA",1,0,0,0
 "1537","Attack_Conclave",4,50,1537,"second_half_rp","TRAVIS","what, you really got to go?",8549.016,8550.299,1.28300000000127,7,327.357755260784,NA,"role_play","TRAVIS",1,0,0,0
 "1538","Attack_Conclave",4,50,1538,"second_half_rp","LAURA","oh no. blocked.",8550.299,8551.553,1.253999999999,4,191.387559808766,NA,"role_play","LAURA",1,0,0,0
@@ -1563,7 +1563,7 @@
 "1562","Attack_Conclave",4,50,1562,"second_half_rp","SAM","i was going to make myself look like you, but a dead version of you. a zombified grog.",8648.551,8656.186,7.63500000000022,19,149.312377210212,NA,"role_play","SAM",1,0,0,0
 "1563","Attack_Conclave",4,50,1563,"second_half_rp","TRAVIS","i'm all right with that. can i hear your best undead grog?",8656.186,8661.32,5.13400000000001,14,163.61511492014,NA,"role_play","TRAVIS",1,0,0,0
 "1564","Attack_Conclave",4,50,1564,"second_half_rp","SAM","right. so. right so i'm. ugh, i'm so dead.",8661.32,8670.131,8.81099999999969,12,81.7160367722194,NA,"role_play","SAM",1,0,0,0
-"1565","Attack_Conclave",4,50,1565,"second_half_rp","LIAM","maybe you don't say anything.",8670.131,8673.501,3.3700000000008,7,124.629080118665,NA,"role_play","LIAM",1,0,0,0
+"1565","Attack_Conclave",4,50,1565,"second_half_rp","LIAM","maybe you don't say anything.",8670.131,8672.083,1.95200000000114,7,215.163934426104,NA,"role_play","LIAM",1,0,0,0
 "1566","Attack_Conclave",4,50,1566,"second_half_rp","SAM","no, no, i just have to warm up, ah, mimimimi, right, right, rrrr. cor, all right then, i've been dead for about five, six years.",8673.501,8683.288,9.78700000000026,27,165.525697353628,NA,"role_play","SAM",1,0,0,0
 "1567","Attack_Conclave",4,50,1567,"second_half_rp","TRAVIS","it's amazing, it's like a verbal mirror. so, if we do the trench, though, we have to percy",8683.288,8691.733,8.44499999999971,20,142.095914742456,NA,"role_play","TRAVIS",1,0,0,0
 "1568","Attack_Conclave",4,50,1568,"second_half_rp","MARISHA","i could theoretically dig the trench possibly without anybody noticing, like tunnel underground and just tunnel it out and maybe even, you know. leave like a thin layer of dirt, possibly? i dunno. maybe.",8691.733,8707.423,15.6900000000005,35,133.843212237089,NA,"role_play","MARISHA",1,0,0,0
@@ -1590,7 +1590,7 @@
 "1589","Attack_Conclave",4,50,1589,"second_half_rp","MATT","there are multiple entrances to the city. the few that you've seen are guarded with outward-facing defensive spikes and pikes that are set up to prevent any sort of like cavalry entry or just as a warning.",8771.083,8789.727,18.6440000000002,40,128.727740828147,NA,"role_play","MATT",0,0,0,1
 "1590","Attack_Conclave",4,50,1590,"second_half_rp","LIAM","i have a question.",8789.727,8792.355,2.62799999999879,5,114.155251141605,NA,"role_play","LIAM",1,0,0,0
 "1591","Attack_Conclave",4,50,1591,"second_half_rp","MATT","yes.",8792.355,8793.574,1.21900000000096,2,98.4413453649758,NA,"role_play","MATT",0,0,0,1
-"1592","Attack_Conclave",4,50,1592,"second_half_rp","LIAM","for grog.",8793.574,8797.435,3.86099999999897,3,46.6200466200591,NA,"role_play","LIAM",1,0,0,0
+"1592","Attack_Conclave",4,50,1592,"second_half_rp","LIAM","for grog.",8793.574,8795.366,1.79199999999946,3,100.446428571459,NA,"role_play","LIAM",1,0,0,0
 "1593","Attack_Conclave",4,50,1593,"second_half_rp","SAM","what the hell's going on there tonight?",8797.435,8800.437,3.00200000000041,9,179.880079946678,NA,"role_play","SAM",1,0,0,0
 "1594","Attack_Conclave",4,50,1594,"second_half_rp","LIAM","we fought your father and he was dead. what's the last thing the herd has heard of your father?",8800.437,8807.483,7.04600000000028,21,178.824865171722,NA,"role_play","LIAM",1,0,0,0
 "1595","Attack_Conclave",4,50,1595,"second_half_rp","TRAVIS","i don't know. last thing i remember, i was looking up at my father. and the rest of my herd. he made no move to save me.",8807.483,8819.067,11.5839999999989,29,150.207182320456,NA,"role_play","TRAVIS",1,0,0,0
@@ -1598,7 +1598,7 @@
 "1597","Attack_Conclave",4,50,1597,"second_half_rp","SAM","i don't know what grog's dad looks like.",8837.274,8839.808,2.53400000000147,11,260.457774269778,NA,"role_play","SAM",1,0,0,0
 "1598","Attack_Conclave",4,50,1598,"second_half_rp","LIAM","yes you do, you fought him. he was a rotting corpse in front of you trying to kill you.",8839.808,8843.761,3.95299999999952,20,303.566911206715,NA,"role_play","LIAM",1,0,0,0
 "1599","Attack_Conclave",4,50,1599,"second_half_rp","TRAVIS","way back in the beginning.",8843.761,8845.536,1.77499999999964,6,202.816901408492,NA,"role_play","TRAVIS",1,0,0,0
-"1600","Attack_Conclave",4,50,1600,"second_half_rp","SAM","of course. how could i forget?",8845.536,8849.048,3.51200000000063,7,119.589977220935,NA,"role_play","SAM",1,0,0,0
+"1600","Attack_Conclave",4,50,1600,"second_half_rp","SAM","of course. how could i forget?",8845.536,8847.112,1.57599999999911,7,266.497461929084,NA,"role_play","SAM",1,0,0,0
 "1601","Attack_Conclave",4,50,1601,"second_half_rp","LIAM","make yourself look like that, i'm not exactly sure what that would do.",8849.048,8852.226,3.17799999999988,15,283.196979232232,NA,"role_play","LIAM",1,0,0,0
 "1602","Attack_Conclave",4,50,1602,"second_half_rp","LIAM AND TALIESIN","it could be interesting.",8852.226,8855.237,3.0109999999986,5,99.6346728662036,NA,"role_play","LIAM AND TALIESIN",1,0,0,0
 "1603","Attack_Conclave",4,50,1603,"second_half_rp","MARISHA","i mean, it could also further instill grog being powerful and undead.",8855.237,8860.301,5.06400000000031,13,154.028436018948,NA,"role_play","MARISHA",1,0,0,0
@@ -1612,7 +1612,7 @@
 "1611","Attack_Conclave",4,50,1611,"second_half_rp","LIAM","larry?",8888.583,8891.725,3.14199999999983,2,38.1922342457055,NA,"role_play","LIAM",1,0,0,0
 "1612","Attack_Conclave",4,50,1612,"second_half_rp","TALIESIN","curly.",8891.725,8893.577,1.85199999999895,2,64.7948164147235,NA,"role_play","TALIESIN",1,0,0,0
 "1613","Attack_Conclave",4,50,1613,"second_half_rp","MARISHA","moe.",8893.577,8894.834,1.25700000000143,2,95.4653937946411,NA,"role_play","MARISHA",1,0,0,0
-"1614","Attack_Conclave",4,50,1614,"second_half_rp","MATT","do you remember? it was stonejaw. so stonejaw strongjaw.",8894.834,8902.726,7.89199999999983,10,76.0263558033468,NA,"role_play","MATT",0,0,0,1
+"1614","Attack_Conclave",4,50,1614,"second_half_rp","MATT","do you remember? it was stonejaw. so stonejaw strongjaw.",8894.834,8899.759,4.92499999999927,10,121.827411167531,NA,"role_play","MATT",0,0,0,1
 "1615","Attack_Conclave",4,50,1615,"second_half_rp","LIAM","wow.",8902.726,8903.903,1.17699999999968,2,101.954120645737,NA,"role_play","LIAM",1,0,0,0
 "1616","Attack_Conclave",4,50,1616,"second_half_rp","SAM","that's a terrible name!",8903.903,8905.327,1.42399999999907,6,252.80898876421,NA,"role_play","SAM",1,0,0,0
 "1617","Attack_Conclave",4,50,1617,"second_half_rp","TALIESIN","that's embarrassing.",8905.327,8907.077,1.75,4,137.142857142857,NA,"role_play","TALIESIN",1,0,0,0
@@ -1642,7 +1642,7 @@
 "1641","Attack_Conclave",4,50,1641,"second_half_rp","LAURA","we're going to kill kevdak. he's going to kill kevdak.",8975.059,8977.06,2.0010000000002,13,389.805097451235,NA,"role_play","LAURA",1,0,0,0
 "1642","Attack_Conclave",4,50,1642,"second_half_rp","SAM","all right. i'm ready to do this except for a few holes in our plan.",8977.06,8979.808,2.74800000000141,17,371.179039301119,NA,"role_play","SAM",1,0,0,0
 "1643","Attack_Conclave",4,50,1643,"second_half_rp","TRAVIS","yeah, go ahead.",8979.808,8980.789,0.980999999999767,4,244.648318042871,NA,"role_play","TRAVIS",1,0,0,0
-"1644","Attack_Conclave",4,50,1644,"second_half_rp","SAM","i don't run very fast.",8980.789,8984.47,3.68099999999868,7,114.099429502894,NA,"role_play","SAM",1,0,0,0
+"1644","Attack_Conclave",4,50,1644,"second_half_rp","SAM","i don't run very fast.",8980.789,8982.408,1.61899999999878,7,259.419394688275,NA,"role_play","SAM",1,0,0,0
 "1645","Attack_Conclave",4,50,1645,"second_half_rp","SAM","maybe if i polymorph as a goliath, i would have their speed, right?",8984.47,8990.86,6.39000000000124,14,131.455399061007,NA,"role_play","SAM",1,0,0,0
 "1646","Attack_Conclave",4,50,1646,"second_half_rp","ASHLEY","what if you borrow my boots that levitate? then you can",8990.86,8996.407,5.54699999999866,11,118.983234180667,NA,"role_play","ASHLEY",1,0,0,0
 "1647","Attack_Conclave",4,50,1647,"second_half_rp","SAM","i can't move myself, though, i couldn't just, i would be the dread pirate roberts.",8996.407,9001.254,4.84700000000157,18,222.818238085341,NA,"role_play","SAM",1,0,0,0
@@ -1901,7 +1901,7 @@
 "1900","Attack_Conclave",4,50,1900,"second_half_rp","LAURA","look, your god is here to help us.",10350.649,10353.998,3.34900000000016,9,161.242161839347,NA,"role_play","LAURA",1,0,0,0
 "1901","Attack_Conclave",4,50,1901,"second_half_rp","LAURA","she sounds like shit.",10355.222,10357.291,2.06899999999951,5,144.997583373645,NA,"role_play","LAURA",1,0,0,0
 "1902","Attack_Conclave",4,50,1902,"second_half_rp","MATT","stop it.",10361.585,10362.778,1.19300000000112,3,150.880134115533,NA,"role_play","MATT",0,0,0,1
-"1903","Attack_Conclave",4,50,1903,"second_half_rp","TALIESIN","sorry.",10362.778,10365.541,2.76299999999901,2,43.4310532030557,NA,"role_play","TALIESIN",1,0,0,0
+"1903","Attack_Conclave",4,50,1903,"second_half_rp","TALIESIN","sorry.",10362.778,10363.812,1.03399999999965,2,116.054158607389,NA,"role_play","TALIESIN",1,0,0,0
 "1904","Attack_Conclave",4,50,1904,"second_half_rp","TALIESIN","it's really pleasing.",10365.541,10366.583,1.04200000000128,5,287.907869481412,NA,"role_play","TALIESIN",1,0,0,0
 "1905","Attack_Conclave",4,50,1905,"second_half_rp","MATT","all right. you guys are perched on the edges of that. scanlan, what're you doing?",10366.583,10369.105,2.52199999999903,17,404.440919904994,NA,"role_play","MATT",0,0,0,1
 "1906","Attack_Conclave",4,50,1906,"second_half_rp","SAM","so much. so much.",10369.105,10377.064,7.95900000000074,5,37.6931775348627,NA,"role_play","SAM",1,0,0,0
@@ -1938,7 +1938,7 @@
 "1937","Attack_Conclave",4,50,1937,"second_half_rp","MATT","yeah, you can cast other instantaneous spells, but as soon as you cast a spell you become visible.",10497.241,10502.23,4.98899999999958,19,228.502705953116,NA,"role_play","MATT",0,0,0,1
 "1938","Attack_Conclave",4,50,1938,"second_half_rp","SAM","what?",10502.23,10503.254,1.02400000000125,2,117.187499999857,NA,"role_play","SAM",1,0,0,0
 "1939","Attack_Conclave",4,50,1939,"second_half_rp","MATT","high-level invisibility, improved invisibility is the one that remains.",10503.254,10505.801,2.54699999999866,11,259.128386337003,NA,"role_play","MATT",0,0,0,1
-"1940","Attack_Conclave",4,50,1940,"second_half_rp","SAM","oh well, i'm fucked, then.",10505.801,10508.653,2.85200000000077,7,147.26507713881,NA,"role_play","SAM",1,0,0,0
+"1940","Attack_Conclave",4,50,1940,"second_half_rp","SAM","oh well, i'm fucked, then.",10505.801,10507.038,1.23700000000099,7,339.531123686066,NA,"role_play","SAM",1,0,0,0
 "1941","Attack_Conclave",4,50,1941,"second_half_rp","TALIESIN","yes!",10508.653,10509.794,1.14099999999962,2,105.17090271695,NA,"role_play","TALIESIN",1,0,0,0
 "1942","Attack_Conclave",4,50,1942,"second_half_rp","MATT","i'll say, do you have greater invisibility?",10509.794,10513.342,3.54800000000068,9,152.198421645968,NA,"role_play","MATT",0,0,0,1
 "1943","Attack_Conclave",4,50,1943,"second_half_rp","SAM","no. i can cast it at a greater level, but no, i don't have greater invisibility.",10513.342,10517.686,4.34399999999914,18,248.618784530436,NA,"role_play","SAM",1,0,0,0
@@ -1957,7 +1957,7 @@
 "1956","Attack_Conclave",4,50,1956,"second_half_rp","TALIESIN","no! no!",10568.725,10570.869,2.14400000000023,3,83.9552238805879,NA,"role_play","TALIESIN",1,0,0,0
 "1957","Attack_Conclave",4,50,1957,"second_half_rp","TRAVIS","don't say a thing, don't say shit.",10570.869,10572.727,1.85800000000017,10,322.927879440228,NA,"role_play","TRAVIS",1,0,0,0
 "1958","Attack_Conclave",4,50,1958,"second_half_rp","LAURA","okay, yeah yeah, it's all you.",10572.727,10574.936,2.20899999999892,8,217.29289271174,NA,"role_play","LAURA",1,0,0,0
-"1959","Attack_Conclave",4,50,1959,"second_half_rp","SAM","at least i know that pike didn't read the letter, though, so i'm okay.",10574.936,10585.178,10.2420000000002,17,99.5899238429976,NA,"role_play","SAM",1,0,0,0
+"1959","Attack_Conclave",4,50,1959,"second_half_rp","SAM","at least i know that pike didn't read the letter, though, so i'm okay.",10574.936,10582.584,7.64800000000105,17,133.368200836802,NA,"role_play","SAM",1,0,0,0
 "1960","Attack_Conclave",4,50,1960,"second_half_rp","TALIESIN","at the end of this fight, can i have your tie? i mean, you're not going to need it anymore.",10585.178,10589.559,4.3809999999994,22,301.301072814467,NA,"role_play","TALIESIN",1,0,0,0
 "1961","Attack_Conclave",4,50,1961,"second_half_rp","TRAVIS","come on, what are you doing?",10589.559,10591.073,1.51400000000103,7,277.410832232307,NA,"role_play","TRAVIS",1,0,0,0
 "1962","Attack_Conclave",4,50,1962,"second_half_rp","SAM","okay. i'll dimension door into the house where the guy's eyeballs were.",10591.073,10600.616,9.54299999999967,15,94.3099654196827,NA,"role_play","SAM",1,0,0,0
@@ -1985,8 +1985,8 @@
 "1984","Attack_Conclave",4,50,1984,"second_half_rp","SAM","i'm going to go again, dimension door into the temple.",10686.718,10689.437,2.71899999999914,12,264.803236484085,NA,"role_play","SAM",1,0,0,0
 "1985","Attack_Conclave",4,50,1985,"second_half_rp","MATT","okay, you do see the temple. you're on the interior of it now, and looking inside you know a portion of it is collapsed, there's an open view on the second level where a whole corner of the secondary floor and first floor have fallen in, big pile of rubble, you can see the sky. there as you appear, you look around, you hear a series of gasps as you can now see huddled inside of this temple roughly 30 or so people, varying ages, varying racial backgrounds. these are some of the survivors in westruun that are keeping in here, whether it be hidden, or at least this is where they live now. they look in various states of personal brutality that's been put against them, some of them are wounded, a few of them draw weapons immediately, and turning around, you see hunkered down inside a half-orc that rushes around, his hat half-kilter, his coat up with his shoulder, mantle part of his collar pressed upward, spins around, puts his blade out. ""you've got to be kidding me. scanlan shorthalt.""",10689.437,10759.84,70.4030000000002,189,161.072681561865,NA,"role_play","MATT",0,0,0,1
 "1986","Attack_Conclave",4,50,1986,"second_half_rp","SAM","that's me.",10759.84,10761.278,1.4380000000001,4,166.898470097346,NA,"role_play","SAM",1,0,0,0
-"1987","Attack_Conclave",4,50,1987,"second_half_rp","MATT","as dr. dranzel stands there before you.",10761.278,10765.621,4.34299999999894,8,110.522680175021,NA,"role_play","MATT",0,0,0,1
-"1988","Attack_Conclave",4,50,1988,"second_half_rp","MATT","they themselves look a little worse for wear, and he looks over his shoulder and says, ""well shit, kaylie, weren't you just talking about him yesterday?"" as your daughter stands behind him, holding two of the children, trying to protect them as you appeared. she looks up at you and goes, ""oh, you've got to be kidding me."" and that's where we'll end tonight's game.",10765.621,10791.926,26.3050000000003,71,161.946398023188,NA,"role_play","MATT",0,0,0,1
+"1987","Attack_Conclave",4,50,1987,"second_half_rp","MATT","as dr. dranzel stands there before you.",10761.278,10762.861,1.58300000000054,8,303.221730890611,NA,"role_play","MATT",0,0,0,1
+"1988","Attack_Conclave",4,50,1988,"second_half_rp","MATT","they themselves look a little worse for wear, and he looks over his shoulder and says, ""well shit, kaylie, weren't you just talking about him yesterday?"" as your daughter stands behind him, holding two of the children, trying to protect them as you appeared. she looks up at you and goes, ""oh, you've got to be kidding me."" and that's where we'll end tonight's game.",10765.621,10789.522,23.9010000000017,71,178.235220283658,NA,"role_play","MATT",0,0,0,1
 "1989","Attack_Conclave",4,50,1989,"epilog","TRAVIS","perfect! perfect, perfect.",10791.926,10796.761,4.83500000000095,4,49.6380558428031,NA,NA,"TRAVIS",1,0,0,0
 "1990","Attack_Conclave",4,50,1990,"epilog","TALIESIN","put that on like a japanese businessman.",10796.761,10799.452,2.69099999999889,8,178.372352285469,NA,NA,"TALIESIN",1,0,0,0
 "1991","Attack_Conclave",4,50,1991,"epilog","LIAM","by the way, this one, under her breath, goes, ""oh i don't like him, he stole from me.""",10799.452,10811.428,11.9760000000006,20,100.200400801598,NA,NA,"LIAM",1,0,0,0
