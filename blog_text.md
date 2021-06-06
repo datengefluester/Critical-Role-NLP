@@ -420,7 +420,7 @@ without them when it comes to sentiment.
 In contrast, the time spent in combat does seem to negatively effect the
 sentiment of an episode. Using a OLS estimation, while holding the
 length of episodes constant, we can estimate the effect. We find that
-one hour spent in combat is associated with an increase 27.21 in the
+one hour spent in combat is associated with a decrease 27.21 in the
 sentiment score of the episode. Given that an average episode has a
 sentiment score of 176 and an average combat lasts for 1.4 hours this is
 a significant effect. Yet, as success in Dungeons and Dragons is

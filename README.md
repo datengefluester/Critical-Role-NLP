@@ -1,52 +1,46 @@
 Critical Role Subtitles
 ================
 
-# To Do:
+    ## .
+    ## ├── data
+    ## │   ├── clean_data
+    ## │   │   ├── clean
+    ## │   │   ├── dice_rolls
+    ## │   │   ├── individual_episodes
+    ## │   │   └── rest
+    ## │   ├── data_for_graphs
+    ## │   └── raw_data
+    ## │       ├── dice_rolls
+    ## │       ├── raw_csv
+    ## │       ├── rest
+    ## │       ├── srt_files
+    ## │       └── time_stamps
+    ## ├── output
+    ## │   ├── images
+    ## │   └── markdown_figs
+    ## └── scripts
 
--   Data cleaning: ADD splitting together \[0,1\] with
-    <https://docs.google.com/spreadsheets/d/1Zx1N0cQcd1fJadUwar7f2hJ2p61qoX7lctsVaIEa5uM/edit#gid=744793917>
--   Initial Analysis: PENDING
--   Model Fitting:
+## Blog Texts
 
-## Data Cleaning:
+-   blog\_text.Rmd (or the markdown/html files)
+
+## Script for Data Cleaning:
 
 ``` r
-# run data cleaning script
+# run script
 source("./scripts/data_cleaning.R", local = knitr::knit_global())
 ```
 
-## Descriptive Analysis:
+## Script for Creating the Data for the Visualizations
 
 ``` r
-# run data cleaning script
-source("./scripts/descriptive_analysis.R", local = knitr::knit_global())
+# run script
+source("./scripts/data_descriptive_analysis.R", local = knitr::knit_global())
 ```
 
-## Explain Models
+## Script for Machine Learning (work in progress):
 
--   LIME package
--   CARET
-
-## Packages to look at:
-
--   parsnip
-
--   here
-
--   oxgen2
-
--   lintr
-
--   styler
-
--   speeling
-
--   usethis
-
--   Rstarters
-
--   project template
-
--   repv
-
--   <https://docs.h2o.ai/h2o/latest-stable/h2o-docs/automl.html>
+``` r
+# run script
+source("./scripts/machine_learning.R", local = knitr::knit_global())
+```

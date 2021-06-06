@@ -17,40 +17,42 @@ knitr::opts_chunk$set(
 )
 
 # packages
-library(dplyr)      # for data preparation
-library(tidyr)      # for data preparation
-library(stringr)    # for data preparation
-library(tidytext)   # for rearrange facet + bar charts
-library(ggplot2)    # for graphs
-library(ggpubr)     # for graphs next to each other
-library(ggraph)     # for the network graph
-library(igraph)     # for the network graph
+library(dplyr) # for data preparation
+library(tidyr) # for data preparation
+library(stringr) # for data preparation
+library(tidytext) # for rearrange facet + bar charts
+library(ggplot2) # for graphs
+library(ggpubr) # for graphs next to each other
+library(ggraph) # for the network graph
+library(igraph) # for the network graph
 library(kableExtra) # for table
 
 # graph themes
 source("./scripts/themes.R")
-
 ```
 
 ```{r data, echo = FALSE}
 # read in every data frame from the 'data_for_graphs' folder
 path <- "./data/data_for_graphs/"
-files <- list.files(path=path, pattern="*.csv")
-for(file in files)
+files <- list.files(path = path, pattern = "*.csv")
+for (file in files)
 {
-perpos <- which(strsplit(file, "")[[1]]==".")
-assign(
-gsub(" ","",substr(file, 1, perpos-1)), 
-read.csv(paste(path,file,sep="")))
+  perpos <- which(strsplit(file, "")[[1]] == ".")
+  assign(
+    gsub(" ", "", substr(file, 1, perpos - 1)),
+    read.csv(paste(path, file, sep = ""))
+  )
 }
 ```
 
 ```{r calculations, echo = FALSE}
 
-miss_spells <- miss_spells %>% 
-  mutate(miss_spelling = str_replace(miss_spelling, "amount miss spellings", "Total Miss Spellings"),
-        miss_spelling = str_replace(miss_spelling, "types miss spellings", "Different Forms Miss Spellings")) %>% 
-  mutate(miss_spelling = factor(miss_spelling, levels = c("Total Miss Spellings","Different Forms Miss Spellings")))
+miss_spells <- miss_spells %>%
+  mutate(
+    miss_spelling = str_replace(miss_spelling, "amount miss spellings", "Total Miss Spellings"),
+    miss_spelling = str_replace(miss_spelling, "types miss spellings", "Different Forms Miss Spellings")
+  ) %>%
+  mutate(miss_spelling = factor(miss_spelling, levels = c("Total Miss Spellings", "Different Forms Miss Spellings")))
 
 
 # -------- keep only the percentages and make into long format for easier plotting
@@ -100,18 +102,18 @@ seating_order$p_value_same_thought <- cor.test(seating_order$Distance, seating_o
 
 
 # -------- change into wide format for correlates sentiment episodes: Ashley, Guests, Combat duration
-correlates_sentiment_episode <- sentiment_by_episode %>% 
-   select(episode,sum_sentiment,Ashley,Guests,combat_time) %>% 
-   pivot_longer(
-       cols = c("Ashley", "Guests", "combat_time"),
+correlates_sentiment_episode <- sentiment_by_episode %>%
+  select(episode, sum_sentiment, Ashley, Guests, combat_time) %>%
+  pivot_longer(
+    cols = c("Ashley", "Guests", "combat_time"),
     names_to = "variable",
     values_to = "value",
- ) %>% 
-  rename(Sentiment = sum_sentiment) %>% 
-  mutate(variable= str_replace(variable,"combat_time","Combat Time in Hours*")) %>% 
-  mutate(variable= str_replace(variable,"Ashley","Ashley\u207A")) %>% 
-   mutate(variable= str_replace(variable,"Guests","Guests\u207A")) %>% 
-   mutate(variable = factor(variable, levels=c("Ashley\u207A", "Guests\u207A", "Combat Time in Hours*")))  
+  ) %>%
+  rename(Sentiment = sum_sentiment) %>%
+  mutate(variable = str_replace(variable, "combat_time", "Combat Time in Hours*")) %>%
+  mutate(variable = str_replace(variable, "Ashley", "Ashley\u207A")) %>%
+  mutate(variable = str_replace(variable, "Guests", "Guests\u207A")) %>%
+  mutate(variable = factor(variable, levels = c("Ashley\u207A", "Guests\u207A", "Combat Time in Hours*")))
 
 
 
@@ -135,7 +137,7 @@ for (i in 5:13) {
 coefficients <- data.frame(names, estimates, pvalues) %>%
   mutate(pvalues = round(pvalues, digits = 3))
 # clean up
-coefficients <- coefficients %>% filter(names!="")
+coefficients <- coefficients %>% filter(names != "")
 rm(names, estimates, pvalues, tmp_df)
 
 # combat time regression
@@ -149,11 +151,11 @@ coefficients <- coefficients %>%
 coefficients <- coefficients %>% mutate(pvalues = round(pvalues, digits = 3))
 
 # mean combat time (don't ask why this does not work in one pipe)
-tmp <- sentiment_by_episode %>% filter(combat_time > 0 ) 
+tmp <- sentiment_by_episode %>% filter(combat_time > 0)
 tmp_num <- mean(tmp$combat_time)
 sentiment_by_episode$mean_time_combat <- tmp_num
-rm(tmp,tmp_num)
-  
+rm(tmp, tmp_num)
+
 
 # -------- change into wide format for correlates sentiment episodes: dice rolls
 roles_correlates_sentiment_episode <- sentiment_by_episode %>%
@@ -165,8 +167,8 @@ roles_correlates_sentiment_episode <- sentiment_by_episode %>%
     measure = str_replace(measure, "dm_20", "Matt Natural 20s"),
     measure = str_replace(measure, "face_palms", "Matt Face Palms"),
     measure = str_replace(measure, "mean_natural_rolls", "Players Mean Rolls")
-  ) %>% 
-  mutate(measure = factor(measure, levels=c("Players Mean Rolls","Players Natural 20s","Players Natural 1s","Matt Face Palms","Matt Natural 20s","Matt Natural 1s"))) 
+  ) %>%
+  mutate(measure = factor(measure, levels = c("Players Mean Rolls", "Players Natural 20s", "Players Natural 1s", "Matt Face Palms", "Matt Natural 20s", "Matt Natural 1s")))
 ```
 
 # Critical Graphs: Shenanigans with Critical Role Season 1 subtitles
@@ -196,16 +198,16 @@ Out of the cast, Marisha got misspelled the most. These include, for example, 'M
 ```{r miss_spellings, echo = FALSE}
 miss_spells %>%
   ggplot(aes(x = reorder(Actor, count), y = count, fill = miss_spelling)) +
- geom_bar(stat = "identity", fill = "#009E73") +
+  geom_bar(stat = "identity", fill = "#009E73") +
   coord_flip() +
   scale_y_continuous(expand = c(0, 0)) +
-  facet_wrap(~miss_spelling, scales='free') +
+  facet_wrap(~miss_spelling, scales = "free") +
   scale_x_reordered() +
   labs(
     title = "Miss Spellings per Actor",
     caption = "Source: Critical-Role-Subtitles"
   ) +
-   bar_chart_theme() +
+  bar_chart_theme() +
   theme(
     strip.background = element_rect(fill = "#F0F0F0"),
     panel.grid.major.x = element_line(size = rel(0.4), color = "#656565"),
@@ -213,7 +215,7 @@ miss_spells %>%
     axis.text.x = element_text(color = "black", vjust = 5, size = rel(0.5), alpha(2)),
     axis.text.y = element_text(hjust = 1, color = "black", size = rel(0.75), margin = margin(r = -2)),
     strip.text = element_text(size = 5, face = "bold")
-    )
+  )
 # save
 ggsave("./output/images/miss_spells.jpg", width = 4, height = 3)
 ```
@@ -249,19 +251,21 @@ Now let's look at the amount of time the actors speak. We can do so in three dif
 
 ```{r time_vs_words, echo = FALSE}
 actor_words_time_percent %>%
-  mutate(variable = factor(variable,levels=c("Time","Words","Turns")),
-         actor_guest=reorder_within(actor_guest,-percent, variable)) %>% 
+  mutate(
+    variable = factor(variable, levels = c("Time", "Words", "Turns")),
+    actor_guest = reorder_within(actor_guest, -percent, variable)
+  ) %>%
   ggplot(aes(x = reorder(as.factor(actor_guest), percent), y = percent, fill = variable)) +
   geom_bar(stat = "identity", fill = "#009E73") +
   coord_flip() +
   scale_y_continuous(expand = c(0, 0)) +
-  facet_wrap(~variable, scales='free') +
+  facet_wrap(~variable, scales = "free") +
   scale_x_reordered() +
   labs(
     title = "Words, Turns and Time per Actor",
     subtitle = "In percent of the respective total.",
     caption = "Source: Critical-Role-Subtitles, CritStats"
-  )  + 
+  ) +
   bar_chart_theme() +
   theme(
     strip.background = element_rect(fill = "#F0F0F0"),
@@ -270,7 +274,7 @@ actor_words_time_percent %>%
     axis.text.x = element_text(color = "black", vjust = 5, size = rel(0.5), alpha(2)),
     axis.text.y = element_text(hjust = 1, color = "black", size = rel(0.75), margin = margin(r = -2)),
     strip.text = element_text(size = 5, face = "bold")
-    )
+  )
 
 # save graph
 ggsave("./output/images/time_words_per_actor.jpg", width = 4, height = 3)
@@ -288,8 +292,8 @@ talking_speed %>%
   scale_y_continuous(
     expand = c(0, 0),
     position = "right",
-    #breaks = c(0, 25, 50, 50, 75, 100, 115),
-    #limits = c(0, 115)
+    # breaks = c(0, 25, 50, 50, 75, 100, 115),
+    # limits = c(0, 115)
   ) +
   labs(
     title = "Speed of Talking by Actor",
@@ -314,14 +318,14 @@ top_words_actor %>%
   geom_bar(stat = "identity", fill = "#009E73") +
   coord_flip() +
   scale_y_continuous(expand = c(0, 0)) +
-  facet_wrap(~actor, scales='free') +
+  facet_wrap(~actor, scales = "free") +
   scale_x_reordered() +
   labs(
     title = "Top 5 Catch Words used by Cast*",
     subtitle = "Percent of total words used.",
     caption = "* as defined by log-odds,
 Source: Critical-Role-Subtitles, CritStats"
-  ) + 
+  ) +
   bar_chart_theme() +
   theme(
     strip.background = element_rect(fill = "#F0F0F0"),
@@ -330,8 +334,8 @@ Source: Critical-Role-Subtitles, CritStats"
     axis.text.x = element_text(color = "black", vjust = 5, size = rel(0.5), alpha(2)),
     axis.text.y = element_text(hjust = 1, color = "black", size = rel(0.75), margin = margin(r = -2)),
     strip.text = element_text(size = 5, face = "bold")
-    )
-    
+  )
+
 # save graph
 ggsave("./output/images/top_words_per_actor.jpg", width = 4, height = 3)
 ```
@@ -373,7 +377,7 @@ ggraph(network, layout = "circle") +
     end_cap = label_rect(node2.name)
   )) +
   geom_node_text(aes(label = name),
-                 size = 2
+    size = 2
   ) +
   scale_edge_colour_gradient(
     low = "red",
@@ -429,11 +433,11 @@ Sometimes actors may say precisely the same thing simultaneously: For example, w
 Similarly, to the interactions earlier, we can see that Laura has the most shared spoken text with her cast members, indicating that she indeed has the briefest comments from the group. Out of the cast, she and Marisha often share the same thoughts out loud. Marisha and Taliesin often share the same ideas as well. The same applies to Ashley, Laura and Travis or Sam and Taliesin respectively, though to a lesser extent. Interestingly, Matt never says the same thing at the same time with a guest.
 
 ```{r same_thought_data, echo = FALSE, error = TRUE, results='hide'}
-# combine network - as this network as connections as NULL (e.g. Matt and Guests 
+# combine network - as this network as connections as NULL (e.g. Matt and Guests
 # do not have the same thoughts) this results in an error in the markdown file
 # and makes it looks ugly. It works without it. In theory this would have been
-# needed though. 
-#same_thought_network <- graph_from_data_frame(d = same_thought_network, vertices = nodes_thought, directed = T)
+# needed though.
+# same_thought_network <- graph_from_data_frame(d = same_thought_network, vertices = nodes_thought, directed = T)
 
 # graph the network
 ggraph(same_thought_network, layout = "circle") +
@@ -445,7 +449,7 @@ ggraph(same_thought_network, layout = "circle") +
     end_cap = label_rect(node2.name)
   )) +
   geom_node_text(aes(label = name),
-                 size = 2
+    size = 2
   ) +
   scale_edge_colour_gradient(
     low = "red",
@@ -480,17 +484,17 @@ So far, we focused entirely on the cast. While this interesting, for fans, who f
 Looking at the sentiment scores from actors some differences become clear. To begin with, Liam and Travis seem to be playing the saddest characters. For Liam this hardly seems surprising as he previously stated that Dungeons and Dragons serves as an outlet for him. For Travis this may be because Grog often gets told he cannot do a lot of stuff or because he plays the character with the lowest intelligence. In contrast, the guests seem to be happier than most of the cast. This may be because they are happy to play with the group or that Matt intentionally makes episodes starring guests more light-hearted. Likewise, Ashley seems to be the good heart of the group. Yet, Orion stands out as the happiest of the cast. This is a bit surprising as he is only present in the first episodes. However, as viewers of the first season know, the story gets darker after his departure. To quantify this, let's investigate whether later arcs are indeed less happy compared to the earlier ones.
 
 ```{r sentiment_by_actor, echo = FALSE}
-sentiment_by_actor %>% 
-  filter(actor_guest != "Zac") %>% 
-  filter(actor_guest != "Brian") %>% 
-  filter(actor_guest != "Offscreen") %>% 
+sentiment_by_actor %>%
+  filter(actor_guest != "Zac") %>%
+  filter(actor_guest != "Brian") %>%
+  filter(actor_guest != "Offscreen") %>%
   ggplot(aes(x = reorder(actor_guest, mean_sentiment), y = mean_sentiment)) +
-  geom_bar(position = "dodge", stat = "identity" , fill = "#1b9e77") +
+  geom_bar(position = "dodge", stat = "identity", fill = "#1b9e77") +
   scale_y_continuous(
     expand = c(0, 0),
-    #breaks = seq(0.02,0.08,0.02),
+    # breaks = seq(0.02,0.08,0.02),
     position = "right",
-  ) + 
+  ) +
   geom_hline(yintercept = 0, size = 0.25) +
   labs(
     title = "Mean Sentiment Level per Actor",
@@ -498,7 +502,7 @@ sentiment_by_actor %>%
     caption = "Source: Critical-Role-Subtitles, CritStats"
   ) +
   coord_flip() +
-  bar_chart_theme() 
+  bar_chart_theme()
 
 # save graph
 ggsave("./output/images/sentiment_by_actor.jpg", width = 4, height = 3)
@@ -507,17 +511,17 @@ ggsave("./output/images/sentiment_by_actor.jpg", width = 4, height = 3)
 Examining the mean sentiment per episode for the different arcs we can indeed see that the first two arcs were happier compared to most other ones. After a happy start and everybody getting accustomed to streaming and watching Dungeons and Dragons on a live stream, the story takes a darker turn. The exception to this rule is the 'Daring Deeds'-arc. This seems hardly surprising for viewers of the show given how a new character was introduced and how the story develops during their presence. In the interest of keeping this text light on spoilers, let's not drive into the story any further. Instead let's investigate whether the difference in sentiment was driven by differences in the amount of combat. As more combat represents higher chances of dying, this may be a driving force behind the differences between the arcs. Luckily, the team at [[CritStats]{.ul}](https://www.critrolestats.com/) keep track of the time spent in combat.
 
 ```{r sentiment_arc, echo = FALSE}
-sentiment_by_arc %>% 
-  mutate(arc = str_replace(arc,"_"," ")) %>%
-  mutate(tmp = str_c(arc_no,".", sep = "")) %>%
+sentiment_by_arc %>%
+  mutate(arc = str_replace(arc, "_", " ")) %>%
+  mutate(tmp = str_c(arc_no, ".", sep = "")) %>%
   mutate(arc = str_c(tmp, arc, sep = " ")) %>%
-  ggplot(aes(x =  reorder(arc, -arc_no), y = mean_sentiment_per_episode)) +
-  geom_bar(position = "dodge", stat = "identity" , fill = "#1b9e77") +
+  ggplot(aes(x = reorder(arc, -arc_no), y = mean_sentiment_per_episode)) +
+  geom_bar(position = "dodge", stat = "identity", fill = "#1b9e77") +
   scale_y_continuous(
     expand = c(0, 0),
     position = "right",
-    breaks = seq(50,250,50),
-    limit = c(0,251)
+    breaks = seq(50, 250, 50),
+    limit = c(0, 251)
   ) +
   geom_hline(yintercept = 0, size = 0.25) +
   labs(
@@ -526,7 +530,7 @@ sentiment_by_arc %>%
     caption = "Source: Critical-Role-Subtitles"
   ) +
   coord_flip() +
-  bar_chart_theme() 
+  bar_chart_theme()
 
 # save graph
 ggsave("./output/images/sentiment_arc.jpg", width = 4, height = 3)
@@ -538,7 +542,7 @@ Additionally, before streaming, the group didn't play on a set schedule. Consequ
 
 ```{r rp_combat, echo = FALSE}
 combat_rp_arc %>%
-  mutate(tmp = str_c(arc_no,".", sep = "")) %>%
+  mutate(tmp = str_c(arc_no, ".", sep = "")) %>%
   mutate(arc = str_c(tmp, arc, sep = " ")) %>%
   ggplot(aes(x = reorder(arc, -arc_no), y = percent, fill = rp_combat)) +
   geom_bar(position = "stack", stat = "identity") +
@@ -568,7 +572,7 @@ combat_rp_arc %>%
     legend.margin = margin(t = 0, unit = "cm")
   )
 
-# save 
+# save
 ggsave("./output/images/combat_vs_roleplay.jpg", width = 4, height = 3)
 ```
 
@@ -577,25 +581,25 @@ Looking at the happiest episodes a lot of the findings we have gathered so far c
 In contrast, most of the saddest episodes involve combat. This is surprising given that we found earlier that combat and sentiment are not related on when we examined entire arcs. Yet, as an arc contains multiple episodes the relationship was masked by averaging the numbers. The saddest episode (51) even has a negative score, meaning that the average sentences spoken during the episode has a sad connotation. It involves planning to help the child of one character to escape a city, while simultaneously fighting the uncle of another. Episode 68 features the fight against an antagonist and the death of one of the characters. As the other episodes on the list take place during the last arc and are preparation for the final boss fight, I will not discuss them in more detail. Instead, let's look in more detail what drives the sentiment of an episode. So far, we have seen that the guests and Ashley had the happiest sentiment. We have also seen that time spent in combat and sentiment do not seem to be related when looking at entire arcs. However, having obtained mixed signals when looking at individual episodes, let's investigate what exactly makes a happy or sad "Critical Role"-episode.
 
 ```{r sentiment_episodes, echo = FALSE}
-sentiment_episode_graph %>% 
+sentiment_episode_graph %>%
   ggplot(aes(x = reorder(episode, order), y = sum_sentiment)) +
   geom_bar(stat = "identity", fill = "#009E73") +
   coord_flip() +
-  facet_wrap(~type, scales='free_y') +
+  facet_wrap(~type, scales = "free_y") +
   scale_x_reordered() +
   labs(
     title = "The 5 Best and Worst Episode by Sentiment",
     subtitle = "on a per sentence basis.",
     caption = "Source: Critical-Role-Subtitles"
-  ) + 
+  ) +
   bar_chart_theme() +
   theme(
     strip.background = element_rect(fill = "#F0F0F0"),
     strip.text = element_text(size = rel(0.5)),
     axis.text.y = element_text(hjust = 1, color = "black", size = rel(0.75)),
-    axis.text.x = element_text(color = "black", vjust =3, size = rel(0.75)),
+    axis.text.x = element_text(color = "black", vjust = 3, size = rel(0.75)),
     panel.grid.major.x = element_line(size = rel(0.4), color = "#656565"),
-    axis.line.y = element_blank(), 
+    axis.line.y = element_blank(),
     panel.spacing = unit(2, "lines")
   )
 
@@ -609,11 +613,11 @@ In contrast, the time spent in combat does seem to negatively effect the sentime
 `r round(combat_time_reg$coefficients[2,1], digits=2)*-1` in the sentiment score of the episode. Given that an average episode has a sentiment score of `r round(mean(sentiment_by_episode$sum_sentiment))` and an average combat lasts for `r round(sentiment_by_episode$mean_time_combat[1], digits = 1)` hours this is a significant effect. Yet, as success in Dungeons and Dragons is dependent on the dice rolls made, let’s investigate the effect of those on the sentiment as well.
 
 ```{r correlates, echo=FALSE, warning=FALSE, message = FALSE}
-correlates_sentiment_episode %>% 
+correlates_sentiment_episode %>%
   ggplot(aes(x = value, y = Sentiment)) +
   geom_point(color = "#009E73", alpha = 0.5, size = 0.5) +
-  geom_smooth(method = "lm", se=FALSE, color="black", size = 0.5) +
-  facet_wrap(~variable, scales="free_x") + 
+  geom_smooth(method = "lm", se = FALSE, color = "black", size = 0.5) +
+  facet_wrap(~variable, scales = "free_x") +
   labs(
     title = "Correlates of Sentiment",
     subtitle = "on a per sentence basis.",
@@ -624,9 +628,9 @@ correlates_sentiment_episode %>%
     strip.background = element_rect(fill = "#F0F0F0"),
     strip.text = element_text(size = rel(0.5)),
     axis.line.y = element_blank(),
-    panel.grid.major.y = element_line(size=.025, color="#656565"),  
-    panel.grid.major.x = element_line(size=.025, color="#656565"),
-    axis.text.y = element_text(color = "black", vjust =4, size = rel(0.75)),
+    panel.grid.major.y = element_line(size = .025, color = "#656565"),
+    panel.grid.major.x = element_line(size = .025, color = "#656565"),
+    axis.text.y = element_text(color = "black", vjust = 4, size = rel(0.75)),
     panel.spacing = unit(1, "lines")
   )
 
@@ -641,8 +645,8 @@ When we look at all the rolls made during the combat, we don’t find any relati
 roles_correlates_sentiment_episode %>%
   ggplot(aes(x = Count, y = sum_sentiment)) +
   geom_point(color = "#009E73", alpha = 0.5, size = 0.5) +
-  geom_smooth(method = "lm", se=FALSE, color="black", size = 0.5) +
-  facet_wrap(~measure, scales='free') + 
+  geom_smooth(method = "lm", se = FALSE, color = "black", size = 0.5) +
+  facet_wrap(~measure, scales = "free") +
   labs(
     title = "Dice Rolls of Sentiment",
     subtitle = "on a per sentence basis.*",
@@ -653,10 +657,10 @@ roles_correlates_sentiment_episode %>%
     strip.background = element_rect(fill = "#F0F0F0"),
     strip.text = element_text(size = rel(0.5)),
     axis.line.y = element_blank(),
-    panel.grid.major.y = element_line(size=.025, color="#656565"),  
-    panel.grid.major.x = element_line(size=.025, color="#656565"),
-    #axis.title.x = element_text(color = "black", vjust =3, size = rel(0.75)),
-    axis.text.x = element_text(color = "black", vjust =4, size = rel(0.75)),
+    panel.grid.major.y = element_line(size = .025, color = "#656565"),
+    panel.grid.major.x = element_line(size = .025, color = "#656565"),
+    # axis.title.x = element_text(color = "black", vjust =3, size = rel(0.75)),
+    axis.text.x = element_text(color = "black", vjust = 4, size = rel(0.75)),
     panel.spacing = unit(1, "lines")
   )
 # save graph

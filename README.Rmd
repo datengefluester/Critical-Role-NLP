@@ -9,97 +9,34 @@ knitr::opts_chunk$set(
 )
 ```
 
+```{r tree, eval=TRUE, warning=FALSE, echo=FALSE}
+library(fs)
+dir_tree(path = ".", type = "directory")
+```  
 
-# To Do:
-  - blogpost in Rmarkdown and Pictures included
-  - Model Fitting:
-  
-## Data Cleaning:
+## Blog Texts
+
+- blog_text.Rmd (or the markdown/html files)
+
+## Script for Data Cleaning:
 ```{r cleaning, eval=FALSE, warning=FALSE}
 # run script
 source("./scripts/data_cleaning.R", local = knitr::knit_global())
-
-# Note: E031-2,E035-2,E082,E113-1,E113-2 have been run once through
-# error fixing* with Subtitle editor** in Ubuntu 20.04. This is needed as
-# the files contain formatting errors, which renders them unusable for the 
-# following analysis. 
-# The original files are included in the same folder and are named as follows:
-# 'original_C1E031-1_FINAL.srt'
-# * Tools -> Error checking -> Error -> Try to fix all 
-# ** (install via 'sudo apt install subtitleeditor' on ubuntu)
 ```  
 
-## Create Data for Visualization
+## Script for Creating the Data for the Visualizations
 ```{r descriptive_analysis, eval=FALSE, warning=FALSE}
 # run script
 source("./scripts/data_descriptive_analysis.R", local = knitr::knit_global())
 ```  
 
-## Descriptive Analysis:
-```{r descriptive_analysis, eval=FALSE, warning=FALSE}
-# run script
-source("./scripts/descriptive_analysis.R", local = knitr::knit_global())
-```  
-
-## Machine Learning:
-```{r descriptive_analysis, eval=FALSE, warning=FALSE}
+## Script for Machine Learning (work in progress!):
+```{r machine_learning, eval=FALSE, warning=FALSE}
 # run script
 source("./scripts/machine_learning.R", local = knitr::knit_global())
 ```  
 
-Visualisation:
-  - tf_df
-  - normalize sentiment
-  - everything in one data frame for actors
-  - check if time in MS or SEC
-  - questions: where is episode 115? Where is arc "End"?
-  - check episode numbers(12 = not 12 as this is dungeon master tips?)
 
 
-Models to tune:
-  - For accuracy:
-      - Kernel SVM
-      - random forest
-      - gradient boost
-      - neural network
-  - for speed
-      - decision tree
-      - naive Bayes
-      - linear SVM
-      - knn
-  - for completion
-      - lasso etc.
 
-Links to looks at:
-https://smltar.com/
 
-[Model Monitoring with R Markdown, pins, and RStudio Connect | RStudio Blog](https://blog.rstudio.com/2021/04/08/model-monitoring-with-r-markdown/)
-
-https://www.youtube.com/watch?v=yKs6msnw9m8
-
-[Research | Susan Athey](https://athey.people.stanford.edu/research#econometric)
-
-[GitHub - grf-labs/grf: Generalized Random Forests](https://github.com/grf-labs/grf)
-
-https://juliasilge.shinyapps.io/learntidytext/
-
-https://www.youtube.com/watch?v=ntk_1xLQBwo
-
-[Predicting Housing Prices with Natural Language Processing NLP and Tidymodels | R-bloggers](https://www.r-bloggers.com/2021/02/predicting-housing-prices-with-natural-language-processing-nlp-and-tidymodels/)
-
-[RStudio AI Blog: State-of-the-art NLP models from R](https://blogs.rstudio.com/ai/posts/2020-07-30-state-of-the-art-nlp-models-from-r/)
-
-[GitHub - thllwg/tpotr: An R-Wrapper for the Python Automated Machine Learning tool that optimizes machine learning pipelines using genetic programming (TPOT)](https://github.com/thllwg/tpotr)
-
-[Extract YouTube video statistics based on a search query | by Rare Loot | Medium](https://rareloot.medium.com/extract-youtube-video-statistics-based-on-a-search-query-308afd786bfe)
-
-[TidyTuesday: NLP Modeling with TidyModels and Keras - YouTube](https://www.youtube.com/watch?v=0aN5Io0rJZI)
-
-- https://docs.h2o.ai/h2o/latest-stable/h2o-docs/automl.html
-
-Sources:
-## CR:
-
-[FINAL SRT FILES – Google Drive](https://drive.google.com/drive/folders/0B5QJULzu8Dw7RHVwVS1yeDczVzg)
-
-[GitHub - RevanthRameshkumar/CRD3: The repo containing the Critical Role Dungeons and Dragons Dataset.](https://github.com/RevanthRameshkumar/CRD3)

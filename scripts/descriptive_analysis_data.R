@@ -1,13 +1,13 @@
 ###############################################################################
 # Packages
 ###############################################################################
-library(dplyr)              # for data manipulation
-library(tidyr)              # for data manipulation
-library(stringr)            # structure replacements
-library(tidytext)           # for sentiment data
+library(dplyr) # for data manipulation
+library(tidyr) # for data manipulation
+library(stringr) # structure replacements
+library(tidytext) # for sentiment data
 library(quanteda.textstats) # for grade scores
-library(tidylo)             # text log odds
-library(sentimentr)         # sentiment analysis
+library(tidylo) # text log odds
+library(sentimentr) # sentiment analysis
 
 ###############################################################################
 # Get Data
@@ -41,13 +41,13 @@ individual_split_words <- individual_cast_member %>%
   unnest_tokens(word, text)
 
 # get total number of words
-total_words <- individual_split_words %>% 
+total_words <- individual_split_words %>%
   nrow()
 
 # export data frame
 write.csv(total_words,
-          "./data/data_for_graphs/total_words.csv",
-          row.names = FALSE
+  "./data/data_for_graphs/total_words.csv",
+  row.names = FALSE
 )
 
 
@@ -56,12 +56,12 @@ write.csv(total_words,
 ###############################################################################
 
 # calculate time in hours
-run_time <- (sum(data$time_in_sec)/3600)
+run_time <- (sum(data$time_in_sec) / 3600)
 
 # export data frame
 write.csv(run_time,
-          "./data/data_for_graphs/run_time.csv",
-          row.names = FALSE
+  "./data/data_for_graphs/run_time.csv",
+  row.names = FALSE
 )
 
 
@@ -70,20 +70,20 @@ write.csv(run_time,
 ###############################################################################
 
 # get sample for the blog text
-example <- data %>%  
-  filter(grepl("hello everyone", text)) %>% 
-  filter(episode == 100) %>% 
-  select(episode,segment, start_turn,end_turn,actor,text) %>% 
-  mutate(segment = str_to_title(segment)) 
+example <- data %>%
+  filter(grepl("hello everyone", text)) %>%
+  filter(episode == 100) %>%
+  select(episode, segment, start_turn, end_turn, actor, text) %>%
+  mutate(segment = str_to_title(segment))
 
 # change names of the variables for better representation
-names(example) <- str_to_title(names(example)) 
-names(example) <- str_replace(names(example),"_t","_T")   
+names(example) <- str_to_title(names(example))
+names(example) <- str_replace(names(example), "_t", "_T")
 
 # export data frame
 write.csv(example,
-          "./data/data_for_graphs/example.csv",
-          row.names = FALSE
+  "./data/data_for_graphs/example.csv",
+  row.names = FALSE
 )
 
 ###############################################################################
@@ -166,7 +166,7 @@ actor_words_time <- individual_split_words %>%
   mutate(words_percent = (words / total_words) * 100)
 
 # Actor: Time
-actor_words_time <- individual_cast_member  %>%
+actor_words_time <- individual_cast_member %>%
   filter(staff != 1) %>%
   group_by(actor_guest) %>%
   summarise(time = sum(time_in_sec, na.rm = TRUE)) %>%
@@ -177,9 +177,9 @@ actor_words_time <- individual_cast_member  %>%
 # Actor: Segment
 actor_words_time <- individual_cast_member %>%
   filter(staff != 1) %>%
-  group_by(actor_guest) %>% 
-  tally() %>% 
-  rename(turns = n) %>% 
+  group_by(actor_guest) %>%
+  tally() %>%
+  rename(turns = n) %>%
   mutate(total_turns = sum(turns)) %>%
   mutate(turns_percent = (turns / total_turns) * 100) %>%
   right_join(., actor_words_time, by = "actor_guest")
@@ -197,13 +197,13 @@ write.csv(actor_words_time,
 
 talking_speed <- individual_cast_member %>%
   filter(staff != 1) %>%
-  group_by(actor_guest) %>% 
-  summarise(mean_words_per_minute = mean(words_per_minute, na.rm = TRUE)) 
+  group_by(actor_guest) %>%
+  summarise(mean_words_per_minute = mean(words_per_minute, na.rm = TRUE))
 
 # export data frame
 write.csv(talking_speed,
-          "./data/data_for_graphs/talking_speed.csv",
-          row.names = FALSE
+  "./data/data_for_graphs/talking_speed.csv",
+  row.names = FALSE
 )
 
 ###############################################################################
@@ -263,13 +263,15 @@ readability_grade <- readability_grade %>%
   filter(staff != 1) %>%
   group_by(actor_guest) %>%
   summarise_at(vars(Coleman.Liau.grade),
-    list(mean,sd, min, max),
+    list(mean, sd, min, max),
     na.rm = TRUE
-  ) %>% 
-  rename(mean_grade = fn1,
-         sd_grade = fn2,
-         min_grade = fn3,
-         max_grade = fn4)
+  ) %>%
+  rename(
+    mean_grade = fn1,
+    sd_grade = fn2,
+    min_grade = fn3,
+    max_grade = fn4
+  )
 
 
 # add int score
@@ -368,7 +370,7 @@ network <- network %>%
   rename(from = actor_guest, to = previous, weights = total) %>%
   mutate(type = "hyperlink") %>%
   filter(!is.na(weights))
-  #mutate(weights = replace(weights, is.na(weights), 1))
+# mutate(weights = replace(weights, is.na(weights), 1))
 
 # export data frame
 write.csv(network,
@@ -508,22 +510,22 @@ write.csv(same_thought_network,
 
 seating_order <- read.csv("./data/clean_data/rest/seating_order.csv")
 
-seating_order <- seating_order %>% 
-  left_join(same_thought_network,.) %>%
-  rename(same_thought = weights) %>% 
-  select(-type) %>% 
-  left_join(.,network) %>% 
-  rename(interactions = weights) %>% 
-  select(-type) %>% 
+seating_order <- seating_order %>%
+  left_join(same_thought_network, .) %>%
+  rename(same_thought = weights) %>%
+  select(-type) %>%
+  left_join(., network) %>%
+  rename(interactions = weights) %>%
+  select(-type) %>%
   filter(!is.na(Distance))
-  
-  
-  
+
+
+
 # export data frame
 write.csv(seating_order,
-            "./data/data_for_graphs/seating_order.csv",
-            row.names = FALSE
-  )
+  "./data/data_for_graphs/seating_order.csv",
+  row.names = FALSE
+)
 
 
 
@@ -534,11 +536,12 @@ write.csv(seating_order,
 
 # get sentiments per sentence
 sentences_sentiment <- data %>%
-  rename(number_words = word_count) %>% # the rename is needed to prevent an error
+  rename(number_words = word_count) %>%
+  # the rename is needed to prevent an error
   get_sentences(text) %>%
   sentiment()
 
-#mean_sentiment <- sentences_sentiment$sentiment
+# mean_sentiment <- sentences_sentiment$sentiment
 
 # by actor
 sentiment_by_actor <- sentences_sentiment %>%
@@ -570,12 +573,12 @@ sentiment_by_episode <- sentences_sentiment %>%
 
 
 # add run time episode
-sentiment_by_episode <- data %>% 
-  group_by(episode) %>% 
+sentiment_by_episode <- data %>%
+  group_by(episode) %>%
   summarise(
     time_in_hour = sum(time_in_sec)
-  ) %>% 
-  mutate(time_in_hour = time_in_hour/3600) %>% 
+  ) %>%
+  mutate(time_in_hour = time_in_hour / 3600) %>%
   left_join(sentiment_by_episode, ., by = "episode")
 
 
@@ -631,38 +634,40 @@ sentiment_by_episode <- face_palms %>%
 # all rolls but keep only natural values, which make sense and are numeric
 # only natural values as higher level equals higher rolls overall, which is
 # likely to bias results
-dice_rolls <- read.csv("./data/clean_data/dice_rolls/dice_rolls.csv") %>% 
-  filter(Natural.Value !="Unknown")  %>%
-  filter(Natural.Value !="--")  %>%
-  filter(Natural.Value !="unknown")  %>%  
-  filter(Natural.Value !="Unkown")  %>%
-  filter(Natural.Value !="#REF!")  %>%
-  filter(Natural.Value !="Uknown")  %>%
-  filter(Character != "Shark") %>% 
+dice_rolls <- read.csv("./data/clean_data/dice_rolls/dice_rolls.csv") %>%
+  filter(Natural.Value != "Unknown") %>%
+  filter(Natural.Value != "--") %>%
+  filter(Natural.Value != "unknown") %>%
+  filter(Natural.Value != "Unkown") %>%
+  filter(Natural.Value != "#REF!") %>%
+  filter(Natural.Value != "Uknown") %>%
+  filter(Character != "Shark") %>%
   filter(Character != "Gloomstalker")
 
 # drop "-1" & "-2" from file name and turn into episode number
 dice_rolls <- dice_rolls %>%
-  mutate(file_name = str_replace(file_name,"-1",""),
-         file_name = str_replace(file_name,"-2","")) %>% 
-  mutate(file_name = as.numeric(file_name)) %>% 
-  rename(episode = file_name) 
+  mutate(
+    file_name = str_replace(file_name, "-1", ""),
+    file_name = str_replace(file_name, "-2", "")
+  ) %>%
+  mutate(file_name = as.numeric(file_name)) %>%
+  rename(episode = file_name)
 
 
-# get number of rolls per episodes and join episode data frame  
+# get number of rolls per episodes and join episode data frame
 sentiment_by_episode <- dice_rolls %>%
-  group_by(episode) %>% 
-  summarise(number_rolls = n()) %>% 
+  group_by(episode) %>%
+  summarise(number_rolls = n()) %>%
   left_join(sentiment_by_episode, ., by = "episode")
 
-# get mean of natural dice rolls and join episode data frame  
+# get mean of natural dice rolls and join episode data frame
 sentiment_by_episode <- dice_rolls %>%
-  filter(!is.na(Natural.Value))  %>%
-  filter(Natural.Value<=20 & Natural.Value>=1) %>% 
-  select(episode,Natural.Value) %>% 
-  group_by(episode) %>% 
-  mutate(Natural.Value = as.numeric(Natural.Value)) %>% 
-  summarise(mean_natural_rolls = mean(Natural.Value)) %>% 
+  filter(!is.na(Natural.Value)) %>%
+  filter(Natural.Value <= 20 & Natural.Value >= 1) %>%
+  select(episode, Natural.Value) %>%
+  group_by(episode) %>%
+  mutate(Natural.Value = as.numeric(Natural.Value)) %>%
+  summarise(mean_natural_rolls = mean(Natural.Value)) %>%
   left_join(sentiment_by_episode, ., by = "episode")
 
 # Ashley and Guest dummies
@@ -677,15 +682,15 @@ sentiment_by_episode <- data %>%
   filter(!is.na(time_in_sec)) %>%
   group_by(episode, rp_combat) %>%
   summarise(combat_time = sum(time_in_sec, na.rm = TRUE)) %>%
-  mutate(combat_time = combat_time/3600) %>% 
+  mutate(combat_time = combat_time / 3600) %>%
   filter(rp_combat == "combat") %>%
-  select(-rp_combat) %>% 
-  left_join(sentiment_by_episode, ., by = "episode") %>% 
+  select(-rp_combat) %>%
+  left_join(sentiment_by_episode, ., by = "episode") %>%
   mutate(combat_time = replace(combat_time, is.na(combat_time), 0))
 
 # change order variables
-sentiment_by_episode <- sentiment_by_episode %>% 
-  select(1:4,6:10,12:14, number_rolls,time_in_hour,combat_time)
+sentiment_by_episode <- sentiment_by_episode %>%
+  select(1:4, 6:10, 12:14, number_rolls, time_in_hour, combat_time)
 
 
 # export data frame

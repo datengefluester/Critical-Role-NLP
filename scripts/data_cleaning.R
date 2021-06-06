@@ -1,9 +1,9 @@
 ###############################################################################
 # Packages
 ###############################################################################
-library(tidyr)    # data manipulation
-library(dplyr)    # data manipulation
-library(stringr)  # structure replacements
+library(tidyr) # data manipulation
+library(dplyr) # data manipulation
+library(stringr) # structure replacements
 library(SRTtools) # for reading in SRT files
 
 ###############################################################################
@@ -96,9 +96,9 @@ clean$textString <- gsub("\\s*\\([^\\)]+\\)", "", clean$textString)
 clean <- clean %>% filter(textString != "")
 
 # get example for text
-example_raw <- clean %>% 
-  filter(file_name == 100) %>% 
-  slice(1:2) %>% 
+example_raw <- clean %>%
+  filter(file_name == 100) %>%
+  slice(1:2) %>%
   select(-file_name)
 write.csv(example_raw, "data/data_for_graphs/example_raw", row.names = FALSE)
 
@@ -1470,7 +1470,7 @@ attendance <- read.csv(file = "data/raw_data/rest/attendance.csv")
 clean <- attendance %>%
   filter(Episode != "Total") %>%
   select(-c(X, X.1, Player.Present, X1)) %>%
-  mutate(Guests = replace(Guests, Guests=="Jo" | Guests=="ri", 1 )) %>% 
+  mutate(Guests = replace(Guests, Guests == "Jo" | Guests == "ri", 1)) %>%
   mutate(Ashley = replace(Ashley, is.na(Ashley), 0)) %>%
   mutate(Skype = replace(Skype, is.na(Skype), 0)) %>%
   mutate(Episode = str_replace(Episode, "C1E", "")) %>%
@@ -2391,31 +2391,31 @@ seating_order <- read.csv("./data/raw_data/rest/seating_order.csv")
 # change into long format
 seating_order <- seating_order %>%
   pivot_longer(!Actor,
-               names_to = "Actor2",
-               values_to = "Distance"
-  ) %>% 
-  filter(Actor != Actor2) %>% 
+    names_to = "Actor2",
+    values_to = "Distance"
+  ) %>%
+  filter(Actor != Actor2) %>%
   filter(!is.na(Distance))
 
 # Same order
-seating_order <- seating_order %>% 
-  mutate(Actor = paste(Actor, " And ", Actor2)) %>% 
+seating_order <- seating_order %>%
+  mutate(Actor = paste(Actor, " And ", Actor2)) %>%
   select(-Actor2)
 
 seating_order$Actor <- unname(sapply(seating_order$Actor, function(x) {
   paste(sort(trimws(strsplit(x[1], " And ")[[1]])), collapse = " And ")
 }))
 
-seating_order <- seating_order %>% 
+seating_order <- seating_order %>%
   separate(Actor,
-         c("from", "to"),
-         sep = " And ",
-         fill = "left",
-         remove = TRUE
-  ) 
+    c("from", "to"),
+    sep = " And ",
+    fill = "left",
+    remove = TRUE
+  )
 
 write.csv(seating_order, "./data/clean_data/rest/seating_order.csv", row.names = FALSE)
-  
+
 
 ###############################################################################
 # clear console
