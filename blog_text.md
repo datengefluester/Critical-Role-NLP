@@ -15,19 +15,19 @@ intriguing to watch. The creativity also makes the show interesting for
 some nerdy ass data analyses. Be aware: minor spoilers ahead.
 
 The large online community of the show provided subtitles for every
-episode of the first season. These can be used to construct the rich
-datasets, which we then can use for analyses of language, text and
-interactions during the show. Rameshkumar and Bailey (2020) use these to
-construct a data set to test models, which predict the text word of a
-text (similar to what you may find in your phone when typing a message).
-The unscripted nature of the show makes the dialogue less predictable
-than other text and therefore makes it a good test for these algorithms.
+episode of the first season. These can be used to construct data sets,
+which we then can use for analyses of language, text and interactions
+during the show. Rameshkumar and Bailey (2020) use these to construct a
+data set to test models, which predict the text word of a text (similar
+to what you may find in your phone when typing a message). The
+unscripted nature of the show makes the dialogue less predictable than
+other text and therefore makes it a good test for these algorithms.
 
 However, Rameshkumar and Bailey’s approach omits time stamps from the
-data set and focuses on dialogue entirely. While this approach is
-reasonable when predicting the next word, leaving out time from the data
-excludes interesting information. For example, one could potentially use
-the subtitles and the videos of the episodes to train a neural network,
+data and focuses on dialogue entirely. While this approach is reasonable
+when predicting the next word, leaving out time from the data excludes
+interesting information. For example, one could potentially use the
+subtitles and the videos of the episodes to train a neural network,
 which then act as a chat bot for one of the characters. This is,
 however, far beyond the scope of this blog post. Instead, we will
 examine at descriptive statistics to look back on the first season of
@@ -112,7 +112,7 @@ further detail.
 
 Out of the cast, Marisha got misspelled the most. These include, for
 example, ‘Marishaia’ or ‘Marishaaaa’. However, she was not alone in her
-fate. For example, Travis, playing a character named Grog, often got
+fate. For example, Travis, playing a character named Grog, sometimes got
 misspelled as ‘Tavis’ or as ‘Gorg’. The examples highlight that the
 subtitles are not made by a professional subtitle writer, but instead by
 dedicated fans of the show. Yet, taking everything together, the amount
@@ -177,23 +177,23 @@ Like in the miss spellings, we examined above, Marisha tops the list of
 time spoken compared to the other players. Interestingly, both Ashley
 and Orion only speak roughly the same as all guests of the show
 combined. This is a testament to the fact that they’re not present for
-all episodes. Still, Laura uses more words than Marisha even though she
-speaks for less time. Moreover, we can see that she uses more turns
-compared to any other member of the cast. This may imply that she speaks
-at a quicker pace compared to the other cast members. However, as we can
-see in the graph below, this is not the case. Instead, Orion speaks the
+all episodes. Laura uses more words than Marisha even though she speaks
+for less time. Moreover, we can see that she uses more turns compared to
+any other member of the cast. This may imply that she speaks at a
+quicker pace compared to the other cast members. However, as we can see
+in the graph below, this is not the case. Instead, Orion speaks the
 fastest at a speed of 200 words per minute.
 
-More generally, there is a catch to these numbers, as not everything
-that is said is shown in the subtitles. Sometimes many people speak at
-the same time. If that happens only the important parts are written in
-the subtitles. This affects the calculated time the actors speak, as it
-is measured by the time subtitles are shown on the screen. For example,
-a long description from Matt may span over 30 seconds. If one of the
-players were to comment on the scenery at the same time it may be
-omitted from the subtitles.
-
 ![](output/markdown_figs/speed_of_talking-1.png)
+
+Yet there is a catch to these numbers, as not everything that is said is
+shown in the subtitles. Sometimes many people speak at the same time. If
+that happens only the important parts are written in the subtitles. This
+affects the calculated time the actors speak, as it is measured by the
+time subtitles are shown on the screen. For example, a long description
+from Matt may span over 30 seconds. If one of the players were to
+comment on the scenery at the same time it may be omitted from the
+subtitles.
 
 Despite these shortcomings, we can still look at the most used words per
 actor to see if players use a set of unique words often. To do so we can
@@ -223,9 +223,9 @@ conceptional understanding. Thus, I will discuss in a future blog post.
 
 ![](output/markdown_figs/log_odds-1.png)
 
-What we can do easily is to investigate, which cast member used the most
-elaborate vocabulary. A commonly used measure to examine the readability
-of text is the [Coleman–Liau
+What we can do easily though is to investigate, which cast member used
+the most elaborate vocabulary. A commonly used measure to examine the
+readability of text is the [Coleman–Liau
 index](https://en.wikipedia.org/wiki/Coleman%E2%80%93Liau_index). It
 uses the number of words, letters, and sentences to calculate a score,
 which then can be translated into grades. Score of five or below
@@ -238,12 +238,12 @@ As we can see in the graph below, the show is easy to follow. This is
 hardly surprising as it is essentially one long conversations between
 cast members. As most of us don’t speak like academic papers are written
 this results in a good readability of the dialogue. The only member of
-the crew, who scores higher than a six on average is Matt. This, again,
-to be expected as he has to flesh out the world for everyone. In
-contrast, all the players get a mean score of 4 or below. Only Talisien
-achieves a score of four. Maybe surprisingly, Ashley has the easiest to
-follow text. However, this could also be because Ashley is only present
-for half of the episodes and her character, Pike, is rather shy. Please
+the crew, who scores higher than a six on average is Matt. This is to be
+expected as he has to flesh out the world for everyone. In contrast, all
+the players get a mean score of 4 or below. Only Talisien achieves a
+score of four. Maybe surprisingly, Ashley has the easiest to follow
+text. However, this could also be because Ashley is only present for
+half of the episodes and her character, Pike, is rather shy. Please
 note, in the interest of keeping this light on spoilers, I intentionally
 do not differentiate between different characters played by the same
 actor. Some of the differences may be driven by players playing
@@ -257,32 +257,33 @@ So far, we have only looked at each actor individually. As Dungeons and
 Dragons is an interactive experience, this seems restrictive. The graph
 below maps out interactions between players. In total, we see that Laura
 has the most interactions with everybody. Surprisingly, given how the
-story evolves, she interacts with Taliesin the least. Likewise, Marisha
-interacts more with Taliesin than with Liam. However, we can see that
-Travis often speaks before and after Sam, who act as kind of the chaos
-duo during the show (anybody looking for Suude?). Moreover, we can also
-examine whether people, who sit nearer to each other talk to each other
-more often. This does not seem to be the case (correlation coefficient
-of -0.11). It will be interesting to examine the interactions in season
-two as well, as both, the characters played by the actors and the
-seating arrangement, was changed in the new studio.
+story evolves, she interacts with Taliesin the least out of the regular
+cast. Likewise, Marisha interacts more with Taliesin than with Liam.
+However, we can see that Travis often speaks before and after Sam, who
+act as kind of the chaos duo during the show (anybody looking for
+Suude?). Moreover, we can also examine whether people, who sit nearer to
+each other talk to each other more often. This does not seem to be the
+case (the correlation coefficient is -0.11). It will be interesting to
+examine the interactions in season two as well, as both, the characters
+played by the actors and the seating arrangement, was changed in the new
+studio.
 
 ![](output/markdown_figs/who_to_whom-1.png)
 
 Like the analyses before, there are some caveats to the results though.
 Interactions as shown in the graph are measured by counting when actors
 speak after each other. As we have seen earlier, Orion and Ashley did
-not participate in all episodes. Likewise, as Liam and Travis speak the
+not participate in all episodes. Simiarly, as Liam and Travis speak the
 least the results presented below mirror our previous findings. However,
 as we have seen earlier, Laura does not speak often (timewise) compared
 to other members of the cast. Thus, the number could be influenced by,
 among other things, Laura giving short comments throughout the show.
 Let’s see whether that’s the case. Indeed, on average a segment from her
-only contains 9.2077359 words, while average for all players is
-11.8388274. This may imply that the results shown above are indeed
-inflated by Laura commenting while other cast members speak. As a side
-note, given the role of Matt everybody interacts with him the most.
-Therefore, Matt is not shown in the graph above.
+only contains 9.2 words, while average for all players is 11.8. This may
+imply that the results shown above are indeed inflated by Laura
+commenting while other cast members speak. As a side note, given the
+role of Matt everybody interacts with him the most. Therefore, Matt is
+not shown in the graph above.
 
 ![](output/markdown_figs/segment_length-1.png)
 
@@ -295,11 +296,11 @@ same thing at the same time.
 Similarly, to the interactions earlier, we can see that Laura has the
 most shared spoken text with her cast members, indicating that she
 indeed has the briefest comments from the group. Out of the cast, she
-and Marisha often share the same thoughts out loud. Likewise, Marisha
-and Taliesin often share the same ideas. The same applies to Ashley,
-Laura and Travis or Sam and Taliesin respectively, though to a lesser
-extent. Interestingly, Matt never says the same thing at the same time
-with a guest.
+and Marisha often share the same thoughts out loud. Marisha and Taliesin
+often share the same ideas as well. The same applies to Ashley, Laura
+and Travis or Sam and Taliesin respectively, though to a lesser extent.
+Interestingly, Matt never says the same thing at the same time with a
+guest.
 
 ![](output/markdown_figs/same_thought_data-1.png)
 
@@ -329,8 +330,7 @@ because he plays the character with the lowest intelligence. In
 contrast, the guests seem to be happier than most of the cast. This may
 be because they are happy to play with the group or that Matt
 intentionally makes episodes starring guests more light-hearted.
-Likewise, Ashley seems to be the good heart of the group. This is
-explicitly stated multiple times throughout the series. Yet, Orion
+Likewise, Ashley seems to be the good heart of the group. Yet, Orion
 stands out as the happiest of the cast. This is a bit surprising as he
 is only present in the first episodes. However, as viewers of the first
 season know, the story gets darker after his departure. To quantify
@@ -346,25 +346,24 @@ and watching Dungeons and Dragons on a live stream, the story takes a
 darker turn. The exception to this rule is the ‘Daring Deeds’-arc. This
 seems hardly surprising for viewers of the show given how a new
 character was introduced and how the story develops during their
-presence. Yet, in the interest of keeping this text light on spoilers,
-let’s not drive into the story any further. Instead let’s investigate
-whether the difference in sentiment was driven by differences in the
-amount of combat. As more combat represents higher chances of dying,
-this may be a driving force behind the differences between the arcs.
-Luckily, the team at [<u>CritStats</u>](https://www.critrolestats.com/)
-keep track of the time spent in combat.
+presence. In the interest of keeping this text light on spoilers, let’s
+not drive into the story any further. Instead let’s investigate whether
+the difference in sentiment was driven by differences in the amount of
+combat. As more combat represents higher chances of dying, this may be a
+driving force behind the differences between the arcs. Luckily, the team
+at [<u>CritStats</u>](https://www.critrolestats.com/) keep track of the
+time spent in combat.
 
 ![](output/markdown_figs/sentiment_arc-1.png)
 
 As we can see below, the earlier arcs had more time dedicated to combat.
-During the search for the Vestiges of Divergence, while the group must
-figure out where to go first, the time spent in combat is the lowest
-(20percent). In the last three arcs, around a quarter of the time was
-dedicated to combat. However, this means that combat may not be the
-driving factor behind sad moments in the story but can be found in
-role-play as well. Thus, it could be that in the beginning of the show
-players were less comfortable with the rules as they use a different
-rule set when they started to play onscreen.
+During the search for the Vestiges of Divergence the time spent in
+combat is the lowest (20percent). In the last three arcs, around a
+quarter of the time was dedicated to combat. However, this means that
+combat may not be the driving factor behind sad moments in the story but
+can be found in role-play as well. Thus, it could be that in the
+beginning of the show players were less comfortable with the rules as
+they use a different rule set when they started to play onscreen.
 
 Additionally, before streaming, the group didn’t play on a set schedule.
 Consequently, it seems likely that the players got more used to playing
@@ -418,15 +417,15 @@ when we run correlation tests, we find insignificant results. This means
 that episodes starring Ashley or a guest are not different from episodes
 without them when it comes to sentiment.
 
-In contrast, the time spent in combat does seem to positively effect the
+In contrast, the time spent in combat does seem to negatively effect the
 sentiment of an episode. Using a OLS estimation, while holding the
 length of episodes constant, we can estimate the effect. We find that
-one hour spent in combat is associated with an increase -27.21 in the
+one hour spent in combat is associated with an increase 27.21 in the
 sentiment score of the episode. Given that an average episode has a
-sentiment score of 176 and an average combat lasts for 1.4 this is a
-significant effect. Yet, as success in Dungeons and Dragons is dependent
-on the dice rolls made, let’s investigate the effect of those on the
-sentiment as well.
+sentiment score of 176 and an average combat lasts for 1.4 hours this is
+a significant effect. Yet, as success in Dungeons and Dragons is
+dependent on the dice rolls made, let’s investigate the effect of those
+on the sentiment as well.
 
 ![](output/markdown_figs/correlates-1.png)
 
