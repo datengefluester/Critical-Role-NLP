@@ -14,10 +14,13 @@ library(sentimentr) # sentiment analysis
 ###############################################################################
 
 # read in data but drop episode 12 as this a tips and tricks episode and no cannon
-data <- read.csv(file = "./data/clean_data/clean/clean.csv") %>% filter(episode != 12)
+# read in all data frame clean data folder
+file_list <- list.files("./data/clean_data/individual_episodes", pattern = "*.csv", full.names = TRUE)
+data <- do.call(rbind,lapply(file_list,read.csv))
 
 # drop the epilogues and everything, which is not the actual episode
 data <- data %>%
+  filter(episode != 12) %>% 
   filter(episode <= 115) %>%
   filter(segment != "break") %>%
   filter(segment != "extra") %>%

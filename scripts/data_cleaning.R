@@ -2097,17 +2097,6 @@ lapply(files, function(x) {
 })
 
 
-# check up for left overs
-check_up <- clean %>%
-  ungroup() %>%
-  select(actor) %>%
-  distinct(actor) %>%
-  unique()
-
-
-# export csv with every variable included
-write.csv(clean, "./data/clean_data/clean/clean.csv", row.names = FALSE)
-
 ###############################################################################
 # Natural Rolls
 ###############################################################################

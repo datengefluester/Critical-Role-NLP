@@ -1,6 +1,7 @@
 ###############################################################################
 # packages
 ###############################################################################
+library(ggplot2)
 # for sampling
 library(dplyr)
 # text mining
@@ -15,46 +16,55 @@ library(tidymodels)
 library(textrecipes) 
 # for parallel computing
 library(doParallel)
-doParallel::registerDoParallel(cores = detectCores() - 1)
+
+
+###############################################################################
+# cloud vs. local
+###############################################################################
+
+# cloud
+doParallel::registerDoParallel(cores = detectCores())
+how_much_data <- 0.7
+
+
+# local
+doParallel::registerDoParallel(cores = detectCores() -1 )
+how_much_data <- 0.01
+
+
+
 ###############################################################################
 # read in data
 ###############################################################################
 
 
-# data <- read.csv("./data/clean_data/clean_ml.csv")
+# read in all data frame clean data folder
+file_list <- list.files("./data/clean_data/individual_episodes", pattern = "*.csv", full.names = TRUE)
+data <- do.call(rbind,lapply(file_list,read.csv))
 
-
-
-# check for episode 12 to be dropped!
-
-
-# drop the epilogues and everything, which is not the actual episode
-clean <- clean %>%
+# drop the epilogues and everything, which is not the actual episodes
+data <- data %>%
+  filter(episode != 12) %>% 
   filter(episode <= 115) %>%
   filter(segment != "break") %>%
   filter(segment != "extra") %>% 
   filter(!is.na(segment))
 
-# export csv 
-write.csv(clean, "./data/clean_data/full_data/clean_no_breaks_extra.csv", row.names = FALSE)
-
 # only keep relevant variables for machine learning
-clean <- clean %>% select(episode, turn_number, actor, text, turn_number, words_per_ms)
-
-
-
+data <- data %>% select(episode, arc, turn_number,segment, actor_guest, text, time_in_sec, words_per_minute,rp_combat)
 
 ###############################################################################
 # create dummy variable for Matt
 ###############################################################################
 data <- data %>% 
-  mutate(matt = if_else(actor == "MATT", "Matt", "Other")) %>% 
+  mutate(matt = if_else(actor_guest == "MATT", "Matt", "Other")) %>% 
   mutate(matt = as.factor(matt))
 
 backup <- data
+
 # set seed random: Mercer's birthday
 set.seed(19820629)
-data <- slice_sample(data, prop = 0.4)
+data <- slice_sample(data, prop = 0.01)
 
 ###############################################################################
 # silge
@@ -64,19 +74,17 @@ data <- slice_sample(data, prop = 0.4)
 set.seed(20150312)
 
 # splits
-splits <- initial_split(data, strata = matt)
+splits <- initial_split(data, strata = actor_guest)
 train <- training(splits)
 test <- testing(splits)
 
 # seed for folds (airing first episode second campaign):
 set.seed(20180111)
 # cross validation folds
-folds <- vfold_cv(train, strata = matt)
+folds <- vfold_cv(train, strata = actor_guest)
 
-
-
-cr_recipe <- recipe(matt ~ text, data = train) %>% 
-  step_downsample(matt) %>% 
+cr_recipe <- recipe(actor_guest ~ text, data = train) %>% 
+  step_downsample(actor_guest) %>% 
   step_textfeature(text) %>% 
   step_zv(all_predictors()) %>% 
   step_normalize(all_predictors())
@@ -103,15 +111,19 @@ tune_res <- tune_grid(
   grid = 20
 )
 
+
+
 # by hand tuning to find best model
-tune_res %>%
+tmp <- tune_res %>%
   collect_metrics() %>%
   filter(.metric == "roc_auc") %>%
   select(mean, min_n, mtry) %>%
   pivot_longer(min_n:mtry,
                values_to = "value",
                names_to = "parameter"
-  ) %>%
+  ) 
+
+tmp %>%
   ggplot(aes(value, mean, color = parameter)) +
   geom_point(show.legend = FALSE) +
   facet_wrap(~parameter, scales = "free_x") +
@@ -119,8 +131,8 @@ tune_res %>%
 
 
 rf_grid <- grid_regular(
-  mtry(range = c(4, 8)),
-  min_n(range = c(35, 40)),
+  min_n(range = c(20, 40)),
+  mtry(range = c(2, 9)),
   levels = 5
 )
 
@@ -154,7 +166,7 @@ library(vip)
 
 final_rf %>%
   set_engine("ranger", importance = "permutation") %>%
-  fit(matt ~ .,
+  fit(actor_guest ~ .,
       data = juice(cr_prep) ) %>%
   vip(geom = "point")
 
