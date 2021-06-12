@@ -177,7 +177,7 @@ With the end of season two approaching, it is time to look back on the humble be
 
 The large online community of the show provided subtitles for every episode of the first season. These can be used to construct data sets, which we then can use for analyses of language, text and interactions during the show. Rameshkumar and Bailey (2020) use these to construct a data set to test models, which predict the text word of a text (similar to what you may find in your phone when typing a message). The unscripted nature of the show makes the dialogue less predictable than other text and therefore makes it a good test for these algorithms.
 
-However, Rameshkumar and Bailey's approach omits time stamps from the data and focuses on dialogue entirely. While this approach is reasonable when predicting the next word, leaving out time from the data excludes interesting information. For example, one could potentially use the subtitles and the videos of the episodes to train a neural network, which then act as a chat bot for one of the characters. This is, however, far beyond the scope of this blog post. Instead, we will examine at descriptive statistics to look back on the first season of the series.
+However, Rameshkumar and Bailey's approach omits time stamps from the data and focuses on dialogue entirely. While this approach is reasonable when predicting the next word, leaving out time from the data excludes interesting information. For example, one may potentially use the subtitles and the videos of the episodes to train a neural network, which then act out an entire episode in the future. This is, however, far beyond the scope of this blog post. Instead, we will examine at descriptive statistics to look back on the first season of the series.
 
 In total the subtitles for the first season cover over `r format(round(mean(actor_words_time$total_time)/3600), scientific = F)` hours of game play and contain roughly `r round(sum(actor_words_time$words)/1000000, digits = 1)` million words. A typical episode might start with the game master Matthew Mercer saying: "Hello everybody and good evening. Welcome to Critical Role." In the subtitles this looks as follows:
 
@@ -385,7 +385,7 @@ ggraph(network, layout = "circle") +
   ) +
   labs(
     title = "Who Speaks With Whom?",
-    subtitle = "Purple lines indicate litte interactions. The redder a line, the more interactions.",
+    subtitle ="Red lines indicate litte interactions. Purple lines indicate more interactions.",
     caption = "Source: Critical-Role-Subtitles, CritStats"
   ) +
   base_theme() +
@@ -457,7 +457,7 @@ ggraph(same_thought_network, layout = "circle") +
   ) +
   labs(
     title = "Who says the same Things simultaneously?",
-    subtitle = "Purple lines indicate litte interactions. The redder a line, the more interactions.",
+    subtitle = "Red lines indicate litte interactions. Purple lines indicate more interactions.",
     caption = "Source: Critical-Role-Subtitles, CritStats"
   ) +
   base_theme() +

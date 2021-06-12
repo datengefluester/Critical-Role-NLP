@@ -26,12 +26,11 @@ other text and therefore makes it a good test for these algorithms.
 However, Rameshkumar and Bailey’s approach omits time stamps from the
 data and focuses on dialogue entirely. While this approach is reasonable
 when predicting the next word, leaving out time from the data excludes
-interesting information. For example, one could potentially use the
+interesting information. For example, one may potentially use the
 subtitles and the videos of the episodes to train a neural network,
-which then act as a chat bot for one of the characters. This is,
-however, far beyond the scope of this blog post. Instead, we will
-examine at descriptive statistics to look back on the first season of
-the series.
+which then act out an entire episode in the future. This is, however,
+far beyond the scope of this blog post. Instead, we will examine at
+descriptive statistics to look back on the first season of the series.
 
 In total the subtitles for the first season cover over 431 hours of game
 play and contain roughly 3.4 million words. A typical episode might
