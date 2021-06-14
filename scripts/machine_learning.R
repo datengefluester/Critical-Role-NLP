@@ -9,7 +9,7 @@ library(tidymodels)   # actual ML and feature engineering, class imbalance etc.
 library(textrecipes)  # for text feature in pipe
 library(doParallel)   # for parallel computing
 library(vip)          # explore variable importance
-
+library(yaml)         # to save models
 
 # Read in Data ------------------------------------------------------------
 file_list <- list.files("./data/clean_data/individual_episodes", 
@@ -40,7 +40,7 @@ doParallel::registerDoParallel(cores = detectCores())
 
 # local
 doParallel::registerDoParallel(cores = detectCores() -1 )
-data <- data %>% slice(1:1000)
+data <- data %>% slice(1:10000)
 
 
 # Splitting into Training, Testing and Folds ------------------------------
@@ -54,6 +54,8 @@ train <- training(splits)
 test <- testing(splits)
 
 # cross validation folds
+# seed for folds (airing first episode second campaign):
+set.seed(20180111)
 folds <- vfold_cv(train, strata = actor_guest)
 
 
@@ -68,12 +70,13 @@ cr_recipe <- recipe(actor_guest ~ text, data = train) %>%
 
 
 # Prep and Juice the Model (processioning and finalizing model) ------------
-cr_prep <- prep(cr_recipe)
-cr_juiced <- juice(cr_prep)
+cr_prep <- prep(cr_recipe)    # compute recipe
+cr_juiced <- juice(cr_prep)   # get preprocessed data
 
 
 
 # Random Forrest ----------------------------------------------------------
+# define it model
 rf_spec <- rand_forest(
   mtry = tune(),        # number of predictors randomly sampled
   trees = 1000,         # numbers trees fitted
@@ -82,15 +85,18 @@ rf_spec <- rand_forest(
   set_mode("classification") %>%
   set_engine("ranger")
 
+# combine recipe and model to workflow
 rf_wf <- workflow() %>%
   add_recipe(cr_recipe) %>%
-  add_model(rf_spec)
+  add_model(rf_spec) 
 
+# define search grid
 rf_res <- tune_grid(
   rf_wf,
   resamples = folds,
-  grid = 20
+  grid = 40
 )
+
 
 # Find Best Model: Plotting -----------------------------------------------
 
@@ -110,9 +116,9 @@ rf_res %>%
 
 # Define new Grid by Hand and Rerun Model ---------------------------------
 
-# range
+# new grid based on previous results
 rf_grid <- grid_regular(
-  min_n(range = c(15, 40)),
+  min_n(range = c(15, 30)),
   mtry(range = c(2, 10)),
   levels = 1
 )
@@ -174,6 +180,8 @@ rf_last_fit <- rf_final_wf %>%
 rf_last_fit %>%
   collect_metrics()
 
+
+write_yaml(rf_final, "random_forrest.yml")
 
 
 
