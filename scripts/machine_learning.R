@@ -162,16 +162,16 @@ rf_final %>%
 # Finalize Model and Fit It -----------------------------------------------
 
 # final work flow and fit
-final_wf <- workflow() %>%
+rf_final_wf <- workflow() %>%
   add_recipe(cr_recipe) %>%
   add_model(rf_final)
 
 # last prediction on test data
-final_res <- final_wf %>%
+rf_last_fit <- rf_final_wf %>%
   last_fit(splits)
 
 # collect AUC and accuracy
-final_res %>%
+rf_last_fit %>%
   collect_metrics()
 
 
