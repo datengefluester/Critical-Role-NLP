@@ -535,31 +535,3 @@ fit <- xgb_last_fit %>%
 
 
 
-
-# 3D Graph Try ------------------------------------------------------------
-
-# library(gg3D)
-# 
-# tmp <- data %>% 
-#   slice(1:1000) %>% 
-#   filter(actor_guest != "ZAC") %>%
-#   filter(actor_guest != "BRIAN") %>%
-#   filter(!grepl("AND", actor_guest)) %>% 
-#   recipe(actor_guest ~ text +time_in_sec + words_per_minute) %>% 
-#   step_textfeature(text) %>% 
-#   step_zv(all_predictors()) 
-# 
-# tmp <- prep(tmp)  
-# tmp <- juice(tmp) 
-# 
-# 
-# tmp <- tmp%>% 
-#   rename(unique_words = textfeature_text_n_uq_words) %>% 
-#   mutate(actor_guest = replace(actor_guest, actor_guest!="MATT", "OTHER")) %>% 
-#   select(actor_guest, time_in_sec, words_per_minute, unique_words) 
-# 
-# ggplot(tmp, aes(x=unique_words, y=time_in_sec, z=words_per_minute, color=actor_guest)) + 
-#   theme_void() +
-#   axes_3D(theta=120, phi= 140) +
-#   stat_3D(theta=120 , phi= 140)
-
