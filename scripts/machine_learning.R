@@ -464,7 +464,6 @@ saveRDS(naive_final_model, "./output/models/naive_bayes.rds")
 
 
 # XGBoost TO BE EDITED ----------------------------------------------------
-#lol
 
 xgb_spec <- boost_tree(
   trees = 1000, 
