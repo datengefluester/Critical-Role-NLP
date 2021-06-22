@@ -25,7 +25,8 @@ data <- data %>%
   filter(segment != "break") %>%
   filter(segment != "extra") %>% 
   filter(!is.na(segment)) %>% 
-  filter(!is.na(rp_combat))
+  filter(!is.na(rp_combat)) %>% 
+  mutate(id = row_number())
 
 # also drop every speaker, which contains 'AND' as these are multiple speakers,
 # which increases the amount of classes to be predicted significantly and 
@@ -33,10 +34,11 @@ data <- data %>%
 data <- data %>% 
   filter(actor_guest != "ZAC") %>%
   filter(actor_guest != "BRIAN") %>%
+  filter(actor_guest != "OFFSCREEN") %>% 
   filter(!grepl("AND", actor_guest))
 
 # only keep relevant variables for machine learning
-data <- data %>% select(actor_guest, episode, arc, segment, 
+data <- data %>% select(id, actor_guest, episode, arc, segment, 
                         text, time_in_sec, words_per_minute, rp_combat)
 
 # transform rp_combat to be more intuitive
@@ -71,16 +73,18 @@ set.seed(20180111)
 folds <- vfold_cv(train, strata = actor_guest)
 
 
-
 # Recipe ------------------------------------------------------------------
 cr_recipe <- recipe(actor_guest ~ text +time_in_sec + words_per_minute + segment + combat, data = train) %>% 
   step_downsample(actor_guest) %>%        # deal with class imbalance
   step_dummy(segment) %>%            # convert factor variables into multiple dummy variables
-  step_textfeature(text) %>%              # extract text features
-  step_zv(all_predictors()) %>%           # remove everything with zero variance
   step_normalize(time_in_sec, words_per_minute, contains("textfeature"))  %>%       # normalize numeric predictors
-  step_lincomb(all_numeric())             # remove any linear combinations
-
+  step_zv(all_predictors())  %>%           # remove everything with zero variance
+  step_lincomb(all_numeric())  %>%        # remove any linear combinations
+  step_tokenize(text) %>% # Tokenizes to words by default
+  step_stopwords(text) %>% # Uses the english snowball list by default
+  step_tokenfilter(text, max_tokens = 100) %>%
+  step_tfidf(text)
+  
 
 
 # Prep and Juice the Model (processioning and finalizing model) ------------
@@ -132,9 +136,9 @@ rf_res %>%
 
 # new grid based on previous results
 rf_grid <- grid_regular(
-  min_n(range = c(30, 40)),
-  mtry(range = c(1, 4)),
-  trees(range = c(1000,2000)),
+  min_n(range = c(18, 23)),
+  mtry(range = c(1, 15)),
+  trees(range = c(1500,1800)),
   levels = 1
 )
 
@@ -437,10 +441,12 @@ naive_last_fit <-
   last_fit(splits)
 
 # collect AUC and accuracy
-fit <- naive_last_fit %>%
+fit <- 
+  
+tmp <-  naive_last_fit %>%
   collect_metrics() %>% 
   as.data.frame() %>% 
-  select(.metric, .estimate) %>% 
+  dplyr::select(.metric,.estimate) %>% 
   pivot_wider(names_from = .metric, values_from = .estimate) %>% 
   mutate(model = "naive_bayes") %>% 
   bind_rows(fit)
@@ -454,7 +460,6 @@ predict(naive_final_model, data[222,])
 
 # save model
 saveRDS(naive_final_model, "./output/models/naive_bayes.rds")
-
 
 
 # XGBoost TO BE EDITED ----------------------------------------------------
