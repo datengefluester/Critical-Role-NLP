@@ -59,7 +59,7 @@
 "58","End",8,104,58,"prologue","MARISHA","brian foster!",289.278,291.11,1.83199999999999,3,98.2532751091706,NA,"role_play","MARISHA",1,0,0,0
 "59","End",8,104,59,"prologue","TRAVIS","we're going to have a whole pre-show specifically for the vip seats. we're going to have a gift package! a special gift bag. and the tickets go on sale tomorrow morning at 10:00 am pacific. what's pdt?",291.11,302.597,11.487,43,224.601723687648,NA,"role_play","TRAVIS",1,0,0,0
 "60","End",8,104,60,"prologue","SAM","pacific daylight time.",302.597,304.37,1.77300000000002,4,135.363790186123,NA,"role_play","SAM",1,0,0,0
-"61","End",8,104,61,"prologue","TRAVIS","oh! that one! 10:00 am pdt.",304.37,307.46,3.08999999999997,8,155.339805825244,NA,"role_play","TRAVIS",1,0,0,0
+"61","End",8,104,61,"prologue","TRAVIS","00 am pdt.",304.37,307.46,3.08999999999997,4,77.669902912622,NA,"role_play","TRAVIS",1,0,0,0
 "62","End",8,104,62,"prologue","SAM","when we're in daylight savings time, it's dt. pst is when we're not in daylight savings.",307.46,313.145,5.685,20,211.081794195251,NA,"role_play","SAM",1,0,0,0
 "63","End",8,104,63,"prologue","TALIESIN","i just learned that.",313.145,314.587,1.44200000000001,5,208.044382801663,NA,"role_play","TALIESIN",1,0,0,0
 "64","End",8,104,64,"prologue","TRAVIS","i just did too, that was great! and a ticketing link can be found on geekandsundry.com tomorrow morning 10 am b no pdt! help me. i'm stroking out.",314.587,325.648,11.061,31,168.158394358557,NA,"role_play","TRAVIS",1,0,0,0
@@ -68,7 +68,7 @@
 "67","End",8,104,67,"prologue","LAURA","well, yeah.",334.244,335.717,1.47299999999996,3,122.199592668028,NA,"role_play","LAURA",1,0,0,0
 "68","End",8,104,68,"prologue","MATT","all right, awesome! thank you, travis! so excited about that, guys! so we'll see you guys at gen con. we have some fun stuff coming up there at san diego comic-con! we announced the panel we have. that is on...",335.717,349.277,13.56,43,190.265486725664,NA,"role_play","MATT",0,0,0,1
 "69","End",8,104,69,"prologue","TRAVIS","saturday, 10:30.",349.277,351.42,2.14300000000003,4,111.992533831076,NA,"role_play","TRAVIS",1,0,0,0
-"70","End",8,104,70,"prologue","LAURA","it's 10:30?",351.42,352.95,1.52999999999997,5,196.078431372553,NA,"role_play","LAURA",1,0,0,0
+"70","End",8,104,70,"prologue","LAURA","30?",351.42,352.95,1.52999999999997,2,78.431372549021,NA,"role_play","LAURA",1,0,0,0
 "71","End",8,104,71,"prologue","TRAVIS","10:30 am.",352.95,354.118,1.16800000000001,4,205.479452054793,NA,"role_play","TRAVIS",1,0,0,0
 "72","End",8,104,72,"prologue","LAURA","sweet.",354.118,355.331,1.21300000000002,2,98.9282769991738,NA,"role_play","LAURA",1,0,0,0
 "73","End",8,104,73,"prologue","TRAVIS","it's at room 3 letters. bcd?",355.331,358.347,3.01599999999996,8,159.151193633954,NA,"role_play","TRAVIS",1,0,0,0
@@ -174,7 +174,7 @@
 "173","End",8,104,173,"first_half_rp","LAURA","does it feel nice?",1174.618,1177.149,2.53099999999995,5,118.53022520743,NA,"role_play","LAURA",1,0,0,0
 "174","End",8,104,174,"first_half_rp","MATT","it feels nice. it feels comfortable. it's welcoming, if a little quiet.",1177.149,1180.126,2.97700000000009,14,282.163251595558,NA,"role_play","MATT",0,0,0,1
 "175","End",8,104,175,"first_half_rp","TRAVIS","when this rest is over, do we know what direction we're going in?",1180.126,1184.678,4.55200000000013,15,197.715289982419,NA,"role_play","TRAVIS",1,0,0,0
-"176","End",8,104,176,"first_half_rp","LAURA AND MARISHA AND TALIESIN","towards the tower.",1184.678,1188.865,4.1869999999999,4,57.3202770480071,NA,"role_play","LAURA AND MARISHA AND TALIESIN",1,0,0,0
+"176","End",8,104,176,"first_half_rp","TALIESIN","laura, marisha, and towards the tower.",1184.678,1188.865,4.1869999999999,7,100.310484834012,NA,"role_play","TALIESIN",1,0,0,0
 "177","End",8,104,177,"first_half_rp","TRAVIS","jeez, not everybody at fucking once. all right. shit.",1188.865,1192.542,3.67699999999991,10,163.176502583632,NA,"role_play","TRAVIS",1,0,0,0
 "178","End",8,104,178,"first_half_rp","MARISHA","well, you had such good observation skills with the whole ever-present light thing.",1192.542,1196.629,4.08699999999999,15,220.21042329337,NA,"role_play","MARISHA",1,0,0,0
 "179","End",8,104,179,"first_half_rp","TRAVIS","what does that mean?",1196.629,1198.588,1.95900000000006,5,153.139356814697,NA,"role_play","TRAVIS",1,0,0,0

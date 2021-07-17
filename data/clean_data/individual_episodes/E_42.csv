@@ -1077,7 +1077,7 @@
 "1076","Attack_Conclave",4,42,1076,"combat","SAM","vax hasn't gone? oh my god.",5703.002,5705.353,2.35099999999966,8,204.168438962173,1,"combat","SAM",1,0,0,0
 "1077","Attack_Conclave",4,42,1077,"combat","LAURA","no. because he rolled a one, remember?",5705.353,5707.404,2.05100000000039,8,234.032179424627,1,"combat","LAURA",1,0,0,0
 "1078","Attack_Conclave",4,42,1078,"combat","LIAM","yup!",5707.404,5710.122,2.71799999999985,2,44.1501103752784,1,"combat","LIAM",1,0,0,0
-"1079","Attack_Conclave",4,42,1079,"combat","SAM","okay. i will inspire vax with my inspiration. and i will say: this is ground control to major vax, you've really made the blade. and the papers want to know whose blood you spilled!",5710.122,5730.032,19.9099999999999,36,108.488196885988,1,"combat","SAM",1,0,0,0
+"1079","Attack_Conclave",4,42,1079,"combat","SAM","okay. i will inspire vax with my inspiration. and vax, you've really made the blade. and the papers want to know whose blood you spilled!",5710.122,5730.032,19.9099999999999,27,81.3661476644908,1,"combat","SAM",1,0,0,0
 "1080","Attack_Conclave",4,42,1080,"combat","MATT","all right, take your d10 inspiration die.",5730.032,5733.134,3.10199999999986,8,154.73887814314,1,"combat","MATT",0,0,0,1
 "1081","Attack_Conclave",4,42,1081,"combat","LIAM","d10. yes.",5733.134,5734.892,1.75799999999981,3,102.389078498305,1,"combat","LIAM",1,0,0,0
 "1082","Attack_Conclave",4,42,1082,"combat","SAM","rest in peace.",5734.892,5737.368,2.47600000000057,4,96.9305331179099,1,"combat","SAM",1,0,0,0
@@ -1709,7 +1709,7 @@
 "1708","Attack_Conclave",4,42,1708,"break","SAM","oh no no no, requires attunement. what do you think?",8998.386,9006.571,8.18499999999949,11,80.6353084911474,NA,NA,"SAM",1,0,0,0
 "1709","Attack_Conclave",4,42,1709,"break","LIAM","well, that's not a bad idea, but it means we've got to sit in this stank.",9006.571,9010.059,3.48799999999937,19,326.83486238538,NA,NA,"LIAM",1,0,0,0
 "1710","Attack_Conclave",4,42,1710,"break","SAM","i can instantly make us, with seeming, i can instantly make us all look different. or just you.",9010.059,9017.584,7.52500000000146,19,151.495016611266,NA,NA,"SAM",1,0,0,0
-"1711","Attack_Conclave",4,42,1711,"break","LAURA","or just me. how about just me? i've got a question, though. here's the thing: if you think that they know what i look like, don't you think they know what you look like? because you look just like me. so what difference does it make if i'm there or not?",9017.584,9029.756,12.1719999999987,56,276.043378245183,NA,NA,"LAURA",1,0,0,0
+"1711","Attack_Conclave",4,42,1711,"break","LAURA","or just me. how about just me? i've got a question, though. that they know what i look like, don't you think they know what you look like? because you look just like me. so what difference does it make if i'm there or not?",9017.584,9029.756,12.1719999999987,49,241.537955964535,NA,NA,"LAURA",1,0,0,0
 "1712","Attack_Conclave",4,42,1712,"break","LIAM","i don't know if the person who wanted you was part of the clasp. i don't know who it was. it's parading you around in front of the people who made an illicit deal with me.",9029.756,9040.94,11.1840000000011,40,214.59227467809,NA,NA,"LIAM",1,0,0,0
 "1713","Attack_Conclave",4,42,1713,"break","LAURA","all right, all right, all right. seeming, how about that?",9040.94,9042.574,1.63400000000001,11,403.916768665847,NA,NA,"LAURA",1,0,0,0
 "1714","Attack_Conclave",4,42,1714,"break","LIAM","it could be fine. i don't know.",9042.574,9044.083,1.50900000000001,9,357.852882703774,NA,NA,"LIAM",1,0,0,0
@@ -2424,12 +2424,12 @@
 "2423","Attack_Conclave",4,42,2423,"second_half_rp","LAURA","he was very handsome.",12870.227,12872.371,2.14399999999841,5,139.925373134432,NA,"role_play","LAURA",1,0,0,0
 "2424","Attack_Conclave",4,42,2424,"second_half_rp","MARISHA","so we should probably go to sleep, you guys.",12872.371,12876.131,3.76000000000022,10,159.574468085097,NA,"role_play","MARISHA",1,0,0,0
 "2425","Attack_Conclave",4,42,2425,"second_half_rp","LAURA","it's morning, still.",12876.131,12877.744,1.61300000000119,5,185.988840669422,NA,"role_play","LAURA",1,0,0,0
-"2426","Attack_Conclave",4,42,2426,"second_half_rp","MATT","yeah, it's maybe 10:00am.",12877.744,12881.516,3.77199999999903,7,111.346765641598,NA,"role_play","MATT",0,0,0,1
+"2426","Attack_Conclave",4,42,2426,"second_half_rp","MATT","00am.",12877.744,12881.516,3.77199999999903,2,31.8133616118852,NA,"role_play","MATT",0,0,0,1
 "2427","Attack_Conclave",4,42,2427,"second_half_rp","MARISHA","take a nap?",12881.516,12882.845,1.32899999999972,4,180.586907449247,NA,"role_play","MARISHA",1,0,0,0
 "2428","Attack_Conclave",4,42,2428,"second_half_rp","MATT","it's across the world, so it's technically earlier.",12882.845,12884.789,1.94400000000132,11,339.506172839275,NA,"role_play","MATT",0,0,0,1
 "2429","Attack_Conclave",4,42,2429,"second_half_rp","MARISHA","you know, it's jet lag. it's teleport lag. it gets to you.",12884.789,12889.417,4.62799999999879,15,194.46845289547,NA,"role_play","MARISHA",1,0,0,0
 "2430","Attack_Conclave",4,42,2430,"second_half_rp","LAURA","maybe nessa and zahra have seen him. we could find out. we could use another healer, always.",12889.417,12893.679,4.26200000000063,18,253.402158610944,NA,"role_play","LAURA",1,0,0,0
-"2431","Attack_Conclave",4,42,2431,"second_half_rp","MATT","it would be 10:00, 10:30 in whitestone. about 6:30, 7:00 in the morning in vasselheim.",12893.679,12903.093,9.41400000000067,20,127.46972594008,NA,"role_play","MATT",0,0,0,1
+"2431","Attack_Conclave",4,42,2431,"second_half_rp","MATT","00, 10:30 in whitestone. about 6:30, 7:00 in the morning in vasselheim.",12893.679,12903.093,9.41400000000067,16,101.975780752064,NA,"role_play","MATT",0,0,0,1
 "2432","Attack_Conclave",4,42,2432,"second_half_rp","LAURA","pike, speaking of clerics, do you want to check in with your temple?",12903.093,12906.097,3.003999999999,14,279.627163781718,NA,"role_play","LAURA",1,0,0,0
 "2433","Attack_Conclave",4,42,2433,"second_half_rp","MATT","pike has actually stayed back in whitestone to help the refugees.",12906.097,12912.021,5.92400000000089,12,121.539500337592,NA,"role_play","MATT",0,0,0,1
 "2434","Attack_Conclave",4,42,2434,"second_half_rp","TRAVIS","yep.",12912.021,12913.283,1.26199999999881,2,95.0871632330535,NA,"role_play","TRAVIS",1,0,0,0
@@ -2455,7 +2455,7 @@
 "2454","Attack_Conclave",4,42,2454,"second_half_rp","LIAM","oh, shit, can we buy potions in this city?",12979.072,12981.491,2.41899999999987,10,248.036378668885,NA,"role_play","LIAM",1,0,0,0
 "2455","Attack_Conclave",4,42,2455,"second_half_rp","TALIESIN","i don't know.",12981.491,12982.697,1.20600000000013,5,248.756218905446,NA,"role_play","TALIESIN",1,0,0,0
 "2456","Attack_Conclave",4,42,2456,"second_half_rp","LIAM","shit! you can't, can you?",12982.697,12984.176,1.47899999999936,7,283.975659229332,NA,"role_play","LIAM",1,0,0,0
-"2457","Attack_Conclave",4,42,2457,"second_half_rp","LAURA","i'm afraid to start anything. it's 11:00.",12984.176,12986.172,1.996000000001,11,330.661322645124,NA,"role_play","LAURA",1,0,0,0
+"2457","Attack_Conclave",4,42,2457,"second_half_rp","LAURA","i'm afraid to start anything.00.",12984.176,12986.172,1.996000000001,8,240.480961923727,NA,"role_play","LAURA",1,0,0,0
 "2458","Attack_Conclave",4,42,2458,"second_half_rp","MARISHA","i know, it's late.",12986.172,12987.741,1.56899999999951,6,229.445506692233,NA,"role_play","MARISHA",1,0,0,0
 "2459","Attack_Conclave",4,42,2459,"second_half_rp","MATT","all right. then we will end it there this evening. i just wanted to get an idea of where you guys were going for next week.",12987.741,12995.031,7.29000000000087,27,222.222222222196,NA,"role_play","MATT",0,0,0,1
 "2460","Attack_Conclave",4,42,2460,"second_half_rp","LAURA","oh, okay.",12995.031,12996.149,1.11799999999857,3,161.001788908971,NA,"role_play","LAURA",1,0,0,0

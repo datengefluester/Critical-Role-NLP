@@ -8,7 +8,13 @@ library(tidymodels)   # actual ML and feature engineering, class imbalance etc.
 library(textrecipes)  # for text feature in pipe
 library(doParallel)   # for parallel computing
 library(vip)          # explore variable importance
+library(rpart.plot)   # plotting the decision tree
 library(discrim)      # for naive Bayes
+library(data.table)   # for faster reading in data
+
+# define data frames to keep after each model -----------------------------
+keep <- c("cr_juiced", "cr_prep", "cr_recipe", "data",
+          "fit_models", "folds", "splits", "test", "train", "keep")
 
 
 # Read in Data ------------------------------------------------------------
@@ -16,7 +22,9 @@ file_list <- list.files("./data/clean_data/individual_episodes",
                         pattern = "*.csv", 
                         full.names = TRUE)
 
-data <- do.call(rbind,lapply(file_list,read.csv))
+data <- do.call(rbind,lapply(file_list,fread))
+
+rm(file_list)
 
 # drop the epilogues and everything, which is not the actual episodes
 data <- data %>%
@@ -37,25 +45,30 @@ data <- data %>%
   filter(actor_guest != "OFFSCREEN") %>% 
   filter(!grepl("AND", actor_guest))
 
+# make actor names not all caps
+data <- data %>%
+  mutate(actor_guest = stringr::str_to_title(actor_guest))
+
 # only keep relevant variables for machine learning
-data <- data %>% select(id, actor_guest, episode, arc, segment, 
+data <- data %>% dplyr::select(id, actor_guest, episode, arc, segment, 
                         text, time_in_sec, words_per_minute, rp_combat)
 
 # transform rp_combat to be more intuitive
 data <- data %>% 
   rename(combat = rp_combat) %>% 
   mutate(combat = replace(combat, combat=="role_play", 0)) %>% 
-  mutate(combat = replace(combat, combat=="combat", 1)) 
+  mutate(combat = replace(combat, combat=="combat", 1)) %>% 
+  mutate(combat = as.numeric(combat))
+
 
 # Cloud vs. Local Machine -------------------------------------------------
 
 # cloud
-doParallel::registerDoParallel(cores = detectCores())
+doParallel::registerDoParallel(cores = detectCores()-1)
 
 
 # local
-# data <- data %>% slice(1:10000)
-
+data <- data %>% dplyr::slice(1:10000)
 
 # Splitting into Training, Testing and Folds ------------------------------
 
@@ -83,8 +96,10 @@ cr_recipe <- recipe(actor_guest ~ text +time_in_sec + words_per_minute + segment
   step_tokenize(text) %>% # Tokenizes to words by default
   step_stopwords(text) %>% # Uses the english snowball list by default
   step_tokenfilter(text, max_tokens = 100) %>%
-  step_tfidf(text)
-  
+  step_tfidf(text) %>% 
+  step_integer(all_predictors()) 
+
+summary(cr_recipe)
 
 
 # Prep and Juice the Model (processioning and finalizing model) ------------
@@ -121,7 +136,7 @@ rf_res <- tune_grid(
 rf_res %>%
   collect_metrics() %>%
   filter(.metric == "roc_auc") %>%
-  select(mean, min_n, mtry, trees) %>%
+  dplyr::select(mean, min_n, mtry, trees) %>%
   pivot_longer(min_n:trees,
                values_to = "value",
                names_to = "parameter"
@@ -153,24 +168,11 @@ rf_regular <- tune_grid(
 # Select Best Model
 rf_best_auc <- select_best(rf_regular, "roc_auc")
 
-
-
 # Finalize Model 
 rf_final <- finalize_model(
   rf_spec,
   rf_best_auc
 )
-
-rf_final
-
-
-
-# Explore Model: Variable Importance 
-rf_final %>%
-  set_engine("ranger", importance = "permutation") %>%
-  fit(actor_guest ~ .,
-      data = juice(cr_prep) ) %>%
-  vip(geom = "point")
 
 # final work flow and fit
 rf_final_wf <- 
@@ -187,16 +189,6 @@ rf_last_fit <-
 rf_last_fit %>%
   collect_metrics()
 
-# create data frame for overview for all models
-fit <- rf_last_fit %>%
-  collect_metrics() %>% 
-  as.data.frame() %>% 
-  select(.metric, .estimate) %>% 
-  pivot_wider(names_from = .metric, values_from = .estimate) %>% 
-  mutate(model = "random_forest") %>% 
-  select(model, roc_auc, accuracy)
-
-
 # extract final model and save it
 rf_final_model <- rf_last_fit$.workflow[[1]]
 
@@ -206,9 +198,50 @@ predict(rf_final_model, data[222,])
 # save model
 saveRDS(rf_final_model, "./output/models/rf.rds")
 
+# create data frame for overview for all models
+fit_models <- read.csv("./data/machine_learning/fit_models.csv")
 
+fit_models <- rf_last_fit %>%
+  collect_metrics() %>% 
+  as.data.frame() %>% 
+  dplyr::select(.metric, .estimate) %>% 
+  pivot_wider(names_from = .metric, values_from = .estimate) %>% 
+  mutate(model = "random_forest") %>% 
+  dplyr::select(model, roc_auc, accuracy) %>% 
+  mutate(rightly_classified = accuracy*nrow(test)) %>% 
+  mutate(wrongly_classified = (1-accuracy)*nrow(test)) %>% 
+  bind_rows(fit_models) %>% 
+  group_by(model) %>%
+  filter(row_number(model) == 1)
+write.csv(fit_models, "./data/machine_learning/fit_models.csv", row.names = FALSE)
+
+# get predictions for graphs
+predictions <- rf_last_fit %>%
+  collect_predictions() %>% 
+  dplyr::select(-c(id,.config)) %>% 
+  mutate(model = "random_forest") %>% 
+  relocate(model, .row, actor_guest, .pred_class)
+write.csv(predictions, "./data/machine_learning/rf_predictions.csv", row.names = FALSE)
+
+# Explore Model: Variable Importance 
+rf_vip_graph <- rf_final %>%
+  set_engine("ranger", importance = "permutation") %>%
+  fit(actor_guest ~ .,
+      data = juice(cr_prep) ) %>%
+  vip(geom = "point")
+
+save(rf_vip_graph, file = "./data/machine_learning/rf_vip_graph")
+
+# drop what is no longer needed to save computational resources (but keep 
+# everything, which is needed for the other models)
+drop <- ls()
+drop <- drop[!drop %in% keep]
+drop <- c(drop,"drop")
+rm(list = drop)
 
 # SVM ---------------------------------------------------------------------
+set.seed(19820629)
+# define SVM
 svm_spec <-
   svm_rbf(cost = tune(), 
           rbf_sigma = tune(), 
@@ -249,20 +282,11 @@ svm_final_wf <-
 # last prediction on test data
 svm_last_fit <- 
   svm_final_wf %>%
-  last_fit(splits)
+  last_fit(splits) 
 
 # collect AUC and accuracy
 svm_last_fit %>%
   collect_metrics()
-
-# add to data frame for overview
-fit <- svm_last_fit %>%
-  collect_metrics() %>% 
-  as.data.frame() %>% 
-  select(.metric, .estimate) %>% 
-  pivot_wider(names_from = .metric, values_from = .estimate) %>% 
-  mutate(model = "svm") %>% 
-  bind_rows(fit)
 
 # extract final model and save it
 svm_final_model <- svm_last_fit$.workflow[[1]]
@@ -273,11 +297,47 @@ predict(svm_final_model, data[222,])
 # save model
 saveRDS(svm_final_model, "./output/models/svm.rds")
 
+# add to data frame for overview
+fit_models <- read.csv("./data/machine_learning/fit_models.csv")
 
+fit_models <- svm_last_fit %>%
+  collect_metrics() %>% 
+  as.data.frame() %>% 
+  dplyr::select(.metric, .estimate) %>% 
+  pivot_wider(names_from = .metric, values_from = .estimate) %>% 
+  mutate(model = "svm") %>% 
+  dplyr::select(model, roc_auc, accuracy) %>% 
+  mutate(rightly_classified = accuracy*nrow(test)) %>% 
+  mutate(wrongly_classified = (1-accuracy)*nrow(test)) %>% 
+  bind_rows(fit_models) %>% 
+  group_by(model) %>%
+  filter(row_number(model) == 1)
+write.csv(fit_models, "./data/machine_learning/fit_models.csv", row.names = FALSE)
+
+# get predictions for graphs
+predictions <- svm_last_fit %>%
+  collect_predictions() %>% 
+  dplyr::select(-c(id,.config)) %>% 
+  mutate(model = "svm") %>% 
+  relocate(model, .row, actor_guest, .pred_class)
+
+write.csv(predictions, "./data/machine_learning/svm_predictions.csv", row.names = FALSE)
+
+
+# Explore Model: Variable Importance 
+# https://stackoverflow.com/questions/62772397/integration-of-variable-importance-plots-within-the-tidy-modelling-framework
+
+# drop what is no longer needed to save computational resources (but keep 
+# everything, which is needed for the other models)
+drop <- ls()
+drop <- drop[!drop %in% keep]
+drop <- c(drop,"drop")
+rm(list = drop)
 
 
 # Decision Tree -----------------------------------------------------------
-
+set.seed(19820629)
+# define model
 tree_spec <- decision_tree(
   cost_complexity = tune(),
   tree_depth = tune(),
@@ -310,7 +370,6 @@ tree_final <- finalize_model(
   tree_best_auc
 )
 
-
 # final work flow and fit
 tree_final_wf <- 
   workflow() %>%
@@ -322,15 +381,6 @@ tree_last_fit <-
   tree_final_wf %>%
   last_fit(splits)
 
-# collect AUC and accuracy
-fit <- tree_last_fit %>%
-  collect_metrics() %>% 
-  as.data.frame() %>% 
-  select(.metric, .estimate) %>% 
-  pivot_wider(names_from = .metric, values_from = .estimate) %>% 
-  mutate(model = "decision_tree") %>% 
-  bind_rows(fit)
-
 # extract final model and save it
 tree_final_model <- tree_last_fit$.workflow[[1]]
 
@@ -340,9 +390,58 @@ predict(tree_final_model, data[222,])
 # save model
 saveRDS(tree_final_model, "./output/models/decision_tree.rds")
 
+# add to data frame for overview
+fit_models <- read.csv("./data/machine_learning/fit_models.csv")
+fit_models <- tree_last_fit %>%
+  collect_metrics() %>% 
+  as.data.frame() %>% 
+  dplyr::select(.metric, .estimate) %>% 
+  pivot_wider(names_from = .metric, values_from = .estimate) %>% 
+  mutate(model = "decision_tree") %>% 
+  dplyr::select(model, roc_auc, accuracy) %>% 
+  mutate(rightly_classified = accuracy*nrow(test)) %>% 
+  mutate(wrongly_classified = (1-accuracy)*nrow(test)) %>% 
+  bind_rows(fit_models) %>% 
+  group_by(model) %>%
+  filter(row_number(model) == 1)
+write.csv(fit_models, "./data/machine_learning/fit_models.csv", row.names = FALSE)
+
+# get predictions for graphs
+predictions <- tree_last_fit %>%
+  collect_predictions() %>% 
+  dplyr::select(-c(id,.config)) %>% 
+  mutate(model = "decision_tree") %>% 
+  relocate(model, .row, actor_guest, .pred_class)
+write.csv(predictions, "./data/machine_learning/decision_tree_predictions.csv", row.names = FALSE)
+
+#  vip graph
+tree_fit <- tree_final_wf %>%
+  fit(test) %>% 
+  pull_workflow_fit()
+
+tree_vip_graph <- tree_fit %>%
+  vip(geom = "point") 
+save(tree_vip_graph, file = "./data/machine_learning/decision_tree_vip_graph")
+
+# plotting the decision tree
+png(file="./data/machine_learning/decision_tree.png",
+    width = 2048, height = 1536)
+rpart.plot(tree_fit$fit, type = 3, yesno=2, clip.right.labs = FALSE, branch = .3, under = TRUE)
+dev.off()
+
+
+# drop what is no longer needed to save computational resources (but keep 
+# everything, which is needed for the other models)
+drop <- ls()
+drop <- drop[!drop %in% keep]
+drop <- c(drop,"drop")
+rm(list = drop)
+
+
 
 # KNN ---------------------------------------------------------------------
-
+set.seed(19820629)
+# define model
 knn_spec <- 
   nearest_neighbor(neighbors = tune(), 
                    weight_func = tune()) %>% 
@@ -381,15 +480,6 @@ knn_last_fit <-
   knn_final_wf %>%
   last_fit(splits)
 
-# collect AUC and accuracy
-fit <- knn_last_fit %>%
-  collect_metrics() %>% 
-  as.data.frame() %>% 
-  select(.metric, .estimate) %>% 
-  pivot_wider(names_from = .metric, values_from = .estimate) %>% 
-  mutate(model = "knn") %>% 
-  bind_rows(fit)
-
 # extract final model and save it
 knn_final_model <- knn_last_fit$.workflow[[1]]
 
@@ -399,9 +489,40 @@ predict(knn_final_model, data[222,])
 # save model
 saveRDS(knn_final_model, "./output/models/knn.rds")
 
+# add to data frame for overview
+fit_models <- read.csv("./data/machine_learning/fit_models.csv")
+fit_models <- knn_last_fit %>%
+  collect_metrics() %>% 
+  as.data.frame() %>% 
+  dplyr::select(.metric, .estimate) %>% 
+  pivot_wider(names_from = .metric, values_from = .estimate) %>% 
+  mutate(model = "knn") %>% 
+  dplyr::select(model, roc_auc, accuracy) %>% 
+  mutate(rightly_classified = accuracy*nrow(test)) %>% 
+  mutate(wrongly_classified = (1-accuracy)*nrow(test)) %>% 
+  bind_rows(fit_models) %>% 
+  group_by(model) %>%
+  filter(row_number(model) == 1)
+write.csv(fit_models, "./data/machine_learning/fit_models.csv", row.names = FALSE)
 
+# get predictions for graphs
+predictions <- knn_last_fit %>%
+  collect_predictions() %>% 
+  dplyr::select(-c(id,.config)) %>% 
+  mutate(model = "knn") %>% 
+  relocate(model, .row, actor_guest, .pred_class)
+write.csv(predictions, "./data/machine_learning/knn_predictions.csv", row.names = FALSE)
+
+# drop what is no longer needed to save computational resources (but keep 
+# everything, which is needed for the other models)
+drop <- ls()
+drop <- drop[!drop %in% keep]
+drop <- c(drop,"drop")
+rm(list = drop)
 
 # Naive Bayes -------------------------------------------------------------
+set.seed(19820629)
+# define model
 naive_spec <- 
   naive_Bayes(smoothness = tune(), 
               Laplace = tune()) %>% 
@@ -418,7 +539,6 @@ naive_res <- tune_grid(
   resamples = folds,
   control = control_grid(parallel_over = "everything")
 )
-
 
 # Select Best Model 
 naive_best_auc <- select_best(naive_res, "roc_auc")
@@ -440,18 +560,6 @@ naive_last_fit <-
   naive_final_wf %>%
   last_fit(splits)
 
-# collect AUC and accuracy
-fit <- 
-  
-tmp <-  naive_last_fit %>%
-  collect_metrics() %>% 
-  as.data.frame() %>% 
-  dplyr::select(.metric,.estimate) %>% 
-  pivot_wider(names_from = .metric, values_from = .estimate) %>% 
-  mutate(model = "naive_bayes") %>% 
-  bind_rows(fit)
-
-
 # extract final model and save it
 naive_final_model <- naive_last_fit$.workflow[[1]]
 
@@ -461,17 +569,45 @@ predict(naive_final_model, data[222,])
 # save model
 saveRDS(naive_final_model, "./output/models/naive_bayes.rds")
 
+# add to data frame for overview
+fit_models <- read.csv("./data/machine_learning/fit_models.csv")
+fit_models <- naive_last_fit %>%
+  collect_metrics() %>% 
+  as.data.frame() %>% 
+  dplyr::select(.metric, .estimate) %>% 
+  pivot_wider(names_from = .metric, values_from = .estimate) %>% 
+  mutate(model = "naive_bayes") %>% 
+  dplyr::select(model, roc_auc, accuracy) %>% 
+  mutate(rightly_classified = accuracy*nrow(test)) %>% 
+  mutate(wrongly_classified = (1-accuracy)*nrow(test)) %>% 
+  bind_rows(fit_models) %>% 
+  group_by(model) %>%
+  filter(row_number(model) == 1)
+write.csv(fit_models, "./data/machine_learning/fit_models.csv", row.names = FALSE)
 
-# XGBoost TO BE EDITED ----------------------------------------------------
-#lol
+# get predictions for graphs
+predictions <- naive_last_fit %>%
+  collect_predictions() %>% 
+  dplyr::select(-c(id,.config)) %>% 
+  mutate(model = "naive_bayes") %>% 
+  relocate(model, .row, actor_guest, .pred_class)
+write.csv(predictions, "./data/machine_learning/naive_bayes_predictions.csv", row.names = FALSE)
 
+# drop what is no longer needed to save computational resources (but keep 
+# everything, which is needed for the other models)
+drop <- ls()
+drop <- drop[!drop %in% keep]
+drop <- c(drop,"drop")
+rm(list = drop)
+
+# XGBoost -----------------------------------------------------------------
+set.seed(19820629)
+# define model
 xgb_spec <- boost_tree(
   trees = 1000, 
-  tree_depth = tune(), 
-  min_n = tune(), 
+  tree_depth = tune(), min_n = tune(), 
   loss_reduction = tune(),                     ## first three: model complexity
-  sample_size = tune(),                       ## randomness
-  mtry = tune(),         
+  sample_size = tune(), mtry = tune(),         ## randomness
   learn_rate = tune(),                         ## step size
 ) %>% 
   set_engine("xgboost") %>% 
@@ -525,11 +661,143 @@ xgb_last_fit <-
   xgb_final_wf %>%
   last_fit(splits)
 
-# collect AUC and accuracy
-fit <- xgb_last_fit %>%
+# extract final model and save it
+xgb_final_model <- xgb_last_fit$.workflow[[1]]
+
+# check if you get prediction out
+predict(xgb_final_model, data[222,])
+
+# save model
+saveRDS(xgb_final_model, "./output/models/xgboost.rds")
+
+# add to data frame for overview
+fit_models <- read.csv("./data/machine_learning/fit_models.csv")
+fit_models <- xgb_last_fit %>%
   collect_metrics() %>% 
   as.data.frame() %>% 
-  select(.metric, .estimate) %>% 
+  dplyr::select(.metric, .estimate) %>% 
   pivot_wider(names_from = .metric, values_from = .estimate) %>% 
-  mutate(model = "xgb_boost") %>% 
-  bind_rows(fit)
+  mutate(model = "xbg_boost") %>% 
+  dplyr::select(model, roc_auc, accuracy) %>% 
+  mutate(rightly_classified = accuracy*nrow(test)) %>% 
+  mutate(wrongly_classified = (1-accuracy)*nrow(test)) %>% 
+  bind_rows(fit_models) %>% 
+  group_by(model) %>%
+  filter(row_number(model) == 1)
+write.csv(fit_models, "./data/machine_learning/fit_models.csv", row.names = FALSE)
+
+# get predictions for graphs
+predictions <- xgb_last_fit %>%
+  collect_predictions() %>% 
+  dplyr::select(-c(id,.config)) %>% 
+  mutate(model = "xbg_boost") %>% 
+  relocate(model, .row, actor_guest, .pred_class)
+write.csv(predictions, "./data/machine_learning/xbg_boost_predictions.csv", row.names = FALSE)
+
+# vip plot
+# Explore Model: Variable Importance 
+xgb_vip_graph <- xgb_final_wf %>% 
+  fit(data = test) %>%
+  pull_workflow_fit() %>%
+  vip(geom = "point")
+save(xgb_vip_graph, file = "./data/machine_learning/xbg_boost_vip_graph")
+
+# drop what is no longer needed to save computational resources (but keep 
+# everything, which is needed for the other models)
+drop <- ls()
+drop <- drop[!drop %in% keep]
+drop <- c(drop,"drop")
+rm(list = drop)
+
+
+# Regularized Regression --------------------------------------------------
+set.seed(19820629)
+# define model
+regularized_spec <- multinom_reg(
+  penalty = tune(), 
+  mixture = tune()) %>%
+  set_engine("glmnet") %>% 
+  set_mode("classification")
+
+# combine recipe and model to workflow
+regularized_wf <- workflow() %>%
+  add_recipe(cr_recipe) %>%
+  add_model(regularized_spec) 
+
+# tune grid
+regularized_res <- tune_grid(
+  regularized_wf,
+  resamples = folds,
+  control = control_grid(parallel_over = "everything"), # parallel tuning
+)
+
+# Select Best Model 
+regularized_best_auc <- select_best(regularized_res, "roc_auc")
+
+# Finalize Model 
+regularized_final <- finalize_model(
+  regularized_spec,
+  regularized_best_auc
+)
+
+# final work flow and fit
+regularized_final_wf <- 
+  workflow() %>%
+  add_recipe(cr_recipe) %>%
+  add_model(regularized_final)
+
+# last prediction on test data
+regularized_last_fit <- 
+  regularized_final_wf %>%
+  last_fit(splits)
+
+# extract final model and save it
+regularized_final_model <- regularized_last_fit$.workflow[[1]]
+
+# check if you get prediction out
+tidy(extract_model(regularized_last_fit$.workflow[[1]]))
+
+predict(regularized_final_model, data[222,])
+
+# save model
+saveRDS(regularized_final_model, "./output/models/regularized.rds")
+
+
+# add to data frame for overview
+fit_models <- read.csv("./data/machine_learning/fit_models.csv")
+fit_models <- regularized_last_fit %>%
+  collect_metrics() %>% 
+  as.data.frame() %>% 
+  dplyr::select(.metric, .estimate) %>% 
+  pivot_wider(names_from = .metric, values_from = .estimate) %>% 
+  mutate(model = "regularized") %>% 
+  dplyr::select(model, roc_auc, accuracy) %>% 
+  mutate(rightly_classified = accuracy*nrow(test)) %>% 
+  mutate(wrongly_classified = (1-accuracy)*nrow(test)) %>% 
+  bind_rows(fit_models) %>% 
+  group_by(model) %>%
+  filter(row_number(model) == 1)
+write.csv(fit_models, "./data/machine_learning/fit_models.csv", row.names = FALSE)
+
+# get predictions for graphs
+predictions <- regularized_last_fit %>%
+  collect_predictions() %>% 
+  dplyr::select(-c(id,.config)) %>% 
+  mutate(model = "lasso") %>% 
+  relocate(model, .row, actor_guest, .pred_class)
+write.csv(predictions, "./data/machine_learning/regularized_predictions.csv", row.names = FALSE)
+
+# Explore Model: Variable Importance 
+regularized_model <- regularized_final_wf %>% 
+  fit(data = test) %>%
+  pull_workflow_fit() %>%
+  tidy()
+save(regularized_vip_graph, file = "./data/machine_learning/regularized_model")
+
+# drop what is no longer needed to save computational resources (but keep 
+# everything, which is needed for the other models)
+drop <- ls()
+drop <- drop[!drop %in% keep]
+drop <- c(drop,"drop")
+rm(list = drop)
+

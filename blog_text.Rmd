@@ -32,8 +32,8 @@ source("./scripts/themes.R")
 ```
 
 ```{r data, echo = FALSE}
-# read in every data frame from the 'data_for_graphs' folder
-path <- "./data/data_for_graphs/"
+# read in every data frame from the 'descriptive_analysis' folder
+path <- "./data/descriptive_analysis/"
 files <- list.files(path = path, pattern = "*.csv")
 for (file in files)
 {
@@ -264,7 +264,7 @@ actor_words_time_percent %>%
   labs(
     title = "Words, Turns and Time per Actor",
     subtitle = "In percent of the respective total.",
-    caption = "Source: Critical-Role-Subtitles, CritStats"
+    caption = "Source: Critical-Role-Subtitles, CritStats",
   ) +
   bar_chart_theme() +
   theme(
@@ -273,7 +273,7 @@ actor_words_time_percent %>%
     axis.line.y = element_line(size = rel(0.4), color = "black"),
     axis.text.x = element_text(color = "black", vjust = 5, size = rel(0.5), alpha(2)),
     axis.text.y = element_text(hjust = 1, color = "black", size = rel(0.75), margin = margin(r = -2)),
-    strip.text = element_text(size = 5, face = "bold")
+    strip.text = element_text(size = 5, face = "bold"),
   )
 
 # save graph
@@ -368,6 +368,7 @@ ggsave("./output/images/grades.jpg", width = 4, height = 3)
 So far, we have only looked at each actor individually. As Dungeons and Dragons is an interactive experience, this seems restrictive. The graph below maps out interactions between players. In total, we see that Laura has the most interactions with everybody. Surprisingly, given how the story evolves, she interacts with Taliesin the least out of the regular cast. Likewise, Marisha interacts more with Taliesin than with Liam. However, we can see that Travis often speaks before and after Sam, who act as kind of the chaos duo during the show (anybody looking for Suude?). Moreover, we can also examine whether people, who sit nearer to each other talk to each other more often. This does not seem to be the case (the correlation coefficient is `r round(cor(seating_order$Distance,seating_order$interactions), digits = 2)`). It will be interesting to examine the interactions in season two as well, as both, the characters played by the actors and the seating arrangement, was changed in the new studio.
 
 ```{r who_to_whom, echo = FALSE, error = TRUE}
+
 ggraph(network, layout = "circle") +
   geom_edge_link(aes(
     color = weights,

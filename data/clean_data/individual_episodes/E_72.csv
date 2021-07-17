@@ -621,7 +621,7 @@
 "620","Fall_Conclave",6,72,620,"first_half_rp","TRAVIS","so you half all damage.",5437.907,5439.343,1.43599999999969,6,250.696378830137,NA,"role_play","TRAVIS",1,0,0,0
 "621","Fall_Conclave",6,72,621,"first_half_rp","MATT","half all damage for a minute.",5439.343,5440.936,1.59299999999985,7,263.653483992492,NA,"role_play","MATT",0,0,0,1
 "622","Fall_Conclave",6,72,622,"first_half_rp","LAURA","that is so insane.",5440.936,5445.892,4.95600000000013,5,60.5326876513301,NA,"role_play","LAURA",1,0,0,0
-"623","Fall_Conclave",6,72,623,"first_half_rp","MARISHA","and then potion of speed: when you drink this potion, you gain the effects of haste spell for one minute.",5445.892,5450.386,4.4940000000006,21,280.373831775664,NA,"role_play","MARISHA",1,0,0,0
+"623","Fall_Conclave",6,72,623,"first_half_rp","MARISHA","for one minute.",5445.892,5450.386,4.4940000000006,4,53.4045393858407,NA,"role_play","MARISHA",1,0,0,0
 "624","Fall_Conclave",6,72,624,"first_half_rp","LAURA","i'm putting that in the party inventory.",5450.386,5453.06,2.67399999999998,9,201.944652206434,NA,"role_play","LAURA",1,0,0,0
 "625","Fall_Conclave",6,72,625,"first_half_rp","SAM","no, no, no. hand it out to somebody. oh, that one should go in the party inventory.",5453.06,5458.007,4.94699999999921,18,218.314129775657,NA,"role_play","SAM",1,0,0,0
 "626","Fall_Conclave",6,72,626,"first_half_rp","MARISHA","which one, the potion of speed?",5458.007,5459.995,1.98800000000028,7,211.267605633773,NA,"role_play","MARISHA",1,0,0,0
@@ -1424,191 +1424,190 @@
 "1423","Fall_Conclave",6,72,1423,"epilog","LAURA","were they there before it collapsed?",10132.159,10135.044,2.88500000000022,7,145.580589254755,NA,NA,"LAURA",1,0,0,0
 "1424","Fall_Conclave",6,72,1424,"epilog","LIAM","i don't know. i was standing right beneath the throne when the throne collapsed. then i found them.",10135.044,10140.465,5.42100000000028,20,221.361372440498,NA,NA,"LIAM",1,0,0,0
 "1425","Fall_Conclave",6,72,1425,"epilog","LAURA AND LIAM","were they near the area that it collapsed?",10140.465,10145.551,5.08599999999933,9,106.1738104601,NA,NA,"LAURA AND LIAM",1,0,0,0
-"1426","Fall_Conclave",6,72,1426,"epilog","LIAM AND MATT","one of them was, yeah.",10145.551,10147.953,2.40200000000004,6,149.875104079931,NA,NA,"LIAM AND MATT",1,0,0,0
-"1427","Fall_Conclave",6,72,1427,"epilog","LAURA AND MARISHA AND TALIESIN AND TRAVIS","fuck!",10147.953,10151.905,3.95200000000114,2,30.3643724696269,NA,NA,"LAURA AND MARISHA AND TALIESIN AND TRAVIS",1,0,0,0
-"1428","Fall_Conclave",6,72,1428,"epilog","LIAM","fucking",10151.905,10153.065,1.15999999999985,2,103.448275862082,NA,NA,"LIAM",1,0,0,0
-"1429","Fall_Conclave",6,72,1429,"epilog","MARISHA","hold on, did we maybe get is thordak going to we should go.",10154.086,10166.407,12.3209999999999,14,68.1762843925011,NA,NA,"MARISHA",1,0,0,0
-"1430","Fall_Conclave",6,72,1430,"epilog","LAURA","fuck!",10166.52,10168.511,1.99099999999999,2,60.2712204922154,NA,NA,"LAURA",1,0,0,0
-"1431","Fall_Conclave",6,72,1431,"epilog","MARISHA","percy, want to leave a mark anymore?",10168.511,10172.19,3.67900000000009,8,130.470236477301,NA,NA,"MARISHA",1,0,0,0
-"1432","Fall_Conclave",6,72,1432,"epilog","LAURA","we should tell tooma that",10172.19,10173.922,1.73199999999997,5,173.21016166282,NA,NA,"LAURA",1,0,0,0
-"1433","Fall_Conclave",6,72,1433,"epilog","TALIESIN","we left one.",10173.922,10175.223,1.30099999999948,4,184.473481937046,NA,NA,"TALIESIN",1,0,0,0
-"1434","Fall_Conclave",6,72,1434,"epilog","LAURA","i go find tooma.",10175.223,10177.027,1.80400000000009,5,166.297117516622,NA,NA,"LAURA",1,0,0,0
-"1435","Fall_Conclave",6,72,1435,"epilog","MATT","the handful of dragonborn that were there, after the collapse, were walking back to the internal cavern area. as you head back, a large portion of ravenites have all come out of their caves, and right now are in the process of scouring the ruins. some of them are putting armaments away. tooma is out there, currently conversing with a number of the other community leaders that are deciding what the next steps are.",10177.027,10208.989,31.9619999999995,75,140.79219072649,NA,NA,"MATT",0,0,0,1
-"1436","Fall_Conclave",6,72,1436,"epilog","MARISHA","i approach tooma. tooma, it's time that we make our departure very soon.",10208.989,10218.361,9.37200000000121,15,96.0307298335344,NA,NA,"MARISHA",1,0,0,0
-"1437","Fall_Conclave",6,72,1437,"epilog","MATT","""very well.""",10218.361,10220.005,1.64399999999841,4,145.985401459995,NA,NA,"MATT",0,0,0,1
-"1438","Fall_Conclave",6,72,1438,"epilog","MARISHA","i want to thank you so much for everything that you provided and everything that your people have done.",10220.005,10225.39,5.38500000000022,20,222.841225626732,NA,NA,"MARISHA",1,0,0,0
-"1439","Fall_Conclave",6,72,1439,"epilog","MATT","""i wish to thank you for your sticking to your word.""",10225.39,10231.741,6.35100000000057,13,122.815304676418,NA,NA,"MATT",0,0,0,1
-"1440","Fall_Conclave",6,72,1440,"epilog","MARISHA","of course. i would love to help and leave some parting gift in any way that i can.",10231.741,10240.893,9.15200000000004,19,124.562937062936,NA,NA,"MARISHA",1,0,0,0
-"1441","Fall_Conclave",6,72,1441,"epilog","MATT","""the riches from the hoard will provide enough for us. you need not worry.""",10240.893,10250.666,9.77299999999923,16,98.2298168423284,NA,NA,"MATT",0,0,0,1
-"1442","Fall_Conclave",6,72,1442,"epilog","MARISHA","what was your land like before vorugal got here? i know it wasn't as icy and as frigid.",10250.666,10256.362,5.69599999999991,20,210.674157303374,NA,NA,"MARISHA",1,0,0,0
-"1443","Fall_Conclave",6,72,1443,"epilog","MATT","""it was without snow. we are at the south side of wildemount. i hope this fades with ""time, we are not bound for snow people.""",10256.362,10270.475,14.1130000000012,27,114.787784312326,NA,NA,"MATT",0,0,0,1
-"1444","Fall_Conclave",6,72,1444,"epilog","MARISHA","i can attempt to maybe revitalize your plant life as much as i can before i leave.",10270.475,10278.583,8.10800000000017,18,133.201776023677,NA,NA,"MARISHA",1,0,0,0
-"1445","Fall_Conclave",6,72,1445,"epilog","MATT","""you can do this?""",10278.583,10280.586,2.00299999999879,6,179.730404393518,NA,NA,"MATT",0,0,0,1
-"1446","Fall_Conclave",6,72,1446,"epilog","MARISHA","i can.",10280.586,10282.151,1.56500000000051,3,115.015974440857,NA,NA,"MARISHA",1,0,0,0
-"1447","Fall_Conclave",6,72,1447,"epilog","MATT","""by all means. we would appreciate it.""",10282.151,10287.216,5.06500000000051,9,106.614017768992,NA,NA,"MATT",0,0,0,1
-"1448","Fall_Conclave",6,72,1448,"epilog","MARISHA","you have a good, strong people and i want to see your recovery. just like i hope the same with mine.",10287.216,10297.729,10.512999999999,22,125.558831922394,NA,NA,"MARISHA",1,0,0,0
-"1449","Fall_Conclave",6,72,1449,"epilog","MATT","""me too.""",10297.729,10299.85,2.121000000001,4,113.15417256006,NA,NA,"MATT",0,0,0,1
-"1450","Fall_Conclave",6,72,1450,"epilog","MARISHA","anything that i can do.",10299.85,10302.091,2.24099999999999,6,160.642570281126,NA,NA,"MARISHA",1,0,0,0
-"1451","Fall_Conclave",6,72,1451,"epilog","LAURA","tooma?",10302.091,10303.167,1.07599999999911,2,111.524163568865,NA,NA,"LAURA",1,0,0,0
-"1452","Fall_Conclave",6,72,1452,"epilog","MATT","""yes?""",10303.167,10304.752,1.58500000000095,3,113.564668769648,NA,NA,"MATT",0,0,0,1
-"1453","Fall_Conclave",6,72,1453,"epilog","LAURA","you know the stones we talked about?",10304.752,10307.79,3.03800000000047,8,157.998683344281,NA,NA,"LAURA",1,0,0,0
-"1454","Fall_Conclave",6,72,1454,"epilog","MATT","""yes.""",10307.79,10310.657,2.86699999999837,3,62.7833972794218,NA,NA,"MATT",0,0,0,1
-"1455","Fall_Conclave",6,72,1455,"epilog","LAURA","yeah, they got jostled.",10310.657,10312.282,1.625,5,184.615384615385,NA,NA,"LAURA",1,0,0,0
-"1456","Fall_Conclave",6,72,1456,"epilog","MATT","""why?""",10312.282,10314.312,2.03000000000065,3,88.6699507388876,NA,NA,"MATT",0,0,0,1
-"1457","Fall_Conclave",6,72,1457,"epilog","LAURA","it looks like that ice wasn't super-strong, and it collapsed.",10314.312,10319.308,4.996000000001,13,156.124899919905,NA,NA,"LAURA",1,0,0,0
-"1458","Fall_Conclave",6,72,1458,"epilog","TALIESIN","the ice was going to collapse eventually, anyway.",10319.308,10323.124,3.81599999999889,9,141.509433962305,NA,NA,"TALIESIN",1,0,0,0
-"1459","Fall_Conclave",6,72,1459,"epilog","MATT","""what does this mean?""",10323.124,10324.883,1.75900000000001,6,204.661739624785,NA,NA,"MATT",0,0,0,1
-"1460","Fall_Conclave",6,72,1460,"epilog","LAURA","not sure exactly.",10324.883,10326.9,2.01699999999983,4,118.988596926138,NA,NA,"LAURA",1,0,0,0
-"1461","Fall_Conclave",6,72,1461,"epilog","MATT","""okay.""",10326.9,10328.356,1.45600000000013,3,123.626373626363,NA,NA,"MATT",0,0,0,1
-"1462","Fall_Conclave",6,72,1462,"epilog","LAURA","but you should keep an eye on the sky. if you see something red, maybe hide. just for a while. thordak doesn't know what was here. but if he realizes vorugal's been killed, he'll come looking. potentially.",10328.356,10346.617,18.2610000000004,41,134.713323476258,NA,NA,"LAURA",1,0,0,0
-"1463","Fall_Conclave",6,72,1463,"epilog","MATT","""but you're going to kill this thordak, yes?""",10346.617,10348.855,2.23799999999937,11,294.906166219922,NA,NA,"MATT",0,0,0,1
-"1464","Fall_Conclave",6,72,1464,"epilog","LAURA","oh, yeah! with your help, i think. just in case he comes before we get to him.",10348.855,10354.871,6.01599999999962,18,179.521276595756,NA,NA,"LAURA",1,0,0,0
-"1465","Fall_Conclave",6,72,1465,"epilog","MATT","""you should get to him quickly, then.""",10354.871,10357.12,2.24900000000162,9,240.106714094981,NA,NA,"MATT",0,0,0,1
-"1466","Fall_Conclave",6,72,1466,"epilog","LAURA","good plan.",10357.12,10358.97,1.84999999999854,3,97.2972972973738,NA,NA,"LAURA",1,0,0,0
-"1467","Fall_Conclave",6,72,1467,"epilog","MATT","""good.""",10358.97,10359.828,0.858000000000175,3,209.790209790167,NA,NA,"MATT",0,0,0,1
-"1468","Fall_Conclave",6,72,1468,"epilog","LIAM","the whole time she's been talking, her braid has been going like a magical jump rope because i'm standing here doing this with it.",10359.828,10365.111,5.28300000000127,27,306.643952299756,NA,NA,"LIAM",1,0,0,0
-"1469","Fall_Conclave",6,72,1469,"epilog","LAURA","not. the time.",10365.157,10366.85,1.69300000000112,4,141.760189013492,NA,NA,"LAURA",1,0,0,0
-"1470","Fall_Conclave",6,72,1470,"epilog","TALIESIN","if you find something",10366.85,10369.546,2.69599999999991,4,89.020771513356,NA,NA,"TALIESIN",1,0,0,0
-"1471","Fall_Conclave",6,72,1471,"epilog","LAURA","fucking dick! stop it!",10369.546,10372.181,2.63500000000022,5,113.851992409858,NA,NA,"LAURA",1,0,0,0
-"1472","Fall_Conclave",6,72,1472,"epilog","TALIESIN","if you find an ice weapon in that ship beneath the throne anything magical, some sort of ice power, we may need it. that may be useful.",10372.181,10389.075,16.8940000000002,28,99.4435894400365,NA,NA,"TALIESIN",1,0,0,0
-"1473","Fall_Conclave",6,72,1473,"epilog","MATT","""keep in mind for it.""",10389.075,10391.693,2.61799999999857,7,160.427807486718,NA,NA,"MATT",0,0,0,1
-"1474","Fall_Conclave",6,72,1474,"epilog","MARISHA","i go up to the group. percy, vax, i need to take time with this, so are you all all right spending the rest of the day here while i help them?",10391.693,10405.683,13.9900000000016,33,141.529664045731,NA,NA,"MARISHA",1,0,0,0
-"1475","Fall_Conclave",6,72,1475,"epilog","LAURA","of course.",10405.683,10407.16,1.47699999999895,3,121.868652674426,NA,NA,"LAURA",1,0,0,0
-"1476","Fall_Conclave",6,72,1476,"epilog","TALIESIN","yeah.",10407.16,10408.331,1.17100000000028,2,102.476515798439,NA,NA,"TALIESIN",1,0,0,0
-"1477","Fall_Conclave",6,72,1477,"epilog","MARISHA","all right. i ascend to the top of the ravine and i start meditating, and i cast plant growth.",10408.331,10416.747,8.41599999999926,20,142.585551330811,NA,NA,"MARISHA",1,0,0,0
-"1478","Fall_Conclave",6,72,1478,"epilog","LAURA","we all need to go up there anyway because that's where the trees are that we're going to transport through, right?",10416.747,10421.924,5.1770000000015,24,278.153370677918,NA,NA,"LAURA",1,0,0,0
-"1479","Fall_Conclave",6,72,1479,"epilog","MARISHA","yeah.",10421.924,10422.896,0.971999999999753,2,123.456790123488,NA,NA,"MARISHA",1,0,0,0
-"1480","Fall_Conclave",6,72,1480,"epilog","LAURA","we make our way to the top of the ravine as well.",10422.896,10424.12,1.22400000000016,13,637.254901960701,NA,NA,"LAURA",1,0,0,0
-"1481","Fall_Conclave",6,72,1481,"epilog","MATT","what level is plant growth?",10424.155,10425.491,1.33599999999933,6,269.461077844446,NA,NA,"MATT",0,0,0,1
-"1482","Fall_Conclave",6,72,1482,"epilog","MARISHA","third.",10425.491,10426.468,0.977000000000771,2,122.824974411367,NA,NA,"MARISHA",1,0,0,0
-"1483","Fall_Conclave",6,72,1483,"epilog","MATT","3rd-level. gotcha.",10426.468,10427.419,0.950999999999112,4,252.365930599605,NA,NA,"MATT",0,0,0,1
-"1484","Fall_Conclave",6,72,1484,"epilog","MARISHA","and i'm doing the eight-hour",10427.419,10429.219,1.79999999999927,7,233.333333333428,NA,NA,"MARISHA",1,0,0,0
-"1485","Fall_Conclave",6,72,1485,"epilog","LAURA","eight hours!",10429.219,10430.289,1.07000000000153,3,168.22429906518,NA,NA,"LAURA",1,0,0,0
-"1486","Fall_Conclave",6,72,1486,"epilog","MATT","boy, guys!",10430.289,10431.68,1.39099999999962,3,129.403306973436,NA,NA,"MATT",0,0,0,1
-"1487","Fall_Conclave",6,72,1487,"epilog","SAM","super boring day for us.",10431.68,10433.556,1.8760000000002,6,191.897654584201,NA,NA,"SAM",1,0,0,0
-"1488","Fall_Conclave",6,72,1488,"epilog","MARISHA","yep. sorry.",10433.607,10435.123,1.51599999999962,3,118.733509234858,NA,NA,"MARISHA",1,0,0,0
-"1489","Fall_Conclave",6,72,1489,"epilog","TALIESIN","god, i want to get in that ship!",10435.123,10438.167,3.04399999999987,9,177.398160315382,NA,NA,"TALIESIN",1,0,0,0
-"1490","Fall_Conclave",6,72,1490,"epilog","MARISHA","i start doing that and revitalizing their landscape as close to what it was before, giving their [no audio]",10438.167,10451.335,13.1679999999997,20,91.1300121506706,NA,NA,"MARISHA",1,0,0,0
-"1491","Fall_Conclave",6,72,1491,"epilog","MATT","it affects all normal plants within a hundred-foot radius. so you have a very specific portion that you revitalize in the ravine.",10451.335,10458.937,7.60200000000077,24,189.423835832656,NA,NA,"MATT",0,0,0,1
-"1492","Fall_Conclave",6,72,1492,"epilog","MARISHA","okay. well, i talked to tooma and find out where she",10458.937,10462.286,3.34900000000016,11,197.073753359202,NA,NA,"MARISHA",1,0,0,0
-"1493","Fall_Conclave",6,72,1493,"epilog","MATT","actually, no, all plants in a half-mile radius are",10462.286,10464.63,2.34399999999914,10,255.972696245828,NA,NA,"MATT",0,0,0,1
-"1494","Fall_Conclave",6,72,1494,"epilog","MARISHA","that's what i thought, yeah. in the eight hour one that's like, crazy.",10464.63,10468.605,3.97500000000036,16,241.509433962242,NA,NA,"MARISHA",1,0,0,0
-"1495","Fall_Conclave",6,72,1495,"epilog","MATT","i should have kept reading. okay, so yeah. you talk to her about it, and she tells you, ""the ravine itself does not have the nutrients to support crops, but we had farmland right ""above the ravine.""",10468.605,10484.459,15.8540000000012,38,143.812287119959,NA,NA,"MATT",0,0,0,1
-"1496","Fall_Conclave",6,72,1496,"epilog","MARISHA","all right. do you plan to still reside there?",10484.459,10487.845,3.3859999999986,10,177.200236267055,NA,NA,"MARISHA",1,0,0,0
-"1497","Fall_Conclave",6,72,1497,"epilog","MATT","""once the snow melts, yes.""",10487.845,10489.348,1.50300000000061,7,279.441117764357,NA,NA,"MATT",0,0,0,1
-"1498","Fall_Conclave",6,72,1498,"epilog","MARISHA","i'll do what i can. and i go there.",10489.348,10491.347,1.9989999999998,11,330.165082541304,NA,NA,"MARISHA",1,0,0,0
-"1499","Fall_Conclave",6,72,1499,"epilog","MATT","okay. you get there, and through the use of your elemental magics, you easily cast aside the snow. and from underneath, you can see where once there was a heavy amount of cropland that has all died off because of the recent freeze that came with vorugal. you take the eight hours to concentrate and as you, do you enrich the land. you can watch as many of these dead seeds come to life with green once more. suddenly, you see sprouting bits of delicious cabbages and other forms of produce begin to spring to life and grow nutrient rich. as this happens, you can see a few of the ravenites who followed you to watch this are taken aback and excitedly rush down to tell the rest of the people. the rest of you are bored out of your mind for the next eight hours.",10491.347,10535.034,43.6869999999999,147,201.890722640603,NA,NA,"MATT",0,0,0,1
-"1500","Fall_Conclave",6,72,1500,"epilog","TRAVIS","kima and i are sparring.",10535.034,10537.746,2.71199999999953,6,132.743362831881,NA,NA,"TRAVIS",1,0,0,0
-"1501","Fall_Conclave",6,72,1501,"epilog","SAM","challenge vax to a peeing in the snow contest.",10537.746,10542.659,4.91300000000047,10,122.124974557285,NA,NA,"SAM",1,0,0,0
-"1502","Fall_Conclave",6,72,1502,"epilog","MATT","he's had a lot of wine.",10542.659,10544.981,2.32200000000012,8,206.71834625322,NA,NA,"MATT",0,0,0,1
-"1503","Fall_Conclave",6,72,1503,"epilog","LIAM","oh yeah, that was last night.",10544.981,10549.006,4.02499999999964,7,104.347826086966,NA,NA,"LIAM",1,0,0,0
-"1504","Fall_Conclave",6,72,1504,"epilog","LAURA","so you're pretty hungover, you don't have a lot.",10549.006,10551.062,2.05600000000049,12,350.194552529099,NA,NA,"LAURA",1,0,0,0
-"1505","Fall_Conclave",6,72,1505,"epilog","SAM","distance and accuracy.",10551.062,10552.299,1.23700000000099,4,194.017784963466,NA,NA,"SAM",1,0,0,0
-"1506","Fall_Conclave",6,72,1506,"epilog","LIAM","i've brought one from your house.",10552.299,10554.996,2.6969999999983,8,177.975528364962,NA,NA,"LIAM",1,0,0,0
-"1507","Fall_Conclave",6,72,1507,"epilog","SAM","it's gone.",10554.996,10556.337,1.34100000000035,4,178.970917225904,NA,NA,"SAM",1,0,0,0
-"1508","Fall_Conclave",6,72,1508,"epilog","LAURA","it disappeared.",10556.337,10557.648,1.31099999999969,3,137.29977116708,NA,NA,"LAURA",1,0,0,0
-"1509","Fall_Conclave",6,72,1509,"epilog","LIAM","damn it!",10557.648,10558.934,1.28600000000006,3,139.968895800927,NA,NA,"LIAM",1,0,0,0
-"1510","Fall_Conclave",6,72,1510,"epilog","MATT","yes, as you reach for it, there's nothing there.",10558.934,10560.63,1.69599999999991,11,389.150943396246,NA,NA,"MATT",0,0,0,1
-"1511","Fall_Conclave",6,72,1511,"epilog","LAURA","that's amazing.",10560.63,10567.406,6.77600000000166,4,35.4191263282086,NA,NA,"LAURA",1,0,0,0
-"1512","Fall_Conclave",6,72,1512,"epilog","MATT","so you guys have fun sparring for a while, you beat the crap out of each other off and on for a few hours and you both feel good about it. when the eight hours have finished, you guys reconvene.",10567.406,10577.355,9.9489999999987,41,247.261031259455,NA,NA,"MATT",0,0,0,1
-"1513","Fall_Conclave",6,72,1513,"epilog","LIAM","v-a-x. your turn.",10577.355,10581.498,4.14300000000003,6,86.893555394641,NA,NA,"LIAM",1,0,0,0
-"1514","Fall_Conclave",6,72,1514,"epilog","MARISHA","vax is shorter than scanlan.",10581.498,10584.297,2.79900000000089,6,128.617363344011,NA,NA,"MARISHA",1,0,0,0
-"1515","Fall_Conclave",6,72,1515,"epilog","TRAVIS","cursive, baby.",10584.297,10585.922,1.625,3,110.769230769231,NA,NA,"TRAVIS",1,0,0,0
-"1516","Fall_Conclave",6,72,1516,"epilog","MATT","i want both of you guys to make performance checks",10585.922,10590.314,4.39199999999983,10,136.612021857929,NA,NA,"MATT",0,0,0,1
-"1517","Fall_Conclave",6,72,1517,"epilog","SAM","okay. performance for peeing in the snow.",10590.314,10594.29,3.97600000000057,8,120.724346076442,NA,NA,"SAM",1,0,0,0
-"1518","Fall_Conclave",6,72,1518,"epilog","LAURA","oh, what what. he's got a really high modifier, though.",10594.29,10597.655,3.36499999999978,12,213.967310549791,NA,NA,"LAURA",1,0,0,0
-"1519","Fall_Conclave",6,72,1519,"epilog","LIAM","oh, i'm sure he'll win.",10597.655,10599.054,1.39899999999943,8,343.102215868617,NA,NA,"LIAM",1,0,0,0
-"1520","Fall_Conclave",6,72,1520,"epilog","TALIESIN","no, you're going to win.",10599.054,10600.621,1.5669999999991,7,268.028079132254,NA,NA,"TALIESIN",1,0,0,0
-"1521","Fall_Conclave",6,72,1521,"epilog","SAM","not good.",10600.621,10601.989,1.36800000000039,3,131.578947368383,NA,NA,"SAM",1,0,0,0
-"1522","Fall_Conclave",6,72,1522,"epilog","LIAM","no, even at his lowest it'll be higher i bet.",10601.989,10604.253,2.26400000000103,12,318.021201413282,NA,NA,"LIAM",1,0,0,0
-"1523","Fall_Conclave",6,72,1523,"epilog","SAM","18.",10604.253,10604.898,0.644999999998618,2,186.046511628306,NA,NA,"SAM",1,0,0,0
-"1524","Fall_Conclave",6,72,1524,"epilog","LIAM","21.",10604.898,10605.874,0.976000000000568,2,122.95081967206,NA,NA,"LIAM",1,0,0,0
-"1525","Fall_Conclave",6,72,1525,"epilog","MATT","you want to add your d12?",10605.874,10607.17,1.29600000000028,7,324.074074074005,NA,NA,"MATT",0,0,0,1
-"1526","Fall_Conclave",6,72,1526,"epilog","LIAM","zorro.",10607.17,10608.104,0.933999999999287,2,128.479657387678,NA,NA,"LIAM",1,0,0,0
-"1527","Fall_Conclave",6,72,1527,"epilog","MATT","you can add your own bardic inspiration.",10608.104,10610.801,2.69700000000012,8,177.975528364842,NA,NA,"MATT",0,0,0,1
-"1528","Fall_Conclave",6,72,1528,"epilog","LIAM","yeah, if he thinks of it.",10610.801,10612.24,1.43900000000031,7,291.869353717798,NA,NA,"LIAM",1,0,0,0
-"1529","Fall_Conclave",6,72,1529,"epilog","SAM","it's a fair fight.",10612.24,10613.608,1.36800000000039,6,263.157894736767,NA,NA,"SAM",1,0,0,0
-"1530","Fall_Conclave",6,72,1530,"epilog","MATT","okay, okay.",10613.608,10614.643,1.03499999999985,3,173.913043478285,NA,NA,"MATT",0,0,0,1
-"1531","Fall_Conclave",6,72,1531,"epilog","SAM","this is a fair fight.",10614.643,10615.727,1.08400000000074,6,332.103321032983,NA,NA,"SAM",1,0,0,0
-"1532","Fall_Conclave",6,72,1532,"epilog","MATT","it is close, but as much as your cursive writing was on point, it was impressive that vax was capable of cursive drawing the x, stopping and then crossing the x.",10615.727,10628.313,12.5859999999993,32,152.550452884165,NA,NA,"MATT",0,0,0,1
-"1533","Fall_Conclave",6,72,1533,"epilog","SAM","whoa.",10628.313,10629.955,1.64199999999983,2,73.0816077953793,NA,NA,"SAM",1,0,0,0
-"1534","Fall_Conclave",6,72,1534,"epilog","TRAVIS","it stings when you stop.",10629.955,10632.676,2.72099999999955,6,132.304299889768,NA,NA,"TRAVIS",1,0,0,0
-"1535","Fall_Conclave",6,72,1535,"epilog","SAM","that's impressive, but you know my wang is built for power, not accuracy.",10632.676,10637.795,5.1190000000006,15,175.815588982203,NA,NA,"SAM",1,0,0,0
-"1536","Fall_Conclave",6,72,1536,"epilog","LAURA","as soon as the cube comes out: can i talk to you, do you mind stepping away?",10637.795,10645.459,7.66400000000067,18,140.918580375771,NA,NA,"LAURA",1,0,0,0
-"1537","Fall_Conclave",6,72,1537,"epilog","TRAVIS","with the cube out?",10645.459,10647.022,1.5630000000001,5,191.938579654498,NA,NA,"TRAVIS",1,0,0,0
-"1538","Fall_Conclave",6,72,1538,"epilog","SAM","you talking to me?",10647.022,10648.318,1.29599999999846,5,231.481481481757,NA,NA,"SAM",1,0,0,0
-"1539","Fall_Conclave",6,72,1539,"epilog","LAURA","no, not you.",10648.318,10649.39,1.07200000000012,4,223.880597014901,NA,NA,"LAURA",1,0,0,0
-"1540","Fall_Conclave",6,72,1540,"epilog","TALIESIN","sure, yeah, i'm going to do nothing but stare at that bloody ship if i don't, so sure.",10649.39,10655.614,6.22400000000016,21,202.442159383028,NA,NA,"TALIESIN",1,0,0,0
-"1541","Fall_Conclave",6,72,1541,"epilog","LAURA","how are you, after dying?",10655.614,10660.453,4.83899999999994,6,74.3955362678248,NA,NA,"LAURA",1,0,0,0
-"1542","Fall_Conclave",6,72,1542,"epilog","TALIESIN","i'm trying really hard not to think about it, actually. i don't know, honestly. there hasn't been a lot of time to process.",10660.453,10677.482,17.0290000000005,27,95.1318339303516,NA,NA,"TALIESIN",1,0,0,0
-"1543","Fall_Conclave",6,72,1543,"epilog","LAURA","no, there hasn't. it's a lot in a few days.",10677.482,10680.814,3.33200000000033,13,234.093637454958,NA,NA,"LAURA",1,0,0,0
-"1544","Fall_Conclave",6,72,1544,"epilog","TALIESIN","i would say it would be nice to be going home, except i know what we're going home to. so there's going to be no relief.",10680.814,10689.085,8.27099999999882,29,210.373594486791,NA,NA,"TALIESIN",1,0,0,0
-"1545","Fall_Conclave",6,72,1545,"epilog","LAURA","no, not for a while, i don't think.",10689.085,10691.91,2.82500000000073,10,212.389380530919,NA,NA,"LAURA",1,0,0,0
-"1546","Fall_Conclave",6,72,1546,"epilog","TALIESIN","that creature hanging around.",10691.91,10695.442,3.53199999999924,5,84.9377123442991,NA,NA,"TALIESIN",1,0,0,0
-"1547","Fall_Conclave",6,72,1547,"epilog","LAURA","yes.",10695.442,10697.403,1.96100000000115,2,61.1932687404027,NA,NA,"LAURA",1,0,0,0
-"1548","Fall_Conclave",6,72,1548,"epilog","TALIESIN","yeah, death was not pleasant.",10697.403,10701.046,3.64300000000003,6,98.8196541312097,NA,NA,"TALIESIN",1,0,0,0
-"1549","Fall_Conclave",6,72,1549,"epilog","LAURA","no. i have to tell you something",10701.046,10710.181,9.13500000000022,7,45.9770114942518,NA,NA,"LAURA",1,0,0,0
-"1550","Fall_Conclave",6,72,1550,"epilog","TALIESIN","all right.",10710.181,10714.721,4.53999999999905,3,39.6475770925193,NA,NA,"TALIESIN",1,0,0,0
-"1551","Fall_Conclave",6,72,1551,"epilog","LAURA","do you know what fenthras means?",10714.721,10721.618,6.89700000000084,7,60.8960417572783,NA,NA,"LAURA",1,0,0,0
-"1552","Fall_Conclave",6,72,1552,"epilog","TALIESIN","i don't, actually.",10721.618,10724.211,2.59299999999894,5,115.696104897849,NA,NA,"TALIESIN",1,0,0,0
-"1553","Fall_Conclave",6,72,1553,"epilog","LAURA","it comes from the elvish words, i'm surprised. growth and protection.",10724.211,10729.99,5.77900000000045,13,134.971448347454,NA,NA,"LAURA",1,0,0,0
-"1554","Fall_Conclave",6,72,1554,"epilog","TALIESIN","i would've eventually looked it up. it's the sort of terribly boring thing i would do.",10729.99,10737.351,7.36100000000079,19,154.87026219262,NA,NA,"TALIESIN",1,0,0,0
-"1555","Fall_Conclave",6,72,1555,"epilog","LAURA","it's odd that saundor had it for so long, since he was quite the opposite of that, don't you think?",10737.351,10744.754,7.40300000000025,23,186.410914494118,NA,NA,"LAURA",1,0,0,0
-"1556","Fall_Conclave",6,72,1556,"epilog","TALIESIN","i tend to think that many people tend to exalt the exact opposite of what they are.",10744.754,10750.997,6.24299999999857,18,172.993753003403,NA,NA,"TALIESIN",1,0,0,0
-"1557","Fall_Conclave",6,72,1557,"epilog","LAURA","yes. i don't know, i think he focused for so long on the betrayal of his love, on all of the horrible things within himself that caused that, that he became the physical embodiment of it. and i think he was trying to do the same thing to me. even though i refused him, i could feel those seeds being planted. self-doubt and loathing echoing in my mind every night. reliving every wrong that people have done to me and everything i have done.",10750.997,10804.013,53.0160000000014,87,98.4608420099566,NA,NA,"LAURA",1,0,0,0
-"1558","Fall_Conclave",6,72,1558,"epilog","TALIESIN","i recently i will say, before death had a bit of an epiphany, and have been trying not always succeeding, but trying not to dwell on such things.",10804.013,10820.209,16.1959999999999,29,107.433934304767,NA,NA,"TALIESIN",1,0,0,0
-"1559","Fall_Conclave",6,72,1559,"epilog","LAURA","that's actually what i wanted to talk to you about. in the fight with ripley.",10820.209,10825.506,5.29699999999866,17,192.561827449548,NA,NA,"LAURA",1,0,0,0
-"1560","Fall_Conclave",6,72,1560,"epilog","TALIESIN","yes.",10825.506,10826.763,1.25700000000143,2,95.4653937946411,NA,NA,"TALIESIN",1,0,0,0
-"1561","Fall_Conclave",6,72,1561,"epilog","LAURA","your last words to her were, ""i forgive you.""",10826.763,10831.273,4.5099999999984,10,133.037694013351,NA,NA,"LAURA",1,0,0,0
-"1562","Fall_Conclave",6,72,1562,"epilog","TALIESIN","yes.",10831.273,10833.48,2.20700000000033,2,54.3724512913375,NA,NA,"TALIESIN",1,0,0,0
-"1563","Fall_Conclave",6,72,1563,"epilog","LAURA","it was such a surprise.",10833.48,10836.042,2.5619999999999,6,140.515222482441,NA,NA,"LAURA",1,0,0,0
-"1564","Fall_Conclave",6,72,1564,"epilog","TALIESIN","yes.",10836.042,10837.649,1.60699999999997,2,74.6733042937164,NA,NA,"TALIESIN",1,0,0,0
-"1565","Fall_Conclave",6,72,1565,"epilog","LAURA","i pull out fenthras and i show him what i've carved onto it, it's ""sinaeth."" do you know that word?",10837.649,10844.946,7.29700000000048,23,189.118815951749,NA,NA,"LAURA",1,0,0,0
-"1566","Fall_Conclave",6,72,1566,"epilog","TALIESIN","how common is that word?",10844.946,10846.416,1.46999999999935,6,244.897959183783,NA,NA,"TALIESIN",1,0,0,0
-"1567","Fall_Conclave",6,72,1567,"epilog","MATT","you know the word.",10846.416,10848.058,1.64200000000164,5,182.704019488246,NA,NA,"MATT",0,0,0,1
-"1568","Fall_Conclave",6,72,1568,"epilog","TALIESIN","i would know the word.",10848.058,10849.144,1.08599999999933,6,331.491712707387,NA,NA,"TALIESIN",1,0,0,0
-"1569","Fall_Conclave",6,72,1569,"epilog","LAURA","it's forgive.",10849.144,10850.391,1.24699999999939,4,192.461908580688,NA,NA,"LAURA",1,0,0,0
-"1570","Fall_Conclave",6,72,1570,"epilog","TALIESIN","oh.",10850.391,10851.663,1.27200000000084,2,94.3396226414468,NA,NA,"TALIESIN",1,0,0,0
-"1571","Fall_Conclave",6,72,1571,"epilog","LAURA","i carved this on fenthras because that's the key, isn't it? it's the only way to really grow.",10851.663,10861.727,10.0640000000003,22,131.160572337039,NA,NA,"LAURA",1,0,0,0
-"1572","Fall_Conclave",6,72,1572,"epilog","TALIESIN","i think so. i'm trying. it's the only thing i've tried that's made any sense so far. and it felt very liberating, it felt good, it felt perfect. and it wasn't about her. it was just about me. honestly, that was really the thing that i noticed, was i didn't say it to make her feel better, i didn't say it to give her any peace. i came to that feeling before running into her. i didn't know if it would be true when i saw her, but i feel like so much of my energy had been such a waste. and worse than a waste, it had been twisted in the wrong direction. and it's too late for a lot of things. there are things i cannot take back and things that i have done that will forever be terrible, but that's not the point, i suppose.",10861.727,10938.207,76.4799999999996,159,124.73849372385,NA,NA,"TALIESIN",1,0,0,0
-"1573","Fall_Conclave",6,72,1573,"epilog","LAURA","it isn't. whoever that boy was that created those things, that suffered such horrors that he felt they were justified? you have to forgive him, too. because everything you've suffered and endured and created in that time has made you into the person you are now. and you have a brilliant mind. and any darkness that might cloud your vision on occasion, the fact that you found it within yourself to forgive her means that it will never overtake you.",10938.207,10978.939,40.732,83,122.262594520279,NA,NA,"LAURA",1,0,0,0
-"1574","Fall_Conclave",6,72,1574,"epilog","TALIESIN","thank you. i would like to think we're all better than we think we are. except maybe your brother. i think he's just a mess.",10978.939,10993.169,14.2299999999996,28,118.060435699231,NA,NA,"TALIESIN",1,0,0,0
-"1575","Fall_Conclave",6,72,1575,"epilog","LAURA","he's terrible, isn't he? just the worst.",10993.169,10995.056,1.88700000000063,10,317.965023847271,NA,NA,"LAURA",1,0,0,0
-"1576","Fall_Conclave",6,72,1576,"epilog","TALIESIN","is he in here?",10995.056,10996.482,1.42599999999948,5,210.378681627006,NA,NA,"TALIESIN",1,0,0,0
-"1577","Fall_Conclave",6,72,1577,"epilog","LAURA","maybe, he's probably hiding somewhere.",10996.482,10999.29,2.8080000000009,7,149.572649572602,NA,NA,"LAURA",1,0,0,0
-"1578","Fall_Conclave",6,72,1578,"epilog","TALIESIN","shouldn't have given him that ring. thank you. i know i have to forgive myself. i'm not quite there yet, but i can see a path. i like where we are and what we're doing. i think that we're the right people in the right place and the right time.",10999.29,11027.775,28.4849999999988,55,115.850447604007,NA,NA,"TALIESIN",1,0,0,0
-"1579","Fall_Conclave",6,72,1579,"epilog","LAURA","i agree. and this engraving is a reminder that every time i attack, it's not out of vengeance.",11027.775,11040.882,13.107,20,91.5541313801787,NA,NA,"LAURA",1,0,0,0
-"1580","Fall_Conclave",6,72,1580,"epilog","TALIESIN","i would be horrified if you were taking yourself too seriously.",11040.882,11044.235,3.35300000000097,12,214.733074858273,NA,NA,"TALIESIN",1,0,0,0
-"1581","Fall_Conclave",6,72,1581,"epilog","LAURA","never. did you see the bear that i carved on the tree? it's quite lovely.",11044.235,11049.514,5.27899999999863,17,193.21841257819,NA,NA,"LAURA",1,0,0,0
-"1582","Fall_Conclave",6,72,1582,"epilog","TALIESIN","it was quite lovely. i don't know if the tree is quite as happy with it, but i was quite impressed.",11049.514,11056.066,6.5520000000015,23,210.622710622662,NA,NA,"TALIESIN",1,0,0,0
-"1583","Fall_Conclave",6,72,1583,"epilog","LAURA","thank you.",11056.066,11062.355,6.28899999999885,3,28.6214024487252,NA,NA,"LAURA",1,0,0,0
-"1584","Fall_Conclave",6,72,1584,"epilog","TALIESIN","thank you.",11062.355,11069.674,7.31900000000132,3,24.5935237054198,NA,NA,"TALIESIN",1,0,0,0
-"1585","Fall_Conclave",6,72,1585,"epilog","LAURA","that's all.",11069.717,11075.281,5.56400000000031,4,43.1344356577978,NA,NA,"LAURA",1,0,0,0
-"1586","Fall_Conclave",6,72,1586,"epilog","TALIESIN","what room are we in, out of curiosity?",11075.281,11082.318,7.03699999999844,9,76.7372459855222,NA,NA,"TALIESIN",1,0,0,0
-"1587","Fall_Conclave",6,72,1587,"epilog","LAURA","there's no room, we're in the woods.",11082.318,11084.629,2.31100000000151,10,259.627866724192,NA,NA,"LAURA",1,0,0,0
-"1588","Fall_Conclave",6,72,1588,"epilog","TALIESIN","oh, no room, we're in the woods. yeah, all right. as i walk away, i walk up. i kiss her. so we'll talk later. and i walk away.",11084.629,11098.517,13.887999999999,31,133.928571428581,NA,NA,"TALIESIN",1,0,0,0
-"1589","Fall_Conclave",6,72,1589,"epilog","LIAM","anything can happen in the woods.",11098.517,11102.437,3.92000000000007,7,107.142857142855,NA,NA,"LIAM",1,0,0,0
-"1590","Fall_Conclave",6,72,1590,"epilog","TALIESIN","bless you.",11102.437,11105.357,2.92000000000007,3,61.6438356164368,NA,NA,"TALIESIN",1,0,0,0
-"1591","Fall_Conclave",6,72,1591,"epilog","TRAVIS","oh shit!",11105.357,11107.277,1.92000000000007,3,93.7499999999964,NA,NA,"TRAVIS",1,0,0,0
-"1592","Fall_Conclave",6,72,1592,"epilog","MATT","and it's ten o'clock. we're going to go ahead and end today's session.",11107.277,11109.607,2.32999999999993,18,463.519313304735,NA,NA,"MATT",0,0,0,1
-"1593","Fall_Conclave",6,72,1593,"epilog","TALIESIN","bam, motherfuckers! bam!",11109.607,11111.608,2.0010000000002,4,119.940029984995,NA,NA,"TALIESIN",1,0,0,0
-"1594","Fall_Conclave",6,72,1594,"epilog","TRAVIS","go on and kiss the girl.",11111.608,11121.221,9.61299999999937,7,43.690835327164,NA,NA,"TRAVIS",1,0,0,0
-"1595","Fall_Conclave",6,72,1595,"epilog","LAURA","oh man, oh man.",11121.221,11126.139,4.91799999999967,5,61.0004066693819,NA,NA,"LAURA",1,0,0,0
-"1596","Fall_Conclave",6,72,1596,"epilog","MATT","thank you guys for watching! that episode had a lot of interesting moments.",11126.139,11132.743,6.60400000000118,14,127.19563900664,NA,NA,"MATT",0,0,0,1
-"1597","Fall_Conclave",6,72,1597,"epilog","SAM","we had an elephant fight.",11132.743,11134.841,2.09799999999996,6,171.591992373693,NA,NA,"SAM",1,0,0,0
-"1598","Fall_Conclave",6,72,1598,"epilog","MATT","the spoils of war.",11137.382,11140.228,2.84599999999955,5,105.411103302898,NA,NA,"MATT",0,0,0,1
-"1599","Fall_Conclave",6,72,1599,"epilog","TRAVIS","a whole bunch of new shit.",11140.228,11142.03,1.8020000000015,7,233.074361820006,NA,NA,"TRAVIS",1,0,0,0
-"1600","Fall_Conclave",6,72,1600,"epilog","LIAM","look at our signatures in the snow, that's fucking beautiful!",11142.03,11146.311,4.28099999999904,12,168.185003503892,NA,NA,"LIAM",1,0,0,0
-"1601","Fall_Conclave",6,72,1601,"epilog","TALIESIN","there was pissing, there was kissing, there was everything!",11146.311,11149.004,2.69300000000112,10,222.799851466673,NA,NA,"TALIESIN",1,0,0,0
-"1602","Fall_Conclave",6,72,1602,"epilog","SAM","pissing and kissing.",11149.004,11150.611,1.60699999999997,4,149.346608587433,NA,NA,"SAM",1,0,0,0
-"1603","Fall_Conclave",6,72,1603,"epilog","TALIESIN","pissing and kissing is the title.",11150.611,11153.815,3.20399999999972,7,131.086142322109,NA,NA,"TALIESIN",1,0,0,0
-"1604","Fall_Conclave",6,72,1604,"epilog","MARISHA","that's a good title.",11153.815,11155.556,1.74099999999999,6,206.777713957497,NA,NA,"MARISHA",1,0,0,0
-"1605","Fall_Conclave",6,72,1605,"epilog","MATT","that is <i>not</i> going to be the title.",11155.556,11159.371,3.81499999999869,11,173.001310616049,NA,NA,"MATT",0,0,0,1
-"1606","Fall_Conclave",6,72,1606,"epilog","LIAM","i shit it.",11159.371,11162.373,3.00200000000041,4,79.9467021985235,NA,NA,"LIAM",1,0,0,0
-"1607","Fall_Conclave",6,72,1607,"epilog","TALIESIN","you're welcome, internet.",11162.373,11163.847,1.47400000000016,5,203.527815468092,NA,NA,"TALIESIN",1,0,0,0
-"1608","Fall_Conclave",6,72,1608,"epilog","MATT","well then. we'll get ourselves to rest for the evening. you guys do the same, thank you for hanging in there. once again, amazing community, we love you guys so much, all the support you have. make sure to dig into all the awesome charities that we support, and you guys support as well. we're continuously getting messages from them, blown away by the generosity of the critter and team hooman community, so thank you guys so much for your support on those.",11163.847,11189.294,25.4470000000001,86,202.774393838173,NA,NA,"MATT",0,0,0,1
-"1609","Fall_Conclave",6,72,1609,"epilog","LAURA","thank you, backblaze.",11189.294,11192.149,2.85499999999956,4,84.063047285477,NA,NA,"LAURA",1,0,0,0
-"1610","Fall_Conclave",6,72,1610,"epilog","MATT","thanks, backblaze!",11192.149,11195.154,3.00500000000102,3,59.9001663893308,NA,NA,"MATT",0,0,0,1
-"1611","Fall_Conclave",6,72,1611,"epilog","TRAVIS","that amazing commercial. they're always so good.",11195.154,11200.654,5.5,9,98.1818181818182,NA,NA,"TRAVIS",1,0,0,0
-"1612","Fall_Conclave",6,72,1612,"epilog","MATT","i guess until next week, guys. is it thursday yet? see you then.",11200.654,11207.707,7.05299999999988,14,119.098256061252,NA,NA,"MATT",0,0,0,1
-"1613","Fall_Conclave",6,72,1613,"epilog","TRAVIS","oh shit, man!",11207.707,11210.23,2.52299999999923,4,95.1248513674488,NA,NA,"TRAVIS",1,0,0,0
+"1426","Fall_Conclave",6,72,1426,"epilog","LIAM AND MATT","one of them was, yeah. laura, marisha, taliesin, and travis: fuck!",10145.551,10151.905,6.35400000000118,12,113.314447592047,NA,NA,"LIAM AND MATT",1,0,0,0
+"1427","Fall_Conclave",6,72,1427,"epilog","LIAM","fucking",10151.905,10153.065,1.15999999999985,2,103.448275862082,NA,NA,"LIAM",1,0,0,0
+"1428","Fall_Conclave",6,72,1428,"epilog","MARISHA","hold on, did we maybe get is thordak going to we should go.",10154.086,10166.407,12.3209999999999,14,68.1762843925011,NA,NA,"MARISHA",1,0,0,0
+"1429","Fall_Conclave",6,72,1429,"epilog","LAURA","fuck!",10166.52,10168.511,1.99099999999999,2,60.2712204922154,NA,NA,"LAURA",1,0,0,0
+"1430","Fall_Conclave",6,72,1430,"epilog","MARISHA","percy, want to leave a mark anymore?",10168.511,10172.19,3.67900000000009,8,130.470236477301,NA,NA,"MARISHA",1,0,0,0
+"1431","Fall_Conclave",6,72,1431,"epilog","LAURA","we should tell tooma that",10172.19,10173.922,1.73199999999997,5,173.21016166282,NA,NA,"LAURA",1,0,0,0
+"1432","Fall_Conclave",6,72,1432,"epilog","TALIESIN","we left one.",10173.922,10175.223,1.30099999999948,4,184.473481937046,NA,NA,"TALIESIN",1,0,0,0
+"1433","Fall_Conclave",6,72,1433,"epilog","LAURA","i go find tooma.",10175.223,10177.027,1.80400000000009,5,166.297117516622,NA,NA,"LAURA",1,0,0,0
+"1434","Fall_Conclave",6,72,1434,"epilog","MATT","the handful of dragonborn that were there, after the collapse, were walking back to the internal cavern area. as you head back, a large portion of ravenites have all come out of their caves, and right now are in the process of scouring the ruins. some of them are putting armaments away. tooma is out there, currently conversing with a number of the other community leaders that are deciding what the next steps are.",10177.027,10208.989,31.9619999999995,75,140.79219072649,NA,NA,"MATT",0,0,0,1
+"1435","Fall_Conclave",6,72,1435,"epilog","MARISHA","i approach tooma. tooma, it's time that we make our departure very soon.",10208.989,10218.361,9.37200000000121,15,96.0307298335344,NA,NA,"MARISHA",1,0,0,0
+"1436","Fall_Conclave",6,72,1436,"epilog","MATT","""very well.""",10218.361,10220.005,1.64399999999841,4,145.985401459995,NA,NA,"MATT",0,0,0,1
+"1437","Fall_Conclave",6,72,1437,"epilog","MARISHA","i want to thank you so much for everything that you provided and everything that your people have done.",10220.005,10225.39,5.38500000000022,20,222.841225626732,NA,NA,"MARISHA",1,0,0,0
+"1438","Fall_Conclave",6,72,1438,"epilog","MATT","""i wish to thank you for your sticking to your word.""",10225.39,10231.741,6.35100000000057,13,122.815304676418,NA,NA,"MATT",0,0,0,1
+"1439","Fall_Conclave",6,72,1439,"epilog","MARISHA","of course. i would love to help and leave some parting gift in any way that i can.",10231.741,10240.893,9.15200000000004,19,124.562937062936,NA,NA,"MARISHA",1,0,0,0
+"1440","Fall_Conclave",6,72,1440,"epilog","MATT","""the riches from the hoard will provide enough for us. you need not worry.""",10240.893,10250.666,9.77299999999923,16,98.2298168423284,NA,NA,"MATT",0,0,0,1
+"1441","Fall_Conclave",6,72,1441,"epilog","MARISHA","what was your land like before vorugal got here? i know it wasn't as icy and as frigid.",10250.666,10256.362,5.69599999999991,20,210.674157303374,NA,NA,"MARISHA",1,0,0,0
+"1442","Fall_Conclave",6,72,1442,"epilog","MATT","""it was without snow. we are at the south side of wildemount. i hope this fades with ""time, we are not bound for snow people.""",10256.362,10270.475,14.1130000000012,27,114.787784312326,NA,NA,"MATT",0,0,0,1
+"1443","Fall_Conclave",6,72,1443,"epilog","MARISHA","i can attempt to maybe revitalize your plant life as much as i can before i leave.",10270.475,10278.583,8.10800000000017,18,133.201776023677,NA,NA,"MARISHA",1,0,0,0
+"1444","Fall_Conclave",6,72,1444,"epilog","MATT","""you can do this?""",10278.583,10280.586,2.00299999999879,6,179.730404393518,NA,NA,"MATT",0,0,0,1
+"1445","Fall_Conclave",6,72,1445,"epilog","MARISHA","i can.",10280.586,10282.151,1.56500000000051,3,115.015974440857,NA,NA,"MARISHA",1,0,0,0
+"1446","Fall_Conclave",6,72,1446,"epilog","MATT","""by all means. we would appreciate it.""",10282.151,10287.216,5.06500000000051,9,106.614017768992,NA,NA,"MATT",0,0,0,1
+"1447","Fall_Conclave",6,72,1447,"epilog","MARISHA","you have a good, strong people and i want to see your recovery. just like i hope the same with mine.",10287.216,10297.729,10.512999999999,22,125.558831922394,NA,NA,"MARISHA",1,0,0,0
+"1448","Fall_Conclave",6,72,1448,"epilog","MATT","""me too.""",10297.729,10299.85,2.121000000001,4,113.15417256006,NA,NA,"MATT",0,0,0,1
+"1449","Fall_Conclave",6,72,1449,"epilog","MARISHA","anything that i can do.",10299.85,10302.091,2.24099999999999,6,160.642570281126,NA,NA,"MARISHA",1,0,0,0
+"1450","Fall_Conclave",6,72,1450,"epilog","LAURA","tooma?",10302.091,10303.167,1.07599999999911,2,111.524163568865,NA,NA,"LAURA",1,0,0,0
+"1451","Fall_Conclave",6,72,1451,"epilog","MATT","""yes?""",10303.167,10304.752,1.58500000000095,3,113.564668769648,NA,NA,"MATT",0,0,0,1
+"1452","Fall_Conclave",6,72,1452,"epilog","LAURA","you know the stones we talked about?",10304.752,10307.79,3.03800000000047,8,157.998683344281,NA,NA,"LAURA",1,0,0,0
+"1453","Fall_Conclave",6,72,1453,"epilog","MATT","""yes.""",10307.79,10310.657,2.86699999999837,3,62.7833972794218,NA,NA,"MATT",0,0,0,1
+"1454","Fall_Conclave",6,72,1454,"epilog","LAURA","yeah, they got jostled.",10310.657,10312.282,1.625,5,184.615384615385,NA,NA,"LAURA",1,0,0,0
+"1455","Fall_Conclave",6,72,1455,"epilog","MATT","""why?""",10312.282,10314.312,2.03000000000065,3,88.6699507388876,NA,NA,"MATT",0,0,0,1
+"1456","Fall_Conclave",6,72,1456,"epilog","LAURA","it looks like that ice wasn't super-strong, and it collapsed.",10314.312,10319.308,4.996000000001,13,156.124899919905,NA,NA,"LAURA",1,0,0,0
+"1457","Fall_Conclave",6,72,1457,"epilog","TALIESIN","the ice was going to collapse eventually, anyway.",10319.308,10323.124,3.81599999999889,9,141.509433962305,NA,NA,"TALIESIN",1,0,0,0
+"1458","Fall_Conclave",6,72,1458,"epilog","MATT","""what does this mean?""",10323.124,10324.883,1.75900000000001,6,204.661739624785,NA,NA,"MATT",0,0,0,1
+"1459","Fall_Conclave",6,72,1459,"epilog","LAURA","not sure exactly.",10324.883,10326.9,2.01699999999983,4,118.988596926138,NA,NA,"LAURA",1,0,0,0
+"1460","Fall_Conclave",6,72,1460,"epilog","MATT","""okay.""",10326.9,10328.356,1.45600000000013,3,123.626373626363,NA,NA,"MATT",0,0,0,1
+"1461","Fall_Conclave",6,72,1461,"epilog","LAURA","but you should keep an eye on the sky. if you see something red, maybe hide. just for a while. thordak doesn't know what was here. but if he realizes vorugal's been killed, he'll come looking. potentially.",10328.356,10346.617,18.2610000000004,41,134.713323476258,NA,NA,"LAURA",1,0,0,0
+"1462","Fall_Conclave",6,72,1462,"epilog","MATT","""but you're going to kill this thordak, yes?""",10346.617,10348.855,2.23799999999937,11,294.906166219922,NA,NA,"MATT",0,0,0,1
+"1463","Fall_Conclave",6,72,1463,"epilog","LAURA","oh, yeah! with your help, i think. just in case he comes before we get to him.",10348.855,10354.871,6.01599999999962,18,179.521276595756,NA,NA,"LAURA",1,0,0,0
+"1464","Fall_Conclave",6,72,1464,"epilog","MATT","""you should get to him quickly, then.""",10354.871,10357.12,2.24900000000162,9,240.106714094981,NA,NA,"MATT",0,0,0,1
+"1465","Fall_Conclave",6,72,1465,"epilog","LAURA","good plan.",10357.12,10358.97,1.84999999999854,3,97.2972972973738,NA,NA,"LAURA",1,0,0,0
+"1466","Fall_Conclave",6,72,1466,"epilog","MATT","""good.""",10358.97,10359.828,0.858000000000175,3,209.790209790167,NA,NA,"MATT",0,0,0,1
+"1467","Fall_Conclave",6,72,1467,"epilog","LIAM","the whole time she's been talking, her braid has been going like a magical jump rope because i'm standing here doing this with it.",10359.828,10365.111,5.28300000000127,27,306.643952299756,NA,NA,"LIAM",1,0,0,0
+"1468","Fall_Conclave",6,72,1468,"epilog","LAURA","not. the time.",10365.157,10366.85,1.69300000000112,4,141.760189013492,NA,NA,"LAURA",1,0,0,0
+"1469","Fall_Conclave",6,72,1469,"epilog","TALIESIN","if you find something",10366.85,10369.546,2.69599999999991,4,89.020771513356,NA,NA,"TALIESIN",1,0,0,0
+"1470","Fall_Conclave",6,72,1470,"epilog","LAURA","fucking dick! stop it!",10369.546,10372.181,2.63500000000022,5,113.851992409858,NA,NA,"LAURA",1,0,0,0
+"1471","Fall_Conclave",6,72,1471,"epilog","TALIESIN","if you find an ice weapon in that ship beneath the throne anything magical, some sort of ice power, we may need it. that may be useful.",10372.181,10389.075,16.8940000000002,28,99.4435894400365,NA,NA,"TALIESIN",1,0,0,0
+"1472","Fall_Conclave",6,72,1472,"epilog","MATT","""keep in mind for it.""",10389.075,10391.693,2.61799999999857,7,160.427807486718,NA,NA,"MATT",0,0,0,1
+"1473","Fall_Conclave",6,72,1473,"epilog","MARISHA","i go up to the group. percy, vax, i need to take time with this, so are you all all right spending the rest of the day here while i help them?",10391.693,10405.683,13.9900000000016,33,141.529664045731,NA,NA,"MARISHA",1,0,0,0
+"1474","Fall_Conclave",6,72,1474,"epilog","LAURA","of course.",10405.683,10407.16,1.47699999999895,3,121.868652674426,NA,NA,"LAURA",1,0,0,0
+"1475","Fall_Conclave",6,72,1475,"epilog","TALIESIN","yeah.",10407.16,10408.331,1.17100000000028,2,102.476515798439,NA,NA,"TALIESIN",1,0,0,0
+"1476","Fall_Conclave",6,72,1476,"epilog","MARISHA","all right. i ascend to the top of the ravine and i start meditating, and i cast plant growth.",10408.331,10416.747,8.41599999999926,20,142.585551330811,NA,NA,"MARISHA",1,0,0,0
+"1477","Fall_Conclave",6,72,1477,"epilog","LAURA","we all need to go up there anyway because that's where the trees are that we're going to transport through, right?",10416.747,10421.924,5.1770000000015,24,278.153370677918,NA,NA,"LAURA",1,0,0,0
+"1478","Fall_Conclave",6,72,1478,"epilog","MARISHA","yeah.",10421.924,10422.896,0.971999999999753,2,123.456790123488,NA,NA,"MARISHA",1,0,0,0
+"1479","Fall_Conclave",6,72,1479,"epilog","LAURA","we make our way to the top of the ravine as well.",10422.896,10424.12,1.22400000000016,13,637.254901960701,NA,NA,"LAURA",1,0,0,0
+"1480","Fall_Conclave",6,72,1480,"epilog","MATT","what level is plant growth?",10424.155,10425.491,1.33599999999933,6,269.461077844446,NA,NA,"MATT",0,0,0,1
+"1481","Fall_Conclave",6,72,1481,"epilog","MARISHA","third.",10425.491,10426.468,0.977000000000771,2,122.824974411367,NA,NA,"MARISHA",1,0,0,0
+"1482","Fall_Conclave",6,72,1482,"epilog","MATT","3rd-level. gotcha.",10426.468,10427.419,0.950999999999112,4,252.365930599605,NA,NA,"MATT",0,0,0,1
+"1483","Fall_Conclave",6,72,1483,"epilog","MARISHA","and i'm doing the eight-hour",10427.419,10429.219,1.79999999999927,7,233.333333333428,NA,NA,"MARISHA",1,0,0,0
+"1484","Fall_Conclave",6,72,1484,"epilog","LAURA","eight hours!",10429.219,10430.289,1.07000000000153,3,168.22429906518,NA,NA,"LAURA",1,0,0,0
+"1485","Fall_Conclave",6,72,1485,"epilog","MATT","boy, guys!",10430.289,10431.68,1.39099999999962,3,129.403306973436,NA,NA,"MATT",0,0,0,1
+"1486","Fall_Conclave",6,72,1486,"epilog","SAM","super boring day for us.",10431.68,10433.556,1.8760000000002,6,191.897654584201,NA,NA,"SAM",1,0,0,0
+"1487","Fall_Conclave",6,72,1487,"epilog","MARISHA","yep. sorry.",10433.607,10435.123,1.51599999999962,3,118.733509234858,NA,NA,"MARISHA",1,0,0,0
+"1488","Fall_Conclave",6,72,1488,"epilog","TALIESIN","god, i want to get in that ship!",10435.123,10438.167,3.04399999999987,9,177.398160315382,NA,NA,"TALIESIN",1,0,0,0
+"1489","Fall_Conclave",6,72,1489,"epilog","MARISHA","i start doing that and revitalizing their landscape as close to what it was before, giving their [no audio]",10438.167,10451.335,13.1679999999997,20,91.1300121506706,NA,NA,"MARISHA",1,0,0,0
+"1490","Fall_Conclave",6,72,1490,"epilog","MATT","it affects all normal plants within a hundred-foot radius. so you have a very specific portion that you revitalize in the ravine.",10451.335,10458.937,7.60200000000077,24,189.423835832656,NA,NA,"MATT",0,0,0,1
+"1491","Fall_Conclave",6,72,1491,"epilog","MARISHA","okay. well, i talked to tooma and find out where she",10458.937,10462.286,3.34900000000016,11,197.073753359202,NA,NA,"MARISHA",1,0,0,0
+"1492","Fall_Conclave",6,72,1492,"epilog","MATT","actually, no, all plants in a half-mile radius are",10462.286,10464.63,2.34399999999914,10,255.972696245828,NA,NA,"MATT",0,0,0,1
+"1493","Fall_Conclave",6,72,1493,"epilog","MARISHA","that's what i thought, yeah. in the eight hour one that's like, crazy.",10464.63,10468.605,3.97500000000036,16,241.509433962242,NA,NA,"MARISHA",1,0,0,0
+"1494","Fall_Conclave",6,72,1494,"epilog","MATT","i should have kept reading. okay, so yeah. you talk to her about it, and she tells you, ""the ravine itself does not have the nutrients to support crops, but we had farmland right ""above the ravine.""",10468.605,10484.459,15.8540000000012,38,143.812287119959,NA,NA,"MATT",0,0,0,1
+"1495","Fall_Conclave",6,72,1495,"epilog","MARISHA","all right. do you plan to still reside there?",10484.459,10487.845,3.3859999999986,10,177.200236267055,NA,NA,"MARISHA",1,0,0,0
+"1496","Fall_Conclave",6,72,1496,"epilog","MATT","""once the snow melts, yes.""",10487.845,10489.348,1.50300000000061,7,279.441117764357,NA,NA,"MATT",0,0,0,1
+"1497","Fall_Conclave",6,72,1497,"epilog","MARISHA","i'll do what i can. and i go there.",10489.348,10491.347,1.9989999999998,11,330.165082541304,NA,NA,"MARISHA",1,0,0,0
+"1498","Fall_Conclave",6,72,1498,"epilog","MATT","okay. you get there, and through the use of your elemental magics, you easily cast aside the snow. and from underneath, you can see where once there was a heavy amount of cropland that has all died off because of the recent freeze that came with vorugal. you take the eight hours to concentrate and as you, do you enrich the land. you can watch as many of these dead seeds come to life with green once more. suddenly, you see sprouting bits of delicious cabbages and other forms of produce begin to spring to life and grow nutrient rich. as this happens, you can see a few of the ravenites who followed you to watch this are taken aback and excitedly rush down to tell the rest of the people. the rest of you are bored out of your mind for the next eight hours.",10491.347,10535.034,43.6869999999999,147,201.890722640603,NA,NA,"MATT",0,0,0,1
+"1499","Fall_Conclave",6,72,1499,"epilog","TRAVIS","kima and i are sparring.",10535.034,10537.746,2.71199999999953,6,132.743362831881,NA,NA,"TRAVIS",1,0,0,0
+"1500","Fall_Conclave",6,72,1500,"epilog","SAM","challenge vax to a peeing in the snow contest.",10537.746,10542.659,4.91300000000047,10,122.124974557285,NA,NA,"SAM",1,0,0,0
+"1501","Fall_Conclave",6,72,1501,"epilog","MATT","he's had a lot of wine.",10542.659,10544.981,2.32200000000012,8,206.71834625322,NA,NA,"MATT",0,0,0,1
+"1502","Fall_Conclave",6,72,1502,"epilog","LIAM","oh yeah, that was last night.",10544.981,10549.006,4.02499999999964,7,104.347826086966,NA,NA,"LIAM",1,0,0,0
+"1503","Fall_Conclave",6,72,1503,"epilog","LAURA","so you're pretty hungover, you don't have a lot.",10549.006,10551.062,2.05600000000049,12,350.194552529099,NA,NA,"LAURA",1,0,0,0
+"1504","Fall_Conclave",6,72,1504,"epilog","SAM","distance and accuracy.",10551.062,10552.299,1.23700000000099,4,194.017784963466,NA,NA,"SAM",1,0,0,0
+"1505","Fall_Conclave",6,72,1505,"epilog","LIAM","i've brought one from your house.",10552.299,10554.996,2.6969999999983,8,177.975528364962,NA,NA,"LIAM",1,0,0,0
+"1506","Fall_Conclave",6,72,1506,"epilog","SAM","it's gone.",10554.996,10556.337,1.34100000000035,4,178.970917225904,NA,NA,"SAM",1,0,0,0
+"1507","Fall_Conclave",6,72,1507,"epilog","LAURA","it disappeared.",10556.337,10557.648,1.31099999999969,3,137.29977116708,NA,NA,"LAURA",1,0,0,0
+"1508","Fall_Conclave",6,72,1508,"epilog","LIAM","damn it!",10557.648,10558.934,1.28600000000006,3,139.968895800927,NA,NA,"LIAM",1,0,0,0
+"1509","Fall_Conclave",6,72,1509,"epilog","MATT","yes, as you reach for it, there's nothing there.",10558.934,10560.63,1.69599999999991,11,389.150943396246,NA,NA,"MATT",0,0,0,1
+"1510","Fall_Conclave",6,72,1510,"epilog","LAURA","that's amazing.",10560.63,10567.406,6.77600000000166,4,35.4191263282086,NA,NA,"LAURA",1,0,0,0
+"1511","Fall_Conclave",6,72,1511,"epilog","MATT","so you guys have fun sparring for a while, you beat the crap out of each other off and on for a few hours and you both feel good about it. when the eight hours have finished, you guys reconvene.",10567.406,10577.355,9.9489999999987,41,247.261031259455,NA,NA,"MATT",0,0,0,1
+"1512","Fall_Conclave",6,72,1512,"epilog","LIAM","v-a-x. your turn.",10577.355,10581.498,4.14300000000003,6,86.893555394641,NA,NA,"LIAM",1,0,0,0
+"1513","Fall_Conclave",6,72,1513,"epilog","MARISHA","vax is shorter than scanlan.",10581.498,10584.297,2.79900000000089,6,128.617363344011,NA,NA,"MARISHA",1,0,0,0
+"1514","Fall_Conclave",6,72,1514,"epilog","TRAVIS","cursive, baby.",10584.297,10585.922,1.625,3,110.769230769231,NA,NA,"TRAVIS",1,0,0,0
+"1515","Fall_Conclave",6,72,1515,"epilog","MATT","i want both of you guys to make performance checks",10585.922,10590.314,4.39199999999983,10,136.612021857929,NA,NA,"MATT",0,0,0,1
+"1516","Fall_Conclave",6,72,1516,"epilog","SAM","okay. performance for peeing in the snow.",10590.314,10594.29,3.97600000000057,8,120.724346076442,NA,NA,"SAM",1,0,0,0
+"1517","Fall_Conclave",6,72,1517,"epilog","LAURA","oh, what what. he's got a really high modifier, though.",10594.29,10597.655,3.36499999999978,12,213.967310549791,NA,NA,"LAURA",1,0,0,0
+"1518","Fall_Conclave",6,72,1518,"epilog","LIAM","oh, i'm sure he'll win.",10597.655,10599.054,1.39899999999943,8,343.102215868617,NA,NA,"LIAM",1,0,0,0
+"1519","Fall_Conclave",6,72,1519,"epilog","TALIESIN","no, you're going to win.",10599.054,10600.621,1.5669999999991,7,268.028079132254,NA,NA,"TALIESIN",1,0,0,0
+"1520","Fall_Conclave",6,72,1520,"epilog","SAM","not good.",10600.621,10601.989,1.36800000000039,3,131.578947368383,NA,NA,"SAM",1,0,0,0
+"1521","Fall_Conclave",6,72,1521,"epilog","LIAM","no, even at his lowest it'll be higher i bet.",10601.989,10604.253,2.26400000000103,12,318.021201413282,NA,NA,"LIAM",1,0,0,0
+"1522","Fall_Conclave",6,72,1522,"epilog","SAM","18.",10604.253,10604.898,0.644999999998618,2,186.046511628306,NA,NA,"SAM",1,0,0,0
+"1523","Fall_Conclave",6,72,1523,"epilog","LIAM","21.",10604.898,10605.874,0.976000000000568,2,122.95081967206,NA,NA,"LIAM",1,0,0,0
+"1524","Fall_Conclave",6,72,1524,"epilog","MATT","you want to add your d12?",10605.874,10607.17,1.29600000000028,7,324.074074074005,NA,NA,"MATT",0,0,0,1
+"1525","Fall_Conclave",6,72,1525,"epilog","LIAM","zorro.",10607.17,10608.104,0.933999999999287,2,128.479657387678,NA,NA,"LIAM",1,0,0,0
+"1526","Fall_Conclave",6,72,1526,"epilog","MATT","you can add your own bardic inspiration.",10608.104,10610.801,2.69700000000012,8,177.975528364842,NA,NA,"MATT",0,0,0,1
+"1527","Fall_Conclave",6,72,1527,"epilog","LIAM","yeah, if he thinks of it.",10610.801,10612.24,1.43900000000031,7,291.869353717798,NA,NA,"LIAM",1,0,0,0
+"1528","Fall_Conclave",6,72,1528,"epilog","SAM","it's a fair fight.",10612.24,10613.608,1.36800000000039,6,263.157894736767,NA,NA,"SAM",1,0,0,0
+"1529","Fall_Conclave",6,72,1529,"epilog","MATT","okay, okay.",10613.608,10614.643,1.03499999999985,3,173.913043478285,NA,NA,"MATT",0,0,0,1
+"1530","Fall_Conclave",6,72,1530,"epilog","SAM","this is a fair fight.",10614.643,10615.727,1.08400000000074,6,332.103321032983,NA,NA,"SAM",1,0,0,0
+"1531","Fall_Conclave",6,72,1531,"epilog","MATT","it is close, but as much as your cursive writing was on point, it was impressive that vax was capable of cursive drawing the x, stopping and then crossing the x.",10615.727,10628.313,12.5859999999993,32,152.550452884165,NA,NA,"MATT",0,0,0,1
+"1532","Fall_Conclave",6,72,1532,"epilog","SAM","whoa.",10628.313,10629.955,1.64199999999983,2,73.0816077953793,NA,NA,"SAM",1,0,0,0
+"1533","Fall_Conclave",6,72,1533,"epilog","TRAVIS","it stings when you stop.",10629.955,10632.676,2.72099999999955,6,132.304299889768,NA,NA,"TRAVIS",1,0,0,0
+"1534","Fall_Conclave",6,72,1534,"epilog","SAM","that's impressive, but you know my wang is built for power, not accuracy.",10632.676,10637.795,5.1190000000006,15,175.815588982203,NA,NA,"SAM",1,0,0,0
+"1535","Fall_Conclave",6,72,1535,"epilog","LAURA","as soon as the cube comes out: can i talk to you, do you mind stepping away?",10637.795,10645.459,7.66400000000067,18,140.918580375771,NA,NA,"LAURA",1,0,0,0
+"1536","Fall_Conclave",6,72,1536,"epilog","TRAVIS","with the cube out?",10645.459,10647.022,1.5630000000001,5,191.938579654498,NA,NA,"TRAVIS",1,0,0,0
+"1537","Fall_Conclave",6,72,1537,"epilog","SAM","you talking to me?",10647.022,10648.318,1.29599999999846,5,231.481481481757,NA,NA,"SAM",1,0,0,0
+"1538","Fall_Conclave",6,72,1538,"epilog","LAURA","no, not you.",10648.318,10649.39,1.07200000000012,4,223.880597014901,NA,NA,"LAURA",1,0,0,0
+"1539","Fall_Conclave",6,72,1539,"epilog","TALIESIN","sure, yeah, i'm going to do nothing but stare at that bloody ship if i don't, so sure.",10649.39,10655.614,6.22400000000016,21,202.442159383028,NA,NA,"TALIESIN",1,0,0,0
+"1540","Fall_Conclave",6,72,1540,"epilog","LAURA","how are you, after dying?",10655.614,10660.453,4.83899999999994,6,74.3955362678248,NA,NA,"LAURA",1,0,0,0
+"1541","Fall_Conclave",6,72,1541,"epilog","TALIESIN","i'm trying really hard not to think about it, actually. i don't know, honestly. there hasn't been a lot of time to process.",10660.453,10677.482,17.0290000000005,27,95.1318339303516,NA,NA,"TALIESIN",1,0,0,0
+"1542","Fall_Conclave",6,72,1542,"epilog","LAURA","no, there hasn't. it's a lot in a few days.",10677.482,10680.814,3.33200000000033,13,234.093637454958,NA,NA,"LAURA",1,0,0,0
+"1543","Fall_Conclave",6,72,1543,"epilog","TALIESIN","i would say it would be nice to be going home, except i know what we're going home to. so there's going to be no relief.",10680.814,10689.085,8.27099999999882,29,210.373594486791,NA,NA,"TALIESIN",1,0,0,0
+"1544","Fall_Conclave",6,72,1544,"epilog","LAURA","no, not for a while, i don't think.",10689.085,10691.91,2.82500000000073,10,212.389380530919,NA,NA,"LAURA",1,0,0,0
+"1545","Fall_Conclave",6,72,1545,"epilog","TALIESIN","that creature hanging around.",10691.91,10695.442,3.53199999999924,5,84.9377123442991,NA,NA,"TALIESIN",1,0,0,0
+"1546","Fall_Conclave",6,72,1546,"epilog","LAURA","yes.",10695.442,10697.403,1.96100000000115,2,61.1932687404027,NA,NA,"LAURA",1,0,0,0
+"1547","Fall_Conclave",6,72,1547,"epilog","TALIESIN","yeah, death was not pleasant.",10697.403,10701.046,3.64300000000003,6,98.8196541312097,NA,NA,"TALIESIN",1,0,0,0
+"1548","Fall_Conclave",6,72,1548,"epilog","LAURA","no. i have to tell you something",10701.046,10710.181,9.13500000000022,7,45.9770114942518,NA,NA,"LAURA",1,0,0,0
+"1549","Fall_Conclave",6,72,1549,"epilog","TALIESIN","all right.",10710.181,10714.721,4.53999999999905,3,39.6475770925193,NA,NA,"TALIESIN",1,0,0,0
+"1550","Fall_Conclave",6,72,1550,"epilog","LAURA","do you know what fenthras means?",10714.721,10721.618,6.89700000000084,7,60.8960417572783,NA,NA,"LAURA",1,0,0,0
+"1551","Fall_Conclave",6,72,1551,"epilog","TALIESIN","i don't, actually.",10721.618,10724.211,2.59299999999894,5,115.696104897849,NA,NA,"TALIESIN",1,0,0,0
+"1552","Fall_Conclave",6,72,1552,"epilog","LAURA","it comes from the elvish words, i'm surprised. growth and protection.",10724.211,10729.99,5.77900000000045,13,134.971448347454,NA,NA,"LAURA",1,0,0,0
+"1553","Fall_Conclave",6,72,1553,"epilog","TALIESIN","i would've eventually looked it up. it's the sort of terribly boring thing i would do.",10729.99,10737.351,7.36100000000079,19,154.87026219262,NA,NA,"TALIESIN",1,0,0,0
+"1554","Fall_Conclave",6,72,1554,"epilog","LAURA","it's odd that saundor had it for so long, since he was quite the opposite of that, don't you think?",10737.351,10744.754,7.40300000000025,23,186.410914494118,NA,NA,"LAURA",1,0,0,0
+"1555","Fall_Conclave",6,72,1555,"epilog","TALIESIN","i tend to think that many people tend to exalt the exact opposite of what they are.",10744.754,10750.997,6.24299999999857,18,172.993753003403,NA,NA,"TALIESIN",1,0,0,0
+"1556","Fall_Conclave",6,72,1556,"epilog","LAURA","yes. i don't know, i think he focused for so long on the betrayal of his love, on all of the horrible things within himself that caused that, that he became the physical embodiment of it. and i think he was trying to do the same thing to me. even though i refused him, i could feel those seeds being planted. self-doubt and loathing echoing in my mind every night. reliving every wrong that people have done to me and everything i have done.",10750.997,10804.013,53.0160000000014,87,98.4608420099566,NA,NA,"LAURA",1,0,0,0
+"1557","Fall_Conclave",6,72,1557,"epilog","TALIESIN","i recently i will say, before death had a bit of an epiphany, and have been trying not always succeeding, but trying not to dwell on such things.",10804.013,10820.209,16.1959999999999,29,107.433934304767,NA,NA,"TALIESIN",1,0,0,0
+"1558","Fall_Conclave",6,72,1558,"epilog","LAURA","that's actually what i wanted to talk to you about. in the fight with ripley.",10820.209,10825.506,5.29699999999866,17,192.561827449548,NA,NA,"LAURA",1,0,0,0
+"1559","Fall_Conclave",6,72,1559,"epilog","TALIESIN","yes.",10825.506,10826.763,1.25700000000143,2,95.4653937946411,NA,NA,"TALIESIN",1,0,0,0
+"1560","Fall_Conclave",6,72,1560,"epilog","LAURA","your last words to her were, ""i forgive you.""",10826.763,10831.273,4.5099999999984,10,133.037694013351,NA,NA,"LAURA",1,0,0,0
+"1561","Fall_Conclave",6,72,1561,"epilog","TALIESIN","yes.",10831.273,10833.48,2.20700000000033,2,54.3724512913375,NA,NA,"TALIESIN",1,0,0,0
+"1562","Fall_Conclave",6,72,1562,"epilog","LAURA","it was such a surprise.",10833.48,10836.042,2.5619999999999,6,140.515222482441,NA,NA,"LAURA",1,0,0,0
+"1563","Fall_Conclave",6,72,1563,"epilog","TALIESIN","yes.",10836.042,10837.649,1.60699999999997,2,74.6733042937164,NA,NA,"TALIESIN",1,0,0,0
+"1564","Fall_Conclave",6,72,1564,"epilog","LAURA","i pull out fenthras and i show him what i've carved onto it, it's ""sinaeth."" do you know that word?",10837.649,10844.946,7.29700000000048,23,189.118815951749,NA,NA,"LAURA",1,0,0,0
+"1565","Fall_Conclave",6,72,1565,"epilog","TALIESIN","how common is that word?",10844.946,10846.416,1.46999999999935,6,244.897959183783,NA,NA,"TALIESIN",1,0,0,0
+"1566","Fall_Conclave",6,72,1566,"epilog","MATT","you know the word.",10846.416,10848.058,1.64200000000164,5,182.704019488246,NA,NA,"MATT",0,0,0,1
+"1567","Fall_Conclave",6,72,1567,"epilog","TALIESIN","i would know the word.",10848.058,10849.144,1.08599999999933,6,331.491712707387,NA,NA,"TALIESIN",1,0,0,0
+"1568","Fall_Conclave",6,72,1568,"epilog","LAURA","it's forgive.",10849.144,10850.391,1.24699999999939,4,192.461908580688,NA,NA,"LAURA",1,0,0,0
+"1569","Fall_Conclave",6,72,1569,"epilog","TALIESIN","oh.",10850.391,10851.663,1.27200000000084,2,94.3396226414468,NA,NA,"TALIESIN",1,0,0,0
+"1570","Fall_Conclave",6,72,1570,"epilog","LAURA","i carved this on fenthras because that's the key, isn't it? it's the only way to really grow.",10851.663,10861.727,10.0640000000003,22,131.160572337039,NA,NA,"LAURA",1,0,0,0
+"1571","Fall_Conclave",6,72,1571,"epilog","TALIESIN","i think so. i'm trying. it's the only thing i've tried that's made any sense so far. and it felt very liberating, it felt good, it felt perfect. and it wasn't about her. it was just about me. honestly, that was really the thing that i noticed, was i didn't say it to make her feel better, i didn't say it to give her any peace. i came to that feeling before running into her. i didn't know if it would be true when i saw her, but i feel like so much of my energy had been such a waste. and worse than a waste, it had been twisted in the wrong direction. and it's too late for a lot of things. there are things i cannot take back and things that i have done that will forever be terrible, but that's not the point, i suppose.",10861.727,10938.207,76.4799999999996,159,124.73849372385,NA,NA,"TALIESIN",1,0,0,0
+"1572","Fall_Conclave",6,72,1572,"epilog","LAURA","it isn't. whoever that boy was that created those things, that suffered such horrors that he felt they were justified? you have to forgive him, too. because everything you've suffered and endured and created in that time has made you into the person you are now. and you have a brilliant mind. and any darkness that might cloud your vision on occasion, the fact that you found it within yourself to forgive her means that it will never overtake you.",10938.207,10978.939,40.732,83,122.262594520279,NA,NA,"LAURA",1,0,0,0
+"1573","Fall_Conclave",6,72,1573,"epilog","TALIESIN","thank you. i would like to think we're all better than we think we are. except maybe your brother. i think he's just a mess.",10978.939,10993.169,14.2299999999996,28,118.060435699231,NA,NA,"TALIESIN",1,0,0,0
+"1574","Fall_Conclave",6,72,1574,"epilog","LAURA","he's terrible, isn't he? just the worst.",10993.169,10995.056,1.88700000000063,10,317.965023847271,NA,NA,"LAURA",1,0,0,0
+"1575","Fall_Conclave",6,72,1575,"epilog","TALIESIN","is he in here?",10995.056,10996.482,1.42599999999948,5,210.378681627006,NA,NA,"TALIESIN",1,0,0,0
+"1576","Fall_Conclave",6,72,1576,"epilog","LAURA","maybe, he's probably hiding somewhere.",10996.482,10999.29,2.8080000000009,7,149.572649572602,NA,NA,"LAURA",1,0,0,0
+"1577","Fall_Conclave",6,72,1577,"epilog","TALIESIN","shouldn't have given him that ring. thank you. i know i have to forgive myself. i'm not quite there yet, but i can see a path. i like where we are and what we're doing. i think that we're the right people in the right place and the right time.",10999.29,11027.775,28.4849999999988,55,115.850447604007,NA,NA,"TALIESIN",1,0,0,0
+"1578","Fall_Conclave",6,72,1578,"epilog","LAURA","i agree. and this engraving is a reminder that every time i attack, it's not out of vengeance.",11027.775,11040.882,13.107,20,91.5541313801787,NA,NA,"LAURA",1,0,0,0
+"1579","Fall_Conclave",6,72,1579,"epilog","TALIESIN","i would be horrified if you were taking yourself too seriously.",11040.882,11044.235,3.35300000000097,12,214.733074858273,NA,NA,"TALIESIN",1,0,0,0
+"1580","Fall_Conclave",6,72,1580,"epilog","LAURA","never. did you see the bear that i carved on the tree? it's quite lovely.",11044.235,11049.514,5.27899999999863,17,193.21841257819,NA,NA,"LAURA",1,0,0,0
+"1581","Fall_Conclave",6,72,1581,"epilog","TALIESIN","it was quite lovely. i don't know if the tree is quite as happy with it, but i was quite impressed.",11049.514,11056.066,6.5520000000015,23,210.622710622662,NA,NA,"TALIESIN",1,0,0,0
+"1582","Fall_Conclave",6,72,1582,"epilog","LAURA","thank you.",11056.066,11062.355,6.28899999999885,3,28.6214024487252,NA,NA,"LAURA",1,0,0,0
+"1583","Fall_Conclave",6,72,1583,"epilog","TALIESIN","thank you.",11062.355,11069.674,7.31900000000132,3,24.5935237054198,NA,NA,"TALIESIN",1,0,0,0
+"1584","Fall_Conclave",6,72,1584,"epilog","LAURA","that's all.",11069.717,11075.281,5.56400000000031,4,43.1344356577978,NA,NA,"LAURA",1,0,0,0
+"1585","Fall_Conclave",6,72,1585,"epilog","TALIESIN","what room are we in, out of curiosity?",11075.281,11082.318,7.03699999999844,9,76.7372459855222,NA,NA,"TALIESIN",1,0,0,0
+"1586","Fall_Conclave",6,72,1586,"epilog","LAURA","there's no room, we're in the woods.",11082.318,11084.629,2.31100000000151,10,259.627866724192,NA,NA,"LAURA",1,0,0,0
+"1587","Fall_Conclave",6,72,1587,"epilog","TALIESIN","oh, no room, we're in the woods. yeah, all right. as i walk away, i walk up. i kiss her. so we'll talk later. and i walk away.",11084.629,11098.517,13.887999999999,31,133.928571428581,NA,NA,"TALIESIN",1,0,0,0
+"1588","Fall_Conclave",6,72,1588,"epilog","LIAM","anything can happen in the woods.",11098.517,11102.437,3.92000000000007,7,107.142857142855,NA,NA,"LIAM",1,0,0,0
+"1589","Fall_Conclave",6,72,1589,"epilog","TALIESIN","bless you.",11102.437,11105.357,2.92000000000007,3,61.6438356164368,NA,NA,"TALIESIN",1,0,0,0
+"1590","Fall_Conclave",6,72,1590,"epilog","TRAVIS","oh shit!",11105.357,11107.277,1.92000000000007,3,93.7499999999964,NA,NA,"TRAVIS",1,0,0,0
+"1591","Fall_Conclave",6,72,1591,"epilog","MATT","and it's ten o'clock. we're going to go ahead and end today's session.",11107.277,11109.607,2.32999999999993,18,463.519313304735,NA,NA,"MATT",0,0,0,1
+"1592","Fall_Conclave",6,72,1592,"epilog","TALIESIN","bam, motherfuckers! bam!",11109.607,11111.608,2.0010000000002,4,119.940029984995,NA,NA,"TALIESIN",1,0,0,0
+"1593","Fall_Conclave",6,72,1593,"epilog","TRAVIS","go on and kiss the girl.",11111.608,11121.221,9.61299999999937,7,43.690835327164,NA,NA,"TRAVIS",1,0,0,0
+"1594","Fall_Conclave",6,72,1594,"epilog","LAURA","oh man, oh man.",11121.221,11126.139,4.91799999999967,5,61.0004066693819,NA,NA,"LAURA",1,0,0,0
+"1595","Fall_Conclave",6,72,1595,"epilog","MATT","thank you guys for watching! that episode had a lot of interesting moments.",11126.139,11132.743,6.60400000000118,14,127.19563900664,NA,NA,"MATT",0,0,0,1
+"1596","Fall_Conclave",6,72,1596,"epilog","SAM","we had an elephant fight.",11132.743,11134.841,2.09799999999996,6,171.591992373693,NA,NA,"SAM",1,0,0,0
+"1597","Fall_Conclave",6,72,1597,"epilog","MATT","the spoils of war.",11137.382,11140.228,2.84599999999955,5,105.411103302898,NA,NA,"MATT",0,0,0,1
+"1598","Fall_Conclave",6,72,1598,"epilog","TRAVIS","a whole bunch of new shit.",11140.228,11142.03,1.8020000000015,7,233.074361820006,NA,NA,"TRAVIS",1,0,0,0
+"1599","Fall_Conclave",6,72,1599,"epilog","LIAM","look at our signatures in the snow, that's fucking beautiful!",11142.03,11146.311,4.28099999999904,12,168.185003503892,NA,NA,"LIAM",1,0,0,0
+"1600","Fall_Conclave",6,72,1600,"epilog","TALIESIN","there was pissing, there was kissing, there was everything!",11146.311,11149.004,2.69300000000112,10,222.799851466673,NA,NA,"TALIESIN",1,0,0,0
+"1601","Fall_Conclave",6,72,1601,"epilog","SAM","pissing and kissing.",11149.004,11150.611,1.60699999999997,4,149.346608587433,NA,NA,"SAM",1,0,0,0
+"1602","Fall_Conclave",6,72,1602,"epilog","TALIESIN","pissing and kissing is the title.",11150.611,11153.815,3.20399999999972,7,131.086142322109,NA,NA,"TALIESIN",1,0,0,0
+"1603","Fall_Conclave",6,72,1603,"epilog","MARISHA","that's a good title.",11153.815,11155.556,1.74099999999999,6,206.777713957497,NA,NA,"MARISHA",1,0,0,0
+"1604","Fall_Conclave",6,72,1604,"epilog","MATT","that is <i>not</i> going to be the title.",11155.556,11159.371,3.81499999999869,11,173.001310616049,NA,NA,"MATT",0,0,0,1
+"1605","Fall_Conclave",6,72,1605,"epilog","LIAM","i shit it.",11159.371,11162.373,3.00200000000041,4,79.9467021985235,NA,NA,"LIAM",1,0,0,0
+"1606","Fall_Conclave",6,72,1606,"epilog","TALIESIN","you're welcome, internet.",11162.373,11163.847,1.47400000000016,5,203.527815468092,NA,NA,"TALIESIN",1,0,0,0
+"1607","Fall_Conclave",6,72,1607,"epilog","MATT","well then. we'll get ourselves to rest for the evening. you guys do the same, thank you for hanging in there. once again, amazing community, we love you guys so much, all the support you have. make sure to dig into all the awesome charities that we support, and you guys support as well. we're continuously getting messages from them, blown away by the generosity of the critter and team hooman community, so thank you guys so much for your support on those.",11163.847,11189.294,25.4470000000001,86,202.774393838173,NA,NA,"MATT",0,0,0,1
+"1608","Fall_Conclave",6,72,1608,"epilog","LAURA","thank you, backblaze.",11189.294,11192.149,2.85499999999956,4,84.063047285477,NA,NA,"LAURA",1,0,0,0
+"1609","Fall_Conclave",6,72,1609,"epilog","MATT","thanks, backblaze!",11192.149,11195.154,3.00500000000102,3,59.9001663893308,NA,NA,"MATT",0,0,0,1
+"1610","Fall_Conclave",6,72,1610,"epilog","TRAVIS","that amazing commercial. they're always so good.",11195.154,11200.654,5.5,9,98.1818181818182,NA,NA,"TRAVIS",1,0,0,0
+"1611","Fall_Conclave",6,72,1611,"epilog","MATT","i guess until next week, guys. is it thursday yet? see you then.",11200.654,11207.707,7.05299999999988,14,119.098256061252,NA,NA,"MATT",0,0,0,1
+"1612","Fall_Conclave",6,72,1612,"epilog","TRAVIS","oh shit, man!",11207.707,11210.23,2.52299999999923,4,95.1248513674488,NA,NA,"TRAVIS",1,0,0,0
