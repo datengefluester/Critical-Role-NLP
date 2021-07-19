@@ -2,11 +2,11 @@
 # Packages
 ###############################################################################
 library(tidyr) # data manipulation
-library(dplyr) # data manipulation
 library(stringr) # structure replacements
 library(SRTtools) # for reading in SRT files
 library(data.table) # faster reading in data
-
+library(dplyr, warn.conflicts = FALSE) # data manipulation
+library(dtplyr) # faster data manipulation
 ###############################################################################
 # Read in Data
 ###############################################################################
@@ -69,7 +69,7 @@ raw <- lapply(raw, function(x) {
 raw <- bind_rows(raw, .id = "File_number")
 # add episode number and delete file number as more intuitive
 raw <- merge(raw, conversion, all.x = TRUE)
-raw <- dplyr::select(raw, -c(File_number))
+raw <- select(raw, -c(File_number))
 
 # remove not needed files
 rm(file_name, filenames, conversion)
@@ -94,14 +94,14 @@ clean$textString <- gsub("\\s*\\([^\\)]+\\)", "", clean$textString)
 
 # delete every row, which is empty (""), which indicates a text only contains
 # description previously
-clean <- clean %>% filter(textString != "")
+clean <- clean %>% filter(textString != "") %>% as.data.frame()
 
 # get example for text
 example_raw <- clean %>%
   filter(file_name == 100) %>%
   slice(1:2) %>%
-  dplyr::select(-file_name)
-write.csv(example_raw, "data/data_for_graphs/example_raw", row.names = FALSE)
+  select(-file_name)
+write.csv(example_raw, "data/descriptive_analysis/example_raw", row.names = FALSE)
 
 
 # to be able to analysis things like words per minute etc.:
@@ -109,7 +109,7 @@ write.csv(example_raw, "data/data_for_graphs/example_raw", row.names = FALSE)
 tmp <- do.call(rbind, strsplit(clean[, "times"], " --> "))
 clean$startTime <- tmp[, 1]
 clean$endTime <- tmp[, 2]
-clean <- dplyr::select(clean, -times)
+clean <- select(clean, -times)
 rm(tmp)
 
 # start and end time in seconds for easier calculation:
@@ -160,25 +160,25 @@ clean <- clean %>% separate(Text3, c("Speaker4", "Text4"),
 
 # combine all distinct speakers for speaker "slot"
 unique <- clean %>%
-  distinct(dplyr::select(clean, Speaker1)) %>%
+  distinct(select(clean, Speaker1)) %>%
   rename(Speaker = Speaker1)
 
 unique <- clean %>%
-  distinct(dplyr::select(clean, Speaker2)) %>%
+  distinct(select(clean, Speaker2)) %>%
   rename(Speaker = Speaker2) %>%
   bind_rows(unique, .)
 
 unique <- clean %>%
-  distinct(dplyr::select(clean, Speaker3)) %>%
+  distinct(select(clean, Speaker3)) %>%
   rename(Speaker = Speaker3) %>%
   bind_rows(unique, .)
 
 unique <- clean %>%
-  distinct(dplyr::select(clean, Speaker4)) %>%
+  distinct(select(clean, Speaker4)) %>%
   rename(Speaker = Speaker4) %>%
   bind_rows(unique, .)
 
-unique <- unique %>% distinct(dplyr::select(unique, Speaker))
+unique <- unique %>% distinct(select(unique, Speaker))
 
 # This leaves us with 4438 identified speakers. However, some text
 # got miss matched: e.g. 'I open the door: What do I see?' becomes
@@ -196,7 +196,7 @@ unique <- unique %>% filter(str_detect(Speaker, "[[:upper:]]"))
 unique$Speaker <- tolower(as.character(unique$Speaker))
 
 # check uniqueness again, as TRAVIS and Travis are no both travis
-unique <- distinct(dplyr::select(unique, Speaker))
+unique <- distinct(select(unique, Speaker))
 
 # Get amount of words for each speaker. We get these as we go by length from
 # here on. The reason for doing this, is the fact that it makes it easy to
@@ -262,10 +262,10 @@ for (type in additions) {
   # get all possible combinations
   combinations2 <- combinations2 %>%
     unite("combinations", name1:name2, sep = type) %>%
-    dplyr::select(combinations)
+    select(combinations)
   combinations3 <- combinations3 %>%
     unite("combinations", name1:name3, sep = type) %>%
-    dplyr::select(combinations)
+    select(combinations)
   # combine the combination data frames
   combinations4 <- as.data.frame(rbind(combinations2, combinations3))
   # symmetrical so combinations created twice
@@ -309,7 +309,7 @@ rm(acutal_combintations, all_names, additions, combinations, combinations_names)
 brackets <- clean %>%
   filter(grepl("):", textString, fixed = TRUE)) %>%
   filter(grepl(")", Speaker1, fixed = TRUE)) %>%
-  dplyr::select(Speaker1) %>%
+  select(Speaker1) %>%
   filter(Speaker1 != "(others join in singing)") %>%
   add_row(Speaker1 = "Guard: (whispers)") %>%
   add_row(Speaker1 = "Vex: (whispers)") %>%
@@ -335,10 +335,10 @@ brackets <- clean %>%
 # actors speaking. Doing so puts 299 Speakers into a data frame and brings the number
 # to be sorted to 731.
 
-# dplyr::select only the ones with four or more words
+# select only the ones with four or more words
 phrases <- unique %>%
   filter(total_words >= 4) %>%
-  subset(dplyr::select = c(Speaker, total_words))
+  subset(select = c(Speaker, total_words))
 
 # create data list for ", and" to get a combination of speakers not yet
 # detected e.g. "laura, liam, and sam"
@@ -422,7 +422,7 @@ for (word in names) {
 }
 testing <- testing %>%
   mutate(Speaker = replace(Speaker, Temp != Speaker, NA)) %>%
-  dplyr::select(-c(Temp)) %>%
+  select(-c(Temp)) %>%
   drop_na(Speaker)
 
 # drop everything left over in phrases from unique data frame
@@ -900,7 +900,7 @@ for (entry in list_Speaker) {
 
 # extract speaker with brackets per segment
 brackets$Speaker <- sapply(brackets$Speaker, paste, ":", sep = "")
-tmp <- brackets %>% dplyr::select(Speaker)
+tmp <- brackets %>% select(Speaker)
 tmp <- as.list(unlist(tmp$Speaker))
 
 for (entry in tmp) {
@@ -959,7 +959,7 @@ clean <- clean %>%
 
 
 # assign text to speakers
-clean <- clean %>% dplyr::select(-c(2:9))
+clean <- clean %>% select(-c(2:9))
 
 
 # replace actor1 with #### for splitting afterwards
@@ -996,7 +996,7 @@ clean <- clean %>%
     remove = FALSE,
     extra = "merge"
   ) %>%
-  dplyr::select(-text)
+  select(-text)
 
 # edit missmatches:
 clean <- clean %>%
@@ -1073,7 +1073,7 @@ clean$actual_text_2 <- str_replace(
 # data set and create unique segment names: Actor_file_nameSpeaker
 
 # Actor 1
-Actor1 <- dplyr::select(clean, -c(
+Actor1 <- select(clean, -c(
   actual_Speaker_2, actual_Speaker_3,
   actual_text_2, actual_text_3
 ))
@@ -1084,7 +1084,7 @@ Actor1 <- Actor1 %>%
   )
 Actor1$number <- 1
 # Actor 2
-Actor2 <- dplyr::select(clean, -c(
+Actor2 <- select(clean, -c(
   actual_Speaker_1, actual_text_1,
   actual_Speaker_3, actual_text_3
 ))
@@ -1096,7 +1096,7 @@ Actor2 <- Actor2 %>%
   )
 Actor2$number <- 2
 # Actor3
-Actor3 <- dplyr::select(clean, -c(
+Actor3 <- select(clean, -c(
   actual_Speaker_1, actual_text_1,
   actual_Speaker_2, actual_text_2
 ))
@@ -1123,7 +1123,7 @@ clean$Actor <- gsub("/", " and ", clean$Actor)
 clean$Actor <- gsub("and and", "and", clean$Actor)
 
 # Unique Actors so you can check all the way in which names are wrongly spelled:
-unique <- distinct(dplyr::select(clean, Actor))
+unique <- distinct(select(clean, Actor))
 
 # split at "and"
 unique <- unique %>%
@@ -1131,7 +1131,7 @@ unique <- unique %>%
   unnest(Actor)
 
 # list of unique Actors:
-unique <- distinct(dplyr::select(unique, Actor))
+unique <- distinct(select(unique, Actor))
 
 
 ###############################################################################
@@ -1193,7 +1193,7 @@ miss_spells <- miss_spells %>%
   count() %>%
   rename(types_miss_spellings = n) %>%
   right_join(miss_spells, by = "Actor") %>%
-  dplyr::select(Actor, amount_miss_spellings, types_miss_spellings) %>%
+  select(Actor, amount_miss_spellings, types_miss_spellings) %>%
   ungroup() %>%
   unique()
 
@@ -1459,24 +1459,28 @@ clean <- clean %>%
     sep = "-",
     fill = "right", remove = TRUE, extra = "merge"
   ) %>%
-  dplyr::select(-Tmp) %>%
+  select(-Tmp) %>%
   mutate(Episode = as.numeric(Episode))
 
 
 
 # read attendance and add to data frame
-attendance <- fread(file = "data/raw_data/rest/attendance.csv")
+attendance <- fread(file = "data/raw_data/rest/attendance.csv") %>% as.data.frame()
 
 # clean
 clean <- attendance %>%
   filter(Episode != "Total") %>%
-  dplyr::select(-c(X, X.1, Player.Present, X1)) %>%
+  select(c(1, 3:10,12:13)) %>%
   mutate(Guests = replace(Guests, Guests == "Jo" | Guests == "ri", 1)) %>%
   mutate(Ashley = replace(Ashley, is.na(Ashley), 0)) %>%
   mutate(Skype = replace(Skype, is.na(Skype), 0)) %>%
   mutate(Episode = str_replace(Episode, "C1E", "")) %>%
   mutate(Episode = as.numeric(Episode)) %>%
   left_join(clean, ., by = "Episode")
+
+# get attendance data frame
+attendance <- clean %>% select(8:18) %>% distinct_all()
+write.csv(attendance, "./data/clean_data/rest/attendance.csv", row.names = FALSE)
 
 # kick out if speaker was not indeed present in an episode
 clean <- clean %>%
@@ -1630,7 +1634,7 @@ clean <- clean[!duplicated(clean$segment), ]
 # drop segment number
 clean <- clean %>%
   ungroup() %>%
-  dplyr::select(-segment)
+  select(-segment)
 
 
 
@@ -1649,7 +1653,7 @@ clean$Text <- gsub("--", "", clean$Text)
 clean <- clean %>% mutate(Text = str_trim(Text, side = "both"))
 
 # drop textString
-clean <- clean %>% dplyr::select(-textString)
+clean <- clean %>% select(-textString)
 
 # replace "- " with ""
 clean$Text <- gsub("- ", "", clean$Text)
@@ -1839,8 +1843,9 @@ time_stamps <- fread("./data/raw_data/time_stamps/running_times.csv",
 
 # Edit for better readability
 time_stamps <- time_stamps %>%
-  dplyr::select(1, 10:13) %>%
-  slice(-(1:3))
+  select(1, 10:13) %>%
+  slice(-(1:3)) %>% 
+  as.data.frame()
 
 
 # Combat stamps
@@ -1850,18 +1855,19 @@ combat_stamps <- fread("./data/raw_data/time_stamps/combat_times.csv",
 
 combat_stamps <- combat_stamps %>%
   slice(-(1:2)) %>%
-  dplyr::select(2:6)
+  select(2:6)  %>% 
+  as.data.frame()
 
 # merge
 time_stamps <- left_join(time_stamps, combat_stamps, by = "Episode") %>%
   rename(
-    first_start = X1st.start,
-    second_start = X2nd.start,
-    first_end = X1st.end,
-    second_end = X2nd.end,
-    encounter_length = Total.Length,
-    encounter_start = Start.Time,
-    encounter_end = End.Time
+    first_start = `1st start`,
+    second_start = `2nd start`,
+    first_end = `1st end`,
+    second_end = `2nd end`,
+    encounter_length = `Total Length`,
+    encounter_start = `Start Time`,
+    encounter_end = `End Time`
   ) %>%
   mutate(Episode = gsub("C1E", "", Episode)) %>%
   mutate(Episode = as.numeric(Episode))
@@ -1904,7 +1910,7 @@ clean <- clean %>%
   mutate(Episode = as.numeric(Episode))
 
 clean <- time_stamps %>%
-  dplyr::select(1:5) %>%
+  select(1:5) %>%
   mutate(Episode = as.numeric(Episode)) %>%
   left_join(clean, ., by = "Episode") %>%
   distinct()
@@ -1934,7 +1940,7 @@ clean <- clean %>%
 
 # combat times
 combat_stamps <- time_stamps %>%
-  dplyr::select(1, 6:9) %>%
+  select(1, 6:9) %>%
   group_by(Episode) %>%
   mutate(encounter_number = row_number()) %>%
   pivot_wider(
@@ -1964,7 +1970,7 @@ for (row in 1:nrow(combat_stamps)) {
 clean <- combat_stamps %>%
   mutate_if(is.character, as.numeric) %>%
   filter(encounter_number == 1) %>%
-  dplyr::select(-c(2, 3, 12)) %>%
+  select(-c(2, 3, 12)) %>%
   mutate(Episode = as.numeric(Episode)) %>%
   left_join(clean, ., by = "Episode")
 
@@ -2028,7 +2034,6 @@ clean <- clean %>%
   group_by(Episode) %>%
   mutate(turn_number = row_number())
 
-
 # add variable where all guests are labeled as 'GUESTS'
 clean <- clean %>% mutate(Actor_Guest = Actor)
 guests <- toupper(guests)
@@ -2037,20 +2042,8 @@ for (spelling in guests) {
   clean$Actor_Guest <- gsub(spelling, "GUESTS", clean$Actor_Guest)
 }
 
-
-
-# get attendance data frame and delete it from clean data frame
-attendance <- clean %>%
-  dplyr::select(Episode, 8:19) %>%
-  distinct_all()
-
-write.csv(attendance, "./data/clean_data/rest/attendance.csv", row.names = FALSE)
-
-clean <- clean %>% dplyr::select(-c(8:19, number))
-clean <- clean %>% dplyr::select(-c(17:20, 22:29))
-
 # reorder variables
-clean <- clean %>% dplyr::select(
+clean <- clean %>% select(
   Arc, Arc_no, Episode, turn_number, segment, Actor, Text,
   startTime, endTime, timeDiffInSecs, wordCount,
   words_per_minute, encounter_count, rp_combat, Actor_Guest,
@@ -2103,7 +2096,7 @@ lapply(files, function(x) {
 ###############################################################################
 
 # --- PC natural 20s
-pc_20 <- fread("./data/raw_data/dice_rolls/pc_20.csv")
+pc_20 <- read.csv("./data/raw_data/dice_rolls/pc_20.csv")
 
 # extract episode numbers
 pc_20 <- pc_20 %>%
@@ -2139,7 +2132,7 @@ pc_20 <- pc_20 %>%
     ""
   )) %>%
   separate(time_stamp, c("actor", "time_stamp"), sep = " ", extra = "drop") %>%
-  dplyr::select(-raw) %>%
+  select(-raw) %>%
   mutate(description = str_squish(description))
 
 # Replace characters with Actors
@@ -2172,7 +2165,7 @@ write.csv(pc_20, "./data/clean_data/dice_rolls/pc_20.csv", row.names = FALSE)
 
 
 # --- PC natural 1s
-pc_1 <- fread("./data/raw_data/dice_rolls/pc_1.csv")
+pc_1 <- read.csv("./data/raw_data/dice_rolls/pc_1.csv")
 
 # extract episode numbers
 pc_1 <- pc_1 %>%
@@ -2216,9 +2209,10 @@ pc_1 <- pc_1 %>%
   # because of the warning: manual tweak (I don't know why it bugs tbh)
   mutate(time_stamp = replace(time_stamp, is.na(time_stamp), "3:22:30")) %>%
   mutate(actor = str_replace(actor, "3:22:30", "")) %>%
-  dplyr::select(-raw) %>%
+  select(-raw) %>%
   mutate(description = str_squish(description)) %>%
-  mutate(actor = str_squish(actor))
+  mutate(actor = str_squish(actor)) %>% 
+  mutate(episode = as.numeric(episode))
 
 
 # Replace characters with Actors
@@ -2251,7 +2245,7 @@ write.csv(pc_1, "./data/clean_data/dice_rolls/pc_1.csv", row.names = FALSE)
 
 
 # --- DMs natural 1s
-dm_1 <- fread("./data/raw_data/dice_rolls/dm_1.csv")
+dm_1 <- read.csv("./data/raw_data/dice_rolls/dm_1.csv")
 
 # preparations: correct formatting errors
 dm_1 <- dm_1 %>%
@@ -2269,26 +2263,34 @@ dm_1 <- dm_1 %>%
   mutate(NPC = gsub("([[:digit:]]+).*", "\\1", episode)) %>%
   separate(NPC, c("NPC", "tmp"), sep = " \\(", extra = "drop") %>%
   separate(description, c("tmp", "time"), sep = " \\(", extra = "drop") %>%
-  dplyr::select(-tmp) %>%
+  select(-tmp) %>%
   separate(time, c("time", "description"), sep = "\\)", extra = "drop") %>%
-  separate(time, c("episode", "time"), sep = ",", extra = "drop")
+  separate(time, c("episode", "time"), sep = ",", extra = "drop") 
 
 # clean up
 dm_1 <- dm_1 %>%
+  mutate(episode = replace(episode, NPC == "Intellect Devourer" & 
+                             episode == "E",   13)) %>% 
+  mutate(episode = replace(episode, NPC == "Kima" & 
+                             episode == "E",   16)) %>%
+  mutate(episode = replace(episode, NPC == "Kern" & 
+                             episode == "E",   17)) %>%
+  mutate(episode = replace(episode, NPC == "Skeleton" & 
+                             episode == "E0",   100)) %>%
   mutate(episode = gsub("Ep", "", episode)) %>%
   mutate(episode = gsub("Ep", "", episode)) %>%
   mutate(episode = gsub("E", "", episode)) %>%
   mutate(episode = as.numeric(episode)) %>%
   mutate_all(na_if, "") %>%
   mutate(description = str_squish(description)) %>%
-  dplyr::select(-raw)
+  select(-raw)
 
 
 write.csv(dm_1, "./data/clean_data/dice_rolls/dm_1.csv", row.names = FALSE)
 
 
 # --- DM natural 20s
-dm_20 <- fread("./data/raw_data/dice_rolls/dm_20.csv")
+dm_20 <- read.csv("./data/raw_data/dice_rolls/dm_20.csv")
 
 # preparations: correct formatting errors
 dm_20 <- dm_20 %>%
@@ -2303,14 +2305,14 @@ dm_20 <- dm_20 %>%
   mutate(NPC = gsub("([[:digit:]]+).*", "\\1", episode)) %>%
   separate(NPC, c("NPC", "tmp"), sep = " \\(", extra = "drop") %>%
   separate(description, c("tmp", "time"), sep = " \\(", extra = "drop") %>%
-  dplyr::select(-tmp) %>%
+  select(-tmp) %>%
   separate(time, c("time", "description"), sep = "\\)", extra = "drop") %>%
   separate(time, c("episode", "time"), sep = ",", extra = "drop") %>%
   mutate(time = gsub("p1.", "", time))
 
 # clean up
 dm_20 <- dm_20 %>%
-  dplyr::select(-raw) %>%
+  select(-raw) %>%
   mutate(episode = gsub("Ep", "", episode)) %>%
   mutate(episode = gsub("Ep", "", episode)) %>%
   mutate(episode = as.numeric(episode)) %>%
@@ -2323,7 +2325,7 @@ write.csv(dm_20, "./data/clean_data/dice_rolls/dm_20.csv", row.names = FALSE)
 # All dice roles
 ###############################################################################
 
-dice_rolls <- fread("./data/raw_data/dice_rolls/dice_roles.csv",
+dice_rolls <- read.csv("./data/raw_data/dice_rolls/dice_roles.csv",
   na.strings = c("", "NA")
 )
 
@@ -2342,8 +2344,7 @@ write.csv(dice_rolls, "./data/clean_data/dice_rolls/dice_rolls.csv", row.names =
 # Face Palms
 ###############################################################################
 
-
-face_palms <- fread("./data/raw_data/rest/face_palms_raw.csv")
+face_palms <- read.csv("./data/raw_data/rest/face_palms_raw.csv")
 
 # extract episode numbers
 face_palms <- face_palms %>%
@@ -2367,7 +2368,7 @@ face_palms <- face_palms %>%
     "\\(",
     ""
   )) %>%
-  dplyr::select(-raw)
+  select(-raw)
 
 write.csv(face_palms, "./data/clean_data/rest/face_palms.csv", row.names = FALSE)
 
@@ -2376,7 +2377,7 @@ write.csv(face_palms, "./data/clean_data/rest/face_palms.csv", row.names = FALSE
 # Seating Order
 ###############################################################################
 
-seating_order <- fread("./data/raw_data/rest/seating_order.csv")
+seating_order <- read.csv("./data/raw_data/rest/seating_order.csv")
 
 # change into long format
 seating_order <- seating_order %>%
@@ -2390,7 +2391,7 @@ seating_order <- seating_order %>%
 # Same order
 seating_order <- seating_order %>%
   mutate(Actor = paste(Actor, " And ", Actor2)) %>%
-  dplyr::select(-Actor2)
+  select(-Actor2)
 
 seating_order$Actor <- unname(sapply(seating_order$Actor, function(x) {
   paste(sort(trimws(strsplit(x[1], " And ")[[1]])), collapse = " And ")

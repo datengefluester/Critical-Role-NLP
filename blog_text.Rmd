@@ -227,7 +227,7 @@ Examining the attendance by the players some differences stand out: Out of the e
 ```{r attendence, echo = FALSE}
 # create graph
 attendance %>%
-  ggplot(aes(x = reorder(actor, episodes), y = episodes)) +
+  ggplot(aes(x = reorder(Actor, number_episodes), y = number_episodes)) +
   geom_bar(stat = "identity", fill = "#1b9e77") +
   coord_flip() +
   scale_y_continuous(

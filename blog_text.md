@@ -32,7 +32,7 @@ which then act out an entire episode in the future. This is, however,
 far beyond the scope of this blog post. Instead, we will examine at
 descriptive statistics to look back on the first season of the series.
 
-In total the subtitles for the first season cover over 430 hours of game
+In total the subtitles for the first season cover over 431 hours of game
 play and contain roughly 3.4 million words. A typical episode might
 start with the game master Matthew Mercer saying: “Hello everybody and
 good evening. Welcome to Critical Role.” In the subtitles this looks as
@@ -117,15 +117,11 @@ subtitles are not made by a professional subtitle writer, but instead by
 dedicated fans of the show. Yet, taking everything together, the amount
 of misspells for all the subtitles is astonishingly low. Over 115
 episodes and a more than episodes and more than four hundred hours of
-content the total amount of misspells is only NA. In summary, the fans
+content the total amount of misspells is only 150. In summary, the fans
 have shown a great eye for details when transcribing the episodes.
 Hence, we can confidentially use the subtitles for more analyses.
 
-    ## Warning: Removed 3 rows containing missing values (position_stack).
-
 ![](output/markdown_figs/miss_spellings-1.png)
-
-    ## Warning: Removed 3 rows containing missing values (position_stack).
 
 The graph above directly compares the miss spellings of the different
 actors. However, a direct comparison may be unfair because not every
@@ -254,11 +250,7 @@ different characters throughout the show. That said, only a few players
 change characters throughout the show and should therefore not influence
 the results significantly.
 
-    ## Warning: Removed 41 rows containing missing values (position_stack).
-
 ![](output/markdown_figs/grade_level-1.png)
-
-    ## Warning: Removed 41 rows containing missing values (position_stack).
 
 So far, we have only looked at each actor individually. As Dungeons and
 Dragons is an interactive experience, this seems restrictive. The graph
@@ -286,7 +278,7 @@ as we have seen earlier, Laura does not speak often (timewise) compared
 to other members of the cast. Thus, the number could be influenced by,
 among other things, Laura giving short comments throughout the show.
 Let’s see whether that’s the case. Indeed, on average a segment from her
-only contains 9.2 words, while average for all players is 10.7. This may
+only contains 9.2 words, while average for all players is 11.8. This may
 imply that the results shown above are indeed inflated by Laura
 commenting while other cast members speak. As a side note, given the
 role of Matt everybody interacts with him the most. Therefore, Matt is
@@ -427,7 +419,7 @@ without them when it comes to sentiment.
 In contrast, the time spent in combat does seem to negatively effect the
 sentiment of an episode. Using a OLS estimation, while holding the
 length of episodes constant, we can estimate the effect. We find that
-one hour spent in combat is associated with a decrease 27.16 in the
+one hour spent in combat is associated with a decrease 27.23 in the
 sentiment score of the episode. Given that an average episode has a
 sentiment score of 176 and an average combat lasts for 1.4 hours this is
 a significant effect. Yet, as success in Dungeons and Dragons is

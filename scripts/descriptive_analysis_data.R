@@ -1,15 +1,15 @@
 ###############################################################################
 # Packages
 ###############################################################################
-library(dplyr) # for data manipulation
 library(tidyr) # for data manipulation
 library(stringr) # structure replacements
 library(tidytext) # for sentiment data
 library(quanteda.textstats) # for grade scores
 library(tidylo) # text log odds
 library(sentimentr) # sentiment analysis
-library(data.table)
-
+library(data.table) # for faster reading
+library(dplyr, warn.conflicts = FALSE) # data manipulation
+library(dtplyr) # faster data manipulation
 ###############################################################################
 # Get Data
 ###############################################################################
@@ -25,7 +25,8 @@ data <- data %>%
   filter(episode <= 115) %>%
   filter(segment != "break") %>%
   filter(segment != "extra") %>%
-  filter(!is.na(segment))
+  filter(!is.na(segment)) %>% 
+  as.data.frame()
 
 # rename Actor: as this files creates graphs, it's nicer to have not every
 # character capitalized
@@ -77,7 +78,7 @@ write.csv(run_time,
 example <- data %>%
   filter(grepl("hello everyone", text)) %>%
   filter(episode == 100) %>%
-  dplyr::select(episode, segment, start_turn, end_turn, actor, text) %>%
+  select(episode, segment, start_turn, end_turn, actor, text) %>%
   mutate(segment = str_to_title(segment))
 
 # change names of the variables for better representation
@@ -137,17 +138,14 @@ write.csv(miss_spells,
 # Attendance
 ###############################################################################
 
-attendance <- read.csv(file = "./data/clean_data/rest/attendance.csv")
+attendance <- fread(file = "./data/clean_data/rest/attendance.csv") %>% as.data.frame()
 
 attendance <- attendance %>%
-  mutate(Guests = replace(Guests, Guests == "Jo", NA)) %>%
-  mutate(Guests = replace(Guests, Guests == "ri", NA)) %>%
-  mutate(Guests = as.numeric(Guests)) %>%
-  pivot_longer(Laura:Guests, names_to = "actor", values_to = "episodes") %>%
-  dplyr::select(Episode, actor, episodes) %>%
-  filter(Episode <= 115) %>%
-  group_by(actor) %>%
-  summarise(episodes = sum(episodes, na.rm = TRUE))
+  filter(Episode != 12) %>% 
+  pivot_longer(Laura:Guests, names_to = "Actor", values_to = "number_episodes") %>% 
+  group_by(Actor) %>% 
+  summarise(number_episodes = sum(number_episodes))
+  
 
 # export data frame
 write.csv(attendance,
@@ -259,7 +257,7 @@ readability_grade <- textstat_readability(
   max_sentence_length = 10000
 ) %>%
   as.data.frame() %>%
-  dplyr::select(Coleman.Liau.grade) %>%
+  select(Coleman.Liau.grade) %>%
   bind_cols(individual_cast_member, .)
 
 # keep only players and get aggreagte values
@@ -325,7 +323,7 @@ write.csv(length_segment,
 # get only actors column and kick out staff and rename all guests as 'guests'
 network <- data %>%
   filter(staff != 1) %>%
-  dplyr::select(actor_guest)
+  select(actor_guest)
 
 # kick out stuff said by multiple actors simultaneously
 # and then get the previous speaker
@@ -336,7 +334,7 @@ network <- network %>%
   group_by(actor_guest, previous) %>%
   tally()
 
-combinations <- network %>% dplyr::select(actor_guest, previous)
+combinations <- network %>% select(actor_guest, previous)
 
 # make the combination a new variable
 network <- network %>% unite("combination",
@@ -352,7 +350,7 @@ network$combination <- unname(sapply(network$combination, function(x) {
 
 # get number of occurrences for each combination and then split combinations again
 network <- network %>%
-  dplyr::select(combination, n) %>%
+  select(combination, n) %>%
   group_by(combination) %>%
   summarise(total = sum(n)) %>%
   separate(combination,
@@ -391,7 +389,7 @@ write.csv(network,
 # select text spoken by actor simultaneously
 same_thought <- data %>%
   filter(staff != 1) %>%
-  dplyr::select(actor_guest) %>%
+  select(actor_guest) %>%
   filter(grepl("And", actor_guest))
 
 
@@ -411,7 +409,7 @@ same_thought$total_words <- sapply(
 # only two speakers already
 same_thought_network <- same_thought %>%
   filter(total_words == 3) %>%
-  dplyr::select(actor_guest)
+  select(actor_guest)
 
 # three speakers
 same_thought_network <- same_thought %>%
@@ -423,12 +421,12 @@ same_thought_network <- same_thought %>%
     third2 = word(actor_guest, 5),
     third = paste(third1, third2, sep = " ")
   ) %>%
-  dplyr::select(first, second, third) %>%
+  select(first, second, third) %>%
   pivot_longer(first:third,
     names_to = "position",
     values_to = "actor_guest"
   ) %>%
-  dplyr::select(actor_guest) %>%
+  select(actor_guest) %>%
   bind_rows(., same_thought_network)
 
 # four speakers
@@ -452,12 +450,12 @@ same_thought_network <- same_thought %>%
     sixth2 = word(actor_guest, 7),
     sixth = paste(sixth1, sixth2, sep = " ")
   ) %>%
-  dplyr::select(3, 4, 5, 8, 11, 14) %>%
+  select(3, 4, 5, 8, 11, 14) %>%
   pivot_longer(first:sixth,
     names_to = "position",
     values_to = "actor_guest"
   ) %>%
-  dplyr::select(actor_guest) %>%
+  select(actor_guest) %>%
   bind_rows(., same_thought_network)
 
 # clean up
@@ -490,7 +488,7 @@ same_thought_network <- data.frame(
 ) %>%
   right_join(., same_thought_network, by = "actor1") %>%
   filter(actor1 != actor2) %>%
-  dplyr::select(-order) %>%
+  select(-order) %>%
   mutate(
     actor1 = str_to_title(actor1),
     actor2 = str_to_title(actor2)
@@ -516,10 +514,10 @@ seating_order <- read.csv("./data/clean_data/rest/seating_order.csv")
 seating_order <- seating_order %>%
   left_join(same_thought_network, .) %>%
   rename(same_thought = weights) %>%
-  dplyr::select(-type) %>%
+  select(-type) %>%
   left_join(., network) %>%
   rename(interactions = weights) %>%
-  dplyr::select(-type) %>%
+  select(-type) %>%
   filter(!is.na(Distance))
 
 # export data frame
@@ -537,7 +535,8 @@ sentences_sentiment <- data %>%
   rename(number_words = word_count) %>%
   # the rename is needed to prevent an error
   get_sentences(text) %>%
-  sentiment()
+  sentiment() %>% 
+  as.data.frame()
 
 # mean_sentiment <- sentences_sentiment$sentiment
 
@@ -559,7 +558,6 @@ write.csv(sentiment_by_actor,
   row.names = FALSE
 )
 
-
 # by episode
 sentiment_by_episode <- sentences_sentiment %>%
   group_by(episode) %>%
@@ -569,7 +567,6 @@ sentiment_by_episode <- sentences_sentiment %>%
     sd_sentiment = sd(sentiment)
   )
 
-
 # add run time episode
 sentiment_by_episode <- data %>%
   group_by(episode) %>%
@@ -578,7 +575,6 @@ sentiment_by_episode <- data %>%
   ) %>%
   mutate(time_in_hour = time_in_hour / 3600) %>%
   left_join(sentiment_by_episode, ., by = "episode")
-
 
 
 # ------------------- add dice rolls:
@@ -662,7 +658,7 @@ sentiment_by_episode <- dice_rolls %>%
 sentiment_by_episode <- dice_rolls %>%
   filter(!is.na(Natural.Value)) %>%
   filter(Natural.Value <= 20 & Natural.Value >= 1) %>%
-  dplyr::select(episode, Natural.Value) %>%
+  select(episode, Natural.Value) %>%
   group_by(episode) %>%
   mutate(Natural.Value = as.numeric(Natural.Value)) %>%
   summarise(mean_natural_rolls = mean(Natural.Value)) %>%
@@ -670,7 +666,7 @@ sentiment_by_episode <- dice_rolls %>%
 
 # Ashley and Guest dummies
 sentiment_by_episode <- read.csv(file = "./data/clean_data/rest/attendance.csv") %>%
-  dplyr::select(Episode, Ashley, Guests) %>%
+  select(Episode, Ashley, Guests) %>%
   rename(episode = Episode) %>%
   left_join(sentiment_by_episode, ., by = "episode")
 
@@ -682,13 +678,13 @@ sentiment_by_episode <- data %>%
   summarise(combat_time = sum(time_in_sec, na.rm = TRUE)) %>%
   mutate(combat_time = combat_time / 3600) %>%
   filter(rp_combat == "combat") %>%
-  dplyr::select(-rp_combat) %>%
+  select(-rp_combat) %>%
   left_join(sentiment_by_episode, ., by = "episode") %>%
   mutate(combat_time = replace(combat_time, is.na(combat_time), 0))
 
 # change order variables
 sentiment_by_episode <- sentiment_by_episode %>%
-  dplyr::select(1:4, 6:10, 12:14, number_rolls, time_in_hour, combat_time)
+  select(1:4, 6:10, 12:14, number_rolls, time_in_hour, combat_time)
 
 
 # export data frame
@@ -702,9 +698,9 @@ write.csv(sentiment_by_episode,
 sentiment_by_arc <- sentences_sentiment %>%
   # put sentiment per episode and arc together
   distinct(arc, arc_no, episode) %>%
-  dplyr::select(arc, arc_no, episode) %>%
+  select(arc, arc_no, episode) %>%
   left_join(., sentiment_by_episode, by = "episode") %>%
-  dplyr::select(arc_no, arc, episode, sum_sentiment) %>%
+  select(arc_no, arc, episode, sum_sentiment) %>%
   # get mean sentiment per episode per arc
   group_by(arc_no, arc) %>%
   summarise(mean_sentiment_per_episode = mean(sum_sentiment))
