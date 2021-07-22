@@ -60,6 +60,11 @@ data <- data %>%
   mutate(combat = replace(combat, combat=="combat", 1)) %>% 
   mutate(combat = as.numeric(combat))
 
+example_ml <- data %>% 
+  filter(episode == 100) %>% 
+  slice(1) %>% 
+  select(-c(id,episode)) 
+write.csv(example_ml, "./data/machine_learning/example_ml.csv", row.names = FALSE)
 
 # Cloud vs. Local Machine -------------------------------------------------
 
@@ -128,14 +133,18 @@ rf_wf <- workflow() %>%
 rf_res <- tune_grid(
   rf_wf,
   resamples = folds,
-  control = control_grid(parallel_over = "everything"), # parallel tuning
+  metrics = metric_set(
+    recall, precision, f_meas, 
+    accuracy, kap,
+    roc_auc, sens, spec),
+  control = control_grid(parallel_over = "everything", save_pred = TRUE), # parallel tuning
 )
 
 
 # Find Best Model: Plotting 
 rf_res %>%
   collect_metrics() %>%
-  filter(.metric == "roc_auc") %>%
+  filter(.metric == "accuracy") %>%
   dplyr::select(mean, min_n, mtry, trees) %>%
   pivot_longer(min_n:trees,
                values_to = "value",
@@ -144,14 +153,14 @@ rf_res %>%
   ggplot(aes(value, mean, color = parameter)) +
   geom_point(show.legend = FALSE) +
   facet_wrap(~parameter, scales = "free_x") +
-  labs(x = NULL, y = "AUC")
+  labs(x = NULL, y = "accuracy")
 
 
 # Define new Grid by Hand and Rerun Model
 
 # new grid based on previous results
 rf_grid <- grid_regular(
-  min_n(range = c(18, 23)),
+  min_n(range = c(18, 45)),
   mtry(range = c(1, 15)),
   trees(range = c(1500,1800)),
   levels = 1
@@ -161,12 +170,17 @@ rf_grid <- grid_regular(
 rf_regular <- tune_grid(
   rf_wf,
   resamples = folds,
-  grid = rf_grid
+  grid = rf_grid,
+  metrics = metric_set(
+    recall, precision, f_meas, 
+    accuracy, kap,
+    roc_auc, sens, spec),
+  control = control_grid(parallel_over = "everything", save_pred = TRUE),
 )
 
 
 # Select Best Model
-rf_best_auc <- select_best(rf_regular, "roc_auc")
+rf_best_auc <- select_best(rf_regular, "accuracy")
 
 # Finalize Model 
 rf_final <- finalize_model(
@@ -183,7 +197,11 @@ rf_final_wf <-
 # last prediction on test data
 rf_last_fit <- 
   rf_final_wf %>%
-  last_fit(splits)
+  last_fit(split = splits,
+           metrics = metric_set(
+             recall, precision, f_meas, 
+             accuracy, kap,
+             roc_auc, sens, spec))
 
 # collect AUC and accuracy
 rf_last_fit %>%
@@ -207,7 +225,7 @@ fit_models <- rf_last_fit %>%
   dplyr::select(.metric, .estimate) %>% 
   pivot_wider(names_from = .metric, values_from = .estimate) %>% 
   mutate(model = "random_forest") %>% 
-  dplyr::select(model, roc_auc, accuracy) %>% 
+  relocate(model) %>% 
   mutate(rightly_classified = accuracy*nrow(test)) %>% 
   mutate(wrongly_classified = (1-accuracy)*nrow(test)) %>% 
   bind_rows(fit_models) %>% 
@@ -229,7 +247,6 @@ rf_vip_graph <- rf_final %>%
   fit(actor_guest ~ .,
       data = juice(cr_prep) ) %>%
   vip(geom = "point")
-
 save(rf_vip_graph, file = "./data/machine_learning/rf_vip_graph")
 
 # drop what is no longer needed to save computational resources (but keep 

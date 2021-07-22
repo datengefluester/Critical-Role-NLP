@@ -1,0 +1,426 @@
+---
+title: "Critical Machine Learning: Prediciting Critical Role Actors from Text"
+always_allow_html: true
+output:
+  md_document: default
+  html_document: default
+knit: (function(inputFile, encoding) {
+  rmarkdown::render(inputFile, encoding = encoding, output_format = "all") })
+---
+
+```{r setup, include=FALSE}
+# where figures for rendering the document are saved
+knitr::opts_chunk$set(
+  fig.path = "output/markdown_figs/"
+)
+
+# packages
+library(dplyr) # for data preparation
+library(tidyr) # for data preparation
+library(stringr) # for data preparation
+library(tidytext) # for rearrange facet + bar charts
+library(ggplot2) # for graphs
+library(ggpubr) # for graphs next to each other
+library(ggraph) # for the network graph
+library(igraph) # for the network graph
+library(kableExtra) # for table
+library(purrr) # for pluck command
+library(yardstick) # for confusion matrix
+library(ggforce) # for drawing circles in the knn-graph
+
+# graph themes
+source("./scripts/themes.R")
+```
+
+```{r data, echo = FALSE}
+# read in every data frame from the 'machine_learning' folder
+path <- "./data/machine_learning/"
+files <- list.files(path = path,pattern=".csv")
+for (file in files)
+{
+  perpos <- which(strsplit(file, "")[[1]] == ".")
+  assign(
+    gsub(" ", "", substr(file, 1, perpos - 1)),
+    read.csv(paste(path, file, sep = ""))
+  )
+}
+
+# read in every graph object from the 'machine_learning' folder 
+files <- list.files(path = path)
+files <- files[!str_detect(files,pattern=".csv")]
+files <- files[!str_detect(files,pattern=".png")]
+files <- paste(path,files,sep="")
+for (file in files)
+{
+load(file)
+}
+rm(file,files,path,perpos)
+
+# from previous blog post
+
+# time and turns by actor
+actor_words_time_percent <- read.csv('./data/descriptive_analysis/actor_words_time.csv')
+actor_words_time_percent <- actor_words_time_percent %>%
+  select(1, 4, 10) %>%
+  pivot_longer(
+    cols = c("words_percent","turns_percent"),
+    names_to = "variable",
+    values_to = "percent"
+  ) %>%
+  mutate(
+    variable = str_replace(variable, "words_percent", "Words"),
+    variable = str_replace(variable, "turns_percent", "Turns")
+  )
+
+# example 
+example <- read.csv('./data/descriptive_analysis/example.csv')
+example_ml <- read.csv("./data/machine_learning/example_ml.csv")
+example_ml <- example_ml %>% 
+  select(actor_guest,text,time_in_sec,words_per_minute,arc,segment,combat) %>% 
+  mutate(segment= str_to_title(segment)) %>% 
+  rename(Actor = actor_guest,
+         Text = text,
+        `Time in Sec` = time_in_sec,
+       `Words per Minute` =  words_per_minute,
+       Arc = arc,
+       Segment = segment,
+       Combat = combat) 
+
+# Cross Validation Graph
+nrows <- 10
+cross_validation <- expand.grid(y = 1:nrows, x = 1:nrows)
+
+cross_validation <- cross_validation %>% 
+  mutate(train_test = "Train Data") %>% 
+  mutate(train_test = replace(train_test, x==y, "Test Data")) %>% 
+  mutate(train_test = as.factor(train_test))
+
+
+
+set.seed(1000)
+Liam <- rep(c("Liam"), each = 10)
+Liam_x <- rnorm(10,2,0.8)
+Liam_y <- rnorm(10,5,0.7)
+Liam_df <- data.frame(actor= Liam,
+                      x = Liam_x,
+                      y = Liam_y)
+Matt <- rep(c("Matt"), each = 10)
+Matt_x <- rnorm(10,5,0.5)
+Matt_y <- rnorm(10,2,0.9)
+Matt_df <- data.frame(actor= Matt,
+                      x = Matt_x,
+                      y = Matt_y)
+knn_graph <- rbind(Liam_df,Matt_df)
+# add noise 
+knn_graph <- knn_graph %>% 
+  add_row(actor="Matt",x = 1, y = 5) %>% 
+  add_row(actor="Matt",x = 2.5, y = 4.5) %>% 
+  add_row(actor="Liam",x = 5, y = 2)  
+```
+
+In the last post we investigated the critical role subtitles from season one. During the analysis we have already seen that some words can potentially tell us whether a certain segment is spoken by one of the actors. Now, let's see whether we can predict the speaker using the text and more advanced methods. Predicting the label of a text is a common task in machine learning and is used, for example, when deciding whether an email is spam or not. However, in contrast to spam filters, we have nine speakers (dungeon master, players and 'guests'), instead of two (spam or no spam), to choose from. In statistical jargon this is referred to multiclass classification. Moreover, the improv elements of the show is likely to make it harder to identify the speaker than spam as the spoken content is likely to be similar between players. Let's explore different methods to see which one, if any, we can be use to confidentially match text to actors.
+
+We have already seen that the subtitles cover 431 hours of game play over 115 episodes. This amounts to 280,000 turns, or classified samples, which we can use to train an algorithm to predict the speaker from the text. However, we cannot use all of the data to train our algorithms. Instead we have to split them into what is called training and testing data set. Why is that? As everybody, who took an exam where the questions where known before hand, knows, the most efficient approach is to learn all the answers by heart. While this helps us to ace the test, it does not help us to answer questions, which we have not seen before. In other words, our knowledge does not generalize well to similar problems. The same is true for algorithms. Therefore we want to have a final exam with questions the algorithm has not seen before to know how well we did. However, we also need some of the course material to practice the content. Thus, we have to split the data into two random sets. We can then use one sets to train our algorithms and choose the best algorithm (training set). Afterwards we use the other set (testing set) to see, how well our favorite model generalizes to data it has not seen - think of it like a final exam.
+
+As we don't know, which part of our training data represents our data (or the unseen final exam) best, we can split the data into multiple parts and train the model multiple times with each of the part functioning as training and testing at different times. In the machine learning jargon, those sets are called folds. This gives us a better indication of how well an specification of an algorithm works. A common practice and the one we will use is to use 10-fold to train the algorithms. The image below pictures the process.
+
+```{r cross_validation, echo = FALSE}
+ggplot(cross_validation, aes(x = x, y = y, fill = train_test)) + 
+  geom_tile(color = "#3B3B3B", size = 0.1, alpha = 0.7) +
+  scale_x_continuous(expand = c(0, 0),
+                     breaks = c(1,10),
+                     labels = c("1"="First 10%",
+                                "10"="Last 10%")) +
+  scale_y_continuous(expand = c(0, 0), trans = 'reverse',
+                     breaks = c(seq(0, 10, 1)),
+                     labels = c("0" ="",
+                                "1" = "Fold 1", 
+                                "2" = "Fold 2",
+                                "3" = "Fold 3",
+                                "4" = "Fold 4",
+                                "5" = "Fold 5",
+                                "6" = "Fold 6",
+                                "7" = "Fold 7",
+                                "8" = "Fold 8",
+                                "9" = "Fold 9",
+                                "10" = "Fold 10")) +
+   scale_fill_manual(
+    values = c("#ffa600","#1b9e77")
+  ) +
+  labs(title="10-Fold Cross Validation",
+       subtitle="One Block represents Ten Percent of the Training Data") +
+  bar_chart_theme() +
+  theme(
+    legend.position = "bottom",
+    legend.text = element_text(size = 5.5),
+    legend.title = element_blank(),
+    legend.key.height = unit(0.4, "line"),
+    legend.key = element_blank(),
+    legend.margin = margin(t = 0, unit = "cm"),
+    axis.title.x=element_blank(),
+    axis.ticks.x=element_blank(),
+    axis.ticks.y=element_blank(),
+    panel.grid.major.x = element_blank() ,
+    )
+# save
+ggsave("./output/images/ml_cross_validation.jpg", width = 4, height = 3)
+```
+
+Yet, we face another problem when training the model. As we have seen last time, not every actor was present for every episode. Orion was also present for around 24 of the episode, while Ashley was only there for 54. Similarly, Matt spoke for much of the time compared to other members of the cast. We need to account for this imbalance when estimating our algorithms. As Matt spoke for 50 percent of the words and 28 percent of the turns (samples), simply guessing Matt for every text would result in being correct in a little more than one fourth cases. So every algorithm that we train has to beat this benchmark to be considered an improvement over simply guessing Matt all the time.
+
+```{r time_vs_words, echo = FALSE}
+actor_words_time_percent %>%
+  mutate(
+    variable = factor(variable, levels = c("Turns","Words")),
+    actor_guest = reorder_within(actor_guest, -percent, variable)
+  ) %>%
+  ggplot(aes(x = reorder(as.factor(actor_guest), percent), y = percent, fill = variable)) +
+  geom_bar(stat = "identity", fill = "#009E73") +
+  coord_flip() +
+  scale_y_continuous(expand = c(0, 0)) +
+  facet_wrap(~variable, scales = "free") +
+  scale_x_reordered() +
+  labs(
+    title = "Words and Turns per Actor",
+    subtitle = "In percent of the respective total.",
+    caption = "Source: Critical-Role-Subtitles, CritStats",
+  ) +
+  bar_chart_theme() +
+  theme(
+    strip.background = element_rect(fill = "#F0F0F0"),
+    panel.grid.major.x = element_line(size = rel(0.4), color = "#656565"),
+    axis.line.y = element_line(size = rel(0.4), color = "black"),
+    axis.text.x = element_text(color = "black", vjust = 5, size = rel(0.5), alpha(2)),
+    axis.text.y = element_text(hjust = 1, color = "black", size = rel(0.75), margin = margin(r = -2)),
+    strip.text = element_text(size = 5, face = "bold"),
+  )
+
+# save graph
+ggsave("./output/images/ml_time_words_per_actor.jpg", width = 4, height = 3)
+```
+
+As our data is heavily imbalanced, we can also adjust it so we can better predict speakers, who do not speak so much (like Ashley, Orion and the guests). This will helps us to identify text spoken by them. Doing so is called down sampling. However, this comes at the cost of giving more weight to them than they should have given how a game of Dungeons and Dragons is played. An episode of the show will almost certainly include more speaking from the game master than the player as everything has to be described and NPCs have to be played out. Hence, if our goal would only be to identify the best prediction we would not down sample. However, this would results in our model not really learning how to predict Ashley, Orion or the guests. I feel predicting the text should include all actors.
+
+We could also increase the number of samples for the actor, who speak less (up-sampling). To do so we would duplicate text from speakers, who speak less. However, as we would to increase the number of turns for many actors by a lot to have the same number of turns for each speaker doing so would increase the time to train the algorithms by a lot. As the models already take quite some time to train we down sample to save time (I encourage, however, the interested reader to use up-sampling on their own).
+
+Similarly, we sometimes encounter that actors say the same thing at the same time. However, this happens rarely and it's even more rare for the same two actors to say something at the same time multiple times through out the series. We would also significantly increase the number of classes we would need to predict to around 110 (all of combinations of actors, who say something at the same time together during all the hours of game play). Thus, we omit these cases from our analysis. Doing so, we end up with 34,500 samples, which we can use to train our algorithms.
+
+So far we have to dealt with the fact that the original data included many speakers and an unequal amount of speech for each actor. Now, we can turn to the question on how to model the data to be able to predict the speaker. Recall, that our data looks as follows:
+
+```{r example, echo = FALSE}
+example %>%
+  select(-Segment) %>% 
+  kbl() %>%
+  kable_styling()
+```
+
+We can use this and include some additional information to ultimately turn the data into something like this:
+
+```{r example_ml, echo = FALSE}
+example_ml %>%
+  kbl() %>%
+  kable_styling()
+```
+
+Please note that we dropped the episode number from the data so the algorithm does not train on episode specific dialogue, while keeping the arc to allow for some general changes in the story to be represented in the data.
+
+So far we have not dealt with the spoken text. Lets do that now. (tokenize)
+
+-   Accuracy
+
+-   KNN
+
+    The first approach to classify the text, is to use an approach called [K-Nearest Neighbors]{.ul}. The approach is simple. When we have to classify a text, we take the k number of nearest texts and take the class, which is most present within these texts. This may a bit unituitive when it comes to text. So let's examine the duration a text was spoken over and the number of words as more clear cut example. The graph below plots some imginary data for two speakers: Matt and Laura. When we have to assign a speaker to a new text (the black point in the graph below), we choose the speaker, which is the nearest. As the nearest point is classified as 'Matt', we classify the new text as Matt as well. In the end the best model for our training data contains X neigbors and has a fit of Y.
+
+    ```{r knn_graph, echo = FALSE}
+    knn_graph %>% 
+      ggplot(aes(x,y,color=actor)) + 
+      geom_point(size = 2) +
+      scale_color_manual(values = c("#1b9e77","#ffa600")) +
+      scale_y_continuous(expand = c(0, 0),
+                         breaks= c(0,1,2,3,4,5,6),
+                         limits= c(0,6.1)) +
+      geom_circle(aes(x0 = 2, y0 = 4.5, r = 1.5), color="#1b9e77", inherit.aes = FALSE) +
+      geom_circle(aes(x0 = 5, y0 = 2, r = 1.8), color="#ffa600", inherit.aes = FALSE) +
+      coord_fixed()+
+      labs(
+        title = "K-Nearest Neighbors Visualized",
+        subtitle = ""
+      ) +
+      base_theme() +
+      theme(legend.position = "bottom",
+            legend.title = element_blank(),
+            legend.key=element_blank(),
+            legend.text = element_text(color = "#3B3B3B"),
+            legend.background = element_rect(color = NA),
+            axis.ticks = element_blank(),
+            panel.grid.major = element_line(color="#656565", size = 0.1),
+            axis.text = element_text(color="#3B3B3B")
+            )
+    ggsave("./output/images/ml_knn_visualized.jpg", width = 4, height = 3)
+    ```
+
+    While K-nearest Neigbor is fast to train. Fitting the data takes long time. Additionally, we dont know the importance of features(?). Alternative aproach: "[Naive Bayes]{.ul}". The approach is often used in spam classification tasks and hence may be prone to be used a classification task with text. The main idea is to calculate the probability that a given text is one of the classes (in our case one of the actors), given the words in the text. Additionally it includes the probabilty that a text is a given class in general. The class with the highest score is then chosen to be the predicated class. For example, the text may look as follows:
+
+    > Hello, everyone and good evening.
+
+    Naive Bayes then calculates the probabilty that the text is spoken by a certain actor, taking the probabilty that a given text is spoken by Matt (XXX) and then mulitplies the by the probability that the text is spoken by Matt given the words in the text. The actor with the highest values is then chosen as the predicted class. Note that the word order is irrelevant for this approach and all words and other features are equally important.WHAT ARE THE TUNEING PARAMETERS????)
+
+    +------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | smoothness | An non-negative number representing the the relative smoothness of the class boundary. Smaller examples result in model flexible boundaries and larger values generate class boundaries that are less adaptable |
+    +============+=================================================================================================================================================================================================================+
+    | Laplace    | A non-negative value for the Laplace correction to smoothing\                                                                                                                                                   |
+    |            | low-frequency counts.                                                                                                                                                                                           |
+    +------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    |            | DO YOU HAVE TO BIN THE DATA, WHICH IS NUMERIC???                                                                                                                                                                |
+    +------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+    Assumption of equally important and independent features rarely true -\> alternative next model
+
+    So far, we have examined models, which have nice statistical properties but do not allow us for intutive interpretation. Wouldn't it be nice to have simple if then rules, which can be read without knowing all the mathematical sheneigans? This is what decision trees are for.
+
+-   naive Bayes
+
+-   Naive Bayes
+
+-   Regression (regularized)
+
+-   Random Forest
+
+-   XGBoost
+
+-   SVM
+
+-   up-sample
+
+-   just random sample
+
+-   essemble
+
+```{r knn_actor, echo = FALSE, warning=FALSE, message = FALSE}
+knn_predictions %>%
+   mutate(actor_guest = as.factor(actor_guest),
+        .pred_class = as.factor(.pred_class)) %>% 
+conf_mat(actor_guest, .pred_class) %>%
+ pluck(1) %>%
+ as_tibble() %>% 
+mutate(prediction = ifelse(Prediction == Truth,"rightly classified","wrongly classified")) %>% 
+group_by(Truth,prediction) %>% 
+summarise(sum(n)) %>% 
+rename(count = `sum(n)`,
+ actor = Truth) %>%
+ group_by(actor) %>% 
+mutate(percent = count/(sum(count)*100)) %>% 
+filter(prediction =="rightly classified") %>% 
+  ggplot(aes(x = reorder(actor,percent), y = percent, fill = prediction)) +
+  geom_bar(stat = "identity", fill = "#1b9e77") +
+  coord_flip() +
+  scale_y_continuous(
+    expand = c(0, 0),
+    position = "right"
+  ) +
+  labs(
+    title = "Random Forest: Right and Wrong Predictions by Actor",
+    subtitle = "Percent of total prediction by actor",
+  ) +
+  bar_chart_theme()
+
+ggsave("./output/images/ml_knn_actor.jpg", width = 4, height = 3)
+```
+
+```{r knn_right_wrong, echo = FALSE, warning=FALSE}
+tmp <- knn_predictions %>%
+   mutate(actor_guest = as.factor(actor_guest),
+        .pred_class = as.factor(.pred_class)) %>% 
+conf_mat(actor_guest, .pred_class) %>%
+ pluck(1) %>%
+ as_tibble() %>% 
+mutate(prediction = ifelse(Prediction == Truth,"rightly classified","wrongly classified")) %>% 
+group_by(prediction) %>% 
+summarise(number =sum(n)) %>% 
+mutate(percent = (number/sum(number)*100),
+       prediction = as.factor(prediction))  
+
+tmp %>% 
+  ggplot(aes(x = prediction, y = percent)) +
+  geom_bar(stat = "identity", fill = "#1b9e77") +
+  coord_flip() +
+  scale_y_continuous(
+    expand = c(0, 0),
+    position = "right",
+    breaks = c(0, 25, 50, 75, 100),
+    labels = c("0"= "", "25"="25", "50"="50", "75"="75", "100"="100%"),
+    limits = c(0, 105)
+  ) +
+  labs(
+    title = "Classification using K-nearest Neighbors",
+  ) +
+  bar_chart_theme()
+
+ggsave("./output/images/ml_knn_right_wrong.jpg", width = 4, height = 3)
+```
+
+```{r knn_confusion, echo = FALSE, warning=FALSE}
+knn_predictions %>%
+   mutate(actor_guest = as.factor(actor_guest),
+        .pred_class = as.factor(.pred_class)) %>% 
+ conf_mat(actor_guest, .pred_class) %>%
+ pluck(1) %>%
+ as_tibble() %>% 
+ggplot(aes(Prediction, Truth, alpha = n)) +
+ geom_tile(fill = "#009E73", show.legend = FALSE) +
+ geom_text(aes(label = n), colour = "#3B3B3B", alpha = 1, size = 3) +
+ scale_y_discrete(expand = c(0, 0)) +
+ scale_x_discrete(expand = c(0, 0), position = "top") +
+ labs(
+ y = "Actual Actor",
+ x = "Predicted Actor",
+ fill = NULL,
+ title = "Random Forest Confusion Matrix",
+ ) +
+  bar_chart_theme() +
+  theme(
+    panel.grid.major = element_blank(),
+    axis.title.x = element_text(size = 8),
+    axis.title.y = element_text(angle = 90, size = 8),
+    axis.ticks.x=element_blank(),
+    axis.ticks.y=element_blank(),
+    panel.grid.major.x = element_blank() ,
+    axis.line.y = element_blank()
+    )
+ggsave("./output/images/ml_knn_confusion_matrix.jpg", width = 4, height = 3)
+```
+
+```{r knn_roc, echo = FALSE, warning=FALSE}
+knn_predictions %>%
+ mutate(actor_guest = as.factor(actor_guest)) %>% 
+ roc_curve(actor_guest, .pred_Ashley:.pred_Travis) %>%
+ ggplot(aes(x = 1 - specificity, y = sensitivity, colour = .level)) +
+ geom_path() +
+ geom_abline(lty = 3) +
+ coord_equal() +
+ labs(
+ y = "True Positive Rate (Sensitivity)",
+ x = "False Positive Rate",
+ fill = NULL,
+ title = "Random Forest: ROC Curve",
+ subtitle = "TOI Only Model"
+ ) +
+  bar_chart_theme() +
+  theme(
+      axis.line.x = element_line(size=.3, color="black"),
+      panel.grid.major.x = element_line(size=.1, color="#656565"), 
+      panel.grid.major.y = element_line(size=.2, color="#656565"), 
+  )
+
+ggsave("./output/images/ml_knn_roc_curve.jpg", width = 4, height = 3)
+```
+
+```{r knn_vip_plot, echo = FALSE, warning=FALSE}
+rf_vip_graph +
+  geom_point(color = "#009E73") +
+ labs(title="Variable Importance Plot Random Forest")+
+  bar_chart_theme() 
+
+ggsave("./output/images/ml_knn_vip.jpg", width = 4, height = 3)
+```

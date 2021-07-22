@@ -233,8 +233,7 @@ attendance %>%
   scale_y_continuous(
     expand = c(0, 0),
     position = "right",
-    breaks = c(0, 25, 50, 50, 75, 100, 115),
-    limits = c(0, 115)
+    breaks = c(0, 25, 50, 50, 75, 100, 115)
   ) +
   labs(
     title = "Attendence by Actor",
