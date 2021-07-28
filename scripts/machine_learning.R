@@ -22,7 +22,7 @@ file_list <- list.files("./data/clean_data/individual_episodes",
                         pattern = "*.csv", 
                         full.names = TRUE)
 
-data <- do.call(rbind,lapply(file_list,fread))
+data <- do.call(rbind,lapply(file_list,fread)) %>% as.data.frame()
 
 rm(file_list)
 
@@ -92,24 +92,29 @@ folds <- vfold_cv(train, strata = actor_guest)
 
 
 # Recipe ------------------------------------------------------------------
-cr_recipe <- recipe(actor_guest ~ text +time_in_sec + words_per_minute + segment + combat, data = train) %>% 
-  step_downsample(actor_guest) %>%        # deal with class imbalance
-  step_dummy(segment) %>%            # convert factor variables into multiple dummy variables
-  step_normalize(time_in_sec, words_per_minute, contains("textfeature"))  %>%       # normalize numeric predictors
+cr_recipe <- recipe(actor_guest ~ text +time_in_sec + words_per_minute + 
+                      segment + combat, data = train) %>% 
+  step_downsample(actor_guest) %>% # deal with class imbalance
+  step_dummy(segment) %>% # convert factor variables into multiple dummy variables
+  step_mutate(text_copy = text) %>% # make a copy of the text
+  step_textfeature(text_copy) %>%   # extract text features from text
+  step_normalize(time_in_sec, words_per_minute, contains("textfeature"))  %>% # normalize numeric predictors
   step_zv(all_predictors())  %>%           # remove everything with zero variance
   step_lincomb(all_numeric())  %>%        # remove any linear combinations
   step_tokenize(text) %>% # Tokenizes to words by default
   step_stopwords(text) %>% # Uses the english snowball list by default
-  step_tokenfilter(text, max_tokens = 100) %>%
+  step_ngram(text, num_tokens = 3, min_num_tokens = 1) %>%
+  step_tokenfilter(text, max_tokens = tune(), min_times = 1) %>%
   step_tfidf(text) %>% 
   step_integer(all_predictors()) 
 
 summary(cr_recipe)
 
 
-# Prep and Juice the Model (processioning and finalizing model) ------------
-cr_prep <- prep(cr_recipe)    # compute recipe
-cr_juiced <- juice(cr_prep)   # get pre-processed data
+# Prep and Juice the data (processioning and finalizing data) ------------
+
+# cr_prep <- prep(cr_recipe)    # compute recipe
+# cr_juiced <- juice(cr_prep)   # get pre-processed data
 
 
 # Random Forrest ----------------------------------------------------------
@@ -130,14 +135,25 @@ rf_wf <- workflow() %>%
   add_model(rf_spec) 
 
 # define search grid
+rf_grid <- grid_regular(
+  min_n(range = c(1, 20)), # min data points for further splits
+  mtry(range = c(1, 100)), # number of predictors randomly selected
+  trees(range = c(1,3000)), # number of trees
+  max_tokens(range = c(500, 2000)), # number of word tokens used
+  levels = 4
+)
+
+
+# run model
 rf_res <- tune_grid(
   rf_wf,
   resamples = folds,
+  grid = rf_grid,
   metrics = metric_set(
     recall, precision, f_meas, 
     accuracy, kap,
     roc_auc, sens, spec),
-  control = control_grid(parallel_over = "everything", save_pred = TRUE), # parallel tuning
+  control = control_grid(parallel_over = "resamples", save_pred = TRUE), # parallel tuning
 )
 
 
@@ -145,7 +161,7 @@ rf_res <- tune_grid(
 rf_res %>%
   collect_metrics() %>%
   filter(.metric == "accuracy") %>%
-  dplyr::select(mean, min_n, mtry, trees) %>%
+  dplyr::select(mean, min_n, mtry, trees, max_tokens) %>%
   pivot_longer(min_n:trees,
                values_to = "value",
                names_to = "parameter"

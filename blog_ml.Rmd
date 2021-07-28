@@ -118,7 +118,7 @@ knn_graph <- knn_graph %>%
   add_row(actor="Liam",x = 5, y = 2)  
 ```
 
-In the last post we investigated the critical role subtitles from season one. During the analysis we have already seen that some words can potentially tell us whether a certain segment is spoken by one of the actors. Now, let's see whether we can predict the speaker using the text and more advanced methods. Predicting the label of a text is a common task in machine learning and is used, for example, when deciding whether an email is spam or not. However, in contrast to spam filters, we have nine speakers (dungeon master, players and 'guests'), instead of two (spam or no spam), to choose from. In statistical jargon this is referred to multiclass classification. Moreover, the improv elements of the show is likely to make it harder to identify the speaker than spam as the spoken content is likely to be similar between players. Let's explore different methods to see which one, if any, we can be use to confidentially match text to actors.
+In the last post we investigated the critical role subtitles from season one. During the analysis we have already seen that some words can potentially tell us whether a certain segment is spoken by one of the actors. Now, let's see whether we can predict the speaker using the text and more advanced methods. Predicting the label of a text is a common task in machine learning and is used, for example, when deciding whether an email is spam or not. However, in contrast to spam filters, we have nine classes (dungeon master, players and 'guests'), instead of two (spam or no spam), to choose from. In statistical jargon this is referred to multiclass classification. Moreover, the improv elements of the show is likely to make it harder to identify the speaker than spam as the spoken content is likely to be similar between players. Let's explore different methods to see which one, if any, we can be use to confidentially match text to actors.
 
 We have already seen that the subtitles cover 431 hours of game play over 115 episodes. This amounts to 280,000 turns, or classified samples, which we can use to train an algorithm to predict the speaker from the text. However, we cannot use all of the data to train our algorithms. Instead we have to split them into what is called training and testing data set. Why is that? As everybody, who took an exam where the questions where known before hand, knows, the most efficient approach is to learn all the answers by heart. While this helps us to ace the test, it does not help us to answer questions, which we have not seen before. In other words, our knowledge does not generalize well to similar problems. The same is true for algorithms. Therefore we want to have a final exam with questions the algorithm has not seen before to know how well we did. However, we also need some of the course material to practice the content. Thus, we have to split the data into two random sets. We can then use one sets to train our algorithms and choose the best algorithm (training set). Afterwards we use the other set (testing set) to see, how well our favorite model generalizes to data it has not seen - think of it like a final exam.
 
@@ -225,6 +225,14 @@ example_ml %>%
 Please note that we dropped the episode number from the data so the algorithm does not train on episode specific dialogue, while keeping the arc to allow for some general changes in the story to be represented in the data.
 
 So far we have not dealt with the spoken text. Lets do that now. (tokenize)
+
+-   *term frequency* (tf), how frequently a word occurs in a document,
+
+    -   -\> commonly used words would be used: I, he etc.
+
+        -   *inverse document frequency* (idf), which decreases the weight for commonly used words and increases the weight for words that are not used very much in a collection of documents.
+
+            -   This can be combined with term frequency to calculate a term's *tf-idf* (the two quantities multiplied together), the frequency of a term adjusted for how rarely it is used.
 
 -   Accuracy
 
