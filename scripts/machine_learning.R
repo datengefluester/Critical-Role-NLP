@@ -104,7 +104,7 @@ cr_recipe <- recipe(actor_guest ~ text +time_in_sec + words_per_minute +
   step_tokenize(text) %>% # Tokenizes to words by default
   step_stopwords(text) %>% # Uses the english snowball list by default
   step_ngram(text, num_tokens = 3, min_num_tokens = 1) %>%
-  step_tokenfilter(text, max_tokens = tune(), min_times = 1) %>%
+  step_tokenfilter(text, max_tokens = 300, min_times = 1) %>%
   step_tfidf(text) %>% 
   step_integer(all_predictors()) 
 
@@ -113,8 +113,8 @@ summary(cr_recipe)
 
 # Prep and Juice the data (processioning and finalizing data) ------------
 
-# cr_prep <- prep(cr_recipe)    # compute recipe
-# cr_juiced <- juice(cr_prep)   # get pre-processed data
+ cr_prep <- prep(cr_recipe)    # compute recipe
+ cr_juiced <- juice(cr_prep)   # get pre-processed data
 
 
 # Random Forrest ----------------------------------------------------------
@@ -134,26 +134,16 @@ rf_wf <- workflow() %>%
   add_recipe(cr_recipe) %>%
   add_model(rf_spec) 
 
-# define search grid
-rf_grid <- grid_regular(
-  min_n(range = c(1, 20)), # min data points for further splits
-  mtry(range = c(1, 100)), # number of predictors randomly selected
-  trees(range = c(1,3000)), # number of trees
-  max_tokens(range = c(500, 2000)), # number of word tokens used
-  levels = 4
-)
-
 
 # run model
 rf_res <- tune_grid(
   rf_wf,
   resamples = folds,
-  grid = rf_grid,
   metrics = metric_set(
     recall, precision, f_meas, 
     accuracy, kap,
     roc_auc, sens, spec),
-  control = control_grid(parallel_over = "resamples", save_pred = TRUE), # parallel tuning
+  control = control_grid(parallel_over = "everything", save_pred = TRUE), # parallel tuning
 )
 
 
@@ -494,7 +484,7 @@ knn_res <- tune_grid(
 )
 
 # Select Best Model 
-knn_best_auc <- select_best(knn_res, "roc_auc")
+knn_best_auc <- select_best(knn_res, "accuracy")
 
 # Finalize Model 
 knn_final <- finalize_model(
