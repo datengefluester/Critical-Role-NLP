@@ -12,6 +12,7 @@ library(rpart.plot)   # plotting the decision tree
 library(discrim)      # for naive Bayes
 library(data.table)   # for faster reading in data
 
+
 # define data frames to keep after each model -----------------------------
 keep <- c("cr_juiced", "cr_prep", "cr_recipe", "data",
           "fit_models", "folds", "splits", "test", "train", "keep")
@@ -71,7 +72,6 @@ write.csv(example_ml, "./data/machine_learning/example_ml.csv", row.names = FALS
 # cloud
 doParallel::registerDoParallel(cores = detectCores()-1)
 
-
 # local
 data <- data %>% dplyr::slice(1:10000)
 
@@ -98,25 +98,73 @@ cr_recipe <- recipe(actor_guest ~ text +time_in_sec + words_per_minute +
   step_dummy(segment) %>% # convert factor variables into multiple dummy variables
   step_mutate(text_copy = text) %>% # make a copy of the text
   step_textfeature(text_copy) %>%   # extract text features from text
-  step_normalize(time_in_sec, words_per_minute, contains("textfeature"))  %>% # normalize numeric predictors
+  step_normalize(time_in_sec, 
+                 words_per_minute, 
+                 contains("textfeature"))  %>% # normalize numeric predictors
   step_zv(all_predictors())  %>%           # remove everything with zero variance
   step_lincomb(all_numeric())  %>%        # remove any linear combinations
   step_tokenize(text) %>% # Tokenizes to words by default
   step_stopwords(text) %>% # Uses the english snowball list by default
-  step_ngram(text, num_tokens = 3, min_num_tokens = 1) %>%
-  step_tokenfilter(text, max_tokens = 300, min_times = 1) %>%
+  step_ngram(text, 
+             num_tokens = 3, 
+             min_num_tokens = 1) %>% # extract 1grams, 2grams and 3grams
+  step_tokenfilter(text, 
+                   max_tokens = 300, 
+                   min_times = 1) %>% # keep 300 most useful tokens by tf-idf
   step_tfidf(text) %>% 
-  step_integer(all_predictors()) 
+  step_integer(all_predictors()) # make everything to numbers
 
 summary(cr_recipe)
 
 
-# Prep and Juice the data (processioning and finalizing data) ------------
+# Prep and Juice the data (processioning and finalizing data) 
 
  cr_prep <- prep(cr_recipe)    # compute recipe
  cr_juiced <- juice(cr_prep)   # get pre-processed data
 
 
+# 1. K-Nearest Neighbors --------------------------------------------------
+ source("./scripts/individual_models/knn.R")
+
+# 2. Naive Bayes ----------------------------------------------------------
+ source("./scripts/individual_models/naive_bayes.R")
+
+# 3. Decision Tree --------------------------------------------------------
+ # Note: the error comes from the image of the tree 
+ # but it yields the desired results
+ source("./scripts/individual_models/decision_tree.R")
+ 
+# 4. Random Forest --------------------------------------------------------
+ source("./scripts/individual_models/random_forest.R")
+ 
+# 5. XGBoost --------------------------------------------------------------
+ source("./scripts/individual_models/xgboost.R")
+ 
+# 6. Multinominal Regression ----------------------------------------------
+
+ 
+# 7. (Regularized) Regression ---------------------------------------------
+ source("./scripts/individual_models/regularized_regression.R")
+
+# 8. Tuned Words XGboost --------------------------------------------------
+ # Note: this includes a separate recipe to incorporate 
+ # number of words as another tuning parameter.
+ # Additionally, this only works using the full data set!
+ source("./scripts/individual_models/xg_tune_words.R")
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+
+  
 # Random Forrest ----------------------------------------------------------
 
 set.seed(19820629)
@@ -823,4 +871,44 @@ drop <- ls()
 drop <- drop[!drop %in% keep]
 drop <- c(drop,"drop")
 rm(list = drop)
+
+# OLS
+
+# OLS data:
+# Recipe ------------------------------------------------------------------
+test_OLS <- test
+
+cr_recipe_OLS <- recipe(actor_guest ~ text +time_in_sec + words_per_minute + 
+                      segment + combat, data = test_OLS) %>% 
+  step_downsample(actor_guest) %>% # deal with class imbalance
+  step_dummy(segment) %>% # convert factor variables into many dummy variables
+  step_mutate(text_copy = text) %>% # make a copy of the text
+  step_textfeature(text_copy) %>%   # extract text features from text
+  step_normalize(time_in_sec, 
+                 words_per_minute, 
+                 contains("textfeature"))  %>% # normalize numeric predictors
+  step_zv(all_predictors())  %>%        # remove everything with zero variance
+  step_lincomb(all_numeric())  %>%        # remove any linear combinations
+  step_tokenize(text) %>% # Tokenizes to words by default
+  step_stopwords(text) %>% # Uses the english snowball list by default
+  step_ngram(text, num_tokens = 3, min_num_tokens = 1) %>%
+  step_tokenfilter(text, max_tokens = 300, min_times = 1) %>%
+  step_tfidf(text) %>% 
+  step_integer(all_predictors()) 
+
+# Prep and Juice the data (processioning and finalizing data) ------------
+
+cr_prep_OLS <- prep(cr_recipe_OLS)    # compute recipe
+cr_juiced_OLS <- juice(cr_prep_OLS)   # get pre-processed data
+
+install.packages('nnet')
+OLS <- multinom(actor_guest ~., data = cr_juiced)
+library(tidymodels)
+
+tmp <- multinom_reg(
+  mode = "classification",
+  engine = "glmnet",
+  penalty = NULL,
+  mixture = NULL
+)
 

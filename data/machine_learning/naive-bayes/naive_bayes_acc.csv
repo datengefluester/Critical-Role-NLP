@@ -1,0 +1,2 @@
+model,roc_auc,accuracy,rightly_classified,wrongly_classified
+naive_bayes,0.565834578049604,0.027862085710817,1836,64060

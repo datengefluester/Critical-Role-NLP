@@ -1,0 +1,2 @@
+"model","accuracy","roc_auc","rightly_classified","wrongly_classified"
+"random_forest",0.215491076848367,0.57121201437165,14200,51696

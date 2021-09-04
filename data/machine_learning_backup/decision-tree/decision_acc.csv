@@ -1,0 +1,2 @@
+"model","roc_auc","accuracy","rightly_classified","wrongly_classified"
+"decision_tree",0.552770199764548,0.207508801748209,13674,52222

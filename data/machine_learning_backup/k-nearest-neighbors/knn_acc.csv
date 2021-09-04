@@ -1,0 +1,2 @@
+"model","roc_auc","accuracy","rightly_classified","wrongly_classified"
+"knn",0.527913826273776,0.118808425397596,7829,58067

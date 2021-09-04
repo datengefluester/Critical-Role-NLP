@@ -2,13 +2,34 @@ Critical Role Subtitles
 ================
 
     ## .
+    ## ├── blog_posts
+    ## │   └── markdown_figs
     ## ├── data
     ## │   ├── clean_data
-    ## │   │   ├── clean
     ## │   │   ├── dice_rolls
     ## │   │   ├── individual_episodes
     ## │   │   └── rest
-    ## │   ├── data_for_graphs
+    ## │   ├── descriptive_analysis
+    ## │   ├── machine_learning
+    ## │   │   ├── decision-tree
+    ## │   │   ├── example_ml
+    ## │   │   ├── k-nearest-neighbors
+    ## │   │   ├── multinominal-regression
+    ## │   │   ├── naive-bayes
+    ## │   │   ├── random-forest
+    ## │   │   ├── regularized-regression
+    ## │   │   ├── xg-tune-words
+    ## │   │   └── xgboost
+    ## │   ├── machine_learning_backup
+    ## │   │   ├── decision-tree
+    ## │   │   ├── example_ml
+    ## │   │   ├── k-nearest-neighbors
+    ## │   │   ├── multinominal-regression
+    ## │   │   ├── naive-bayes
+    ## │   │   ├── random-forest
+    ## │   │   ├── regularized-regression
+    ## │   │   ├── xg-tune-words
+    ## │   │   └── xgboost
     ## │   └── raw_data
     ## │       ├── dice_rolls
     ## │       ├── raw_csv
@@ -17,8 +38,12 @@ Critical Role Subtitles
     ## │       └── time_stamps
     ## ├── output
     ## │   ├── images
-    ## │   └── markdown_figs
+    ## │   │   ├── descriptive_statistics
+    ## │   │   └── machine_learning
+    ## │   ├── markdown_figs
+    ## │   └── models
     ## └── scripts
+    ##     └── individual_models
 
 ## Blog Texts
 
@@ -38,7 +63,7 @@ source("./scripts/data_cleaning.R", local = knitr::knit_global())
 source("./scripts/data_descriptive_analysis.R", local = knitr::knit_global())
 ```
 
-## Script for Machine Learning (work in progress):
+## Script for Machine Learning (work in progress!):
 
 ``` r
 # run script
