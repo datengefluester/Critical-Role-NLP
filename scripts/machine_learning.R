@@ -73,7 +73,7 @@ write.csv(example_ml, "./data/machine_learning/example_ml.csv", row.names = FALS
 doParallel::registerDoParallel(cores = detectCores()-1)
 
 # local
-data <- data %>% dplyr::slice(1:10000)
+# data <- data %>% dplyr::slice(1:10000)
 
 # Splitting into Training, Testing and Folds ------------------------------
 

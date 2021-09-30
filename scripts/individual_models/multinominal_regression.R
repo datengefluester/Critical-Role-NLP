@@ -1,61 +1,80 @@
-# Run multinominal Regression
-  
-# Run multinominal Regression data:
-# Recipe ------------------------------------------------------------------
-train_multinominal <- train
-  
-cr_recipe_multinominal <- recipe(actor_guest ~ text +time_in_sec + words_per_minute + 
-                            segment + combat, data = train_multinominal) %>% 
-    step_downsample(actor_guest) %>% # deal with class imbalance
-    step_dummy(segment) %>% # convert factor variables into many dummy variables
-    step_mutate(text_copy = text) %>% # make a copy of the text
-    step_textfeature(text_copy) %>%   # extract text features from text
-    step_normalize(time_in_sec, 
-                   words_per_minute, 
-                   contains("textfeature"))  %>% # normalize numeric predictors
-    step_zv(all_predictors())  %>%        # remove everything with zero variance
-    step_lincomb(all_numeric())  %>%        # remove any linear combinations
-    step_tokenize(text) %>% # Tokenizes to words by default
-    step_stopwords(text) %>% # Uses the english snowball list by default
-    step_ngram(text, num_tokens = 3, min_num_tokens = 1) %>%
-    step_tokenfilter(text, max_tokens = 300, min_times = 1) %>%
-    step_tfidf(text) %>% 
-    step_integer(all_predictors()) 
-  
-# Prep and Juice the data (processioning and finalizing data) ------------
-  
-cr_prep_multinominal <- prep(cr_recipe_multinominal)    # compute recipe
-cr_juiced_multinominal <- juice(cr_prep_multinominal)   # get pre-processed data
+set.seed(19820629)
+# define model
+multinom_spec <- 
+  multinom_reg(penalty = NULL, 
+               mixture = NULL) %>% 
+  set_engine("glmnet") %>% 
+  set_mode("classification")
+
+# combine recipe and model to workflow
+multinom_wf <- workflow() %>%
+  add_recipe(cr_recipe) %>%
+  add_model(multinom_spec) 
+
+# define search grid and run model
+multinom_res <- tune_grid(
+  multinom_wf,
+  resamples = folds,
+  control = control_grid(parallel_over = "everything")
+)
+
+# select best model 
+multinom_best_acc <- select_best(multinom_res, "accuracy")
+
+# save parameters
+write.csv(multinom_best_acc, "./data/machine_learning/multinominal/multinominal_parameters.csv", row.names = FALSE)
+
+# finalize model 
+multinom_final <- finalize_model(
+  multinom_spec,
+  multinom_best_acc
+)
+
+# final work flow and fit
+multinom_final_wf <- 
+  workflow() %>%
+  add_recipe(cr_recipe) %>%
+  add_model(multinom_final)
+
+# last prediction on test data
+multinom_last_fit <- 
+  multinom_final_wf %>%
+  last_fit(splits)
+
+# extract final model and save it
+multinom_final_model <- multinom_last_fit$.workflow[[1]]
+
+# check if you get prediction out
+predict(multinom_final_model, data[222,])
+
+# save model
+saveRDS(multinom_final_model, "./output/models/multinominal.rds")
+
+# get accuracy as data frame
+multinom_acc <- multinom_last_fit %>%
+  collect_metrics() %>% 
+  as.data.frame() %>% 
+  dplyr::select(.metric, .estimate) %>% 
+  pivot_wider(names_from = .metric, values_from = .estimate) %>% 
+  mutate(model = "multinominal") %>% 
+  dplyr::select(model, roc_auc, accuracy) %>% 
+  mutate(rightly_classified = accuracy*nrow(test)) %>% 
+  mutate(wrongly_classified = (1-accuracy)*nrow(test)) 
+write.csv(multinom_acc, "./data/machine_learning/multinominal/multinominal_acc.csv", row.names = FALSE)
+
+# get predictions for graphs
+multinom_predictions <- multinom_last_fit %>%
+  collect_predictions() %>% 
+  dplyr::select(-c(id,.config)) %>% 
+  mutate(model = "multinominal") %>% 
+  relocate(model, .row, actor_guest, .pred_class)
+write.csv(multinom_predictions, "./data/machine_learning/multinominal/multinom_predictions.csv", row.names = FALSE)
+
+# drop what is no longer needed to save computational resources (but keep 
+# everything, which is needed for the other models)
+drop <- ls()
+drop <- drop[!drop %in% keep]
+drop <- c(drop,"drop")
+rm(list = drop)
 
 
-# Run Multinominal Model
-multinomModel <- multinom(actor_guest ~ ., data=cr_juiced_multinominal, MaxNWts =10000000) 
-
-# prepare data for prediction
-test_multinominal <- test
-cr_recipe_multinominal_test <- recipe(actor_guest ~ text +time_in_sec + words_per_minute + 
-                                   segment + combat, data = test_multinominal) %>% 
-  step_downsample(actor_guest) %>% # deal with class imbalance
-  step_dummy(segment) %>% # convert factor variables into many dummy variables
-  step_mutate(text_copy = text) %>% # make a copy of the text
-  step_textfeature(text_copy) %>%   # extract text features from text
-  step_normalize(time_in_sec, 
-                 words_per_minute, 
-                 contains("textfeature"))  %>% # normalize numeric predictors
-  #step_zv(all_predictors())  %>%        # remove everything with zero variance
-  step_lincomb(all_numeric())  %>%        # remove any linear combinations
-  step_tokenize(text) %>% # Tokenizes to words by default
-  step_stopwords(text) %>% # Uses the english snowball list by default
-  step_ngram(text, num_tokens = 3, min_num_tokens = 1) %>%
-  step_tokenfilter(text, max_tokens = 300, min_times = 1) %>%
-  step_tfidf(text) %>% 
-  step_integer(all_predictors()) 
-
-# Prep and Juice the data (processioning and finalizing data) ------------
-cr_prep_multinominal_test <- prep(cr_recipe_multinominal_test)    # compute recipe
-cr_juiced_multinominal_test <- juice(cr_prep_multinominal_test)   # get pre-processed data
-
-# ---- issue maybe textfeature_text_copy_first_person???
-
-# Predict Test Data
-predicted_scores <- predict (multinomModel, cr_juiced_multinominal_test, "probs") # predict on new data

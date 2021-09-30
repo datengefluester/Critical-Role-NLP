@@ -74,7 +74,7 @@ xgboost_acc <- xgboost_last_fit %>%
   as.data.frame() %>% 
   dplyr::select(.metric, .estimate) %>% 
   pivot_wider(names_from = .metric, values_from = .estimate) %>% 
-  mutate(model = "xgboost_boost") %>% 
+  mutate(model = "xg_boost") %>% 
   dplyr::select(model, roc_auc, accuracy) %>% 
   mutate(rightly_classified = accuracy*nrow(test)) %>% 
   mutate(wrongly_classified = (1-accuracy)*nrow(test)) 

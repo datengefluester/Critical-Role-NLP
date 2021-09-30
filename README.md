@@ -14,7 +14,6 @@ Critical Role Subtitles
     ## │   │   ├── decision-tree
     ## │   │   ├── example_ml
     ## │   │   ├── k-nearest-neighbors
-    ## │   │   ├── multinominal-regression
     ## │   │   ├── naive-bayes
     ## │   │   ├── random-forest
     ## │   │   ├── regularized-regression
@@ -40,14 +39,11 @@ Critical Role Subtitles
     ## │   ├── images
     ## │   │   ├── descriptive_statistics
     ## │   │   └── machine_learning
-    ## │   ├── markdown_figs
     ## │   └── models
     ## └── scripts
     ##     └── individual_models
 
-## Blog Texts
-
--   blog\_text.Rmd (or the markdown/html files)
+# Please note: the final models are too big for Github. So please drop me a message, if you like to have them,
 
 ## Script for Data Cleaning:
 

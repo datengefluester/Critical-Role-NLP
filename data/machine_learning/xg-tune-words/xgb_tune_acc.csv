@@ -1,2 +1,2 @@
 model,roc_auc,accuracy,rightly_classified,wrongly_classified
-xbg_boost_tune,0.568197767904138,0.225385455869856,14852,51044
+xg_boost_tune,0.568197767904138,0.225385455869856,14852,51044

@@ -94,7 +94,7 @@ xgb_tune_acc <- xgb_tune_last_fit %>%
   as.data.frame() %>% 
   dplyr::select(.metric, .estimate) %>% 
   pivot_wider(names_from = .metric, values_from = .estimate) %>% 
-  mutate(model = "xbg_boost_tune") %>% 
+  mutate(model = "xg_boost_tune") %>% 
   dplyr::select(model, roc_auc, accuracy) %>% 
   mutate(rightly_classified = accuracy*nrow(test)) %>% 
   mutate(wrongly_classified = (1-accuracy)*nrow(test)) 
