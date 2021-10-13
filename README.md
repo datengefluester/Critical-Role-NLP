@@ -1,6 +1,29 @@
 Critical Role Subtitles
 ================
 
+## Script for Data Cleaning:
+
+``` r
+source("./scripts/data_cleaning.R", local = knitr::knit_global())
+```
+
+## Script for Creating the Data for the Visualizations
+
+``` r
+source("./scripts/data_descriptive_analysis.R", local = knitr::knit_global())
+```
+
+## Script for Machine Learning:
+
+Please note: the final models are too big for Github. So please drop me
+a message, if you like to have them.
+
+``` r
+source("./scripts/machine_learning.R", local = knitr::knit_global())
+```
+
+# File Structure
+
     ## .
     ## ├── blog_posts
     ## │   └── markdown_figs
@@ -42,26 +65,3 @@ Critical Role Subtitles
     ## │   └── models
     ## └── scripts
     ##     └── individual_models
-
-# Please note: the final models are too big for Github. So please drop me a message, if you like to have them,
-
-## Script for Data Cleaning:
-
-``` r
-# run script
-source("./scripts/data_cleaning.R", local = knitr::knit_global())
-```
-
-## Script for Creating the Data for the Visualizations
-
-``` r
-# run script
-source("./scripts/data_descriptive_analysis.R", local = knitr::knit_global())
-```
-
-## Script for Machine Learning (work in progress!):
-
-``` r
-# run script
-source("./scripts/machine_learning.R", local = knitr::knit_global())
-```

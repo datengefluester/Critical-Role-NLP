@@ -34,11 +34,11 @@ source("./scripts/themes.R")
 
 ```{r data, echo = FALSE}
 # ------ time and turns by actor
-actor_words_time_percent <- read.csv('./data/descriptive_analysis/actor_words_time.csv')
+actor_words_time_percent <- read.csv("./data/descriptive_analysis/actor_words_time.csv")
 actor_words_time_percent <- actor_words_time_percent %>%
   select(1, 4, 10) %>%
   pivot_longer(
-    cols = c("words_percent","turns_percent"),
+    cols = c("words_percent", "turns_percent"),
     names_to = "variable",
     values_to = "percent"
   ) %>%
@@ -48,26 +48,28 @@ actor_words_time_percent <- actor_words_time_percent %>%
   )
 
 # ------ example data
-example <- read.csv('./data/descriptive_analysis/example.csv')
+example <- read.csv("./data/descriptive_analysis/example.csv")
 example_ml <- read.csv("./data/machine_learning/example_ml/example_ml.csv")
-example_ml <- example_ml %>% 
-  select(actor_guest,text,time_in_sec,words_per_minute,arc,segment,combat) %>%
-  mutate(segment= str_to_title(segment)) %>% 
-  rename(Actor = actor_guest,
-         Text = text,
-        `Time in Sec` = time_in_sec,
-       `Words per Minute` =  words_per_minute,
-       Arc = arc,
-       Segment = segment,
-       Combat = combat) 
+example_ml <- example_ml %>%
+  select(actor_guest, text, time_in_sec, words_per_minute, arc, segment, combat) %>%
+  mutate(segment = str_to_title(segment)) %>%
+  rename(
+    Actor = actor_guest,
+    Text = text,
+    `Time in Sec` = time_in_sec,
+    `Words per Minute` = words_per_minute,
+    Arc = arc,
+    Segment = segment,
+    Combat = combat
+  )
 
 # ------ Cross Validation Graph
 nrows <- 10
 cross_validation <- expand.grid(y = 1:nrows, x = 1:nrows)
 
-cross_validation <- cross_validation %>% 
-  mutate(train_test = "Train Data") %>% 
-  mutate(train_test = replace(train_test, x==y, "Test Data")) %>% 
+cross_validation <- cross_validation %>%
+  mutate(train_test = "Train Data") %>%
+  mutate(train_test = replace(train_test, x == y, "Test Data")) %>%
   mutate(train_test = as.factor(train_test))
 rm(nrows)
 ```
@@ -92,30 +94,40 @@ The remaining data is called 'training data set'. As the name suggests, we can u
 So how do we mimic mock exams for our algorithms? In the first step, we split our training data into multiple random equally sized sub-sets. In the second step, we train the models multiple times, with each of the set functioning as a testing data set (the mock exam) at different times. Given that both the final test data and the sets are random draws from the full data set, our mock exams should on average resemble our final test. In machine learning jargon, each set is called a 'fold' and the process of tuning the algorithms is called 'cross-validation'. A common practice is to subset the data ten times to train the algorithm (10-fold cross-validation). This means that we use 90 percent of the data to train our algorithm and test it on 10 percent of the data. We repeat the process 10 times to find the best specification. The image below pictures the process. Fortunately, unlike a student, a computer algorithm does not have to decide between socializing and studying. Therefore, we can let it take multiple mock exams simultaneously.
 
 ```{r cross_validation, echo = FALSE}
-ggplot(cross_validation, aes(x = x, y = y, fill = train_test)) + 
+ggplot(cross_validation, aes(x = x, y = y, fill = train_test)) +
   geom_tile(color = "#3B3B3B", size = 0.1, alpha = 0.7) +
-  scale_x_continuous(expand = c(0, 0),
-                     breaks = c(1,10),
-                     labels = c("1"="First 10%",
-                                "10"="Last 10%")) +
-  scale_y_continuous(expand = c(0, 0), trans = 'reverse',
-                     breaks = c(seq(0, 10, 1)),
-                     labels = c("0" ="",
-                                "1" = "Fold 1", 
-                                "2" = "Fold 2",
-                                "3" = "Fold 3",
-                                "4" = "Fold 4",
-                                "5" = "Fold 5",
-                                "6" = "Fold 6",
-                                "7" = "Fold 7",
-                                "8" = "Fold 8",
-                                "9" = "Fold 9",
-                                "10" = "Fold 10")) +
-   scale_fill_manual(
-    values = c("#ffa600","#1b9e77")
+  scale_x_continuous(
+    expand = c(0, 0),
+    breaks = c(1, 10),
+    labels = c(
+      "1" = "First 10%",
+      "10" = "Last 10%"
+    )
   ) +
-  labs(title="10-Fold Cross Validation",
-       subtitle="One Block represents Ten Percent of the Training Data") +
+  scale_y_continuous(
+    expand = c(0, 0), trans = "reverse",
+    breaks = c(seq(0, 10, 1)),
+    labels = c(
+      "0" = "",
+      "1" = "Fold 1",
+      "2" = "Fold 2",
+      "3" = "Fold 3",
+      "4" = "Fold 4",
+      "5" = "Fold 5",
+      "6" = "Fold 6",
+      "7" = "Fold 7",
+      "8" = "Fold 8",
+      "9" = "Fold 9",
+      "10" = "Fold 10"
+    )
+  ) +
+  scale_fill_manual(
+    values = c("#ffa600", "#1b9e77")
+  ) +
+  labs(
+    title = "10-Fold Cross Validation",
+    subtitle = "One Block represents Ten Percent of the Training Data"
+  ) +
   bar_chart_theme() +
   theme(
     legend.position = "bottom",
@@ -124,11 +136,11 @@ ggplot(cross_validation, aes(x = x, y = y, fill = train_test)) +
     legend.key.height = unit(0.4, "line"),
     legend.key = element_blank(),
     legend.margin = margin(t = 0, unit = "cm"),
-    axis.title.x=element_blank(),
-    axis.ticks.x=element_blank(),
-    axis.ticks.y=element_blank(),
-    panel.grid.major.x = element_blank() ,
-    )
+    axis.title.x = element_blank(),
+    axis.ticks.x = element_blank(),
+    axis.ticks.y = element_blank(),
+    panel.grid.major.x = element_blank(),
+  )
 # save
 ggsave("./output/images/machine_learning/ml_cross_validation.jpg", width = 4, height = 3)
 ```
@@ -141,16 +153,18 @@ turn, our models would not properly learn how to predict Ashley, Orion, or Guest
 
 ```{r time_vs_words, echo = FALSE}
 actor_words_time_percent %>%
-  filter(variable != "Words") %>% 
+  filter(variable != "Words") %>%
   mutate(
     actor_guest = reorder_within(actor_guest, -percent, variable)
   ) %>%
   ggplot(aes(x = reorder(as.factor(actor_guest), percent), y = percent, fill = variable)) +
   geom_bar(stat = "identity", fill = "#009E73") +
   coord_flip() +
-  scale_y_continuous(expand = c(0, 0),
-                     breaks =c(10,20,30),
-                     limit = c(0,31)) +
+  scale_y_continuous(
+    expand = c(0, 0),
+    breaks = c(10, 20, 30),
+    limit = c(0, 31)
+  ) +
   scale_x_reordered() +
   labs(
     title = "Samples per Actor",
@@ -185,7 +199,7 @@ Until now, we have prepared the data such that we can compare different models, 
 
 ```{r example, echo = FALSE}
 example %>%
-  select(-Segment) %>% 
+  select(-Segment) %>%
   kbl() %>%
   kable_styling()
 ```

@@ -9,30 +9,27 @@ knitr::opts_chunk$set(
 )
 ```
 
-```{r tree, eval=TRUE, warning=FALSE, echo=FALSE}
-library(fs)
-dir_tree(path = ".", type = "directory")
-```
-
-# Please note: the final models are too big for Github. So please drop me a message, if you like to have them,
-
 ## Script for Data Cleaning:
 
 ```{r cleaning, eval=FALSE, warning=FALSE}
-# run script
+
 source("./scripts/data_cleaning.R", local = knitr::knit_global())
 ```
 
 ## Script for Creating the Data for the Visualizations
 
 ```{r descriptive_analysis, eval=FALSE, warning=FALSE}
-# run script
 source("./scripts/data_descriptive_analysis.R", local = knitr::knit_global())
 ```
 
-## Script for Machine Learning (work in progress!):
-
+## Script for Machine Learning:
+Please note: the final models are too big for Github. So please drop me a message, if you like to have them.
 ```{r machine_learning, eval=FALSE, warning=FALSE}
-# run script
 source("./scripts/machine_learning.R", local = knitr::knit_global())
+```
+
+# File Structure    
+```{r tree, eval=TRUE, warning=FALSE, echo=FALSE}
+library(fs)
+dir_tree(path = ".", type = "directory")
 ```

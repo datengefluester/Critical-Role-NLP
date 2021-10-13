@@ -94,7 +94,9 @@ clean$textString <- gsub("\\s*\\([^\\)]+\\)", "", clean$textString)
 
 # delete every row, which is empty (""), which indicates a text only contains
 # description previously
-clean <- clean %>% filter(textString != "") %>% as.data.frame()
+clean <- clean %>%
+  filter(textString != "") %>%
+  as.data.frame()
 
 # get example for text
 example_raw <- clean %>%
@@ -1470,7 +1472,7 @@ attendance <- fread(file = "data/raw_data/rest/attendance.csv") %>% as.data.fram
 # clean
 clean <- attendance %>%
   filter(Episode != "Total") %>%
-  select(c(1, 3:10,12:13)) %>%
+  select(c(1, 3:10, 12:13)) %>%
   mutate(Guests = replace(Guests, Guests == "Jo" | Guests == "ri", 1)) %>%
   mutate(Ashley = replace(Ashley, is.na(Ashley), 0)) %>%
   mutate(Skype = replace(Skype, is.na(Skype), 0)) %>%
@@ -1479,7 +1481,9 @@ clean <- attendance %>%
   left_join(clean, ., by = "Episode")
 
 # get attendance data frame
-attendance <- clean %>% select(8:18) %>% distinct_all()
+attendance <- clean %>%
+  select(8:18) %>%
+  distinct_all()
 write.csv(attendance, "./data/clean_data/rest/attendance.csv", row.names = FALSE)
 
 # kick out if speaker was not indeed present in an episode
@@ -1844,7 +1848,7 @@ time_stamps <- fread("./data/raw_data/time_stamps/running_times.csv",
 # Edit for better readability
 time_stamps <- time_stamps %>%
   select(1, 10:13) %>%
-  slice(-(1:3)) %>% 
+  slice(-(1:3)) %>%
   as.data.frame()
 
 
@@ -1855,7 +1859,7 @@ combat_stamps <- fread("./data/raw_data/time_stamps/combat_times.csv",
 
 combat_stamps <- combat_stamps %>%
   slice(-(1:2)) %>%
-  select(2:6)  %>% 
+  select(2:6) %>%
   as.data.frame()
 
 # merge
@@ -2211,7 +2215,7 @@ pc_1 <- pc_1 %>%
   mutate(actor = str_replace(actor, "3:22:30", "")) %>%
   select(-raw) %>%
   mutate(description = str_squish(description)) %>%
-  mutate(actor = str_squish(actor)) %>% 
+  mutate(actor = str_squish(actor)) %>%
   mutate(episode = as.numeric(episode))
 
 
@@ -2265,18 +2269,18 @@ dm_1 <- dm_1 %>%
   separate(description, c("tmp", "time"), sep = " \\(", extra = "drop") %>%
   select(-tmp) %>%
   separate(time, c("time", "description"), sep = "\\)", extra = "drop") %>%
-  separate(time, c("episode", "time"), sep = ",", extra = "drop") 
+  separate(time, c("episode", "time"), sep = ",", extra = "drop")
 
 # clean up
 dm_1 <- dm_1 %>%
-  mutate(episode = replace(episode, NPC == "Intellect Devourer" & 
-                             episode == "E",   13)) %>% 
-  mutate(episode = replace(episode, NPC == "Kima" & 
-                             episode == "E",   16)) %>%
-  mutate(episode = replace(episode, NPC == "Kern" & 
-                             episode == "E",   17)) %>%
-  mutate(episode = replace(episode, NPC == "Skeleton" & 
-                             episode == "E0",   100)) %>%
+  mutate(episode = replace(episode, NPC == "Intellect Devourer" &
+    episode == "E", 13)) %>%
+  mutate(episode = replace(episode, NPC == "Kima" &
+    episode == "E", 16)) %>%
+  mutate(episode = replace(episode, NPC == "Kern" &
+    episode == "E", 17)) %>%
+  mutate(episode = replace(episode, NPC == "Skeleton" &
+    episode == "E0", 100)) %>%
   mutate(episode = gsub("Ep", "", episode)) %>%
   mutate(episode = gsub("Ep", "", episode)) %>%
   mutate(episode = gsub("E", "", episode)) %>%

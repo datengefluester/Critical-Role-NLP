@@ -6,177 +6,23 @@ title: "To-Do-List"
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
--   [ ] Run Code
 
-    -   [ ] OLS: nnet install
-    -   [x] Combine everything
-    -   [x] Rename and copy the files from cloud
-    -   [ ] set [chunks](https://martinctc.github.io/blog/rstudio-projects-and-working-directories-a-beginner's-guide/) to Rmarkdown to move to own folder
+-   [x] regularized Regression
 
--   [x] Graphs
+-   [x] comparison models
 
-    -   [x] Naive Bayes Approach: not overlapping
+-   [x] tune words
 
-    -   [x] Random Forest: not overlapping areas
+-   [x] conclusion
 
-    -   [x] Regression Graph
+-   [x] normal regression output into folders (model etc.)
 
-    -   [x] Regularized Regression Graph
+-   [x] is multinominal regression best represented by the line graph?
+    
+-   [x] proof reading
+    
+-   [ ] send to people for proof reading
 
-    -   [x] Graph Models Fit
+-   [ ] upload to website   
 
--   [x] Rename Files
-
-    -   [x] Rename blog text files
-
-    -   [x] Copy code from cloud scripts
-
-    -   [x] rename files and maybe change folder structure
-
-    -   [x] Copy output from cloud
-
--   [ ] Write Text
-
-    -   [ ] XGboost
-
-    -   [ ] multinomial Regression
-
-    -   [ ] Comparison
-
-    -   [ ] Conclusion
-
-# Code for other graphs
-
-```{r knn_roc, echo = FALSE, warning=FALSE}
-knn_predictions %>%
- mutate(actor_guest = as.factor(actor_guest)) %>% 
- roc_curve(actor_guest, .pred_Ashley:.pred_Travis) %>%
- ggplot(aes(x = 1 - specificity, y = sensitivity, colour = .level)) +
- geom_path() +
- geom_abline(lty = 3) +
- coord_equal() +
- labs(
- y = "True Positive Rate (Sensitivity)",
- x = "False Positive Rate",
- fill = NULL,
- title = "Random Forest: ROC Curve",
- subtitle = "TOI Only Model"
- ) +
-  bar_chart_theme() +
-  theme(
-      axis.line.x = element_line(size=.3, color="black"),
-      panel.grid.major.x = element_line(size=.1, color="#656565"), 
-      panel.grid.major.y = element_line(size=.2, color="#656565"), 
-  )
-
-ggsave("./output/images/ml_knn_roc_curve.jpg", width = 4, height = 3)
-```
-
-```{r knn_vip_plot, echo = FALSE, warning=FALSE}
-rf_vip_graph +
-  geom_point(color = "#009E73") +
- labs(title="Variable Importance Plot Random Forest")+
-  bar_chart_theme() 
-
-ggsave("./output/images/ml_knn_vip.jpg", width = 4, height = 3)
-```
-
-```{r knn_right_wrong, echo = FALSE, warning=FALSE}
-tmp <- knn_predictions %>%
-   mutate(actor_guest = as.factor(actor_guest),
-        .pred_class = as.factor(.pred_class)) %>% 
-conf_mat(actor_guest, .pred_class) %>%
- pluck(1) %>%
- as_tibble() %>% 
-mutate(prediction = ifelse(Prediction == Truth,"rightly classified","wrongly classified")) %>% 
-group_by(prediction) %>% 
-summarise(number =sum(n)) %>% 
-mutate(percent = (number/sum(number)*100),
-       prediction = as.factor(prediction))  
-
-tmp %>% 
-  ggplot(aes(x = prediction, y = percent)) +
-  geom_bar(stat = "identity", fill = "#1b9e77") +
-  coord_flip() +
-  scale_y_continuous(
-    expand = c(0, 0),
-    position = "right",
-    breaks = c(0, 25, 50, 75, 100),
-    labels = c("0"= "", "25"="25", "50"="50", "75"="75", "100"="100%"),
-    limits = c(0, 105)
-  ) +
-  labs(
-    title = "Classification using K-nearest Neighbors",
-  ) +
-  bar_chart_theme()
-
-ggsave("./output/images/ml_knn_right_wrong.jpg", width = 4, height = 3)
-```
-
-```{r knn_actor, echo = FALSE, warning=FALSE, message = FALSE}
-knn_predictions %>%
-   mutate(actor_guest = as.factor(actor_guest),
-        .pred_class = as.factor(.pred_class)) %>% 
-conf_mat(actor_guest, .pred_class) %>%
- pluck(1) %>%
- as_tibble() %>% 
-mutate(prediction = ifelse(Prediction == Truth,"rightly classified","wrongly classified")) %>% 
-group_by(Truth,prediction) %>% 
-summarise(sum(n)) %>% 
-rename(count = `sum(n)`,
- actor = Truth) %>%
- group_by(actor) %>% 
-mutate(percent = count/(sum(count)*100)) %>% 
-filter(prediction =="rightly classified") %>% 
-  ggplot(aes(x = reorder(actor,percent), y = percent, fill = prediction)) +
-  geom_bar(stat = "identity", fill = "#1b9e77") +
-  coord_flip() +
-  scale_y_continuous(
-    expand = c(0, 0),
-    position = "right"
-  ) +
-  labs(
-    title = "Random Forest: Right and Wrong Predictions by Actor",
-    subtitle = "Percent of total prediction by actor",
-  ) +
-  bar_chart_theme()
-
-ggsave("./output/images/ml_knn_actor.jpg", width = 4, height = 3)
-```
-
-```{r confusion, echo = FALSE, warning=FALSE, message = FALSE}
-xbg_boost_predictions %>%    
-  mutate(actor_guest = as.factor(actor_guest),
-         .pred_class = as.factor(.pred_class)) %>%   
-  conf_mat(actor_guest, .pred_class) %>%  
-  pluck(1) %>%  
-  as_tibble() %>%   
-  mutate(Prediction =  factor(Prediction, levels=c("Ashley", "Guests", "Laura",
-                                                   "Liam", "Marisha", "Matt",
-                                                   "Orion", "Sam", "Taliesin",
-                                                   "Travis"))) %>%  
-  mutate(Truth =  factor(Truth, levels=c("Travis", "Taliesin", "Sam", "Orion",
-                                         "Matt", "Marisha", "Liam", "Laura",
-                                         "Guests", "Ashley"))) %>%    
-  ggplot(aes(Prediction, Truth, alpha = n)) +  
-  geom_tile(fill = "#009E73", show.legend = FALSE) +  
-  geom_text(aes(label = n), colour = "#3B3B3B", alpha = 1, size = 3) +
-  scale_y_discrete(expand = c(0, 0)) +   
-  scale_x_discrete(expand = c(0, 0), position = "top") +  
-  labs(  y = "Actual Actor",  
-         x = "Predicted Actor",  
-         fill = NULL,  
-         title = "Regularized Regression Confusion Matrix",  ) +   
-  bar_chart_theme() +   
-  theme(     
-    panel.grid.major = element_blank(),     
-    axis.title.x = element_text(size = 8),    
-    axis.title.y = element_text(angle = 90, size = 8),     
-    axis.ticks.x=element_blank(),     
-    axis.ticks.y=element_blank(),     
-    panel.grid.major.x = element_blank() ,     
-    axis.line.y = element_blank()     
-    ) 
-
-ggsave("./output/images/ml_xgboost_confusion_matrix.jpg", width = 4, height = 3)
-```
+-   [ ] add link to models for github

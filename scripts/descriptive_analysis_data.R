@@ -17,15 +17,15 @@ library(dtplyr) # faster data manipulation
 # read in data but drop episode 12 as this a tips and tricks episode and no cannon
 # read in all data frame clean data folder
 file_list <- list.files("./data/clean_data/individual_episodes", pattern = "*.csv", full.names = TRUE)
-data <- do.call(rbind,lapply(file_list,fread))
+data <- do.call(rbind, lapply(file_list, fread))
 
 # drop the epilogues and everything, which is not the actual episode
 data <- data %>%
-  filter(episode != 12) %>% 
+  filter(episode != 12) %>%
   filter(episode <= 115) %>%
   filter(segment != "break") %>%
   filter(segment != "extra") %>%
-  filter(!is.na(segment)) %>% 
+  filter(!is.na(segment)) %>%
   as.data.frame()
 
 # rename Actor: as this files creates graphs, it's nicer to have not every
@@ -141,11 +141,11 @@ write.csv(miss_spells,
 attendance <- fread(file = "./data/clean_data/rest/attendance.csv") %>% as.data.frame()
 
 attendance <- attendance %>%
-  filter(Episode != 12) %>% 
-  pivot_longer(Laura:Guests, names_to = "Actor", values_to = "number_episodes") %>% 
-  group_by(Actor) %>% 
+  filter(Episode != 12) %>%
+  pivot_longer(Laura:Guests, names_to = "Actor", values_to = "number_episodes") %>%
+  group_by(Actor) %>%
   summarise(number_episodes = sum(number_episodes))
-  
+
 
 # export data frame
 write.csv(attendance,
@@ -535,7 +535,7 @@ sentences_sentiment <- data %>%
   rename(number_words = word_count) %>%
   # the rename is needed to prevent an error
   get_sentences(text) %>%
-  sentiment() %>% 
+  sentiment() %>%
   as.data.frame()
 
 # mean_sentiment <- sentences_sentiment$sentiment
