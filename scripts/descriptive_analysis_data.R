@@ -260,7 +260,7 @@ readability_grade <- textstat_readability(
   select(Coleman.Liau.grade) %>%
   bind_cols(individual_cast_member, .)
 
-# keep only players and get aggreagte values
+# keep only players and get aggregate values
 readability_grade <- readability_grade %>%
   filter(staff != 1) %>%
   group_by(actor_guest) %>%
