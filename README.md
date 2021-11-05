@@ -1,7 +1,7 @@
 Analysis of Critical Role Season 1 Subtitles
 ================
 
-### Script for Data Cleaning:
+### Script for Data Cleaning
 
 ``` r
 source("./scripts/data_cleaning.R", local = knitr::knit_global())
@@ -13,7 +13,7 @@ source("./scripts/data_cleaning.R", local = knitr::knit_global())
 source("./scripts/data_descriptive_analysis.R", local = knitr::knit_global())
 ```
 
-### Script for Machine Learning:
+### Script for Machine Learning
 
 ``` r
 source("./scripts/machine_learning.R", local = knitr::knit_global())
